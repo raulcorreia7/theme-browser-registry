@@ -1,0 +1,177 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schemas/themes.schema.json",
+  "title": "Theme Registry Index",
+  "description": "Validates the themes.json file containing theme entries for the lazy_theme_browser plugin. Each entry defines a Neovim colorscheme theme with essential metadata.",
+  "type": "array",
+  "items": {
+    "$id": "#/items",
+    "title": "Theme Entry",
+    "description": "A single theme entry in the registry. Defines a colorscheme with its repository and essential metadata.",
+    "type": "object",
+    "required": ["name", "repo", "colorscheme"],
+    "properties": {
+      "name": {
+        "$id": "#/items/properties/name",
+        "title": "Theme Name",
+        "description": "Short identifier for the theme. Used for display and reference. Should match the common name used in documentation (e.g., 'tokyonight', 'catppuccin').",
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^[a-zA-Z0-9_-]+$",
+        "examples": ["tokyonight", "catppuccin", "gruvbox-material"]
+      },
+      "repo": {
+        "$id": "#/items/properties/repo",
+        "title": "GitHub Repository",
+        "description": "Full GitHub repository identifier in 'owner/repo' format. This must be a valid GitHub repository URL identifier (e.g., 'folke/tokyonight.nvim').",
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^[a-zA-Z0-9_-]+/[a-zA-Z0-9._-]+$",
+        "examples": ["folke/tokyonight.nvim", "catppuccin/nvim", "sainnhe/gruvbox-material"]
+      },
+      "colorscheme": {
+        "$id": "#/items/properties/colorscheme",
+        "title": "Colorscheme Name",
+        "description": "The exact Neovim command used to activate this theme via :colorscheme. Must match the value accepted by :colorscheme command in Neovim.",
+        "type": "string",
+        "minLength": 1,
+        "examples": ["tokyonight", "catppuccin", "gruvbox-material"]
+      },
+      "stars": {
+        "$id": "#/items/properties/stars",
+        "title": "GitHub Stars",
+        "description": "Star count from GitHub API. Used for sorting and display. Automatically populated during fetch.",
+        "type": "integer",
+        "minimum": 0,
+        "examples": [100, 1000, 5000]
+      },
+      "description": {
+        "$id": "#/items/properties/description",
+        "title": "Theme Description",
+        "description": "Description from the GitHub repository. Automatically populated during fetch.",
+        "type": "string",
+        "examples": ["A clean, dark Neovim theme", "Modern Neovim color scheme"]
+      },
+      "homepage": {
+        "$id": "#/items/properties/homepage",
+        "title": "Homepage URL",
+        "description": "Homepage URL from the GitHub repository if different from the repo URL. Automatically populated during fetch.",
+        "type": "string",
+        "format": "uri",
+        "examples": ["https://example.com/theme", "https://author.github.io/theme"]
+      },
+      "updated_at": {
+        "$id": "#/items/properties/updated_at",
+        "title": "Last Updated",
+        "description": "ISO 8601 timestamp of last repository update. Used for freshness sorting. Automatically populated during fetch.",
+        "type": "string",
+        "format": "date-time",
+        "examples": ["2024-01-15T10:30:00Z"]
+      },
+      "topics": {
+        "$id": "#/items/properties/topics",
+        "title": "GitHub Topics",
+        "description": "List of GitHub topics assigned to the repository. Useful for filtering and categorization. Automatically populated during fetch.",
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "examples": [["neovim", "colorscheme", "plugin"], ["neovim-theme", "dark"]]
+      },
+      "archived": {
+        "$id": "#/items/properties/archived",
+        "title": "Archived",
+        "description": "Whether the repository is archived. Archived repos are read-only. Automatically populated during fetch.",
+        "type": "boolean",
+        "examples": [false, true]
+      },
+      "disabled": {
+        "$id": "#/items/properties/disabled",
+        "title": "Disabled",
+        "description": "Whether the repository is disabled by GitHub. Automatically populated during fetch.",
+        "type": "boolean",
+        "examples": [false, true]
+      },
+      "tags": {
+        "$id": "#/items/properties/tags",
+        "title": "Theme Tags",
+        "description": "Categorization tags for filtering and organization. Common values include 'dark', 'light', 'classic', 'minimal'. Tags are inherited by variants unless overridden. Added via manual overrides.",
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "$id": "#/items/properties/tags/items",
+          "title": "Tag",
+          "type": "string",
+          "minLength": 1,
+          "examples": ["dark", "light", "classic", "minimal", "forest", "ocean"]
+        },
+        "examples": [["dark", "light"], ["dark"], ["light", "minimal"]]
+      },
+      "deps": {
+        "$id": "#/items/properties/deps",
+        "title": "Dependencies",
+        "description": "List of plugin repositories that this theme depends on. These will be ensured before loading the theme. Format is 'owner/repo' for GitHub repositories. Added via manual overrides.",
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "$id": "#/items/properties/deps/items",
+          "title": "Dependency Repository",
+          "description": "A GitHub repository identifier for a required dependency plugin.",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-zA-Z0-9_-]+/[a-zA-Z0-9._-]+$",
+          "examples": ["nvim-treesitter/nvim-treesitter", "rktjmp/lush.nvim"]
+        }
+      },
+      "variants": {
+        "$id": "#/items/properties/variants",
+        "title": "Theme Variants",
+        "description": "Alternative versions or styles of this theme. Each variant becomes a separate entry in the expanded catalog. Variants inherit the parent theme's repo and deps unless specified otherwise. Added via manual overrides.",
+        "type": "array",
+        "items": {
+          "$id": "#/items/properties/variants/items",
+          "title": "Theme Variant",
+          "description": "A specific variant of a theme. Defines an alternative colorscheme with optional display name and tags.",
+          "type": "object",
+          "required": ["colorscheme"],
+          "properties": {
+            "name": {
+              "$id": "#/items/properties/variants/items/properties/name",
+              "title": "Variant Display Name",
+              "description": "Human-readable display name for this variant. If omitted, inherits from parent theme's name.",
+              "type": "string",
+              "minLength": 1,
+              "examples": ["Tokyo Night Night", "Tokyo Night Storm", "Tokyo Night Day"]
+            },
+            "colorscheme": {
+              "$id": "#/items/properties/variants/items/properties/colorscheme",
+              "title": "Variant Colorscheme",
+              "description": "The exact Neovim command to activate this variant (e.g., :colorscheme tokyonight-night). Required for all variants.",
+              "type": "string",
+              "minLength": 1,
+              "examples": ["tokyonight-night", "tokyonight-storm", "tokyonight-day"]
+            },
+            "tags": {
+              "$id": "#/items/properties/variants/items/properties/tags",
+              "title": "Variant Tags",
+              "description": "Tags specific to this variant. If omitted, inherits parent theme's tags. Common for distinguishing dark/light variants.",
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "$id": "#/items/properties/variants/items/properties/tags/items",
+                "title": "Variant Tag",
+                "type": "string",
+                "minLength": 1
+              },
+              "examples": [["dark"], ["light"], ["dark", "minimal"]]
+            }
+          }
+        }
+      }
+    },
+    "additionalProperties": false
+  },
+  "uniqueItems": false
+}

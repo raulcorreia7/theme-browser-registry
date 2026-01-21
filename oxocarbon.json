@@ -1,0 +1,23 @@
+[
+  {
+    "archived": false,
+    "colorscheme": "oxocarbon",
+    "description": "A dark and light Neovim theme written in fennel, inspired by IBM Carbon.",
+    "disabled": false,
+    "homepage": "",
+    "name": "oxocarbon",
+    "repo": "nyoom-engineering/oxocarbon.nvim",
+    "stars": 1514,
+    "topics": [
+      "color-scheme",
+      "neovim",
+      "neovim-colorscheme",
+      "neovim-theme",
+      "rust",
+      "theme",
+      "vim",
+      "vim-colorscheme"
+    ],
+    "updated_at": "2026-01-21T23:28:43Z"
+  }
+]

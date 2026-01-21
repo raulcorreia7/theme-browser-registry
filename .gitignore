@@ -1,0 +1,33 @@
+# Ignore generated files (optional - remove if you want to commit themes.json)
+# themes.json
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore local overrides
+overrides.local.json
+
+# Ignore temporary files
+*.tmp
+*~
+
+# Ignore logs
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,201 @@
+{
+  "overrides": [
+    {
+      "name": "oxocarbon",
+      "repo": "nyoom-engineering/oxocarbon.nvim",
+      "colorscheme": "oxocarbon",
+      "variants": [
+        {
+          "name": "oxocarbon-dark",
+          "colorscheme": "oxocarbon",
+          "meta": {
+            "background": "dark"
+          }
+        },
+        {
+          "name": "oxocarbon-light",
+          "colorscheme": "oxocarbon",
+          "meta": {
+            "background": "light"
+          }
+        }
+      ]
+    },
+    {
+      "name": "onedark",
+      "repo": "navarasu/onedark.nvim",
+      "colorscheme": "onedark",
+      "variants": [
+        {
+          "name": "onedark_dark",
+          "colorscheme": "onedark",
+          "meta": {
+            "adapter": "setup_load",
+            "module": "onedark",
+            "opts": {
+              "style": "dark"
+            }
+          }
+        },
+        {
+          "name": "onedark_darker",
+          "colorscheme": "onedark",
+          "meta": {
+            "adapter": "setup_load",
+            "module": "onedark",
+            "opts": {
+              "style": "darker"
+            }
+          }
+        },
+        {
+          "name": "onedark_cool",
+          "colorscheme": "onedark",
+          "meta": {
+            "adapter": "setup_load",
+            "module": "onedark",
+            "opts": {
+              "style": "cool"
+            }
+          }
+        },
+        {
+          "name": "onedark_deep",
+          "colorscheme": "onedark",
+          "meta": {
+            "adapter": "setup_load",
+            "module": "onedark",
+            "opts": {
+              "style": "deep"
+            }
+          }
+        },
+        {
+          "name": "onedark_warm",
+          "colorscheme": "onedark",
+          "meta": {
+            "adapter": "setup_load",
+            "module": "onedark",
+            "opts": {
+              "style": "warm"
+            }
+          }
+        },
+        {
+          "name": "onedark_warmer",
+          "colorscheme": "onedark",
+          "meta": {
+            "adapter": "setup_load",
+            "module": "onedark",
+            "opts": {
+              "style": "warmer"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "vscode",
+      "repo": "Mofiqul/vscode.nvim",
+      "colorscheme": "vscode",
+      "variants": [
+        {
+          "name": "vscode",
+          "colorscheme": "vscode",
+          "meta": {
+            "adapter": "load",
+            "module": "vscode",
+            "args": [
+              "dark"
+            ]
+          }
+        },
+        {
+          "name": "vscode-light",
+          "colorscheme": "vscode",
+          "meta": {
+            "adapter": "load",
+            "module": "vscode",
+            "args": [
+              "light"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "habamax",
+      "repo": "ntk148v/habamax.nvim",
+      "colorscheme": "habamax",
+      "deps": [
+        "rktjmp/lush.nvim"
+      ]
+    },
+    {
+      "name": "tokyonight",
+      "repo": "folke/tokyonight.nvim",
+      "colorscheme": "tokyonight",
+      "variants": [
+        {
+          "name": "tokyonight-night",
+          "colorscheme": "tokyonight-night"
+        },
+        {
+          "name": "tokyonight-storm",
+          "colorscheme": "tokyonight-storm"
+        },
+        {
+          "name": "tokyonight-moon",
+          "colorscheme": "tokyonight-moon"
+        },
+        {
+          "name": "tokyonight-day",
+          "colorscheme": "tokyonight-day"
+        }
+      ]
+    },
+    {
+      "name": "kanagawa",
+      "repo": "rebelot/kanagawa.nvim",
+      "colorscheme": "kanagawa",
+      "variants": [
+        {
+          "name": "kanagawa-wave",
+          "colorscheme": "kanagawa-wave"
+        },
+        {
+          "name": "kanagawa-dragon",
+          "colorscheme": "kanagawa-dragon"
+        },
+        {
+          "name": "kanagawa-lotus",
+          "colorscheme": "kanagawa-lotus"
+        }
+      ]
+    },
+    {
+      "name": "catppuccin",
+      "repo": "catppuccin/nvim",
+      "colorscheme": "catppuccin",
+      "variants": [
+        {
+          "name": "catppuccin-latte",
+          "colorscheme": "catppuccin-latte"
+        },
+        {
+          "name": "catppuccin-frappe",
+          "colorscheme": "catppuccin-frappe"
+        },
+        {
+          "name": "catppuccin-macchiato",
+          "colorscheme": "catppuccin-macchiato"
+        },
+        {
+          "name": "catppuccin-mocha",
+          "colorscheme": "catppuccin-mocha"
+        }
+      ]
+    }
+  ],
+  "excluded": []
+}
