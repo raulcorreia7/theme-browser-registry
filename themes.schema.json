@@ -125,6 +125,23 @@
           "examples": ["nvim-treesitter/nvim-treesitter", "rktjmp/lush.nvim"]
         }
       },
+      "meta": {
+        "$id": "#/items/properties/meta",
+        "title": "Adapter Metadata",
+        "description": "Optional metadata for theme-specific adapter configuration.",
+        "type": "object",
+        "properties": {
+          "adapter": { "type": "string", "minLength": 1 },
+          "module": { "type": "string" },
+          "fn": { "type": "string" },
+          "setup": { "type": "string" },
+          "load": { "type": "string" },
+          "args": { "type": "array" },
+          "opts": { "type": "object" },
+          "background": { "type": "string", "enum": ["dark", "light"] }
+        },
+        "additionalProperties": false
+      },
       "variants": {
         "$id": "#/items/properties/variants",
         "title": "Theme Variants",
@@ -166,6 +183,23 @@
                 "minLength": 1
               },
               "examples": [["dark"], ["light"], ["dark", "minimal"]]
+            },
+            "meta": {
+              "$id": "#/items/properties/variants/items/properties/meta",
+              "title": "Adapter Metadata",
+              "description": "Optional metadata for theme-specific adapter configuration.",
+              "type": "object",
+              "properties": {
+                "adapter": { "type": "string", "minLength": 1 },
+                "module": { "type": "string" },
+                "fn": { "type": "string" },
+                "setup": { "type": "string" },
+                "load": { "type": "string" },
+                "args": { "type": "array" },
+                "opts": { "type": "object" },
+                "background": { "type": "string", "enum": ["dark", "light"] }
+              },
+              "additionalProperties": false
             }
           }
         }
