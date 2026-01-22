@@ -70,25 +70,16 @@
             "description": "Optional metadata for theme-specific adapter configuration.",
             "type": "object",
             "properties": {
-              "theme_adapter": {
-                "title": "Theme Adapter",
-                "description": "Adapter strategy for applying the theme.",
-                "type": "object",
-                "required": ["type"],
-                "properties": {
-                  "type": { "type": "string", "minLength": 1 },
-                  "module": { "type": "string" },
-                  "fn": { "type": "string" },
-                  "setup": { "type": "string" },
-                  "load": { "type": "string" },
-                  "args": { "type": "array" },
-                  "opts": { "type": "object" },
-                  "load_opts": { "type": "object" }
-                },
-                "additionalProperties": true
-              }
+              "adapter": { "type": "string", "minLength": 1 },
+              "module": { "type": "string" },
+              "fn": { "type": "string" },
+              "setup": { "type": "string" },
+              "load": { "type": "string" },
+              "args": { "type": "array" },
+              "opts": { "type": "object" },
+              "background": { "type": "string", "enum": ["dark", "light"] }
             },
-            "additionalProperties": true
+            "additionalProperties": false
           },
           "variants": {
             "$id": "#/properties/overrides/items/properties/variants",
@@ -118,23 +109,16 @@
                 "meta": {
                   "type": "object",
                   "properties": {
-                    "theme_adapter": {
-                      "type": "object",
-                      "required": ["type"],
-                      "properties": {
-                        "type": { "type": "string", "minLength": 1 },
-                        "module": { "type": "string" },
-                        "fn": { "type": "string" },
-                        "setup": { "type": "string" },
-                        "load": { "type": "string" },
-                        "args": { "type": "array" },
-                        "opts": { "type": "object" },
-                        "load_opts": { "type": "object" }
-                      },
-                      "additionalProperties": true
-                    }
+                    "adapter": { "type": "string", "minLength": 1 },
+                    "module": { "type": "string" },
+                    "fn": { "type": "string" },
+                    "setup": { "type": "string" },
+                    "load": { "type": "string" },
+                    "args": { "type": "array" },
+                    "opts": { "type": "object" },
+                    "background": { "type": "string", "enum": ["dark", "light"] }
                   },
-                  "additionalProperties": true
+                  "additionalProperties": false
                 }
               }
             }
