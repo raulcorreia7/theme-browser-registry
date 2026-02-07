@@ -161,15 +161,30 @@
       "variants": [
         {
           "name": "kanagawa-wave",
-          "colorscheme": "kanagawa-wave"
+          "colorscheme": "kanagawa-wave",
+          "meta": {
+            "adapter": "load",
+            "module": "kanagawa",
+            "args": ["wave"]
+          }
         },
         {
           "name": "kanagawa-dragon",
-          "colorscheme": "kanagawa-dragon"
+          "colorscheme": "kanagawa-dragon",
+          "meta": {
+            "adapter": "load",
+            "module": "kanagawa",
+            "args": ["dragon"]
+          }
         },
         {
           "name": "kanagawa-lotus",
-          "colorscheme": "kanagawa-lotus"
+          "colorscheme": "kanagawa-lotus",
+          "meta": {
+            "adapter": "load",
+            "module": "kanagawa",
+            "args": ["lotus"]
+          }
         }
       ]
     },

@@ -36,6 +36,9 @@ Edit `config.json`:
 Use `overrides.json` to fix or add entries and variants.
 This is where adapter metadata can live for Theme Browser (e.g., `meta.adapter`, `meta.module`).
 
+## Curated sources
+- `curated/dotfyle-top50.json`: curated registry artifact from Dotfyle top colorschemes (pages 1 and 2), including strategy metadata.
+
 ## Validate existing output
 ```bash
 make validate
