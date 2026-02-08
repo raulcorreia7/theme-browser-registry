@@ -1,0 +1,33 @@
+{
+  "topics": [
+    "neovim-colorscheme",
+    "nvim-theme",
+    "vim-colorscheme"
+  ],
+  "include_repos": [
+    "folke/tokyonight.nvim",
+    "catppuccin/nvim",
+    "rebelot/kanagawa.nvim",
+    "rose-pine/neovim",
+    "EdenEast/nightfox.nvim"
+  ],
+  "output_path": "themes.json",
+  "manifest_path": "artifacts/latest.json",
+  "overrides_path": "overrides.json",
+  "state_db_path": ".state/indexer.db",
+  "per_page": 100,
+  "max_pages_per_topic": 5,
+  "request_delay_ms": 250,
+  "retry_limit": 3,
+  "scan_interval_seconds": 1800,
+  "stale_after_days": 14,
+  "min_stars": 0,
+  "skip_archived": true,
+  "skip_disabled": true,
+  "sort_by": "stars",
+  "sort_order": "desc",
+  "publish_enabled": false,
+  "publish_remote": "origin",
+  "publish_branch": "master",
+  "publish_commit_message": "chore(registry): publish latest index artifacts"
+}

@@ -1,0 +1,12 @@
+services:
+  indexer:
+    build:
+      context: .
+      dockerfile: Dockerfile.indexer
+    container_name: theme-registry-indexer
+    restart: unless-stopped
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+    volumes:
+      - ./:/app
+    command: ["python", "scripts/indexer.py", "run-loop", "--config", "indexer.config.json"]

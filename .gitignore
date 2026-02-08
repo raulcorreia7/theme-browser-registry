@@ -28,6 +28,9 @@ overrides.local.json
 # Ignore logs
 *.log
 
+# Indexer runtime state
+.state/
+
 # Ignore OS files
 .DS_Store
 Thumbs.db

@@ -1,49 +1,55 @@
-# nvim-theme-registry
+# theme-browser-registry
 
-Local registry generator for Neovim themes.
+Public registry builder for `theme-browser.nvim`.
 
-## What it does
-- Queries GitHub for theme repos by topic.
-- Builds `themes.json` (and optional variants).
-- Merges `overrides.json` for manual fixes and variants.
+It runs as a long-lived indexer, discovers Neovim themes from GitHub, parses likely colorschemes, applies curated overrides, and publishes versioned artifacts.
 
-## Quick start
+## Outputs
+
+- `themes.json`: registry consumed by plugin/runtime tooling
+- `artifacts/latest.json`: manifest with checksum + generation metadata
+
+## Quick Start
+
 ```bash
-# optional but recommended to avoid rate limits
 export GITHUB_TOKEN=your_token_here
+pip install -r requirements-indexer.txt
 
-python scripts/fetch_themes.py
+# one run
+make index-once
+
+# loop forever
+make index-loop
+
+# run once and push changed artifacts to origin/master
+make index-publish
 ```
 
-Fetch a single repo:
+Container mode:
+
 ```bash
-python scripts/fetch_themes.py --repo nyoom-engineering/oxocarbon.nvim
+docker compose -f docker-compose.indexer.yml up -d --build
 ```
-
-This writes:
-- `themes.json`
-- Uses `overrides.json` (if present)
 
 ## Config
-Edit `config.json`:
-- `topics`: list of GitHub topics to search.
-- `max_pages`: number of pages per topic. Use `0` to fetch all pages.
-- `per_page`: results per page (max 100).
-- `rate_limit_delay`: delay (ms) between page requests.
-- `detect_variants`: attempt to detect colors in `colors/`.
 
-## Overrides
-Use `overrides.json` to fix or add entries and variants.
-This is where adapter metadata can live for Theme Browser (e.g., `meta.adapter`, `meta.module`).
+Edit `indexer.config.json`:
 
-## Curated sources
-- `curated/dotfyle-top50.json`: curated registry artifact from Dotfyle top colorschemes (pages 1 and 2), including strategy metadata.
+- discovery: `topics`, `include_repos`, `per_page`, `max_pages_per_topic`
+- crawl control: `request_delay_ms`, `retry_limit`, `stale_after_days`
+- quality gate: `min_stars`, `skip_archived`, `skip_disabled`
+- outputs: `output_path`, `manifest_path`, `overrides_path`, `state_db_path`
+- publish: `publish_enabled`, `publish_remote`, `publish_branch`, `publish_commit_message`
 
-## Validate existing output
+## Publish Workflow
+
+- `scripts/indexer.py run-once-publish` updates artifacts, commits changed files, and pushes
+- no commit is made when `themes.json` and `artifacts/latest.json` are unchanged
+
+## Development
+
 ```bash
-make validate
+make all
 ```
 
-## Notes
-- The script prefers `GITHUB_TOKEN` from the environment; without a token, the GitHub API is heavily rate limited.
-- The generator is intentionally simple and local.
+`make all` runs index-once + schema validation.

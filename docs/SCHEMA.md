@@ -1,6 +1,6 @@
 # Theme Registry Schema Documentation
 
-Validates `themes.json` - the final output file containing theme entries.
+Validates `themes.json`, the published artifact consumed by `theme-browser.nvim`.
 
 ## Core Fields (10 total)
 
@@ -63,7 +63,7 @@ These fields were deemed irrelevant and removed to reduce bloat:
 
 ## Variant Detection
 
-The registry script automatically detects theme variants by checking for a `colors/` directory in the theme repository.
+The indexer detects variants by scanning repository trees for `colors/*.vim` and `colors/*.lua`.
 
 ### Detection Process
 
@@ -113,12 +113,7 @@ If automatic detection misses a variant or is incorrect, use `overrides.json`:
 }
 ```
 
-### Disable Detection
-
-To disable automatic variant detection:
-```bash
-python3 scripts/fetch_themes.py --no-detect-variants
-```
+Detection is part of the indexer parser pipeline; curated overrides can always adjust output.
 
 ## Examples
 

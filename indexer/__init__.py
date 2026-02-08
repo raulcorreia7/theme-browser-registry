@@ -1,0 +1,1 @@
+"""Theme registry indexer package."""

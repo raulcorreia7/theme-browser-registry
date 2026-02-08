@@ -2,26 +2,17 @@ PYTHON ?= python3
 OUTPUT ?= themes.json
 SCHEMA ?= themes.schema.json
 
-.PHONY: help fetch fetch-no-token validate all
+.PHONY: help validate all index-once index-loop index-publish index-docker-up index-docker-once
 
 help:
-	@echo "nvim-theme-registry"
-	@echo "  make fetch         Fetch themes (uses GITHUB_TOKEN if set)"
-	@echo "  make fetch-no-token Fetch themes without a token"
+	@echo "theme-browser-registry"
 	@echo "  make validate      Validate themes.json against schema"
-	@echo "  make all           Fetch and validate"
-
-fetch:
-	@tmp=$$(mktemp); \
-	$(PYTHON) scripts/fetch_themes.py --output $$tmp && \
-	$(MAKE) validate OUTPUT=$$tmp && \
-	mv $$tmp $(OUTPUT)
-
-fetch-no-token:
-	@tmp=$$(mktemp); \
-	GITHUB_TOKEN= $(PYTHON) scripts/fetch_themes.py --output $$tmp && \
-	$(MAKE) validate OUTPUT=$$tmp && \
-	mv $$tmp $(OUTPUT)
+	@echo "  make index-once    Run ORM indexer once"
+	@echo "  make index-loop    Run ORM indexer continuously"
+	@echo "  make index-publish Run ORM indexer and publish changed artifacts"
+	@echo "  make index-docker-up   Start containerized indexer"
+	@echo "  make index-docker-once Run containerized indexer once"
+	@echo "  make all           Run index-once and validate"
 
 validate:
 	@if command -v check-jsonschema >/dev/null 2>&1; then \
@@ -33,4 +24,19 @@ validate:
 		exit 1; \
 	fi
 
-all: fetch validate
+all: index-once validate
+
+index-once:
+	@$(PYTHON) scripts/indexer.py run-once --config indexer.config.json
+
+index-loop:
+	@$(PYTHON) scripts/indexer.py run-loop --config indexer.config.json
+
+index-publish:
+	@$(PYTHON) scripts/indexer.py run-once-publish --config indexer.config.json
+
+index-docker-up:
+	@docker compose -f docker-compose.indexer.yml up -d --build
+
+index-docker-once:
+	@docker compose -f docker-compose.indexer.yml run --rm indexer python scripts/indexer.py run-once --config indexer.config.json
