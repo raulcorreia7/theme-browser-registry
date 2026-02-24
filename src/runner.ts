@@ -231,31 +231,32 @@ export async function runOnce(config: Config): Promise<RunStats> {
         }
       }
 
+      const entries = Array.from(entriesByRepo.values());
+      const { overrides, excluded } = loadOverrides(config.overrides_path);
+      const merged = applyOverrides(entries, overrides, excluded);
+      const sortedEntries = sortEntries(merged, config);
+
+      const validEntries: ThemeEntry[] = [];
+      for (const entry of sortedEntries) {
+        const validated = validateThemeEntry(entry);
+        if (validated) {
+          validEntries.push(validated);
+        }
+      }
+
+      writeJson(config.output_path, validEntries);
+      writeManifest(config.manifest_path, config.output_path, validEntries.length);
+      stats.written = validEntries.length;
+      logger.debug(
+        `batch checkpoint written batch=${batchIndex + 1}/${totalBatches} entries=${validEntries.length}`
+      );
+
       if (config.batch_pause_ms > 0 && batchIndex < totalBatches - 1) {
         const pauseSeconds = config.batch_pause_ms / 1000;
         logger.debug(`batch pause sleep=${pauseSeconds}s`);
         await new Promise((resolve) => setTimeout(resolve, config.batch_pause_ms));
       }
     }
-
-    const entries = Array.from(entriesByRepo.values());
-    const { overrides, excluded } = loadOverrides(config.overrides_path);
-    const merged = applyOverrides(entries, overrides, excluded);
-    const sortedEntries = sortEntries(merged, config);
-
-    const validEntries: ThemeEntry[] = [];
-    for (const entry of sortedEntries) {
-      const validated = validateThemeEntry(entry);
-      if (validated) {
-        validEntries.push(validated);
-      } else {
-        logger.warn(`invalid entry skipped name=${entry.name} repo=${entry.repo}`);
-      }
-    }
-
-    writeJson(config.output_path, validEntries);
-    writeManifest(config.manifest_path, config.output_path, validEntries.length);
-    stats.written = validEntries.length;
 
     logger.info(
       `run complete discovered=${stats.discovered} scheduled=${stats.scheduled} batches=${stats.batches} fetched=${stats.fetched} cached=${stats.cached} errors=${stats.errors} written=${stats.written}`
