@@ -1,7 +1,7 @@
 import { createHash } from "crypto";
 import { mkdirSync, readFileSync, writeFileSync } from "fs";
 import { dirname } from "path";
-import type { ThemeEntry, GitHubRepoItem, GitHubTreeItem } from "./types.js";
+import type { ThemeEntry, GitHubRepoItem, GitHubTreeItem, RunStats } from "./types.js";
 import { validateThemeEntry } from "./types.js";
 import type { Config } from "./config.js";
 import { loadConfig, DEFAULT_CONFIG } from "./config.js";
@@ -11,15 +11,7 @@ import { extractColorschemes, buildEntry } from "./parser.js";
 import { loadOverrides, applyOverrides } from "./merge.js";
 import { logger, setLogLevel } from "./logger.js";
 
-export interface RunStats {
-  discovered: number;
-  scheduled: number;
-  batches: number;
-  fetched: number;
-  cached: number;
-  errors: number;
-  written: number;
-}
+export type { RunStats } from "./types.js";
 
 export function safeRepo(repo: string): string {
   return repo.trim().replace(/\.git$/, "").replace(/^\/+|\/+$/g, "");

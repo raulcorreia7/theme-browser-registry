@@ -85,6 +85,30 @@ export const RepoCacheEntrySchema = z.object({
   parse_error: z.string().nullable(),
 });
 
+export const DbExportEntrySchema = z.object({
+  repo: z.string(),
+  updated_at: z.string(),
+  scanned_at: z.number(),
+  payload: ThemeEntrySchema.or(z.record(z.unknown())).nullable(),
+  parse_error: z.string().nullable(),
+});
+
+export const DbExportSchema = z.object({
+  exported_at: z.string(),
+  count: z.number().int().nonnegative(),
+  entries: z.array(DbExportEntrySchema),
+});
+
+export const RunStatsSchema = z.object({
+  discovered: z.number().int().nonnegative(),
+  scheduled: z.number().int().nonnegative(),
+  batches: z.number().int().nonnegative(),
+  fetched: z.number().int().nonnegative(),
+  cached: z.number().int().nonnegative(),
+  errors: z.number().int().nonnegative(),
+  written: z.number().int().nonnegative(),
+});
+
 export type LoadStrategy = z.infer<typeof LoadStrategySchema>;
 export type LoadAdapter = z.infer<typeof LoadAdapterSchema>;
 export type Background = z.infer<typeof BackgroundSchema>;
@@ -95,6 +119,9 @@ export type Manifest = z.infer<typeof ManifestSchema>;
 export type GitHubRepoItem = z.infer<typeof GitHubRepoItemSchema>;
 export type GitHubTreeItem = z.infer<typeof GitHubTreeItemSchema>;
 export type RepoCacheEntry = z.infer<typeof RepoCacheEntrySchema>;
+export type DbExportEntry = z.infer<typeof DbExportEntrySchema>;
+export type DbExport = z.infer<typeof DbExportSchema>;
+export type RunStats = z.infer<typeof RunStatsSchema>;
 
 export function createThemeMeta(data: Partial<ThemeMeta> = {}): ThemeMeta {
   return ThemeMetaSchema.parse(data);
