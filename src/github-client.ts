@@ -1,8 +1,8 @@
 import { Octokit } from "@octokit/rest";
 import { retry } from "@octokit/plugin-retry";
 import { throttling } from "@octokit/plugin-throttling";
-import type { Logger } from "pino";
-import { pino } from "pino";
+import type { Logger } from "./logger.js";
+import { logger as defaultLogger } from "./logger.js";
 import type { GitHubRepoItem, GitHubTreeItem } from "./types.js";
 
 const MyOctokit = Octokit.plugin(retry, throttling);
@@ -28,7 +28,7 @@ export class GitHubClient {
   private nextRequestTime: number = 0;
 
   constructor(options: GitHubClientOptions) {
-    this.logger = options.logger ?? pino({ level: "info" });
+    this.logger = options.logger ?? defaultLogger;
     this.requestDelayMs = options.requestDelayMs;
     const token = options.token ?? process.env.GITHUB_TOKEN?.trim() ?? "";
 
@@ -40,9 +40,7 @@ export class GitHubClient {
       },
       throttle: {
         onRateLimit: (retryAfter, options) => {
-          this.logger.warn(
-            `Rate limit hit for ${options.method} ${options.url}`
-          );
+          this.logger.warn(`Rate limit hit for ${options.method} ${options.url}`);
           if (options.request.retryCount < options.retryLimit) {
             this.logger.info(`Retrying after ${retryAfter} seconds`);
             return true;

@@ -1,4 +1,5 @@
-import { readFileSync, existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
+import { defu } from "defu";
 
 export interface DiscoveryConfig {
   topics: string[];
@@ -47,211 +48,196 @@ export interface PublishConfig {
   publish_commit_message: string;
 }
 
-export interface Config
-  extends DiscoveryConfig,
-    OutputConfig,
-    FetchConfig,
-    FilterConfig,
-    SortConfig,
-    RuntimeConfig,
-    PublishConfig {}
+export type Config = DiscoveryConfig &
+  OutputConfig &
+  FetchConfig &
+  FilterConfig &
+  SortConfig &
+  RuntimeConfig &
+  PublishConfig;
 
-export const DEFAULT_DISCOVERY: DiscoveryConfig = {
+const DEFAULTS: Config = {
   topics: ["neovim-colorscheme", "nvim-theme", "vim-colorscheme"],
   include_repos: [],
-  per_page: 100,
-  max_pages_per_topic: 5,
-};
-
-export const DEFAULT_OUTPUT: OutputConfig = {
   output_path: "artifacts/themes.json",
   manifest_path: "artifacts/manifest.json",
   overrides_path: "overrides.json",
   state_db_path: ".state/indexer.db",
-};
-
-export const DEFAULT_FETCH: FetchConfig = {
+  per_page: 100,
+  max_pages_per_topic: 5,
   request_delay_ms: 250,
   retry_limit: 3,
   batch_size: 50,
   batch_pause_ms: 0,
   concurrency: 5,
-};
-
-export const DEFAULT_FILTER: FilterConfig = {
   min_stars: 0,
   skip_archived: true,
   skip_disabled: true,
   stale_after_days: 14,
-};
-
-export const DEFAULT_SORT: SortConfig = {
   sort_by: "stars",
   sort_order: "desc",
-};
-
-export const DEFAULT_RUNTIME: RuntimeConfig = {
   scan_interval_seconds: 1800,
   max_repos_per_run: 0,
   log_level: "INFO",
-};
-
-export const DEFAULT_PUBLISH: PublishConfig = {
   publish_enabled: false,
   publish_remote: "origin",
   publish_branch: "master",
   publish_commit_message: "chore(registry): publish latest index artifacts",
 };
 
-export const DEFAULT_CONFIG: Config = {
-  ...DEFAULT_DISCOVERY,
-  ...DEFAULT_OUTPUT,
-  ...DEFAULT_FETCH,
-  ...DEFAULT_FILTER,
-  ...DEFAULT_SORT,
-  ...DEFAULT_RUNTIME,
-  ...DEFAULT_PUBLISH,
-};
+const VALID_SORT_BY = ["stars", "updated_at", "name"] as const;
+const VALID_SORT_ORDER = ["asc", "desc"] as const;
+const VALID_LOG_LEVELS = ["DEBUG", "INFO", "WARNING", "ERROR"] as const;
 
-type RawConfig = Record<string, unknown>;
+function parseString(value: unknown, fallback: string): string {
+  return typeof value === "string" && value.trim() ? value.trim() : fallback;
+}
 
-function asInt(value: unknown, fallback: number, min?: number, max?: number): number {
-  if (typeof value === "boolean") return fallback;
+function parseInt_(value: unknown, fallback: number, min?: number, max?: number): number {
   if (typeof value !== "number" || !Number.isInteger(value)) return fallback;
   let result = value;
-  if (min !== undefined && result < min) result = min;
-  if (max !== undefined && result > max) result = max;
+  if (min !== undefined) result = Math.max(min, result);
+  if (max !== undefined) result = Math.min(max, result);
   return result;
 }
 
-function asBool(value: unknown, fallback: boolean): boolean {
-  if (typeof value === "boolean") return value;
-  return fallback;
+function parseBool(value: unknown, fallback: boolean): boolean {
+  return typeof value === "boolean" ? value : fallback;
 }
 
-function asStr(value: unknown, fallback: string): string {
-  if (typeof value === "string" && value.trim() !== "") return value.trim();
-  return fallback;
-}
-
-function asStrList(value: unknown): string[] {
+function parseStringArray(value: unknown): string[] {
   if (!Array.isArray(value)) return [];
-  const result: string[] = [];
   const seen = new Set<string>();
+  const result: string[] = [];
   for (const item of value) {
     if (typeof item !== "string") continue;
     const normalized = item.trim();
-    if (normalized === "" || seen.has(normalized)) continue;
-    seen.add(normalized);
-    result.push(normalized);
+    if (normalized && !seen.has(normalized)) {
+      seen.add(normalized);
+      result.push(normalized);
+    }
   }
   return result;
 }
 
-function parseDiscovery(raw: RawConfig): DiscoveryConfig {
-  const topics = asStrList(raw["topics"]);
-  return {
-    topics: topics.length > 0 ? topics : DEFAULT_DISCOVERY.topics,
-    include_repos: asStrList(raw["include_repos"]),
-    per_page: asInt(raw["per_page"], DEFAULT_DISCOVERY.per_page, 1, 100),
-    max_pages_per_topic: asInt(
-      raw["max_pages_per_topic"],
-      DEFAULT_DISCOVERY.max_pages_per_topic,
-      0,
-      50
-    ),
-  };
-}
-
-function parseOutput(raw: RawConfig): OutputConfig {
-  return {
-    output_path: asStr(raw["output_path"], DEFAULT_OUTPUT.output_path),
-    manifest_path: asStr(raw["manifest_path"], DEFAULT_OUTPUT.manifest_path),
-    overrides_path: asStr(raw["overrides_path"], DEFAULT_OUTPUT.overrides_path),
-    state_db_path: asStr(raw["state_db_path"], DEFAULT_OUTPUT.state_db_path),
-  };
-}
-
-function parseFetch(raw: RawConfig): FetchConfig {
-  return {
-    request_delay_ms: asInt(raw["request_delay_ms"], DEFAULT_FETCH.request_delay_ms, 0),
-    retry_limit: asInt(raw["retry_limit"], DEFAULT_FETCH.retry_limit, 1, 10),
-    batch_size: asInt(raw["batch_size"], DEFAULT_FETCH.batch_size, 1),
-    batch_pause_ms: asInt(raw["batch_pause_ms"], DEFAULT_FETCH.batch_pause_ms, 0),
-    concurrency: asInt(raw["concurrency"], DEFAULT_FETCH.concurrency, 1, 20),
-  };
-}
-
-function parseFilter(raw: RawConfig): FilterConfig {
-  return {
-    min_stars: asInt(raw["min_stars"], DEFAULT_FILTER.min_stars, 0),
-    skip_archived: asBool(raw["skip_archived"], DEFAULT_FILTER.skip_archived),
-    skip_disabled: asBool(raw["skip_disabled"], DEFAULT_FILTER.skip_disabled),
-    stale_after_days: asInt(raw["stale_after_days"], DEFAULT_FILTER.stale_after_days, 1),
-  };
-}
-
-function parseSort(raw: RawConfig): SortConfig {
-  const sortBy = asStr(raw["sort_by"], DEFAULT_SORT.sort_by);
-  const sortOrder = asStr(raw["sort_order"], DEFAULT_SORT.sort_order);
-  return {
-    sort_by:
-      sortBy === "stars" || sortBy === "updated_at" || sortBy === "name"
-        ? sortBy
-        : DEFAULT_SORT.sort_by,
-    sort_order: sortOrder === "asc" || sortOrder === "desc" ? sortOrder : DEFAULT_SORT.sort_order,
-  };
-}
-
-function parseRuntime(raw: RawConfig): RuntimeConfig {
-  const logLevel = asStr(raw["log_level"], DEFAULT_RUNTIME.log_level).toUpperCase();
-  return {
-    scan_interval_seconds: asInt(
-      raw["scan_interval_seconds"],
-      DEFAULT_RUNTIME.scan_interval_seconds,
-      60
-    ),
-    max_repos_per_run: asInt(raw["max_repos_per_run"], DEFAULT_RUNTIME.max_repos_per_run, 0),
-    log_level:
-      logLevel === "DEBUG" || logLevel === "INFO" || logLevel === "WARNING" || logLevel === "ERROR"
-        ? (logLevel as RuntimeConfig["log_level"])
-        : DEFAULT_RUNTIME.log_level,
-  };
-}
-
-function parsePublish(raw: RawConfig): PublishConfig {
-  return {
-    publish_enabled: asBool(raw["publish_enabled"], DEFAULT_PUBLISH.publish_enabled),
-    publish_remote: asStr(raw["publish_remote"], DEFAULT_PUBLISH.publish_remote),
-    publish_branch: asStr(raw["publish_branch"], DEFAULT_PUBLISH.publish_branch),
-    publish_commit_message: asStr(
-      raw["publish_commit_message"],
-      DEFAULT_PUBLISH.publish_commit_message
-    ),
-  };
+function parseEnum<T extends string>(value: unknown, valid: readonly T[], fallback: T): T {
+  if (typeof value === "string" && valid.includes(value as T)) return value as T;
+  return fallback;
 }
 
 export function loadConfig(path: string): Config {
-  let raw: RawConfig = {};
+  let raw: Record<string, unknown> = {};
+
   if (existsSync(path)) {
     try {
-      const content = readFileSync(path, { encoding: "utf-8" });
+      const content = readFileSync(path, "utf-8");
       const parsed = JSON.parse(content);
       if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
-        raw = parsed as RawConfig;
+        raw = parsed;
       }
     } catch {
       raw = {};
     }
   }
 
-  return {
-    ...parseDiscovery(raw),
-    ...parseOutput(raw),
-    ...parseFetch(raw),
-    ...parseFilter(raw),
-    ...parseSort(raw),
-    ...parseRuntime(raw),
-    ...parsePublish(raw),
+  const user: Partial<Config> = {
+    topics: parseStringArray(raw.topics),
+    include_repos: parseStringArray(raw.include_repos),
+    output_path: parseString(raw.output_path, DEFAULTS.output_path),
+    manifest_path: parseString(raw.manifest_path, DEFAULTS.manifest_path),
+    overrides_path: parseString(raw.overrides_path, DEFAULTS.overrides_path),
+    state_db_path: parseString(raw.state_db_path, DEFAULTS.state_db_path),
+    per_page: parseInt_(raw.per_page, DEFAULTS.per_page, 1, 100),
+    max_pages_per_topic: parseInt_(raw.max_pages_per_topic, DEFAULTS.max_pages_per_topic, 0, 50),
+    request_delay_ms: parseInt_(raw.request_delay_ms, DEFAULTS.request_delay_ms, 0),
+    retry_limit: parseInt_(raw.retry_limit, DEFAULTS.retry_limit, 1, 10),
+    batch_size: parseInt_(raw.batch_size, DEFAULTS.batch_size, 1),
+    batch_pause_ms: parseInt_(raw.batch_pause_ms, DEFAULTS.batch_pause_ms, 0),
+    concurrency: parseInt_(raw.concurrency, DEFAULTS.concurrency, 1, 20),
+    max_repos_per_run: parseInt_(raw.max_repos_per_run, DEFAULTS.max_repos_per_run, 0),
+    scan_interval_seconds: parseInt_(raw.scan_interval_seconds, DEFAULTS.scan_interval_seconds, 60),
+    stale_after_days: parseInt_(raw.stale_after_days, DEFAULTS.stale_after_days, 1),
+    min_stars: parseInt_(raw.min_stars, DEFAULTS.min_stars, 0),
+    skip_archived: parseBool(raw.skip_archived, DEFAULTS.skip_archived),
+    skip_disabled: parseBool(raw.skip_disabled, DEFAULTS.skip_disabled),
+    sort_by: parseEnum(raw.sort_by, VALID_SORT_BY, DEFAULTS.sort_by),
+    sort_order: parseEnum(raw.sort_order, VALID_SORT_ORDER, DEFAULTS.sort_order),
+    log_level: parseEnum(
+      typeof raw.log_level === "string" ? raw.log_level.toUpperCase() : raw.log_level,
+      VALID_LOG_LEVELS,
+      DEFAULTS.log_level
+    ),
+    publish_enabled: parseBool(raw.publish_enabled, DEFAULTS.publish_enabled),
+    publish_remote: parseString(raw.publish_remote, DEFAULTS.publish_remote),
+    publish_branch: parseString(raw.publish_branch, DEFAULTS.publish_branch),
+    publish_commit_message: parseString(raw.publish_commit_message, DEFAULTS.publish_commit_message),
   };
+
+  if (user.topics?.length === 0) {
+    delete user.topics;
+  }
+  if (user.include_repos?.length === 0) {
+    delete user.include_repos;
+  }
+
+  // Use defu but override array merge behavior (replace, not concat)
+  const merged = defu(user, DEFAULTS) as Config;
+
+  // Ensure arrays are replaced, not concatenated
+  if (user.topics && user.topics.length > 0) {
+    merged.topics = user.topics;
+  }
+  if (user.include_repos && user.include_repos.length > 0) {
+    merged.include_repos = user.include_repos;
+  }
+
+  return merged;
 }
+
+export { DEFAULTS as DEFAULT_CONFIG };
+export const DEFAULT_DISCOVERY = {
+  topics: DEFAULTS.topics,
+  include_repos: DEFAULTS.include_repos,
+  per_page: DEFAULTS.per_page,
+  max_pages_per_topic: DEFAULTS.max_pages_per_topic,
+} satisfies DiscoveryConfig;
+
+export const DEFAULT_OUTPUT = {
+  output_path: DEFAULTS.output_path,
+  manifest_path: DEFAULTS.manifest_path,
+  overrides_path: DEFAULTS.overrides_path,
+  state_db_path: DEFAULTS.state_db_path,
+} satisfies OutputConfig;
+
+export const DEFAULT_FETCH = {
+  request_delay_ms: DEFAULTS.request_delay_ms,
+  retry_limit: DEFAULTS.retry_limit,
+  batch_size: DEFAULTS.batch_size,
+  batch_pause_ms: DEFAULTS.batch_pause_ms,
+  concurrency: DEFAULTS.concurrency,
+} satisfies FetchConfig;
+
+export const DEFAULT_FILTER = {
+  min_stars: DEFAULTS.min_stars,
+  skip_archived: DEFAULTS.skip_archived,
+  skip_disabled: DEFAULTS.skip_disabled,
+  stale_after_days: DEFAULTS.stale_after_days,
+} satisfies FilterConfig;
+
+export const DEFAULT_SORT = {
+  sort_by: DEFAULTS.sort_by,
+  sort_order: DEFAULTS.sort_order,
+} satisfies SortConfig;
+
+export const DEFAULT_RUNTIME = {
+  scan_interval_seconds: DEFAULTS.scan_interval_seconds,
+  max_repos_per_run: DEFAULTS.max_repos_per_run,
+  log_level: DEFAULTS.log_level,
+} satisfies RuntimeConfig;
+
+export const DEFAULT_PUBLISH = {
+  publish_enabled: DEFAULTS.publish_enabled,
+  publish_remote: DEFAULTS.publish_remote,
+  publish_branch: DEFAULTS.publish_branch,
+  publish_commit_message: DEFAULTS.publish_commit_message,
+} satisfies PublishConfig;

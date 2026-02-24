@@ -50,3 +50,6 @@ export const logger = {
     }
   },
 };
+
+export type { LogLevel };
+export type Logger = typeof logger;
