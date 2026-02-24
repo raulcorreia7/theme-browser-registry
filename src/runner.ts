@@ -30,34 +30,41 @@ async function discoverRepositories(
   config: Config
 ): Promise<Map<string, string>> {
   const discovered = new Map<string, string>();
+  const mutex = { lock: false };
 
-  for (const topic of config.topics) {
+  async function discoverTopic(topic: string): Promise<void> {
     logger.info(
       `discover topic=${topic} per_page=${config.per_page} max_pages_per_topic=${config.max_pages_per_topic}`
     );
-    let page = 1;
-    while (true) {
-      const { items, hasNext } = await client.searchRepositories(
-        topic,
-        page,
-        config.per_page
-      );
-      if (items.length === 0) break;
 
-      for (const item of items) {
+    const pages: Array<{ items: GitHubRepoItem[]; hasNext: boolean }> = [];
+    let page = 1;
+    let hasNext = true;
+
+    while (hasNext) {
+      const result = await client.searchRepositories(topic, page, config.per_page);
+      pages.push(result);
+      page++;
+      hasNext = result.hasNext && (config.max_pages_per_topic === 0 || page <= config.max_pages_per_topic);
+      if (result.items.length === 0) break;
+    }
+
+    for (const result of pages) {
+      for (const item of result.items) {
         const repo = safeRepo(item.full_name);
-        if (repo && !discovered.has(repo)) {
-          discovered.set(repo, item.updated_at);
+        if (repo) {
+          while (mutex.lock) await new Promise((r) => setTimeout(r, 1));
+          mutex.lock = true;
+          if (!discovered.has(repo)) {
+            discovered.set(repo, item.updated_at);
+          }
+          mutex.lock = false;
         }
       }
-
-      page++;
-      if (config.max_pages_per_topic > 0 && page > config.max_pages_per_topic) {
-        break;
-      }
-      if (!hasNext) break;
     }
   }
+
+  await Promise.all(config.topics.map((topic) => discoverTopic(topic)));
 
   for (const repo of config.include_repos) {
     const normalized = safeRepo(repo);
