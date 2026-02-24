@@ -39,16 +39,16 @@ source .env
 
 | Command | Description |
 |--------|-------------|
-| `index` | Index themes once |
-| `watch` | Continuous indexing |
-| `publish` | Index and push to git |
+| `sync` | Sync themes from GitHub |
+| `watch` | Continuous sync |
+| `publish` | Sync and push to git |
 | `export` | Export database to JSON |
 
 ```bash
-npx tsx src/index.ts index      # Index once
-npx tsx src/index.ts watch      # Continuous
-npx tsx src/index.ts publish    # Index + git push
-npx tsx src/index.ts export     # Export DB
+npx tsx src/index.ts sync      # Sync once
+npx tsx src/index.ts watch     # Continuous
+npx tsx src/index.ts publish   # Sync + git push
+npx tsx src/index.ts export    # Export DB
 ```
 
 **Output:**
@@ -59,9 +59,9 @@ npx tsx src/index.ts export     # Export DB
 ## npm Scripts
 
 ```bash
-npm run index      # Index once
+npm run sync       # Sync once
 npm run watch      # Continuous
-npm run publish    # Index + git push
+npm run publish    # Sync + git push
 npm run export     # Export DB
 npm run test       # Run tests
 npm run clean      # Remove artifacts
@@ -70,7 +70,7 @@ npm run clean      # Remove artifacts
 ## Monorepo
 
 ```bash
-make registry-index      # Index once
+make registry-sync       # Sync once
 make registry-watch      # Continuous
 make registry-test       # Run tests
 ```

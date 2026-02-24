@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+import { config } from "dotenv";
+config();
+
 import { Command } from "commander";
 import { writeFileSync } from "fs";
 import { runOnce, runLoop, loadConfig, setLogLevel } from "./runner.js";
