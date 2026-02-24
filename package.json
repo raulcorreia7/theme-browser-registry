@@ -7,10 +7,17 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts",
-    "test": "vitest",
+    "index": "tsx src/index.ts run-once",
+    "index:loop": "tsx src/index.ts run-loop",
+    "index:publish": "tsx src/index.ts run-once-publish",
+    "export-db": "tsx src/index.ts export-db",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "clean": "rm -rf dist coverage .state artifacts/themes.json artifacts/latest.json"
   },
   "dependencies": {
     "better-sqlite3": "^11.7.0",
