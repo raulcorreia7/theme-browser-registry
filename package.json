@@ -9,15 +9,15 @@
     "build": "tsc",
     "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts",
-    "index": "tsx src/index.ts run-once",
-    "index:loop": "tsx src/index.ts run-loop",
-    "index:publish": "tsx src/index.ts run-once-publish",
-    "export-db": "tsx src/index.ts export-db",
+    "index": "tsx src/index.ts index",
+    "watch": "tsx src/index.ts watch",
+    "publish": "tsx src/index.ts publish",
+    "export": "tsx src/index.ts export",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "lint": "eslint src",
-    "clean": "rm -rf dist coverage .state artifacts/themes.json artifacts/latest.json"
+    "clean": "rm -rf dist coverage .state artifacts"
   },
   "dependencies": {
     "better-sqlite3": "^11.7.0",

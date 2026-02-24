@@ -13,8 +13,8 @@ program
   .version("0.1.0");
 
 program
-  .command("run-once")
-  .description("Run the indexer once")
+  .command("index")
+  .description("Index themes from GitHub (run once)")
   .option("-c, --config <path>", "Path to config file", "indexer.config.json")
   .option("-v, --verbose", "Enable debug logging", false)
   .action(async (options) => {
@@ -28,8 +28,8 @@ program
   });
 
 program
-  .command("run-loop")
-  .description("Run the indexer in a continuous loop")
+  .command("watch")
+  .description("Continuously index themes at configured interval")
   .option("-c, --config <path>", "Path to config file", "indexer.config.json")
   .option("-v, --verbose", "Enable debug logging", false)
   .action(async (options) => {
@@ -41,8 +41,8 @@ program
   });
 
 program
-  .command("run-once-publish")
-  .description("Run the indexer once and publish artifacts")
+  .command("publish")
+  .description("Index themes and publish artifacts to git")
   .option("-c, --config <path>", "Path to config file", "indexer.config.json")
   .option("-v, --verbose", "Enable debug logging", false)
   .action(async (options) => {
@@ -89,8 +89,8 @@ program
   });
 
 program
-  .command("export-db")
-  .description("Export database contents to JSON")
+  .command("export")
+  .description("Export database to JSON for backup or inspection")
   .option("-c, --config <path>", "Path to config file", "indexer.config.json")
   .option("-o, --output <path>", "Output file path", "artifacts/db-export.json")
   .action((options) => {

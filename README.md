@@ -58,22 +58,28 @@ Run once to index all repositories and exit:
 
 ```bash
 # From this directory
-GITHUB_TOKEN=ghp_xxx npx tsx src/index.ts run-once
+GITHUB_TOKEN=ghp_xxx npx tsx src/index.ts index
 
 # Or if .env is sourced
-npx tsx src/index.ts run-once
+npx tsx src/index.ts index
+
+# Or via npm
+npm run index
 ```
 
 Output:
 - `themes.json` — Theme index
 - `artifacts/latest.json` — Run metadata
 
-### Continuous Index (Loop)
+### Continuous Index (Watch)
 
 Run continuously, reindexing at configured intervals:
 
 ```bash
-GITHUB_TOKEN=ghp_xxx npx tsx src/index.ts run-loop
+GITHUB_TOKEN=ghp_xxx npx tsx src/index.ts watch
+
+# Or via npm
+npm run watch
 ```
 
 Default interval: 30 minutes (configurable via `scan_interval_seconds`).
@@ -83,10 +89,26 @@ Default interval: 30 minutes (configurable via `scan_interval_seconds`).
 Index once and commit/push artifacts to git:
 
 ```bash
-GITHUB_TOKEN=ghp_xxx npx tsx src/index.ts run-once-publish
+GITHUB_TOKEN=ghp_xxx npx tsx src/index.ts publish
+
+# Or via npm
+npm run publish
 ```
 
 Requires `publish_enabled: true` in config.
+
+### Export Database
+
+Export SQLite database to JSON for backup or inspection:
+
+```bash
+npx tsx src/index.ts export
+
+# Or via npm
+npm run export
+```
+
+Output: `artifacts/db-export.json`
 
 ### From Monorepo Root
 
