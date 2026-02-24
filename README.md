@@ -53,19 +53,8 @@ npx tsx src/index.ts export    # Export DB
 
 **Output:**
 - `themes.json` — Theme index
-- `artifacts/latest.json` — Run metadata
-- `artifacts/db-export.json` — Database export
-
-## npm Scripts
-
-```bash
-npm run sync       # Sync once
-npm run watch      # Continuous
-npm run publish    # Sync + git push
-npm run export     # Export DB
-npm run test       # Run tests
-npm run clean      # Remove artifacts
-```
+- `artifacts/metadata.json` — Run metadata (count, timestamp, checksum)
+- `artifacts/db-export.json` — Database export (via `export` command)```
 
 ## Monorepo
 

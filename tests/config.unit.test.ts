@@ -22,7 +22,8 @@ describe("config", () => {
     it("has expected default values", () => {
       expect(DEFAULT_CONFIG.topics).toEqual(["neovim-colorscheme", "nvim-theme", "vim-colorscheme"]);
       expect(DEFAULT_CONFIG.include_repos).toEqual([]);
-      expect(DEFAULT_CONFIG.output_path).toBe("themes.json");
+     expect(DEFAULT_CONFIG.output_path).toBe("artifacts/themes.json");
+      expect(DEFAULT_CONFIG.manifest_path).toBe("artifacts/manifest.json");
       expect(DEFAULT_CONFIG.per_page).toBe(100);
       expect(DEFAULT_CONFIG.max_pages_per_topic).toBe(5);
       expect(DEFAULT_CONFIG.retry_limit).toBe(3);

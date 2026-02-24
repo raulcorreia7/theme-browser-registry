@@ -64,8 +64,8 @@ export const DEFAULT_DISCOVERY: DiscoveryConfig = {
 };
 
 export const DEFAULT_OUTPUT: OutputConfig = {
-  output_path: "themes.json",
-  manifest_path: "artifacts/latest.json",
+  output_path: "artifacts/themes.json",
+  manifest_path: "artifacts/manifest.json",
   overrides_path: "overrides.json",
   state_db_path: ".state/indexer.db",
 };

@@ -11,8 +11,8 @@
     "rose-pine/neovim",
     "EdenEast/nightfox.nvim"
   ],
-  "output_path": "themes.json",
-  "manifest_path": "artifacts/latest.json",
+  "output_path": "artifacts/themes.json",
+  "manifest_path": "artifacts/manifest.json",
   "overrides_path": "overrides.json",
   "state_db_path": ".state/indexer.db",
   "per_page": 100,
