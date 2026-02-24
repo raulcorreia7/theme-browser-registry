@@ -13,8 +13,8 @@ program
   .version("0.1.0");
 
 program
-  .command("index")
-  .description("Index themes from GitHub (run once)")
+  .command("sync")
+  .description("Sync themes from GitHub (run once)")
   .option("-c, --config <path>", "Path to config file", "indexer.config.json")
   .option("-v, --verbose", "Enable debug logging", false)
   .action(async (options) => {
@@ -29,7 +29,7 @@ program
 
 program
   .command("watch")
-  .description("Continuously index themes at configured interval")
+  .description("Continuously sync themes at configured interval")
   .option("-c, --config <path>", "Path to config file", "indexer.config.json")
   .option("-v, --verbose", "Enable debug logging", false)
   .action(async (options) => {
@@ -42,7 +42,7 @@ program
 
 program
   .command("publish")
-  .description("Index themes and publish artifacts to git")
+  .description("Sync themes and publish artifacts to git")
   .option("-c, --config <path>", "Path to config file", "indexer.config.json")
   .option("-v, --verbose", "Enable debug logging", false)
   .action(async (options) => {
@@ -54,7 +54,7 @@ program
     console.log(JSON.stringify(stats, null, 2));
 
     if (stats.errors > 0) {
-      console.error("Indexer completed with errors, skipping publish");
+      console.error("Sync completed with errors, skipping publish");
       process.exit(1);
     }
 

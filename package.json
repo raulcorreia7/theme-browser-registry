@@ -9,7 +9,7 @@
     "build": "tsc",
     "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts",
-    "index": "tsx src/index.ts index",
+    "sync": "tsx src/index.ts sync",
     "watch": "tsx src/index.ts watch",
     "publish": "tsx src/index.ts publish",
     "export": "tsx src/index.ts export",
