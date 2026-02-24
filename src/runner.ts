@@ -21,7 +21,7 @@ export interface RunStats {
   written: number;
 }
 
-function safeRepo(repo: string): string {
+export function safeRepo(repo: string): string {
   return repo.trim().replace(/\.git$/, "").replace(/^\/+|\/+$/g, "");
 }
 
@@ -72,7 +72,7 @@ async function discoverRepositories(
   return discovered;
 }
 
-function selectRepositoriesForRun(
+export function selectRepositoriesForRun(
   discovered: Map<string, string>,
   config: Config
 ): Array<[string, string]> {
@@ -85,7 +85,7 @@ function selectRepositoriesForRun(
   return sorted;
 }
 
-function chunk<T>(items: T[], size: number): T[][] {
+export function chunk<T>(items: T[], size: number): T[][] {
   const chunks: T[][] = [];
   for (let i = 0; i < items.length; i += size) {
     chunks.push(items.slice(i, i + size));
@@ -93,7 +93,7 @@ function chunk<T>(items: T[], size: number): T[][] {
   return chunks;
 }
 
-function sortEntries(entries: ThemeEntry[], config: Config): ThemeEntry[] {
+export function sortEntries(entries: ThemeEntry[], config: Config): ThemeEntry[] {
   const reverse = config.sort_order === "desc";
 
   return [...entries].sort((a, b) => {
@@ -109,13 +109,13 @@ function sortEntries(entries: ThemeEntry[], config: Config): ThemeEntry[] {
   });
 }
 
-function writeJson(path: string, payload: unknown): void {
+export function writeJson(path: string, payload: unknown): void {
   const outPath = path;
   mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, JSON.stringify(payload, null, 2) + "\n", "utf-8");
 }
 
-function writeManifest(
+export function writeManifest(
   manifestPath: string,
   outputPath: string,
   entriesCount: number
