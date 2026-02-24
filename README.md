@@ -5,7 +5,7 @@
 > This registry indexer is under active development. APIs, schema, and behavior may change without notice.
 > Use at your own risk.
 
-TypeScript theme registry indexer for [theme-browser.nvim](https://github.com/anomalyco/theme-browser.nvim).
+TypeScript theme registry indexer for [theme-browser.nvim](https://github.com/raulcorreia7/theme-browser.nvim).
 
 Discovers Neovim colorschemes from GitHub and produces a searchable `themes.json` index.
 
@@ -109,6 +109,10 @@ Data flow:
 3. Store in SQLite (incremental)
 4. Write `themes.json` after each batch
 5. Optionally publish to git
+
+## Related
+
+- [theme-browser.nvim](https://github.com/raulcorreia7/theme-browser.nvim) — Neovim theme gallery plugin
 
 ## License
 
