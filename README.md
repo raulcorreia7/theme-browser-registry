@@ -87,6 +87,7 @@ Key options:
 | `include_repos` | `[]` | Always include these repos |
 | `request_delay_ms` | `250` | Delay between API requests |
 | `batch_size` | `50` | Repos per batch (writes checkpoint after each) |
+| `concurrency` | `5` | Parallel requests within batch |
 | `scan_interval_seconds` | `1800` | Watch interval (30 min) |
 | `stale_after_days` | `14` | Days before re-fetching |
 | `publish_enabled` | `false` | Enable git publishing |

@@ -93,6 +93,56 @@ export function chunk<T>(items: T[], size: number): T[][] {
   return chunks;
 }
 
+async function processBatchParallel(
+  batch: Array<[string, string]>,
+  client: GitHubClient,
+  config: Config,
+  store: StateStore,
+  entriesByRepo: Map<string, ThemeEntry>,
+  stats: RunStats
+): Promise<void> {
+  const semaphore = { count: 0 };
+  const queue = [...batch];
+
+  async function processNext(): Promise<void> {
+    while (queue.length > 0) {
+      const item = queue.shift();
+      if (!item) break;
+
+      const [repo, discoveredUpdatedAt] = item;
+
+      if (!store.shouldRefresh(repo, discoveredUpdatedAt, config.stale_after_days)) {
+        const cached = store.readRepo(repo);
+        if (cached?.payload && "repo" in cached.payload) {
+          entriesByRepo.set(repo, cached.payload as ThemeEntry);
+          stats.cached++;
+        }
+        continue;
+      }
+
+      try {
+        const entry = await buildEntryForRepo(client, config, repo);
+        const updatedAt = entry.updated_at || "";
+        store.upsertRepo(repo, updatedAt, entry, null);
+        entriesByRepo.set(repo, entry);
+        stats.fetched++;
+      } catch (error) {
+        const errorMessage =
+          error instanceof Error ? error.message : String(error);
+        store.upsertRepo(repo, discoveredUpdatedAt || "", { repo }, errorMessage);
+        stats.errors++;
+        logger.warn(`repo processing failed repo=${repo} error=${errorMessage}`);
+      }
+    }
+  }
+
+  const workers = Array(Math.min(config.concurrency, batch.length))
+    .fill(null)
+    .map(() => processNext());
+
+  await Promise.all(workers);
+}
+
 export function sortEntries(entries: ThemeEntry[], config: Config): ThemeEntry[] {
   const reverse = config.sort_order === "desc";
 
@@ -203,33 +253,10 @@ export async function runOnce(config: Config): Promise<RunStats> {
       if (!batch) continue;
       stats.batches++;
       logger.info(
-        `processing batch=${batchIndex + 1}/${totalBatches} size=${batch.length}`
+        `processing batch=${batchIndex + 1}/${totalBatches} size=${batch.length} concurrency=${config.concurrency}`
       );
 
-      for (const [repo, discoveredUpdatedAt] of batch) {
-        if (!store.shouldRefresh(repo, discoveredUpdatedAt, config.stale_after_days)) {
-          const cached = store.readRepo(repo);
-          if (cached?.payload && "repo" in cached.payload) {
-            entriesByRepo.set(repo, cached.payload as ThemeEntry);
-            stats.cached++;
-          }
-          continue;
-        }
-
-        try {
-          const entry = await buildEntryForRepo(client, config, repo);
-          const updatedAt = entry.updated_at || "";
-          store.upsertRepo(repo, updatedAt, entry, null);
-          entriesByRepo.set(repo, entry);
-          stats.fetched++;
-        } catch (error) {
-          const errorMessage =
-            error instanceof Error ? error.message : String(error);
-          store.upsertRepo(repo, discoveredUpdatedAt || "", { repo }, errorMessage);
-          stats.errors++;
-          logger.warn(`repo processing failed repo=${repo} error=${errorMessage}`);
-        }
-      }
+      await processBatchParallel(batch, client, config, store, entriesByRepo, stats);
 
       const entries = Array.from(entriesByRepo.values());
       const { overrides, excluded } = loadOverrides(config.overrides_path);

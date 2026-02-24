@@ -21,6 +21,7 @@
   "retry_limit": 3,
   "batch_size": 50,
   "batch_pause_ms": 0,
+  "concurrency": 5,
   "max_repos_per_run": 0,
   "scan_interval_seconds": 1800,
   "stale_after_days": 14,

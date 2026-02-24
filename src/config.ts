@@ -19,6 +19,7 @@ export interface FetchConfig {
   retry_limit: number;
   batch_size: number;
   batch_pause_ms: number;
+  concurrency: number;
 }
 
 export interface FilterConfig {
@@ -74,6 +75,7 @@ export const DEFAULT_FETCH: FetchConfig = {
   retry_limit: 3,
   batch_size: 50,
   batch_pause_ms: 0,
+  concurrency: 5,
 };
 
 export const DEFAULT_FILTER: FilterConfig = {
@@ -176,6 +178,7 @@ function parseFetch(raw: RawConfig): FetchConfig {
     retry_limit: asInt(raw["retry_limit"], DEFAULT_FETCH.retry_limit, 1, 10),
     batch_size: asInt(raw["batch_size"], DEFAULT_FETCH.batch_size, 1),
     batch_pause_ms: asInt(raw["batch_pause_ms"], DEFAULT_FETCH.batch_pause_ms, 0),
+    concurrency: asInt(raw["concurrency"], DEFAULT_FETCH.concurrency, 1, 20),
   };
 }
 
