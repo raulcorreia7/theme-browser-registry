@@ -1,0 +1,78 @@
+name: Registry Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-registry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Check for existing themes.json
+        id: check-existing
+        run: |
+          if [ -f themes.json ]; then
+            cp themes.json themes.json.old
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run indexer
+        run: npx tsx src/index.ts run-once
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check if themes.json changed
+        id: check-changes
+        run: |
+          if [ "${{ steps.check-existing.outputs.exists }}" == "true" ]; then
+            if diff -q themes.json themes.json.old > /dev/null 2>&1; then
+              echo "changed=false" >> $GITHUB_OUTPUT
+            else
+              echo "changed=true" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate release tag
+        if: steps.check-changes.outputs.changed == 'true'
+        id: tag
+        run: echo "value=registry-$(date -u +%Y-%m-%d-%H%M)" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        if: steps.check-changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create ${{ steps.tag.outputs.value }} \
+            --title "Registry Update ${{ steps.tag.outputs.value }}" \
+            --notes "Automated registry update" \
+            themes.json \
+            artifacts/latest.json
+
+      - name: Summary - No changes
+        if: steps.check-changes.outputs.changed == 'false'
+        run: echo "::notice::No changes detected in themes.json - skipping release"

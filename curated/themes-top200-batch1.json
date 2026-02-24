@@ -1,0 +1,439 @@
+[
+  {
+    "name": "gruvbox",
+    "repo": "morhetz/gruvbox",
+    "colorscheme": "gruvbox",
+    "meta": {
+      "strategy": "vimg_colorscheme",
+      "opts_g": {
+        "gruvbox_contrast_dark": "medium"
+      }
+    },
+    "variants": [
+      {
+        "name": "gruvbox-dark",
+        "colorscheme": "gruvbox",
+        "meta": {
+          "opts_o": {
+            "background": "dark"
+          }
+        }
+      },
+      {
+        "name": "gruvbox-light",
+        "colorscheme": "gruvbox",
+        "meta": {
+          "opts_o": {
+            "background": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "tokyonight",
+    "repo": "folke/tokyonight.nvim",
+    "colorscheme": "tokyonight",
+    "meta": {
+      "strategy": "colorscheme_only"
+    },
+    "variants": [
+      "tokyonight-night",
+      "tokyonight-storm",
+      "tokyonight-moon",
+      "tokyonight-day"
+    ]
+  },
+  {
+    "name": "catppuccin",
+    "repo": "catppuccin/nvim",
+    "colorscheme": "catppuccin",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "catppuccin"
+    },
+    "variants": [
+      "catppuccin-latte",
+      "catppuccin-frappe",
+      "catppuccin-macchiato",
+      "catppuccin-mocha"
+    ]
+  },
+  {
+    "name": "solarized",
+    "repo": "altercation/vim-colors-solarized",
+    "colorscheme": "solarized",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    },
+    "variants": [
+      {
+        "name": "solarized-dark",
+        "colorscheme": "solarized",
+        "meta": {
+          "opts_o": {
+            "background": "dark"
+          }
+        }
+      },
+      {
+        "name": "solarized-light",
+        "colorscheme": "solarized",
+        "meta": {
+          "opts_o": {
+            "background": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "kanagawa",
+    "repo": "rebelot/kanagawa.nvim",
+    "colorscheme": "kanagawa",
+    "meta": {
+      "strategy": "colorscheme_only"
+    },
+    "variants": [
+      "kanagawa-wave",
+      "kanagawa-dragon",
+      "kanagawa-lotus"
+    ]
+  },
+  {
+    "name": "onedark",
+    "repo": "navarasu/onedark.nvim",
+    "colorscheme": "onedark",
+    "meta": {
+      "strategy": "setup_load",
+      "module": "onedark"
+    },
+    "variants": [
+      {
+        "name": "onedark-dark",
+        "colorscheme": "onedark",
+        "meta": {
+          "opts": {
+            "style": "dark"
+          }
+        }
+      },
+      {
+        "name": "onedark-darker",
+        "colorscheme": "onedark",
+        "meta": {
+          "opts": {
+            "style": "darker"
+          }
+        }
+      },
+      {
+        "name": "onedark-cool",
+        "colorscheme": "onedark",
+        "meta": {
+          "opts": {
+            "style": "cool"
+          }
+        }
+      },
+      {
+        "name": "onedark-deep",
+        "colorscheme": "onedark",
+        "meta": {
+          "opts": {
+            "style": "deep"
+          }
+        }
+      },
+      {
+        "name": "onedark-warm",
+        "colorscheme": "onedark",
+        "meta": {
+          "opts": {
+            "style": "warm"
+          }
+        }
+      },
+      {
+        "name": "onedark-warmer",
+        "colorscheme": "onedark",
+        "meta": {
+          "opts": {
+            "style": "warmer"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "nightfox",
+    "repo": "EdenEast/nightfox.nvim",
+    "colorscheme": "nightfox",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "nightfox"
+    },
+    "variants": [
+      "nightfox",
+      "dayfox",
+      "dawnfox",
+      "duskfox",
+      "nordfox",
+      "terafox",
+      "carbonfox"
+    ]
+  },
+  {
+    "name": "everforest",
+    "repo": "sainnhe/everforest",
+    "colorscheme": "everforest",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    },
+    "variants": [
+      {
+        "name": "everforest-dark",
+        "colorscheme": "everforest",
+        "meta": {
+          "opts_o": {
+            "background": "dark"
+          }
+        }
+      },
+      {
+        "name": "everforest-light",
+        "colorscheme": "everforest",
+        "meta": {
+          "opts_o": {
+            "background": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "molokai",
+    "repo": "tomasr/molokai",
+    "colorscheme": "molokai",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "rose-pine",
+    "repo": "rose-pine/neovim",
+    "colorscheme": "rose-pine",
+    "meta": {
+      "strategy": "colorscheme_only"
+    },
+    "variants": [
+      "rose-pine",
+      "rose-pine-moon",
+      "rose-pine-dawn"
+    ]
+  },
+  {
+    "name": "papercolor",
+    "repo": "NLKNguyen/papercolor-theme",
+    "colorscheme": "PaperColor",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    },
+    "variants": [
+      {
+        "name": "papercolor-dark",
+        "colorscheme": "PaperColor",
+        "meta": {
+          "opts_o": {
+            "background": "dark"
+          }
+        }
+      },
+      {
+        "name": "papercolor-light",
+        "colorscheme": "PaperColor",
+        "meta": {
+          "opts_o": {
+            "background": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "nord",
+    "repo": "nordtheme/vim",
+    "colorscheme": "nord",
+    "meta": {
+      "strategy": "colorscheme_only"
+    }
+  },
+  {
+    "name": "gruvbox-material",
+    "repo": "sainnhe/gruvbox-material",
+    "colorscheme": "gruvbox-material",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    },
+    "variants": [
+      {
+        "name": "gruvbox-material-dark",
+        "colorscheme": "gruvbox-material",
+        "meta": {
+          "opts_o": {
+            "background": "dark"
+          }
+        }
+      },
+      {
+        "name": "gruvbox-material-light",
+        "colorscheme": "gruvbox-material",
+        "meta": {
+          "opts_o": {
+            "background": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "gruvbox.nvim",
+    "repo": "ellisonleao/gruvbox.nvim",
+    "colorscheme": "gruvbox",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "gruvbox"
+    },
+    "variants": [
+      {
+        "name": "gruvbox-dark",
+        "colorscheme": "gruvbox",
+        "meta": {
+          "opts": {
+            "transparent_mode": false
+          }
+        }
+      },
+      {
+        "name": "gruvbox-light",
+        "colorscheme": "gruvbox",
+        "meta": {
+          "opts": {
+            "transparent_mode": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "github-nvim-theme",
+    "repo": "projekt0n/github-nvim-theme",
+    "colorscheme": "github_dark",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "github-theme"
+    },
+    "variants": [
+      "github_dark",
+      "github_dark_default",
+      "github_dark_dimmed",
+      "github_dark_high_contrast",
+      "github_dark_colorblind",
+      "github_dark_tritanopia",
+      "github_light",
+      "github_light_default",
+      "github_light_high_contrast",
+      "github_light_colorblind",
+      "github_light_tritanopia"
+    ]
+  },
+  {
+    "name": "iceberg",
+    "repo": "cocopon/iceberg.vim",
+    "colorscheme": "iceberg",
+    "meta": {
+      "strategy": "colorscheme_only"
+    }
+  },
+  {
+    "name": "vim-one",
+    "repo": "rakr/vim-one",
+    "colorscheme": "one",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    },
+    "variants": [
+      {
+        "name": "one-dark",
+        "colorscheme": "one",
+        "meta": {
+          "opts_o": {
+            "background": "dark"
+          }
+        }
+      },
+      {
+        "name": "one-light",
+        "colorscheme": "one",
+        "meta": {
+          "opts_o": {
+            "background": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "jellybeans",
+    "repo": "nanotech/jellybeans.vim",
+    "colorscheme": "jellybeans",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "ayu",
+    "repo": "ayu-theme/ayu-vim",
+    "colorscheme": "ayu",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    },
+    "variants": [
+      {
+        "name": "ayu-dark",
+        "colorscheme": "ayu",
+        "meta": {
+          "opts_g": {
+            "ayucolor": "dark"
+          }
+        }
+      },
+      {
+        "name": "ayu-mirage",
+        "colorscheme": "ayu",
+        "meta": {
+          "opts_g": {
+            "ayucolor": "mirage"
+          }
+        }
+      },
+      {
+        "name": "ayu-light",
+        "colorscheme": "ayu",
+        "meta": {
+          "opts_g": {
+            "ayucolor": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "seoul256",
+    "repo": "junegunn/seoul256.vim",
+    "colorscheme": "seoul256",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  }
+]

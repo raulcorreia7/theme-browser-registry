@@ -1,0 +1,214 @@
+[
+  {
+    "name": "mellifluous",
+    "repo": "ramojus/mellifluous.nvim",
+    "colorscheme": "mellifluous",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "mellifluous"
+    }
+  },
+  {
+    "name": "everforest-nvim",
+    "repo": "neanias/everforest-nvim",
+    "colorscheme": "everforest",
+    "meta": {
+      "strategy": "colorscheme_only"
+    }
+  },
+  {
+    "name": "dracula-vim",
+    "repo": "dracula/vim",
+    "colorscheme": "dracula",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "palenight",
+    "repo": "drewtempelmeyer/palenight.vim",
+    "colorscheme": "palenight",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "space-vim-dark",
+    "repo": "liuchengxu/space-vim-dark",
+    "colorscheme": "space-vim-dark",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "material-vim",
+    "repo": "kaicataldo/material.vim",
+    "colorscheme": "material",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    },
+    "variants": [
+      {
+        "name": "material-dark",
+        "colorscheme": "material",
+        "meta": {
+          "opts_o": {
+            "background": "dark"
+          }
+        }
+      },
+      {
+        "name": "material-light",
+        "colorscheme": "material",
+        "meta": {
+          "opts_o": {
+            "background": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "base16-nvim",
+    "repo": "RRethy/base16-nvim",
+    "colorscheme": "base16",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "base16"
+    }
+  },
+  {
+    "name": "evergarden",
+    "repo": "everviolet/nvim",
+    "colorscheme": "evergarden",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "evergarden"
+    }
+  },
+  {
+    "name": "neovim-ayu",
+    "repo": "Shatur/neovim-ayu",
+    "colorscheme": "ayu",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    },
+    "variants": [
+      {
+        "name": "ayu-dark",
+        "colorscheme": "ayu-dark"
+      },
+      {
+        "name": "ayu-mirage",
+        "colorscheme": "ayu-mirage"
+      },
+      {
+        "name": "ayu-light",
+        "colorscheme": "ayu-light"
+      }
+    ]
+  },
+  {
+    "name": "vim-hybrid-material",
+    "repo": "kristijanhusak/vim-hybrid-material",
+    "colorscheme": "hybrid_material",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "vim-gruvbox8",
+    "repo": "lifepillar/vim-gruvbox8",
+    "colorscheme": "gruvbox8",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "spacecamp",
+    "repo": "jaredgorski/SpaceCamp",
+    "colorscheme": "spacecamp",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "rigel",
+    "repo": "Rigellute/rigel",
+    "colorscheme": "rigel",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "night-owl-vim",
+    "repo": "haishanh/night-owl.vim",
+    "colorscheme": "night-owl",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "monokai-pro",
+    "repo": "loctvl842/monokai-pro.nvim",
+    "colorscheme": "monokai-pro",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "monokai-pro"
+    },
+    "variants": [
+      "monokai-pro",
+      "monokai-pro-classic",
+      "monokai-pro-machine",
+      "monokai-pro-octagon",
+      "monokai-pro-ristretto",
+      "monokai-pro-spectrum"
+    ]
+  },
+  {
+    "name": "dogrun",
+    "repo": "wadackel/vim-dogrun",
+    "colorscheme": "dogrun",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "vim-colors-xcode",
+    "repo": "lunacookies/vim-colors-xcode",
+    "colorscheme": "xcodedark",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    },
+    "variants": [
+      "xcodedark",
+      "xcodelight"
+    ]
+  },
+  {
+    "name": "onenord",
+    "repo": "rmehri01/onenord.nvim",
+    "colorscheme": "onenord",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "onenord"
+    }
+  },
+  {
+    "name": "kanso",
+    "repo": "webhooked/kanso.nvim",
+    "colorscheme": "kanso",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "kanso"
+    }
+  },
+  {
+    "name": "kanagawa-paper",
+    "repo": "thesimonho/kanagawa-paper.nvim",
+    "colorscheme": "kanagawa-paper",
+    "meta": {
+      "strategy": "colorscheme_only"
+    }
+  }
+]

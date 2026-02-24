@@ -1,0 +1,274 @@
+[
+  {
+    "name": "oxocarbon",
+    "repo": "nyoom-engineering/oxocarbon.nvim",
+    "colorscheme": "oxocarbon",
+    "meta": {
+      "strategy": "colorscheme_only"
+    },
+    "variants": [
+      {
+        "name": "oxocarbon-dark",
+        "colorscheme": "oxocarbon",
+        "meta": {
+          "opts_o": {
+            "background": "dark"
+          }
+        }
+      },
+      {
+        "name": "oxocarbon-light",
+        "colorscheme": "oxocarbon",
+        "meta": {
+          "opts_o": {
+            "background": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "hybrid",
+    "repo": "w0ng/vim-hybrid",
+    "colorscheme": "hybrid",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "monokai",
+    "repo": "crusoexia/vim-monokai",
+    "colorscheme": "monokai",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "dracula",
+    "repo": "dracula/vim",
+    "colorscheme": "dracula",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "cyberdream",
+    "repo": "scottmckendry/cyberdream.nvim",
+    "colorscheme": "cyberdream",
+    "meta": {
+      "strategy": "colorscheme_only"
+    },
+    "variants": [
+      {
+        "name": "cyberdream-dark",
+        "colorscheme": "cyberdream",
+        "meta": {
+          "opts_o": {
+            "background": "dark"
+          }
+        }
+      },
+      {
+        "name": "cyberdream-light",
+        "colorscheme": "cyberdream",
+        "meta": {
+          "opts_o": {
+            "background": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "moonfly",
+    "repo": "bluz71/vim-moonfly-colors",
+    "colorscheme": "moonfly",
+    "meta": {
+      "strategy": "colorscheme_only"
+    }
+  },
+  {
+    "name": "tender",
+    "repo": "jacoborus/tender.vim",
+    "colorscheme": "tender",
+    "meta": {
+      "strategy": "colorscheme_only"
+    }
+  },
+  {
+    "name": "oceanic-next",
+    "repo": "mhartington/oceanic-next",
+    "colorscheme": "OceanicNext",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "material",
+    "repo": "marko-cerovac/material.nvim",
+    "colorscheme": "material",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "material"
+    },
+    "variants": [
+      "material-deep-ocean",
+      "material-oceanic",
+      "material-palenight",
+      "material-darker",
+      "material-lighter"
+    ]
+  },
+  {
+    "name": "zenbones",
+    "repo": "zenbones-theme/zenbones.nvim",
+    "colorscheme": "zenbones",
+    "meta": {
+      "strategy": "colorscheme_only"
+    },
+    "variants": [
+      "zenbones",
+      "zenburned",
+      "zenwritten",
+      "zenwritten_light",
+      "zenwritten_dark",
+      "neobones",
+      "forestbones",
+      "nordbones",
+      "rosebones",
+      "tokyobones",
+      "seoulbones",
+      "duckbones",
+      "kanagawabones"
+    ]
+  },
+  {
+    "name": "onedarkpro",
+    "repo": "olimorris/onedarkpro.nvim",
+    "colorscheme": "onedark",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "onedarkpro"
+    },
+    "variants": [
+      "onedark",
+      "onelight",
+      "onedark_vivid",
+      "onedark_dark"
+    ]
+  },
+  {
+    "name": "vim-code-dark",
+    "repo": "tomasiser/vim-code-dark",
+    "colorscheme": "codedark",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    }
+  },
+  {
+    "name": "edge",
+    "repo": "sainnhe/edge",
+    "colorscheme": "edge",
+    "meta": {
+      "strategy": "vimg_colorscheme"
+    },
+    "variants": [
+      {
+        "name": "edge-dark",
+        "colorscheme": "edge",
+        "meta": {
+          "opts_o": {
+            "background": "dark"
+          }
+        }
+      },
+      {
+        "name": "edge-light",
+        "colorscheme": "edge",
+        "meta": {
+          "opts_o": {
+            "background": "light"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "nordic",
+    "repo": "AlexvZyl/nordic.nvim",
+    "colorscheme": "nordic",
+    "meta": {
+      "strategy": "setup_colorscheme",
+      "module": "nordic"
+    }
+  },
+  {
+    "name": "vague",
+    "repo": "vague-theme/vague.nvim",
+    "colorscheme": "vague",
+    "meta": {
+      "strategy": "colorscheme_only"
+    }
+  },
+  {
+    "name": "nord.nvim",
+    "repo": "shaunsingh/nord.nvim",
+    "colorscheme": "nord",
+    "meta": {
+      "strategy": "colorscheme_only"
+    }
+  },
+  {
+    "name": "solarized-osaka",
+    "repo": "craftzdog/solarized-osaka.nvim",
+    "colorscheme": "solarized-osaka",
+    "meta": {
+      "strategy": "colorscheme_only"
+    },
+    "variants": [
+      "solarized-osaka",
+      "solarized-osaka-day"
+    ]
+  },
+  {
+    "name": "vscode",
+    "repo": "Mofiqul/vscode.nvim",
+    "colorscheme": "vscode",
+    "meta": {
+      "strategy": "setup_load",
+      "module": "vscode"
+    },
+    "variants": [
+      {
+        "name": "vscode-dark",
+        "colorscheme": "vscode",
+        "meta": {
+          "args": ["dark"]
+        }
+      },
+      {
+        "name": "vscode-light",
+        "colorscheme": "vscode",
+        "meta": {
+          "args": ["light"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "melange",
+    "repo": "savq/melange-nvim",
+    "colorscheme": "melange",
+    "meta": {
+      "strategy": "colorscheme_only"
+    }
+  },
+  {
+    "name": "nightfly",
+    "repo": "bluz71/vim-nightfly-colors",
+    "colorscheme": "nightfly",
+    "meta": {
+      "strategy": "colorscheme_only"
+    }
+  }
+]
