@@ -248,8 +248,8 @@ export async function runOnce(config: Config): Promise<RunStats> {
         }
       }
 
-      writeJson(config.output.themes, validEntries);
-      writeManifest(config.output.manifest, config.output.themes, validEntries.length);
+      writeJson(config.output.index, validEntries);
+      writeManifest(config.output.manifest, config.output.index, validEntries.length);
       stats.written = validEntries.length;
       logger.debug(
         `batch checkpoint written batch=${batchIndex + 1}/${totalBatches} entries=${validEntries.length}`

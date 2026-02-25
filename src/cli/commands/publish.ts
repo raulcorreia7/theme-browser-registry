@@ -28,7 +28,7 @@ export async function publishCommand(options: PublishOptions): Promise<CommandRe
 
   try {
     const result = publishArtifacts(
-      [config.output.themes, config.output.manifest],
+      [config.output.index, config.output.manifest],
       {
         message: config.publish.git.message,
         remote: config.publish.git.remote,

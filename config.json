@@ -29,7 +29,7 @@
     "staleAfterDays": 14
   },
   "output": {
-    "themes": "artifacts/themes.json",
+    "index": "artifacts/index.json",
     "manifest": "artifacts/manifest.json",
     "cache": ".state/indexer.db"
   },
