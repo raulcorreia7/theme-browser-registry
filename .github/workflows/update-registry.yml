@@ -29,6 +29,11 @@ jobs:
       - name: Run tests
         run: npm test
 
+      - name: Run full pipeline
+        run: npm run pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Check for existing themes.json
         id: check-existing
         run: |
@@ -39,10 +44,27 @@ jobs:
             echo "exists=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Run indexer
-        run: npm run sync -- --config config.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate top 50 themes file
+        id: top-themes
+        run: |
+          node -e "
+            const fs = require('fs');
+            const themes = JSON.parse(fs.readFileSync('artifacts/themes.json', 'utf-8'));
+            
+            // Sort by stars (descending), filter out builtins for ranking
+            const ranked = themes
+              .filter(t => t.repo && t.stars)
+              .sort((a, b) => (b.stars || 0) - (a.stars || 0))
+              .slice(0, 50);
+            
+            // Get top 50 with all their variants
+            const topNames = new Set(ranked.map(t => t.name));
+            const topThemes = themes.filter(t => topNames.has(t.name));
+            
+            fs.writeFileSync('artifacts/themes-top-50.json', JSON.stringify(topThemes, null, 2));
+            console.log('Generated themes-top-50.json with', topThemes.length, 'themes');
+          "
+          echo "count=$(jq 'length' artifacts/themes-top-50.json)" >> $GITHUB_OUTPUT
 
       - name: Check if themes.json changed
         id: check-changes
@@ -71,7 +93,16 @@ jobs:
             --title "Registry Update ${{ steps.tag.outputs.value }}" \
             --notes "Automated registry update" \
             artifacts/themes.json \
+            artifacts/themes-top-50.json \
             artifacts/manifest.json
+
+      - name: Update plugin submodule
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          cp artifacts/themes-top-50.json theme-browser.nvim/lua/theme-browser/data/registry.json
+          git -C theme-browser.nvim add -A
+          git -C theme-browser.nvim commit -m "chore: update bundled registry (top 50 themes)"
+          git -C theme-browser.nvim push
 
       - name: Summary - No changes
         if: steps.check-changes.outputs.changed == 'false'

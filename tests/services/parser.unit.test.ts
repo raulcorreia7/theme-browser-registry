@@ -206,6 +206,43 @@ describe("parser", () => {
       expect(entry.variants?.map((v) => v.name)).toEqual(["dark", "light"]);
     });
 
+    it("detects dark mode from variant name suffix", () => {
+      const repo = makeRepoItem({ full_name: "owner/mytheme" });
+      const entry = buildEntry(repo, ["mytheme", "mytheme-dark", "mytheme-night", "mytheme-moon"]);
+      expect(entry.variants).toHaveLength(3);
+      expect(entry.variants?.[0]?.mode).toBe("dark");
+      expect(entry.variants?.[1]?.mode).toBe("dark");
+      expect(entry.variants?.[2]?.mode).toBe("dark");
+    });
+
+    it("detects light mode from variant name suffix", () => {
+      const repo = makeRepoItem({ full_name: "owner/mytheme" });
+      const entry = buildEntry(repo, ["mytheme", "mytheme-light", "mytheme-day", "mytheme-sun"]);
+      expect(entry.variants).toHaveLength(3);
+      expect(entry.variants?.[0]?.mode).toBe("light");
+      expect(entry.variants?.[1]?.mode).toBe("light");
+      expect(entry.variants?.[2]?.mode).toBe("light");
+    });
+
+    it("detects catppuccin-style variants (frappe/macchiato/mocha = dark, latte = light)", () => {
+      const repo = makeRepoItem({ full_name: "catppuccin/nvim" });
+      const entry = buildEntry(repo, ["catppuccin", "catppuccin-latte", "catppuccin-frappe", "catppuccin-macchiato", "catppuccin-mocha"]);
+      expect(entry.variants).toHaveLength(4);
+      const variantMap = new Map(entry.variants?.map((v) => [v.name, v.mode]));
+      expect(variantMap.get("catppuccin-latte")).toBe("light");
+      expect(variantMap.get("catppuccin-frappe")).toBe("dark");
+      expect(variantMap.get("catppuccin-macchiato")).toBe("dark");
+      expect(variantMap.get("catppuccin-mocha")).toBe("dark");
+    });
+
+    it("does not set mode for variants without recognizable patterns", () => {
+      const repo = makeRepoItem({ full_name: "owner/mytheme" });
+      const entry = buildEntry(repo, ["mytheme", "mytheme-wave", "mytheme-dragon"]);
+      expect(entry.variants).toHaveLength(2);
+      expect(entry.variants?.[0]?.mode).toBeUndefined();
+      expect(entry.variants?.[1]?.mode).toBeUndefined();
+    });
+
     it("omits variants when only base colorscheme", () => {
       const repo = makeRepoItem({ full_name: "owner/mytheme" });
       const entry = buildEntry(repo, ["mytheme"]);

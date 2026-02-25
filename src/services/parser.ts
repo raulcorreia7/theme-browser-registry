@@ -1,6 +1,33 @@
-import type { GitHubRepoItem, GitHubTreeItem, ThemeEntry, ThemeVariant } from "../types/schemas.js";
+import type { GitHubRepoItem, GitHubTreeItem, ThemeEntry, ThemeMode, ThemeVariant } from "../types/schemas.js";
 
 const COLORS_FILE_PATTERN = /^colors\/([^/]+)\.(vim|lua)$/;
+
+const DARK_MODE_PATTERNS = [
+  /dark$/,
+  /night$/,
+  /moon$/,
+  /storm$/,
+  /mocha$/,
+  /frappe$/,
+  /macchiato$/,
+  /deep$/,
+  /black$/,
+  /shadow$/,
+  /midnight$/,
+  /abyss$/,
+];
+
+const LIGHT_MODE_PATTERNS = [
+  /light$/,
+  /day$/,
+  /sun$/,
+  /latte$/,
+  /bright$/,
+  /white$/,
+  /paper$/,
+  /cream$/,
+  /morning$/,
+];
 
 const SUFFIXES_TO_STRIP = [
   ".nvim",
@@ -88,6 +115,24 @@ export function extractColorschemes(treeItems: GitHubTreeItem[]): string[] {
  * @param colors - Array of available colorscheme names
  * @returns The selected base colorscheme name
  */
+function detectVariantMode(variantName: string): ThemeMode | undefined {
+  const lower = variantName.toLowerCase();
+
+  for (const pattern of LIGHT_MODE_PATTERNS) {
+    if (pattern.test(lower)) {
+      return "light";
+    }
+  }
+
+  for (const pattern of DARK_MODE_PATTERNS) {
+    if (pattern.test(lower)) {
+      return "dark";
+    }
+  }
+
+  return undefined;
+}
+
 function pickBaseColorscheme(themeName: string, colors: string[]): string {
   if (colors.length === 0) {
     return themeName;
@@ -132,10 +177,17 @@ export function buildEntry(repoPayload: GitHubRepoItem, colorschemes: string[]):
 
   const variants: ThemeVariant[] = colorschemes
     .filter((c) => c !== baseColorscheme)
-    .map((value) => ({
-      name: value,
-      colorscheme: value,
-    }));
+    .map((value) => {
+      const variant: ThemeVariant = {
+        name: value,
+        colorscheme: value,
+      };
+      const mode = detectVariantMode(value);
+      if (mode) {
+        variant.mode = mode;
+      }
+      return variant;
+    });
 
   const topics = Array.isArray(repoPayload.topics)
     ? repoPayload.topics.filter((t): t is string => typeof t === "string" && t.length > 0)
