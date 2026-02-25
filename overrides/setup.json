@@ -1,0 +1,1603 @@
+{
+  "$schema": "../schemas/strategy.schema.json",
+  "strategy": "setup",
+  "count": 146,
+  "themes": [
+    {
+      "name": "0x96f",
+      "repo": "filipjanevski/0x96f.nvim",
+      "colorscheme": "0x96f",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "abyss",
+      "repo": "barrientosvctor/abyss.nvim",
+      "colorscheme": "abyss",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "achroma",
+      "repo": "binbandit/achroma.nvim",
+      "colorscheme": "achroma",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "aetheramethyst",
+      "repo": "aethersyscall/AetherAmethyst.nvim",
+      "colorscheme": "aetheramethyst-bliss",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "aetherglow",
+      "repo": "binbandit/aetherglow.nvim",
+      "colorscheme": "aetherglow",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "akane",
+      "repo": "M1nts02/akane.nvim",
+      "colorscheme": "akane-dark",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "akari",
+      "repo": "cappyzawa/akari-nvim",
+      "colorscheme": "akari",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "amaranth",
+      "repo": "kshinya7/amaranth.nvim",
+      "colorscheme": "amaranth",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "articblush",
+      "repo": "articblush/nvim",
+      "colorscheme": "articblush",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "astrotheme",
+      "repo": "AstroNvim/astrotheme",
+      "colorscheme": "astrotheme",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "atomic",
+      "repo": "kurund/atomic.nvim",
+      "colorscheme": "atomic",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "atrolite",
+      "repo": "Vex-I/atrolite.nvim",
+      "colorscheme": "atrolite",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "base16-pro-max",
+      "repo": "y3owk1n/base16-pro-max.nvim",
+      "colorscheme": "base16-pro-max",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "bearded",
+      "repo": "Ferouk/bearded-nvim",
+      "colorscheme": "bearded",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "bebop",
+      "repo": "ATTron/bebop.nvim",
+      "colorscheme": "bebop",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "binary",
+      "repo": "jackplus-xyz/binary.nvim",
+      "colorscheme": "binary",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "blackbeard",
+      "repo": "cvusmo/blackbeard-nvim",
+      "colorscheme": "blackbeard",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "blue-screen",
+      "repo": "ok-ryoko/blue-screen",
+      "colorscheme": "blue-screen",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "bluebell",
+      "repo": "GlitchedPanda/bluebell",
+      "colorscheme": "bluebell",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "bluloco",
+      "repo": "uloco/bluloco.nvim",
+      "colorscheme": "bluloco",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "file": "themes/bluloco.lua"
+        }
+      },
+      "variants": [
+        {
+          "name": "bluloco-dark",
+          "colorscheme": "bluloco",
+          "mode": "dark"
+        },
+        {
+          "name": "bluloco-light",
+          "colorscheme": "bluloco-light",
+          "mode": "light"
+        }
+      ]
+    },
+    {
+      "name": "bluloco",
+      "repo": "mistweaverco/bluloco.nvim",
+      "colorscheme": "bluloco",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "cassiopeia",
+      "repo": "kozlov721/cassiopeia.nvim",
+      "colorscheme": "cassiopeia",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "catppuccin",
+      "repo": "catppuccin/nvim",
+      "colorscheme": "catppuccin",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "catppuccin"
+        }
+      },
+      "variants": [
+        {
+          "name": "catppuccin-latte",
+          "colorscheme": "catppuccin-latte",
+          "mode": "light"
+        },
+        {
+          "name": "catppuccin-frappe",
+          "colorscheme": "catppuccin-frappe",
+          "mode": "dark"
+        },
+        {
+          "name": "catppuccin-macchiato",
+          "colorscheme": "catppuccin-macchiato",
+          "mode": "dark"
+        },
+        {
+          "name": "catppuccin-mocha",
+          "colorscheme": "catppuccin-mocha",
+          "mode": "dark"
+        }
+      ]
+    },
+    {
+      "name": "chai",
+      "repo": "Shobhit-Nagpal/chai.nvim",
+      "colorscheme": "chai",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "chromance",
+      "repo": "gruvw/chromance.nvim",
+      "colorscheme": "chromance",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "circus_show",
+      "repo": "simoesd/circus_show.nvim",
+      "colorscheme": "circus_show",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "cisco-theme",
+      "repo": "rdrachmanto/cisco-theme.nvim",
+      "colorscheme": "cisco",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "citruszest",
+      "repo": "zootedb0t/citruszest.nvim",
+      "colorscheme": "citruszest",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "citruszest"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "cobalt",
+      "repo": "wurli/cobalt.nvim",
+      "colorscheme": "cobalt",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "codeschool",
+      "repo": "adisen99/codeschool.nvim",
+      "colorscheme": "codeschool",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "color-chameleon",
+      "repo": "uhs-robert/color-chameleon.nvim",
+      "colorscheme": "color-chameleon",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "color-patch",
+      "repo": "denstiny/color-patch.nvim",
+      "colorscheme": "color-patch",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "colorscheme-installer",
+      "repo": "AlejandroSuero/colorscheme-installer.nvim",
+      "colorscheme": "colorscheme-installer",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "conifer",
+      "repo": "lucasadelino/conifer.nvim",
+      "colorscheme": "conifer",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "cyberdream",
+      "repo": "scottmckendry/cyberdream.nvim",
+      "colorscheme": "cyberdream",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "cyberdream"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "darkrose",
+      "repo": "water-sucks/darkrose.nvim",
+      "colorscheme": "darkrose",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "deepwhite",
+      "repo": "Verf/deepwhite.nvim",
+      "colorscheme": "deepwhite",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "doom-one",
+      "repo": "NTBBloodbath/doom-one.nvim",
+      "colorscheme": "doom-one",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "doom-one"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "earthtone",
+      "repo": "vaporif/earthtone.nvim",
+      "colorscheme": "earthtone",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "ef-themes",
+      "repo": "oonamo/ef-themes.nvim",
+      "colorscheme": "ef-arbutus",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "everblush",
+      "repo": "Everblush/nvim",
+      "colorscheme": "everblush",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "evergarden",
+      "repo": "everviolet/nvim",
+      "colorscheme": "evergarden",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "evergarden"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "fallout",
+      "repo": "shawilly/fallout.nvim",
+      "colorscheme": "fallout",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "finale",
+      "repo": "bartekjaszczak/finale-nvim",
+      "colorscheme": "finale",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "fleet",
+      "repo": "razcoen/fleet.nvim",
+      "colorscheme": "fleet",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "folksoftware",
+      "repo": "folksoftware/nvim",
+      "colorscheme": "folk",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "forest-night",
+      "repo": "adibhanna/forest-night.nvim",
+      "colorscheme": "forest-night",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "glyph",
+      "repo": "cxinu/glyph.nvim",
+      "colorscheme": "glyph",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "gruvbox.nvim",
+      "repo": "ellisonleao/gruvbox.nvim",
+      "colorscheme": "gruvbox",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "gruvbox"
+        }
+      },
+      "variants": [
+        {
+          "name": "gruvbox-nvim-dark",
+          "colorscheme": "gruvbox",
+          "mode": "dark"
+        },
+        {
+          "name": "gruvbox-nvim-light",
+          "colorscheme": "gruvbox",
+          "mode": "light"
+        }
+      ]
+    },
+    {
+      "name": "heap",
+      "repo": "valonmulolli/heap.nvim",
+      "colorscheme": "heap",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "heatherfield",
+      "repo": "egerhether/heatherfield.nvim",
+      "colorscheme": "heatherfield",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "huez",
+      "repo": "vague2k/huez.nvim",
+      "colorscheme": "huez",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "hybrid",
+      "repo": "HoNamDuong/hybrid.nvim",
+      "colorscheme": "hybrid",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "ignite",
+      "repo": "Oniup/ignite.nvim",
+      "colorscheme": "ignite",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "jb",
+      "repo": "nickkadutskyi/jb.nvim",
+      "colorscheme": "jb",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "kanagawa-paper",
+      "repo": "thesimonho/kanagawa-paper.nvim",
+      "colorscheme": "kanagawa-paper",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "karasu",
+      "repo": "scozu/karasu",
+      "colorscheme": "karasu",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "koda",
+      "repo": "oskarnurm/koda.nvim",
+      "colorscheme": "koda",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "komau",
+      "repo": "ntk148v/komau.vim",
+      "colorscheme": "komau",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "kurayami",
+      "repo": "kevinm6/kurayami.nvim",
+      "colorscheme": "kurayami",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "lackluster",
+      "repo": "slugbyte/lackluster.nvim",
+      "colorscheme": "lackluster",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "lackluster"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "lake-dweller",
+      "repo": "yonatan-perel/lake-dweller.nvim",
+      "colorscheme": "lake-dweller",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "laserwave",
+      "repo": "lettertwo/laserwave.nvim",
+      "colorscheme": "laserwave",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "lemons",
+      "repo": "Kaikacy/Lemons.nvim",
+      "colorscheme": "lemons",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "lipoide",
+      "repo": "FelipeIzolan/lipoide.nvim",
+      "colorscheme": "lipoide",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "mannydark",
+      "repo": "MannyFay/mannydark.nvim",
+      "colorscheme": "mannydark",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "mellifluous",
+      "repo": "ramojus/mellifluous.nvim",
+      "colorscheme": "mellifluous",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "min-theme",
+      "repo": "datsfilipe/min-theme.nvim",
+      "colorscheme": "min-theme",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "mithrandir",
+      "repo": "adudenamedruby/mithrandir.nvim",
+      "colorscheme": "mithrandir",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "modus-themes",
+      "repo": "miikanissi/modus-themes.nvim",
+      "colorscheme": "modus",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "file": "themes/modus-themes.lua"
+        }
+      },
+      "variants": [
+        {
+          "name": "modus-operandi",
+          "colorscheme": "modus-operandi",
+          "mode": "light"
+        },
+        {
+          "name": "modus-vivendi",
+          "colorscheme": "modus-vivendi",
+          "mode": "dark"
+        }
+      ]
+    },
+    {
+      "name": "monoglow",
+      "repo": "wnkz/monoglow.nvim",
+      "colorscheme": "monoglow",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "mytilus",
+      "repo": "racakenon/mytilus",
+      "colorscheme": "mytilus",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "nagisa",
+      "repo": "SanzharKuandyk/nagisa.nvim",
+      "colorscheme": "nagisa",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "nanode",
+      "repo": "KijitoraFinch/nanode.nvim",
+      "colorscheme": "nanode",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "nebulae",
+      "repo": "Ureakim/nebulae.nvim",
+      "colorscheme": "nebulae",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "neg",
+      "repo": "neg-serg/neg.nvim",
+      "colorscheme": "neg",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "neko-night",
+      "repo": "neko-night/nvim",
+      "colorscheme": "nekonight",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "neodarcula",
+      "repo": "pmouraguedes/neodarcula.nvim",
+      "colorscheme": "neodarcula",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "neopywal",
+      "repo": "RedsXDD/neopywal.nvim",
+      "colorscheme": "neopywal",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "neovim-ayu",
+      "repo": "Shatur/neovim-ayu",
+      "colorscheme": "ayu",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "newt",
+      "repo": "sugiura-hiromiti/newt.nvim",
+      "colorscheme": "newt",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "night-owl",
+      "repo": "oxfist/night-owl.nvim",
+      "colorscheme": "night-owl",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "nightblossom",
+      "repo": "rijulpaul/nightblossom.nvim",
+      "colorscheme": "nightblossom",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "nightfall",
+      "repo": "2giosangmitom/nightfall.nvim",
+      "colorscheme": "nightfall",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "nightly",
+      "repo": "Alexis12119/nightly.nvim",
+      "colorscheme": "nightly",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "no-clown-fiesta",
+      "repo": "aktersnurra/no-clown-fiesta.nvim",
+      "colorscheme": "no-clown-fiesta",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "noctis-high-contrast",
+      "repo": "iagorrr/noctis-high-contrast.nvim",
+      "colorscheme": "noctishc",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "nord",
+      "repo": "gbprod/nord.nvim",
+      "colorscheme": "nord",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "nvim-andromeda",
+      "repo": "nobbmaestro/nvim-andromeda",
+      "colorscheme": "andromeda",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "nvim-nightsky",
+      "repo": "noorwachid/nvim-nightsky",
+      "colorscheme": "nightsky",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "nvim-quietlight",
+      "repo": "HUAHUAI23/nvim-quietlight",
+      "colorscheme": "quietlight",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "oasis",
+      "repo": "uhs-robert/oasis.nvim",
+      "colorscheme": "oasis",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "obscure",
+      "repo": "mslvx/obscure.nvim",
+      "colorscheme": "obscure",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "oldtale",
+      "repo": "topazape/oldtale.nvim",
+      "colorscheme": "oldtale",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "oldworld",
+      "repo": "dgox16/oldworld.nvim",
+      "colorscheme": "oldworld",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "oldworld"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "onehalf",
+      "repo": "ClearAspect/onehalf",
+      "colorscheme": "onehalfdark",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "ori",
+      "repo": "tar80/ori.nvim",
+      "colorscheme": "ori",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "palenightfall",
+      "repo": "JoosepAlviste/palenightfall.nvim",
+      "colorscheme": "palenightfall",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "pastelhash",
+      "repo": "glyccogen/pastelhash.vim",
+      "colorscheme": "pastelhash",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "pastelnight",
+      "repo": "pauchiner/pastelnight.nvim",
+      "colorscheme": "pastelnight",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "patana",
+      "repo": "cvigilv/patana.nvim",
+      "colorscheme": "patana",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "penumbra",
+      "repo": "Allianaab2m/penumbra.nvim",
+      "colorscheme": "penumbra",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "posterpole",
+      "repo": "ilof2/posterpole.nvim",
+      "colorscheme": "posterpole",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "pustota",
+      "repo": "pustota-theme/pustota.nvim",
+      "colorscheme": "pustota",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "pyramid",
+      "repo": "louisboilard/pyramid.nvim",
+      "colorscheme": "pyramid",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "quantum",
+      "repo": "kjssad/quantum.vim",
+      "colorscheme": "quantum",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "rakis",
+      "repo": "sample-usr/rakis.nvim",
+      "colorscheme": "rakis",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "randtheme",
+      "repo": "Styzex/RandTheme.nvim",
+      "colorscheme": "randtheme",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "rei",
+      "repo": "wheat-thin-wiens/rei.nvim",
+      "colorscheme": "rei",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "repl69",
+      "repo": "repl6669/repl69.nvim",
+      "colorscheme": "repl69",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "ronin",
+      "repo": "heavycircle/ronin.nvim",
+      "colorscheme": "ronin",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "rose-pine",
+      "repo": "rose-pine/neovim",
+      "colorscheme": "rose-pine",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "rose-pine"
+        }
+      },
+      "variants": [
+        {
+          "name": "rose-pine-main",
+          "colorscheme": "rose-pine-main",
+          "mode": "dark"
+        },
+        {
+          "name": "rose-pine-moon",
+          "colorscheme": "rose-pine-moon",
+          "mode": "dark"
+        },
+        {
+          "name": "rose-pine-dawn",
+          "colorscheme": "rose-pine-dawn",
+          "mode": "light"
+        }
+      ]
+    },
+    {
+      "name": "rosebones",
+      "repo": "ccxnu/rosebones",
+      "colorscheme": "rosebones",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "rusty",
+      "repo": "armannikoyan/rusty",
+      "colorscheme": "rusty",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "sakuracream",
+      "repo": "kurokoji/sakuracream.nvim",
+      "colorscheme": "sakuracream",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "sakurajima",
+      "repo": "Daiki48/sakurajima.nvim",
+      "colorscheme": "sakurajima",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "severance-mdr",
+      "repo": "Manicharan01/severance-mdr.nvim",
+      "colorscheme": "mdr",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "simple-night",
+      "repo": "at2er/simple-night.nvim",
+      "colorscheme": "simple-night",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "simplevim",
+      "repo": "Maurux01/simplevim",
+      "colorscheme": "simplevim",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "sleezwave",
+      "repo": "tfpickard/sleezwave.nvim",
+      "colorscheme": "sleezwave",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "solarized",
+      "repo": "maxmx03/solarized.nvim",
+      "colorscheme": "solarized",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "solarized"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "solarized-osaka",
+      "repo": "craftzdog/solarized-osaka.nvim",
+      "colorscheme": "solarized-osaka",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "solarized-osaka"
+        }
+      },
+      "variants": [
+        {
+          "name": "solarized-osaka",
+          "colorscheme": "solarized-osaka",
+          "mode": "dark"
+        },
+        {
+          "name": "solarized-osaka-day",
+          "colorscheme": "solarized-osaka-day",
+          "mode": "light"
+        }
+      ]
+    },
+    {
+      "name": "sonomin",
+      "repo": "Styzex/Sonomin.nvim",
+      "colorscheme": "sonomin",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "spacecat",
+      "repo": "rwxmad/spacecat.nvim",
+      "colorscheme": "spacecat",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "standard",
+      "repo": "fnune/standard",
+      "colorscheme": "standard",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "stcursorword",
+      "repo": "sontungexpt/stcursorword",
+      "colorscheme": "stcursorword",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "styler",
+      "repo": "folke/styler.nvim",
+      "colorscheme": "styler",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "terracotta",
+      "repo": "Pearljak/terracotta.nvim",
+      "colorscheme": "terracotta",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "theme-hub",
+      "repo": "Erl-koenig/theme-hub.nvim",
+      "colorscheme": "theme-hub",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "themify",
+      "repo": "LmanTW/themify.nvim",
+      "colorscheme": "themify",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "thescream",
+      "repo": "paeneumbra/thescream.nvim",
+      "colorscheme": "thescream",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "thorn",
+      "repo": "jpwol/thorn.nvim",
+      "colorscheme": "thorn",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "tinta",
+      "repo": "arxngr/tinta.nvim",
+      "colorscheme": "tinta",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "tokusa",
+      "repo": "aidyak/tokusa",
+      "colorscheme": "tokusa",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "tokyonight",
+      "repo": "folke/tokyonight.nvim",
+      "colorscheme": "tokyonight",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "tokyonight"
+        }
+      },
+      "variants": [
+        {
+          "name": "tokyonight-night",
+          "colorscheme": "tokyonight-night",
+          "mode": "dark"
+        },
+        {
+          "name": "tokyonight-storm",
+          "colorscheme": "tokyonight-storm",
+          "mode": "dark"
+        },
+        {
+          "name": "tokyonight-moon",
+          "colorscheme": "tokyonight-moon",
+          "mode": "dark"
+        },
+        {
+          "name": "tokyonight-day",
+          "colorscheme": "tokyonight-day",
+          "mode": "light"
+        }
+      ]
+    },
+    {
+      "name": "tomorrow-night-blue",
+      "repo": "gnfisher/tomorrow-night-blue.nvim",
+      "colorscheme": "tomorrow-night-blue",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "tune",
+      "repo": "thomasmarcel/tune.nvim",
+      "colorscheme": "tune",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "undefined",
+      "repo": "al3x-13/undefined.nvim",
+      "colorscheme": "undefined",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "vague",
+      "repo": "vague-theme/vague.nvim",
+      "colorscheme": "vague",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "vague"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "vanta",
+      "repo": "emanuel2718/vanta.nvim",
+      "colorscheme": "vanta",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "vaporvim",
+      "repo": "Drew-Daniels/vaporvim",
+      "colorscheme": "vaporvim",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "vesper",
+      "repo": "datsfilipe/vesper.nvim",
+      "colorscheme": "vesper",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "vesper"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "vesper",
+      "repo": "PunGrumpy/vesper.nvim",
+      "colorscheme": "vesper",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "which",
+      "repo": "DrKJeff16/which-colorscheme.nvim",
+      "colorscheme": "which",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "white-chocolate",
+      "repo": "EtiamNullam/white-chocolate.nvim",
+      "colorscheme": "white-chocolate",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "zenburn",
+      "repo": "phha/zenburn.nvim",
+      "colorscheme": "zenburn",
+      "meta": {
+        "strategy": {
+          "type": "setup",
+          "module": "zenburn"
+        }
+      },
+      "mode": "dark"
+    }
+  ]
+}

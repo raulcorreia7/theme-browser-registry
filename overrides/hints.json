@@ -1,0 +1,21 @@
+{
+  "$schema": "../schemas/hints.schema.json",
+  "description": "Manual strategy hints for edge cases that automatic detection gets wrong",
+  "hints": [
+    {
+      "repo": "rktjmp/lush.nvim",
+      "strategy": "setup",
+      "reason": "Theme generator framework, exports .setup() for creating themes"
+    },
+    {
+      "repo": "skylarmb/torchlight.nvim",
+      "strategy": "setup",
+      "reason": "Has lua module with setup() even though colors/ not present"
+    },
+    {
+      "repo": "hyperb1iss/silkcircuit-nvim",
+      "strategy": "setup",
+      "reason": "Has lua module with setup() even though colors/ not present"
+    }
+  ]
+}
