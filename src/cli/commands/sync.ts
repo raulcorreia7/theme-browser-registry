@@ -17,8 +17,12 @@ export async function syncCommand(options: SyncOptions): Promise<CommandResult> 
   const stats: RunStats = await runOnce(config);
   console.log(JSON.stringify(stats, null, 2));
 
+  if (stats.written === 0) {
+    return failure("No themes written", 1);
+  }
+
   if (stats.errors > 0) {
-    return failure(`Sync completed with ${stats.errors} errors`, 1);
+    console.log(`Note: ${stats.errors} repos skipped due to errors`);
   }
 
   return success(`Synced ${stats.written} themes`);
