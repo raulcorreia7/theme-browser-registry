@@ -1,7 +1,6 @@
 {
-  "$schema": "../schemas/strategy.schema.json",
   "strategy": "setup",
-  "count": 146,
+  "count": 149,
   "themes": [
     {
       "name": "0x96f",
@@ -713,6 +712,16 @@
       }
     },
     {
+      "name": "lush",
+      "repo": "rktjmp/lush.nvim",
+      "colorscheme": "lush",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
       "name": "mannydark",
       "repo": "MannyFay/mannydark.nvim",
       "colorscheme": "mannydark",
@@ -1266,6 +1275,16 @@
       }
     },
     {
+      "name": "silkcircuit",
+      "repo": "hyperb1iss/silkcircuit-nvim",
+      "colorscheme": "silkcircuit",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
       "name": "simple-night",
       "repo": "at2er/simple-night.nvim",
       "colorscheme": "simple-night",
@@ -1487,6 +1506,16 @@
       "name": "tomorrow-night-blue",
       "repo": "gnfisher/tomorrow-night-blue.nvim",
       "colorscheme": "tomorrow-night-blue",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "torchlight",
+      "repo": "skylarmb/torchlight.nvim",
+      "colorscheme": "torchlight",
       "meta": {
         "strategy": {
           "type": "setup"

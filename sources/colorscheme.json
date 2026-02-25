@@ -1,7 +1,6 @@
 {
-  "$schema": "../schemas/strategy.schema.json",
   "strategy": "colorscheme",
-  "count": 307,
+  "count": 304,
   "themes": [
     {
       "name": "4colors",
@@ -1281,16 +1280,6 @@
       }
     },
     {
-      "name": "lush",
-      "repo": "rktjmp/lush.nvim",
-      "colorscheme": "lush",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "maani",
       "repo": "TerseTears/maani.nvim",
       "colorscheme": "maani",
@@ -2249,16 +2238,6 @@
       }
     },
     {
-      "name": "silkcircuit",
-      "repo": "hyperb1iss/silkcircuit-nvim",
-      "colorscheme": "silkcircuit",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "slack",
       "repo": "ntk148v/slack.nvim",
       "colorscheme": "slack",
@@ -2493,16 +2472,6 @@
       "name": "tonada",
       "repo": "ubaldoatlein/tonada.nvim",
       "colorscheme": "tonada",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "torchlight",
-      "repo": "skylarmb/torchlight.nvim",
-      "colorscheme": "torchlight",
       "meta": {
         "strategy": {
           "type": "colorscheme"

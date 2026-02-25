@@ -1,5 +1,4 @@
 {
-  "$schema": "../schemas/strategy.schema.json",
   "strategy": "load",
   "count": 22,
   "themes": [

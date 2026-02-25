@@ -1,29 +1,13 @@
 {
-  "$schema": "../schemas/strategy.schema.json",
   "strategy": "builtin",
-  "count": 23,
+  "count": 27,
   "themes": [
-    {
-      "name": "default",
-      "colorscheme": "default",
-      "description": "Neovim default colorscheme",
-      "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
     {
       "name": "blue",
       "colorscheme": "blue",
       "description": "Neovim built-in blue colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -31,23 +15,22 @@
       "colorscheme": "darkblue",
       "description": "Neovim built-in darkblue colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
+    },
+    {
+      "name": "default",
+      "colorscheme": "default",
+      "description": "Neovim default colorscheme",
+      "builtin": true,
+      "meta": { "strategy": { "type": "colorscheme" } }
     },
     {
       "name": "delek",
       "colorscheme": "delek",
       "description": "Neovim built-in delek colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "light"
     },
     {
@@ -55,11 +38,7 @@
       "colorscheme": "desert",
       "description": "Neovim built-in desert colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -67,11 +46,7 @@
       "colorscheme": "elflord",
       "description": "Neovim built-in elflord colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -79,11 +54,7 @@
       "colorscheme": "evening",
       "description": "Neovim built-in evening colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -91,11 +62,7 @@
       "colorscheme": "habamax",
       "description": "Neovim built-in habamax colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -103,11 +70,7 @@
       "colorscheme": "industry",
       "description": "Neovim built-in industry colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -115,11 +78,7 @@
       "colorscheme": "koehler",
       "description": "Neovim built-in koehler colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -127,11 +86,7 @@
       "colorscheme": "lunaperche",
       "description": "Neovim built-in lunaperche colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "light"
     },
     {
@@ -139,11 +94,7 @@
       "colorscheme": "morning",
       "description": "Neovim built-in morning colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "light"
     },
     {
@@ -151,11 +102,7 @@
       "colorscheme": "murphy",
       "description": "Neovim built-in murphy colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -163,11 +110,7 @@
       "colorscheme": "pablo",
       "description": "Neovim built-in pablo colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -175,11 +118,7 @@
       "colorscheme": "peachpuff",
       "description": "Neovim built-in peachpuff colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "light"
     },
     {
@@ -187,11 +126,15 @@
       "colorscheme": "quiet",
       "description": "Neovim built-in quiet colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
+      "mode": "dark"
+    },
+    {
+      "name": "retrobox",
+      "colorscheme": "retrobox",
+      "description": "Neovim built-in retrobox colorscheme",
+      "builtin": true,
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -199,11 +142,7 @@
       "colorscheme": "ron",
       "description": "Neovim built-in ron colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -211,11 +150,7 @@
       "colorscheme": "shine",
       "description": "Neovim built-in shine colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "light"
     },
     {
@@ -223,23 +158,39 @@
       "colorscheme": "slate",
       "description": "Neovim built-in slate colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
+    },
+    {
+      "name": "sorbet",
+      "colorscheme": "sorbet",
+      "description": "Neovim built-in sorbet colorscheme",
+      "builtin": true,
+      "meta": { "strategy": { "type": "colorscheme" } },
+      "mode": "light"
     },
     {
       "name": "torte",
       "colorscheme": "torte",
       "description": "Neovim built-in torte colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
+      "mode": "dark"
+    },
+    {
+      "name": "unokai",
+      "colorscheme": "unokai",
+      "description": "Neovim built-in unokai colorscheme",
+      "builtin": true,
+      "meta": { "strategy": { "type": "colorscheme" } },
+      "mode": "dark"
+    },
+    {
+      "name": "vim",
+      "colorscheme": "vim",
+      "description": "Neovim built-in vim colorscheme",
+      "builtin": true,
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -247,11 +198,7 @@
       "colorscheme": "wildcharm",
       "description": "Neovim built-in wildcharm colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -259,11 +206,7 @@
       "colorscheme": "zaibatsu",
       "description": "Neovim built-in zaibatsu colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "dark"
     },
     {
@@ -271,11 +214,7 @@
       "colorscheme": "zellner",
       "description": "Neovim built-in zellner colorscheme",
       "builtin": true,
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
+      "meta": { "strategy": { "type": "colorscheme" } },
       "mode": "light"
     }
   ]

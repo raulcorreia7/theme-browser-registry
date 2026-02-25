@@ -5582,6 +5582,18 @@
       "mode": "dark"
     },
     {
+      "name": "retrobox",
+      "colorscheme": "retrobox",
+      "description": "Neovim built-in retrobox colorscheme",
+      "builtin": true,
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      },
+      "mode": "dark"
+    },
+    {
       "name": "ron",
       "colorscheme": "ron",
       "description": "Neovim built-in ron colorscheme",
@@ -5618,9 +5630,45 @@
       "mode": "dark"
     },
     {
+      "name": "sorbet",
+      "colorscheme": "sorbet",
+      "description": "Neovim built-in sorbet colorscheme",
+      "builtin": true,
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      },
+      "mode": "light"
+    },
+    {
       "name": "torte",
       "colorscheme": "torte",
       "description": "Neovim built-in torte colorscheme",
+      "builtin": true,
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "unokai",
+      "colorscheme": "unokai",
+      "description": "Neovim built-in unokai colorscheme",
+      "builtin": true,
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      },
+      "mode": "dark"
+    },
+    {
+      "name": "vim",
+      "colorscheme": "vim",
+      "description": "Neovim built-in vim colorscheme",
       "builtin": true,
       "meta": {
         "strategy": {
