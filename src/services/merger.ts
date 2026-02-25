@@ -1,5 +1,5 @@
 import { existsSync, readFileSync } from "node:fs";
-import type { ThemeEntry } from "../types/schemas.js";
+import type { ThemeEntry, ThemeMeta, ThemeStrategy } from "../types/schemas.js";
 
 type OverrideEntry = Partial<ThemeEntry> & { repo: string };
 
@@ -83,6 +83,25 @@ function mergeEntry(base: ThemeEntry, override: Partial<ThemeEntry>): ThemeEntry
   return {
     ...base,
     ...override,
-    meta: override.meta ? { ...base.meta, ...override.meta } : base.meta,
+    meta: override.meta 
+      ? { ...base.meta, strategy: mergeStrategy(base.meta?.strategy, override.meta?.strategy) }
+      : base.meta,
+  };
+}
+
+function mergeStrategy(
+  base?: ThemeStrategy, 
+  override?: ThemeStrategy
+): ThemeStrategy | undefined {
+  if (!override) return base;
+  if (!base) return override;
+  
+  return {
+    ...base,
+    ...override,
+    vim: {
+      ...base.vim,
+      ...override.vim,
+    },
   };
 }

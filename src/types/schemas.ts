@@ -17,20 +17,59 @@ import { z } from "zod";
 export const BackgroundSchema = z.enum(["dark", "light"]);
 
 /**
- * Adapter types for theme loading
- */
-export const LoadAdapterSchema = z.enum(["load", "setup_load", "use"]);
-
-/**
  * Theme loading strategies
  */
 export const LoadStrategySchema = z.enum([
-  "colorscheme_only",
+  "colorscheme",
+  "setup",
   "load",
-  "setup_colorscheme",
-  "setup_load",
-  "vimg_colorscheme",
+  "file",
 ]);
+
+/**
+ * Theme mode (dark/light)
+ */
+export const ThemeModeSchema = z.enum(["dark", "light"]);
+
+/**
+ * Vim options (vim.g and vim.o)
+ */
+export const VimOptionsSchema = z.object({
+  g: z.record(z.unknown()).optional(),
+  o: z.record(z.unknown()).optional(),
+});
+
+/**
+ * Theme strategy configuration
+ */
+export const ThemeStrategySchema = z.object({
+  type: LoadStrategySchema.optional(),
+  module: z.string().optional(),
+  file: z.string().optional(),
+  args: z.array(z.string()).optional(),
+  opts: z.record(z.unknown()).optional(),
+  vim: VimOptionsSchema.optional(),
+  mode: ThemeModeSchema.optional(),
+});
+
+/**
+ * Theme metadata for advanced loading
+ */
+export const ThemeMetaSchema = z.object({
+  strategy: ThemeStrategySchema.optional(),
+  mode: ThemeModeSchema.optional(),
+});
+
+/**
+ * Theme variant (e.g., different color schemes for same theme)
+ */
+export const ThemeVariantSchema = z.object({
+  colorscheme: z.string().min(1),
+  meta: ThemeMetaSchema.optional(),
+  mode: ThemeModeSchema.optional(),
+  name: z.string().min(1),
+  variant: z.string().optional(),
+});
 
 /**
  * Main theme entry schema
@@ -43,43 +82,19 @@ export const ThemeEntrySchema = z.object({
   description: z.string().optional(),
   disabled: z.boolean().optional(),
   homepage: z.string().optional(),
-  meta: z.lazy(() => ThemeMetaSchema).optional(),
+  meta: ThemeMetaSchema.optional(),
   name: z.string().min(1),
   repo: z.string().regex(/^[a-zA-Z0-9_-]+\/[a-zA-Z0-9._-]+$/),
   stars: z.number().int().nonnegative().optional(),
   topics: z.array(z.string()).optional(),
   updated_at: z.string().optional(),
-  variants: z.array(z.lazy(() => ThemeVariantSchema)).optional(),
-});
-
-/**
- * Theme metadata for advanced loading
- */
-export const ThemeMetaSchema = z.object({
-  adapter: LoadAdapterSchema.optional(),
-  args: z.array(z.string()).optional(),
-  background: BackgroundSchema.optional(),
-  module: z.string().optional(),
-  opts: z.record(z.unknown()).optional(),
-  opts_g: z.record(z.unknown()).optional(),
-  opts_o: z.record(z.unknown()).optional(),
-  strategy: LoadStrategySchema.optional(),
+  variants: z.array(ThemeVariantSchema).optional(),
 });
 
 /**
  * Full theme registry (array of entries)
  */
 export const ThemeRegistrySchema = z.array(ThemeEntrySchema);
-
-/**
- * Theme variant (e.g., different color schemes for same theme)
- */
-export const ThemeVariantSchema = z.object({
-  colorscheme: z.string().min(1),
-  meta: ThemeMetaSchema.optional(),
-  name: z.string().min(1),
-  variant: z.string().optional(),
-});
 
 // =============================================================================
 // GitHub Domain - GitHub API types
@@ -187,8 +202,10 @@ export type DbExport = z.infer<typeof DbExportSchema>;
 export type DbExportEntry = z.infer<typeof DbExportEntrySchema>;
 export type GitHubRepoItem = z.infer<typeof GitHubRepoItemSchema>;
 export type GitHubTreeItem = z.infer<typeof GitHubTreeItemSchema>;
-export type LoadAdapter = z.infer<typeof LoadAdapterSchema>;
 export type LoadStrategy = z.infer<typeof LoadStrategySchema>;
+export type ThemeMode = z.infer<typeof ThemeModeSchema>;
+export type VimOptions = z.infer<typeof VimOptionsSchema>;
+export type ThemeStrategy = z.infer<typeof ThemeStrategySchema>;
 export type Manifest = z.infer<typeof ManifestSchema>;
 export type RepoCacheEntry = z.infer<typeof RepoCacheEntrySchema>;
 export type RunStats = z.infer<typeof RunStatsSchema>;

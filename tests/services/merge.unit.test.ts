@@ -144,15 +144,15 @@ describe("merge", () => {
     it("deep merges meta field", () => {
       const entries = [makeEntry({
         repo: "owner/theme",
-        meta: { strategy: "colorscheme_only", module: "original" },
+        meta: { strategy: { type: "colorscheme", module: "original" } },
       })];
       const overrides = [{
         repo: "owner/theme",
-        meta: { strategy: "setup_colorscheme" },
+        meta: { strategy: { type: "setup" } },
       }];
       const result = applyOverrides(entries, overrides, []);
-      expect(result[0]?.meta?.strategy).toBe("setup_colorscheme");
-      expect(result[0]?.meta?.module).toBe("original");
+      expect(result[0]?.meta?.strategy?.type).toBe("setup");
+      expect(result[0]?.meta?.strategy?.module).toBe("original");
     });
 
     it("replaces variants entirely", () => {
