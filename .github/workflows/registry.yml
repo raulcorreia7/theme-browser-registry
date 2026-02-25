@@ -2,7 +2,7 @@ name: Registry Update
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 23 * * *'
   workflow_dispatch:
 
 permissions:
