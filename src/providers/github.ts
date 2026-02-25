@@ -226,6 +226,43 @@ export class GitHubClient {
     }
   }
 
+  /**
+   * Fetches the README content for a repository.
+   * @param repo - Repository name in "owner/repo" format
+   * @returns README content as string, or null if not found
+   * @throws {GitHubRequestError} When the API request fails (except 404 errors)
+   */
+  async fetchReadme(repo: string): Promise<string | null> {
+    await this.waitForRateLimit();
+
+    try {
+      const [owner, repoName] = repo.split("/");
+      if (!owner || !repoName) {
+        return null;
+      }
+
+      const response = await this.octokit.rest.repos.getReadme({
+        owner,
+        repo: repoName,
+      });
+
+      this.markRequest();
+
+      // Content is base64 encoded
+      const content = response.data.content;
+      if (content) {
+        return Buffer.from(content, "base64").toString("utf-8");
+      }
+      return null;
+    } catch (error) {
+      this.markRequest();
+      if (this.isNotFoundError(error)) {
+        return null;
+      }
+      throw this.wrapError(error);
+    }
+  }
+
   private async waitForRateLimit(): Promise<void> {
     const now = performance.now();
     if (now < this.nextRequestTime) {

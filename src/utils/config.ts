@@ -45,6 +45,7 @@ const FiltersSchema = z.object({
 
 const OutputSchema = z.object({
   index: z.string().catch("artifacts/index.json"),
+  themes: z.string().catch("artifacts/themes.json"),
   manifest: z.string().catch("artifacts/manifest.json"),
   cache: z.string().catch(".state/indexer.db"),
 });
@@ -97,6 +98,7 @@ export const ConfigSchema = z.object({
   }),
   output: OutputSchema.catch({
     index: "artifacts/index.json",
+    themes: "artifacts/themes.json",
     manifest: "artifacts/manifest.json",
     cache: ".state/indexer.db",
   }),

@@ -1,5 +1,5 @@
 import { existsSync, readFileSync } from "node:fs";
-import type { ThemeEntry, ThemeMeta, ThemeStrategy } from "../types/schemas.js";
+import type { ThemeEntry, ThemeStrategy } from "../types/schemas.js";
 
 type OverrideEntry = Partial<ThemeEntry> & { repo: string };
 

@@ -16,6 +16,942 @@
       "repo": "hyperb1iss/silkcircuit-nvim",
       "strategy": "setup",
       "reason": "Has lua module with setup() even though colors/ not present"
+    },
+    {
+      "repo": "rebelot/kanagawa.nvim",
+      "strategy": "load",
+      "variantModes": {
+        "kanagawa-wave": "dark",
+        "kanagawa-dragon": "dark",
+        "kanagawa-lotus": "dark"
+      },
+      "reason": "All kanagawa variants are dark themes"
+    },
+    {
+      "repo": "catppuccin/nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "catppuccin-latte": "light",
+        "catppuccin-frappe": "dark",
+        "catppuccin-macchiato": "dark",
+        "catppuccin-mocha": "dark"
+      },
+      "reason": "Catppuccin flavor modes: latte=light, others=dark"
+    },
+    {
+      "repo": "EdenEast/nightfox.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "nightfox": "dark",
+        "dayfox": "light",
+        "dawnfox": "light",
+        "duskfox": "dark",
+        "nordfox": "dark",
+        "terafox": "dark",
+        "carbonfox": "dark"
+      },
+      "reason": "Nightfox variants: day/dawn=light, others=dark"
+    },
+    {
+      "repo": "rose-pine/neovim",
+      "strategy": "setup",
+      "variantModes": {
+        "rose-pine-main": "dark",
+        "rose-pine-moon": "dark",
+        "rose-pine-dawn": "light"
+      },
+      "reason": "Rose Pine: main/moon=dark, dawn=light"
+    },
+    {
+      "repo": "sainnhe/everforest",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "everforest-dark": "dark",
+        "everforest-light": "light"
+      },
+      "reason": "Everforest has explicit dark/light variants"
+    },
+    {
+      "repo": "ayu-theme/ayu-vim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "ayu-dark": "dark",
+        "ayu-mirage": "dark",
+        "ayu-light": "light"
+      },
+      "reason": "Ayu: mirage is a dark variant"
+    },
+    {
+      "repo": "zenbones-theme/zenbones.nvim",
+      "strategy": "load",
+      "variantModes": {
+        "zenbones": "light",
+        "duckbones": "dark",
+        "neobones": "dark",
+        "nordbones": "dark",
+        "rosebones": "light",
+        "forestbones": "dark",
+        "tokyobones": "dark",
+        "kanagawabones": "dark",
+        "seoulbones": "dark",
+        "vimbones": "light",
+        "zenburned": "dark",
+        "zenwritten": "light"
+      },
+      "reason": "Zenbones variants: bones=light, others vary"
+    },
+    {
+      "repo": "Ferouk/bearded-nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "bearded-arc": "dark",
+        "bearded-arc-blueberry": "dark",
+        "bearded-arc-eggplant": "dark",
+        "bearded-arc-eolstorm": "dark",
+        "bearded-arc-reversed": "dark",
+        "bearded-black-&-amethyst": "dark",
+        "bearded-black-&-amethyst-soft": "dark",
+        "bearded-black-&-diamond": "dark",
+        "bearded-black-&-diamond-soft": "dark",
+        "bearded-black-&-emerald": "dark",
+        "bearded-black-&-emerald-soft": "dark",
+        "bearded-black-&-gold": "dark",
+        "bearded-black-&-gold-soft": "dark",
+        "bearded-black-&-ruby": "dark",
+        "bearded-black-&-ruby-soft": "dark",
+        "bearded-oceanic": "dark",
+        "bearded-oceanic-reversed": "dark",
+        "bearded-vivid-purple": "dark"
+      },
+      "reason": "Bearded variants with black/dark in name are dark themes"
+    },
+    {
+      "repo": "metalelf0/black-metal-theme-neovim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "black-metal-day-alt": "light",
+        "bathory": "dark",
+        "bathory-alt": "dark",
+        "burzum": "dark",
+        "burzum-alt": "dark",
+        "dark-funeral": "dark",
+        "dark-funeral-alt": "dark",
+        "darkthrone": "dark",
+        "darkthrone-alt": "dark",
+        "emperor": "dark",
+        "emperor-alt": "dark",
+        "gorgoroth": "dark",
+        "gorgoroth-alt": "dark",
+        "immortal": "dark",
+        "immortal-alt": "dark",
+        "impaled-nazarene": "dark",
+        "impaled-nazarene-alt": "dark",
+        "khold": "dark",
+        "khold-alt": "dark",
+        "marduk": "dark",
+        "marduk-alt": "dark",
+        "mayhem": "dark",
+        "mayhem-alt": "dark",
+        "nile": "dark",
+        "nile-alt": "dark",
+        "taake": "dark",
+        "taake-alt": "dark",
+        "thyrfing": "dark",
+        "thyrfing-alt": "dark",
+        "venom": "dark",
+        "venom-alt": "dark",
+        "windir": "dark",
+        "windir-alt": "dark"
+      },
+      "reason": "Black metal theme: only day-alt is light, all others dark"
+    },
+    {
+      "repo": "neko-night/nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "nekonight-aura": "dark",
+        "nekonight-aurora": "dark",
+        "nekonight-day": "light",
+        "nekonight-deep-ocean": "dark",
+        "nekonight-doom-one": "dark",
+        "nekonight-dracula": "dark",
+        "nekonight-fire-obsidian": "dark",
+        "nekonight-gruvbox": "dark",
+        "nekonight-mars": "dark",
+        "nekonight-material-theme": "dark",
+        "nekonight-moon": "dark",
+        "nekonight-moonlight": "dark",
+        "nekonight-night": "dark",
+        "nekonight-noctis-uva": "dark",
+        "nekonight-nord": "dark",
+        "nekonight-onedark": "dark",
+        "nekonight-onedark-deep": "dark",
+        "nekonight-shades-of-purple": "dark",
+        "nekonight-shades-of-purple-dark": "dark",
+        "nekonight-shades-of-purple-light": "light",
+        "nekonight-sky-blue": "dark",
+        "nekonight-space": "dark",
+        "nekonight-storm": "dark",
+        "nekonight-synthwave": "dark",
+        "nekonight-zenburn": "dark"
+      },
+      "reason": "Neko-night: validated from source - day and shades-of-purple-light are light, all others dark"
+    },
+    {
+      "repo": "oonamo/ef-themes.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "ef-day": "light",
+        "ef-light": "light",
+        "ef-autumn": "dark",
+        "ef-bio": "dark",
+        "ef-cherie": "dark",
+        "ef-cyprus": "dark",
+        "ef-dream": "dark",
+        "ef-eagle": "dark",
+        "ef-false": "dark",
+        "ef-frost": "dark",
+        "ef-kassio": "dark",
+        "ef-night": "dark",
+        "ef-owl": "dark",
+        "ef-reverie": "dark",
+        "ef-rosa": "dark",
+        "ef-spring": "dark",
+        "ef-summer": "dark",
+        "ef-symbiosis": "dark",
+        "ef-theme": "dark",
+        "ef-tint": "dark",
+        "ef-winter": "dark"
+      },
+      "reason": "Ef-themes: day/light are light, others dark"
+    },
+    {
+      "repo": "Iron-E/nvim-highlite",
+      "strategy": "setup",
+      "variantModes": {
+        "highlite-seoul256-light": "light",
+        "highlite-ayu": "dark",
+        "highlite-everforest": "dark",
+        "highlite-gruvbox": "dark",
+        "highlite-gruvbox-material": "dark",
+        "highlite-iceberg": "dark",
+        "highlite-molokai": "dark",
+        "highlite-papercolor": "light",
+        "highlite-seoul256": "dark",
+        "highlite-solarized8": "dark",
+        "highlite-solarized8-flat": "dark",
+        "highlite-solarized8-high": "dark",
+        "highlite-solarized8-low": "dark",
+        "highlite-sonokai": "dark",
+        "highlite-tomorrow": "light",
+        "highlite-tomorrow-night-blue": "dark",
+        "highlite-tomorrow-night-eighties": "dark"
+      },
+      "reason": "Highlite variants based on underlying theme modes"
+    },
+    {
+      "repo": "uhs-robert/oasis.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "oasis-mirage": "dark",
+        "oasis-desert": "dark",
+        "oasis-dune": "dark",
+        "oasis-canyon": "dark",
+        "oasis-sol": "light",
+        "oasis-rose": "light",
+        "oasis-lagoon": "dark",
+        "oasis-cactus": "dark"
+      },
+      "reason": "Oasis variants: desert/dune/canyon/mirage dark, sol/rose light"
+    },
+    {
+      "repo": "earthbound-themes/vim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "moonside": "dark",
+        "threed": "dark",
+        "threed-darker": "dark",
+        "cave-of-the-past": "dark",
+        "devils-machine": "dark",
+        "dusty-dunes": "light",
+        "dusty-dunes-darker": "dark",
+        "fire-spring": "dark",
+        "fire-spring-darker": "dark",
+        "magicant": "light"
+      },
+      "reason": "Earthbound themes: dusty-dunes/magicant light, others dark"
+    },
+    {
+      "repo": "slugbyte/lackluster.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "lackluster-dark": "dark",
+        "lackluster-night": "dark",
+        "lackluster-hack": "dark",
+        "lackluster-mint": "dark"
+      },
+      "reason": "All lackluster variants are dark themes"
+    },
+    {
+      "repo": "olimorris/onedarkpro.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "onedark_dark": "dark",
+        "onedark_vivid": "dark",
+        "onelight": "light",
+        "vaporwave": "dark"
+      },
+      "reason": "Onedarkpro: vivid/vaporwave are dark variants"
+    },
+    {
+      "repo": "projekt0n/github-nvim-theme",
+      "strategy": "setup",
+      "variantModes": {
+        "github_dark": "dark",
+        "github_dark_default": "dark",
+        "github_dark_dimmed": "dark",
+        "github_light": "light",
+        "github_light_default": "light"
+      },
+      "reason": "GitHub theme: dark/* are dark, light/* are light"
+    },
+    {
+      "repo": "talha-akram/noctis.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "noctis": "dark",
+        "noctis_azureus": "dark",
+        "noctis_bordo": "dark",
+        "noctis_hibernus": "light",
+        "noctis_lilac": "light",
+        "noctis_lux": "light",
+        "noctis_minimus": "dark",
+        "noctis_obscuro": "dark",
+        "noctis_sereno": "dark",
+        "noctis_uva": "dark",
+        "noctis_viola": "dark"
+      },
+      "reason": "Noctis: 8 dark, 3 light (hibernus, lilac, lux are light)"
+    },
+    {
+      "repo": "casonadams/walh",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "walh-blue": "dark",
+        "walh-darcula": "dark",
+        "walh-default": "dark",
+        "walh-default-legacy": "dark",
+        "walh-gruvbox": "dark",
+        "walh-nord": "dark",
+        "walh-one": "dark",
+        "walh-solarized": "dark",
+        "walh-tokyo-night": "dark"
+      },
+      "reason": "Walh: all variants adapt to terminal but default to dark"
+    },
+    {
+      "repo": "navarasu/onedark.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "onedark": "dark",
+        "onedark_cool": "dark",
+        "onedark_darker": "dark",
+        "onedark_deep": "dark",
+        "onedark_warm": "dark",
+        "onedark_warmer": "dark",
+        "onelight": "light"
+      },
+      "reason": "Onedark: all variants dark except onelight"
+    },
+    {
+      "repo": "everviolet/nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "evergarden": "dark",
+        "evergarden_fall": "dark",
+        "evergarden_spring": "dark",
+        "evergarden_summer": "dark",
+        "evergarden_winter": "dark"
+      },
+      "reason": "Evergarden: all seasonal variants are dark themes"
+    },
+    {
+      "repo": "ragatol/nvimthemes",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "bosa": "dark",
+        "handu": "dark",
+        "metal": "dark",
+        "nightfire": "dark",
+        "paper": "light",
+        "saria": "dark",
+        "saria_darker": "dark"
+      },
+      "reason": "Ragatol themes: paper is light, all others dark"
+    },
+    {
+      "repo": "AstroNvim/astrotheme",
+      "strategy": "setup",
+      "variantModes": {
+        "astrodark": "dark",
+        "astrolight": "light"
+      },
+      "reason": "Astrotheme: astrodark is default dark, astrolight is light"
+    },
+    {
+      "repo": "jpwol/thorn.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "thorn": "dark",
+        "thorn-dark-cold": "dark",
+        "thorn-dark-warm": "dark",
+        "thorn-light-cold": "light",
+        "thorn-light-warm": "light"
+      },
+      "reason": "Thorn: dark variants are dark, light variants are light"
+    },
+    {
+      "repo": "ribru17/bamboo.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "bamboo": "dark",
+        "bamboo-multiplex": "dark",
+        "bamboo-vulgaris": "dark"
+      },
+      "reason": "Bamboo: all variants are dark green themes"
+    },
+    {
+      "repo": "2giosangmitom/nightfall.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "nightfall": "dark",
+        "deeper-night": "dark",
+        "maron": "dark",
+        "nord": "dark"
+      },
+      "reason": "Nightfall: all variants are dark themes"
+    },
+    {
+      "repo": "Shatur/neovim-ayu",
+      "strategy": "setup",
+      "variantModes": {
+        "ayu-dark": "dark",
+        "ayu-light": "light",
+        "ayu-mirage": "dark"
+      },
+      "reason": "Ayu: mirage is a dark variant"
+    },
+    {
+      "repo": "AstroNvim/astrotheme",
+      "strategy": "setup",
+      "variantModes": {
+        "astrodark": "dark",
+        "astrojupiter": "dark",
+        "astrolight": "light",
+        "astromars": "dark"
+      },
+      "reason": "Astrotheme: astrolight is light, all others dark"
+    },
+    {
+      "repo": "everviolet/nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "evergarden-fall": "dark",
+        "evergarden-spring": "dark",
+        "evergarden-summer": "dark",
+        "evergarden-winter": "dark"
+      },
+      "reason": "Evergarden: all seasonal variants are dark themes"
+    },
+    {
+      "repo": "casedami/neomodern.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "hojicha": "dark",
+        "iceclimber": "dark",
+        "roseprime": "dark"
+      },
+      "reason": "Neomodern: all variants have dark/light modes but default dark"
+    },
+    {
+      "repo": "Ferouk/bearded-nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "bearded-altica": "dark",
+        "bearded-arc": "dark",
+        "bearded-arc-blueberry": "dark",
+        "bearded-arc-eggplant": "dark",
+        "bearded-arc-eolstorm": "dark",
+        "bearded-arc-reversed": "dark",
+        "bearded-aquarelle-cymbidium": "dark",
+        "bearded-aquarelle-hydrangea": "dark",
+        "bearded-aquarelle-lilac": "dark",
+        "bearded-black-&-amethyst": "dark",
+        "bearded-black-&-amethyst-soft": "dark",
+        "bearded-black-&-diamond": "dark",
+        "bearded-black-&-diamond-soft": "dark",
+        "bearded-black-&-emerald": "dark",
+        "bearded-black-&-emerald-soft": "dark",
+        "bearded-black-&-gold": "dark",
+        "bearded-black-&-gold-soft": "dark",
+        "bearded-black-&-ruby": "dark",
+        "bearded-black-&-ruby-soft": "dark",
+        "bearded-classics-anthracite": "dark",
+        "bearded-classics-light": "light",
+        "bearded-coffee": "dark",
+        "bearded-coffee-cream": "light",
+        "bearded-coffee-reversed": "dark",
+        "bearded-earth": "dark",
+        "bearded-feat-gold-d-raynh": "dark",
+        "bearded-feat-gold-d-raynh-light": "light",
+        "bearded-feat-mellejulie": "dark",
+        "bearded-feat-mellejulie-light": "light",
+        "bearded-feat-webdevcody": "dark",
+        "bearded-feat-will": "dark",
+        "bearded-hc-brewing-storm": "dark",
+        "bearded-hc-chocolate-espresso": "dark",
+        "bearded-hc-ebony": "dark",
+        "bearded-hc-flurry": "light",
+        "bearded-hc-midnightvoid": "dark",
+        "bearded-hc-minuit": "dark",
+        "bearded-hc-wonderland-wood": "dark",
+        "bearded-milkshake-blueberry": "light",
+        "bearded-milkshake-mango": "light",
+        "bearded-milkshake-mint": "light",
+        "bearded-milkshake-raspberry": "light",
+        "bearded-milkshake-vanilla": "light",
+        "bearded-monokai-black": "dark",
+        "bearded-monokai-metallian": "dark",
+        "bearded-monokai-reversed": "dark",
+        "bearded-monokai-stone": "dark",
+        "bearded-monokai-terra": "dark",
+        "bearded-oceanic": "dark",
+        "bearded-oceanic-reversed": "dark",
+        "bearded-solarized-dark": "dark",
+        "bearded-solarized-light": "light",
+        "bearded-solarized-reversed": "dark",
+        "bearded-stained-blue": "dark",
+        "bearded-stained-purple": "dark",
+        "bearded-surprising-blueberry": "dark",
+        "bearded-surprising-eggplant": "dark",
+        "bearded-surprising-watermelon": "dark",
+        "bearded-themanopia": "dark",
+        "bearded-void": "dark",
+        "bearded-vivid-black": "dark",
+        "bearded-vivid-light": "light",
+        "bearded-vivid-purple": "dark"
+      },
+      "reason": "Bearded: light themes based on background color - classics-light, coffee-cream, feat-*-light, hc-flurry, milkshake-*, solarized-light, vivid-light"
+    },
+    {
+      "repo": "elvessousa/sobrio",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "sobrio_ghost": "dark",
+        "sobrio_ghost_vim": "dark",
+        "sobrio_light_vim": "light",
+        "sobrio_verde": "dark",
+        "sobrio_verde_light_vim": "light",
+        "sobrio_verde_vim": "dark",
+        "sobrio_vim": "dark"
+      },
+      "reason": "Sobrio: light variants are light, others dark"
+    },
+    {
+      "repo": "folksoftware/nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "folk-abraxas": "dark",
+        "folk-anqa": "dark",
+        "folk-mandragola": "dark",
+        "folk-snawfus": "dark",
+        "folk-tatzelwurm": "dark",
+        "folk-ushirogami": "dark",
+        "folk-yurei": "dark",
+        "folk-zaratan": "dark"
+      },
+      "reason": "Folk: all variants are dark themes (folklore creatures)"
+    },
+    {
+      "repo": "Prince-Ramani/crush.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "blossom": "dark",
+        "furin": "dark",
+        "glass": "dark",
+        "monkeys": "dark"
+      },
+      "reason": "Crush: all variants are dark themes"
+    },
+    {
+      "repo": "leeonon/four-symbols.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "four-symbols-azure-dragon": "dark",
+        "four-symbols-black-tortoise": "dark",
+        "four-symbols-vermilion-bird": "dark",
+        "four-symbols-white-tiger": "dark"
+      },
+      "reason": "Four-symbols: all Chinese constellation variants are dark"
+    },
+    {
+      "repo": "nocksock/bloop.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "bloop-gruv": "dark",
+        "bloop-mirage": "dark",
+        "bloop_nvim": "dark"
+      },
+      "reason": "Bloop: all variants are dark themes"
+    },
+    {
+      "repo": "rockerBOO/boo-colorscheme-nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "forest_stream": "dark",
+        "radioactive_waste": "dark",
+        "sunset_cloud": "dark"
+      },
+      "reason": "Boo: all variants are dark themes"
+    },
+    {
+      "repo": "evilwaveforms/system-shock.vim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "system-shock-bl": "dark",
+        "system-shock-gr": "dark",
+        "system-shock-or": "dark",
+        "system-shock-pr": "dark"
+      },
+      "reason": "System-shock: all color variants are dark"
+    },
+    {
+      "repo": "ricardoraposo/nightwolf.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "nightwolf-dark-blue": "dark",
+        "nightwolf-dark-gray": "dark",
+        "nightwolf-gray": "dark"
+      },
+      "reason": "Nightwolf: all variants are dark themes"
+    },
+    {
+      "repo": "Mizux/vim-colorschemes",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "blade_runner": "dark",
+        "deus_ex": "dark",
+        "mouse_v2": "dark",
+        "pencil": "light",
+        "petit_bateau": "dark",
+        "silenthill": "dark"
+      },
+      "reason": "Mizux: pencil is light, others dark"
+    },
+    {
+      "repo": "earthbound-themes/vim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "cave-of-the-past": "light",
+        "devils-machine": "dark",
+        "dusty-dunes": "dark",
+        "dusty-dunes-darker": "dark",
+        "earthbound-darker": "dark",
+        "fire-spring": "dark",
+        "fire-spring-darker": "dark",
+        "magicant": "light",
+        "moonside": "dark",
+        "threed": "dark",
+        "threed-darker": "dark"
+      },
+      "reason": "Earthbound: validated from source - cave-of-the-past and magicant are light, all others dark"
+    },
+    {
+      "repo": "casonadams/walh",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "walh-cappuccino": "dark",
+        "walh-darcula": "dark",
+        "walh-default": "dark",
+        "walh-default-legacy": "dark",
+        "walh-gruvbox": "dark",
+        "walh-nord": "dark",
+        "walh-one": "dark",
+        "walh-solarized": "dark"
+      },
+      "reason": "Walh: validated from source - all variants are dark (adapt to terminal but designed for dark)"
+    },
+    {
+      "repo": "meain/hima-vim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "hima-plain": "dark"
+      },
+      "reason": "Hima: plain variant is dark"
+    },
+    {
+      "repo": "bradford-smith94/vim-colors-bsmith",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "bsmith16": "dark",
+        "bsmith8": "dark"
+      },
+      "reason": "Bsmith: both 16 and 8 color variants are dark"
+    },
+    {
+      "repo": "simonvic/minerals.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "simonvic_opal": "dark",
+        "simonvic_opal_opaque": "dark",
+        "simonvic_ruby": "dark",
+        "simonvic_ruby_monochrome": "dark",
+        "simonvic_silver": "dark"
+      },
+      "reason": "Minerals: all variants support both dark/light via vim.o.background, defaulting to dark"
+    },
+    {
+      "repo": "thesimonho/kanagawa-paper.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "kanagawa-paper-canvas": "light",
+        "kanagawa-paper-ink": "dark"
+      },
+      "reason": "Kanagawa-paper: validated from source - canvas is light, ink is dark"
+    },
+    {
+      "repo": "craftzdog/solarized-osaka.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "solarized-osaka": "dark"
+      },
+      "reason": "Solarized-osaka: base variant is dark"
+    },
+    {
+      "repo": "lucasadelino/conifer.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "conifer-lunar": "dark",
+        "conifer-solar": "light"
+      },
+      "reason": "Conifer: lunar is dark, solar is light"
+    },
+    {
+      "repo": "miikanissi/modus-themes.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "modus-vivendi": "dark"
+      },
+      "reason": "Modus: vivendi is the dark variant"
+    },
+    {
+      "repo": "repl6669/repl69.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "repl69-hell": "dark"
+      },
+      "reason": "Repl69: hell variant is dark"
+    },
+    {
+      "repo": "rijulpaul/nightblossom.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "nightblossom-pastel": "dark",
+        "nightblossom-sakura": "dark"
+      },
+      "reason": "Nightblossom: all variants are dark"
+    },
+    {
+      "repo": "rmehri01/onenord.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "onenord": "dark"
+      },
+      "reason": "Onenord: base variant is dark"
+    },
+    {
+      "repo": "aethersyscall/AetherAmethyst.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "aetheramethyst-eclipse": "dark"
+      },
+      "reason": "AetherAmethyst: eclipse is dark"
+    },
+    {
+      "repo": "aranggitoar/cgrey",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "cgrey-tr": "dark"
+      },
+      "reason": "Cgrey: transparent variant is dark"
+    },
+    {
+      "repo": "arch-err/ibad.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "ibad-italic": "dark"
+      },
+      "reason": "Ibad: italic variant is dark"
+    },
+    {
+      "repo": "arch-err/venomous.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "venomous-italic": "dark"
+      },
+      "reason": "Venomous: italic variant is dark"
+    },
+    {
+      "repo": "b0o/lavi",
+      "strategy": "setup",
+      "variantModes": {
+        "lavi_dev": "dark"
+      },
+      "reason": "Lavi: dev variant is dark"
+    },
+    {
+      "repo": "barrientosvctor/abyss.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "abyss-boreal": "dark"
+      },
+      "reason": "Abyss: boreal variant is dark"
+    },
+    {
+      "repo": "bilbopingouin/vim-syntax-colors",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "darkblue_t": "dark"
+      },
+      "reason": "Darkblue_t is dark"
+    },
+    {
+      "repo": "CosecSecCot/cosec-twilight.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "colorscheme": "dark"
+      },
+      "reason": "Cosec-twilight: base is dark"
+    },
+    {
+      "repo": "cwshugg/dwarrowdelf",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "dwarrowdelf-airline": "dark"
+      },
+      "reason": "Dwarrowdelf: airline variant is dark"
+    },
+    {
+      "repo": "hachy/eva01.vim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "eva01-LCL": "dark"
+      },
+      "reason": "Eva01: LCL variant is dark"
+    },
+    {
+      "repo": "HenryNewcomer/vim-theme-papaya",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "papaya_original": "dark"
+      },
+      "reason": "Papaya: original is dark"
+    },
+    {
+      "repo": "jaljoue/dracula-alucard.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "dracula-alucard-soft": "dark"
+      },
+      "reason": "Dracula-alucard: soft variant is dark"
+    },
+    {
+      "repo": "jaredgorski/SpaceCamp",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "spacecamp_lite": "dark"
+      },
+      "reason": "SpaceCamp: lite variant is dark"
+    },
+    {
+      "repo": "lettertwo/laserwave.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "laserwave-hi_c": "dark"
+      },
+      "reason": "Laserwave: hi_c variant is dark"
+    },
+    {
+      "repo": "lewpoly/sherbet.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "sherbet-italic": "dark"
+      },
+      "reason": "Sherbet: italic variant is dark"
+    },
+    {
+      "repo": "LunarVim/onedarker.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "onedarker-italic": "dark"
+      },
+      "reason": "Onedarker: italic variant is dark"
+    },
+    {
+      "repo": "Marfisc/vorange",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "voblue": "dark"
+      },
+      "reason": "Vorange: voblue variant is dark"
+    },
+    {
+      "repo": "maxmx03/dracula.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "dracula-soft": "dark"
+      },
+      "reason": "Dracula: soft variant is dark"
+    },
+    {
+      "repo": "mikesmithgh/gruvsquirrel.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "boxsquirrel": "dark"
+      },
+      "reason": "Gruvsquirrel: boxsquirrel is dark"
+    },
+    {
+      "repo": "pauchiner/pastelnight.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "pastelnight-highcontrast": "dark"
+      },
+      "reason": "Pastelnight: highcontrast is dark"
+    },
+    {
+      "repo": "ptdewey/darkearth-nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "lightearth": "light"
+      },
+      "reason": "Darkearth: lightearth is light"
+    },
+    {
+      "repo": "SanzharKuandyk/nagisa.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "EndOfTheWorld": "dark"
+      },
+      "reason": "Nagisa: EndOfTheWorld is dark"
+    },
+    {
+      "repo": "Woife5/windows.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "windows-xp": "dark"
+      },
+      "reason": "Windows: XP variant is dark"
     }
   ]
 }

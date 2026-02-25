@@ -38,6 +38,10 @@ interface RepoCacheTable {
   payload_json: string;
   /** Error message if parsing failed, null otherwise */
   parse_error: string | null;
+  /** README content for variant detection */
+  readme_content: string | null;
+  /** Unix timestamp of when README was last fetched */
+  readme_scanned_at: number | null;
 }
 
 /**
@@ -105,6 +109,7 @@ export class RepoCache {
       return;
     }
 
+    // Create table if not exists
     await this.db.schema
       .createTable("repo_cache")
       .ifNotExists()
@@ -114,6 +119,25 @@ export class RepoCache {
       .addColumn("payload_json", "text", (col) => col.notNull())
       .addColumn("parse_error", "text")
       .execute();
+
+    // Add readme columns if they don't exist (migration)
+    try {
+      await this.db.schema
+        .alterTable("repo_cache")
+        .addColumn("readme_content", "text")
+        .execute();
+    } catch {
+      // Column already exists
+    }
+
+    try {
+      await this.db.schema
+        .alterTable("repo_cache")
+        .addColumn("readme_scanned_at", "integer")
+        .execute();
+    } catch {
+      // Column already exists
+    }
 
     this.schemaInitialized = true;
   }
@@ -294,5 +318,85 @@ export class RepoCache {
     } catch {
       return null;
     }
+  }
+
+  /**
+   * Reads cached README content for a repository.
+   *
+   * @param repo - Repository identifier in "owner/name" format
+   * @returns The README content and timestamp, or null if not cached
+   */
+  async readReadme(repo: string): Promise<{ content: string; scannedAt: number } | null> {
+    await this.ensureSchema();
+
+    const row = await this.db
+      .selectFrom("repo_cache")
+      .select(["readme_content", "readme_scanned_at"])
+      .where("repo", "=", repo)
+      .executeTakeFirst();
+
+    if (!row || !row.readme_content || !row.readme_scanned_at) {
+      return null;
+    }
+
+    return {
+      content: row.readme_content,
+      scannedAt: row.readme_scanned_at,
+    };
+  }
+
+  /**
+   * Stores README content for a repository.
+   *
+   * @param repo - Repository identifier in "owner/name" format
+   * @param content - README content
+   */
+  async upsertReadme(repo: string, content: string): Promise<void> {
+    await this.ensureSchema();
+
+    const scannedAt = Math.floor(Date.now() / 1000);
+
+    await this.db
+      .insertInto("repo_cache")
+      .values({
+        repo,
+        updated_at: "",
+        scanned_at: 0,
+        payload_json: "{}",
+        readme_content: content,
+        readme_scanned_at: scannedAt,
+      })
+      .onConflict((oc) =>
+        oc.column("repo").doUpdateSet({
+          readme_content: content,
+          readme_scanned_at: scannedAt,
+        })
+      )
+      .execute();
+  }
+
+  /**
+   * Checks if README content should be refreshed.
+   *
+   * @param repo - Repository identifier in "owner/name" format
+   * @param staleAfterDays - Number of days after which data is stale
+   * @returns True if README should be refreshed
+   */
+  async shouldRefreshReadme(repo: string, staleAfterDays: number): Promise<boolean> {
+    await this.ensureSchema();
+
+    const row = await this.db
+      .selectFrom("repo_cache")
+      .select("readme_scanned_at")
+      .where("repo", "=", repo)
+      .executeTakeFirst();
+
+    if (!row || !row.readme_scanned_at) {
+      return true;
+    }
+
+    const staleSeconds = staleAfterDays * 86400;
+    const now = Math.floor(Date.now() / 1000);
+    return now - row.readme_scanned_at >= staleSeconds;
   }
 }

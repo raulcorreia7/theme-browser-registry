@@ -5,6 +5,7 @@ import { success, failure } from "./types.js";
 export interface SyncOptions {
   readonly config: string;
   readonly verbose: boolean;
+  readonly force?: boolean;
 }
 
 export async function syncCommand(options: SyncOptions): Promise<CommandResult> {
@@ -14,7 +15,7 @@ export async function syncCommand(options: SyncOptions): Promise<CommandResult> 
     setLogLevel("DEBUG");
   }
 
-  const stats: RunStats = await runOnce(config);
+  const stats: RunStats = await runOnce(config, options.force ?? false);
   console.log(JSON.stringify(stats, null, 2));
 
   if (stats.written === 0) {

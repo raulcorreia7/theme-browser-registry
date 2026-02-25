@@ -17,10 +17,12 @@ export function createCLI(): Command {
     .description("Sync themes once")
     .requiredOption("-c, --config <path>", "Path to configuration file")
     .option("-v, --verbose", "Enable verbose logging", false)
+    .option("-f, --force", "Force refresh all repos (ignore cache)", false)
     .action(async (options) => {
       const result = await syncCommand({
         config: options.config,
         verbose: options.verbose,
+        force: options.force,
       });
       process.exit(result.exitCode);
     });

@@ -1,33 +1,11 @@
 {
   "strategy": "load",
-  "count": 22,
+  "count": 16,
   "themes": [
     {
       "name": "ashki",
       "repo": "nlkli/ashki.nvim",
       "colorscheme": "ashki",
-      "meta": {
-        "strategy": {
-          "type": "load"
-        }
-      }
-    },
-    {
-      "name": "bamboo",
-      "repo": "ribru17/bamboo.nvim",
-      "colorscheme": "bamboo",
-      "meta": {
-        "strategy": {
-          "type": "load",
-          "file": "themes/bamboo.lua"
-        }
-      },
-      "mode": "dark"
-    },
-    {
-      "name": "black-metal-theme-neovim",
-      "repo": "metalelf0/black-metal-theme-neovim",
-      "colorscheme": "bathory",
       "meta": {
         "strategy": {
           "type": "load"
@@ -45,42 +23,14 @@
       }
     },
     {
-      "name": "github-nvim-theme",
-      "repo": "projekt0n/github-nvim-theme",
-      "colorscheme": "github_dark",
+      "name": "hyper",
+      "repo": "paulo-granthon/hyper.nvim",
+      "colorscheme": "hyper",
       "meta": {
         "strategy": {
-          "type": "load",
-          "module": "github-theme"
+          "type": "load"
         }
-      },
-      "variants": [
-        {
-          "name": "github_dark",
-          "colorscheme": "github_dark",
-          "mode": "dark"
-        },
-        {
-          "name": "github_dark_default",
-          "colorscheme": "github_dark_default",
-          "mode": "dark"
-        },
-        {
-          "name": "github_dark_dimmed",
-          "colorscheme": "github_dark_dimmed",
-          "mode": "dark"
-        },
-        {
-          "name": "github_light",
-          "colorscheme": "github_light",
-          "mode": "light"
-        },
-        {
-          "name": "github_light_default",
-          "colorscheme": "github_light_default",
-          "mode": "light"
-        }
-      ]
+      }
     },
     {
       "name": "kanagawa",
@@ -161,64 +111,6 @@
       }
     },
     {
-      "name": "neomodern",
-      "repo": "casedami/neomodern.nvim",
-      "colorscheme": "gyokuro",
-      "meta": {
-        "strategy": {
-          "type": "load"
-        }
-      }
-    },
-    {
-      "name": "nightfox",
-      "repo": "EdenEast/nightfox.nvim",
-      "colorscheme": "nightfox",
-      "meta": {
-        "strategy": {
-          "type": "load",
-          "module": "nightfox"
-        }
-      },
-      "variants": [
-        {
-          "name": "nightfox",
-          "colorscheme": "nightfox",
-          "mode": "dark"
-        },
-        {
-          "name": "dayfox",
-          "colorscheme": "dayfox",
-          "mode": "light"
-        },
-        {
-          "name": "dawnfox",
-          "colorscheme": "dawnfox",
-          "mode": "light"
-        },
-        {
-          "name": "duskfox",
-          "colorscheme": "duskfox",
-          "mode": "dark"
-        },
-        {
-          "name": "nordfox",
-          "colorscheme": "nordfox",
-          "mode": "dark"
-        },
-        {
-          "name": "terafox",
-          "colorscheme": "terafox",
-          "mode": "dark"
-        },
-        {
-          "name": "carbonfox",
-          "colorscheme": "carbonfox",
-          "mode": "dark"
-        }
-      ]
-    },
-    {
       "name": "nordic",
       "repo": "AlexvZyl/nordic.nvim",
       "colorscheme": "nordic",
@@ -239,138 +131,6 @@
           "type": "load"
         }
       }
-    },
-    {
-      "name": "onedark",
-      "repo": "navarasu/onedark.nvim",
-      "colorscheme": "onedark",
-      "meta": {
-        "strategy": {
-          "type": "load",
-          "module": "onedark"
-        }
-      },
-      "variants": [
-        {
-          "name": "onedark_dark",
-          "colorscheme": "onedark",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "load",
-              "module": "onedark",
-              "opts": {
-                "style": "dark"
-              }
-            }
-          }
-        },
-        {
-          "name": "onedark_darker",
-          "colorscheme": "onedark",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "load",
-              "module": "onedark",
-              "opts": {
-                "style": "darker"
-              }
-            }
-          }
-        },
-        {
-          "name": "onedark_cool",
-          "colorscheme": "onedark",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "load",
-              "module": "onedark",
-              "opts": {
-                "style": "cool"
-              }
-            }
-          }
-        },
-        {
-          "name": "onedark_deep",
-          "colorscheme": "onedark",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "load",
-              "module": "onedark",
-              "opts": {
-                "style": "deep"
-              }
-            }
-          }
-        },
-        {
-          "name": "onedark_warm",
-          "colorscheme": "onedark",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "load",
-              "module": "onedark",
-              "opts": {
-                "style": "warm"
-              }
-            }
-          }
-        },
-        {
-          "name": "onedark_warmer",
-          "colorscheme": "onedark",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "load",
-              "module": "onedark",
-              "opts": {
-                "style": "warmer"
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "onedarkpro",
-      "repo": "olimorris/onedarkpro.nvim",
-      "colorscheme": "onedarkpro",
-      "meta": {
-        "strategy": {
-          "type": "load",
-          "file": "themes/onedarkpro.lua"
-        }
-      },
-      "mode": "dark"
-    },
-    {
-      "name": "onenord",
-      "repo": "rmehri01/onenord.nvim",
-      "colorscheme": "onenord",
-      "meta": {
-        "strategy": {
-          "type": "load",
-          "module": "onenord"
-        }
-      },
-      "variants": [
-        {
-          "name": "onenord",
-          "colorscheme": "onenord",
-          "mode": "dark"
-        },
-        {
-          "name": "onenord-light",
-          "colorscheme": "onenord-light",
-          "mode": "light"
-        }
-      ]
     },
     {
       "name": "oxidescheme",
@@ -440,6 +200,79 @@
               ]
             }
           }
+        }
+      ]
+    },
+    {
+      "name": "zenbones",
+      "repo": "zenbones-theme/zenbones.nvim",
+      "colorscheme": "zenbones",
+      "meta": {
+        "strategy": {
+          "type": "load",
+          "module": "zenbones"
+        }
+      },
+      "variants": [
+        {
+          "name": "zenbones",
+          "colorscheme": "zenbones",
+          "mode": "light"
+        },
+        {
+          "name": "duckbones",
+          "colorscheme": "duckbones",
+          "mode": "dark"
+        },
+        {
+          "name": "neobones",
+          "colorscheme": "neobones",
+          "mode": "dark"
+        },
+        {
+          "name": "nordbones",
+          "colorscheme": "nordbones",
+          "mode": "dark"
+        },
+        {
+          "name": "rosebones",
+          "colorscheme": "rosebones",
+          "mode": "light"
+        },
+        {
+          "name": "forestbones",
+          "colorscheme": "forestbones",
+          "mode": "dark"
+        },
+        {
+          "name": "tokyobones",
+          "colorscheme": "tokyobones",
+          "mode": "dark"
+        },
+        {
+          "name": "kanagawabones",
+          "colorscheme": "kanagawabones",
+          "mode": "dark"
+        },
+        {
+          "name": "seoulbones",
+          "colorscheme": "seoulbones",
+          "mode": "dark"
+        },
+        {
+          "name": "vimbones",
+          "colorscheme": "vimbones",
+          "mode": "light"
+        },
+        {
+          "name": "zenburned",
+          "colorscheme": "zenburned",
+          "mode": "dark"
+        },
+        {
+          "name": "zenwritten",
+          "colorscheme": "zenwritten",
+          "mode": "light"
         }
       ]
     }

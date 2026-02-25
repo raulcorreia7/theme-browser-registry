@@ -1,8 +1,25 @@
 {
   "version": "2.0.0",
   "discovery": {
-    "topics": ["neovim-colorscheme", "nvim-theme", "vim-colorscheme"],
-    "includeRepos": ["folke/tokyonight.nvim", "catppuccin/nvim", "rebelot/kanagawa.nvim"],
+    "topics": ["neovim-colorscheme", "nvim-theme", "vim-colorscheme", "neovim-theme"],
+    "includeRepos": [
+      "folke/tokyonight.nvim",
+      "catppuccin/nvim",
+      "rebelot/kanagawa.nvim",
+      "eldritch-theme/eldritch.nvim",
+      "morhetz/gruvbox",
+      "dracula/vim",
+      "sainnhe/everforest",
+      "ayu-theme/ayu-vim",
+      "projekt0n/github-nvim-theme",
+      "rose-pine/neovim",
+      "Mofiqul/vscode.nvim",
+      "navarasu/onedark.nvim",
+      "EdenEast/nightfox.nvim"
+    ],
+    "excludeRepos": [
+      "veekram/vim"
+    ],
     "pagination": {
       "perPage": 100,
       "maxPagesPerTopic": 5
@@ -23,7 +40,7 @@
     "maxReposPerRun": 0
   },
   "filters": {
-    "minStars": 0,
+    "minStars": 10,
     "skipArchived": true,
     "skipDisabled": true,
     "staleAfterDays": 14

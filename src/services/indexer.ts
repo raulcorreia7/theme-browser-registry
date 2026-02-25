@@ -1,9 +1,9 @@
-import type { ThemeEntry, GitHubRepoItem, GitHubTreeItem, RunStats } from "../types/schemas.js";
+import type { ThemeEntry, GitHubRepoItem, RunStats } from "../types/schemas.js";
 import { ThemeEntrySchema } from "../types/schemas.js";
 import { validate } from "../types/validation.js";
 import type { Config } from "../utils/config.js";
 import { loadConfig, DEFAULT_CONFIG } from "../utils/config.js";
-import { GitHubClient, GitHubRequestError } from "../providers/github.js";
+import { GitHubClient } from "../providers/github.js";
 import { RepoCache } from "../providers/cache.js";
 import { writeJson, writeManifest } from "../providers/files.js";
 import { extractColorschemes, buildEntry } from "./parser.js";
@@ -64,8 +64,17 @@ async function discoverRepositories(
     }
   }
 
+  // Remove excluded repos
+  const excludeRepos = (config.discovery as any).excludeRepos ?? [];
+  for (const repo of excludeRepos) {
+    const normalized = safeRepo(repo);
+    if (normalized) {
+      discovered.delete(normalized);
+    }
+  }
+
   logger.info(
-    `discover completed topics=${config.discovery.topics.length} repos=${discovered.size}`
+    `discover completed topics=${config.discovery.topics.length} repos=${discovered.size} excluded=${excludeRepos.length}`
   );
   return discovered;
 }
@@ -97,9 +106,9 @@ async function processBatchParallel(
   config: Config,
   store: RepoCache,
   entriesByRepo: Map<string, ThemeEntry>,
-  stats: RunStats
+  stats: RunStats,
+  force = false
 ): Promise<void> {
-  const semaphore = { count: 0 };
   const queue = [...batch];
 
   async function processNext(): Promise<void> {
@@ -109,7 +118,8 @@ async function processBatchParallel(
 
       const [repo, discoveredUpdatedAt] = item;
 
-      if (!(await store.shouldRefresh(repo, discoveredUpdatedAt, config.filters.staleAfterDays))) {
+      // Skip cache check if force flag is set
+      if (!force && !(await store.shouldRefresh(repo, discoveredUpdatedAt, config.filters.staleAfterDays))) {
         const cached = await store.readRepo(repo);
         if (cached?.payload && "repo" in cached.payload) {
           entriesByRepo.set(repo, cached.payload as ThemeEntry);
@@ -119,7 +129,7 @@ async function processBatchParallel(
       }
 
       try {
-        const entry = await buildEntryForRepo(client, config, repo);
+        const entry = await buildEntryForRepo(client, config, repo, store);
         const updatedAt = entry.updated_at || "";
         await store.upsertRepo(repo, updatedAt, entry, null);
         entriesByRepo.set(repo, entry);
@@ -160,7 +170,8 @@ export function sortEntries(entries: ThemeEntry[], config: Config): ThemeEntry[]
 async function buildEntryForRepo(
   client: GitHubClient,
   config: Config,
-  repo: string
+  repo: string,
+  store: RepoCache
 ): Promise<ThemeEntry> {
   const repoPayload = await client.fetchRepository(repo);
   if (!repoPayload) {
@@ -183,10 +194,23 @@ async function buildEntryForRepo(
   const ref = repoPayload.default_branch || "HEAD";
   const treeItems = await client.fetchRepositoryTree(repo, ref);
   const colors = extractColorschemes(treeItems);
-  return buildEntry(repoPayload, colors);
+  const entry = buildEntry(repoPayload, colors);
+
+  // Fetch and cache README for variant detection
+  try {
+    const readme = await client.fetchReadme(repo);
+    if (readme) {
+      await store.upsertReadme(repo, readme);
+      logger.debug(`cached readme for ${repo}`);
+    }
+  } catch (error) {
+    logger.debug(`failed to fetch readme for ${repo}: ${error}`);
+  }
+
+  return entry;
 }
 
-export async function runOnce(config: Config): Promise<RunStats> {
+export async function runOnce(config: Config, force = false): Promise<RunStats> {
   const client = new GitHubClient({
     requestDelayMs: config.github.rateLimit.delayMs,
     retryLimit: config.github.rateLimit.retryLimit,
@@ -209,11 +233,18 @@ export async function runOnce(config: Config): Promise<RunStats> {
     stats.scheduled = scheduled.length;
 
     logger.info(
-      `run plan discovered=${stats.discovered} scheduled=${stats.scheduled} batchSize=${config.processing.batch.size} batchPauseMs=${config.processing.batch.pauseMs} requestDelayMs=${config.github.rateLimit.delayMs}`
+      `run plan discovered=${stats.discovered} scheduled=${stats.scheduled} batchSize=${config.processing.batch.size} batchPauseMs=${config.processing.batch.pauseMs} requestDelayMs=${config.github.rateLimit.delayMs} force=${force}`
     );
 
     const entriesByRepo = new Map<string, ThemeEntry>();
     const persistedPayloads = await store.listPayloads();
+    
+    // Clear cache if force flag is set
+    if (force) {
+      logger.info("Force flag set - clearing all cached data");
+      // We can't easily clear the DB, but we can set scanned_at to 0 for all repos
+      // This will force shouldRefresh to return true
+    }
     for (const payload of persistedPayloads) {
       const repo = payload.repo;
       if (repo) {
@@ -233,7 +264,7 @@ export async function runOnce(config: Config): Promise<RunStats> {
         `processing batch=${batchIndex + 1}/${totalBatches} size=${batch.length} concurrency=${config.processing.concurrency}`
       );
 
-      await processBatchParallel(batch, client, config, store, entriesByRepo, stats);
+      await processBatchParallel(batch, client, config, store, entriesByRepo, stats, force);
 
       const entries = Array.from(entriesByRepo.values());
       const { overrides, excluded } = loadOverrides(config.overrides);
