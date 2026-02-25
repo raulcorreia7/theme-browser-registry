@@ -1,15 +1,15 @@
-name: Registry Update
+name: Release
 
 on:
-  schedule:
-    - cron: '0 23 * * *'
+  push:
+    branches: [master, main]
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-registry:
+  release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -34,26 +34,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Check for existing themes.json
-        id: check-existing
-        run: |
-          if [ -f artifacts/themes.json ]; then
-            cp artifacts/themes.json artifacts/themes.json.old
-            echo "exists=true" >> $GITHUB_OUTPUT
-          else
-            echo "exists=false" >> $GITHUB_OUTPUT
-          fi
-
       - name: Generate top 50 themes file
-        id: top-themes
         run: |
           node -e "
             const fs = require('fs');
             const themes = JSON.parse(fs.readFileSync('artifacts/themes.json', 'utf-8'));
             
-            // Sort by stars (descending), filter out builtins for ranking
+            // Sort by stars (descending)
             const ranked = themes
-              .filter(t => t.repo && t.stars)
+              .filter(t => t.stars)
               .sort((a, b) => (b.stars || 0) - (a.stars || 0))
               .slice(0, 50);
             
@@ -64,20 +53,12 @@ jobs:
             fs.writeFileSync('artifacts/themes-top-50.json', JSON.stringify(topThemes, null, 2));
             console.log('Generated themes-top-50.json with', topThemes.length, 'themes');
           "
-          echo "count=$(jq 'length' artifacts/themes-top-50.json)" >> $GITHUB_OUTPUT
 
       - name: Check if themes.json changed
         id: check-changes
         run: |
-          if [ "${{ steps.check-existing.outputs.exists }}" == "true" ]; then
-            if diff -q artifacts/themes.json artifacts/themes.json.old > /dev/null 2>&1; then
-              echo "changed=false" >> $GITHUB_OUTPUT
-            else
-              echo "changed=true" >> $GITHUB_OUTPUT
-            fi
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
+          git diff --quiet artifacts/themes.json 2>/dev/null || echo "changed=true" >> $GITHUB_OUTPUT
+          echo "changed=true" >> $GITHUB_OUTPUT  # Always release for now
 
       - name: Generate release tag
         if: steps.check-changes.outputs.changed == 'true'
@@ -95,15 +76,3 @@ jobs:
             artifacts/themes.json \
             artifacts/themes-top-50.json \
             artifacts/manifest.json
-
-      - name: Update plugin submodule
-        if: steps.check-changes.outputs.changed == 'true'
-        run: |
-          cp artifacts/themes-top-50.json theme-browser.nvim/lua/theme-browser/data/registry.json
-          git -C theme-browser.nvim add -A
-          git -C theme-browser.nvim commit -m "chore: update bundled registry (top 50 themes)"
-          git -C theme-browser.nvim push
-
-      - name: Summary - No changes
-        if: steps.check-changes.outputs.changed == 'false'
-        run: echo "::notice::No changes detected in themes.json - skipping release"
