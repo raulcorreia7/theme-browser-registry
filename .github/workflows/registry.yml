@@ -32,15 +32,15 @@ jobs:
       - name: Check for existing themes.json
         id: check-existing
         run: |
-          if [ -f themes.json ]; then
-            cp themes.json themes.json.old
+          if [ -f artifacts/themes.json ]; then
+            cp artifacts/themes.json artifacts/themes.json.old
             echo "exists=true" >> $GITHUB_OUTPUT
           else
             echo "exists=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Run indexer
-        run: npx tsx src/index.ts run-once
+        run: npm run sync -- --config config.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -48,7 +48,7 @@ jobs:
         id: check-changes
         run: |
           if [ "${{ steps.check-existing.outputs.exists }}" == "true" ]; then
-            if diff -q themes.json themes.json.old > /dev/null 2>&1; then
+            if diff -q artifacts/themes.json artifacts/themes.json.old > /dev/null 2>&1; then
               echo "changed=false" >> $GITHUB_OUTPUT
             else
               echo "changed=true" >> $GITHUB_OUTPUT
@@ -70,8 +70,8 @@ jobs:
           gh release create ${{ steps.tag.outputs.value }} \
             --title "Registry Update ${{ steps.tag.outputs.value }}" \
             --notes "Automated registry update" \
-            themes.json \
-            artifacts/latest.json
+            artifacts/themes.json \
+            artifacts/manifest.json
 
       - name: Summary - No changes
         if: steps.check-changes.outputs.changed == 'false'
