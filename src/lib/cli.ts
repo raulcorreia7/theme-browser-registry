@@ -43,7 +43,6 @@ export const BundleCliOptionsSchema = BaseTaskOptionsSchema.extend({
 
 export const ValidateCliOptionsSchema = BaseTaskOptionsSchema.extend({
   themesPath: z.string().default("artifacts/themes.json"),
-  themesDir: z.string().default("themes"),
 });
 
 export type SyncCliOptions = z.infer<typeof SyncCliOptionsSchema>;

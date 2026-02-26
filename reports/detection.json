@@ -4,10 +4,10 @@
     "themeNames": [
       "vim-robpike"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -17,36 +17,14 @@
     ]
   },
   {
-    "repo": "0Risotto/rainbow12",
-    "themeNames": [
-      "rainbow12"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "1995parham/naz.vim",
     "themeNames": [
       "naz"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -57,28 +35,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
-    "repo": "2962fe22-10b3-43f8-8a33-252bd4b7435a/prasiolite",
-    "themeNames": [
-      "prasiolite"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
       }
     ]
   },
@@ -152,10 +108,10 @@
     "themeNames": [
       "vim-colors-hatsunemiku"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -184,36 +140,14 @@
     }
   },
   {
-    "repo": "5iddy/neonnights",
-    "themeNames": [
-      "neonnights"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
     "repo": "A/vim-trash-polka",
     "themeNames": [
       "vim-trash-polka"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -327,10 +261,10 @@
     "themeNames": [
       "vim-hue"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -408,10 +342,10 @@
     "themeNames": [
       "vim-eldar"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -430,10 +364,10 @@
     "themeNames": [
       "vim-colors-alabaster"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -452,10 +386,10 @@
     "themeNames": [
       "aylin"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -533,12 +467,12 @@
   {
     "repo": "ajmwagar/vim-deus",
     "themeNames": [
-      "deus"
+      "vim-deus"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -549,28 +483,6 @@
         "strategy": "colorscheme",
         "score": 3,
         "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "aknicram/sumptuous.nvim",
-    "themeNames": [
-      "sumptuous"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
       }
     ]
   },
@@ -633,28 +545,6 @@
     }
   },
   {
-    "repo": "akurdunkar/scruber.vim",
-    "themeNames": [
-      "scruber"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "al3x-13/undefined.nvim",
     "themeNames": [
       "undefined"
@@ -686,10 +576,10 @@
     "themeNames": [
       "nortia"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -735,10 +625,10 @@
     "themeNames": [
       "lumiere"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -784,10 +674,10 @@
     "themeNames": [
       "nordic"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "load",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "load",
@@ -848,10 +738,10 @@
     "themeNames": [
       "accent"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -892,10 +782,10 @@
     "themeNames": [
       "candyland"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -914,10 +804,10 @@
     "themeNames": [
       "sakura"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -942,58 +832,14 @@
     ]
   },
   {
-    "repo": "andrewmustea/black_sun",
-    "themeNames": [
-      "black_sun"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "anttikivi/lucid.nvim",
-    "themeNames": [
-      "lucid"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
     "repo": "aonemd/kuroi.vim",
     "themeNames": [
       "kuroi"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1012,10 +858,10 @@
     "themeNames": [
       "quietlight"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1026,33 +872,6 @@
         "strategy": "colorscheme",
         "score": 6,
         "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "aranggitoar/cgrey",
-    "themeNames": [
-      "cgrey"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 10,
-        "reason": "Manual hint override"
       }
     ]
   },
@@ -1142,10 +961,10 @@
     "themeNames": [
       "wolfram"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1159,10 +978,10 @@
     "themeNames": [
       "arshamiser"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1322,28 +1141,6 @@
     }
   },
   {
-    "repo": "aswathkk/DarkScene.vim",
-    "themeNames": [
-      "darkscene"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "at2er/simple-night.nvim",
     "themeNames": [
       "simple-night"
@@ -1375,10 +1172,10 @@
     "themeNames": [
       "base2tone"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1673,50 +1470,6 @@
     }
   },
   {
-    "repo": "atelierbram/Base4Tone-nvim",
-    "themeNames": [
-      "base4tone"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
-    "repo": "atomicwrites/vim-imprint",
-    "themeNames": [
-      "vim-imprint"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "ATTron/bebop.nvim",
     "themeNames": [
       "bebop"
@@ -1744,58 +1497,14 @@
     ]
   },
   {
-    "repo": "AustinMay1/Serendipity.nvim",
-    "themeNames": [
-      "serendipity"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "axvr/raider.vim",
-    "themeNames": [
-      "raider"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "ayu-theme/ayu-vim",
     "themeNames": [
       "ayu"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1812,35 +1521,7 @@
         "score": 10,
         "reason": "Manual hint override"
       }
-    ],
-    "variants": {
-      "total": 3,
-      "withMode": 3,
-      "detected": [
-        {
-          "name": "ayu-dark",
-          "detectedMode": "dark",
-          "confidence": 1,
-          "source": "hint",
-          "reason": "Manual hint override"
-        },
-        {
-          "name": "ayu-mirage",
-          "confidence": 1,
-          "source": "hint",
-          "detectedMode": "dark",
-          "reason": "Manual hint override"
-        },
-        {
-          "name": "ayu-light",
-          "detectedMode": "light",
-          "confidence": 1,
-          "source": "hint",
-          "reason": "Manual hint override"
-        }
-      ],
-      "coverage": 100
-    }
+    ]
   },
   {
     "repo": "b0o/lavi",
@@ -1888,59 +1569,15 @@
     "themeNames": [
       "vim-colorscheme-thaumaturge"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 6,
         "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "bamzi/bamzi-theme",
-    "themeNames": [
-      "bamzi-theme"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "barrettruth/midnight.nvim",
-    "themeNames": [
-      "midnight"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
       }
     ]
   },
@@ -2018,28 +1655,6 @@
     ]
   },
   {
-    "repo": "base16-community/base16-vim",
-    "themeNames": [
-      "base16"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "benbusby/colorstorm",
     "themeNames": [
       "colorstorm"
@@ -2053,28 +1668,6 @@
         "strategy": "unknown",
         "score": 0,
         "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "BeomjoonGoh/vim-desertBJ",
-    "themeNames": [
-      "vim-desertbj"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
       }
     ]
   },
@@ -2097,28 +1690,6 @@
         "strategy": "setup",
         "score": 4,
         "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
-    "repo": "bilbopingouin/vim-syntax-colors",
-    "themeNames": [
-      "vim-syntax-colors"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 10,
-        "reason": "Manual hint override"
       }
     ]
   },
@@ -2218,7 +1789,7 @@
   {
     "repo": "bluz71/vim-moonfly-colors",
     "themeNames": [
-      "moonfly"
+      "vim-moonfly-colors"
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
@@ -2240,7 +1811,7 @@
   {
     "repo": "bluz71/vim-nightfly-colors",
     "themeNames": [
-      "nightfly"
+      "vim-nightfly-colors"
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
@@ -2260,41 +1831,14 @@
     ]
   },
   {
-    "repo": "bradford-smith94/vim-colors-bsmith",
-    "themeNames": [
-      "vim-colors-bsmith"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 10,
-        "reason": "Manual hint override"
-      }
-    ]
-  },
-  {
     "repo": "bratpeki/truedark-vim",
     "themeNames": [
       "truedark"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2313,10 +1857,10 @@
     "themeNames": [
       "selenized"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2359,28 +1903,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "carakan/new-railscasts-theme",
-    "themeNames": [
-      "new-railscasts-theme"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -2475,10 +1997,10 @@
     "themeNames": [
       "walh"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "setup",
@@ -2571,28 +2093,6 @@
       ],
       "coverage": 100
     }
-  },
-  {
-    "repo": "catielanier/springtime-girls",
-    "themeNames": [
-      "springtime-girls"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
   },
   {
     "repo": "catppuccin/nvim",
@@ -2699,36 +2199,14 @@
     ]
   },
   {
-    "repo": "cedlemo/oneperc",
-    "themeNames": [
-      "oneperc"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
     "repo": "ChaseRensberger/christmas.nvim",
     "themeNames": [
       "christmas"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2739,28 +2217,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
-    "repo": "ChausseBenjamin/friffle-vim",
-    "themeNames": [
-      "friffle"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -2769,10 +2225,10 @@
     "themeNames": [
       "intellij"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2783,28 +2239,6 @@
         "strategy": "colorscheme",
         "score": 6,
         "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "chlorm/vim-colors-truecolor",
-    "themeNames": [
-      "vim-colors-truecolor"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
       }
     ]
   },
@@ -2884,63 +2318,14 @@
     }
   },
   {
-    "repo": "cloudUser98/oblivion.nvim",
-    "themeNames": [
-      "oblivion"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      },
-      {
-        "strategy": "file",
-        "score": 2,
-        "reason": "README suggests mode-dependent setup + colorscheme"
-      }
-    ]
-  },
-  {
-    "repo": "clpi/cyu.lua",
-    "themeNames": [
-      "cyu"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
     "repo": "cmoscofian/nibble-vim",
     "themeNames": [
       "nibble"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2973,69 +2358,10 @@
     "themeNames": [
       "iceberg"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "codeomnium-x/nox.nvim",
-    "themeNames": [
-      "nox"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "load",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "load",
-        "score": 8,
-        "reason": "README contains require(...).load(...)"
-      },
-      {
-        "strategy": "load",
-        "score": 2,
-        "reason": "README shows .load() pattern"
-      },
-      {
-        "strategy": "setup",
-        "score": 6,
-        "reason": "README contains require(...).setup(...)"
-      },
-      {
-        "strategy": "setup",
-        "score": 2,
-        "reason": "README shows setup({...}) options block"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      }
-    ]
-  },
-  {
-    "repo": "codingpotions/codely-vim-theme",
-    "themeNames": [
-      "codely-vim-theme"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3099,80 +2425,14 @@
     ]
   },
   {
-    "repo": "comfysage/gruvboxed",
-    "themeNames": [
-      "gruvboxed"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "comfysage/mimi.nvim",
-    "themeNames": [
-      "mimi"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "Comosaycomosah/badblood.nvim",
-    "themeNames": [
-      "badblood"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
     "repo": "connorholyday/vim-snazzy",
     "themeNames": [
       "vim-snazzy"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3183,28 +2443,6 @@
         "strategy": "colorscheme",
         "score": 3,
         "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "coocobolo/coocobolo.nvim",
-    "themeNames": [
-      "coocobolo"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
       }
     ]
   },
@@ -3232,28 +2470,6 @@
         "strategy": "setup",
         "score": 10,
         "reason": "Manual hint override"
-      }
-    ]
-  },
-  {
-    "repo": "CosecSecCot/midnight-desert.nvim",
-    "themeNames": [
-      "midnight-desert"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
       }
     ]
   },
@@ -3328,28 +2544,6 @@
     ]
   },
   {
-    "repo": "csgn/nolife.nvim",
-    "themeNames": [
-      "nolife"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
     "repo": "cvigilv/patana.nvim",
     "themeNames": [
       "patana"
@@ -3394,33 +2588,6 @@
     ]
   },
   {
-    "repo": "cwshugg/dwarrowdelf",
-    "themeNames": [
-      "dwarrowdelf"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 10,
-        "reason": "Manual hint override"
-      }
-    ]
-  },
-  {
     "repo": "cxinu/glyph.nvim",
     "themeNames": [
       "glyph"
@@ -3449,50 +2616,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "da0ab/dark_puerh.vim",
-    "themeNames": [
-      "dark_puerh"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "Daiki48/coolnessFlair.vim",
-    "themeNames": [
-      "coolnessflair"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -3562,10 +2685,10 @@
     "themeNames": [
       "dark-orchid"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3583,28 +2706,6 @@
     "repo": "darkvoid-theme/darkvoid.nvim",
     "themeNames": [
       "darkvoid"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
-    "repo": "darwinfroese/prairie",
-    "themeNames": [
-      "prairie"
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
@@ -3731,28 +2832,6 @@
     ]
   },
   {
-    "repo": "dekirisu/deki-rust.vim",
-    "themeNames": [
-      "deki-rust"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "denstiny/color-patch.nvim",
     "themeNames": [
       "color-patch"
@@ -3784,10 +2863,10 @@
     "themeNames": [
       "deviuspro"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3829,58 +2908,14 @@
     ]
   },
   {
-    "repo": "dgrco/deepspace.nvim",
-    "themeNames": [
-      "deepspace"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "dgrco/deepwater.nvim",
-    "themeNames": [
-      "deepwater"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
     "repo": "dikiaap/minimalist",
     "themeNames": [
       "minimalist"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3891,28 +2926,6 @@
         "strategy": "colorscheme",
         "score": 3,
         "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "disrupted/one.nvim",
-    "themeNames": [
-      "one"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
       }
     ]
   },
@@ -3943,10 +2956,10 @@
     "themeNames": [
       "dracula"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4037,28 +3050,6 @@
     ]
   },
   {
-    "repo": "DubskySteam/NeoM",
-    "themeNames": [
-      "neom"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
     "repo": "dybdeskarphet/gruvbox-minimal.nvim",
     "themeNames": [
       "gruvbox-minimal"
@@ -4087,28 +3078,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "earthbound-themes/vim",
-    "themeNames": [
-      "earthbound-themes"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 10,
-        "reason": "Manual hint override"
       }
     ]
   },
@@ -4219,43 +3188,6 @@
       ],
       "coverage": 100
     }
-  },
-  {
-    "repo": "edmondburnett/leeward.nvim",
-    "themeNames": [
-      "leeward"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "load",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "load",
-        "score": 8,
-        "reason": "README contains require(...).load(...)"
-      },
-      {
-        "strategy": "load",
-        "score": 2,
-        "reason": "README shows .load() pattern"
-      },
-      {
-        "strategy": "setup",
-        "score": 6,
-        "reason": "README contains require(...).setup(...)"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "file",
-        "score": 2,
-        "reason": "README suggests mode-dependent setup + colorscheme"
-      }
-    ]
   },
   {
     "repo": "egerhether/heatherfield.nvim",
@@ -4400,10 +3332,10 @@
     "themeNames": [
       "sobrio"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4522,12 +3454,12 @@
   {
     "repo": "embark-theme/vim",
     "themeNames": [
-      "embark"
+      "embark-theme"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4546,10 +3478,10 @@
     "themeNames": [
       "ceudah"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4568,10 +3500,10 @@
     "themeNames": [
       "vim-solarized"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4608,28 +3540,6 @@
     ]
   },
   {
-    "repo": "eruizc-dev/metropolis-vim",
-    "themeNames": [
-      "metropolis"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "EtiamNullam/white-chocolate.nvim",
     "themeNames": [
       "white-chocolate"
@@ -4648,50 +3558,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
-      }
-    ]
-  },
-  {
-    "repo": "evanthegrayt/vim-easteregg",
-    "themeNames": [
-      "vim-easteregg"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "everard/vim-aurora",
-    "themeNames": [
-      "vim-aurora"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
       }
     ]
   },
@@ -4795,85 +3661,14 @@
     }
   },
   {
-    "repo": "evilwaveforms/system-shock.vim",
-    "themeNames": [
-      "system-shock"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 10,
-        "reason": "Manual hint override"
-      }
-    ]
-  },
-  {
-    "repo": "fafa-a/anoukis",
-    "themeNames": [
-      "anoukis"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
-    "repo": "farbodsz/theme.nvim",
-    "themeNames": [
-      "farbodsz"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "felipeagc/fleet-theme-nvim",
     "themeNames": [
       "fleet-theme"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4937,28 +3732,6 @@
     ]
   },
   {
-    "repo": "fengzhiken/ceon.nvim",
-    "themeNames": [
-      "ceon"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
     "repo": "Ferouk/bearded-nvim",
     "themeNames": [
       "bearded"
@@ -5010,28 +3783,6 @@
         "score": 6,
         "reason": "README contains require(...).setup(...)"
       },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "fionn/grb256",
-    "themeNames": [
-      "grb256"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
@@ -5276,36 +4027,14 @@
     }
   },
   {
-    "repo": "followLemmi/cyberneon.nvim",
-    "themeNames": [
-      "cyberneon"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "forest-nvim/sequoia.nvim",
     "themeNames": [
       "sequoia"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5363,59 +4092,15 @@
     "themeNames": [
       "aquarium"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 3,
         "reason": "README shows vim.g globals without require()"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "fruit-in/vim-nong-theme",
-    "themeNames": [
-      "vim-nong-theme"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "fujikawahiroaki/omoto.vim",
-    "themeNames": [
-      "omoto"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
       },
       {
         "strategy": "colorscheme",
@@ -5438,28 +4123,6 @@
         "strategy": "setup",
         "score": 4,
         "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
-    "repo": "Gaylord-kcf/dookie.nvim",
-    "themeNames": [
-      "dookie"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
       }
     ]
   },
@@ -5517,10 +4180,10 @@
     "themeNames": [
       "vim-vitamin-onec"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5531,28 +4194,6 @@
         "strategy": "colorscheme",
         "score": 3,
         "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "gko/oldbook-theme",
-    "themeNames": [
-      "oldbook-theme"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -5653,77 +4294,6 @@
     ]
   },
   {
-    "repo": "gnualmalki/devel.nvim",
-    "themeNames": [
-      "devel"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
-    "repo": "grecodavide/custom16",
-    "themeNames": [
-      "custom16"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
-    "repo": "gremble0/yellowbeans.nvim",
-    "themeNames": [
-      "yellowbeans"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "setup",
-        "score": 2,
-        "reason": "README shows setup({...}) options block"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
     "repo": "gruvw/chromance.nvim",
     "themeNames": [
       "chromance"
@@ -5760,10 +4330,10 @@
     "themeNames": [
       "wombat256grf"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5778,58 +4348,14 @@
     ]
   },
   {
-    "repo": "Gurvan-dev/jasmin.nvim",
-    "themeNames": [
-      "jasmin"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "gwh-dev/concoctis.nvim",
-    "themeNames": [
-      "concoctis"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
     "repo": "hachy/eva01.vim",
     "themeNames": [
       "eva01"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5867,10 +4393,10 @@
     "themeNames": [
       "night-owl"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5889,10 +4415,10 @@
     "themeNames": [
       "antares"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5911,10 +4437,10 @@
     "themeNames": [
       "evening"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5925,28 +4451,6 @@
         "strategy": "colorscheme",
         "score": 6,
         "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "hdonnay/solarized",
-    "themeNames": [
-      "solarized"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
       }
     ]
   },
@@ -5978,36 +4482,14 @@
     ]
   },
   {
-    "repo": "HenryNewcomer/vim-theme-mutenight-scene",
-    "themeNames": [
-      "vim-theme-mutenight-scene"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "HenryNewcomer/vim-theme-papaya",
     "themeNames": [
       "vim-theme-papaya"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6045,10 +4527,10 @@
     "themeNames": [
       "nisha"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6059,50 +4541,6 @@
         "strategy": "colorscheme",
         "score": 3,
         "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "higherkinded/vim-colors-submerged",
-    "themeNames": [
-      "vim-colors-submerged"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "hisekai/monoindustrial-nvim",
-    "themeNames": [
-      "monoindustrial"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
       }
     ]
   },
@@ -6180,10 +4618,10 @@
     "themeNames": [
       "vim-humanoid"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6197,10 +4635,10 @@
     "themeNames": [
       "atlas"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6291,72 +4729,6 @@
     ]
   },
   {
-    "repo": "ikaros/smpl-vim",
-    "themeNames": [
-      "smpl"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "ikkentim/vim-monrovia-mirror",
-    "themeNames": [
-      "vim-monrovia-mirror"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "IllegalLeft/honeywell.vim",
-    "themeNames": [
-      "honeywell"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "ilof2/posterpole.nvim",
     "themeNames": [
       "posterpole"
@@ -6385,28 +4757,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
-    "repo": "impankratov/pywal-lush",
-    "themeNames": [
-      "pywal-lush"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
       }
     ]
   },
@@ -6578,59 +4928,15 @@
     }
   },
   {
-    "repo": "IsaacDodd/infinity-theme.vim",
-    "themeNames": [
-      "infinity-theme"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "itchyny/landscape.vim",
     "themeNames": [
       "landscape"
     ],
-    "currentStrategy": "colorscheme",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "match",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "j0d5/vim-tweetjay",
-    "themeNames": [
-      "vim-tweetjay"
-    ],
     "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
     "status": "missing-meta",
     "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
       {
         "strategy": "colorscheme",
         "score": 6,
@@ -6675,10 +4981,10 @@
     "themeNames": [
       "vim-earl-grey"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6697,10 +5003,10 @@
     "themeNames": [
       "tender"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6737,36 +5043,14 @@
     ]
   },
   {
-    "repo": "jamescherti/vim-tomorrow-night-deepblue",
-    "themeNames": [
-      "vim-tomorrow-night-deepblue"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "jaredgorski/SpaceCamp",
     "themeNames": [
       "spacecamp"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6800,50 +5084,6 @@
     }
   },
   {
-    "repo": "jinfan/vim-randcolor",
-    "themeNames": [
-      "vim-randcolor"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "jmoggee/mirage.vim",
-    "themeNames": [
-      "mirage"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
     "repo": "JoosepAlviste/palenightfall.nvim",
     "themeNames": [
       "palenightfall"
@@ -6875,10 +5115,10 @@
     "themeNames": [
       "starrynight"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6897,10 +5137,10 @@
     "themeNames": [
       "onedark"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6915,61 +5155,14 @@
     ]
   },
   {
-    "repo": "josstei/nami.nvim",
-    "themeNames": [
-      "nami"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "load",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "load",
-        "score": 8,
-        "reason": "README contains require(...).load(...)"
-      },
-      {
-        "strategy": "load",
-        "score": 2,
-        "reason": "README shows .load() pattern"
-      },
-      {
-        "strategy": "setup",
-        "score": 6,
-        "reason": "README contains require(...).setup(...)"
-      },
-      {
-        "strategy": "setup",
-        "score": 2,
-        "reason": "README shows setup({...}) options block"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "file",
-        "score": 2,
-        "reason": "README suggests custom init ordering"
-      }
-    ]
-  },
-  {
     "repo": "josuegaleas/jay",
     "themeNames": [
       "jay"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7055,10 +5248,10 @@
     "themeNames": [
       "disco"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7077,10 +5270,10 @@
     "themeNames": [
       "toast"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7091,28 +5284,6 @@
         "strategy": "colorscheme",
         "score": 6,
         "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "judah-caruso/film-noir",
-    "themeNames": [
-      "film-noir"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
       }
     ]
   },
@@ -7149,36 +5320,14 @@
     ]
   },
   {
-    "repo": "kaplanz/deku.nvim",
-    "themeNames": [
-      "deku"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
     "repo": "kartikp10/noctis.nvim",
     "themeNames": [
       "noctis"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7197,10 +5346,10 @@
     "themeNames": [
       "kat"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7231,10 +5380,10 @@
     "themeNames": [
       "papiliodehaanii"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7292,10 +5441,10 @@
     "themeNames": [
       "yash"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7342,28 +5491,6 @@
     ]
   },
   {
-    "repo": "kinoute/vim-hivacruz-theme",
-    "themeNames": [
-      "vim-hivacruz-theme"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
     "repo": "kjssad/quantum.vim",
     "themeNames": [
       "quantum"
@@ -7405,33 +5532,11 @@
     "themeNames": [
       "vim-envy"
     ],
-    "currentStrategy": "colorscheme",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "match",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "knghtbrd/tigrana",
-    "themeNames": [
-      "tigrana"
-    ],
     "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
     "status": "missing-meta",
     "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
       {
         "strategy": "colorscheme",
         "score": 6,
@@ -7462,58 +5567,14 @@
     ]
   },
   {
-    "repo": "kordyte/collaterlie-nvim",
-    "themeNames": [
-      "collaterlie"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
-    "repo": "kordyte/harfynn-nvim",
-    "themeNames": [
-      "harfynn"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
     "repo": "koron/vim-monochromenote",
     "themeNames": [
       "vim-monochromenote"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7559,10 +5620,10 @@
     "themeNames": [
       "joker"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7613,10 +5674,10 @@
     "themeNames": [
       "nord"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7721,10 +5782,10 @@
     "themeNames": [
       "halcyon-neovim"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7804,10 +5865,10 @@
     "themeNames": [
       "vim-colors-modern-borland"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7913,10 +5974,10 @@
     "themeNames": [
       "vim-lighthaus"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7935,10 +5996,10 @@
     "themeNames": [
       "vim-eighties"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7952,10 +6013,10 @@
     "themeNames": [
       "space-vim-theme"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8001,10 +6062,10 @@
     "themeNames": [
       "kimbox"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "load",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "load",
@@ -8257,10 +6318,10 @@
     "themeNames": [
       "templeos"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8271,28 +6332,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
-    "repo": "m-gail/northernlights.vim",
-    "themeNames": [
-      "northernlights"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -8399,10 +6438,10 @@
     "themeNames": [
       "vorange"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8463,36 +6502,14 @@
     ]
   },
   {
-    "repo": "masisz/wisteria.nvim",
-    "themeNames": [
-      "wisteria"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
     "repo": "matveyt/vim-modest",
     "themeNames": [
       "vim-modest"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8538,10 +6555,10 @@
     "themeNames": [
       "true"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8601,10 +6618,10 @@
     "themeNames": [
       "fluoromachine"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8615,28 +6632,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "maxmx03/retrolegends.nvim",
-    "themeNames": [
-      "retrolegends"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
       }
     ]
   },
@@ -8663,28 +6658,6 @@
     ]
   },
   {
-    "repo": "Maxr1998/PrinterTheme",
-    "themeNames": [
-      "printertheme"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "mcchrish/vim-no-color-collections",
     "themeNames": [
       "vim-no-color-collections"
@@ -8707,85 +6680,14 @@
     ]
   },
   {
-    "repo": "mcombeau/monosplash.vim",
-    "themeNames": [
-      "monosplash"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "meain/hima-vim",
-    "themeNames": [
-      "hima"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 10,
-        "reason": "Manual hint override"
-      }
-    ]
-  },
-  {
-    "repo": "MeF0504/vim-monoTone",
-    "themeNames": [
-      "vim-monotone"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "metalelf0/black-metal-theme-neovim",
     "themeNames": [
       "black-metal-theme-neovim"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "load",
@@ -9053,28 +6955,6 @@
     }
   },
   {
-    "repo": "mihaifm/4colors",
-    "themeNames": [
-      "4colors"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
     "repo": "miikanissi/modus-themes.nvim",
     "themeNames": [
       "modus-themes"
@@ -9165,28 +7045,6 @@
     }
   },
   {
-    "repo": "MisanthropicBit/vim-warlock",
-    "themeNames": [
-      "vim-warlock"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "mistweaverco/bluloco.nvim",
     "themeNames": [
       "bluloco"
@@ -9258,36 +7116,14 @@
     ]
   },
   {
-    "repo": "miublue/momo.vim",
-    "themeNames": [
-      "momo"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
     "repo": "Mizux/vim-colorschemes",
     "themeNames": [
       "vim-colorschemes"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9355,10 +7191,10 @@
     "themeNames": [
       "vscode"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "load",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "load",
@@ -9390,66 +7226,24 @@
         "score": 2,
         "reason": "README suggests mode-dependent setup + colorscheme"
       }
-    ],
-    "variants": {
-      "total": 2,
-      "withMode": 2,
-      "detected": [
-        {
-          "name": "vscode-dark",
-          "detectedMode": "dark",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches dark"
-        },
-        {
-          "name": "vscode-light",
-          "detectedMode": "light",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches light"
-        }
-      ],
-      "coverage": 100
-    }
+    ]
   },
   {
     "repo": "morhetz/gruvbox",
     "themeNames": [
       "gruvbox"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 6,
         "reason": "Repo has colors/*.vim without Lua module"
       }
-    ],
-    "variants": {
-      "total": 2,
-      "withMode": 2,
-      "detected": [
-        {
-          "name": "gruvbox-dark",
-          "detectedMode": "dark",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches dark"
-        },
-        {
-          "name": "gruvbox-light",
-          "detectedMode": "light",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches light"
-        }
-      ],
-      "coverage": 100
-    }
+    ]
   },
   {
     "repo": "mrjones2014/lighthaus.nvim",
@@ -9524,10 +7318,10 @@
     "themeNames": [
       "doubletrouble"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9546,10 +7340,10 @@
     "themeNames": [
       "jellybeans"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9649,10 +7443,10 @@
     "themeNames": [
       "everforest"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "load",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "load",
@@ -9678,28 +7472,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
-      }
-    ]
-  },
-  {
-    "repo": "nechaev/darkstorm.nvim",
-    "themeNames": [
-      "darkstorm"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
       }
     ]
   },
@@ -9966,10 +7738,10 @@
     "themeNames": [
       "dromad"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10016,70 +7788,14 @@
     ]
   },
   {
-    "repo": "nickshiro/arc.nvim",
-    "themeNames": [
-      "arc"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "unknown",
-    "confidence": 0,
-    "status": "error",
-    "signals": [],
-    "error": "README content missing"
-  },
-  {
-    "repo": "nickshiro/elixir.nvim",
-    "themeNames": [
-      "elixir"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
-    "repo": "nicolascb/camarada.vim",
-    "themeNames": [
-      "camarada"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "nikolvs/vim-sunbather",
     "themeNames": [
       "vim-sunbather"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10090,70 +7806,6 @@
         "strategy": "colorscheme",
         "score": 6,
         "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "nlkli/ashki.nvim",
-    "themeNames": [
-      "ashki"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "load",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "load",
-        "score": 8,
-        "reason": "README contains require(...).load(...)"
-      },
-      {
-        "strategy": "load",
-        "score": 2,
-        "reason": "README shows .load() pattern"
-      },
-      {
-        "strategy": "setup",
-        "score": 6,
-        "reason": "README contains require(...).setup(...)"
-      },
-      {
-        "strategy": "setup",
-        "score": 2,
-        "reason": "README shows setup({...}) options block"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
-    "repo": "nnsnico/fancomi-vim",
-    "themeNames": [
-      "fancomi"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
       }
     ]
   },
@@ -10181,28 +7833,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
-      }
-    ]
-  },
-  {
-    "repo": "nocksock/bloop-vim",
-    "themeNames": [
-      "bloop"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
       }
     ]
   },
@@ -10264,28 +7894,6 @@
     }
   },
   {
-    "repo": "nocksock/nazgul-vim",
-    "themeNames": [
-      "nazgul"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "noorwachid/nvim-nightsky",
     "themeNames": [
       "nvim-nightsky"
@@ -10310,12 +7918,12 @@
   {
     "repo": "nordtheme/vim",
     "themeNames": [
-      "nord"
+      "nordtheme"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10366,10 +7974,10 @@
     "themeNames": [
       "habamax"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10416,36 +8024,14 @@
     ]
   },
   {
-    "repo": "ntk148v/slack.nvim",
-    "themeNames": [
-      "slack"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
     "repo": "ntk148v/vim-horizon",
     "themeNames": [
       "vim-horizon"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10456,28 +8042,6 @@
         "strategy": "colorscheme",
         "score": 3,
         "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "nubilfi/itabyss.vim",
-    "themeNames": [
-      "itabyss"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -10498,10 +8062,10 @@
     "themeNames": [
       "oceanic-material"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10537,10 +8101,10 @@
     "themeNames": [
       "oxocarbon"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10557,28 +8121,7 @@
         "score": 2,
         "reason": "README suggests mode-dependent setup + colorscheme"
       }
-    ],
-    "variants": {
-      "total": 2,
-      "withMode": 2,
-      "detected": [
-        {
-          "name": "oxocarbon-dark",
-          "detectedMode": "dark",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches dark"
-        },
-        {
-          "name": "oxocarbon-light",
-          "detectedMode": "light",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches light"
-        }
-      ],
-      "coverage": 100
-    }
+    ]
   },
   {
     "repo": "ok-ryoko/blue-screen",
@@ -10689,10 +8232,10 @@
     "themeNames": [
       "poimandres"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10703,50 +8246,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
-    "repo": "oneElectron/black_electron.nvim",
-    "themeNames": [
-      "black_electron"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "oni0002/neg.vim",
-    "themeNames": [
-      "neg"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -10782,10 +8281,10 @@
     "themeNames": [
       "nimda"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11149,28 +8648,6 @@
     }
   },
   {
-    "repo": "OwlfaceGames/owly.nvim",
-    "themeNames": [
-      "owly"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "oxfist/night-owl.nvim",
     "themeNames": [
       "night-owl"
@@ -11207,10 +8684,10 @@
     "themeNames": [
       "oxidescheme"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "load",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "load",
@@ -11249,10 +8726,10 @@
     "themeNames": [
       "vem-dark"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11271,10 +8748,10 @@
     "themeNames": [
       "onedarkhc"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11311,36 +8788,14 @@
     ]
   },
   {
-    "repo": "ParadiseOfMagic/Alienocean.nvim",
-    "themeNames": [
-      "alienocean"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
     "repo": "patstockwell/vim-monokai-tasty",
     "themeNames": [
       "vim-monokai-tasty"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11405,10 +8860,10 @@
     "themeNames": [
       "hyper"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "load",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "load",
@@ -11459,10 +8914,10 @@
     "themeNames": [
       "dookie"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11473,28 +8928,6 @@
         "strategy": "colorscheme",
         "score": 5,
         "reason": "Repo has colors/*.lua without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "perpetuatheme/nvim",
-    "themeNames": [
-      "perpetuatheme"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
       }
     ]
   },
@@ -11517,28 +8950,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
-      }
-    ]
-  },
-  {
-    "repo": "plumj-am/jimbo.vim",
-    "themeNames": [
-      "jimbo"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
       }
     ]
   },
@@ -11574,10 +8985,10 @@
     "themeNames": [
       "monokai-nightasty"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "load",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "load",
@@ -11611,10 +9022,10 @@
     "themeNames": [
       "vim-colors-pencil"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11652,28 +9063,6 @@
         "strategy": "setup",
         "score": 10,
         "reason": "Manual hint override"
-      }
-    ]
-  },
-  {
-    "repo": "program-spiritual/use_vim_in_winX",
-    "themeNames": [
-      "use_vim_in_winx"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
       }
     ]
   },
@@ -11772,28 +9161,6 @@
     }
   },
   {
-    "repo": "ps173/dadara",
-    "themeNames": [
-      "dadara"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "ptdewey/darkearth-nvim",
     "themeNames": [
       "darkearth"
@@ -11833,50 +9200,6 @@
       ],
       "coverage": 100
     }
-  },
-  {
-    "repo": "ptdewey/monalisa-nvim",
-    "themeNames": [
-      "monalisa"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "ptdewey/vitesse-nvim",
-    "themeNames": [
-      "vitesse"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
   },
   {
     "repo": "PunGrumpy/vesper.nvim",
@@ -11933,65 +9256,6 @@
     ]
   },
   {
-    "repo": "quidame/dotfiles",
-    "themeNames": [
-      "dotfiles"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "r7sqtr/persona5.nvim",
-    "themeNames": [
-      "persona5"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "load",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "load",
-        "score": 8,
-        "reason": "README contains require(...).load(...)"
-      },
-      {
-        "strategy": "load",
-        "score": 2,
-        "reason": "README shows .load() pattern"
-      },
-      {
-        "strategy": "setup",
-        "score": 6,
-        "reason": "README contains require(...).setup(...)"
-      },
-      {
-        "strategy": "setup",
-        "score": 2,
-        "reason": "README shows setup({...}) options block"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      }
-    ]
-  },
-  {
     "repo": "racakenon/mytilus",
     "themeNames": [
       "mytilus"
@@ -12041,80 +9305,14 @@
     ]
   },
   {
-    "repo": "ragatol/nvimthemes",
-    "themeNames": [
-      "nvimthemes"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 10,
-        "reason": "Manual hint override"
-      }
-    ]
-  },
-  {
-    "repo": "rainstf/idler",
-    "themeNames": [
-      "idler"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
-    "repo": "rainstf/zenburn-m",
-    "themeNames": [
-      "zenburn-m"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
     "repo": "rakr/vim-one",
     "themeNames": [
       "vim-one"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12126,28 +9324,7 @@
         "score": 3,
         "reason": "README shows vim.g globals without require()"
       }
-    ],
-    "variants": {
-      "total": 2,
-      "withMode": 2,
-      "detected": [
-        {
-          "name": "one-dark",
-          "detectedMode": "dark",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches dark"
-        },
-        {
-          "name": "one-light",
-          "detectedMode": "light",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches light"
-        }
-      ],
-      "coverage": 100
-    }
+    ]
   },
   {
     "repo": "ramojus/mellifluous.nvim",
@@ -12186,10 +9363,10 @@
     "themeNames": [
       "aurora"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12231,28 +9408,6 @@
     ]
   },
   {
-    "repo": "RazoBeckett/uwunified.nvim",
-    "themeNames": [
-      "uwunified"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
     "repo": "rdrachmanto/cisco-theme.nvim",
     "themeNames": [
       "cisco-theme"
@@ -12289,10 +9444,10 @@
     "themeNames": [
       "kanagawa"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "load",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "load",
@@ -12340,13 +9495,6 @@
       "withMode": 3,
       "detected": [
         {
-          "name": "kanagawa-wave",
-          "confidence": 1,
-          "source": "hint",
-          "detectedMode": "dark",
-          "reason": "Manual hint override"
-        },
-        {
           "name": "kanagawa-dragon",
           "confidence": 1,
           "source": "hint",
@@ -12358,6 +9506,13 @@
           "confidence": 1,
           "source": "hint",
           "detectedMode": "light",
+          "reason": "Manual hint override"
+        },
+        {
+          "name": "kanagawa-wave",
+          "confidence": 1,
+          "source": "hint",
+          "detectedMode": "dark",
           "reason": "Manual hint override"
         }
       ],
@@ -12524,10 +9679,10 @@
     "themeNames": [
       "gruvbox-minor"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12695,10 +9850,10 @@
     "themeNames": [
       "re"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 0.9,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "setup",
@@ -12709,50 +9864,6 @@
         "strategy": "load",
         "score": 4,
         "reason": "Repo has Lua module without colors/"
-      }
-    ]
-  },
-  {
-    "repo": "ring0-rootkit/ring0-dark.nvim",
-    "themeNames": [
-      "ring0-dark"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "ring0-rootkit/ring0-light.nvim",
-    "themeNames": [
-      "ring0-light"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
       }
     ]
   },
@@ -12953,36 +10064,14 @@
     ]
   },
   {
-    "repo": "rombrom/fansi2",
-    "themeNames": [
-      "fansi2"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "Ronxvier/ymir.nvim",
     "themeNames": [
       "ymir"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12993,28 +10082,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
-    "repo": "roobert/nightshift.nvim",
-    "themeNames": [
-      "nightshift"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -13088,37 +10155,15 @@
     "themeNames": [
       "naysayer"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "ruie/vim-ruie",
-    "themeNames": [
-      "vim-ruie"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
       },
       {
         "strategy": "colorscheme",
@@ -13160,36 +10205,14 @@
     ]
   },
   {
-    "repo": "sailorfe/perona.nvim",
-    "themeNames": [
-      "perona"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
     "repo": "sainnhe/everforest",
     "themeNames": [
       "everforest"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13201,38 +10224,17 @@
         "score": 10,
         "reason": "Manual hint override"
       }
-    ],
-    "variants": {
-      "total": 2,
-      "withMode": 2,
-      "detected": [
-        {
-          "name": "everforest-dark",
-          "detectedMode": "dark",
-          "confidence": 1,
-          "source": "hint",
-          "reason": "Manual hint override"
-        },
-        {
-          "name": "everforest-light",
-          "detectedMode": "light",
-          "confidence": 1,
-          "source": "hint",
-          "reason": "Manual hint override"
-        }
-      ],
-      "coverage": 100
-    }
+    ]
   },
   {
     "repo": "samharju/serene.nvim",
     "themeNames": [
       "serene"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13263,10 +10265,10 @@
     "themeNames": [
       "synthweave"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "load",
@@ -13389,80 +10391,14 @@
     ]
   },
   {
-    "repo": "sapphirecat/feline-soul-vim",
-    "themeNames": [
-      "feline-soul"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "sapphirecat/garden-vim",
-    "themeNames": [
-      "garden"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "sapphirecat/zora-theme-vim",
-    "themeNames": [
-      "zora-theme"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
     "repo": "savq/melange-nvim",
     "themeNames": [
       "melange"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13474,38 +10410,17 @@
         "score": 5,
         "reason": "Repo has colors/*.lua without Lua module"
       }
-    ],
-    "variants": {
-      "total": 2,
-      "withMode": 2,
-      "detected": [
-        {
-          "name": "melange-dark",
-          "detectedMode": "dark",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches dark"
-        },
-        {
-          "name": "melange-light",
-          "detectedMode": "light",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches light"
-        }
-      ],
-      "coverage": 100
-    }
+    ]
   },
   {
     "repo": "schickele/vim-fruchtig",
     "themeNames": [
       "vim-fruchtig"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13524,10 +10439,10 @@
     "themeNames": [
       "vim-nachtleben"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13638,10 +10553,10 @@
     "themeNames": [
       "pink-panic"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13652,94 +10567,6 @@
         "strategy": "colorscheme",
         "score": 5,
         "reason": "Repo has colors/*.lua without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "sff1019/vim-joker",
-    "themeNames": [
-      "vim-joker"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "sh4hids/color-wheel.vim",
-    "themeNames": [
-      "color-wheel"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "shadowy-pycoder/vscode-gruber.nvim",
-    "themeNames": [
-      "vscode-gruber"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
-    "repo": "Shaedil/vim-vintage-colorscheme",
-    "themeNames": [
-      "vim-vintage"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
       }
     ]
   },
@@ -13911,10 +10738,10 @@
     "themeNames": [
       "ponokai"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13952,28 +10779,6 @@
         "strategy": "setup",
         "score": 2,
         "reason": "README shows setup({...}) options block"
-      }
-    ]
-  },
-  {
-    "repo": "shoenot/cinnamonwine.nvim",
-    "themeNames": [
-      "cinnamonwine"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
       }
     ]
   },
@@ -14018,10 +10823,10 @@
     "themeNames": [
       "kyotonight"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14032,33 +10837,6 @@
         "strategy": "colorscheme",
         "score": 6,
         "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "sigasigasiga/neovim-dark-monitor",
-    "themeNames": [
-      "neovim-dark-monitor"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      },
-      {
-        "strategy": "file",
-        "score": 2,
-        "reason": "README suggests mode-dependent setup + colorscheme"
       }
     ]
   },
@@ -14081,28 +10859,6 @@
         "strategy": "setup",
         "score": 4,
         "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
-    "repo": "silverneko/tachyon.vim",
-    "themeNames": [
-      "tachyon"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -14152,28 +10908,6 @@
         "strategy": "setup",
         "score": 10,
         "reason": "Manual hint override"
-      }
-    ]
-  },
-  {
-    "repo": "sixro/vim-mnmlight",
-    "themeNames": [
-      "vim-mnmlight"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -14247,10 +10981,10 @@
     "themeNames": [
       "vim-material-monokai"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14296,10 +11030,10 @@
     "themeNames": [
       "vim-color-export"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14318,10 +11052,10 @@
     "themeNames": [
       "vim-color-patch"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14408,28 +11142,6 @@
     }
   },
   {
-    "repo": "sonobre/briofita_vim",
-    "themeNames": [
-      "briofita"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
     "repo": "sontungexpt/stcursorword",
     "themeNames": [
       "stcursorword"
@@ -14448,160 +11160,6 @@
         "strategy": "setup",
         "score": 2,
         "reason": "README shows setup({...}) options block"
-      }
-    ]
-  },
-  {
-    "repo": "space-chalk/spacechalk.nvim",
-    "themeNames": [
-      "spacechalk"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "space-chalk/spacechalk.vim",
-    "themeNames": [
-      "spacechalk"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "spenserblack/eyesalt",
-    "themeNames": [
-      "eyesalt"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "stefanvanburen/rams",
-    "themeNames": [
-      "rams"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "stillwwater/vim-nebula",
-    "themeNames": [
-      "vim-nebula"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "stillwwater/vim-violet",
-    "themeNames": [
-      "vim-violet"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "StradNikw/Naysayer.nvim",
-    "themeNames": [
-      "naysayer"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
       }
     ]
   },
@@ -14692,105 +11250,14 @@
     ]
   },
   {
-    "repo": "sugiura-hiromiti/primary.nvim",
-    "themeNames": [
-      "primary"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "load",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "load",
-        "score": 8,
-        "reason": "README contains require(...).load(...)"
-      },
-      {
-        "strategy": "load",
-        "score": 2,
-        "reason": "README shows .load() pattern"
-      },
-      {
-        "strategy": "setup",
-        "score": 6,
-        "reason": "README contains require(...).setup(...)"
-      },
-      {
-        "strategy": "setup",
-        "score": 2,
-        "reason": "README shows setup({...}) options block"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "file",
-        "score": 2,
-        "reason": "README suggests mode-dependent setup + colorscheme"
-      },
-      {
-        "strategy": "file",
-        "score": 2,
-        "reason": "README suggests custom init ordering"
-      }
-    ]
-  },
-  {
-    "repo": "szorfein/fantasy.vim",
-    "themeNames": [
-      "fantasy"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "szorfein/fromthehell.vim",
     "themeNames": [
       "fromthehell"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "szorfein/sci.vim",
-    "themeNames": [
-      "sci"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14930,10 +11397,10 @@
     "themeNames": [
       "maani"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15002,28 +11469,6 @@
     ]
   },
   {
-    "repo": "theJian/vim-fethoi",
-    "themeNames": [
-      "vim-fethoi"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "thesimonho/kanagawa-paper.nvim",
     "themeNames": [
       "kanagawa-paper"
@@ -15082,28 +11527,6 @@
     }
   },
   {
-    "repo": "thjbdvlt/zebulon.nvim",
-    "themeNames": [
-      "zebulon"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "thomasmarcel/tune.nvim",
     "themeNames": [
       "tune"
@@ -15131,36 +11554,14 @@
     ]
   },
   {
-    "repo": "timofurrer/edelweiss",
-    "themeNames": [
-      "edelweiss"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "unknown",
-        "score": 0,
-        "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
     "repo": "tokers/magellan",
     "themeNames": [
       "magellan"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15207,60 +11608,6 @@
     ]
   },
   {
-    "repo": "tristanheaven/vim-colorscheme-aquamarine",
-    "themeNames": [
-      "vim-colorscheme-aquamarine"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
-    "repo": "ttak0422/morimo",
-    "themeNames": [
-      "morimo"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "load",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "load",
-        "score": 8,
-        "reason": "README contains require(...).load(...)"
-      },
-      {
-        "strategy": "load",
-        "score": 2,
-        "reason": "README shows .load() pattern"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
     "repo": "typicode/bg.nvim",
     "themeNames": [
       "bg"
@@ -15279,28 +11626,6 @@
         "strategy": "unknown",
         "score": 0,
         "reason": "No clear signals from source"
-      }
-    ]
-  },
-  {
-    "repo": "ubaldoatlein/tonada.nvim",
-    "themeNames": [
-      "tonada"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
       }
     ]
   },
@@ -15741,36 +12066,14 @@
     ]
   },
   {
-    "repo": "vimpostor/vim-prism",
-    "themeNames": [
-      "vim-prism"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "vinitkumar/oscura-vim",
     "themeNames": [
       "oscura"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15811,36 +12114,14 @@
     }
   },
   {
-    "repo": "vyrx-dev/void.nvim",
-    "themeNames": [
-      "void"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
     "repo": "wadackel/vim-dogrun",
     "themeNames": [
-      "dogrun"
+      "vim-dogrun"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15851,50 +12132,6 @@
         "strategy": "colorscheme",
         "score": 3,
         "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "warbacon/nvim-config",
-    "themeNames": [
-      "nvim-config"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.8,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "setup",
-        "score": 4,
-        "reason": "Repo has Lua module + colors/*.lua"
-      }
-    ]
-  },
-  {
-    "repo": "watcol/palette.vim",
-    "themeNames": [
-      "palette"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -15959,28 +12196,6 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "whizikxd/naysayer-colors.nvim",
-    "themeNames": [
-      "naysayer-colors"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 5,
-        "reason": "Repo has colors/*.lua without Lua module"
       }
     ]
   },
@@ -16068,80 +12283,14 @@
     ]
   },
   {
-    "repo": "wolandark/ColorschemeFromHell-Vim",
-    "themeNames": [
-      "colorschemefromhell"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
     "repo": "wolandark/Mitra-Vim",
     "themeNames": [
       "mitra"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "wolandark/Mono-Vim",
-    "themeNames": [
-      "mono"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd.colorscheme(...)"
-      }
-    ]
-  },
-  {
-    "repo": "wolandark/NotePad-Vim",
-    "themeNames": [
-      "notepad"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16248,36 +12397,14 @@
     ]
   },
   {
-    "repo": "xbonj/solojazz.nvim",
-    "themeNames": [
-      "solojazz"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows vim.cmd(\"colorscheme ...\")"
-      }
-    ]
-  },
-  {
     "repo": "xero/blaquemagick.vim",
     "themeNames": [
       "blaquemagick"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16318,10 +12445,10 @@
     "themeNames": [
       "evangelion"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16340,10 +12467,10 @@
     "themeNames": [
       "miasma"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16384,10 +12511,10 @@
     "themeNames": [
       "sourcerer"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16434,36 +12561,14 @@
     ]
   },
   {
-    "repo": "yamasy1549/gochiusa.vim",
-    "themeNames": [
-      "gochiusa"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
-      }
-    ]
-  },
-  {
     "repo": "yassinebridi/vim-purpura",
     "themeNames": [
       "vim-purpura"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16482,10 +12587,10 @@
     "themeNames": [
       "retrohack"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16504,10 +12609,10 @@
     "themeNames": [
       "shirotelin"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16597,10 +12702,10 @@
     "themeNames": [
       "yorumi"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16629,36 +12734,14 @@
     }
   },
   {
-    "repo": "ysdexlic/dwarf.vim",
-    "themeNames": [
-      "dwarf"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
     "repo": "yunlingz/ci_dark",
     "themeNames": [
       "ci_dark"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16677,10 +12760,10 @@
     "themeNames": [
       "hydrangea"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "setup",
@@ -16704,10 +12787,10 @@
     "themeNames": [
       "inkstained"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16718,28 +12801,6 @@
         "strategy": "colorscheme",
         "score": 3,
         "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
-    "repo": "yuttie/sublimetext-spacegray.vim",
-    "themeNames": [
-      "sublimetext-spacegray"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 6,
-        "reason": "Repo has colors/*.vim without Lua module"
       }
     ]
   },
@@ -16797,10 +12858,10 @@
     "themeNames": [
       "vim-colors-basic"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16834,36 +12895,14 @@
     }
   },
   {
-    "repo": "ZDBioHazard/vim-oxidize",
-    "themeNames": [
-      "vim-oxidize"
-    ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 1,
-    "status": "missing-meta",
-    "signals": [
-      {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "README shows :colorscheme usage"
-      },
-      {
-        "strategy": "colorscheme",
-        "score": 3,
-        "reason": "README shows vim.g globals without require()"
-      }
-    ]
-  },
-  {
     "repo": "Zeioth/neon.nvim",
     "themeNames": [
       "neon"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16945,10 +12984,10 @@
     "themeNames": [
       "zenbones"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "load",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "missing-meta",
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16967,18 +13006,25 @@
       }
     ],
     "variants": {
-      "total": 12,
-      "withMode": 12,
+      "total": 14,
+      "withMode": 13,
       "detected": [
         {
-          "name": "zenbones",
+          "name": "duckbones",
           "confidence": 1,
           "source": "hint",
-          "detectedMode": "light",
+          "detectedMode": "dark",
           "reason": "Manual hint override"
         },
         {
-          "name": "duckbones",
+          "name": "forestbones",
+          "confidence": 1,
+          "source": "hint",
+          "detectedMode": "dark",
+          "reason": "Manual hint override"
+        },
+        {
+          "name": "kanagawabones",
           "confidence": 1,
           "source": "hint",
           "detectedMode": "dark",
@@ -16999,6 +13045,25 @@
           "reason": "Manual hint override"
         },
         {
+          "name": "randombones",
+          "confidence": 0,
+          "source": "unknown"
+        },
+        {
+          "name": "randombones_dark",
+          "detectedMode": "dark",
+          "confidence": 0.9,
+          "source": "pattern",
+          "reason": "Name matches dark"
+        },
+        {
+          "name": "randombones_light",
+          "detectedMode": "light",
+          "confidence": 0.9,
+          "source": "pattern",
+          "reason": "Name matches light"
+        },
+        {
           "name": "rosebones",
           "confidence": 1,
           "source": "hint",
@@ -17006,7 +13071,7 @@
           "reason": "Manual hint override"
         },
         {
-          "name": "forestbones",
+          "name": "seoulbones",
           "confidence": 1,
           "source": "hint",
           "detectedMode": "dark",
@@ -17014,20 +13079,6 @@
         },
         {
           "name": "tokyobones",
-          "confidence": 1,
-          "source": "hint",
-          "detectedMode": "dark",
-          "reason": "Manual hint override"
-        },
-        {
-          "name": "kanagawabones",
-          "confidence": 1,
-          "source": "hint",
-          "detectedMode": "dark",
-          "reason": "Manual hint override"
-        },
-        {
-          "name": "seoulbones",
           "confidence": 1,
           "source": "hint",
           "detectedMode": "dark",
@@ -17055,7 +13106,7 @@
           "reason": "Manual hint override"
         }
       ],
-      "coverage": 100
+      "coverage": 93
     }
   },
   {

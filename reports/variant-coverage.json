@@ -1,19 +1,28 @@
 {
-  "generated_at": "2026-02-26T20:41:04.655Z",
+  "generated_at": "2026-02-26T20:49:58.381Z",
   "summary": {
-    "total_repos_with_variants": 86,
-    "total_variants": 410,
-    "with_mode": 380,
-    "need_detection": 30,
-    "coverage_percent": 93
+    "total_repos_with_variants": 79,
+    "total_variants": 397,
+    "with_mode": 366,
+    "need_detection": 31,
+    "coverage_percent": 92
   },
   "by_source": {
-    "pattern": 116,
-    "hint": 264,
+    "pattern": 108,
+    "hint": 258,
     "readme": 0,
-    "unknown": 30
+    "unknown": 31
   },
   "repos_needing_attention": [
+    {
+      "repo": "zenbones-theme/zenbones.nvim",
+      "total": 14,
+      "withMode": 13,
+      "coverage": 93,
+      "unknownVariants": [
+        "randombones"
+      ]
+    },
     {
       "repo": "sharpchen/Eva-Theme.nvim",
       "total": 7,

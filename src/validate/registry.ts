@@ -1,17 +1,14 @@
-import { existsSync, readdirSync, readFileSync } from "node:fs";
-import { basename, dirname, resolve } from "node:path";
+import { existsSync, readFileSync } from "node:fs";
 import type { LoadStrategy, ThemeMode } from "@/lib/types";
 
 export interface ValidateOptions {
   input: string;
-  themesDir?: string;
 }
 
 export interface ValidationMetrics {
   totalThemes: number;
   darkModeVariants: number;
   lightModeVariants: number;
-  luaFiles: number;
   incompleteThemes: number;
   strategyCounts: Record<string, number>;
 }
@@ -21,11 +18,6 @@ export interface ValidateResult {
   errors: string[];
   warnings: string[];
   metrics: ValidationMetrics;
-}
-
-interface IncompleteTheme {
-  name: string;
-  missing: string;
 }
 
 interface OutputTheme {
@@ -52,22 +44,12 @@ function getStrategy(theme: OutputTheme): LoadStrategy {
   return "colorscheme";
 }
 
-function getLuaFiles(themesDir: string): Set<string> {
-  if (!existsSync(themesDir)) return new Set();
-  return new Set(
-    readdirSync(themesDir)
-      .filter((f) => f.endsWith(".lua"))
-      .map((f) => basename(f, ".lua"))
-  );
-}
-
 const REQUIRED_STRATEGIES: LoadStrategy[] = ["colorscheme", "setup", "load"];
 
 export function run(options: ValidateOptions): ValidateResult {
-  const { input, themesDir } = options;
+  const { input } = options;
   const errors: string[] = [];
   const warnings: string[] = [];
-  const incompleteThemes: IncompleteTheme[] = [];
 
   if (!existsSync(input)) {
     return {
@@ -78,7 +60,6 @@ export function run(options: ValidateOptions): ValidateResult {
         totalThemes: 0,
         darkModeVariants: 0,
         lightModeVariants: 0,
-        luaFiles: 0,
         incompleteThemes: 0,
         strategyCounts: {},
       },
@@ -87,8 +68,6 @@ export function run(options: ValidateOptions): ValidateResult {
 
   const raw = readFileSync(input, "utf-8");
   const themes: OutputTheme[] = JSON.parse(raw);
-  const luaDir = themesDir || resolve(dirname(input), "..", "themes");
-  const luaFiles = getLuaFiles(luaDir);
 
   const totalThemes = themes.length;
   if (totalThemes < 40) {
@@ -99,11 +78,11 @@ export function run(options: ValidateOptions): ValidateResult {
     colorscheme: 0,
     setup: 0,
     load: 0,
-    file: 0,
   };
   let darkModeCount = 0;
   let lightModeCount = 0;
   let missingModeVariants = 0;
+  let incompleteCount = 0;
 
   for (const theme of themes) {
     const strategy = getStrategy(theme);
@@ -117,10 +96,7 @@ export function run(options: ValidateOptions): ValidateResult {
     }
     const missing = requiredFields.filter((f) => !theme[f as keyof OutputTheme]);
     if (missing.length > 0) {
-      incompleteThemes.push({
-        name: theme.name || "UNKNOWN",
-        missing: missing.join(", "),
-      });
+      incompleteCount++;
     }
 
     const variants = theme.variants;
@@ -140,13 +116,6 @@ export function run(options: ValidateOptions): ValidateResult {
     } else if (theme.mode === "light" || theme.meta?.mode === "light") {
       lightModeCount++;
     }
-
-    if (strategy === "file") {
-      const themeName = theme.name;
-      if (themeName && !luaFiles.has(themeName)) {
-        errors.push(`File strategy theme "${themeName}" missing themes/${themeName}.lua`);
-      }
-    }
   }
 
   for (const s of REQUIRED_STRATEGIES) {
@@ -154,10 +123,6 @@ export function run(options: ValidateOptions): ValidateResult {
     if (count < 5) {
       errors.push(`Strategy "${s}" has only ${count} themes (need at least 5)`);
     }
-  }
-
-  if ((strategyCounts.file ?? 0) === 0) {
-    warnings.push("No file strategy themes (optional)");
   }
 
   if (darkModeCount === 0) {
@@ -175,8 +140,7 @@ export function run(options: ValidateOptions): ValidateResult {
     totalThemes,
     darkModeVariants: darkModeCount,
     lightModeVariants: lightModeCount,
-    luaFiles: luaFiles.size,
-    incompleteThemes: incompleteThemes.length,
+    incompleteThemes: incompleteCount,
     strategyCounts,
   };
 

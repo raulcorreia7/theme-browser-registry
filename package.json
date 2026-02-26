@@ -23,7 +23,6 @@
     "task:build": "tsx tasks/04-build.ts",
     "task:bundle": "tsx tasks/05-bundle.ts",
     "task:validate": "tsx tasks/validate/registry.ts",
-    "task:validate:lua": "zx tasks/validate/lua-loaders.mts",
 
     "sync": "tsx tasks/01-sync.ts -c config.json",
     "detect": "tsx tasks/02-detect.ts --apply",
@@ -32,7 +31,6 @@
     "build:themes": "tsx tasks/04-build.ts",
     "bundle": "tsx tasks/05-bundle.ts",
     "validate": "tsx tasks/validate/registry.ts",
-    "validate:lua": "zx tasks/validate/lua-loaders.mts",
 
     "pipeline": "npm run task:sync && npm run task:detect && npm run task:merge && npm run task:build",
 
