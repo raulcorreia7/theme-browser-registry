@@ -7,11 +7,7 @@ import path from "node:path";
 import pLimit from "p-limit";
 import { detectFromText, inspectSource, type FileTreeItem } from "./strategy";
 import { detectVariantModesFromNames, applyVariantHints, type VariantInput } from "./variant";
-import type {
-  DetectionRow,
-  StrategyType,
-  VariantModeResult,
-} from "./types";
+import type { DetectionRow, StrategyType, VariantModeResult } from "./types";
 import { CONFIG } from "./types";
 import type { LoadStrategy, ThemeEntry, ThemeMode } from "@/lib/types";
 import type { GitHubClient } from "@/sync/github";
@@ -198,7 +194,7 @@ async function fetchReadme(
   repo: string,
   github: GitHubClient,
   cache: RepoCache | null,
-  opts: DetectOptions
+  opts: DetectOptions,
 ): Promise<string> {
   if (cache && !opts.noCache) {
     try {
@@ -232,7 +228,7 @@ async function fetchReadme(
 async function fetchRepoTree(
   repo: string,
   github: GitHubClient,
-  opts: DetectOptions
+  opts: DetectOptions,
 ): Promise<FileTreeItem[]> {
   const cpath = cachePath(opts.cacheDir, "tree", repo, "json");
   if (!opts.noCache && existsSync(cpath)) {
@@ -257,7 +253,7 @@ async function detectRepo(
   cache: RepoCache | null,
   opts: DetectOptions,
   hintsMap: Map<string, StrategyType>,
-  variantHintsMap: Map<string, Record<string, ThemeMode>>
+  variantHintsMap: Map<string, Record<string, ThemeMode>>,
 ): Promise<ExtendedDetectionRow> {
   try {
     const readme = await fetchReadme(repo, github, cache, opts);
@@ -300,11 +296,7 @@ async function detectRepo(
 
     const current = findCurrentStrategy(repo, sources);
     const status: DetectionRow["status"] =
-      current === "missing"
-        ? "missing-meta"
-        : current === det.detected
-          ? "match"
-          : "mismatch";
+      current === "missing" ? "missing-meta" : current === det.detected ? "match" : "mismatch";
 
     const allVariants = repoThemes.flatMap((t) => t.variants ?? []);
     let variantResults: VariantModeResult[] = [];
@@ -317,7 +309,7 @@ async function detectRepo(
           colorscheme: v.colorscheme,
           mode: v.mode as string | undefined,
           meta: v.meta as { strategy?: unknown } | undefined,
-        })) as VariantInput[]
+        })) as VariantInput[],
       );
 
       if (variantHintsMap.has(repo)) {
@@ -368,7 +360,7 @@ function buildPatch(rows: ExtendedDetectionRow[]): PatchEntry[] {
       (r) =>
         (r.status === "mismatch" || r.status === "missing-meta") &&
         r.detectedStrategy !== "unknown" &&
-        r.confidence >= CONFIG.HIGH_CONFIDENCE_THRESHOLD
+        r.confidence >= CONFIG.HIGH_CONFIDENCE_THRESHOLD,
     )
     .map((r) => ({
       repo: r.repo,
@@ -380,14 +372,8 @@ function buildPatch(rows: ExtendedDetectionRow[]): PatchEntry[] {
 function generateVariantCoverageReport(rows: ExtendedDetectionRow[]): VariantCoverageReport {
   const reposWithVariants = rows.filter((r) => r.variants && r.variants.total > 0);
 
-  const totalVariants = reposWithVariants.reduce(
-    (sum, r) => sum + (r.variants?.total || 0),
-    0
-  );
-  const withMode = reposWithVariants.reduce(
-    (sum, r) => sum + (r.variants?.withMode || 0),
-    0
-  );
+  const totalVariants = reposWithVariants.reduce((sum, r) => sum + (r.variants?.total || 0), 0);
+  const withMode = reposWithVariants.reduce((sum, r) => sum + (r.variants?.withMode || 0), 0);
 
   const bySource = {
     pattern: 0,
@@ -409,9 +395,7 @@ function generateVariantCoverageReport(rows: ExtendedDetectionRow[]): VariantCov
       total: r.variants!.total,
       withMode: r.variants!.withMode,
       coverage: r.variants!.coverage,
-      unknownVariants: r
-        .variants!.detected.filter((v) => !v.detectedMode)
-        .map((v) => v.name),
+      unknownVariants: r.variants!.detected.filter((v) => !v.detectedMode).map((v) => v.name),
     }))
     .sort((a, b) => b.total - a.total);
 
@@ -422,18 +406,14 @@ function generateVariantCoverageReport(rows: ExtendedDetectionRow[]): VariantCov
       total_variants: totalVariants,
       with_mode: withMode,
       need_detection: totalVariants - withMode,
-      coverage_percent:
-        totalVariants > 0 ? Math.round((withMode / totalVariants) * 100) : 0,
+      coverage_percent: totalVariants > 0 ? Math.round((withMode / totalVariants) * 100) : 0,
     },
     by_source: bySource,
     repos_needing_attention: reposNeedingAttention.slice(0, 50),
   };
 }
 
-export async function run(
-  options: DetectOptions,
-  deps: DetectDeps
-): Promise<DetectResult> {
+export async function run(options: DetectOptions, deps: DetectDeps): Promise<DetectResult> {
   const { github, cache } = deps;
 
   ensureDir(options.cacheDir);
@@ -472,10 +452,10 @@ export async function run(
           cache,
           options,
           hintsMap,
-          variantHintsMap
-        )
-      )
-    )
+          variantHintsMap,
+        ),
+      ),
+    ),
   );
 
   rows.sort((a, b) => a.repo.toLowerCase().localeCompare(b.repo.toLowerCase()));
@@ -491,12 +471,10 @@ export async function run(
 export function applyDetectionPatch(
   sources: { overrides: ThemeEntry[]; builtin?: ThemeEntry[] },
   patch: PatchEntry[],
-  themes: ThemeEntry[]
+  themes: ThemeEntry[],
 ): { overrides: ThemeEntry[]; builtin?: ThemeEntry[] } {
   const patchMap = new Map(patch.map((p) => [p.repo, p.strategy]));
-  const existingRepos = new Set(
-    sources.overrides.filter((o) => o.repo).map((o) => o.repo)
-  );
+  const existingRepos = new Set(sources.overrides.filter((o) => o.repo).map((o) => o.repo));
 
   const updated = sources.overrides.map((entry) => {
     if (!entry.repo) return entry;
@@ -537,7 +515,7 @@ export function applyDetectionPatch(
 
   const allOverrides = [...updated, ...newEntries];
   allOverrides.sort((a, b) =>
-    (a.name || "").toLowerCase().localeCompare((b.name || "").toLowerCase())
+    (a.name || "").toLowerCase().localeCompare((b.name || "").toLowerCase()),
   );
 
   return {
@@ -548,7 +526,7 @@ export function applyDetectionPatch(
 
 export function saveSources(
   sourcesDir: string,
-  sources: { overrides: ThemeEntry[]; builtin?: ThemeEntry[] }
+  sources: { overrides: ThemeEntry[]; builtin?: ThemeEntry[] },
 ): void {
   const byStrategy = {
     setup: [] as ThemeEntry[],
@@ -579,7 +557,7 @@ export function saveSources(
       strategy,
       count: themes.length,
       themes: themes.sort((a, b) =>
-        (a.name || "").toLowerCase().localeCompare((b.name || "").toLowerCase())
+        (a.name || "").toLowerCase().localeCompare((b.name || "").toLowerCase()),
       ),
     });
   }

@@ -1,6 +1,6 @@
 /**
  * Core types and Zod schemas for theme-browser-registry.
- * 
+ *
  * All runtime validation is handled through Zod schemas.
  * TypeScript types are inferred from these schemas.
  */
@@ -19,12 +19,7 @@ export const BackgroundSchema = z.enum(["dark", "light"]);
 /**
  * Theme loading strategies
  */
-export const LoadStrategySchema = z.enum([
-  "colorscheme",
-  "setup",
-  "load",
-  "file",
-]);
+export const LoadStrategySchema = z.enum(["colorscheme", "setup", "load", "file"]);
 
 /**
  * Theme mode (dark/light)
@@ -85,7 +80,10 @@ export const ThemeEntrySchema = z.object({
   homepage: z.string().optional(),
   meta: ThemeMetaSchema.optional(),
   name: z.string().min(1),
-  repo: z.string().regex(/^[a-zA-Z0-9_-]+\/[a-zA-Z0-9._-]+$/).optional(),
+  repo: z
+    .string()
+    .regex(/^[a-zA-Z0-9_-]+\/[a-zA-Z0-9._-]+$/)
+    .optional(),
   stars: z.number().int().nonnegative().optional(),
   topics: z.array(z.string()).optional(),
   updated_at: z.string().optional(),

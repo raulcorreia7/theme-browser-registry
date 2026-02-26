@@ -1,6 +1,6 @@
 import { runOnce } from "@/sync/indexer";
 import { loadConfig } from "@/lib/config";
-import { setLogLevel, LogLevels } from "@/lib/logger";
+import { setLogLevel, LogLevels, logger } from "@/lib/logger";
 import type { RunStats } from "@/lib/types";
 import type { CommandResult } from "@/cmd/commands/types";
 import { success, failure } from "@/cmd/commands/types";
@@ -26,7 +26,7 @@ export async function syncCommand(options: SyncOptions): Promise<CommandResult> 
   }
 
   if (stats.errors > 0) {
-    console.log(`Note: ${stats.errors} repos skipped due to errors`);
+    logger.info(`${stats.errors} repos skipped due to errors`);
   }
 
   return success(`Synced ${stats.written} themes`);

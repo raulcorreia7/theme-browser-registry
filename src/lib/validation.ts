@@ -66,7 +66,7 @@ export function validate<T extends ZodSchema>(schema: T, data: unknown): z.infer
  */
 export function validateSafe<T extends ZodSchema>(
   schema: T,
-  data: unknown
+  data: unknown,
 ): ValidationResult<z.infer<T>> {
   const result = schema.safeParse(data);
 

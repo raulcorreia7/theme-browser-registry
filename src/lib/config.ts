@@ -52,8 +52,8 @@ const OutputSchema = z.object({
 
 // Preprocess logLevel to uppercase for case-insensitive matching
 const LogLevelSchema = z.preprocess(
-  (val) => typeof val === "string" ? val.toUpperCase() : val,
-  z.enum(["DEBUG", "INFO", "WARNING", "ERROR"]).catch("INFO")
+  (val) => (typeof val === "string" ? val.toUpperCase() : val),
+  z.enum(["DEBUG", "INFO", "WARNING", "ERROR"]).catch("INFO"),
 );
 
 const RuntimeSchema = z.object({
@@ -74,7 +74,11 @@ const PublishGitSchema = z.object({
 
 const PublishSchema = z.object({
   enabled: z.boolean().catch(false),
-  git: PublishGitSchema.catch({ remote: "origin", branch: "master", message: "chore(registry): publish latest index artifacts" }),
+  git: PublishGitSchema.catch({
+    remote: "origin",
+    branch: "master",
+    message: "chore(registry): publish latest index artifacts",
+  }),
 });
 
 export const ConfigSchema = z.object({
@@ -107,7 +111,11 @@ export const ConfigSchema = z.object({
   sort: SortSchema.catch({ by: "stars", order: "desc" }),
   publish: PublishSchema.catch({
     enabled: false,
-    git: { remote: "origin", branch: "master", message: "chore(registry): publish latest index artifacts" },
+    git: {
+      remote: "origin",
+      branch: "master",
+      message: "chore(registry): publish latest index artifacts",
+    },
   }),
 });
 

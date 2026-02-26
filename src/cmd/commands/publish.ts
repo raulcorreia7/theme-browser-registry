@@ -37,7 +37,7 @@ export async function publishCommand(options: PublishOptions): Promise<CommandRe
         remote: config.publish.git.remote,
         branch: config.publish.git.branch,
       },
-      process.cwd()
+      process.cwd(),
     );
 
     if (result.published) {

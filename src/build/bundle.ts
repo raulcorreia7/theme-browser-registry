@@ -69,7 +69,7 @@ export function scoreTheme(theme: ThemeWithMeta): number {
 
 export function selectThemesWithHeuristics(
   themes: ThemeWithMeta[],
-  targetCount: number
+  targetCount: number,
 ): { selected: ThemeWithMeta[]; darkCount: number; lightCount: number; duplicates: number } {
   const themesByName = new Map<string, ThemeWithMeta>();
   let duplicates = 0;
@@ -112,7 +112,12 @@ export function selectThemesWithHeuristics(
     const needsDark = darkCount < minDark && hasDark;
     const needsLight = lightCount < minLight && hasLight;
 
-    if (needsDark || needsLight || selected.length < targetCount - Math.max(0, minDark - darkCount) - Math.max(0, minLight - lightCount)) {
+    if (
+      needsDark ||
+      needsLight ||
+      selected.length <
+        targetCount - Math.max(0, minDark - darkCount) - Math.max(0, minLight - lightCount)
+    ) {
       selected.push(theme);
       selectedNames.add(theme.name);
       if (hasDark) darkCount++;

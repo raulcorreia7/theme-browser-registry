@@ -92,7 +92,9 @@ export function validateRegistry(themes: ThemeEntry[]): RegistryValidationResult
 
   for (const [strategy, count] of Object.entries(byStrategy) as [StrategyType, number][]) {
     if (count < MIN_THEMES_PER_STRATEGY) {
-      warnings.push(`Only ${count} themes with strategy '${strategy}' (recommended: >= ${MIN_THEMES_PER_STRATEGY})`);
+      warnings.push(
+        `Only ${count} themes with strategy '${strategy}' (recommended: >= ${MIN_THEMES_PER_STRATEGY})`,
+      );
     }
   }
 

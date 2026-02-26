@@ -122,10 +122,7 @@ export class RepoCache {
 
     // Add readme columns if they don't exist (migration)
     try {
-      await this.db.schema
-        .alterTable("repo_cache")
-        .addColumn("readme_content", "text")
-        .execute();
+      await this.db.schema.alterTable("repo_cache").addColumn("readme_content", "text").execute();
     } catch {
       // Column already exists
     }
@@ -193,7 +190,7 @@ export class RepoCache {
     repo: string,
     updatedAt: string,
     payload: ThemeEntry | Record<string, unknown>,
-    parseError: string | null = null
+    parseError: string | null = null,
   ): Promise<void> {
     await this.ensureSchema();
 
@@ -215,7 +212,7 @@ export class RepoCache {
           scanned_at: scannedAt,
           payload_json: payloadJson,
           parse_error: parseError,
-        })
+        }),
       )
       .execute();
   }
@@ -237,7 +234,7 @@ export class RepoCache {
   async shouldRefresh(
     repo: string,
     discoveredUpdatedAt: string,
-    staleAfterDays: number
+    staleAfterDays: number,
   ): Promise<boolean> {
     await this.ensureSchema();
 
@@ -290,10 +287,7 @@ export class RepoCache {
   async listAll(): Promise<RepoCacheEntry[]> {
     await this.ensureSchema();
 
-    const rows = await this.db
-      .selectFrom("repo_cache")
-      .selectAll()
-      .execute();
+    const rows = await this.db.selectFrom("repo_cache").selectAll().execute();
 
     return rows.map((row) => ({
       repo: row.repo,
@@ -370,7 +364,7 @@ export class RepoCache {
         oc.column("repo").doUpdateSet({
           readme_content: content,
           readme_scanned_at: scannedAt,
-        })
+        }),
       )
       .execute();
   }

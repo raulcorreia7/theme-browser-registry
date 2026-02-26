@@ -88,7 +88,7 @@ export class GitHubClient {
     topic: string,
     page: number,
     perPage: number,
-    minStars: number = 10
+    minStars: number = 10,
   ): Promise<{ items: GitHubRepoItem[]; hasNext: boolean }> {
     await this.waitForRateLimit();
 
@@ -113,7 +113,9 @@ export class GitHubClient {
             full_name: item.full_name,
             description: item.description ?? null,
             stargazers_count: item.stargazers_count ?? 0,
-            topics: Array.isArray(item.topics) ? item.topics.filter((t): t is string => typeof t === "string") : [],
+            topics: Array.isArray(item.topics)
+              ? item.topics.filter((t): t is string => typeof t === "string")
+              : [],
             updated_at: item.updated_at ?? "",
             archived: item.archived ?? false,
             disabled: item.disabled ?? false,
@@ -147,21 +149,23 @@ export class GitHubClient {
       if (!owner || !repoName) {
         return null;
       }
-      
+
       const response = await this.octokit.rest.repos.get({
         owner,
         repo: repoName,
       });
 
       this.markRequest();
-      
+
       const data = response.data;
       return {
         id: data.id ?? 0,
         full_name: data.full_name ?? "",
         description: data.description ?? null,
         stargazers_count: data.stargazers_count ?? 0,
-        topics: Array.isArray(data.topics) ? data.topics.filter((t): t is string => typeof t === "string") : [],
+        topics: Array.isArray(data.topics)
+          ? data.topics.filter((t): t is string => typeof t === "string")
+          : [],
         updated_at: data.updated_at ?? "",
         archived: data.archived ?? false,
         disabled: data.disabled ?? false,
@@ -192,7 +196,7 @@ export class GitHubClient {
       if (!owner || !repoName) {
         return [];
       }
-      
+
       const response = await this.octokit.rest.git.getTree({
         owner,
         repo: repoName,
@@ -201,13 +205,14 @@ export class GitHubClient {
       });
 
       this.markRequest();
-      
+
       const items: GitHubTreeItem[] = [];
       for (const item of response.data.tree) {
         if (typeof item.path === "string") {
-          const itemType = item.type === "blob" || item.type === "tree" || item.type === "commit" 
-            ? item.type 
-            : "blob";
+          const itemType =
+            item.type === "blob" || item.type === "tree" || item.type === "commit"
+              ? item.type
+              : "blob";
           items.push({
             path: item.path,
             mode: item.mode ?? "100644",
@@ -218,7 +223,7 @@ export class GitHubClient {
           });
         }
       }
-      
+
       return items;
     } catch (error) {
       this.markRequest();

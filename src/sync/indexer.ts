@@ -24,7 +24,7 @@ export interface DiscoveredRepo {
 
 async function discoverRepositories(
   client: GitHubClient,
-  config: Config
+  config: Config,
 ): Promise<Map<string, DiscoveredRepo>> {
   const discovered = new Map<string, DiscoveredRepo>();
   const mutex = { lock: false };
@@ -32,7 +32,7 @@ async function discoverRepositories(
 
   async function discoverTopic(topic: string): Promise<void> {
     logger.info(
-      `discover topic=${topic} perPage=${config.discovery.pagination.perPage} maxPagesPerTopic=${config.discovery.pagination.maxPagesPerTopic} minStars=${config.filters.minStars}`
+      `discover topic=${topic} perPage=${config.discovery.pagination.perPage} maxPagesPerTopic=${config.discovery.pagination.maxPagesPerTopic} minStars=${config.filters.minStars}`,
     );
 
     const pages: Array<{ items: GitHubRepoItem[]; hasNext: boolean }> = [];
@@ -44,11 +44,14 @@ async function discoverRepositories(
         topic,
         page,
         config.discovery.pagination.perPage,
-        config.filters.minStars
+        config.filters.minStars,
       );
       pages.push(result);
       page++;
-      hasNext = result.hasNext && (config.discovery.pagination.maxPagesPerTopic === 0 || page <= config.discovery.pagination.maxPagesPerTopic);
+      hasNext =
+        result.hasNext &&
+        (config.discovery.pagination.maxPagesPerTopic === 0 ||
+          page <= config.discovery.pagination.maxPagesPerTopic);
       if (result.items.length === 0) break;
     }
 
@@ -62,7 +65,7 @@ async function discoverRepositories(
             const isWhitelisted = includeSet.has(repo);
             const stars = item.stargazers_count ?? null;
             const meetsMinStars = stars !== null && stars >= config.filters.minStars;
-            
+
             if (isWhitelisted || meetsMinStars) {
               discovered.set(repo, {
                 updatedAt: item.updated_at,
@@ -100,18 +103,16 @@ async function discoverRepositories(
 
   const whitelistedCount = Array.from(discovered.values()).filter((d) => d.whitelisted).length;
   logger.info(
-    `discover completed topics=${config.discovery.topics.length} repos=${discovered.size} whitelisted=${whitelistedCount} excluded=${excludeRepos.length}`
+    `discover completed topics=${config.discovery.topics.length} repos=${discovered.size} whitelisted=${whitelistedCount} excluded=${excludeRepos.length}`,
   );
   return discovered;
 }
 
 export function selectRepositoriesForRun(
   discovered: Map<string, DiscoveredRepo>,
-  config: Config
+  config: Config,
 ): Array<[string, DiscoveredRepo]> {
-  const sorted = Array.from(discovered.entries()).sort((a, b) =>
-    a[0].localeCompare(b[0])
-  );
+  const sorted = Array.from(discovered.entries()).sort((a, b) => a[0].localeCompare(b[0]));
   if (config.processing.maxReposPerRun > 0) {
     return sorted.slice(0, config.processing.maxReposPerRun);
   }
@@ -133,7 +134,7 @@ async function processBatchParallel(
   store: RepoCache,
   entriesByRepo: Map<string, ThemeEntry>,
   stats: RunStats,
-  force = false
+  force = false,
 ): Promise<void> {
   const queue = [...batch];
 
@@ -144,7 +145,10 @@ async function processBatchParallel(
 
       const [repo, discoveredInfo] = item;
 
-      if (!force && !(await store.shouldRefresh(repo, discoveredInfo.updatedAt, config.filters.staleAfterDays))) {
+      if (
+        !force &&
+        !(await store.shouldRefresh(repo, discoveredInfo.updatedAt, config.filters.staleAfterDays))
+      ) {
         const cached = await store.readRepo(repo);
         if (cached?.payload && "repo" in cached.payload) {
           const cachedEntry = cached.payload as ThemeEntry;
@@ -160,14 +164,19 @@ async function processBatchParallel(
       }
 
       try {
-        const entry = await buildEntryForRepo(client, config, repo, store, discoveredInfo.whitelisted);
+        const entry = await buildEntryForRepo(
+          client,
+          config,
+          repo,
+          store,
+          discoveredInfo.whitelisted,
+        );
         const updatedAt = entry.updated_at || "";
         await store.upsertRepo(repo, updatedAt, entry, null);
         entriesByRepo.set(repo, entry);
         stats.fetched++;
       } catch (error) {
-        const errorMessage =
-          error instanceof Error ? error.message : String(error);
+        const errorMessage = error instanceof Error ? error.message : String(error);
         await store.upsertRepo(repo, discoveredInfo.updatedAt || "", { repo }, errorMessage);
         stats.errors++;
         logger.warn(`repo processing failed repo=${repo} error=${errorMessage}`);
@@ -203,7 +212,7 @@ async function buildEntryForRepo(
   config: Config,
   repo: string,
   store: RepoCache,
-  whitelisted: boolean = false
+  whitelisted: boolean = false,
 ): Promise<ThemeEntry> {
   const repoPayload = await client.fetchRepository(repo);
   if (!repoPayload) {
@@ -264,7 +273,7 @@ export async function runOnce(config: Config, force = false): Promise<RunStats> 
     stats.scheduled = scheduled.length;
 
     logger.info(
-      `run plan discovered=${stats.discovered} scheduled=${stats.scheduled} batchSize=${config.processing.batch.size} batchPauseMs=${config.processing.batch.pauseMs} requestDelayMs=${config.github.rateLimit.delayMs} force=${force}`
+      `run plan discovered=${stats.discovered} scheduled=${stats.scheduled} batchSize=${config.processing.batch.size} batchPauseMs=${config.processing.batch.pauseMs} requestDelayMs=${config.github.rateLimit.delayMs} force=${force}`,
     );
 
     const entriesByRepo = new Map<string, ThemeEntry>();
@@ -304,7 +313,7 @@ export async function runOnce(config: Config, force = false): Promise<RunStats> 
       if (!batch) continue;
       stats.batches++;
       logger.info(
-        `processing batch=${batchIndex + 1}/${totalBatches} size=${batch.length} concurrency=${config.processing.concurrency}`
+        `processing batch=${batchIndex + 1}/${totalBatches} size=${batch.length} concurrency=${config.processing.concurrency}`,
       );
 
       await processBatchParallel(batch, client, config, store, entriesByRepo, stats, force);
@@ -326,7 +335,7 @@ export async function runOnce(config: Config, force = false): Promise<RunStats> 
       writeManifest(config.output.manifest, config.output.index, validEntries.length);
       stats.written = validEntries.length;
       logger.debug(
-        `batch checkpoint written batch=${batchIndex + 1}/${totalBatches} entries=${validEntries.length}`
+        `batch checkpoint written batch=${batchIndex + 1}/${totalBatches} entries=${validEntries.length}`,
       );
 
       if (config.processing.batch.pauseMs > 0 && batchIndex < totalBatches - 1) {
@@ -337,7 +346,7 @@ export async function runOnce(config: Config, force = false): Promise<RunStats> 
     }
 
     logger.info(
-      `run complete discovered=${stats.discovered} scheduled=${stats.scheduled} batches=${stats.batches} fetched=${stats.fetched} cached=${stats.cached} errors=${stats.errors} written=${stats.written}`
+      `run complete discovered=${stats.discovered} scheduled=${stats.scheduled} batches=${stats.batches} fetched=${stats.fetched} cached=${stats.cached} errors=${stats.errors} written=${stats.written}`,
     );
 
     return stats;
@@ -353,8 +362,6 @@ export async function runLoop(config: Config): Promise<void> {
     const stats = await runOnce(config);
     const took = Math.floor((Date.now() - started) / 1000);
     logger.info(`loop iteration finished duration=${took}s stats=${JSON.stringify(stats)}`);
-    await new Promise((resolve) =>
-      setTimeout(resolve, config.runtime.scanIntervalSeconds * 1000)
-    );
+    await new Promise((resolve) => setTimeout(resolve, config.runtime.scanIntervalSeconds * 1000));
   }
 }

@@ -49,7 +49,10 @@ function createTally(): Record<StrategyType, number> {
   return { ...DEFAULT_TALLY };
 }
 
-function computeDetection(signals: DetectionSignal[]): { detected: StrategyType; confidence: number } {
+function computeDetection(signals: DetectionSignal[]): {
+  detected: StrategyType;
+  confidence: number;
+} {
   const tally = createTally();
   for (const s of signals) tally[s.strategy] += s.score;
 
@@ -83,43 +86,84 @@ export function detectFromText(readme: string): DetectionResult {
   const lower = readme.toLowerCase();
 
   if (RE.REQUIRE_LOAD.test(text)) {
-    signals.push({ strategy: "load", score: SCORE.REQUIRE_LOAD, reason: "README contains require(...).load(...)" });
+    signals.push({
+      strategy: "load",
+      score: SCORE.REQUIRE_LOAD,
+      reason: "README contains require(...).load(...)",
+    });
   }
   if (RE.LOAD_PATTERN.test(text) && RE.REQUIRE_CALL.test(text)) {
-    signals.push({ strategy: "load", score: SCORE.LOAD_PATTERN, reason: "README shows .load() pattern" });
+    signals.push({
+      strategy: "load",
+      score: SCORE.LOAD_PATTERN,
+      reason: "README shows .load() pattern",
+    });
   }
 
   if (RE.REQUIRE_SETUP.test(text)) {
-    signals.push({ strategy: "setup", score: SCORE.REQUIRE_SETUP, reason: "README contains require(...).setup(...)" });
+    signals.push({
+      strategy: "setup",
+      score: SCORE.REQUIRE_SETUP,
+      reason: "README contains require(...).setup(...)",
+    });
   }
   if (RE.SETUP_OPTIONS.test(text)) {
-    signals.push({ strategy: "setup", score: SCORE.SETUP_OPTIONS, reason: "README shows setup({...}) options block" });
+    signals.push({
+      strategy: "setup",
+      score: SCORE.SETUP_OPTIONS,
+      reason: "README shows setup({...}) options block",
+    });
   }
 
   if (RE.COLORSCHEME_CMD.test(text)) {
-    signals.push({ strategy: "colorscheme", score: SCORE.COLORSCHEME_USAGE, reason: "README shows :colorscheme usage" });
+    signals.push({
+      strategy: "colorscheme",
+      score: SCORE.COLORSCHEME_USAGE,
+      reason: "README shows :colorscheme usage",
+    });
   }
   if (RE.VIM_CMD_COLORSCHEME.test(text)) {
-    signals.push({ strategy: "colorscheme", score: SCORE.COLORSCHEME_USAGE, reason: 'README shows vim.cmd("colorscheme ...")' });
+    signals.push({
+      strategy: "colorscheme",
+      score: SCORE.COLORSCHEME_USAGE,
+      reason: 'README shows vim.cmd("colorscheme ...")',
+    });
   }
   if (RE.VIM_CMD_DOT_COLORSCHEME.test(text)) {
-    signals.push({ strategy: "colorscheme", score: SCORE.COLORSCHEME_USAGE, reason: "README shows vim.cmd.colorscheme(...)" });
+    signals.push({
+      strategy: "colorscheme",
+      score: SCORE.COLORSCHEME_USAGE,
+      reason: "README shows vim.cmd.colorscheme(...)",
+    });
   }
 
   if (RE.VIM_G_GLOBAL.test(text) && !RE.REQUIRE_CALL.test(text)) {
-    signals.push({ strategy: "colorscheme", score: SCORE.VIM_G_GLOBALS, reason: "README shows vim.g globals without require()" });
+    signals.push({
+      strategy: "colorscheme",
+      score: SCORE.VIM_G_GLOBALS,
+      reason: "README shows vim.g globals without require()",
+    });
   }
 
   if (RE.BACKGROUND_MODE.test(text) && RE.COLORSCHEME_CMD.test(text)) {
-    signals.push({ strategy: "file", score: SCORE.FILE_STRATEGY, reason: "README suggests mode-dependent setup + colorscheme" });
+    signals.push({
+      strategy: "file",
+      score: SCORE.FILE_STRATEGY,
+      reason: "README suggests mode-dependent setup + colorscheme",
+    });
   }
   if (RE.CUSTOM_ORDERING.test(lower)) {
-    signals.push({ strategy: "file", score: SCORE.FILE_STRATEGY, reason: "README suggests custom init ordering" });
+    signals.push({
+      strategy: "file",
+      score: SCORE.FILE_STRATEGY,
+      reason: "README suggests custom init ordering",
+    });
   }
 
   const { detected, confidence } = computeDetection(signals);
 
-  const needsSourceInspection = detected === "unknown" || confidence < CONFIG.HIGH_CONFIDENCE_THRESHOLD;
+  const needsSourceInspection =
+    detected === "unknown" || confidence < CONFIG.HIGH_CONFIDENCE_THRESHOLD;
 
   return { detected, confidence, signals, needsSourceInspection };
 }
@@ -133,7 +177,8 @@ function hasMatchingPath(paths: string[], regex: RegExp): boolean {
 export function inspectSource(files: FileTreeItem[]): Partial<DetectionResult> {
   const filePaths = files.filter((t) => t.type === "blob").map((t) => t.path);
 
-  const hasLuaModule = hasMatchingPath(filePaths, RE.LUA_MODULE) || hasMatchingPath(filePaths, RE.LUA_SINGLE);
+  const hasLuaModule =
+    hasMatchingPath(filePaths, RE.LUA_MODULE) || hasMatchingPath(filePaths, RE.LUA_SINGLE);
   const hasColorsLua = hasMatchingPath(filePaths, RE.COLORS_LUA);
   const hasColorsVim = hasMatchingPath(filePaths, RE.COLORS_VIM);
   const hasPluginDir = hasMatchingPath(filePaths, RE.PLUGIN_LUA);
@@ -141,23 +186,43 @@ export function inspectSource(files: FileTreeItem[]): Partial<DetectionResult> {
   const signals: DetectionSignal[] = [];
 
   if (hasColorsVim && !hasLuaModule && !hasColorsLua) {
-    signals.push({ strategy: "colorscheme", score: SCORE.COLORS_VIM_ONLY, reason: "Repo has colors/*.vim without Lua module" });
+    signals.push({
+      strategy: "colorscheme",
+      score: SCORE.COLORS_VIM_ONLY,
+      reason: "Repo has colors/*.vim without Lua module",
+    });
   }
 
   if (hasLuaModule && hasColorsLua) {
-    signals.push({ strategy: "setup", score: SCORE.LUA_MODULE_WITH_COLORS, reason: "Repo has Lua module + colors/*.lua" });
+    signals.push({
+      strategy: "setup",
+      score: SCORE.LUA_MODULE_WITH_COLORS,
+      reason: "Repo has Lua module + colors/*.lua",
+    });
   }
 
   if (hasColorsLua && !hasLuaModule) {
-    signals.push({ strategy: "colorscheme", score: SCORE.COLORS_LUA_ONLY, reason: "Repo has colors/*.lua without Lua module" });
+    signals.push({
+      strategy: "colorscheme",
+      score: SCORE.COLORS_LUA_ONLY,
+      reason: "Repo has colors/*.lua without Lua module",
+    });
   }
 
   if (hasPluginDir && hasLuaModule) {
-    signals.push({ strategy: "setup", score: SCORE.PLUGIN_WITH_LUA, reason: "Repo has plugin/ dir + Lua module" });
+    signals.push({
+      strategy: "setup",
+      score: SCORE.PLUGIN_WITH_LUA,
+      reason: "Repo has plugin/ dir + Lua module",
+    });
   }
 
   if (hasLuaModule && !hasColorsLua && !hasColorsVim) {
-    signals.push({ strategy: "load", score: SCORE.LUA_NO_COLORS, reason: "Repo has Lua module without colors/" });
+    signals.push({
+      strategy: "load",
+      score: SCORE.LUA_NO_COLORS,
+      reason: "Repo has Lua module without colors/",
+    });
   }
 
   if (signals.length === 0) {

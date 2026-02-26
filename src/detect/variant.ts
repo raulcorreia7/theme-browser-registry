@@ -1,8 +1,31 @@
 import type { ThemeMode } from "@/lib/types";
 import type { VariantModeResult } from "./types";
 
-const DARK_SUFFIXES = ["dark", "night", "moon", "storm", "mocha", "frappe", "macchiato", "deep", "black", "shadow", "midnight", "abyss"] as const;
-const LIGHT_SUFFIXES = ["light", "day", "sun", "latte", "bright", "white", "paper", "cream", "morning"] as const;
+const DARK_SUFFIXES = [
+  "dark",
+  "night",
+  "moon",
+  "storm",
+  "mocha",
+  "frappe",
+  "macchiato",
+  "deep",
+  "black",
+  "shadow",
+  "midnight",
+  "abyss",
+] as const;
+const LIGHT_SUFFIXES = [
+  "light",
+  "day",
+  "sun",
+  "latte",
+  "bright",
+  "white",
+  "paper",
+  "cream",
+  "morning",
+] as const;
 
 const RE_BASE16_LIGHT = /^base16-.+-light$/i;
 const RE_BASE16_DARK = /^base16-(?!.*-light$).+$/i;
@@ -37,9 +60,16 @@ export function detectVariantModeFromName(variantName: string): ThemeMode | unde
   return undefined;
 }
 
-export type VariantInput = { name: string; colorscheme?: string; mode?: ThemeMode | undefined; meta?: { strategy?: unknown } };
+export type VariantInput = {
+  name: string;
+  colorscheme?: string;
+  mode?: ThemeMode | undefined;
+  meta?: { strategy?: unknown };
+};
 
-export function detectVariantModesFromNames(variants: VariantInput[] | undefined): VariantModeResult[] {
+export function detectVariantModesFromNames(
+  variants: VariantInput[] | undefined,
+): VariantModeResult[] {
   if (!variants || variants.length === 0) return [];
 
   return variants.map((variant): VariantModeResult => {
@@ -59,7 +89,7 @@ export function detectVariantModesFromNames(variants: VariantInput[] | undefined
 
 export function applyVariantHints(
   results: VariantModeResult[],
-  hints: Record<string, ThemeMode>
+  hints: Record<string, ThemeMode>,
 ): VariantModeResult[] {
   return results.map((result): VariantModeResult => {
     const hintedMode = hints[result.name];

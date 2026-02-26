@@ -1,6 +1,6 @@
 {
   "name": "@theme-browser/registry",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "TypeScript theme indexer for theme-browser.nvim",
   "main": "dist/index.js",
@@ -14,8 +14,9 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "lint": "eslint src",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
     "clean": "rm -rf dist coverage .state artifacts reports",
-
     "task:sync": "tsx tasks/01-sync.ts -c config.json",
     "task:detect": "tsx tasks/02-detect.ts --apply",
     "task:detect:dryrun": "tsx tasks/02-detect.ts",
@@ -23,7 +24,6 @@
     "task:build": "tsx tasks/04-build.ts",
     "task:bundle": "tsx tasks/05-bundle.ts",
     "task:validate": "tsx tasks/validate/registry.ts",
-
     "sync": "tsx tasks/01-sync.ts -c config.json",
     "detect": "tsx tasks/02-detect.ts --apply",
     "detect:dryrun": "tsx tasks/02-detect.ts",
@@ -31,9 +31,7 @@
     "build:themes": "tsx tasks/04-build.ts",
     "bundle": "tsx tasks/05-bundle.ts",
     "validate": "tsx tasks/validate/registry.ts",
-
     "pipeline": "npm run task:sync && npm run task:detect && npm run task:merge && npm run task:build",
-
     "cli": "tsx src/cli.ts",
     "watch:cli": "tsx watch src/cli.ts",
     "publish:cli": "tsx src/cli.ts publish",
@@ -61,6 +59,7 @@
     "@types/p-limit": "^2.1.0",
     "@vitest/coverage-v8": "^3.2.4",
     "eslint": "^9.0.0",
+    "prettier": "^3.8.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.0.0",

@@ -11,7 +11,7 @@ const DEFAULT_RETRY_DELAY_MS = 1000;
 
 export async function retry<T>(
   fn: () => Promise<T>,
-  options?: { maxRetries?: number; delayMs?: number }
+  options?: { maxRetries?: number; delayMs?: number },
 ): Promise<T> {
   const maxRetries = options?.maxRetries ?? DEFAULT_MAX_RETRIES;
   const delayMs = options?.delayMs ?? DEFAULT_RETRY_DELAY_MS;

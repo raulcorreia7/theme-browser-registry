@@ -7,7 +7,7 @@ export interface CommandResult {
 export function createCommandResult(
   success: boolean,
   message?: string | undefined,
-  exitCode = 0
+  exitCode = 0,
 ): CommandResult {
   return { success, message, exitCode };
 }

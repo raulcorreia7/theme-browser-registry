@@ -26,7 +26,7 @@ export function writeJson(path: string, payload: unknown): void {
 export function writeManifest(
   manifestPath: string,
   outputPath: string,
-  entriesCount: number
+  entriesCount: number,
 ): void {
   const raw = readFileSync(outputPath);
   const checksum = createHash("sha256").update(raw).digest("hex");

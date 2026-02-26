@@ -1,12 +1,50 @@
-import type { GitHubRepoItem, GitHubTreeItem, ThemeEntry, ThemeMode, ThemeVariant } from "@/lib/types";
+import type {
+  GitHubRepoItem,
+  GitHubTreeItem,
+  ThemeEntry,
+  ThemeMode,
+  ThemeVariant,
+} from "@/lib/types";
 
 const RE_COLORS_FILE = /^colors\/([^/]+)\.(vim|lua)$/;
 const RE_TRIM_DASHES = /^[-_]+|[-_]+$/g;
 
-const DARK_MODE_SUFFIXES = ["dark", "night", "moon", "storm", "mocha", "frappe", "macchiato", "deep", "black", "shadow", "midnight", "abyss"] as const;
-const LIGHT_MODE_SUFFIXES = ["light", "day", "sun", "latte", "bright", "white", "paper", "cream", "morning"] as const;
+const DARK_MODE_SUFFIXES = [
+  "dark",
+  "night",
+  "moon",
+  "storm",
+  "mocha",
+  "frappe",
+  "macchiato",
+  "deep",
+  "black",
+  "shadow",
+  "midnight",
+  "abyss",
+] as const;
+const LIGHT_MODE_SUFFIXES = [
+  "light",
+  "day",
+  "sun",
+  "latte",
+  "bright",
+  "white",
+  "paper",
+  "cream",
+  "morning",
+] as const;
 
-const SUFFIXES_TO_STRIP = [".nvim", ".vim", ".lua", "-nvim", "_nvim", "-vim", "_vim", "-colorscheme"] as const;
+const SUFFIXES_TO_STRIP = [
+  ".nvim",
+  ".vim",
+  ".lua",
+  "-nvim",
+  "_nvim",
+  "-vim",
+  "_vim",
+  "-colorscheme",
+] as const;
 
 const INVALID_THEME_NAMES = new Set(["", "nvim", "vim", "neovim", "theme", "colorscheme"]);
 

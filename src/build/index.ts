@@ -1,11 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import type { ThemeEntry, ThemeMode, ThemeStrategy } from "@/lib/types";
-import {
-  inferModeFromColorscheme,
-  isValidThemeName,
-  type ThemeWithMeta,
-} from "./themes";
+import { inferModeFromColorscheme, isValidThemeName, type ThemeWithMeta } from "./themes";
 
 export * from "./themes";
 export * from "./bundle";
@@ -104,7 +100,7 @@ function loadOverrides(overridesPath: string): OverridesMaps {
 
   const byRepo = new Map<string | undefined, ThemeEntry>();
   const byName = new Map<string | undefined, ThemeEntry>();
-  
+
   for (const o of data.overrides) {
     byRepo.set(o.repo, o);
     byName.set(o.name, o);
@@ -116,7 +112,7 @@ function loadOverrides(overridesPath: string): OverridesMaps {
 function buildOptimizedEntry(
   theme: ThemeWithMeta,
   override: ThemeEntry | undefined,
-  variantHints: Map<string, Record<string, ThemeMode>>
+  variantHints: Map<string, Record<string, ThemeMode>>,
 ): OutputTheme {
   const entry: OutputTheme = {
     name: theme.name,
@@ -189,7 +185,8 @@ export function run(options: BuildOptions): BuildResult {
 
     const existing = themesByName.get(nameLower);
     if (existing) {
-      const existingIsNeovim = existing.repo?.includes(".nvim") || existing.repo?.includes("neovim") || false;
+      const existingIsNeovim =
+        existing.repo?.includes(".nvim") || existing.repo?.includes("neovim") || false;
       const newIsNeovim = theme.repo?.includes(".nvim") || theme.repo?.includes("neovim") || false;
       const existingStars = existing.stars ?? 0;
       const newStars = theme.stars ?? 0;
@@ -250,9 +247,7 @@ export function run(options: BuildOptions): BuildResult {
 
   mkdirSync(dirname(output), { recursive: true });
 
-  const jsonOutput = minify
-    ? JSON.stringify(curated)
-    : JSON.stringify(curated, null, 2) + "\n";
+  const jsonOutput = minify ? JSON.stringify(curated) : JSON.stringify(curated, null, 2) + "\n";
 
   writeFileSync(output, jsonOutput, "utf-8");
 

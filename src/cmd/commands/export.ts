@@ -19,17 +19,18 @@ export async function exportCommand(options: ExportOptions): Promise<CommandResu
   const config = loadConfig(options.config);
   const store = new RepoCache(config.output.cache);
 
-
   try {
     const rows = await store.listAll();
 
-    const entries: DbExportEntry[] = rows.map((row): DbExportEntry => ({
-      repo: row.repo,
-      updated_at: row.updated_at,
-      scanned_at: row.scanned_at,
-      payload: row.payload,
-      parse_error: row.parse_error,
-    }));
+    const entries: DbExportEntry[] = rows.map(
+      (row): DbExportEntry => ({
+        repo: row.repo,
+        updated_at: row.updated_at,
+        scanned_at: row.scanned_at,
+        payload: row.payload,
+        parse_error: row.parse_error,
+      }),
+    );
 
     const exportData: DbExport = {
       exported_at: new Date().toISOString(),

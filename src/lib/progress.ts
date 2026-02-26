@@ -16,7 +16,11 @@ export function createProgress(opts: ProgressOptions) {
   const width = opts.width ?? 20;
   let lastLine = "";
 
-  function update(current: number, label: string, status: "ok" | "warn" | "error" | "info" = "ok"): void {
+  function update(
+    current: number,
+    label: string,
+    status: "ok" | "warn" | "error" | "info" = "ok",
+  ): void {
     const pct = Math.round((current / opts.total) * 100);
     const filled = Math.floor(pct / 5);
     const bar = "█".repeat(filled) + "░".repeat(width - filled);

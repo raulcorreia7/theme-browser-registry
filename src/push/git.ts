@@ -68,7 +68,7 @@ export function publishArtifacts(
     remote: string;
     branch: string;
   },
-  cwd: string
+  cwd: string,
 ): PublishResult {
   const { message, remote, branch } = options;
 

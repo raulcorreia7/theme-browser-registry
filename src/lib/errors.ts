@@ -24,7 +24,10 @@
  * Use this for domain errors that need to be distinguished by code.
  */
 export class AppError extends Error {
-  constructor(message: string, public code: string) {
+  constructor(
+    message: string,
+    public code: string,
+  ) {
     super(message);
     this.name = "AppError";
   }

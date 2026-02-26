@@ -44,7 +44,7 @@ export function run(options: MergeOptions): MergeResult {
 
     const filePath = path.join(options.sourcesDir, file);
     if (!pathExists(filePath)) continue;
-    
+
     const data = readJson<StrategyFile | { themes: ThemeEntry[] }>(filePath);
 
     if (data && "strategy" in data) {
@@ -72,11 +72,9 @@ export function run(options: MergeOptions): MergeResult {
   }
 
   allThemes.sort((a, b) =>
-    (a.name || "").toLowerCase().localeCompare((b.name || "").toLowerCase())
+    (a.name || "").toLowerCase().localeCompare((b.name || "").toLowerCase()),
   );
-  builtin.sort((a, b) =>
-    (a.name || "").toLowerCase().localeCompare((b.name || "").toLowerCase())
-  );
+  builtin.sort((a, b) => (a.name || "").toLowerCase().localeCompare((b.name || "").toLowerCase()));
 
   const merged = {
     overrides: allThemes,

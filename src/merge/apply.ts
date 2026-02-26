@@ -49,7 +49,7 @@ export function loadOverrides(path: string): LoadOverridesResult {
 export function applyOverrides(
   entries: ThemeEntry[],
   overrides: OverrideEntry[],
-  excluded: string[]
+  excluded: string[],
 ): ThemeEntry[] {
   const byRepo = new Map<string, ThemeEntry>();
 
@@ -83,19 +83,16 @@ function mergeEntry(base: ThemeEntry, override: Partial<ThemeEntry>): ThemeEntry
   return {
     ...base,
     ...override,
-    meta: override.meta 
+    meta: override.meta
       ? { ...base.meta, strategy: mergeStrategy(base.meta?.strategy, override.meta?.strategy) }
       : base.meta,
   };
 }
 
-function mergeStrategy(
-  base?: ThemeStrategy, 
-  override?: ThemeStrategy
-): ThemeStrategy | undefined {
+function mergeStrategy(base?: ThemeStrategy, override?: ThemeStrategy): ThemeStrategy | undefined {
   if (!override) return base;
   if (!base) return override;
-  
+
   return {
     ...base,
     ...override,

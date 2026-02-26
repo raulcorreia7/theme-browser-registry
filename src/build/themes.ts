@@ -8,8 +8,39 @@ const THEME_NAME = {
 
 const RE_VALID_NAME = /^[a-zA-Z0-9_-]+$/;
 
-const LIGHT_SUBSTRINGS = ["-light", "-day", "-latte", "-dawn", "-morning", "light-", "day-", "dawn-", "_light", "_day", "-snow", "-operandi", "-lumi"] as const;
-const DARK_SUBSTRINGS = ["-dark", "-night", "-moon", "-storm", "-mocha", "-dragon", "-wave", "dark-", "night-", "_dark", "_night", "-dusk", "-vivendi", "-ember", "-fog", "-moss"] as const;
+const LIGHT_SUBSTRINGS = [
+  "-light",
+  "-day",
+  "-latte",
+  "-dawn",
+  "-morning",
+  "light-",
+  "day-",
+  "dawn-",
+  "_light",
+  "_day",
+  "-snow",
+  "-operandi",
+  "-lumi",
+] as const;
+const DARK_SUBSTRINGS = [
+  "-dark",
+  "-night",
+  "-moon",
+  "-storm",
+  "-mocha",
+  "-dragon",
+  "-wave",
+  "dark-",
+  "night-",
+  "_dark",
+  "_night",
+  "-dusk",
+  "-vivendi",
+  "-ember",
+  "-fog",
+  "-moss",
+] as const;
 
 const DEFAULT_STRATEGY = "colorscheme";
 
@@ -82,7 +113,9 @@ export function deduplicateThemes(themes: ThemeWithMeta[]): ThemeWithMeta[] {
     const existingStars = existing.stars ?? 0;
     const newStars = theme.stars ?? 0;
 
-    const newIsBetter = (newIsNeovim && !existingIsNeovim) || (newIsNeovim === existingIsNeovim && newStars > existingStars);
+    const newIsBetter =
+      (newIsNeovim && !existingIsNeovim) ||
+      (newIsNeovim === existingIsNeovim && newStars > existingStars);
 
     if (newIsBetter) {
       themesByName.set(nameLower, theme);
@@ -93,10 +126,10 @@ export function deduplicateThemes(themes: ThemeWithMeta[]): ThemeWithMeta[] {
 }
 
 export function applyInferredModes(themes: ThemeWithMeta[]): ThemeWithMeta[] {
-  return themes.map(theme => {
+  return themes.map((theme) => {
     const baseMode = inferModeFromColorscheme(theme.colorscheme);
 
-    const variantsWithMode = theme.variants?.map(variant => {
+    const variantsWithMode = theme.variants?.map((variant) => {
       if (variant.mode) return variant;
       const inferredMode = inferModeFromColorscheme(variant.colorscheme ?? variant.name);
       return inferredMode ? { ...variant, mode: inferredMode } : variant;
