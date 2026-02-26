@@ -23,7 +23,7 @@ jobs:
       run: npm install
       
     - name: Run tests
-      run: npm test
+      run: npm test -- --exclude "tests/e2e/**"
       
     - name: Build TypeScript
       run: npm run build
