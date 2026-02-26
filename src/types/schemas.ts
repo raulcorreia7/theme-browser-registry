@@ -77,6 +77,7 @@ export const ThemeVariantSchema = z.object({
 export const ThemeEntrySchema = z.object({
   aliases: z.array(z.string()).optional(),
   archived: z.boolean().optional(),
+  builtin: z.boolean().optional(),
   colorscheme: z.string().min(1),
   deps: z.array(z.string()).optional(),
   description: z.string().optional(),
@@ -84,7 +85,7 @@ export const ThemeEntrySchema = z.object({
   homepage: z.string().optional(),
   meta: ThemeMetaSchema.optional(),
   name: z.string().min(1),
-  repo: z.string().regex(/^[a-zA-Z0-9_-]+\/[a-zA-Z0-9._-]+$/),
+  repo: z.string().regex(/^[a-zA-Z0-9_-]+\/[a-zA-Z0-9._-]+$/).optional(),
   stars: z.number().int().nonnegative().optional(),
   topics: z.array(z.string()).optional(),
   updated_at: z.string().optional(),
@@ -171,6 +172,7 @@ export const DbExportSchema = z.object({
  * Manifest file schema
  */
 export const ManifestSchema = z.object({
+  version: z.string().default("0.1.0"),
   count: z.number().int().nonnegative(),
   generated_at: z.string(),
   sha256: z.string().optional(),

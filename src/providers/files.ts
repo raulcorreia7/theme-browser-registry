@@ -2,6 +2,8 @@ import { createHash } from "crypto";
 import { mkdirSync, readFileSync, writeFileSync } from "fs";
 import { dirname } from "path";
 
+const REGISTRY_VERSION = "0.1.0";
+
 /**
  * Writes a JSON payload to a file, creating parent directories if needed.
  *
@@ -29,6 +31,7 @@ export function writeManifest(
   const raw = readFileSync(outputPath);
   const checksum = createHash("sha256").update(raw).digest("hex");
   const payload = {
+    version: REGISTRY_VERSION,
     count: entriesCount,
     generated_at: new Date().toISOString(),
     sha256: checksum,
