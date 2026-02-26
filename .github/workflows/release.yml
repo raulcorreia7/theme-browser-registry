@@ -41,16 +41,17 @@ jobs:
           node -e "
             const crypto = require('crypto');
             const fs = require('fs');
+            const pkg = JSON.parse(fs.readFileSync('package.json'));
             const raw = fs.readFileSync('artifacts/themes.json');
             const themes = JSON.parse(raw);
             const checksum = crypto.createHash('sha256').update(raw).digest('hex');
             fs.writeFileSync('artifacts/manifest.json', JSON.stringify({
-              version: '0.1.0',
+              version: pkg.version,
               count: themes.length,
               generated_at: new Date().toISOString(),
               sha256: checksum
             }, null, 2) + '\n');
-            console.log('Generated manifest.json');
+            console.log('Generated manifest.json with version', pkg.version);
           "
 
       - name: Generate top 50 themes file
@@ -71,25 +72,50 @@ jobs:
             console.log('Generated themes-top-50.json with', topThemes.length, 'themes');
           "
 
+      - name: Get package version
+        id: version
+        run: echo "value=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+
       - name: Check if themes.json changed
         id: check-changes
         run: |
-          git diff --quiet artifacts/themes.json 2>/dev/null || echo "changed=true" >> $GITHUB_OUTPUT
-          echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet artifacts/themes.json 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
-      - name: Generate release tag
+      - name: Generate timestamped release tag
         if: steps.check-changes.outputs.changed == 'true'
         id: tag
         run: echo "value=registry-$(date -u +%Y-%m-%d-%H%M)" >> $GITHUB_OUTPUT
 
-      - name: Create GitHub Release
+      - name: Create timestamped GitHub Release
         if: steps.check-changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create ${{ steps.tag.outputs.value }} \
             --title "Registry Update ${{ steps.tag.outputs.value }}" \
-            --notes "Automated registry update" \
+            --notes "Automated registry update with $(jq 'length' artifacts/themes.json) themes" \
             artifacts/themes.json \
             artifacts/themes-top-50.json \
             artifacts/manifest.json
+
+      - name: Create or update versioned release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="v${{ steps.version.outputs.value }}"
+          if gh release view "$VERSION" &>/dev/null; then
+            echo "Updating versioned release $VERSION..."
+            gh release upload "$VERSION" artifacts/themes.json artifacts/themes-top-50.json artifacts/manifest.json --clobber
+          else
+            echo "Creating versioned release $VERSION..."
+            gh release create "$VERSION" \
+              --title "$VERSION" \
+              --generate-notes \
+              artifacts/themes.json \
+              artifacts/themes-top-50.json \
+              artifacts/manifest.json
+          fi
