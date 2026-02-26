@@ -32,6 +32,28 @@ jobs:
       - name: Build TypeScript
         run: npm run build
 
+      - name: Run pipeline
+        run: npm run pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate manifest
+        run: |
+          node -e "
+            const crypto = require('crypto');
+            const fs = require('fs');
+            const raw = fs.readFileSync('artifacts/themes.json');
+            const themes = JSON.parse(raw);
+            const checksum = crypto.createHash('sha256').update(raw).digest('hex');
+            fs.writeFileSync('artifacts/manifest.json', JSON.stringify({
+              version: '0.1.0',
+              count: themes.length,
+              generated_at: new Date().toISOString(),
+              sha256: checksum
+            }, null, 2) + '\n');
+            console.log('Generated manifest.json');
+          "
+
       - name: Generate top 50 themes file
         run: |
           node -e "
