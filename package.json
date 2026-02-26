@@ -10,7 +10,7 @@
     "build:themes": "node scripts/04-generate-themes.mjs",
     "start": "tsx src/cli.ts",
     "dev": "tsx watch src/cli.ts",
-    "sync": "tsx src/cli.ts sync",
+    "sync": "tsx src/cli.ts sync -c config.json",
     "watch": "tsx watch src/cli.ts",
     "publish": "tsx src/cli.ts publish",
     "export": "tsx src/cli.ts export",
