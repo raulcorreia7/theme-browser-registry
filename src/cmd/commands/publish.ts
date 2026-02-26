@@ -3,8 +3,7 @@ import { loadConfig } from "@/lib/config";
 import { setLogLevel, LogLevels } from "@/lib/logger";
 import type { RunStats } from "@/lib/types";
 import { publishArtifacts } from "@/push/git";
-import type { CommandResult } from "@/cmd/commands/types";
-import { success, failure } from "@/cmd/commands/types";
+import { type CommandResult, success, failure } from "@/cmd/commands/types";
 
 export interface PublishOptions {
   readonly config: string;

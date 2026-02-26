@@ -1,4 +1,4 @@
-import { writeFileSync } from "fs";
+import { writeFileSync } from "node:fs";
 import { loadConfig } from "@/lib/config";
 import { RepoCache } from "@/db/sqlite";
 import type { CommandResult } from "@/cmd/commands/types";

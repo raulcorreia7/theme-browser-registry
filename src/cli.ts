@@ -6,9 +6,8 @@
  */
 
 import { config } from "dotenv";
-import { resolve } from "path";
+import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "url";
-import { dirname } from "path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const envPath = resolve(__dirname, "../.env");

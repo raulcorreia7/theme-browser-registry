@@ -1,8 +1,7 @@
 import { runLoop } from "@/sync/indexer";
 import { loadConfig } from "@/lib/config";
 import { setLogLevel, LogLevels } from "@/lib/logger";
-import type { CommandResult } from "@/cmd/commands/types";
-import { success } from "@/cmd/commands/types";
+import { type CommandResult, success } from "@/cmd/commands/types";
 
 export interface WatchOptions {
   readonly config: string;

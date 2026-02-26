@@ -1,6 +1,6 @@
-import { createHash } from "crypto";
-import { mkdirSync, readFileSync, writeFileSync } from "fs";
-import { dirname } from "path";
+import { createHash } from "node:crypto";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname } from "node:path";
 
 const REGISTRY_VERSION = "0.1.0";
 

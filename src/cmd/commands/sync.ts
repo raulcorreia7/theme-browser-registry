@@ -2,8 +2,7 @@ import { runOnce } from "@/sync/indexer";
 import { loadConfig } from "@/lib/config";
 import { setLogLevel, LogLevels, logger } from "@/lib/logger";
 import type { RunStats } from "@/lib/types";
-import type { CommandResult } from "@/cmd/commands/types";
-import { success, failure } from "@/cmd/commands/types";
+import { type CommandResult, success, failure } from "@/cmd/commands/types";
 
 export interface SyncOptions {
   readonly config: string;

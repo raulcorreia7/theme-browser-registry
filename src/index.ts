@@ -37,11 +37,8 @@ export {
   detectVariantModeFromName,
   detectVariantModesFromNames,
   applyVariantHints,
-} from "@/detect/index";
-export {
   type DetectOptions,
   type DetectDeps,
-  type DetectResult,
   type PatchEntry,
   type VariantCoverageReport,
   type ExtendedDetectionRow,
@@ -62,16 +59,16 @@ export {
   getThemeStrategy,
   deduplicateThemes,
   applyInferredModes,
-} from "@/build/themes";
-export { type BuildOptions, type BuildResult, run as runBuild } from "@/build/index";
-export {
+  type BuildOptions,
+  type BuildResult,
+  run as runBuild,
   type BundleOptions,
   type BundleResult,
   run as runBundle,
   getThemeModes,
   scoreTheme,
   selectThemesWithHeuristics,
-} from "@/build/bundle";
+} from "@/build/index";
 
 // Domain: lint/validate
 export {

@@ -6,8 +6,8 @@
  * API calls and processing.
  */
 
-import { mkdirSync } from "fs";
-import { dirname } from "path";
+import { mkdirSync } from "node:fs";
+import { dirname } from "node:path";
 import { Kysely, SqliteDialect } from "kysely";
 import Database from "better-sqlite3";
 import type { ThemeEntry, RepoCacheEntry } from "@/lib/types";
