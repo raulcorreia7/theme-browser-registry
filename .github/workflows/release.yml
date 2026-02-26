@@ -29,10 +29,8 @@ jobs:
       - name: Run tests
         run: npm test -- --exclude "tests/e2e/**"
 
-      - name: Run full pipeline
-        run: npm run pipeline
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build TypeScript
+        run: npm run build
 
       - name: Generate top 50 themes file
         run: |
