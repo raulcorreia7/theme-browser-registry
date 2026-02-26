@@ -1,0 +1,33 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fdddb29aa445bf3d6a5d843d6dd77e10a9f99657",
+    "size": 1211,
+    "url": "https://api.github.com/repos/2962fe22-10b3-43f8-8a33-252bd4b7435a/prasiolite/git/blobs/fdddb29aa445bf3d6a5d843d6dd77e10a9f99657"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81d6a16abf3dc0c95c365371e2a63e653a7f286b",
+    "size": 966,
+    "url": "https://api.github.com/repos/2962fe22-10b3-43f8-8a33-252bd4b7435a/prasiolite/git/blobs/81d6a16abf3dc0c95c365371e2a63e653a7f286b"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b7b5ad11c554895ac6e2ec622b782f638970aac0",
+    "url": "https://api.github.com/repos/2962fe22-10b3-43f8-8a33-252bd4b7435a/prasiolite/git/trees/b7b5ad11c554895ac6e2ec622b782f638970aac0"
+  },
+  {
+    "path": "colors/prasiodark.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a082cf10d8145600983a50f0a27c1f32331b949",
+    "size": 4429,
+    "url": "https://api.github.com/repos/2962fe22-10b3-43f8-8a33-252bd4b7435a/prasiolite/git/blobs/4a082cf10d8145600983a50f0a27c1f32331b949"
+  }
+]

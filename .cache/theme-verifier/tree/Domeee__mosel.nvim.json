@@ -1,0 +1,125 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6167c701639b96bc4e808299d8594624a6116dd1",
+    "size": 2720,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/6167c701639b96bc4e808299d8594624a6116dd1"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5e77679c6a147a6351d97e2352e7fb055f078dd",
+    "size": 1072,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/b5e77679c6a147a6351d97e2352e7fb055f078dd"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "966b55d39c0cf478d76417427e5b97e42ab71eab",
+    "size": 933,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/966b55d39c0cf478d76417427e5b97e42ab71eab"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c474a52cacef7e2c63e1e83db9fe43eb0ece6345",
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/trees/c474a52cacef7e2c63e1e83db9fe43eb0ece6345"
+  },
+  {
+    "path": "colors/mosel.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44239e6447aa9e67d255138def7ee486ee188263",
+    "size": 347,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/44239e6447aa9e67d255138def7ee486ee188263"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fefe0431c8c85ffbc23927e15abc1635bc8647f7",
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/trees/fefe0431c8c85ffbc23927e15abc1635bc8647f7"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a1ebff3f285a9186d3ff67ff327a89cab446aaa",
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/trees/7a1ebff3f285a9186d3ff67ff327a89cab446aaa"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a40bd3e2ae829d89c5f1f0dec549a906eac2fd03",
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/trees/a40bd3e2ae829d89c5f1f0dec549a906eac2fd03"
+  },
+  {
+    "path": "lua/lualine/themes/mosel.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5af1a2b5d26d8508773f03b1af63f24b47f8aaa1",
+    "size": 542,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/5af1a2b5d26d8508773f03b1af63f24b47f8aaa1"
+  },
+  {
+    "path": "lua/mosel",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c2057413de4c04577ca7fcb442aba0a16ab3412",
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/trees/7c2057413de4c04577ca7fcb442aba0a16ab3412"
+  },
+  {
+    "path": "lua/mosel/colors.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5dfcb3aff915c21552ab7caceb84c57f7628638d",
+    "size": 457,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/5dfcb3aff915c21552ab7caceb84c57f7628638d"
+  },
+  {
+    "path": "lua/mosel/groups.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ab255509f68df459a7c32f0497978869f855c86",
+    "size": 19751,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/2ab255509f68df459a7c32f0497978869f855c86"
+  },
+  {
+    "path": "lua/mosel/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f5da07440e0c480107d98103524aac6eab6c8f9b",
+    "size": 241,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/f5da07440e0c480107d98103524aac6eab6c8f9b"
+  },
+  {
+    "path": "lua/mosel/util.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6977154f82ce9eba5183826bb31dd4a5868ec02",
+    "size": 955,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/b6977154f82ce9eba5183826bb31dd4a5868ec02"
+  },
+  {
+    "path": "shot1.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8809730a62185036038b069ddc390345c2fb4126",
+    "size": 685544,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/8809730a62185036038b069ddc390345c2fb4126"
+  },
+  {
+    "path": "shot2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d0d4ee3ec817f34bd91ab3f21d87bd97dceb018",
+    "size": 562521,
+    "url": "https://api.github.com/repos/Domeee/mosel.nvim/git/blobs/0d0d4ee3ec817f34bd91ab3f21d87bd97dceb018"
+  }
+]

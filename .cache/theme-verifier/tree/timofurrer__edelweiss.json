@@ -1,0 +1,214 @@
+[
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c38f7eda6c072c3735adf9760875605115e70aa9",
+    "size": 4254,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/c38f7eda6c072c3735adf9760875605115e70aa9"
+  },
+  {
+    "path": "assets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b4f5f69f7eb9b0fed82d4152c9b4d0f8812ff0e",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/2b4f5f69f7eb9b0fed82d4152c9b4d0f8812ff0e"
+  },
+  {
+    "path": "assets/logo_v1.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30b498c5dc066766cf0da6e0db4d89cfdfadf114",
+    "size": 121950,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/30b498c5dc066766cf0da6e0db4d89cfdfadf114"
+  },
+  {
+    "path": "assets/screenshot.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1cbfa054c156f022bb2df676b86d27de3823a85",
+    "size": 347764,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/b1cbfa054c156f022bb2df676b86d27de3823a85"
+  },
+  {
+    "path": "fzf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "56de3545b358530d272b107f6e95b6cb6e078ae5",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/56de3545b358530d272b107f6e95b6cb6e078ae5"
+  },
+  {
+    "path": "fzf/edelweiss.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8326b2c92c28dfc1f0f6164b9c687ed15e12401c",
+    "size": 572,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/8326b2c92c28dfc1f0f6164b9c687ed15e12401c"
+  },
+  {
+    "path": "k9s",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0740907c98007a49a1cc9b70294b7ea8a0c151b",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/b0740907c98007a49a1cc9b70294b7ea8a0c151b"
+  },
+  {
+    "path": "k9s/edelweiss.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "143d80bad5cdb8d51ed0515a8ae76da234d01ec0",
+    "size": 2218,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/143d80bad5cdb8d51ed0515a8ae76da234d01ec0"
+  },
+  {
+    "path": "kitty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f30de04ef66f71dc8841550df85c7381c980a39",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/2f30de04ef66f71dc8841550df85c7381c980a39"
+  },
+  {
+    "path": "kitty/edelweiss.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd8becd49adb93efd98fdde67e2b1af841144dce",
+    "size": 1820,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/fd8becd49adb93efd98fdde67e2b1af841144dce"
+  },
+  {
+    "path": "nvim",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "755767373663ede7ca4be054a8ce2b5ce8761837",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/755767373663ede7ca4be054a8ce2b5ce8761837"
+  },
+  {
+    "path": "nvim/colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8211540f9198d2fa5bd7b798f3bf565e66fc34a4",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/8211540f9198d2fa5bd7b798f3bf565e66fc34a4"
+  },
+  {
+    "path": "nvim/colors/edelweiss.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "143469f19ece399cc0aa521addf923da860561bb",
+    "size": 32,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/143469f19ece399cc0aa521addf923da860561bb"
+  },
+  {
+    "path": "nvim/lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "669e51f94f08754d0d395177a4e56b7765cc8005",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/669e51f94f08754d0d395177a4e56b7765cc8005"
+  },
+  {
+    "path": "nvim/lua/edelweiss",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fdbc26a470c0edfe0d9094e886065e9c85aaf1d5",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/fdbc26a470c0edfe0d9094e886065e9c85aaf1d5"
+  },
+  {
+    "path": "nvim/lua/edelweiss/color_util.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d51e0803f2fd3a95fe325256f111dd96717faaf",
+    "size": 1144,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/2d51e0803f2fd3a95fe325256f111dd96717faaf"
+  },
+  {
+    "path": "nvim/lua/edelweiss/colors.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f5afe62b50435b4f052dcb5d51225f4c02c06ce",
+    "size": 7453,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/8f5afe62b50435b4f052dcb5d51225f4c02c06ce"
+  },
+  {
+    "path": "nvim/lua/edelweiss/config.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2827a4babcd8853f233ded3cc65e805a52aec543",
+    "size": 48,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/2827a4babcd8853f233ded3cc65e805a52aec543"
+  },
+  {
+    "path": "nvim/lua/edelweiss/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c96f7c811ff53076c3c22baba3c2617af8faaa3",
+    "size": 291,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/2c96f7c811ff53076c3c22baba3c2617af8faaa3"
+  },
+  {
+    "path": "nvim/lua/edelweiss/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed0777d8bf6e9dcfc4351d84e723a99deede2c9a",
+    "size": 15150,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/ed0777d8bf6e9dcfc4351d84e723a99deede2c9a"
+  },
+  {
+    "path": "nvim/lua/edelweiss/util.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c78262b8a67651c13b5566f842a5f6217332de29",
+    "size": 926,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/c78262b8a67651c13b5566f842a5f6217332de29"
+  },
+  {
+    "path": "nvim/lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e82f127fc588a3acbe1facb6d1c9c810e25fd6ad",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/e82f127fc588a3acbe1facb6d1c9c810e25fd6ad"
+  },
+  {
+    "path": "nvim/lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e1718df1909bcbbf342ee159c24df8df545487a4",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/e1718df1909bcbbf342ee159c24df8df545487a4"
+  },
+  {
+    "path": "nvim/lua/lualine/themes/edelweiss.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3897cb9c43efb0b6a970ede128ea9eef92d6ec1",
+    "size": 562,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/f3897cb9c43efb0b6a970ede128ea9eef92d6ec1"
+  },
+  {
+    "path": "tig",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "41695aa3c2b2dac4cf0a7b7e1c2dca28271ad11f",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/41695aa3c2b2dac4cf0a7b7e1c2dca28271ad11f"
+  },
+  {
+    "path": "tig/edelweiss.tigrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5120a594317067a9a54812486d6171c76bf4449d",
+    "size": 524,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/5120a594317067a9a54812486d6171c76bf4449d"
+  },
+  {
+    "path": "tmux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "88001f91194611eecee03c80de5e9036c94a61ad",
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/trees/88001f91194611eecee03c80de5e9036c94a61ad"
+  },
+  {
+    "path": "tmux/edelweiss.tmux",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20fc5dd2cd4ab2811ce94a64921c7ebf0ce6f903",
+    "size": 461,
+    "url": "https://api.github.com/repos/timofurrer/edelweiss/git/blobs/20fc5dd2cd4ab2811ce94a64921c7ebf0ce6f903"
+  }
+]

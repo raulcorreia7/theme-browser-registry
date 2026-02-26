@@ -1,0 +1,215 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "339e2919674b89bc45165dff8ee7b62f71f78e92",
+    "size": 22,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/339e2919674b89bc45165dff8ee7b62f71f78e92"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ba133c644459d2a8d2a80b1c9ffc1654d2d233f",
+    "size": 1067,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/4ba133c644459d2a8d2a80b1c9ffc1654d2d233f"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce4f2aa7bf6566f2e8f0173a98bd168f5a6d406d",
+    "size": 131,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/ce4f2aa7bf6566f2e8f0173a98bd168f5a6d406d"
+  },
+  {
+    "path": "after",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9fdeda0319c900a441d4957b6f90dc021127c6fd",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/9fdeda0319c900a441d4957b6f90dc021127c6fd"
+  },
+  {
+    "path": "after/queries",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5175286a03db91f4115d4a4bd3e596fbf931488a",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/5175286a03db91f4115d4a4bd3e596fbf931488a"
+  },
+  {
+    "path": "after/queries/elixir",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc84795930cd368d82a40d65a8bc7ee7d1bdb3bb",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/cc84795930cd368d82a40d65a8bc7ee7d1bdb3bb"
+  },
+  {
+    "path": "after/queries/elixir/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "604756a0553721ec12aa7948cd91202f934a3af8",
+    "size": 34,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/604756a0553721ec12aa7948cd91202f934a3af8"
+  },
+  {
+    "path": "after/queries/javascript",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd7ad25f8e9e4b08df534a2050bf1be2310f28ae",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/fd7ad25f8e9e4b08df534a2050bf1be2310f28ae"
+  },
+  {
+    "path": "after/queries/javascript/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ce12d5700b9949f25c1956d2633af84e9c57a2e",
+    "size": 55,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/5ce12d5700b9949f25c1956d2633af84e9c57a2e"
+  },
+  {
+    "path": "after/queries/typescript",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f387422d78ca2ea73fce9c371782e8bcee132350",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/f387422d78ca2ea73fce9c371782e8bcee132350"
+  },
+  {
+    "path": "after/queries/typescript/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8a296930efa453a5fb064461e7197a0ae1c25ae",
+    "size": 111,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/c8a296930efa453a5fb064461e7197a0ae1c25ae"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c72a7a70ce09a2ed5ccf86ca7a61f2efdb318a6a",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/c72a7a70ce09a2ed5ccf86ca7a61f2efdb318a6a"
+  },
+  {
+    "path": "colors/nolife-dark.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6e5fa885e817a5e7f4626a42e774c62549868f7",
+    "size": 58,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/d6e5fa885e817a5e7f4626a42e774c62549868f7"
+  },
+  {
+    "path": "colors/nolife-light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d759f3182b08a0a69301957060046b85c312606",
+    "size": 59,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/1d759f3182b08a0a69301957060046b85c312606"
+  },
+  {
+    "path": "colors/nolife.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd2b7ffe935b0ef7e1f35312403cd4314df8902d",
+    "size": 32,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/dd2b7ffe935b0ef7e1f35312403cd4314df8902d"
+  },
+  {
+    "path": "init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75c9fc67c38edaeedf56cca17d622259f0ab7b80",
+    "size": 254,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/75c9fc67c38edaeedf56cca17d622259f0ab7b80"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0695ddd5604984c4189381425a3214fb18663579",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/0695ddd5604984c4189381425a3214fb18663579"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "157ef409b538843acb47bbca8f2eb58556f65fe3",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/157ef409b538843acb47bbca8f2eb58556f65fe3"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eab2b1c2d7611581cc848c81adedce0dbb03b8da",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/eab2b1c2d7611581cc848c81adedce0dbb03b8da"
+  },
+  {
+    "path": "lua/lualine/themes/nolife.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a450532c6884d327dbf0feade0afad779b67204",
+    "size": 1063,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/9a450532c6884d327dbf0feade0afad779b67204"
+  },
+  {
+    "path": "lua/nolife",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dbf8853a4f2c7dfd069b3549fe7313504cd48aad",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/dbf8853a4f2c7dfd069b3549fe7313504cd48aad"
+  },
+  {
+    "path": "lua/nolife/colors.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36504189939ec03777e5154f4e3ceb8f7338ce16",
+    "size": 2427,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/36504189939ec03777e5154f4e3ceb8f7338ce16"
+  },
+  {
+    "path": "lua/nolife/config.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5983ee2569645940aa6895b43c19d47f729c0c00",
+    "size": 307,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/5983ee2569645940aa6895b43c19d47f729c0c00"
+  },
+  {
+    "path": "lua/nolife/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e251ce81151551b96e5b0458b866fb26dc6cf88",
+    "size": 12011,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/9e251ce81151551b96e5b0458b866fb26dc6cf88"
+  },
+  {
+    "path": "lua/nolife/integrations",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac9dce9d195af130e797951a19b484daf5f1e0c6",
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/trees/ac9dce9d195af130e797951a19b484daf5f1e0c6"
+  },
+  {
+    "path": "lua/nolife/integrations/bufferline.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d253b04f2f8520d5d05777ea8af12b477afa2157",
+    "size": 3545,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/d253b04f2f8520d5d05777ea8af12b477afa2157"
+  },
+  {
+    "path": "lua/nolife/integrations/cmp.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46ba278d55b23a783fb436a7c4925f44b633fba6",
+    "size": 1638,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/46ba278d55b23a783fb436a7c4925f44b633fba6"
+  },
+  {
+    "path": "lua/nolife/utils.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5486878858c6fc69bbb3acb28670abf273c9b323",
+    "size": 1269,
+    "url": "https://api.github.com/repos/csgn/nolife.nvim/git/blobs/5486878858c6fc69bbb3acb28670abf273c9b323"
+  }
+]

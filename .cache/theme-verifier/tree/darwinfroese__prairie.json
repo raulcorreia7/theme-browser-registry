@@ -1,0 +1,152 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "160aeaefb653c8117bdea70299fff02e80a328d9",
+    "size": 1069,
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/blobs/160aeaefb653c8117bdea70299fff02e80a328d9"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14b6db26428bee1717c29abbf48cb9936ffd34ad",
+    "size": 1825,
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/blobs/14b6db26428bee1717c29abbf48cb9936ffd34ad"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5082d3f94ae7df3788a5ec35b39732e399e23d96",
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/trees/5082d3f94ae7df3788a5ec35b39732e399e23d96"
+  },
+  {
+    "path": "colors/prairie.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6adec25dbddbbda63698a3ccf284d5778b0a165e",
+    "size": 847,
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/blobs/6adec25dbddbbda63698a3ccf284d5778b0a165e"
+  },
+  {
+    "path": "extras",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "92bae20054f5702c94797812e7aeef1de55d7c70",
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/trees/92bae20054f5702c94797812e7aeef1de55d7c70"
+  },
+  {
+    "path": "extras/foot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "588789749653fc016c8c993a09e47d89de46a741",
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/trees/588789749653fc016c8c993a09e47d89de46a741"
+  },
+  {
+    "path": "extras/foot/prairie.ini",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c6451b3d9518602d364749019e430b3a82cc27f",
+    "size": 475,
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/blobs/9c6451b3d9518602d364749019e430b3a82cc27f"
+  },
+  {
+    "path": "extras/kitty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17901b0c5757802f8bbeabee594b01283702b1b5",
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/trees/17901b0c5757802f8bbeabee594b01283702b1b5"
+  },
+  {
+    "path": "extras/kitty/prairie.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "986a86dd424fd5708c92fd753d8f4595a4feb6fd",
+    "size": 505,
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/blobs/986a86dd424fd5708c92fd753d8f4595a4feb6fd"
+  },
+  {
+    "path": "extras/tmux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "28bc70078c352ef721f85feed3007d6693169e1c",
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/trees/28bc70078c352ef721f85feed3007d6693169e1c"
+  },
+  {
+    "path": "extras/tmux/prairie.tmux",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29460616630ef1239d2085263e1af859c8496d41",
+    "size": 918,
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/blobs/29460616630ef1239d2085263e1af859c8496d41"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "73185586aab0163232542e5acf488f29ed6319f1",
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/trees/73185586aab0163232542e5acf488f29ed6319f1"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f9967479b710ef8e918fd2d7c9b49ce922974215",
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/trees/f9967479b710ef8e918fd2d7c9b49ce922974215"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b63a9dfc505ebd46a556915625b8b3bfd96faa1",
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/trees/2b63a9dfc505ebd46a556915625b8b3bfd96faa1"
+  },
+  {
+    "path": "lua/lualine/themes/prairie.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb181b1d89d16ad47107f6456ae711350a1beac7",
+    "size": 595,
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/blobs/eb181b1d89d16ad47107f6456ae711350a1beac7"
+  },
+  {
+    "path": "lua/prairie",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7d1194b04263e077e8c8a6f030ce8651c89ab0a3",
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/trees/7d1194b04263e077e8c8a6f030ce8651c89ab0a3"
+  },
+  {
+    "path": "lua/prairie/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a220bebadbd343a52df2ffa08615f90456c835b",
+    "size": 18616,
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/blobs/9a220bebadbd343a52df2ffa08615f90456c835b"
+  },
+  {
+    "path": "screenshots",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3994f8f60b1c90ba5756652cec729b38d51e536f",
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/trees/3994f8f60b1c90ba5756652cec729b38d51e536f"
+  },
+  {
+    "path": "screenshots/neovim.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8afddf3bd96424edc5d25eb81fa8c1d444157e7b",
+    "size": 115293,
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/blobs/8afddf3bd96424edc5d25eb81fa8c1d444157e7b"
+  },
+  {
+    "path": "screenshots/terminal.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fdbed15bab917cf1db9db3e2d6816679d4538ed6",
+    "size": 205200,
+    "url": "https://api.github.com/repos/darwinfroese/prairie/git/blobs/fdbed15bab917cf1db9db3e2d6816679d4538ed6"
+  }
+]

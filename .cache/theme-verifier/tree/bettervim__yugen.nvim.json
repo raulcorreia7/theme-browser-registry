@@ -1,0 +1,191 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e99686602f9b85e3bc546130a11187d84f2b898",
+    "size": 12,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/9e99686602f9b85e3bc546130a11187d84f2b898"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b1757dce9e66b28df29d87106fc49aee42d8436",
+    "size": 1361,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/0b1757dce9e66b28df29d87106fc49aee42d8436"
+  },
+  {
+    "path": "_assets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6a5fa9a89ec7af92cf7e64b7acebb7100c7bfd0e",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/6a5fa9a89ec7af92cf7e64b7acebb7100c7bfd0e"
+  },
+  {
+    "path": "_assets/cover.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3f3b4732f602650c3e76ee2d642bbdacc0e6cde",
+    "size": 931268,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/f3f3b4732f602650c3e76ee2d642bbdacc0e6cde"
+  },
+  {
+    "path": "_assets/preview-1.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e2e2d6a1b6451d3525565614dc9e6027fe346ad9",
+    "size": 160621,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/e2e2d6a1b6451d3525565614dc9e6027fe346ad9"
+  },
+  {
+    "path": "_assets/preview-2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e09dc62fd861c60e7b4fe3e4a82d34c01b56f3db",
+    "size": 237220,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/e09dc62fd861c60e7b4fe3e4a82d34c01b56f3db"
+  },
+  {
+    "path": "_assets/preview-3.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb088ff3691fe18ab6a515edaf5ca0a9c1ba4f87",
+    "size": 241798,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/fb088ff3691fe18ab6a515edaf5ca0a9c1ba4f87"
+  },
+  {
+    "path": "after",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ce0b383180019fd1d5d791af7a8b646a223d85ba",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/ce0b383180019fd1d5d791af7a8b646a223d85ba"
+  },
+  {
+    "path": "after/queries",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6918f2530eeacc586084796296b350697699bf0",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/d6918f2530eeacc586084796296b350697699bf0"
+  },
+  {
+    "path": "after/queries/typescript",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c53e02d0b0ffb181a0aa7ca6d43f746089f4dd6",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/0c53e02d0b0ffb181a0aa7ca6d43f746089f4dd6"
+  },
+  {
+    "path": "after/queries/typescript/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8dc3ccf98b3d9b3796ebc400d615c7d58ed456c5",
+    "size": 384,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/8dc3ccf98b3d9b3796ebc400d615c7d58ed456c5"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9ec6f48985f3aadf05ba83e3423507b7daa70aa4",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/9ec6f48985f3aadf05ba83e3423507b7daa70aa4"
+  },
+  {
+    "path": "colors/yugen.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de9371e3a526093c972a17c26d67eef18d9352b9",
+    "size": 70,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/de9371e3a526093c972a17c26d67eef18d9352b9"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fdbb0c7c12e2d136f97f4e76af09ec20ad1a0450",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/fdbb0c7c12e2d136f97f4e76af09ec20ad1a0450"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "29d0897e16f08986358d03919bd75f8a735cee83",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/29d0897e16f08986358d03919bd75f8a735cee83"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87421acbf64e9fc3897ea46d0ea8cac8535fc9f3",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/87421acbf64e9fc3897ea46d0ea8cac8535fc9f3"
+  },
+  {
+    "path": "lua/lualine/themes/yugen.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f028ab683593320f7feb950481a4a7ac2ff7573e",
+    "size": 1052,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/f028ab683593320f7feb950481a4a7ac2ff7573e"
+  },
+  {
+    "path": "lua/yugen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a7c9605511b922acdca0dd59eb0edc49f5533e54",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/a7c9605511b922acdca0dd59eb0edc49f5533e54"
+  },
+  {
+    "path": "lua/yugen/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ff37bb9599671f9b30943428f76912db78b6cf3",
+    "size": 1846,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/7ff37bb9599671f9b30943428f76912db78b6cf3"
+  },
+  {
+    "path": "lua/yugen/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7512b9622581257422cfd54a5861ab175b6ad24",
+    "size": 452,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/f7512b9622581257422cfd54a5861ab175b6ad24"
+  },
+  {
+    "path": "lua/yugen/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "659b198b3792fe863e9f823ed3b739fb51a79f4d",
+    "size": 16651,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/659b198b3792fe863e9f823ed3b739fb51a79f4d"
+  },
+  {
+    "path": "lua/yugen/utils.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1784788adc9ca732d1b4c8b0500c42f87696ce6",
+    "size": 1713,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/f1784788adc9ca732d1b4c8b0500c42f87696ce6"
+  },
+  {
+    "path": "queries",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "00491cc3629852f71c6a7fdcc3a2e79364589dc0",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/00491cc3629852f71c6a7fdcc3a2e79364589dc0"
+  },
+  {
+    "path": "queries/rescript",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e1bff197da0889f1cb3243de78abbef26274b71f",
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/trees/e1bff197da0889f1cb3243de78abbef26274b71f"
+  },
+  {
+    "path": "queries/rescript/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "084ade09a45227eb038a8ab089e4f9eddc8c5d14",
+    "size": 76,
+    "url": "https://api.github.com/repos/bettervim/yugen.nvim/git/blobs/084ade09a45227eb038a8ab089e4f9eddc8c5d14"
+  }
+]

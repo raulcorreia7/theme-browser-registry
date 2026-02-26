@@ -1,0 +1,101 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8fc46b5cb7c88d9149a09d65582dc2815b550a89",
+    "size": 13,
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/blobs/8fc46b5cb7c88d9149a09d65582dc2815b550a89"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ab8c07527e2381c1220eb838aff4490266f62a1",
+    "size": 1596,
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/blobs/5ab8c07527e2381c1220eb838aff4490266f62a1"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ad922ad8985698df54d70b3437181193980df386",
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/trees/ad922ad8985698df54d70b3437181193980df386"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2c6a1e8547aa7e61cc505e7cb9f51f67f21ab89e",
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/trees/2c6a1e8547aa7e61cc505e7cb9f51f67f21ab89e"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c2293b5a31daa883b2b9fc60d9f143990a135cf",
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/trees/9c2293b5a31daa883b2b9fc60d9f143990a135cf"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/friffle.vim",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d267db4644c0f2eaa3a51626ebb8a679fbcaebf6",
+    "size": 1941,
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/blobs/d267db4644c0f2eaa3a51626ebb8a679fbcaebf6"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "da1cb5ac8cda93d3cc866dec226dc7feed31af2f",
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/trees/da1cb5ac8cda93d3cc866dec226dc7feed31af2f"
+  },
+  {
+    "path": "colors/friffle.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4beab55f0b67104fca9526665df446f7ff447b06",
+    "size": 5298,
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/blobs/4beab55f0b67104fca9526665df446f7ff447b06"
+  },
+  {
+    "path": "resources",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2d4dee574668d16433b0bd72d41de4d06724dead",
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/trees/2d4dee574668d16433b0bd72d41de4d06724dead"
+  },
+  {
+    "path": "resources/friffle-C.webp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f005dc569bd21587c419b8739095608e38b055a4",
+    "size": 45054,
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/blobs/f005dc569bd21587c419b8739095608e38b055a4"
+  },
+  {
+    "path": "resources/friffle-go.webp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f1fa8f5b3eba9e8db6dbd261c3875f4205e2590",
+    "size": 37804,
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/blobs/4f1fa8f5b3eba9e8db6dbd261c3875f4205e2590"
+  },
+  {
+    "path": "resources/friffle-html.webp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3ec2ede3ebeb115fa8f57a1303bed9a0c9b83cf",
+    "size": 35468,
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/blobs/b3ec2ede3ebeb115fa8f57a1303bed9a0c9b83cf"
+  },
+  {
+    "path": "resources/friffle-shell.webp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c17c9d2c8556a07d7421409c3553fc9b8a5a6d9c",
+    "size": 17824,
+    "url": "https://api.github.com/repos/ChausseBenjamin/friffle-vim/git/blobs/c17c9d2c8556a07d7421409c3553fc9b8a5a6d9c"
+  }
+]

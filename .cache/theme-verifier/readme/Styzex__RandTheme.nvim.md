@@ -1,0 +1,184 @@
+# 🎨 RandTheme.nvim
+
+<a href="https://dotfyle.com/plugins/Styzex/RandTheme.nvim">
+  <img src="https://dotfyle.com/plugins/Styzex/RandTheme.nvim/shield" />
+</a>
+
+RandTheme is a Neovim plugin that automatically sets a new theme every day, adding variety to your coding experience.
+
+## ✨ Features
+
+- 🧠 Auto-Detection: Detects your installed themes.
+- 🗓️ Daily Theme Change: Automatically changes your theme daily.
+- ⚙️ Easy Setup and Usage
+
+## 📦 Installation
+
+Choose your preferred plugin manager:
+
+### 📦 [packer.nvim](https://github.com/wbthomason/packer.nvim)
+
+```lua
+use 'Styzex/RandTheme.nvim'
+```
+
+### 📦 [vim-plug](https://github.com/junegunn/vim-plug)
+
+```vim
+Plug 'Styzex/RandTheme.nvim'
+```
+
+### 📦 [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+```lua
+{
+  "Styzex/RandTheme.nvim",
+  event = "VimEnter",
+  config = function()
+    require("randtheme").setup()
+  end
+}
+```
+
+## 🚀 Usage
+
+RandTheme works out of the box. Once installed, it will automatically set a new theme each day when you start Neovim.
+
+If you want to manually trigger a theme change, you can call:
+
+```vim
+:lua require('randtheme').setup_daily_theme()
+```
+
+## ⚙️ Configuration
+
+By default, RandTheme doesn't require any configuration. However, if you want to customize its behavior, you can use the `setup` function:
+
+```lua
+require('randtheme').setup({
+  -- Your configuration options here
+})
+```
+
+### 🔧 Options
+
+- `exclude_themes`: A table of theme names to exclude from random selection.
+- `change_on_startup`: If set to `true`, changes the theme when Neovim starts.
+- `print_theme_name`: If set to `true`, prints the name of the selected theme.
+- `change_interval`: Number of days between automatic theme changes (default is 1).
+- `colorscheme_dir`: Specify a custom directory to search for colorschemes. If not set, RandTheme will use Neovim's default colorscheme locations.
+- `include_builtin_themes`: If set to `true`, includes Neovim's built-in themes in the random selection. Default is `false`.
+- `reroll_keymap`: Set a keymap for manually changing the theme.
+
+### 📦 [packer.nvim](https://github.com/wbthomason/packer.nvim)
+
+```lua
+use {
+  'Styzex/RandTheme.nvim',
+  config = function()
+  require('randtheme').setup({
+    exclude_themes = {},
+    change_on_startup = true,
+    print_theme_name = true,
+    change_interval = 1,
+    colorscheme_dir = "~/.config/nvim/colors",
+    include_builtin_themes = false,
+    reroll_keymap = "<leader>tr",
+  })
+  end
+}
+```
+
+## 📦 [vim-plug](https://github.com/junegunn/vim-plug)
+
+example config:
+
+```vim
+Plug 'Styzex/RandTheme.nvim'
+" Add this to your init.vim or .vimrc after the Plug commands
+lua << EOF
+require('randtheme').setup({
+    exclude_themes = {},
+    change_on_startup = true,
+    print_theme_name = true,
+    change_interval = 1,
+    colorscheme_dir = "~/.config/nvim/colors",
+    include_builtin_themes = false,
+    reroll_keymap = "<leader>tr",
+})
+EOF
+```
+
+## 📦 [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+example config:
+
+```lua
+{
+  "Styzex/RandTheme.nvim",
+  event = "VimEnter",
+    -- Your configuration options here (all optional)
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("randtheme").setup({
+        exclude_themes = {},
+        change_on_startup = true,
+        print_theme_name = true,
+        change_interval = 1,
+        colorscheme_dir = "~/.config/nvim/colors",
+        include_builtin_themes = false,
+        reroll_keymap = "<leader>tr",
+      })
+    end,
+  },
+```
+
+You can also use the `opts` option to pass in the configuration options:
+
+```lua
+{
+  "Styzex/RandTheme.nvim",
+  event = "VimEnter",
+    -- Your configuration options here (all optional)
+    lazy = false,
+    priority = 1000,
+    opts = {
+        exclude_themes = {},
+        change_on_startup = true,
+        print_theme_name = false,
+        change_interval = 1,
+        colorscheme_dir = "~/.config/nvim/colors",
+        include_builtin_themes = false,
+        reroll_keymap = "<leader>tr",
+    }
+  },
+```
+
+## 🤝Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+### 📜 Code Style
+
+- Use clear and descriptive variable and function names.
+
+### 🛑 Reporting Issues
+
+If you find a bug or have a suggestion for improvement:
+
+1. Check if the issue already exists in the [issue tracker](https://github.com/Styzex/RandTheme.nvim/issues).
+2. If not, create a new issue, providing as much detail as possible, including:
+   - Steps to reproduce the bug
+   - Expected behavior
+   - Actual behavior
+   - Neovim version
+   - Operating system
+
+### 🤔 Questions?
+
+If you have questions, feel free to:
+
+- Open an issue with your question
+
+We appreciate your interest in making RandTheme better for everyone!

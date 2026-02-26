@@ -1,0 +1,65 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9adf95099dd76162fe0776b372f7db692660cba0",
+    "size": 1066,
+    "url": "https://api.github.com/repos/schickele/vim-nachtleben/git/blobs/9adf95099dd76162fe0776b372f7db692660cba0"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c959854fc47c5ae50173c9d67d4ab9f013a8b05",
+    "size": 929,
+    "url": "https://api.github.com/repos/schickele/vim-nachtleben/git/blobs/7c959854fc47c5ae50173c9d67d4ab9f013a8b05"
+  },
+  {
+    "path": "bildschirmfoto_nachtleben_ctx.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d2f3cb3e2873a7546f76b0bbb6da71fdc107e08",
+    "size": 136451,
+    "url": "https://api.github.com/repos/schickele/vim-nachtleben/git/blobs/4d2f3cb3e2873a7546f76b0bbb6da71fdc107e08"
+  },
+  {
+    "path": "bildschirmfoto_nachtleben_vim.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c0c090761fce8b752253c2982cbc77f568252a3",
+    "size": 155441,
+    "url": "https://api.github.com/repos/schickele/vim-nachtleben/git/blobs/6c0c090761fce8b752253c2982cbc77f568252a3"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9e4621aae6d81f33cb2d3df1dc66c880669c3917",
+    "url": "https://api.github.com/repos/schickele/vim-nachtleben/git/trees/9e4621aae6d81f33cb2d3df1dc66c880669c3917"
+  },
+  {
+    "path": "colors/nachtleben.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efcb54da1c38b0e7a08aacc2245ead0dc3cabd10",
+    "size": 7393,
+    "url": "https://api.github.com/repos/schickele/vim-nachtleben/git/blobs/efcb54da1c38b0e7a08aacc2245ead0dc3cabd10"
+  },
+  {
+    "path": "screenshot_nachtleben_context.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f5abdf4760e24a75715f0d689419b6e820cd740",
+    "size": 338764,
+    "url": "https://api.github.com/repos/schickele/vim-nachtleben/git/blobs/5f5abdf4760e24a75715f0d689419b6e820cd740"
+  },
+  {
+    "path": "screenshot_nachtleben_vim.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29a934ff2f4b24a107a8f05983828b3f45c2564f",
+    "size": 332658,
+    "url": "https://api.github.com/repos/schickele/vim-nachtleben/git/blobs/29a934ff2f4b24a107a8f05983828b3f45c2564f"
+  }
+]

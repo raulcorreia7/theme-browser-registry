@@ -1,0 +1,56 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44fe50adc7a82e8cb3083ebb49993dc8a41a0416",
+    "size": 1120,
+    "url": "https://api.github.com/repos/nikolvs/vim-sunbather/git/blobs/44fe50adc7a82e8cb3083ebb49993dc8a41a0416"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7106fb9d88c3639eaeb8c84a00a83b75de37141",
+    "size": 1058,
+    "url": "https://api.github.com/repos/nikolvs/vim-sunbather/git/blobs/b7106fb9d88c3639eaeb8c84a00a83b75de37141"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dbbd9c1dd9d249a7e6bc8fb6d449da2e9a642838",
+    "url": "https://api.github.com/repos/nikolvs/vim-sunbather/git/trees/dbbd9c1dd9d249a7e6bc8fb6d449da2e9a642838"
+  },
+  {
+    "path": "colors/sunbather.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6528bbe4fb26d0238fb3878f39e89444b2874931",
+    "size": 9622,
+    "url": "https://api.github.com/repos/nikolvs/vim-sunbather/git/blobs/6528bbe4fb26d0238fb3878f39e89444b2874931"
+  },
+  {
+    "path": "screenshots",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3d85146bc02e516ce0d1db22b348b07935fe32f7",
+    "url": "https://api.github.com/repos/nikolvs/vim-sunbather/git/trees/3d85146bc02e516ce0d1db22b348b07935fe32f7"
+  },
+  {
+    "path": "screenshots/dark.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5665d1f81e8e33b39b2d84da4a99e5341627e95",
+    "size": 234328,
+    "url": "https://api.github.com/repos/nikolvs/vim-sunbather/git/blobs/e5665d1f81e8e33b39b2d84da4a99e5341627e95"
+  },
+  {
+    "path": "screenshots/light.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc047d35e910ac5a486a7877d03c79b549cf0ad4",
+    "size": 230275,
+    "url": "https://api.github.com/repos/nikolvs/vim-sunbather/git/blobs/cc047d35e910ac5a486a7877d03c79b549cf0ad4"
+  }
+]

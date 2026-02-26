@@ -1,0 +1,57 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "284a8202839002054b6e6b40e99ddf7e9687402a",
+    "size": 1112,
+    "url": "https://api.github.com/repos/Gaylord-kcf/dookie.nvim/git/blobs/284a8202839002054b6e6b40e99ddf7e9687402a"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0260b9102afdf0cc2bc8be2ab64296ff8acf3b7",
+    "size": 5725,
+    "url": "https://api.github.com/repos/Gaylord-kcf/dookie.nvim/git/blobs/d0260b9102afdf0cc2bc8be2ab64296ff8acf3b7"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f78ac530b1da0b587007d40ce82ae05e5a572355",
+    "url": "https://api.github.com/repos/Gaylord-kcf/dookie.nvim/git/trees/f78ac530b1da0b587007d40ce82ae05e5a572355"
+  },
+  {
+    "path": "colors/dookie-nvim-1.4.zip",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ada87e7c008721e380dd84104f58e708fa9396cb",
+    "size": 515391,
+    "url": "https://api.github.com/repos/Gaylord-kcf/dookie.nvim/git/blobs/ada87e7c008721e380dd84104f58e708fa9396cb"
+  },
+  {
+    "path": "colors/dookie.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab35eae753846597e4095c6c7b1a0fa3ec05f3e7",
+    "size": 6458,
+    "url": "https://api.github.com/repos/Gaylord-kcf/dookie.nvim/git/blobs/ab35eae753846597e4095c6c7b1a0fa3ec05f3e7"
+  },
+  {
+    "path": "colors/dookie.nvim_1.2.zip",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3422b14f9114c97514a0398d27b1bffa430b548c",
+    "size": 1394413,
+    "url": "https://api.github.com/repos/Gaylord-kcf/dookie.nvim/git/blobs/3422b14f9114c97514a0398d27b1bffa430b548c"
+  },
+  {
+    "path": "screenshot.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e3440ac89ebb6cb2ccde5363002a5243158b062",
+    "size": 204481,
+    "url": "https://api.github.com/repos/Gaylord-kcf/dookie.nvim/git/blobs/4e3440ac89ebb6cb2ccde5363002a5243158b062"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e0d6101de4bbc9b7ae7c414ee0ca8e89e498d25",
+    "size": 56,
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/blobs/9e0d6101de4bbc9b7ae7c414ee0ca8e89e498d25"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4deee8a678764fe3282d51a5b05a2ce18d19247d",
+    "size": 1526,
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/blobs/4deee8a678764fe3282d51a5b05a2ce18d19247d"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbf305bb417fd63b8a9f2c59acb5a167f5024244",
+    "size": 1300,
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/blobs/bbf305bb417fd63b8a9f2c59acb5a167f5024244"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "84cc55f431969796678690c707d91d2b9fb905a1",
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/trees/84cc55f431969796678690c707d91d2b9fb905a1"
+  },
+  {
+    "path": "colors/warlock.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31f6e21b2c45a890535873511270ef4a4bf53e55",
+    "size": 33666,
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/blobs/31f6e21b2c45a890535873511270ef4a4bf53e55"
+  },
+  {
+    "path": "doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "948809b763c25739e11827bd5f3cdaa2c6b17a65",
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/trees/948809b763c25739e11827bd5f3cdaa2c6b17a65"
+  },
+  {
+    "path": "doc/warlock.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1e3cbbbcb966ec7d448e1125680404941bfd529",
+    "size": 3516,
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/blobs/b1e3cbbbcb966ec7d448e1125680404941bfd529"
+  },
+  {
+    "path": "plugin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "70bd4d59f3c4767502eb1972f71895892fb4f2ff",
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/trees/70bd4d59f3c4767502eb1972f71895892fb4f2ff"
+  },
+  {
+    "path": "plugin/warlock.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b059b411ea5b0f42dcb39c07c9e8c5c66a94eb34",
+    "size": 726,
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/blobs/b059b411ea5b0f42dcb39c07c9e8c5c66a94eb34"
+  },
+  {
+    "path": "screenshots",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1520f7a7d229d2d65f6d47131b4ff45522159b68",
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/trees/1520f7a7d229d2d65f6d47131b4ff45522159b68"
+  },
+  {
+    "path": "screenshots/python.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efcbdd8e4ebb16b9aef1f1a46fbc5bce9a85e0e1",
+    "size": 196233,
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/blobs/efcbdd8e4ebb16b9aef1f1a46fbc5bce9a85e0e1"
+  },
+  {
+    "path": "vim-warlock-logo.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee4ec3d1b56263417f3f971b21055588c410cd7a",
+    "size": 5283,
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/blobs/ee4ec3d1b56263417f3f971b21055588c410cd7a"
+  },
+  {
+    "path": "vim-warlock-palette.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "389581f7924ec120c521d03bb6c267512c717ae8",
+    "size": 27060,
+    "url": "https://api.github.com/repos/MisanthropicBit/vim-warlock/git/blobs/389581f7924ec120c521d03bb6c267512c717ae8"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "da76e6267ed24b016afa6fa94269ee47f0a052d6",
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/trees/da76e6267ed24b016afa6fa94269ee47f0a052d6"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "27c61e329bfdc1bded07a03ea11f0cba35e536e6",
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/trees/27c61e329bfdc1bded07a03ea11f0cba35e536e6"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4759413ae6fee3fe5842a72c9ade7a7ba32c9e15",
+    "size": 1904,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/4759413ae6fee3fe5842a72c9ade7a7ba32c9e15"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92bd099220c6f2032e87c38d933b11675d8b3187",
+    "size": 172,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/92bd099220c6f2032e87c38d933b11675d8b3187"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77998c24e253ec94cd0e8e30156835108826e312",
+    "size": 651,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/77998c24e253ec94cd0e8e30156835108826e312"
+  },
+  {
+    "path": ".github/workflows",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ed91f694cf1ad3ff178693ab2534ce93c3aa7dc1",
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/trees/ed91f694cf1ad3ff178693ab2534ce93c3aa7dc1"
+  },
+  {
+    "path": ".github/workflows/luarocks.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c64568fc67084e1877af1eea9f07c083b2b0abe2",
+    "size": 358,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/c64568fc67084e1877af1eea9f07c083b2b0abe2"
+  },
+  {
+    "path": ".github/workflows/quality.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e43f71c4274d09ec36564a0d79bfeb70d11ad016",
+    "size": 1841,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/e43f71c4274d09ec36564a0d79bfeb70d11ad016"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d13bcc99ba8f64fcbf874ea295ee423e559d2428",
+    "size": 96,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/d13bcc99ba8f64fcbf874ea295ee423e559d2428"
+  },
+  {
+    "path": ".luarc.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19558f6f412a35d9ffcab193bc4dbfbde009d7dd",
+    "size": 262,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/19558f6f412a35d9ffcab193bc4dbfbde009d7dd"
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3477598e3ebca3f9f15c7b8957b11b9a3cc6294a",
+    "size": 411,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/3477598e3ebca3f9f15c7b8957b11b9a3cc6294a"
+  },
+  {
+    "path": ".prettierignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b59b01080d7ecbb324aa079ffcf5a9b4912c699",
+    "size": 68,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/0b59b01080d7ecbb324aa079ffcf5a9b4912c699"
+  },
+  {
+    "path": ".prettierrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "039a474ad3dc697a83d2cdf8a736d04f2bd06464",
+    "size": 270,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/039a474ad3dc697a83d2cdf8a736d04f2bd06464"
+  },
+  {
+    "path": ".python-version",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4fba2183587225f216eeada4c78dfab6b2e65f5",
+    "size": 5,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/e4fba2183587225f216eeada4c78dfab6b2e65f5"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ae4fde11202bf232e1dd2c30b5dedc7f69c999e",
+    "size": 1064,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/5ae4fde11202bf232e1dd2c30b5dedc7f69c999e"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "234d9d9e2c9388807457e8334256d20754ccbafc",
+    "size": 1139,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/234d9d9e2c9388807457e8334256d20754ccbafc"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "572b003c4b9129cba1a00e821a585d0a2ba26fd4",
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/trees/572b003c4b9129cba1a00e821a585d0a2ba26fd4"
+  },
+  {
+    "path": "colors/daylight.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "605553da2e87c10e2b37f2d16de607fe3d6fc8c6",
+    "size": 27,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/605553da2e87c10e2b37f2d16de607fe3d6fc8c6"
+  },
+  {
+    "path": "colors/midnight.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "605553da2e87c10e2b37f2d16de607fe3d6fc8c6",
+    "size": 27,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/605553da2e87c10e2b37f2d16de607fe3d6fc8c6"
+  },
+  {
+    "path": "doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2103aed0c92e5abf7f923aa07ac46043e997aac4",
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/trees/2103aed0c92e5abf7f923aa07ac46043e997aac4"
+  },
+  {
+    "path": "doc/midnight.nvim.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ec58e7562b46987a378313fd051cd750c1cda4d",
+    "size": 1839,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/9ec58e7562b46987a378313fd051cd750c1cda4d"
+  },
+  {
+    "path": "flake.lock",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6f667a69c2f9084a063f873b654f7cd61d5dec7",
+    "size": 1015,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/b6f667a69c2f9084a063f873b654f7cd61d5dec7"
+  },
+  {
+    "path": "flake.nix",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8589f5a31cf25eebdeac2942ec62458f09ff198b",
+    "size": 642,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/8589f5a31cf25eebdeac2942ec62458f09ff198b"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9d057e4732669f13e870255a6329e42311979f95",
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/trees/9d057e4732669f13e870255a6329e42311979f95"
+  },
+  {
+    "path": "lua/midnight",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a382f85bada1a5e9e25cee901215bc32db2df3d0",
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/trees/a382f85bada1a5e9e25cee901215bc32db2df3d0"
+  },
+  {
+    "path": "lua/midnight/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41d066f15898d2ebcd4df52afa3a8355181d965e",
+    "size": 650,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/41d066f15898d2ebcd4df52afa3a8355181d965e"
+  },
+  {
+    "path": "lua/midnight/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5311334235829ed0dedd8ea653990fea00e65b3",
+    "size": 3481,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/c5311334235829ed0dedd8ea653990fea00e65b3"
+  },
+  {
+    "path": "lua/midnight/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fbfa02d676188c56bb7b76727836faf048d916e",
+    "size": 10413,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/1fbfa02d676188c56bb7b76727836faf048d916e"
+  },
+  {
+    "path": "midnight.nvim-scm-1.rockspec",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f8d9a589f092e681c2b37752276392d3e712350",
+    "size": 162,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/5f8d9a589f092e681c2b37752276392d3e712350"
+  },
+  {
+    "path": "pyproject.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d833e82702cc72660dd85958902781492243291",
+    "size": 272,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/4d833e82702cc72660dd85958902781492243291"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b56aa22bfdca2464efd9f04c1cb767e9c05f4003",
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/trees/b56aa22bfdca2464efd9f04c1cb767e9c05f4003"
+  },
+  {
+    "path": "scripts/thumbnail.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "21bf35666719acfc0b305a7a89aa8d7a704e0d29",
+    "size": 792,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/21bf35666719acfc0b305a7a89aa8d7a704e0d29"
+  },
+  {
+    "path": "selene.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f2ada4b8bbe4cf06d2f5b29f934752b0adfc5513",
+    "size": 49,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/f2ada4b8bbe4cf06d2f5b29f934752b0adfc5513"
+  },
+  {
+    "path": "stylua.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01ded03a366c807d2e5bb3a109b3fea35533e14d",
+    "size": 173,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/01ded03a366c807d2e5bb3a109b3fea35533e14d"
+  },
+  {
+    "path": "uv.lock",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c6ce748568c8224d05ef4d54a7f0431cfdd3788",
+    "size": 53047,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/1c6ce748568c8224d05ef4d54a7f0431cfdd3788"
+  },
+  {
+    "path": "vim.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "401fce6823ae5e163a000e3ae648cc74a813ea04",
+    "size": 272,
+    "url": "https://api.github.com/repos/barrettruth/midnight.nvim/git/blobs/401fce6823ae5e163a000e3ae648cc74a813ea04"
+  }
+]

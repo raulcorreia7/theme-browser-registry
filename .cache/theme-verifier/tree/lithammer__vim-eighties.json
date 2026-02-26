@@ -1,0 +1,87 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61b55a586f8b954eaee79c498072d559c544f898",
+    "size": 1082,
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/blobs/61b55a586f8b954eaee79c498072d559c544f898"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74c1329421b7b6d76f93a8146e31939770e9de65",
+    "size": 714,
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/blobs/74c1329421b7b6d76f93a8146e31939770e9de65"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "12100477ecdcc65b7024a3bf0e92d4545ba054c0",
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/trees/12100477ecdcc65b7024a3bf0e92d4545ba054c0"
+  },
+  {
+    "path": "colors/eighties.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bce38bf798f84721066cadea48c5a8b7bdf4bc9e",
+    "size": 52314,
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/blobs/bce38bf798f84721066cadea48c5a8b7bdf4bc9e"
+  },
+  {
+    "path": "doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c313b288ccf79f855a30f0cb071ec44e674b31ac",
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/trees/c313b288ccf79f855a30f0cb071ec44e674b31ac"
+  },
+  {
+    "path": "doc/eighties.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "870f8bea4f6425674eacdddad4fb794f6604d378",
+    "size": 964,
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/blobs/870f8bea4f6425674eacdddad4fb794f6604d378"
+  },
+  {
+    "path": "doc/tags",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5c597258e4b68365229ccfb56dd8e3142629c36",
+    "size": 228,
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/blobs/c5c597258e4b68365229ccfb56dd8e3142629c36"
+  },
+  {
+    "path": "templates",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "88bacbc38f1c0f16aa53026f1948bd3c6391ce18",
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/trees/88bacbc38f1c0f16aa53026f1948bd3c6391ce18"
+  },
+  {
+    "path": "templates/_bw.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c1798aff0d456697011c6d497a9016582cf645f",
+    "size": 2880,
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/blobs/4c1798aff0d456697011c6d497a9016582cf645f"
+  },
+  {
+    "path": "templates/_help.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "113724b9d32c480329a9bd46bce9f791497b5df3",
+    "size": 1085,
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/blobs/113724b9d32c480329a9bd46bce9f791497b5df3"
+  },
+  {
+    "path": "templates/eighties.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70e0c992d65e76fa2994c553bb368b7b5b4e6236",
+    "size": 14082,
+    "url": "https://api.github.com/repos/lithammer/vim-eighties/git/blobs/70e0c992d65e76fa2994c553bb368b7b5b4e6236"
+  }
+]

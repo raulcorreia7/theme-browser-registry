@@ -1,0 +1,77 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c4ef71d5cc1c9880d1a673f4499ddb529c8ceb6",
+    "size": 1067,
+    "url": "https://api.github.com/repos/TerseTears/maani.nvim/git/blobs/7c4ef71d5cc1c9880d1a673f4499ddb529c8ceb6"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f1c133c1a7cbd2b0ac874e3b375b330b8195b7b",
+    "size": 3273,
+    "url": "https://api.github.com/repos/TerseTears/maani.nvim/git/blobs/9f1c133c1a7cbd2b0ac874e3b375b330b8195b7b"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a88dddcc34c37065241236ba91d783d330149016",
+    "url": "https://api.github.com/repos/TerseTears/maani.nvim/git/trees/a88dddcc34c37065241236ba91d783d330149016"
+  },
+  {
+    "path": "colors/maani.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0242203199f9b7da65edf9e47b0c9617ea2ac9a",
+    "size": 847,
+    "url": "https://api.github.com/repos/TerseTears/maani.nvim/git/blobs/b0242203199f9b7da65edf9e47b0c9617ea2ac9a"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35c27ff9a13ff01bac0c822d7387be81f6d43f6d",
+    "url": "https://api.github.com/repos/TerseTears/maani.nvim/git/trees/35c27ff9a13ff01bac0c822d7387be81f6d43f6d"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9e608a2c92bfbac8b92491c3c8aa81a346d55de2",
+    "url": "https://api.github.com/repos/TerseTears/maani.nvim/git/trees/9e608a2c92bfbac8b92491c3c8aa81a346d55de2"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "539cc8002a8cb9c8d214fd24256f00f2a77c6d0b",
+    "url": "https://api.github.com/repos/TerseTears/maani.nvim/git/trees/539cc8002a8cb9c8d214fd24256f00f2a77c6d0b"
+  },
+  {
+    "path": "lua/lualine/themes/maani.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e0df041b90fbf431220884d8b33d25667905f62",
+    "size": 1741,
+    "url": "https://api.github.com/repos/TerseTears/maani.nvim/git/blobs/2e0df041b90fbf431220884d8b33d25667905f62"
+  },
+  {
+    "path": "lua/lush_theme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "601bc44150a7c34db62e0ae9cc2ac7843add5fdc",
+    "url": "https://api.github.com/repos/TerseTears/maani.nvim/git/trees/601bc44150a7c34db62e0ae9cc2ac7843add5fdc"
+  },
+  {
+    "path": "lua/lush_theme/maani.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3b7a8a9751b61b95164f614b413f672b77d5442",
+    "size": 17926,
+    "url": "https://api.github.com/repos/TerseTears/maani.nvim/git/blobs/d3b7a8a9751b61b95164f614b413f672b77d5442"
+  }
+]

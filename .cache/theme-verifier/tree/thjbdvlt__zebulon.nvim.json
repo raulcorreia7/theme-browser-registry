@@ -1,0 +1,64 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3992eeac1dc8a3b8942725393ee48c120b396ee3",
+    "size": 1056,
+    "url": "https://api.github.com/repos/thjbdvlt/zebulon.nvim/git/blobs/3992eeac1dc8a3b8942725393ee48c120b396ee3"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87724084b5e4227e9634b0c71a8519872e692be6",
+    "size": 587,
+    "url": "https://api.github.com/repos/thjbdvlt/zebulon.nvim/git/blobs/87724084b5e4227e9634b0c71a8519872e692be6"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ff6413c83e248b9781f23db97be5d039f8245207",
+    "url": "https://api.github.com/repos/thjbdvlt/zebulon.nvim/git/trees/ff6413c83e248b9781f23db97be5d039f8245207"
+  },
+  {
+    "path": "colors/zebulon.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5f905a9012630312c5c17a3b9e9aa05b93eb445",
+    "size": 5287,
+    "url": "https://api.github.com/repos/thjbdvlt/zebulon.nvim/git/blobs/e5f905a9012630312c5c17a3b9e9aa05b93eb445"
+  },
+  {
+    "path": "colors/zebulon_night.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "551bbef1bc88afb1beddc833453d42ea88e5daa2",
+    "size": 6030,
+    "url": "https://api.github.com/repos/thjbdvlt/zebulon.nvim/git/blobs/551bbef1bc88afb1beddc833453d42ea88e5daa2"
+  },
+  {
+    "path": "img",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f1af481d893ad4c904ac16459cbd86180800f76",
+    "url": "https://api.github.com/repos/thjbdvlt/zebulon.nvim/git/trees/2f1af481d893ad4c904ac16459cbd86180800f76"
+  },
+  {
+    "path": "img/screenshot_day.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "072521daa241f767b252e43b2c82f9cda9ec889e",
+    "size": 96970,
+    "url": "https://api.github.com/repos/thjbdvlt/zebulon.nvim/git/blobs/072521daa241f767b252e43b2c82f9cda9ec889e"
+  },
+  {
+    "path": "img/screenshot_night.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34fc59b6b71bcf1a87259bb4c89c6bb201e09ceb",
+    "size": 99273,
+    "url": "https://api.github.com/repos/thjbdvlt/zebulon.nvim/git/blobs/34fc59b6b71bcf1a87259bb4c89c6bb201e09ceb"
+  }
+]

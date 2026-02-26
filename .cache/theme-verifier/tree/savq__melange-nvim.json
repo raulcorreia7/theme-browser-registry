@@ -1,0 +1,422 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e20ad1082b1ac27174572280521e67007badf213",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/e20ad1082b1ac27174572280521e67007badf213"
+  },
+  {
+    "path": ".github/pull_request_template.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67af10141e2ebb9120f1b7def55c7d4a5ec6c98e",
+    "size": 782,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/67af10141e2ebb9120f1b7def55c7d4a5ec6c98e"
+  },
+  {
+    "path": ".stylua.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c44a4d67fb95cd69adeef6713792e5a4489e0596",
+    "size": 99,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/c44a4d67fb95cd69adeef6713792e5a4489e0596"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "549875b18072cebafec1262130555fabd22f5d0b",
+    "size": 2304,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/549875b18072cebafec1262130555fabd22f5d0b"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ce70afdfbd9fd78f891a97ff5106886393e0ae6",
+    "size": 1080,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/2ce70afdfbd9fd78f891a97ff5106886393e0ae6"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47460ad11d85a9042fcfc024bc010ae94a9f5288",
+    "size": 112,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/47460ad11d85a9042fcfc024bc010ae94a9f5288"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b489ef631b946ebc6a690e3e12e80b70412f803f",
+    "size": 3344,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/b489ef631b946ebc6a690e3e12e80b70412f803f"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5e799866c7061d3a8a22ae580d80efc68023c380",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/5e799866c7061d3a8a22ae580d80efc68023c380"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "13ab6131263ae195256cc2c3c842eb2a44f33339",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/13ab6131263ae195256cc2c3c842eb2a44f33339"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d542a102374d3273ec66ebbc4b888d50598b2ec5",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/d542a102374d3273ec66ebbc4b888d50598b2ec5"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/melange.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6276fbed2ddde55868c3a99a1ea031798b038aec",
+    "size": 1988,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/6276fbed2ddde55868c3a99a1ea031798b038aec"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "195b0f3df06e91cca51568cf0a7364de2a557aa4",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/195b0f3df06e91cca51568cf0a7364de2a557aa4"
+  },
+  {
+    "path": "colors/melange.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ce8d54967b8f864f980e2ee2d8bc30614a29d55",
+    "size": 20611,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/7ce8d54967b8f864f980e2ee2d8bc30614a29d55"
+  },
+  {
+    "path": "logo.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e03a0017f63ebe5c11370ae0eea3523a11324724",
+    "size": 14589,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/e03a0017f63ebe5c11370ae0eea3523a11324724"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2a661f227bc903af6ba2b771b139d2cb169a361f",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/2a661f227bc903af6ba2b771b139d2cb169a361f"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "23867de3e95ceca90a354395f2f3fc1885c44b1b",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/23867de3e95ceca90a354395f2f3fc1885c44b1b"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b5cb7392fdf66147aca2c5b1fa3d4cb34d23723",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/5b5cb7392fdf66147aca2c5b1fa3d4cb34d23723"
+  },
+  {
+    "path": "lua/lualine/themes/melange.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20219150bfa24558acf9acc94f5845f3fe34097a",
+    "size": 1663,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/20219150bfa24558acf9acc94f5845f3fe34097a"
+  },
+  {
+    "path": "lua/melange",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3979aab3a565d6d88dde4d34aca3e6a3810721ba",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/3979aab3a565d6d88dde4d34aca3e6a3810721ba"
+  },
+  {
+    "path": "lua/melange/build.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2eefdfc9f4ef101142dd7dc9396d63dc8908a3b7",
+    "size": 10436,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/2eefdfc9f4ef101142dd7dc9396d63dc8908a3b7"
+  },
+  {
+    "path": "lua/melange/palettes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "847e440c7cc6022a1eea28f8661df0a2d0198bb3",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/847e440c7cc6022a1eea28f8661df0a2d0198bb3"
+  },
+  {
+    "path": "lua/melange/palettes/dark.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d5c8bbe6fa2080516d1faac133eedfc5262a742",
+    "size": 681,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/7d5c8bbe6fa2080516d1faac133eedfc5262a742"
+  },
+  {
+    "path": "lua/melange/palettes/light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b74e2039e58ba591346f4e73974768ad8d671a7d",
+    "size": 681,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/b74e2039e58ba591346f4e73974768ad8d671a7d"
+  },
+  {
+    "path": "melange_dark.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc0f1baac3bfd5f1627e739e6518f21b5f174cc1",
+    "size": 657,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/fc0f1baac3bfd5f1627e739e6518f21b5f174cc1"
+  },
+  {
+    "path": "melange_light.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7810a6db07543be5f430987efbe5b368921ad7ac",
+    "size": 657,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/7810a6db07543be5f430987efbe5b368921ad7ac"
+  },
+  {
+    "path": "term",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "22625884ae391257117c3f40364972fa2cab8e25",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/22625884ae391257117c3f40364972fa2cab8e25"
+  },
+  {
+    "path": "term/alacritty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "29db7086b187a96339ad80459d5e95d5eef2b0c6",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/29db7086b187a96339ad80459d5e95d5eef2b0c6"
+  },
+  {
+    "path": "term/alacritty/melange_dark.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14a477c82fecd90c8b1f6782940bef6abaae69b8",
+    "size": 463,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/14a477c82fecd90c8b1f6782940bef6abaae69b8"
+  },
+  {
+    "path": "term/alacritty/melange_light.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c5076fdc71ca4744a8c9bd61d06839dcc56f865",
+    "size": 463,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/1c5076fdc71ca4744a8c9bd61d06839dcc56f865"
+  },
+  {
+    "path": "term/foot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e087eb9781f405818d49ffed12d658cf2a7f4315",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/e087eb9781f405818d49ffed12d658cf2a7f4315"
+  },
+  {
+    "path": "term/foot/melange_dark.ini",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de147b681dda3001d70a267341f4b8bc54315a82",
+    "size": 429,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/de147b681dda3001d70a267341f4b8bc54315a82"
+  },
+  {
+    "path": "term/foot/melange_light.ini",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4dfac548c75c58aa7d3ac880400e61a235699096",
+    "size": 429,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/4dfac548c75c58aa7d3ac880400e61a235699096"
+  },
+  {
+    "path": "term/ghostty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d3de35c57367abb0a0b47870a2ae3272320b575f",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/d3de35c57367abb0a0b47870a2ae3272320b575f"
+  },
+  {
+    "path": "term/ghostty/melange_dark",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dffef201bd094f695d0a2ba98263f0ed88443fbd",
+    "size": 453,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/dffef201bd094f695d0a2ba98263f0ed88443fbd"
+  },
+  {
+    "path": "term/ghostty/melange_light",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b2baff360fa7ae5f929eeb68c314cf22c2e42c0",
+    "size": 453,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/2b2baff360fa7ae5f929eeb68c314cf22c2e42c0"
+  },
+  {
+    "path": "term/iterm2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f697ba08448041508625c1d955c4daa82aa9fbd4",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/f697ba08448041508625c1d955c4daa82aa9fbd4"
+  },
+  {
+    "path": "term/iterm2/melange_dark.itermcolors",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d9db51f7ddcee7030b9291fea63fbbf97dbbb0c",
+    "size": 6416,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/3d9db51f7ddcee7030b9291fea63fbbf97dbbb0c"
+  },
+  {
+    "path": "term/iterm2/melange_light.itermcolors",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "365864b17517f5c1095ce27aaf9fa5f3c6657200",
+    "size": 6384,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/365864b17517f5c1095ce27aaf9fa5f3c6657200"
+  },
+  {
+    "path": "term/kitty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2d710eda4310f379d5da929803479e94b1d1bb67",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/2d710eda4310f379d5da929803479e94b1d1bb67"
+  },
+  {
+    "path": "term/kitty/melange_dark.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4241e12580a02962c8f3085b415eb6b5b26df1f8",
+    "size": 553,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/4241e12580a02962c8f3085b415eb6b5b26df1f8"
+  },
+  {
+    "path": "term/kitty/melange_light.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57415e6f212216b7cb77671a15440ad176d8e047",
+    "size": 553,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/57415e6f212216b7cb77671a15440ad176d8e047"
+  },
+  {
+    "path": "term/terminator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "afd982ac608febc7b14ff2d23da5332d1b80a492",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/afd982ac608febc7b14ff2d23da5332d1b80a492"
+  },
+  {
+    "path": "term/terminator/melange_dark.config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d8629384f64b908a9d0202e252716b1417332a94",
+    "size": 252,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/d8629384f64b908a9d0202e252716b1417332a94"
+  },
+  {
+    "path": "term/terminator/melange_light.config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78550e19346870e37f74baea5d8636fca4f23b22",
+    "size": 252,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/78550e19346870e37f74baea5d8636fca4f23b22"
+  },
+  {
+    "path": "term/wezterm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "25adbe09255d5d205eb98a8961bd27c7994559bc",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/25adbe09255d5d205eb98a8961bd27c7994559bc"
+  },
+  {
+    "path": "term/wezterm/melange_dark.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38a446f053f4b271e7a48229f9818e0666772a9a",
+    "size": 422,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/38a446f053f4b271e7a48229f9818e0666772a9a"
+  },
+  {
+    "path": "term/wezterm/melange_light.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cace4cb1430251e6d08874a5d06014790993d703",
+    "size": 422,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/cace4cb1430251e6d08874a5d06014790993d703"
+  },
+  {
+    "path": "term/windows_terminal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fc4592a9b7ebf329cf15f2e53573abe74f42b5ad",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/fc4592a9b7ebf329cf15f2e53573abe74f42b5ad"
+  },
+  {
+    "path": "term/windows_terminal/melange_dark_colorscheme.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "799af824e90152bf473d4f392b34f3b04eba4e57",
+    "size": 543,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/799af824e90152bf473d4f392b34f3b04eba4e57"
+  },
+  {
+    "path": "term/windows_terminal/melange_dark_theme.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bcd349f8dd9ca95c86f792200957c6a4a139b62e",
+    "size": 294,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/bcd349f8dd9ca95c86f792200957c6a4a139b62e"
+  },
+  {
+    "path": "term/windows_terminal/melange_light_colorscheme.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c45b72fbdb04c86d501cb015671431100f82c3ba",
+    "size": 544,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/c45b72fbdb04c86d501cb015671431100f82c3ba"
+  },
+  {
+    "path": "term/windows_terminal/melange_light_theme.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "baf01072c2fa72ce7624491b3444ad53a8732ebe",
+    "size": 296,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/baf01072c2fa72ce7624491b3444ad53a8732ebe"
+  },
+  {
+    "path": "term/zellij",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7434db4fa10b341e97d348818f5a7350a8963927",
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/trees/7434db4fa10b341e97d348818f5a7350a8963927"
+  },
+  {
+    "path": "term/zellij/melange_dark.kdl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b40ad450ad93448052c89f335ad33093b7eb93d2",
+    "size": 187,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/b40ad450ad93448052c89f335ad33093b7eb93d2"
+  },
+  {
+    "path": "term/zellij/melange_light.kdl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e6d196efc8a0d54ab27464f5c4fb26d770d4779",
+    "size": 188,
+    "url": "https://api.github.com/repos/savq/melange-nvim/git/blobs/1e6d196efc8a0d54ab27464f5c4fb26d770d4779"
+  }
+]

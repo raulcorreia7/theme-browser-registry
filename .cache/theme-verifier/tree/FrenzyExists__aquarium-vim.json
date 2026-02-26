@@ -1,0 +1,476 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e90b135c5087bb8ffd111fabe6aa867435de6dc2",
+    "size": 623,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/e90b135c5087bb8ffd111fabe6aa867435de6dc2"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d0081e2137a551654028fb78fa56b839e646f4a2",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/d0081e2137a551654028fb78fa56b839e646f4a2"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f2e666a3c306609ef8b368b2c37a4b5b0dc792ce",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/f2e666a3c306609ef8b368b2c37a4b5b0dc792ce"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebd72eae307512054cb80e27bf68215f865cfcad",
+    "size": 645,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/ebd72eae307512054cb80e27bf68215f865cfcad"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ab091cfba931e1e076b5349020636c7a7165eda",
+    "size": 511,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/9ab091cfba931e1e076b5349020636c7a7165eda"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8de34bf4602db6943d134c84117c9365cbce793",
+    "size": 5163,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/a8de34bf4602db6943d134c84117c9365cbce793"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3d92c15e2df9657cacda68a0415ca7e0e0de4dd",
+    "size": 955,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/c3d92c15e2df9657cacda68a0415ca7e0e0de4dd"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35e87f07c368c39d6bbaa47445316280bcae48bc",
+    "size": 1074,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/35e87f07c368c39d6bbaa47445316280bcae48bc"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c660b0b3ca87d43029b2dac21b38a3575518bf2",
+    "size": 5685,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/6c660b0b3ca87d43029b2dac21b38a3575518bf2"
+  },
+  {
+    "path": "Windows-Terminal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "94586333060371287df4ce7adccbc06ec1aebb3c",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/94586333060371287df4ce7adccbc06ec1aebb3c"
+  },
+  {
+    "path": "Windows-Terminal/aquarium.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "119fb6a4887ed97a8de4939cc7f23707fa209e12",
+    "size": 641,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/119fb6a4887ed97a8de4939cc7f23707fa209e12"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8aafd024c116b174305937f46d1c38148653b2e9",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/8aafd024c116b174305937f46d1c38148653b2e9"
+  },
+  {
+    "path": "autoload/airline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b945ccbcb6e0b874fc66be1c39a38af48b59018d",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/b945ccbcb6e0b874fc66be1c39a38af48b59018d"
+  },
+  {
+    "path": "autoload/airline/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "83fb06ff4a51d422525e548411c89ce5be2cfd2a",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/83fb06ff4a51d422525e548411c89ce5be2cfd2a"
+  },
+  {
+    "path": "autoload/airline/themes/base16_aquarium_dark.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "435035da5caf708e36c9025862f8f8999860276b",
+    "size": 4326,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/435035da5caf708e36c9025862f8f8999860276b"
+  },
+  {
+    "path": "autoload/airline/themes/base16_aquarium_light.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b79bf9f9df83bbda777cbff3cc96e52f0eb0a230",
+    "size": 4338,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/b79bf9f9df83bbda777cbff3cc96e52f0eb0a230"
+  },
+  {
+    "path": "autoload/aquarium",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2c5e64c630b1036f64b3880805c6caff306536cf",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/2c5e64c630b1036f64b3880805c6caff306536cf"
+  },
+  {
+    "path": "autoload/aquarium/colors.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef6ddc82b54537844e230f0ba165728ed9a6e6d6",
+    "size": 3337,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/ef6ddc82b54537844e230f0ba165728ed9a6e6d6"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "150977edd8024d537d3d05c1d1fceb6eea68513b",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/150977edd8024d537d3d05c1d1fceb6eea68513b"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c5d0f79c11dc3a81a055b5484f52962f5c557e4f",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/c5d0f79c11dc3a81a055b5484f52962f5c557e4f"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/aquarium.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25ad9790e9afba10ba339dd67f7e2cecc7154e0b",
+    "size": 4191,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/25ad9790e9afba10ba339dd67f7e2cecc7154e0b"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "44f2291084722bd1d917dfa139d36d6b755a0117",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/44f2291084722bd1d917dfa139d36d6b755a0117"
+  },
+  {
+    "path": "colors/aquarium.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d94066dc80359a87aedde3b7178e687eeff188d7",
+    "size": 38569,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/d94066dc80359a87aedde3b7178e687eeff188d7"
+  },
+  {
+    "path": "extras",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d919ec088cf92123f56aa5ba9debd4c5f5db73c6",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/d919ec088cf92123f56aa5ba9debd4c5f5db73c6"
+  },
+  {
+    "path": "extras/.Xresources",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5375850c0028398deb631c5178cff9c08b0fc3c3",
+    "size": 537,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/5375850c0028398deb631c5178cff9c08b0fc3c3"
+  },
+  {
+    "path": "extras/Aquarium Dark.tmTheme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7a1f01db76160d8cb180d5e5ab964468d1749c02",
+    "size": 6369,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/7a1f01db76160d8cb180d5e5ab964468d1749c02"
+  },
+  {
+    "path": "extras/Aquarium Light.tmTheme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "610924c77e0f593b4756e2a0f4ffbd4273862e42",
+    "size": 6378,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/610924c77e0f593b4756e2a0f4ffbd4273862e42"
+  },
+  {
+    "path": "extras/aquarium_dark",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "078bea12d0380ebe3715278b9e50102fe8604860",
+    "size": 332,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/078bea12d0380ebe3715278b9e50102fe8604860"
+  },
+  {
+    "path": "extras/terminal-themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9562754d6e0ff6e9407bebbcf882970424f9d6a0",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/9562754d6e0ff6e9407bebbcf882970424f9d6a0"
+  },
+  {
+    "path": "extras/terminal-themes/alacritty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "888490c04f192fd4cf24713f86cc4be87c724745",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/888490c04f192fd4cf24713f86cc4be87c724745"
+  },
+  {
+    "path": "extras/terminal-themes/alacritty/alacritty_aquarium.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ef8124ab4ff3c6d585fd1363d2ebd29fad0dbbe",
+    "size": 3210,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/8ef8124ab4ff3c6d585fd1363d2ebd29fad0dbbe"
+  },
+  {
+    "path": "extras/terminal-themes/gnome-terminal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "df36c73224f8814cff3fac0b603f573f4cbe7b88",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/df36c73224f8814cff3fac0b603f573f4cbe7b88"
+  },
+  {
+    "path": "extras/terminal-themes/gnome-terminal/aquarium-dark.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "920dbbe77267da3cc120a6807269f48d24cd04ff",
+    "size": 3687,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/920dbbe77267da3cc120a6807269f48d24cd04ff"
+  },
+  {
+    "path": "extras/terminal-themes/gnome-terminal/aquarium-light.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a82b484dc97d81785d561c800a1821f85a5b119",
+    "size": 3687,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/1a82b484dc97d81785d561c800a1821f85a5b119"
+  },
+  {
+    "path": "extras/terminal-themes/iterm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1aa4bb2f8df7a679de37f247f3871a982f4fd2bc",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/1aa4bb2f8df7a679de37f247f3871a982f4fd2bc"
+  },
+  {
+    "path": "extras/terminal-themes/iterm/aquarium-dark.itermcolors",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff9ce19c44df2d938bcc281c0272551966facbcd",
+    "size": 6574,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/ff9ce19c44df2d938bcc281c0272551966facbcd"
+  },
+  {
+    "path": "extras/terminal-themes/iterm/aquarium-light.itermcolors",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "deeb5a344ac7cd774079c868ba0688bc76d4217a",
+    "size": 6514,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/deeb5a344ac7cd774079c868ba0688bc76d4217a"
+  },
+  {
+    "path": "extras/terminal-themes/kitty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4dc6c73d950c9d77c1befb1c41ac2bb176bb28df",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/4dc6c73d950c9d77c1befb1c41ac2bb176bb28df"
+  },
+  {
+    "path": "extras/terminal-themes/kitty/kitty_aquarium_dark.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93cb4a933483a012c7769464d68d57fde346279d",
+    "size": 927,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/93cb4a933483a012c7769464d68d57fde346279d"
+  },
+  {
+    "path": "extras/terminal-themes/kitty/kitty_aquarium_light.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc747bdc6fc791b9ecefe37a161c8814357a1d65",
+    "size": 927,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/bc747bdc6fc791b9ecefe37a161c8814357a1d65"
+  },
+  {
+    "path": "extras/terminal-themes/st",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a2c3f0d689442109d31f97eea1f549c3603facd",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/5a2c3f0d689442109d31f97eea1f549c3603facd"
+  },
+  {
+    "path": "extras/terminal-themes/st/alacritty-dark.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "998aaa1baee489036d34bd7bcbde184f3ce16ff7",
+    "size": 1256,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/998aaa1baee489036d34bd7bcbde184f3ce16ff7"
+  },
+  {
+    "path": "extras/terminal-themes/st/alacritty-light.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e321fbb502fc4063fd5dc90af51480f29e125487",
+    "size": 1255,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/e321fbb502fc4063fd5dc90af51480f29e125487"
+  },
+  {
+    "path": "extras/terminal-themes/wezterm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b66f4157ccb8e588fcaa3d7d01700db3df16393",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/1b66f4157ccb8e588fcaa3d7d01700db3df16393"
+  },
+  {
+    "path": "extras/terminal-themes/wezterm/aquarium-dark.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5f5b2b62512fd6dee9d5d62c2221f8830027b45",
+    "size": 467,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/b5f5b2b62512fd6dee9d5d62c2221f8830027b45"
+  },
+  {
+    "path": "extras/terminal-themes/wezterm/aquarium-light.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05f796dd0b1885a022f3b712a3ee25274ff004c8",
+    "size": 466,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/05f796dd0b1885a022f3b712a3ee25274ff004c8"
+  },
+  {
+    "path": "extras/zathura_aquarium_dark",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6b0955dfcf2a7605ed04d7a261405a0538754bf",
+    "size": 1386,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/d6b0955dfcf2a7605ed04d7a261405a0538754bf"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c29b9dec50ed10326b1f943cf94a9fd0731d66b0",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/c29b9dec50ed10326b1f943cf94a9fd0731d66b0"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e62aa7ee59f51e31857b69b1aefbcb603ce6a09",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/1e62aa7ee59f51e31857b69b1aefbcb603ce6a09"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ac3b495429040de31c1d548c8a0378cd53082fd",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/2ac3b495429040de31c1d548c8a0378cd53082fd"
+  },
+  {
+    "path": "lua/lualine/themes/aquarium.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2093116457fcd46f70d169e6dd6ac4c8cbd31b5",
+    "size": 1245,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/c2093116457fcd46f70d169e6dd6ac4c8cbd31b5"
+  },
+  {
+    "path": "screenshots",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "77d7c385fc4ec1dbdff2f0bb91e137c459ecaf43",
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/trees/77d7c385fc4ec1dbdff2f0bb91e137c459ecaf43"
+  },
+  {
+    "path": "screenshots/banner.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0114b89916ff0b9b1d79babd73530a945d751b46",
+    "size": 40649,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/0114b89916ff0b9b1d79babd73530a945d751b46"
+  },
+  {
+    "path": "screenshots/nv_chad.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3107c49ab02ffca0fc2f52da8adc8216437d3de4",
+    "size": 232159,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/3107c49ab02ffca0fc2f52da8adc8216437d3de4"
+  },
+  {
+    "path": "screenshots/palette.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8df0d782bb6cf4d520f16476cb9193b8e493d352",
+    "size": 151156,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/8df0d782bb6cf4d520f16476cb9193b8e493d352"
+  },
+  {
+    "path": "screenshots/pika_vim-dark.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c2363fd3be94e9ba796b046657f6bbc83b9d8d1",
+    "size": 300302,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/0c2363fd3be94e9ba796b046657f6bbc83b9d8d1"
+  },
+  {
+    "path": "screenshots/pika_vim-light.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4eff30c5336bbadb2234ce368d862cd483b59207",
+    "size": 388590,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/4eff30c5336bbadb2234ce368d862cd483b59207"
+  },
+  {
+    "path": "screenshots/preview-dark.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "990af13dddd6e4cb15e18d63262ff0b9a45c9734",
+    "size": 1096098,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/990af13dddd6e4cb15e18d63262ff0b9a45c9734"
+  },
+  {
+    "path": "screenshots/preview-light.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "097cdd1c04525e22b9d8cc3c3e841e9fe0671b6a",
+    "size": 2082067,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/097cdd1c04525e22b9d8cc3c3e841e9fe0671b6a"
+  },
+  {
+    "path": "screenshots/zathura-a.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2250e0beddbbbdcef02c8329d2da4958d7a751e6",
+    "size": 134579,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/2250e0beddbbbdcef02c8329d2da4958d7a751e6"
+  },
+  {
+    "path": "screenshots/zathura-b.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d37a35761f0cfb55768c474d3a5b1bccfcf7016",
+    "size": 186631,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/5d37a35761f0cfb55768c474d3a5b1bccfcf7016"
+  },
+  {
+    "path": "stylua.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec32e77bf76ca10fa075b80c43338253e7453c34",
+    "size": 140,
+    "url": "https://api.github.com/repos/FrenzyExists/aquarium-vim/git/blobs/ec32e77bf76ca10fa075b80c43338253e7453c34"
+  }
+]

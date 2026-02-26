@@ -1,0 +1,71 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f1ee7be0916293b1629fe92ef7fe422714dc75a",
+    "url": "https://api.github.com/repos/nvimdev/oceanic-material/git/trees/2f1ee7be0916293b1629fe92ef7fe422714dc75a"
+  },
+  {
+    "path": ".github/FUNDING.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "019ec79fd6720e6b9aa975c9d1ec07593f74af2c",
+    "size": 102,
+    "url": "https://api.github.com/repos/nvimdev/oceanic-material/git/blobs/019ec79fd6720e6b9aa975c9d1ec07593f74af2c"
+  },
+  {
+    "path": ".travis.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5843474480fbee1fb757f34059722bc935c19e6a",
+    "size": 163,
+    "url": "https://api.github.com/repos/nvimdev/oceanic-material/git/blobs/5843474480fbee1fb757f34059722bc935c19e6a"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9164208779fecec8abb58ab4b02241fc0cbb54ab",
+    "size": 1067,
+    "url": "https://api.github.com/repos/nvimdev/oceanic-material/git/blobs/9164208779fecec8abb58ab4b02241fc0cbb54ab"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "418850af6c4ab97df5b9473f996a82fd0175bd52",
+    "size": 6168,
+    "url": "https://api.github.com/repos/nvimdev/oceanic-material/git/blobs/418850af6c4ab97df5b9473f996a82fd0175bd52"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6a06edf01427a55bd0a2d3743f3e0cbe656da6fc",
+    "url": "https://api.github.com/repos/nvimdev/oceanic-material/git/trees/6a06edf01427a55bd0a2d3743f3e0cbe656da6fc"
+  },
+  {
+    "path": "colors/oceanic_material.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b57cad70ccebd570b17b13cd82e130974f1a0db3",
+    "size": 53617,
+    "url": "https://api.github.com/repos/nvimdev/oceanic-material/git/blobs/b57cad70ccebd570b17b13cd82e130974f1a0db3"
+  },
+  {
+    "path": "test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5c2746feeeacec3477954aa0946c059eb7cfd28e",
+    "url": "https://api.github.com/repos/nvimdev/oceanic-material/git/trees/5c2746feeeacec3477954aa0946c059eb7cfd28e"
+  },
+  {
+    "path": "test/test.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d96559f6a672f5948044882f56bbafa478841aa",
+    "size": 682,
+    "url": "https://api.github.com/repos/nvimdev/oceanic-material/git/blobs/7d96559f6a672f5948044882f56bbafa478841aa"
+  }
+]

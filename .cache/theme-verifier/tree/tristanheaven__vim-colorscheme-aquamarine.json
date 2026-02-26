@@ -1,0 +1,33 @@
+[
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4acd97d58e4031764952ffbe7c6110d347c31f5c",
+    "size": 215,
+    "url": "https://api.github.com/repos/tristanheaven/vim-colorscheme-aquamarine/git/blobs/4acd97d58e4031764952ffbe7c6110d347c31f5c"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aa4e77159d419190751f300b6f73fd676bbec9b8",
+    "url": "https://api.github.com/repos/tristanheaven/vim-colorscheme-aquamarine/git/trees/aa4e77159d419190751f300b6f73fd676bbec9b8"
+  },
+  {
+    "path": "colors/aquamarine.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "983c7a78815aed779730d5fa91c9aaedbc358dcb",
+    "size": 2253,
+    "url": "https://api.github.com/repos/tristanheaven/vim-colorscheme-aquamarine/git/blobs/983c7a78815aed779730d5fa91c9aaedbc358dcb"
+  },
+  {
+    "path": "screenshot.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f02e2b0f7c9cb3d0ab3cf931eb29ce7a3f9a5e7",
+    "size": 51865,
+    "url": "https://api.github.com/repos/tristanheaven/vim-colorscheme-aquamarine/git/blobs/8f02e2b0f7c9cb3d0ab3cf931eb29ce7a3f9a5e7"
+  }
+]

@@ -80,27 +80,34 @@ function parseCliArgs() {
   };
 }
 
-function isValidThemeName(name) {
-  if (!name || typeof name !== "string") return false;
-  if (name.startsWith(".")) return false;
-  if (name.length < 2) return false;
-  if (name.length > 64) return false;
-  return /^[a-zA-Z0-9_-]+$/.test(name);
-}
+// Configuration constants
+const CONFIG = {
+  THEME_NAME_MIN_LENGTH: 2,
+  THEME_NAME_MAX_LENGTH: 64,
+  JSON_INDENT: 2,
+};
 
+// Pre-compiled patterns for efficient mode inference
 const LIGHT_PATTERNS = ["-light", "-day", "-latte", "-dawn", "-morning", "light-", "day-", "dawn-", "_light", "_day", "-snow", "-operandi", "-lumi"];
 const DARK_PATTERNS = ["-dark", "-night", "-moon", "-storm", "-mocha", "-dragon", "-wave", "dark-", "night-", "_dark", "_night", "-dusk", "-vivendi", "-ember", "-fog", "-moss"];
+
+// Build Set for O(1) lookup of valid theme names
+const VALID_NAME_REGEX = /^[a-zA-Z0-9_-]+$/;
+
+function isValidThemeName(name) {
+  if (!name || typeof name !== "string") return false;
+  if (name.length < CONFIG.THEME_NAME_MIN_LENGTH || name.length > CONFIG.THEME_NAME_MAX_LENGTH) return false;
+  if (name.charCodeAt(0) === 46) return false; // starts with "."
+  return VALID_NAME_REGEX.test(name);
+}
 
 function inferModeFromColorscheme(colorscheme) {
   if (!colorscheme || typeof colorscheme !== "string") return null;
   const name = colorscheme.toLowerCase();
   
-  for (const pattern of LIGHT_PATTERNS) {
-    if (name.includes(pattern)) return "light";
-  }
-  for (const pattern of DARK_PATTERNS) {
-    if (name.includes(pattern)) return "dark";
-  }
+  // Use some() for early exit on match
+  if (LIGHT_PATTERNS.some(pattern => name.includes(pattern))) return "light";
+  if (DARK_PATTERNS.some(pattern => name.includes(pattern))) return "dark";
   return null;
 }
 
@@ -140,17 +147,20 @@ function loadBuiltinThemes(overridesPath) {
 
 function loadOverrides(overridesPath) {
   if (!existsSync(overridesPath)) {
-    return new Map();
+    return { byRepo: new Map(), byName: new Map() };
   }
 
   const raw = readFileSync(overridesPath, "utf-8");
   const data = JSON.parse(raw);
 
   if (!Array.isArray(data.overrides)) {
-    return new Map();
+    return { byRepo: new Map(), byName: new Map() };
   }
 
-  return new Map(data.overrides.map((o) => [o.repo, o]));
+  const byRepo = new Map(data.overrides.map((o) => [o.repo, o]));
+  const byName = new Map(data.overrides.map((o) => [o.name, o]));
+
+  return { byRepo, byName };
 }
 
 function generate() {
@@ -161,7 +171,7 @@ function generate() {
   const raw = readFileSync(index, "utf-8");
   const themes = JSON.parse(raw);
 
-  const overridesMap = loadOverrides(overrides);
+  const { byRepo: overridesMap, byName: overridesByName } = loadOverrides(overrides);
   const { builtin: builtinThemes, variantHints } = loadBuiltinThemes(overrides);
   const builtinNames = new Set(builtinThemes.map((t) => t.name.toLowerCase()));
 
@@ -216,20 +226,55 @@ function generate() {
       }
       
       if (newIsBetter) {
-        duplicates.push({ 
-          name: theme.name, 
-          replaced: existing.repo, 
+        duplicates.push({
+          name: theme.name,
+          replaced: existing.repo,
           with: theme.repo,
           reason: reason
         });
+        // Merge variants from existing theme if new theme has fewer variants
+        if (existing.variants?.length > 0) {
+          const existingVariants = existing.variants || [];
+          const newVariants = theme.variants || [];
+          const newVariantNames = new Set(newVariants.map(v => v.name));
+
+          // Add variants from existing that don't exist in new
+          const mergedVariants = [...newVariants];
+          for (const variant of existingVariants) {
+            if (!newVariantNames.has(variant.name)) {
+              mergedVariants.push(variant);
+            }
+          }
+
+          if (mergedVariants.length > newVariants.length) {
+            theme = { ...theme, variants: mergedVariants };
+          }
+        }
         themesByName.set(nameLower, theme);
       } else {
-        duplicates.push({ 
-          name: theme.name, 
-          kept: existing.repo, 
+        duplicates.push({
+          name: theme.name,
+          kept: existing.repo,
           skipped: theme.repo,
           reason: reason
         });
+        // Merge variants from new theme into existing if existing has fewer
+        if (theme.variants?.length > 0) {
+          const existingVariants = existing.variants || [];
+          const newVariants = theme.variants || [];
+          const existingVariantNames = new Set(existingVariants.map(v => v.name));
+
+          // Add variants from new that don't exist in existing
+          for (const variant of newVariants) {
+            if (!existingVariantNames.has(variant.name)) {
+              existingVariants.push(variant);
+            }
+          }
+
+          if (existingVariants.length > (existing.variants?.length || 0)) {
+            existing.variants = existingVariants;
+          }
+        }
       }
     } else {
       themesByName.set(nameLower, theme);
@@ -241,7 +286,10 @@ function generate() {
   for (const theme of themesByName.values()) {
     const nameLower = theme.name.toLowerCase();
 
-    const override = theme.repo ? overridesMap.get(theme.repo) : null;
+    const overrideByRepo = theme.repo ? overridesMap.get(theme.repo) : null;
+    const overrideByName = overridesByName.get(theme.name);
+    // Use repo-based override if available, otherwise fall back to name-based
+    const override = overrideByRepo || overrideByName;
 
     const entry = {
       name: theme.name,
@@ -267,20 +315,45 @@ function generate() {
       entry.meta.conflicts = [nameLower];
     }
 
+    // Merge variants from theme and BOTH overrides (by repo and by name)
+    let mergedVariants = [];
     if (theme.variants && theme.variants.length > 0) {
+      mergedVariants = [...theme.variants];
+    }
+    // Merge from repo-based override
+    if (overrideByRepo?.variants && overrideByRepo.variants.length > 0) {
+      const existingNames = new Set(mergedVariants.map(v => v.name));
+      for (const v of overrideByRepo.variants) {
+        if (!existingNames.has(v.name)) {
+          mergedVariants.push(v);
+        }
+      }
+    }
+    // Merge from name-based override (if different from repo-based)
+    if (overrideByName && overrideByName !== overrideByRepo && overrideByName.variants && overrideByName.variants.length > 0) {
+      const existingNames = new Set(mergedVariants.map(v => v.name));
+      for (const v of overrideByName.variants) {
+        if (!existingNames.has(v.name)) {
+          mergedVariants.push(v);
+        }
+      }
+    }
+
+    if (mergedVariants.length > 0) {
       // Get variant mode hints for this repo
       const hintsForRepo = theme.repo ? variantHints.get(theme.repo) : null;
 
-      entry.variants = theme.variants.map((v) => {
+      entry.variants = mergedVariants.map((v) => {
         const variant = {
           name: v.name,
           colorscheme: v.colorscheme,
         };
 
-        if (v.mode) {
-          variant.mode = v.mode;
-        } else if (hintsForRepo && hintsForRepo[v.name]) {
+        // Priority: hints override source data (for incorrect auto-detected modes)
+        if (hintsForRepo && hintsForRepo[v.name]) {
           variant.mode = hintsForRepo[v.name];
+        } else if (v.mode) {
+          variant.mode = v.mode;
         } else {
           const inferred = inferModeFromColorscheme(v.colorscheme);
           if (inferred) variant.mode = inferred;
@@ -342,7 +415,7 @@ function generate() {
     }
   }
 
-  writeFileSync(output, JSON.stringify(curated, null, 2) + "\n", "utf-8");
+  writeFileSync(output, JSON.stringify(curated, null, CONFIG.JSON_INDENT) + "\n", "utf-8");
 
   logDone(`Generated ${curated.length} themes → ${output}`);
 }

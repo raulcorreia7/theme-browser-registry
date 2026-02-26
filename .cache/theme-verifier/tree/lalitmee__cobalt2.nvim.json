@@ -1,0 +1,602 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6fd0a376decfbf0a7be87fdc75d5109da72a7d17",
+    "size": 324,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/6fd0a376decfbf0a7be87fdc75d5109da72a7d17"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe5f814f9e992233d558f1d3e371b652cc4214a6",
+    "size": 1068,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/fe5f814f9e992233d558f1d3e371b652cc4214a6"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a470ca864a9d7456b3856397b5f34e17767e761",
+    "size": 4530,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/3a470ca864a9d7456b3856397b5f34e17767e761"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d677a329b303b6683ff7136762d09135390f766b",
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/trees/d677a329b303b6683ff7136762d09135390f766b"
+  },
+  {
+    "path": "colors/cobalt2.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c186ed6e7f17105b049ded7852144125aaef5fd",
+    "size": 64,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/6c186ed6e7f17105b049ded7852144125aaef5fd"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0d3b1f6dc85fc10ce66e264ccc8e884c1028814d",
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/trees/0d3b1f6dc85fc10ce66e264ccc8e884c1028814d"
+  },
+  {
+    "path": "lua/cobalt2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b9e65cfe0dc50b2a347534e848ddc030cc94382",
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/trees/3b9e65cfe0dc50b2a347534e848ddc030cc94382"
+  },
+  {
+    "path": "lua/cobalt2/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7796d4c4086f62bf391897d0f599de6a2f18b61",
+    "size": 3226,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/c7796d4c4086f62bf391897d0f599de6a2f18b61"
+  },
+  {
+    "path": "lua/cobalt2/languages",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ef810b1dc91a182484029a7a700b8aeab088e2f1",
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/trees/ef810b1dc91a182484029a7a700b8aeab088e2f1"
+  },
+  {
+    "path": "lua/cobalt2/languages/html.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74b8d56bd0912d00c969eca57fac05efcbb012f3",
+    "size": 347,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/74b8d56bd0912d00c969eca57fac05efcbb012f3"
+  },
+  {
+    "path": "lua/cobalt2/languages/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0647c95ede5354d33c4568edc837e2a2a18b4ef",
+    "size": 651,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/f0647c95ede5354d33c4568edc837e2a2a18b4ef"
+  },
+  {
+    "path": "lua/cobalt2/languages/javascript.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a94ea268b635ac34812965d2f714f593319e999e",
+    "size": 1286,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/a94ea268b635ac34812965d2f714f593319e999e"
+  },
+  {
+    "path": "lua/cobalt2/languages/json.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99d6f40f07fa452017fb62a793701493d3014514",
+    "size": 362,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/99d6f40f07fa452017fb62a793701493d3014514"
+  },
+  {
+    "path": "lua/cobalt2/languages/markdown.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cbf95f2d703ef6d083946985062f171b65e6e264",
+    "size": 626,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/cbf95f2d703ef6d083946985062f171b65e6e264"
+  },
+  {
+    "path": "lua/cobalt2/nvim.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f385578ea0d2170800d96eeab0b32ac28be509d7",
+    "size": 222,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/f385578ea0d2170800d96eeab0b32ac28be509d7"
+  },
+  {
+    "path": "lua/cobalt2/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "120f32839c25d3c994fdc106dd67bca1b1097863",
+    "size": 4676,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/120f32839c25d3c994fdc106dd67bca1b1097863"
+  },
+  {
+    "path": "lua/cobalt2/plugins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9dd78c589794046ae71b53dac26bfee4ac9c2e58",
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/trees/9dd78c589794046ae71b53dac26bfee4ac9c2e58"
+  },
+  {
+    "path": "lua/cobalt2/plugins/barbar.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8063849533cc73f2c45d5c069ee4a02082fd89c9",
+    "size": 1270,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/8063849533cc73f2c45d5c069ee4a02082fd89c9"
+  },
+  {
+    "path": "lua/cobalt2/plugins/barbecue.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8fa4956e0e5b0f3581fa30097148eb828b262a6",
+    "size": 147,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/b8fa4956e0e5b0f3581fa30097148eb828b262a6"
+  },
+  {
+    "path": "lua/cobalt2/plugins/blink-cmp.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98bddd1826097872014d901763342b22333d5ffb",
+    "size": 760,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/98bddd1826097872014d901763342b22333d5ffb"
+  },
+  {
+    "path": "lua/cobalt2/plugins/bqf.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf5d3d3f9c36120c7187c99aa006bcadb39d4470",
+    "size": 153,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/bf5d3d3f9c36120c7187c99aa006bcadb39d4470"
+  },
+  {
+    "path": "lua/cobalt2/plugins/bufferline.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fee4d7e21ac599cfdc410ab5340ca865cc929218",
+    "size": 1139,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/fee4d7e21ac599cfdc410ab5340ca865cc929218"
+  },
+  {
+    "path": "lua/cobalt2/plugins/coc.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5a35f4ae1f046e2429599ec420c7d24f2923596",
+    "size": 1153,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/d5a35f4ae1f046e2429599ec420c7d24f2923596"
+  },
+  {
+    "path": "lua/cobalt2/plugins/copilot.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c09d07ec4c12c4c4a427ee8f2560cd2cb9ada1ad",
+    "size": 168,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/c09d07ec4c12c4c4a427ee8f2560cd2cb9ada1ad"
+  },
+  {
+    "path": "lua/cobalt2/plugins/dashboard.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59cad7fa610275b969d9a675bba9e4ebe8e53c5a",
+    "size": 668,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/59cad7fa610275b969d9a675bba9e4ebe8e53c5a"
+  },
+  {
+    "path": "lua/cobalt2/plugins/diffview.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43e9ed534bcd0c2daa275dbf6a8380f39dd3f211",
+    "size": 271,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/43e9ed534bcd0c2daa275dbf6a8380f39dd3f211"
+  },
+  {
+    "path": "lua/cobalt2/plugins/eyeliner.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d238e63a5cfe4ed4c2d336bea247a47a2e0c2588",
+    "size": 224,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/d238e63a5cfe4ed4c2d336bea247a47a2e0c2588"
+  },
+  {
+    "path": "lua/cobalt2/plugins/fidget.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7a2bfc444c50fe90e2a73ea6e520c54d068201b7",
+    "size": 271,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/7a2bfc444c50fe90e2a73ea6e520c54d068201b7"
+  },
+  {
+    "path": "lua/cobalt2/plugins/flash.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7fc9543106964fd55adc359d22385b10291e959",
+    "size": 364,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/e7fc9543106964fd55adc359d22385b10291e959"
+  },
+  {
+    "path": "lua/cobalt2/plugins/fzf-lua.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eee20f5630a4fb7137294fc81e4cbe70d1b1ec3f",
+    "size": 892,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/eee20f5630a4fb7137294fc81e4cbe70d1b1ec3f"
+  },
+  {
+    "path": "lua/cobalt2/plugins/gitgutter.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc408ea74e82521b5a6dd85aa6496ed5cd644328",
+    "size": 248,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/fc408ea74e82521b5a6dd85aa6496ed5cd644328"
+  },
+  {
+    "path": "lua/cobalt2/plugins/gitsigns.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9019cd25132ba2086c93dea8b61513aab1001a3d",
+    "size": 1083,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/9019cd25132ba2086c93dea8b61513aab1001a3d"
+  },
+  {
+    "path": "lua/cobalt2/plugins/hop.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c579768e19b9884c01c8afb9d5a3ca98254e2c0c",
+    "size": 337,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/c579768e19b9884c01c8afb9d5a3ca98254e2c0c"
+  },
+  {
+    "path": "lua/cobalt2/plugins/indent-blankline.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df6af95556b8c346293ea11636c96b524bc1ab32",
+    "size": 229,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/df6af95556b8c346293ea11636c96b524bc1ab32"
+  },
+  {
+    "path": "lua/cobalt2/plugins/indentmini.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eec931f4a2dcb80ee76125af986b6b757bf68f29",
+    "size": 154,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/eec931f4a2dcb80ee76125af986b6b757bf68f29"
+  },
+  {
+    "path": "lua/cobalt2/plugins/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0fdb0bc6f6b570146bc82297198a2cf1a01f9f9e",
+    "size": 2209,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/0fdb0bc6f6b570146bc82297198a2cf1a01f9f9e"
+  },
+  {
+    "path": "lua/cobalt2/plugins/leap.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65db9f1b7a43df7f75fcc53301163396e486142e",
+    "size": 375,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/65db9f1b7a43df7f75fcc53301163396e486142e"
+  },
+  {
+    "path": "lua/cobalt2/plugins/lightspeed.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a22b4450414347be86354defacc91206aaa80a4b",
+    "size": 1118,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/a22b4450414347be86354defacc91206aaa80a4b"
+  },
+  {
+    "path": "lua/cobalt2/plugins/lir.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66302dacd019b24c8f79d6f32e6084da3730f6ab",
+    "size": 561,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/66302dacd019b24c8f79d6f32e6084da3730f6ab"
+  },
+  {
+    "path": "lua/cobalt2/plugins/lualine.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bee82ff413400f1f5ffdb219e3ded02d874bc09",
+    "size": 453,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/3bee82ff413400f1f5ffdb219e3ded02d874bc09"
+  },
+  {
+    "path": "lua/cobalt2/plugins/marks.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d1472b1be8c8c1f6089f03736035edd8c27e73a",
+    "size": 322,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/0d1472b1be8c8c1f6089f03736035edd8c27e73a"
+  },
+  {
+    "path": "lua/cobalt2/plugins/neo-tree.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f1549105f65bb53840b99551e90621f730e3b3b",
+    "size": 1607,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/3f1549105f65bb53840b99551e90621f730e3b3b"
+  },
+  {
+    "path": "lua/cobalt2/plugins/neogit.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83ff3458367bb87e404fe287c68cd4110a26907d",
+    "size": 2117,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/83ff3458367bb87e404fe287c68cd4110a26907d"
+  },
+  {
+    "path": "lua/cobalt2/plugins/noice.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea37dfa9aae2f42a132ccabee3a08f50cbca4efa",
+    "size": 152,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/ea37dfa9aae2f42a132ccabee3a08f50cbca4efa"
+  },
+  {
+    "path": "lua/cobalt2/plugins/notify.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df4f324b2167c3b0e14b955cbf5bd54030d77a2c",
+    "size": 963,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/df4f324b2167c3b0e14b955cbf5bd54030d77a2c"
+  },
+  {
+    "path": "lua/cobalt2/plugins/nvim-cmp.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c837337b50088a2d3c58a09f54712ba67423fb79",
+    "size": 1820,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/c837337b50088a2d3c58a09f54712ba67423fb79"
+  },
+  {
+    "path": "lua/cobalt2/plugins/nvim-fFHighlight.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a303494aa708984cba554acff12f810491bac96",
+    "size": 362,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/1a303494aa708984cba554acff12f810491bac96"
+  },
+  {
+    "path": "lua/cobalt2/plugins/nvim-hlslens.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a57412850286f4cc5945d1db4ba774cf9ddcb77",
+    "size": 151,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/8a57412850286f4cc5945d1db4ba774cf9ddcb77"
+  },
+  {
+    "path": "lua/cobalt2/plugins/nvim-lsp.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "816942fb1a1e1fdb1af9a2d596d9770d93adee30",
+    "size": 3320,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/816942fb1a1e1fdb1af9a2d596d9770d93adee30"
+  },
+  {
+    "path": "lua/cobalt2/plugins/nvim-navic.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e62797b25685c8a0646c75a1521b48433b8e590",
+    "size": 1751,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/0e62797b25685c8a0646c75a1521b48433b8e590"
+  },
+  {
+    "path": "lua/cobalt2/plugins/nvim-tree.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "138acd11368daaa98186e4df5560dfa94c08d85a",
+    "size": 1032,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/138acd11368daaa98186e4df5560dfa94c08d85a"
+  },
+  {
+    "path": "lua/cobalt2/plugins/nvim-treesitter.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "180b559b0252fefe5c02564889755154e4afd175",
+    "size": 7065,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/180b559b0252fefe5c02564889755154e4afd175"
+  },
+  {
+    "path": "lua/cobalt2/plugins/nvim-ts-rainbow.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05564b228f689d8279a58bbd963e64584a463cc1",
+    "size": 452,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/05564b228f689d8279a58bbd963e64584a463cc1"
+  },
+  {
+    "path": "lua/cobalt2/plugins/octo.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a47bd1a0800f3e5f77db0704e81b655c5b04e65c",
+    "size": 451,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/a47bd1a0800f3e5f77db0704e81b655c5b04e65c"
+  },
+  {
+    "path": "lua/cobalt2/plugins/package-info.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b46d1284b765b79c8165094c40768febba43842",
+    "size": 260,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/4b46d1284b765b79c8165094c40768febba43842"
+  },
+  {
+    "path": "lua/cobalt2/plugins/packer.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31a9636a40debd2ccb4b18aa7368614324286ee7",
+    "size": 321,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/31a9636a40debd2ccb4b18aa7368614324286ee7"
+  },
+  {
+    "path": "lua/cobalt2/plugins/quick-scope.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7a398edcc57dd5d2c1277c06ff2d1ac547e4f6b8",
+    "size": 220,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/7a398edcc57dd5d2c1277c06ff2d1ac547e4f6b8"
+  },
+  {
+    "path": "lua/cobalt2/plugins/reach.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c31958571e9c9fae400e21bd9fa4cd25f26da86",
+    "size": 955,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/1c31958571e9c9fae400e21bd9fa4cd25f26da86"
+  },
+  {
+    "path": "lua/cobalt2/plugins/render-markdown.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed767a7c8fc373a3eaa2350a8a684dff197444ab",
+    "size": 5607,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/ed767a7c8fc373a3eaa2350a8a684dff197444ab"
+  },
+  {
+    "path": "lua/cobalt2/plugins/startify.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "459fdaad9af63e4ee9a28bc0cbb43ab218a0e092",
+    "size": 409,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/459fdaad9af63e4ee9a28bc0cbb43ab218a0e092"
+  },
+  {
+    "path": "lua/cobalt2/plugins/symbols-outline.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "175340c9cd54ccbe67f05b76a61646e550825dab",
+    "size": 237,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/175340c9cd54ccbe67f05b76a61646e550825dab"
+  },
+  {
+    "path": "lua/cobalt2/plugins/telescope.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7dd4119b329ffa6b01e4b82c1514eec84aaf8c5",
+    "size": 3610,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/a7dd4119b329ffa6b01e4b82c1514eec84aaf8c5"
+  },
+  {
+    "path": "lua/cobalt2/plugins/trouble.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed67940200c967a9985f0e522414ae79c4186c0b",
+    "size": 1486,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/ed67940200c967a9985f0e522414ae79c4186c0b"
+  },
+  {
+    "path": "lua/cobalt2/plugins/which-key.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "549ab65e727affc3667f6e23f1d0270c701068eb",
+    "size": 464,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/549ab65e727affc3667f6e23f1d0270c701068eb"
+  },
+  {
+    "path": "lua/cobalt2/plugins/yanky.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7732a6ce2a590d45f19abef005e4fc2484d0cadf",
+    "size": 206,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/7732a6ce2a590d45f19abef005e4fc2484d0cadf"
+  },
+  {
+    "path": "lua/cobalt2/syntax.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d71e29dd491a5804b8c4d69fcd161851f6dac96d",
+    "size": 2072,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/d71e29dd491a5804b8c4d69fcd161851f6dac96d"
+  },
+  {
+    "path": "lua/cobalt2/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3eb8270fb6fcc2bb0e17912674a415110d624f7e",
+    "size": 3830,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/3eb8270fb6fcc2bb0e17912674a415110d624f7e"
+  },
+  {
+    "path": "lua/cobalt2/utils.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79c7f22dd52cb38578bc9239e610a0ce8eb1bbc5",
+    "size": 204,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/79c7f22dd52cb38578bc9239e610a0ce8eb1bbc5"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3f16c2e76c66b47701aa8b14e8be9fe4e4d4ef84",
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/trees/3f16c2e76c66b47701aa8b14e8be9fe4e4d4ef84"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b0366797cc363f5d850d66b2991a9816ed145ea",
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/trees/1b0366797cc363f5d850d66b2991a9816ed145ea"
+  },
+  {
+    "path": "lua/lualine/themes/cobalt2.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3fc412276d99165a40be6481e4b627a3ccd6eab1",
+    "size": 1465,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/3fc412276d99165a40be6481e4b627a3ccd6eab1"
+  },
+  {
+    "path": "stylua.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46d11cd3b2239c1045a9bb452b9eedac39e749ae",
+    "size": 68,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/46d11cd3b2239c1045a9bb452b9eedac39e749ae"
+  },
+  {
+    "path": "tests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8ec21c764265cf683385f24655395204a8104f63",
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/trees/8ec21c764265cf683385f24655395204a8104f63"
+  },
+  {
+    "path": "tests/colors.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a1d7e8ae518fb33ac749d6324d6d7e0998d7ada",
+    "size": 1743,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/8a1d7e8ae518fb33ac749d6324d6d7e0998d7ada"
+  },
+  {
+    "path": "tests/index.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8278e55282723782c55d4e728a1705c70ff82911",
+    "size": 169,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/8278e55282723782c55d4e728a1705c70ff82911"
+  },
+  {
+    "path": "tests/notify.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38488fa7e3fc274cb912e7433b337af07f991765",
+    "size": 93,
+    "url": "https://api.github.com/repos/lalitmee/cobalt2.nvim/git/blobs/38488fa7e3fc274cb912e7433b337af07f991765"
+  }
+]

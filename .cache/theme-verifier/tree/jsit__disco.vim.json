@@ -1,0 +1,25 @@
+[
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "189c13f4b13fd6e1deaa22f30df08b2200579301",
+    "size": 2542,
+    "url": "https://api.github.com/repos/jsit/disco.vim/git/blobs/189c13f4b13fd6e1deaa22f30df08b2200579301"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9fc9750fbac6c095dd4047e77dc16eb7ca67c3b0",
+    "url": "https://api.github.com/repos/jsit/disco.vim/git/trees/9fc9750fbac6c095dd4047e77dc16eb7ca67c3b0"
+  },
+  {
+    "path": "colors/disco.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78cf5b93892a8e1cfcb730dc104d2aa380a7aa5c",
+    "size": 10357,
+    "url": "https://api.github.com/repos/jsit/disco.vim/git/blobs/78cf5b93892a8e1cfcb730dc104d2aa380a7aa5c"
+  }
+]

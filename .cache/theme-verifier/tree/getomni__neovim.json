@@ -1,0 +1,156 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f21a1430ec5f2250e4a2716857d1500490320035",
+    "url": "https://api.github.com/repos/getomni/neovim/git/trees/f21a1430ec5f2250e4a2716857d1500490320035"
+  },
+  {
+    "path": ".github/CODEOWNERS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14f582370462eab915d9fb15b406103f68f05911",
+    "size": 116,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/14f582370462eab915d9fb15b406103f68f05911"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "600d2d33badf45cc068e01d2e3c837e11c417bc4",
+    "size": 7,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/600d2d33badf45cc068e01d2e3c837e11c417bc4"
+  },
+  {
+    "path": ".stylua.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df96b7b0c3459fb634aa378a452c4ed56adfe9e4",
+    "size": 141,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/df96b7b0c3459fb634aa378a452c4ed56adfe9e4"
+  },
+  {
+    "path": "INSTALL.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45e420f4bb83b85a29a7056a3c90e568119f858c",
+    "size": 665,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/45e420f4bb83b85a29a7056a3c90e568119f858c"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36c4c96033ad22cba22a3637cd11d8d06b3af0c8",
+    "size": 1068,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/36c4c96033ad22cba22a3637cd11d8d06b3af0c8"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bdbabd135ea081de6c19deea630677d9b7dfddea",
+    "size": 1272,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/bdbabd135ea081de6c19deea630677d9b7dfddea"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1998b5d1db9a2ef375c452eef9e9dac5c2719e23",
+    "url": "https://api.github.com/repos/getomni/neovim/git/trees/1998b5d1db9a2ef375c452eef9e9dac5c2719e23"
+  },
+  {
+    "path": "colors/omni.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93de8486834c09de96c87cc969a5aeb7d6ebf7e1",
+    "size": 34,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/93de8486834c09de96c87cc969a5aeb7d6ebf7e1"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "891d35922e8f538f26f1aeeb383ab9a0d3f098e3",
+    "url": "https://api.github.com/repos/getomni/neovim/git/trees/891d35922e8f538f26f1aeeb383ab9a0d3f098e3"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a24336659b73a0e2d0bc1502c5b9a66a6ea5f825",
+    "url": "https://api.github.com/repos/getomni/neovim/git/trees/a24336659b73a0e2d0bc1502c5b9a66a6ea5f825"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2d8e9a25a4263a730163c90f3d7377374d96f6f9",
+    "url": "https://api.github.com/repos/getomni/neovim/git/trees/2d8e9a25a4263a730163c90f3d7377374d96f6f9"
+  },
+  {
+    "path": "lua/lualine/themes/omni.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c3fc1a5a1bc543c8b41ce419d4e05be0d67e6f3",
+    "size": 923,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/0c3fc1a5a1bc543c8b41ce419d4e05be0d67e6f3"
+  },
+  {
+    "path": "lua/omni",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fa170808587aa6d2df9786f94a5fdc44241bc5e8",
+    "url": "https://api.github.com/repos/getomni/neovim/git/trees/fa170808587aa6d2df9786f94a5fdc44241bc5e8"
+  },
+  {
+    "path": "lua/omni/colors.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3bef55d6e4234bdfd3c4ce6f282f6a12e18b784",
+    "size": 470,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/e3bef55d6e4234bdfd3c4ce6f282f6a12e18b784"
+  },
+  {
+    "path": "lua/omni/hsluv.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e039d78569c282ce8797b8af803b5d0ec1d2b7d3",
+    "size": 8716,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/e039d78569c282ce8797b8af803b5d0ec1d2b7d3"
+  },
+  {
+    "path": "lua/omni/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "317c01748b1d701fcf478e3516bc8c39190117c7",
+    "size": 143,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/317c01748b1d701fcf478e3516bc8c39190117c7"
+  },
+  {
+    "path": "lua/omni/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32c44dfa117077ffa40b1d1f95c1f389fd4d0dad",
+    "size": 22529,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/32c44dfa117077ffa40b1d1f95c1f389fd4d0dad"
+  },
+  {
+    "path": "lua/omni/util.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9101515fe5a28efd9ac3a007eda5c78f9ccf7a33",
+    "size": 3251,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/9101515fe5a28efd9ac3a007eda5c78f9ccf7a33"
+  },
+  {
+    "path": "screenshot.PNG",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "070de41bd127692d1c771161cbecdfcfb1a36bf9",
+    "size": 63097,
+    "url": "https://api.github.com/repos/getomni/neovim/git/blobs/070de41bd127692d1c771161cbecdfcfb1a36bf9"
+  }
+]

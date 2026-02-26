@@ -23,9 +23,9 @@
       "variantModes": {
         "kanagawa-wave": "dark",
         "kanagawa-dragon": "dark",
-        "kanagawa-lotus": "dark"
+        "kanagawa-lotus": "light"
       },
-      "reason": "All kanagawa variants are dark themes"
+      "reason": "Kanagawa: lotus is the light variant (background = { light = 'lotus' }), wave/dragon are dark"
     },
     {
       "repo": "catppuccin/nvim",
@@ -203,27 +203,42 @@
       "variantModes": {
         "ef-day": "light",
         "ef-light": "light",
+        "ef-cyprus": "light",
+        "ef-eagle": "light",
+        "ef-frost": "light",
+        "ef-kassio": "light",
+        "ef-reverie": "light",
+        "ef-spring": "light",
+        "ef-summer": "light",
+        "ef-deuteranopia-light": "light",
+        "ef-duo-light": "light",
+        "ef-elea-light": "light",
+        "ef-maris-light": "light",
+        "ef-melissa-light": "light",
+        "ef-trio-light": "light",
+        "ef-tritanopia-light": "light",
         "ef-autumn": "dark",
         "ef-bio": "dark",
         "ef-cherie": "dark",
-        "ef-cyprus": "dark",
+        "ef-dark": "dark",
+        "ef-deuteranopia-dark": "dark",
         "ef-dream": "dark",
-        "ef-eagle": "dark",
+        "ef-duo-dark": "dark",
+        "ef-elea-dark": "dark",
         "ef-false": "dark",
-        "ef-frost": "dark",
-        "ef-kassio": "dark",
+        "ef-maris-dark": "dark",
+        "ef-melissa-dark": "dark",
         "ef-night": "dark",
         "ef-owl": "dark",
-        "ef-reverie": "dark",
         "ef-rosa": "dark",
-        "ef-spring": "dark",
-        "ef-summer": "dark",
         "ef-symbiosis": "dark",
         "ef-theme": "dark",
         "ef-tint": "dark",
+        "ef-trio-dark": "dark",
+        "ef-tritanopia-dark": "dark",
         "ef-winter": "dark"
       },
-      "reason": "Ef-themes: day/light are light, others dark"
+      "reason": "Ef-themes: variants ending in -light and specific light themes (day/light/cyprus/eagle/frost/kassio/reverie/spring/summer) are light, all others dark"
     },
     {
       "repo": "Iron-E/nvim-highlite",
@@ -244,10 +259,12 @@
         "highlite-solarized8-low": "dark",
         "highlite-sonokai": "dark",
         "highlite-tomorrow": "light",
+        "highlite-tomorrow-night": "dark",
         "highlite-tomorrow-night-blue": "dark",
+        "highlite-tomorrow-night-bright": "dark",
         "highlite-tomorrow-night-eighties": "dark"
       },
-      "reason": "Highlite variants based on underlying theme modes"
+      "reason": "Highlite variants: tomorrow/papercolor/seoul256-light are light, all tomorrow-night variants are dark"
     },
     {
       "repo": "uhs-robert/oasis.nvim",
@@ -390,15 +407,6 @@
       "reason": "Ragatol themes: paper is light, all others dark"
     },
     {
-      "repo": "AstroNvim/astrotheme",
-      "strategy": "setup",
-      "variantModes": {
-        "astrodark": "dark",
-        "astrolight": "light"
-      },
-      "reason": "Astrotheme: astrodark is default dark, astrolight is light"
-    },
-    {
       "repo": "jpwol/thorn.nvim",
       "strategy": "setup",
       "variantModes": {
@@ -446,11 +454,11 @@
       "strategy": "setup",
       "variantModes": {
         "astrodark": "dark",
-        "astrojupiter": "dark",
+        "astrojupiter": "light",
         "astrolight": "light",
         "astromars": "dark"
       },
-      "reason": "Astrotheme: astrolight is light, all others dark"
+      "reason": "Astrotheme: astrojupiter is light (pale pink background), astrolight is light, others dark"
     },
     {
       "repo": "everviolet/nvim",
@@ -608,11 +616,12 @@
       "repo": "rockerBOO/boo-colorscheme-nvim",
       "strategy": "setup",
       "variantModes": {
+        "crimson_moonlight": "dark",
         "forest_stream": "dark",
         "radioactive_waste": "dark",
         "sunset_cloud": "dark"
       },
-      "reason": "Boo: all variants are dark themes"
+      "reason": "Boo: all variants are dark themes (moonlight indicates night/dark)"
     },
     {
       "repo": "evilwaveforms/system-shock.vim",
@@ -740,9 +749,10 @@
       "repo": "miikanissi/modus-themes.nvim",
       "strategy": "setup",
       "variantModes": {
-        "modus-vivendi": "dark"
+        "modus_operandi": "light",
+        "modus_vivendi": "dark"
       },
-      "reason": "Modus: vivendi is the dark variant"
+      "reason": "Modus: operandi is light, vivendi is dark"
     },
     {
       "repo": "repl6669/repl69.nvim",
@@ -952,6 +962,23 @@
         "windows-xp": "dark"
       },
       "reason": "Windows: XP variant is dark"
+    },
+    {
+      "repo": "crimson-kat/witchesbrew.vim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "witchesbrew-bright": "dark"
+      },
+      "reason": "Witchesbrew: bright is a brighter dark variant (background #181015), not a light theme"
+    },
+    {
+      "repo": "arsham/arshamiser.nvim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "arshamiser_dark": "dark",
+        "arshamiser_light": "dark"
+      },
+      "reason": "Arshamiser: Both dark and light variants have dark backgrounds (#232627). The 'light' variant has lighter foreground colors (pink #FFF1F3) vs white (#f0f0f0) in the dark variant."
     }
   ]
 }

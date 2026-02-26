@@ -1,0 +1,2765 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "281e6698a8af032c15fcc0306b5c4d04618271ff",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/281e6698a8af032c15fcc0306b5c4d04618271ff"
+  },
+  {
+    "path": ".github/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1061364633bde813eab8e70696603ed7317b9e25",
+    "size": 7182,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/1061364633bde813eab8e70696603ed7317b9e25"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90f7883f780a82a38e90898f20db52e949507988",
+    "size": 83,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/90f7883f780a82a38e90898f20db52e949507988"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e18671e3f05cfbf17b5ad2d093727cbc8b5f1755",
+    "size": 1070,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e18671e3f05cfbf17b5ad2d093727cbc8b5f1755"
+  },
+  {
+    "path": "after",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "974da9bbc217e64fd48dfdb1bfbdd1b9c7aedb3e",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/974da9bbc217e64fd48dfdb1bfbdd1b9c7aedb3e"
+  },
+  {
+    "path": "after/queries",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "74c5c8cfcaab96cf1c7e792742d807257976a6a3",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/74c5c8cfcaab96cf1c7e792742d807257976a6a3"
+  },
+  {
+    "path": "after/queries/fennel",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ed8fb7fdd76a30ade673148425144ab428f6a79b",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/ed8fb7fdd76a30ade673148425144ab428f6a79b"
+  },
+  {
+    "path": "after/queries/fennel/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62fd11800ce08f580086d5151423fda1968712cd",
+    "size": 599,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/62fd11800ce08f580086d5151423fda1968712cd"
+  },
+  {
+    "path": "after/queries/rust",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fed7c7c49044bb8ecbbf22a48b64e240289ebbc3",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/fed7c7c49044bb8ecbbf22a48b64e240289ebbc3"
+  },
+  {
+    "path": "after/queries/rust/injections.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81127b7de7e1acbe5d104749021b503492f11f96",
+    "size": 334,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/81127b7de7e1acbe5d104749021b503492f11f96"
+  },
+  {
+    "path": "bin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c46acf4814531e2cafb54995f1691331f9fb13c1",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/c46acf4814531e2cafb54995f1691331f9fb13c1"
+  },
+  {
+    "path": "bin/antifennel",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "77d919f72c0811d50370ca2d96828d2bb28ef2e7",
+    "size": 314929,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/77d919f72c0811d50370ca2d96828d2bb28ef2e7"
+  },
+  {
+    "path": "bin/nyoom",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3504770151cc9b87506ff91e632267fe39df158f",
+    "size": 6799,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/3504770151cc9b87506ff91e632267fe39df158f"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5ab4530ac56de2fb7f8322dcfb99ae4c175134c3",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/5ab4530ac56de2fb7f8322dcfb99ae4c175134c3"
+  },
+  {
+    "path": "docs/contributing.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83b80b4f03b166a384b022c0bea23e7dea6a1144",
+    "size": 260,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/83b80b4f03b166a384b022c0bea23e7dea6a1144"
+  },
+  {
+    "path": "docs/examples.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c72fda8444bf203ecd29d889bd37fc9d9418c53",
+    "size": 525,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/2c72fda8444bf203ecd29d889bd37fc9d9418c53"
+  },
+  {
+    "path": "docs/faq.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41c0d710b3e868956d86d1e0631de49298608532",
+    "size": 10821,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/41c0d710b3e868956d86d1e0631de49298608532"
+  },
+  {
+    "path": "docs/getting_started.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33184a8e3e78309e158900093582995b152df8ea",
+    "size": 11597,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/33184a8e3e78309e158900093582995b152df8ea"
+  },
+  {
+    "path": "docs/lib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aec04fd0cd5b326e0ed181b342dfb89044b1075a",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/aec04fd0cd5b326e0ed181b342dfb89044b1075a"
+  },
+  {
+    "path": "docs/lib/fnl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e67115dedee1352960161d51bc707c3f16971657",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/e67115dedee1352960161d51bc707c3f16971657"
+  },
+  {
+    "path": "docs/lib/fnl/core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79ae239413a516a2d46004a99bf07fdfe2e59f85",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/79ae239413a516a2d46004a99bf07fdfe2e59f85"
+  },
+  {
+    "path": "docs/lib/fnl/core/lib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0c8391d541841cee7b9b44600dff0a489faea8a",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/a0c8391d541841cee7b9b44600dff0a489faea8a"
+  },
+  {
+    "path": "docs/lib/fnl/core/lib/autoload.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "docs/lib/fnl/core/lib/crypt.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "docs/lib/fnl/core/lib/init.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "docs/modules.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "023f400d0dbc2e1332b581a3048fa3edab97c443",
+    "size": 20935,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/023f400d0dbc2e1332b581a3048fa3edab97c443"
+  },
+  {
+    "path": "docs/norg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "354fab5a0e8905c05fc1496e81eba95f441c281b",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/354fab5a0e8905c05fc1496e81eba95f441c281b"
+  },
+  {
+    "path": "docs/norg/contributing.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7e861206d12f0a671d6e3362686cffb1980b787",
+    "size": 273,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/b7e861206d12f0a671d6e3362686cffb1980b787"
+  },
+  {
+    "path": "docs/norg/examples.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6db52f01c219728e8037af47defeeb3a1e6c11bf",
+    "size": 546,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/6db52f01c219728e8037af47defeeb3a1e6c11bf"
+  },
+  {
+    "path": "docs/norg/faq.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c647d593f211153a1aa15614742c61136ac40269",
+    "size": 11431,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/c647d593f211153a1aa15614742c61136ac40269"
+  },
+  {
+    "path": "docs/norg/getting_started.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7905e79fb1fb7bcebf41d878c2d467e2325d0bc8",
+    "size": 12278,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/7905e79fb1fb7bcebf41d878c2d467e2325d0bc8"
+  },
+  {
+    "path": "docs/norg/modules.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e12eff3fe3dd998172e9836748de48f0b8249ca",
+    "size": 22477,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/9e12eff3fe3dd998172e9836748de48f0b8249ca"
+  },
+  {
+    "path": "fnl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e575745c9eaca1628624c39aefa89d9b67fe6a09",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/e575745c9eaca1628624c39aefa89d9b67fe6a09"
+  },
+  {
+    "path": "fnl/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebb0c41aba53f282ad03bb24388ff7a889de0282",
+    "size": 1015,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/ebb0c41aba53f282ad03bb24388ff7a889de0282"
+  },
+  {
+    "path": "fnl/core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "637e4656d2ba2a7a2181437be76c03599485a433",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/637e4656d2ba2a7a2181437be76c03599485a433"
+  },
+  {
+    "path": "fnl/core/doctor.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d60d85a14b27f282a211c5834ad093f18eeacc4",
+    "size": 1608,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/2d60d85a14b27f282a211c5834ad093f18eeacc4"
+  },
+  {
+    "path": "fnl/core/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2643797a357232e0f9b172b416f8715538778249",
+    "size": 3537,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/2643797a357232e0f9b172b416f8715538778249"
+  },
+  {
+    "path": "fnl/core/lib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b061789c9c7579f087f8e46bc69a038ca02b7a6b",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/b061789c9c7579f087f8e46bc69a038ca02b7a6b"
+  },
+  {
+    "path": "fnl/core/lib/autoload.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dfdb1b0cec3e18c9697d96b07fe02e3894cdc947",
+    "size": 1104,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/dfdb1b0cec3e18c9697d96b07fe02e3894cdc947"
+  },
+  {
+    "path": "fnl/core/lib/color.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6dd9eb43e768674d05e965170ca7b719d35c538f",
+    "size": 9758,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/6dd9eb43e768674d05e965170ca7b719d35c538f"
+  },
+  {
+    "path": "fnl/core/lib/crypt.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32ab8aefcd70585fb12ef2041f40f5ffa698d7cc",
+    "size": 554,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/32ab8aefcd70585fb12ef2041f40f5ffa698d7cc"
+  },
+  {
+    "path": "fnl/core/lib/fun.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "126fd9e039ea3a5a4a84d90c171f8e302ba53a1a",
+    "size": 24348,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/126fd9e039ea3a5a4a84d90c171f8e302ba53a1a"
+  },
+  {
+    "path": "fnl/core/lib/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a6187864a5afa5906f6eb9975de304f2e48c222",
+    "size": 13215,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/1a6187864a5afa5906f6eb9975de304f2e48c222"
+  },
+  {
+    "path": "fnl/core/lib/io.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8d8f577e93ed94364b5c17656a69650d14239cf",
+    "size": 8840,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e8d8f577e93ed94364b5c17656a69650d14239cf"
+  },
+  {
+    "path": "fnl/core/lib/p.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d05ff13a8b9cdad4df024be4e46983ac341ab98",
+    "size": 14024,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/2d05ff13a8b9cdad4df024be4e46983ac341ab98"
+  },
+  {
+    "path": "fnl/core/lib/profile.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f8feb80d71cdaf23a789ac476c0e7089fae0a30",
+    "size": 1463,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/2f8feb80d71cdaf23a789ac476c0e7089fae0a30"
+  },
+  {
+    "path": "fnl/core/lib/setup.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5f69013eab36cd60e68fa8819a8cbe77a126e2b",
+    "size": 982,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/d5f69013eab36cd60e68fa8819a8cbe77a126e2b"
+  },
+  {
+    "path": "fnl/core/lib/shared.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7f967e2b2a88e14eaa3dbe01ead0fd11a17e6b7",
+    "size": 1244,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/f7f967e2b2a88e14eaa3dbe01ead0fd11a17e6b7"
+  },
+  {
+    "path": "fnl/core/lib/tables.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd30b6fe703dc40f301c0b8738e1aa3226c47268",
+    "size": 1133,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/cd30b6fe703dc40f301c0b8738e1aa3226c47268"
+  },
+  {
+    "path": "fnl/core/repl.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ac92aad784b6bd08b32037c270405c0ef875647",
+    "size": 2868,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/3ac92aad784b6bd08b32037c270405c0ef875647"
+  },
+  {
+    "path": "fnl/macros.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "411382b000fb1dda0f5f32eaa0a8ba710ee68b88",
+    "size": 39797,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/411382b000fb1dda0f5f32eaa0a8ba710ee68b88"
+  },
+  {
+    "path": "fnl/modules.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d9313a9a5ca33317d51bc12f931a68800d1e7f6",
+    "size": 5136,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/0d9313a9a5ca33317d51bc12f931a68800d1e7f6"
+  },
+  {
+    "path": "fnl/modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "242ad6a10c41db45865c3c331118da9e947edaf3",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/242ad6a10c41db45865c3c331118da9e947edaf3"
+  },
+  {
+    "path": "fnl/modules/app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c564d4b1d2980b4432fd9bed7a42d7ba2e979253",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/c564d4b1d2980b4432fd9bed7a42d7ba2e979253"
+  },
+  {
+    "path": "fnl/modules/app/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/checkers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "085dc3941011adba0b5b02ee12f70aaffc2ba063",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/085dc3941011adba0b5b02ee12f70aaffc2ba063"
+  },
+  {
+    "path": "fnl/modules/checkers/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/checkers/diagnostics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aae1f9caf79624afeadca6d0bf8ed66149e8fb17",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/aae1f9caf79624afeadca6d0bf8ed66149e8fb17"
+  },
+  {
+    "path": "fnl/modules/checkers/diagnostics/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/checkers/diagnostics/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "867ad3723cfd3c1a823121540b16979358f2e3be",
+    "size": 4829,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/867ad3723cfd3c1a823121540b16979358f2e3be"
+  },
+  {
+    "path": "fnl/modules/checkers/diagnostics/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cebaa2ed1bc91fbb9483cc7068f6210226bc0f9a",
+    "size": 329,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/cebaa2ed1bc91fbb9483cc7068f6210226bc0f9a"
+  },
+  {
+    "path": "fnl/modules/checkers/grammar",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/checkers/grammar/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/checkers/grammar/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/checkers/spell",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d7f7ca8cc2dd80371dd648e5e93b340a8c9a75e8",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/d7f7ca8cc2dd80371dd648e5e93b340a8c9a75e8"
+  },
+  {
+    "path": "fnl/modules/checkers/spell/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/checkers/spell/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa6c77ce32ffa2b8888ef7fa96da3baffb40b0db",
+    "size": 118,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/fa6c77ce32ffa2b8888ef7fa96da3baffb40b0db"
+  },
+  {
+    "path": "fnl/modules/checkers/spell/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1129dcd99db7deb7b95936264991a1f59737cd7b",
+    "size": 74,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/1129dcd99db7deb7b95936264991a1f59737cd7b"
+  },
+  {
+    "path": "fnl/modules/completion",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79f9a2093ff4d197ba01fd404575cee71c397af5",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/79f9a2093ff4d197ba01fd404575cee71c397af5"
+  },
+  {
+    "path": "fnl/modules/completion/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/completion/cmp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "676dca2d6425e06958a52fc37aa319e69016454e",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/676dca2d6425e06958a52fc37aa319e69016454e"
+  },
+  {
+    "path": "fnl/modules/completion/cmp/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/completion/cmp/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "261420435763a86d812d142c0308efedba4112bd",
+    "size": 5930,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/261420435763a86d812d142c0308efedba4112bd"
+  },
+  {
+    "path": "fnl/modules/completion/cmp/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffa2fd46faebc9dcb0431bd574aa50bb1950e338",
+    "size": 1233,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/ffa2fd46faebc9dcb0431bd574aa50bb1950e338"
+  },
+  {
+    "path": "fnl/modules/completion/copilot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3af37ac3394a01d797fa91a07dd4c14bd4b5969",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/f3af37ac3394a01d797fa91a07dd4c14bd4b5969"
+  },
+  {
+    "path": "fnl/modules/completion/copilot/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/completion/copilot/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d63d84706e50eb0a858f286449e157be5da53452",
+    "size": 145,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/d63d84706e50eb0a858f286449e157be5da53452"
+  },
+  {
+    "path": "fnl/modules/completion/copilot/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47135226615a057e59169e26e94cfc89c7c663b7",
+    "size": 184,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/47135226615a057e59169e26e94cfc89c7c663b7"
+  },
+  {
+    "path": "fnl/modules/completion/telescope",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c79170a2964217c9822020c8de89e5d4224dbfd9",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/c79170a2964217c9822020c8de89e5d4224dbfd9"
+  },
+  {
+    "path": "fnl/modules/completion/telescope/+native",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0670e687152e6f049f57bcc7c59e75d3dc377e3e",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/0670e687152e6f049f57bcc7c59e75d3dc377e3e"
+  },
+  {
+    "path": "fnl/modules/completion/telescope/+native/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c9dde09ff6c2812d95e8e41097b0d210ac8d5ee",
+    "size": 179,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/3c9dde09ff6c2812d95e8e41097b0d210ac8d5ee"
+  },
+  {
+    "path": "fnl/modules/completion/telescope/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/completion/telescope/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20545882fbcdcf1958c5b13606e847c3438f651a",
+    "size": 3920,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/20545882fbcdcf1958c5b13606e847c3438f651a"
+  },
+  {
+    "path": "fnl/modules/completion/telescope/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbcfd08bdac88849f821b784afa92c81d9e1e42d",
+    "size": 870,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/fbcfd08bdac88849f821b784afa92c81d9e1e42d"
+  },
+  {
+    "path": "fnl/modules/config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eb1b51f0ed231b73e044e485eee1046a94e6df20",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/eb1b51f0ed231b73e044e485eee1046a94e6df20"
+  },
+  {
+    "path": "fnl/modules/config/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/config/default",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "140d962a2801a73f3fcf8bcb75119ef298ebb18c",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/140d962a2801a73f3fcf8bcb75119ef298ebb18c"
+  },
+  {
+    "path": "fnl/modules/config/default/+bindings",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f6c49bc1ee500fb61167f5afa66e87e4e14ec051",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/f6c49bc1ee500fb61167f5afa66e87e4e14ec051"
+  },
+  {
+    "path": "fnl/modules/config/default/+bindings/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a35a33605ed8c236dd1a6ca4d6a8439f8aa5e8b",
+    "size": 14635,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/0a35a33605ed8c236dd1a6ca4d6a8439f8aa5e8b"
+  },
+  {
+    "path": "fnl/modules/config/default/+bindings/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da43025ddbc7c18241669453c4ba629f7cd772c1",
+    "size": 402,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/da43025ddbc7c18241669453c4ba629f7cd772c1"
+  },
+  {
+    "path": "fnl/modules/config/default/+smartparens",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1837c511ed9754d0653cea407aea6efb7be7ed43",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/1837c511ed9754d0653cea407aea6efb7be7ed43"
+  },
+  {
+    "path": "fnl/modules/config/default/+smartparens/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca3ff16bff746077e77db61bde0615bff34d16cc",
+    "size": 109,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/ca3ff16bff746077e77db61bde0615bff34d16cc"
+  },
+  {
+    "path": "fnl/modules/config/default/+smartparens/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97c94c149d5fb1b36a2e513bd7ce50894c414e4e",
+    "size": 430,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/97c94c149d5fb1b36a2e513bd7ce50894c414e4e"
+  },
+  {
+    "path": "fnl/modules/config/default/+which-key",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d0cf8115a90108723d7116f696c51a6daaa1522a",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/d0cf8115a90108723d7116f696c51a6daaa1522a"
+  },
+  {
+    "path": "fnl/modules/config/default/+which-key/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fac09f7c6626f29ba905b5d008330485914e4a0d",
+    "size": 1397,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/fac09f7c6626f29ba905b5d008330485914e4a0d"
+  },
+  {
+    "path": "fnl/modules/config/default/+which-key/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab02f90a6450baad0beedc313202e4ca4009d840",
+    "size": 215,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/ab02f90a6450baad0beedc313202e4ca4009d840"
+  },
+  {
+    "path": "fnl/modules/config/default/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/config/default/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a864d567e53fe8e33bb5bfd942d26da9a62cbd32",
+    "size": 1121,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/a864d567e53fe8e33bb5bfd942d26da9a62cbd32"
+  },
+  {
+    "path": "fnl/modules/config/default/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13a99b03b8b8fbdb9fdedac2464e6a220cddc771",
+    "size": 74,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/13a99b03b8b8fbdb9fdedac2464e6a220cddc771"
+  },
+  {
+    "path": "fnl/modules/config/literate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b35d35898b6e057b92bb6ad19432ffcaf901eba6",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/b35d35898b6e057b92bb6ad19432ffcaf901eba6"
+  },
+  {
+    "path": "fnl/modules/config/literate/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/config/literate/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0453d7a27795badc20dcb38594a3b1a10a058c2",
+    "size": 485,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/a0453d7a27795badc20dcb38594a3b1a10a058c2"
+  },
+  {
+    "path": "fnl/modules/config/literate/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ae0718d110d4aec011e1ef54fc6a70da0c899a4",
+    "size": 75,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/2ae0718d110d4aec011e1ef54fc6a70da0c899a4"
+  },
+  {
+    "path": "fnl/modules/editor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e428a969b961925487f6ea68a2417638f8e44509",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/e428a969b961925487f6ea68a2417638f8e44509"
+  },
+  {
+    "path": "fnl/modules/editor/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/editor/fold",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9896ed360e5a4eaceea8c8f19f4da83acf6d36cf",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/9896ed360e5a4eaceea8c8f19f4da83acf6d36cf"
+  },
+  {
+    "path": "fnl/modules/editor/fold/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c567ea44138a715c10b5c20724892091c9a273f0",
+    "size": 519,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/c567ea44138a715c10b5c20724892091c9a273f0"
+  },
+  {
+    "path": "fnl/modules/editor/fold/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2463aec7765309b834f78d41046dbbe3f9aee947",
+    "size": 242,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/2463aec7765309b834f78d41046dbbe3f9aee947"
+  },
+  {
+    "path": "fnl/modules/editor/format",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82dd4fe77db4bb10d6e240d9710699a9f62e033e",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/82dd4fe77db4bb10d6e240d9710699a9f62e033e"
+  },
+  {
+    "path": "fnl/modules/editor/format/+onsave",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "71f8650206ae249ae2e131c3f564f4863b9fb56a",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/71f8650206ae249ae2e131c3f564f4863b9fb56a"
+  },
+  {
+    "path": "fnl/modules/editor/format/+onsave/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/editor/format/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/editor/format/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc84ef8c795f8e67bb5e78cb2f44195f520276d3",
+    "size": 101,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/fc84ef8c795f8e67bb5e78cb2f44195f520276d3"
+  },
+  {
+    "path": "fnl/modules/editor/format/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbeeb90152f28cd8b6b3c56e5b4084dbe2943160",
+    "size": 73,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/dbeeb90152f28cd8b6b3c56e5b4084dbe2943160"
+  },
+  {
+    "path": "fnl/modules/editor/hotpot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c9d8addb1cab82b0e88ae74f52d50e3968244ed",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/7c9d8addb1cab82b0e88ae74f52d50e3968244ed"
+  },
+  {
+    "path": "fnl/modules/editor/hotpot/+reflect",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "794e34a0e2f18b518e00122ea698cb2838361022",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/794e34a0e2f18b518e00122ea698cb2838361022"
+  },
+  {
+    "path": "fnl/modules/editor/hotpot/+reflect/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9031a13d67e4c916c90bf3fb86b0e4475dc3430",
+    "size": 2188,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/f9031a13d67e4c916c90bf3fb86b0e4475dc3430"
+  },
+  {
+    "path": "fnl/modules/editor/hotpot/+reflect/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe23e44a30e2a635e594845d17876803108e18bf",
+    "size": 82,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/fe23e44a30e2a635e594845d17876803108e18bf"
+  },
+  {
+    "path": "fnl/modules/editor/hotpot/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/editor/hotpot/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c954fb46b22dae0c45a20464650fe5f5328d883",
+    "size": 77,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/8c954fb46b22dae0c45a20464650fe5f5328d883"
+  },
+  {
+    "path": "fnl/modules/editor/multiple-cursors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eba18b6719f9527e34ae0444577902e02d23eae2",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/eba18b6719f9527e34ae0444577902e02d23eae2"
+  },
+  {
+    "path": "fnl/modules/editor/multiple-cursors/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/editor/multiple-cursors/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b82adc99c3ab65ba3fbe3bc5e34e1f770a71922c",
+    "size": 52,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/b82adc99c3ab65ba3fbe3bc5e34e1f770a71922c"
+  },
+  {
+    "path": "fnl/modules/editor/multiple-cursors/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "075aa0c24655a14647728c22e75f930d8d6d73cf",
+    "size": 83,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/075aa0c24655a14647728c22e75f930d8d6d73cf"
+  },
+  {
+    "path": "fnl/modules/editor/parinfer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0f4877806c7ecdf40f6356c3e23a2e3d1f9f5ba1",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/0f4877806c7ecdf40f6356c3e23a2e3d1f9f5ba1"
+  },
+  {
+    "path": "fnl/modules/editor/parinfer/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd40910d9e70d6412e5e9919bb62a2d649c27a7c",
+    "size": 4,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/fd40910d9e70d6412e5e9919bb62a2d649c27a7c"
+  },
+  {
+    "path": "fnl/modules/editor/parinfer/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98b128f6416654999a53211a9ed7e14ebb17eb5c",
+    "size": 42,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/98b128f6416654999a53211a9ed7e14ebb17eb5c"
+  },
+  {
+    "path": "fnl/modules/editor/parinfer/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce30010600cd8a01ba7178dc0961b98cbb37c8be",
+    "size": 294,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/ce30010600cd8a01ba7178dc0961b98cbb37c8be"
+  },
+  {
+    "path": "fnl/modules/editor/scratch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b587bfb6beddf865ed28ef89666f4c59d2703a3f",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/b587bfb6beddf865ed28ef89666f4c59d2703a3f"
+  },
+  {
+    "path": "fnl/modules/editor/scratch/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/editor/scratch/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e92ffd0405f227a1bee93b2bc1e9fedc3e243689",
+    "size": 1001,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e92ffd0405f227a1bee93b2bc1e9fedc3e243689"
+  },
+  {
+    "path": "fnl/modules/editor/scratch/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7557ea468dfa496cbee0d7d08f85355f8165a9a",
+    "size": 192,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/a7557ea468dfa496cbee0d7d08f85355f8165a9a"
+  },
+  {
+    "path": "fnl/modules/editor/sexp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0e61072dc24cfb1af6899ba3edc8904dde057a4",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/b0e61072dc24cfb1af6899ba3edc8904dde057a4"
+  },
+  {
+    "path": "fnl/modules/editor/sexp/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/editor/sexp/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ee81adac3f1cff6c8cfb028cebaa7b139687747",
+    "size": 400,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/1ee81adac3f1cff6c8cfb028cebaa7b139687747"
+  },
+  {
+    "path": "fnl/modules/editor/word-wrap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8763ef2b81df36b808e8e52b8474dc36d33b2f89",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/8763ef2b81df36b808e8e52b8474dc36d33b2f89"
+  },
+  {
+    "path": "fnl/modules/editor/word-wrap/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/editor/word-wrap/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35667e24640bc9e932381184d577650afde99a62",
+    "size": 425,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/35667e24640bc9e932381184d577650afde99a62"
+  },
+  {
+    "path": "fnl/modules/editor/word-wrap/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6337ef969e8fb2c7aff8cffa84f9b38e1318b730",
+    "size": 76,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/6337ef969e8fb2c7aff8cffa84f9b38e1318b730"
+  },
+  {
+    "path": "fnl/modules/lang",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bcfd9eb8dee031df0a60cd5148ac89cf9c8560bf",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/bcfd9eb8dee031df0a60cd5148ac89cf9c8560bf"
+  },
+  {
+    "path": "fnl/modules/lang/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/cc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ccdd527f8fd857f37d5f5c677637d7387e22de2e",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/ccdd527f8fd857f37d5f5c677637d7387e22de2e"
+  },
+  {
+    "path": "fnl/modules/lang/cc/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/cc/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d770f1194e7faea96b03710e8c84379e9a6c0dc5",
+    "size": 105,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/d770f1194e7faea96b03710e8c84379e9a6c0dc5"
+  },
+  {
+    "path": "fnl/modules/lang/cc/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8644b145e3671ae0831a839746f1dada757e43f9",
+    "size": 138,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/8644b145e3671ae0831a839746f1dada757e43f9"
+  },
+  {
+    "path": "fnl/modules/lang/clojure",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/clojure/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/clojure/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/common-lisp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e91f7324badb0d51465d2e820efd2aaf10ff79b",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/8e91f7324badb0d51465d2e820efd2aaf10ff79b"
+  },
+  {
+    "path": "fnl/modules/lang/common-lisp/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/common-lisp/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a3e8271def4011fd035f7f22e959a48c67b06d8",
+    "size": 86,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/3a3e8271def4011fd035f7f22e959a48c67b06d8"
+  },
+  {
+    "path": "fnl/modules/lang/csharp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17348216b024ef89a6649b5a3f9296eea4c17e37",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/17348216b024ef89a6649b5a3f9296eea4c17e37"
+  },
+  {
+    "path": "fnl/modules/lang/csharp/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/csharp/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+    "size": 1,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+  },
+  {
+    "path": "fnl/modules/lang/java",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "70b528b83037e1d576b088ded1682d1588c994c7",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/70b528b83037e1d576b088ded1682d1588c994c7"
+  },
+  {
+    "path": "fnl/modules/lang/java/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/java/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19cda619a60f326030ee5451bad50db6ed408fef",
+    "size": 7646,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/19cda619a60f326030ee5451bad50db6ed408fef"
+  },
+  {
+    "path": "fnl/modules/lang/java/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f018a2bd636f13b85bd752b5319916d517e684f",
+    "size": 204,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/4f018a2bd636f13b85bd752b5319916d517e684f"
+  },
+  {
+    "path": "fnl/modules/lang/json",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/json/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/json/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/julia",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/julia/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/julia/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/kotlin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/kotlin/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/kotlin/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/latex",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "46fea9e29ffdf6250533e212e89c488321e062e5",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/46fea9e29ffdf6250533e212e89c488321e062e5"
+  },
+  {
+    "path": "fnl/modules/lang/latex/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/latex/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd482ec494da423de3e23cd5b229cb40e32e3972",
+    "size": 90,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/dd482ec494da423de3e23cd5b229cb40e32e3972"
+  },
+  {
+    "path": "fnl/modules/lang/ledger",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "638295d49de5b24f55478ede08f1f4ff19dcb538",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/638295d49de5b24f55478ede08f1f4ff19dcb538"
+  },
+  {
+    "path": "fnl/modules/lang/ledger/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/ledger/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24bc3089739ec78c9825a625ca83deb8e98811b5",
+    "size": 432,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/24bc3089739ec78c9825a625ca83deb8e98811b5"
+  },
+  {
+    "path": "fnl/modules/lang/ledger/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32134a48607e77238782f0d8b9ddf9c133eccfeb",
+    "size": 202,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/32134a48607e77238782f0d8b9ddf9c133eccfeb"
+  },
+  {
+    "path": "fnl/modules/lang/lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "25945b9f8283a5a47f852d127d1cf908ac37d786",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/25945b9f8283a5a47f852d127d1cf908ac37d786"
+  },
+  {
+    "path": "fnl/modules/lang/lua/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b565d6b1065b2e2122ac8ff6ae716ebf0c3e0d89",
+    "size": 104,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/b565d6b1065b2e2122ac8ff6ae716ebf0c3e0d89"
+  },
+  {
+    "path": "fnl/modules/lang/markdown",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "619f62c19ef4a3b6aad55779f034f3ad1a3b5479",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/619f62c19ef4a3b6aad55779f034f3ad1a3b5479"
+  },
+  {
+    "path": "fnl/modules/lang/markdown/+glow",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1dbbaf1cb9044f081e534f81a694ed6505fd61f4",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/1dbbaf1cb9044f081e534f81a694ed6505fd61f4"
+  },
+  {
+    "path": "fnl/modules/lang/markdown/+glow/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5666c521f5eec51808c6356ac082dd8b5baf467d",
+    "size": 141,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/5666c521f5eec51808c6356ac082dd8b5baf467d"
+  },
+  {
+    "path": "fnl/modules/lang/markdown/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/markdown/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/neorg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5fd1610e7f360c842c2cc6fdcb8739e79ea8be22",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/5fd1610e7f360c842c2cc6fdcb8739e79ea8be22"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+export",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+export/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+export/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+nabla",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8ba5566276c7075ea17a626476e9f14fc9ef4ceb",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/8ba5566276c7075ea17a626476e9f14fc9ef4ceb"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+nabla/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+nabla/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4de024671200d86822fa9f0904d7f492514b7128",
+    "size": 217,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/4de024671200d86822fa9f0904d7f492514b7128"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+nabla/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa324d0d5769e1791a38ff8f515f1ec1c04adf57",
+    "size": 127,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/aa324d0d5769e1791a38ff8f515f1ec1c04adf57"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+present",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+present/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+present/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+pretty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+pretty/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/+pretty/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c75c430be00e80fa8613fccc5f683f8615e3f525",
+    "size": 1092,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/c75c430be00e80fa8613fccc5f683f8615e3f525"
+  },
+  {
+    "path": "fnl/modules/lang/neorg/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b925717893a5117031379054c6e5abe89e2f0fb1",
+    "size": 124,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/b925717893a5117031379054c6e5abe89e2f0fb1"
+  },
+  {
+    "path": "fnl/modules/lang/nim",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea2616e2426058c5bc13f798a98fae25be6ad3ee",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/ea2616e2426058c5bc13f798a98fae25be6ad3ee"
+  },
+  {
+    "path": "fnl/modules/lang/nim/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/nim/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d31c3cb60e44237cd4d9c3ded4debc7df389b2e",
+    "size": 86,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/3d31c3cb60e44237cd4d9c3ded4debc7df389b2e"
+  },
+  {
+    "path": "fnl/modules/lang/nix",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/nix/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/nix/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/org",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4fe37db4d8ccecf3887ca0757134b929d59ffa66",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4fe37db4d8ccecf3887ca0757134b929d59ffa66"
+  },
+  {
+    "path": "fnl/modules/lang/org/+pretty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a689067af2da8f7c7ec9f0a0ccbac4d1da6449fc",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/a689067af2da8f7c7ec9f0a0ccbac4d1da6449fc"
+  },
+  {
+    "path": "fnl/modules/lang/org/+pretty/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6640dd10fb1ace911ca349ba8bf17c364e50ba9d",
+    "size": 164,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/6640dd10fb1ace911ca349ba8bf17c364e50ba9d"
+  },
+  {
+    "path": "fnl/modules/lang/org/+pretty/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "264e41e210ce9bb18c231f943714f79d5e6c1f25",
+    "size": 274,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/264e41e210ce9bb18c231f943714f79d5e6c1f25"
+  },
+  {
+    "path": "fnl/modules/lang/org/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/org/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bdf25feb2bc357062b5770c6b7e78e48c31bb748",
+    "size": 236,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/bdf25feb2bc357062b5770c6b7e78e48c31bb748"
+  },
+  {
+    "path": "fnl/modules/lang/org/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4c878551aaa2a4ddf76933b83f5c12a6d43ed67",
+    "size": 279,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/a4c878551aaa2a4ddf76933b83f5c12a6d43ed67"
+  },
+  {
+    "path": "fnl/modules/lang/python",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/python/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/python/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/rust",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b54705fc980aa1b13974cf611e5e4d89156f4b9",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/5b54705fc980aa1b13974cf611e5e4d89156f4b9"
+  },
+  {
+    "path": "fnl/modules/lang/rust/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/rust/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4beef66574e47a99f489c6b11de4cdce65eb1af0",
+    "size": 744,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/4beef66574e47a99f489c6b11de4cdce65eb1af0"
+  },
+  {
+    "path": "fnl/modules/lang/rust/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09019fb71d46b7cf85d8f3e7036de77b2fd0522b",
+    "size": 313,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/09019fb71d46b7cf85d8f3e7036de77b2fd0522b"
+  },
+  {
+    "path": "fnl/modules/lang/sh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ce8f1dbc33bf4911b33626587753b130b8d36558",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/ce8f1dbc33bf4911b33626587753b130b8d36558"
+  },
+  {
+    "path": "fnl/modules/lang/sh/+fish",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "71f8650206ae249ae2e131c3f564f4863b9fb56a",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/71f8650206ae249ae2e131c3f564f4863b9fb56a"
+  },
+  {
+    "path": "fnl/modules/lang/sh/+fish/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/sh/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/sh/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/xml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/xml/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/xml/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/yaml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/yaml/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/yaml/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/zig",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ef9573b95a1f9e7585008e81407a16973dc7127",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/4ef9573b95a1f9e7585008e81407a16973dc7127"
+  },
+  {
+    "path": "fnl/modules/lang/zig/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/lang/zig/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/term",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7bb8ab72c82847be72d49a494e8611e4dc7f474e",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/7bb8ab72c82847be72d49a494e8611e4dc7f474e"
+  },
+  {
+    "path": "fnl/modules/term/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/term/fshell",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8de6199acbc3214df023a6b2777765dff68e5f3f",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/8de6199acbc3214df023a6b2777765dff68e5f3f"
+  },
+  {
+    "path": "fnl/modules/term/fshell/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/term/fshell/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a469b19b652ebb871491532bcffd0a93701dbfe7",
+    "size": 103,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/a469b19b652ebb871491532bcffd0a93701dbfe7"
+  },
+  {
+    "path": "fnl/modules/term/fshell/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e85af48216c033224a15216e6c8b4a4c7508b720",
+    "size": 71,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e85af48216c033224a15216e6c8b4a4c7508b720"
+  },
+  {
+    "path": "fnl/modules/term/fshell/repl.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cbc87850ea0ab2ee460b1d4034a110b1d2c25217",
+    "size": 4335,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/cbc87850ea0ab2ee460b1d4034a110b1d2c25217"
+  },
+  {
+    "path": "fnl/modules/term/toggleterm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d917b56d780ef23bcd8ff5c90be75f633d2e048d",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/d917b56d780ef23bcd8ff5c90be75f633d2e048d"
+  },
+  {
+    "path": "fnl/modules/term/toggleterm/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/term/toggleterm/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8768c04df2586e9d93eff778d92ec4350eecb689",
+    "size": 164,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/8768c04df2586e9d93eff778d92ec4350eecb689"
+  },
+  {
+    "path": "fnl/modules/tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0c1fefbc8739c5cde39d91de05fc6d1974f88ad",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/b0c1fefbc8739c5cde39d91de05fc6d1974f88ad"
+  },
+  {
+    "path": "fnl/modules/tools/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/antifennel",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc37debb2f534ea57a5141d281c0e60eff06a891",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/cc37debb2f534ea57a5141d281c0e60eff06a891"
+  },
+  {
+    "path": "fnl/modules/tools/antifennel/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/antifennel/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6640e979e398d59594b145af0bead067cb27a7d3",
+    "size": 2076,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/6640e979e398d59594b145af0bead067cb27a7d3"
+  },
+  {
+    "path": "fnl/modules/tools/antifennel/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b586d3dd76d89d948e73563b946b6cd22803f242",
+    "size": 76,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/b586d3dd76d89d948e73563b946b6cd22803f242"
+  },
+  {
+    "path": "fnl/modules/tools/debugger",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "04506e1568fd0532d31e1a46e57c52f668221527",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/04506e1568fd0532d31e1a46e57c52f668221527"
+  },
+  {
+    "path": "fnl/modules/tools/debugger/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/debugger/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bdd2f92c065cad519daf60c8453cb348a43f027",
+    "size": 3225,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/2bdd2f92c065cad519daf60c8453cb348a43f027"
+  },
+  {
+    "path": "fnl/modules/tools/debugger/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78ee408a64d97b84747f141a577152cd047be61a",
+    "size": 407,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/78ee408a64d97b84747f141a577152cd047be61a"
+  },
+  {
+    "path": "fnl/modules/tools/docker",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f5f70b99d184340284e6a6e05535fe1cd991bd27",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/f5f70b99d184340284e6a6e05535fe1cd991bd27"
+  },
+  {
+    "path": "fnl/modules/tools/docker/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/docker/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c686276f7d1b7dd3c29b4583543a50d943252bdb",
+    "size": 22,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/c686276f7d1b7dd3c29b4583543a50d943252bdb"
+  },
+  {
+    "path": "fnl/modules/tools/docker/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7063a7b514951c3bf6e0561dd21ed199c180dda8",
+    "size": 880,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/7063a7b514951c3bf6e0561dd21ed199c180dda8"
+  },
+  {
+    "path": "fnl/modules/tools/editorconfig",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5c906cb713310823229659aa1dbf518829ec6a7f",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/5c906cb713310823229659aa1dbf518829ec6a7f"
+  },
+  {
+    "path": "fnl/modules/tools/editorconfig/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/editorconfig/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e925d15dce55667a5b8f3d31bbce7a5553d786e7",
+    "size": 84,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e925d15dce55667a5b8f3d31bbce7a5553d786e7"
+  },
+  {
+    "path": "fnl/modules/tools/eval",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b22440f5ed38e63cbeba7cfee7b8b4f8f628f4b3",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/b22440f5ed38e63cbeba7cfee7b8b4f8f628f4b3"
+  },
+  {
+    "path": "fnl/modules/tools/eval/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/eval/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33ebbef120737d3085d4641bfca9316909ed79c5",
+    "size": 369,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/33ebbef120737d3085d4641bfca9316909ed79c5"
+  },
+  {
+    "path": "fnl/modules/tools/eval/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bc6a21b39ce4fb9782cf5bb1b6ce5f90548f7af",
+    "size": 481,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/2bc6a21b39ce4fb9782cf5bb1b6ce5f90548f7af"
+  },
+  {
+    "path": "fnl/modules/tools/lsp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fb870180ede083ad2dfb7f1ecaf0e1578bfa6b80",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/fb870180ede083ad2dfb7f1ecaf0e1578bfa6b80"
+  },
+  {
+    "path": "fnl/modules/tools/lsp/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/lsp/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d1912f564c33b0e12f419114c3922b9273ede34",
+    "size": 6272,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/0d1912f564c33b0e12f419114c3922b9273ede34"
+  },
+  {
+    "path": "fnl/modules/tools/lsp/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbdcb070374e56afc710d3900a46afd3d8369510",
+    "size": 373,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/dbdcb070374e56afc710d3900a46afd3d8369510"
+  },
+  {
+    "path": "fnl/modules/tools/magma",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "387b50e9d6ab5ce24e68b95c2d62f8b10b21cbd2",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/387b50e9d6ab5ce24e68b95c2d62f8b10b21cbd2"
+  },
+  {
+    "path": "fnl/modules/tools/magma/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/magma/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb12ed61f54bf00811cf974842dc36f05303429f",
+    "size": 162,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/bb12ed61f54bf00811cf974842dc36f05303429f"
+  },
+  {
+    "path": "fnl/modules/tools/mason",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f3254e579231f79604cc78f241acf8f40a61cb3",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/8f3254e579231f79604cc78f241acf8f40a61cb3"
+  },
+  {
+    "path": "fnl/modules/tools/mason/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/mason/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43860840a3c12958fe26df290b67d53247bab775",
+    "size": 2759,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/43860840a3c12958fe26df290b67d53247bab775"
+  },
+  {
+    "path": "fnl/modules/tools/mason/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39c76d44066e648947b6b39baef0c45fd993ac44",
+    "size": 257,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/39c76d44066e648947b6b39baef0c45fd993ac44"
+  },
+  {
+    "path": "fnl/modules/tools/neogit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "754f782abb045015fca4aa2097e8ea7e173bbc9f",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/754f782abb045015fca4aa2097e8ea7e173bbc9f"
+  },
+  {
+    "path": "fnl/modules/tools/neogit/+diffview",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "38a005f7d87712dc671f6838824635b417888c08",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/38a005f7d87712dc671f6838824635b417888c08"
+  },
+  {
+    "path": "fnl/modules/tools/neogit/+diffview/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1050197a65129bd08bb473bcf20c088210dc2cd0",
+    "size": 1511,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/1050197a65129bd08bb473bcf20c088210dc2cd0"
+  },
+  {
+    "path": "fnl/modules/tools/neogit/+diffview/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85a279a1773ad61ba93a471eb9fb992f7e77959b",
+    "size": 369,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/85a279a1773ad61ba93a471eb9fb992f7e77959b"
+  },
+  {
+    "path": "fnl/modules/tools/neogit/+forge",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8adde5e47aa1d5105c3723cdf3904dba3792300c",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/8adde5e47aa1d5105c3723cdf3904dba3792300c"
+  },
+  {
+    "path": "fnl/modules/tools/neogit/+forge/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfa62efa9f6297030e828b52195f15358246b5e4",
+    "size": 144,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/bfa62efa9f6297030e828b52195f15358246b5e4"
+  },
+  {
+    "path": "fnl/modules/tools/neogit/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/neogit/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c01a516cca73b56dd4104abe9284e048322db98",
+    "size": 875,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/0c01a516cca73b56dd4104abe9284e048322db98"
+  },
+  {
+    "path": "fnl/modules/tools/neogit/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0b67931554dfec21bb82a4a19a9b2d90a401996",
+    "size": 142,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/b0b67931554dfec21bb82a4a19a9b2d90a401996"
+  },
+  {
+    "path": "fnl/modules/tools/pastebin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "88f5616d9c4c739045a00d663d813ee784296974",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/88f5616d9c4c739045a00d663d813ee784296974"
+  },
+  {
+    "path": "fnl/modules/tools/pastebin/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/pastebin/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4913627db039c54f3ee9efa9a114dd6e7f417918",
+    "size": 43,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/4913627db039c54f3ee9efa9a114dd6e7f417918"
+  },
+  {
+    "path": "fnl/modules/tools/pastebin/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd817564f8e8b3c89a264fbe87af0d1f4e5b8987",
+    "size": 162,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/bd817564f8e8b3c89a264fbe87af0d1f4e5b8987"
+  },
+  {
+    "path": "fnl/modules/tools/rgb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e9eb45b6bc628897a1b9bda12e7a59eff6ae2e07",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/e9eb45b6bc628897a1b9bda12e7a59eff6ae2e07"
+  },
+  {
+    "path": "fnl/modules/tools/rgb/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/rgb/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac2908d06a0196da00579a0fee85436966ee941c",
+    "size": 246,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/ac2908d06a0196da00579a0fee85436966ee941c"
+  },
+  {
+    "path": "fnl/modules/tools/rgb/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc66c49fe58fc84d715c335e031296b7b53dd508",
+    "size": 308,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/cc66c49fe58fc84d715c335e031296b7b53dd508"
+  },
+  {
+    "path": "fnl/modules/tools/tree-sitter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c039ab8c738a2030e90f7ebe1d73ea20249f60f3",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/c039ab8c738a2030e90f7ebe1d73ea20249f60f3"
+  },
+  {
+    "path": "fnl/modules/tools/tree-sitter/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/tools/tree-sitter/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3be9f7de5ce14f71ea03bccda4f68813b44c0c6b",
+    "size": 6642,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/3be9f7de5ce14f71ea03bccda4f68813b44c0c6b"
+  },
+  {
+    "path": "fnl/modules/tools/tree-sitter/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb5e5a5c1856900274f8949779e8241b87a139a4",
+    "size": 2456,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/fb5e5a5c1856900274f8949779e8241b87a139a4"
+  },
+  {
+    "path": "fnl/modules/ui",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd96684b0c2796bbcbb8421b507fa09ea5b2c3d8",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/bd96684b0c2796bbcbb8421b507fa09ea5b2c3d8"
+  },
+  {
+    "path": "fnl/modules/ui/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/dashboard",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3aa302a556cfe722cdd616a09347e8fe17370e1",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/f3aa302a556cfe722cdd616a09347e8fe17370e1"
+  },
+  {
+    "path": "fnl/modules/ui/dashboard/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/dashboard/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3755bba0f05cd4fab399b402bf10cccea14fe35f",
+    "size": 6223,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/3755bba0f05cd4fab399b402bf10cccea14fe35f"
+  },
+  {
+    "path": "fnl/modules/ui/dashboard/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf97dbf21dd8087860c4558ee7a75dcafd585493",
+    "size": 106,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/cf97dbf21dd8087860c4558ee7a75dcafd585493"
+  },
+  {
+    "path": "fnl/modules/ui/hydra",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9acaa0f296d6b7d431a9a5e1a292e5c40562d6d9",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/9acaa0f296d6b7d431a9a5e1a292e5c40562d6d9"
+  },
+  {
+    "path": "fnl/modules/ui/hydra/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/hydra/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6d1d261a225985da414aab844369937e1735240",
+    "size": 21091,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e6d1d261a225985da414aab844369937e1735240"
+  },
+  {
+    "path": "fnl/modules/ui/hydra/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be24181637d35f854b07ae901637d32c595e2619",
+    "size": 348,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/be24181637d35f854b07ae901637d32c595e2619"
+  },
+  {
+    "path": "fnl/modules/ui/indent-guides",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "df7e676b5295fdfb861f1cb9790afd7ab8624f02",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/df7e676b5295fdfb861f1cb9790afd7ab8624f02"
+  },
+  {
+    "path": "fnl/modules/ui/indent-guides/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/indent-guides/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce2d5cac95681ae80ed987b094540942b01065aa",
+    "size": 584,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/ce2d5cac95681ae80ed987b094540942b01065aa"
+  },
+  {
+    "path": "fnl/modules/ui/indent-guides/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45ba844faf04ee1caeafe9a9f7114d283a1f9e84",
+    "size": 270,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/45ba844faf04ee1caeafe9a9f7114d283a1f9e84"
+  },
+  {
+    "path": "fnl/modules/ui/modeline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "886aa407f550917598ff775cfc7d8b5f85a684fd",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/886aa407f550917598ff775cfc7d8b5f85a684fd"
+  },
+  {
+    "path": "fnl/modules/ui/modeline/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/modeline/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b4d45b72c01eee68e3d510f13e370b659528f5a",
+    "size": 4146,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/8b4d45b72c01eee68e3d510f13e370b659528f5a"
+  },
+  {
+    "path": "fnl/modules/ui/modeline/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d481de948a09a9c13bf42aab85aebcab6309527",
+    "size": 86,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/3d481de948a09a9c13bf42aab85aebcab6309527"
+  },
+  {
+    "path": "fnl/modules/ui/neotree",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b92a0934b0243b3affa1d5d48f8897761851d58",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/1b92a0934b0243b3affa1d5d48f8897761851d58"
+  },
+  {
+    "path": "fnl/modules/ui/neotree/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3453d7bb82655df47784d32126bb40ebee2a1130",
+    "size": 850,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/3453d7bb82655df47784d32126bb40ebee2a1130"
+  },
+  {
+    "path": "fnl/modules/ui/neotree/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3b63ff3926fe8189f22903412e7f7a28061f08b",
+    "size": 141,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e3b63ff3926fe8189f22903412e7f7a28061f08b"
+  },
+  {
+    "path": "fnl/modules/ui/noice",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80d40b9bb0692c1dfaba5c219a89ad96063f0261",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/80d40b9bb0692c1dfaba5c219a89ad96063f0261"
+  },
+  {
+    "path": "fnl/modules/ui/noice/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/noice/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b04c68a8d7b47ad7e4b30ae38196dde8d45e74c9",
+    "size": 2269,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/b04c68a8d7b47ad7e4b30ae38196dde8d45e74c9"
+  },
+  {
+    "path": "fnl/modules/ui/noice/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44b79acb8be92ea135795e21e8e1db768e5d1f39",
+    "size": 293,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/44b79acb8be92ea135795e21e8e1db768e5d1f39"
+  },
+  {
+    "path": "fnl/modules/ui/nvimtree",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7f88eab7bc637772f9c206b01a3cda000013092d",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/7f88eab7bc637772f9c206b01a3cda000013092d"
+  },
+  {
+    "path": "fnl/modules/ui/nvimtree/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/nvimtree/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a6d785627129bbcd07818ed3b54428a47e22ece",
+    "size": 459,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/1a6d785627129bbcd07818ed3b54428a47e22ece"
+  },
+  {
+    "path": "fnl/modules/ui/nvimtree/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2355893532f5419521286c416b92c547941b9efa",
+    "size": 173,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/2355893532f5419521286c416b92c547941b9efa"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom-quit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "055adc69003b977181a323d4e3312b20161ceea0",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/055adc69003b977181a323d4e3312b20161ceea0"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom-quit/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom-quit/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a34cedb49e58e15d174fa2435ac0c40d7db1ba4",
+    "size": 2296,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/6a34cedb49e58e15d174fa2435ac0c40d7db1ba4"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom-quit/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85b78ee3614653082a18711468221b01f9be6071",
+    "size": 73,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/85b78ee3614653082a18711468221b01f9be6071"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d1428612f7c85d28a946fbb1fe2a2273eeaee1d0",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/d1428612f7c85d28a946fbb1fe2a2273eeaee1d0"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom/+icons",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b706990afe19eaafb8eb391f4adcbd50f8aaddf0",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/b706990afe19eaafb8eb391f4adcbd50f8aaddf0"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom/+icons/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "211bd0b0c92a9c839fa55e591a23da259d1d5310",
+    "size": 189,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/211bd0b0c92a9c839fa55e591a23da259d1d5310"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom/+icons/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6612db27c317da4ff2337fc801f7d6d72fd3c796",
+    "size": 251,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/6612db27c317da4ff2337fc801f7d6d72fd3c796"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom/+modes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "869cf7994cfbb1054f95aa70c7e641c96dfa845a",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/869cf7994cfbb1054f95aa70c7e641c96dfa845a"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom/+modes/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51005fb6f2b7716d839ce1424cfac45b4e6064e0",
+    "size": 169,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/51005fb6f2b7716d839ce1424cfac45b4e6064e0"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom/+modes/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccb69286a339ca5867907f4716c7badf0852f139",
+    "size": 142,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/ccb69286a339ca5867907f4716c7badf0852f139"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/nyoom/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+    "size": 1,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+  },
+  {
+    "path": "fnl/modules/ui/quickfix",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7afe18b23ae3c01be2ce2a50c533a56e1ba774e1",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/7afe18b23ae3c01be2ce2a50c533a56e1ba774e1"
+  },
+  {
+    "path": "fnl/modules/ui/quickfix/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63842a41780a4c22ab9918d437bf1f184d639a91",
+    "size": 157,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/63842a41780a4c22ab9918d437bf1f184d639a91"
+  },
+  {
+    "path": "fnl/modules/ui/tabs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "90d51d50eec6752a3a7fad78d339478281c18971",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/90d51d50eec6752a3a7fad78d339478281c18971"
+  },
+  {
+    "path": "fnl/modules/ui/tabs/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/tabs/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "708bd4535367f2e31713f1b7313da7498132debb",
+    "size": 1446,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/708bd4535367f2e31713f1b7313da7498132debb"
+  },
+  {
+    "path": "fnl/modules/ui/tabs/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e245fa4e9b611185759a0a709e058cd5540e83d3",
+    "size": 1144,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e245fa4e9b611185759a0a709e058cd5540e83d3"
+  },
+  {
+    "path": "fnl/modules/ui/trouble",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "afde701ef17be76c3588fda8ed596871ef0c137c",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/afde701ef17be76c3588fda8ed596871ef0c137c"
+  },
+  {
+    "path": "fnl/modules/ui/trouble/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3fab81eef36e0601362c4a763bf636617e03c6ec",
+    "size": 144,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/3fab81eef36e0601362c4a763bf636617e03c6ec"
+  },
+  {
+    "path": "fnl/modules/ui/vc-gutter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b4dc3e819cd2bae2b5df83a949ff27914dbcc1cf",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/b4dc3e819cd2bae2b5df83a949ff27914dbcc1cf"
+  },
+  {
+    "path": "fnl/modules/ui/vc-gutter/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/vc-gutter/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f39bc4073c10f9e9a25c2683818409faec647eac",
+    "size": 939,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/f39bc4073c10f9e9a25c2683818409faec647eac"
+  },
+  {
+    "path": "fnl/modules/ui/vc-gutter/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c1b0a3876246197dcbfb7c54f1c938ef3966fd6",
+    "size": 825,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/5c1b0a3876246197dcbfb7c54f1c938ef3966fd6"
+  },
+  {
+    "path": "fnl/modules/ui/window-select",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75c7720600eba7d87924e6410844554ad811f0be",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/75c7720600eba7d87924e6410844554ad811f0be"
+  },
+  {
+    "path": "fnl/modules/ui/window-select/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/window-select/config.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "016023cea68ca431ce68ce91bd62c65bcbb11cdb",
+    "size": 302,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/016023cea68ca431ce68ce91bd62c65bcbb11cdb"
+  },
+  {
+    "path": "fnl/modules/ui/window-select/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5782efa67e184873a9f15c40cf6445f5bfc631bf",
+    "size": 175,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/5782efa67e184873a9f15c40cf6445f5bfc631bf"
+  },
+  {
+    "path": "fnl/modules/ui/zen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dd7229cdabb7b9fbe4c10d4cac7dc867f29f7f79",
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/trees/dd7229cdabb7b9fbe4c10d4cac7dc867f29f7f79"
+  },
+  {
+    "path": "fnl/modules/ui/zen/README.norg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "fnl/modules/ui/zen/init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d4a78805a9c8d70f78e4699e114f08730fe08ad",
+    "size": 196,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/5d4a78805a9c8d70f78e4699e114f08730fe08ad"
+  },
+  {
+    "path": "fnl/packages.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbb4ba21a645e770cf36c03564ddcf3afa83c872",
+    "size": 2695,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/bbb4ba21a645e770cf36c03564ddcf3afa83c872"
+  },
+  {
+    "path": "init.fnl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01c44ea693ef326a87392e39e6dc7e494e0c9f83",
+    "size": 3167,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/01c44ea693ef326a87392e39e6dc7e494e0c9f83"
+  },
+  {
+    "path": "init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d32c718c92055689cb0a81efb5c4ff4f4a0b5a41",
+    "size": 1695,
+    "url": "https://api.github.com/repos/nyoom-engineering/nyoom.nvim/git/blobs/d32c718c92055689cb0a81efb5c4ff4f4a0b5a41"
+  }
+]

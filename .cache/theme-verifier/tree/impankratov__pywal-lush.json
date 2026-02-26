@@ -1,0 +1,85 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "392f0dd6bf59d437635c863cc032893779284075",
+    "size": 1065,
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/blobs/392f0dd6bf59d437635c863cc032893779284075"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c26a425baef58be07074e4ebcb4b51813f10a42",
+    "size": 795,
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/blobs/3c26a425baef58be07074e4ebcb4b51813f10a42"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "220fffeab7c16fa1bd42fcf1f7a8cf21e056b729",
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/trees/220fffeab7c16fa1bd42fcf1f7a8cf21e056b729"
+  },
+  {
+    "path": "colors/pywal-lush.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ab90d74591940254de3514e6875d812f0f1f397",
+    "size": 862,
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/blobs/0ab90d74591940254de3514e6875d812f0f1f397"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2d6b4f6d59d742340f878a919670bf5a708b26e",
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/trees/e2d6b4f6d59d742340f878a919670bf5a708b26e"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3eccff33807cf3d2e93bd085860857e6db70074e",
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/trees/3eccff33807cf3d2e93bd085860857e6db70074e"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bcd2272dcb648b11ce0179ccf9a2aaa338b9046c",
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/trees/bcd2272dcb648b11ce0179ccf9a2aaa338b9046c"
+  },
+  {
+    "path": "lua/lualine/themes/pywal.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82945253b32de7745f33bafd971713b3a5e71c5f",
+    "size": 305,
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/blobs/82945253b32de7745f33bafd971713b3a5e71c5f"
+  },
+  {
+    "path": "lua/lush_theme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "48cbe865150d39fc90595ad93bf95576f6886815",
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/trees/48cbe865150d39fc90595ad93bf95576f6886815"
+  },
+  {
+    "path": "lua/lush_theme/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "235a56faf9c1ca7612a88c4e772fc3b8a7e8c716",
+    "size": 966,
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/blobs/235a56faf9c1ca7612a88c4e772fc3b8a7e8c716"
+  },
+  {
+    "path": "lua/lush_theme/pywal.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d821dc7e3dc8ff5914ac0637e589bfa1f39a38dd",
+    "size": 30582,
+    "url": "https://api.github.com/repos/impankratov/pywal-lush/git/blobs/d821dc7e3dc8ff5914ac0637e589bfa1f39a38dd"
+  }
+]

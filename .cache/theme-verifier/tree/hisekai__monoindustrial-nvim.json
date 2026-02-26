@@ -1,0 +1,70 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc5d508af62cfd8f8597b11bed8ad628d40700f2",
+    "url": "https://api.github.com/repos/hisekai/monoindustrial-nvim/git/trees/bc5d508af62cfd8f8597b11bed8ad628d40700f2"
+  },
+  {
+    "path": ".github/monoindustrial.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a138a3010844b3c70633fd31c83e97701385aca",
+    "size": 49079,
+    "url": "https://api.github.com/repos/hisekai/monoindustrial-nvim/git/blobs/3a138a3010844b3c70633fd31c83e97701385aca"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "054fbc63f1f784c9f8f4b436025e48ff63386bc7",
+    "size": 1057,
+    "url": "https://api.github.com/repos/hisekai/monoindustrial-nvim/git/blobs/054fbc63f1f784c9f8f4b436025e48ff63386bc7"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70c33223e74f5d17bda0e332a5c7566c592222a0",
+    "size": 935,
+    "url": "https://api.github.com/repos/hisekai/monoindustrial-nvim/git/blobs/70c33223e74f5d17bda0e332a5c7566c592222a0"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c4f5b9cd417fbce22cbb81d164f1919c069ef1f2",
+    "url": "https://api.github.com/repos/hisekai/monoindustrial-nvim/git/trees/c4f5b9cd417fbce22cbb81d164f1919c069ef1f2"
+  },
+  {
+    "path": "colors/monoindustrial.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb85b7fa19a893b4a2aa25c9a79a56eb6e523d0a",
+    "size": 891,
+    "url": "https://api.github.com/repos/hisekai/monoindustrial-nvim/git/blobs/fb85b7fa19a893b4a2aa25c9a79a56eb6e523d0a"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c228b879bfda0f39c4966ef00857f7f2f9d16bff",
+    "url": "https://api.github.com/repos/hisekai/monoindustrial-nvim/git/trees/c228b879bfda0f39c4966ef00857f7f2f9d16bff"
+  },
+  {
+    "path": "lua/lush_theme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "037caccf1e68a34e0889f46aea3217cc4156de01",
+    "url": "https://api.github.com/repos/hisekai/monoindustrial-nvim/git/trees/037caccf1e68a34e0889f46aea3217cc4156de01"
+  },
+  {
+    "path": "lua/lush_theme/monoindustrial.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79f0494df133ffcdd1816397261a4f3bbe248801",
+    "size": 21907,
+    "url": "https://api.github.com/repos/hisekai/monoindustrial-nvim/git/blobs/79f0494df133ffcdd1816397261a4f3bbe248801"
+  }
+]

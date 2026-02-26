@@ -1,0 +1,117 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6fd0a376decfbf0a7be87fdc75d5109da72a7d17",
+    "size": 324,
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/blobs/6fd0a376decfbf0a7be87fdc75d5109da72a7d17"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+    "size": 35149,
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e0798af8cfe79e9acb441cc09ce5f77bdbda5ee",
+    "size": 2505,
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/blobs/3e0798af8cfe79e9acb441cc09ce5f77bdbda5ee"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cdad383cb2921a28a48cfce1864be1503a5779d9",
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/trees/cdad383cb2921a28a48cfce1864be1503a5779d9"
+  },
+  {
+    "path": "colors/onedark.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "556608e6aeb443dced7c361d62a1bf422f0fb4cf",
+    "size": 29,
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/blobs/556608e6aeb443dced7c361d62a1bf422f0fb4cf"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7f536340c63a2c44d4f04c401803209c346183b0",
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/trees/7f536340c63a2c44d4f04c401803209c346183b0"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "94e2061f8048c8124cab901def5a52076929c2f5",
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/trees/94e2061f8048c8124cab901def5a52076929c2f5"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c47cfb5af6e1b4c806f79b91ec56b2d93df45573",
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/trees/c47cfb5af6e1b4c806f79b91ec56b2d93df45573"
+  },
+  {
+    "path": "lua/lualine/themes/onedark.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef4dfc9c5ee95f1abc8a25a8ee2029658db2ff53",
+    "size": 999,
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/blobs/ef4dfc9c5ee95f1abc8a25a8ee2029658db2ff53"
+  },
+  {
+    "path": "lua/lualine/themes/onedark_gray.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "acaf377307d25a1830332f96837c9421d6bf2d2c",
+    "size": 937,
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/blobs/acaf377307d25a1830332f96837c9421d6bf2d2c"
+  },
+  {
+    "path": "lua/onedark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "09fbc9237184018729a28bd07cfc7ea1e4ebe529",
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/trees/09fbc9237184018729a28bd07cfc7ea1e4ebe529"
+  },
+  {
+    "path": "lua/onedark/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0d2f9b363195344ccfad72cfb4bffea8ed25a23",
+    "size": 297,
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/blobs/c0d2f9b363195344ccfad72cfb4bffea8ed25a23"
+  },
+  {
+    "path": "lua/onedark/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b08bb5997f7c89ab1b953e5c352469ffceaf25ef",
+    "size": 767,
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/blobs/b08bb5997f7c89ab1b953e5c352469ffceaf25ef"
+  },
+  {
+    "path": "lua/onedark/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6fcc084d2376ba8e4151b49c81410b3b86fa33d",
+    "size": 26523,
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/blobs/f6fcc084d2376ba8e4151b49c81410b3b86fa33d"
+  },
+  {
+    "path": "onedark.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e08bf53f23065d9cdb5c2dc5415176e2cb775e1b",
+    "size": 15497,
+    "url": "https://api.github.com/repos/ChristianChiarulli/onedark.nvim/git/blobs/e08bf53f23065d9cdb5c2dc5415176e2cb775e1b"
+  }
+]

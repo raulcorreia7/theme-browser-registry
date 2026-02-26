@@ -1,0 +1,77 @@
+[
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5755330be303c174d70b1ff5867a1fb5eef3bf1c",
+    "size": 532,
+    "url": "https://api.github.com/repos/huyvohcmc/atlas.vim/git/blobs/5755330be303c174d70b1ff5867a1fb5eef3bf1c"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cd88547a4b1403413336d3a11ab84399db0f211f",
+    "url": "https://api.github.com/repos/huyvohcmc/atlas.vim/git/trees/cd88547a4b1403413336d3a11ab84399db0f211f"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cadde4f4584275c5e5e36aa514c4b48c6c5ddeb2",
+    "url": "https://api.github.com/repos/huyvohcmc/atlas.vim/git/trees/cadde4f4584275c5e5e36aa514c4b48c6c5ddeb2"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "60b63c7cc97222c2e760c6af14accb1a37c3ae8a",
+    "url": "https://api.github.com/repos/huyvohcmc/atlas.vim/git/trees/60b63c7cc97222c2e760c6af14accb1a37c3ae8a"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/atlas.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1aa6caaa608342b0f8815d568441d23af0e19da6",
+    "size": 1877,
+    "url": "https://api.github.com/repos/huyvohcmc/atlas.vim/git/blobs/1aa6caaa608342b0f8815d568441d23af0e19da6"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3598a24e5a0c604f7e88fb51536c043cfa41010",
+    "url": "https://api.github.com/repos/huyvohcmc/atlas.vim/git/trees/f3598a24e5a0c604f7e88fb51536c043cfa41010"
+  },
+  {
+    "path": "colors/atlas.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e84e270bc0fbcad43508a270c725f17997279cf4",
+    "size": 19539,
+    "url": "https://api.github.com/repos/huyvohcmc/atlas.vim/git/blobs/e84e270bc0fbcad43508a270c725f17997279cf4"
+  },
+  {
+    "path": "screenshots",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "74b02854e1487165a01c7a9faecd9cf71267d19f",
+    "url": "https://api.github.com/repos/huyvohcmc/atlas.vim/git/trees/74b02854e1487165a01c7a9faecd9cf71267d19f"
+  },
+  {
+    "path": "screenshots/heading.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55023c866d5622f4981b3b587bbefd89d584e581",
+    "size": 79375,
+    "url": "https://api.github.com/repos/huyvohcmc/atlas.vim/git/blobs/55023c866d5622f4981b3b587bbefd89d584e581"
+  },
+  {
+    "path": "screenshots/preview.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04a4e907a0821725d388ee88569c75e233407ef3",
+    "size": 747143,
+    "url": "https://api.github.com/repos/huyvohcmc/atlas.vim/git/blobs/04a4e907a0821725d388ee88569c75e233407ef3"
+  }
+]

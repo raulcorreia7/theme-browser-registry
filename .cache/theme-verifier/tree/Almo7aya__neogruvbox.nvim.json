@@ -1,0 +1,79 @@
+[
+  {
+    "path": ".pre-commit-config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84f54a9dec95fa4c4b04072fcfefac4912ed8717",
+    "size": 160,
+    "url": "https://api.github.com/repos/Almo7aya/neogruvbox.nvim/git/blobs/84f54a9dec95fa4c4b04072fcfefac4912ed8717"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7710b8aa88c71485d49c72d68450e317d1f0bd0b",
+    "size": 1528,
+    "url": "https://api.github.com/repos/Almo7aya/neogruvbox.nvim/git/blobs/7710b8aa88c71485d49c72d68450e317d1f0bd0b"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1ffa03b4484cb5f460a32197878363f35a42c007",
+    "url": "https://api.github.com/repos/Almo7aya/neogruvbox.nvim/git/trees/1ffa03b4484cb5f460a32197878363f35a42c007"
+  },
+  {
+    "path": "colors/neogruvbox.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79a4453b40e79b5f534cd7c331b31107a00ed72c",
+    "size": 36,
+    "url": "https://api.github.com/repos/Almo7aya/neogruvbox.nvim/git/blobs/79a4453b40e79b5f534cd7c331b31107a00ed72c"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b3df1b7d3597f4112097fa1ae9763742397699e",
+    "url": "https://api.github.com/repos/Almo7aya/neogruvbox.nvim/git/trees/3b3df1b7d3597f4112097fa1ae9763742397699e"
+  },
+  {
+    "path": "lua/neogruvbox",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9ec32a84bf32d6ef19e354fb16663552fc952db7",
+    "url": "https://api.github.com/repos/Almo7aya/neogruvbox.nvim/git/trees/9ec32a84bf32d6ef19e354fb16663552fc952db7"
+  },
+  {
+    "path": "lua/neogruvbox/config.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50b99e619b9ec97473f9c2d7d7db951f87f82173",
+    "size": 127,
+    "url": "https://api.github.com/repos/Almo7aya/neogruvbox.nvim/git/blobs/50b99e619b9ec97473f9c2d7d7db951f87f82173"
+  },
+  {
+    "path": "lua/neogruvbox/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f493270bd35cc710c71a2a552d1b9070631eaef2",
+    "size": 12521,
+    "url": "https://api.github.com/repos/Almo7aya/neogruvbox.nvim/git/blobs/f493270bd35cc710c71a2a552d1b9070631eaef2"
+  },
+  {
+    "path": "lua/neogruvbox/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4499da48efa95c11acea9c1b5ffb04eac7cb25e6",
+    "size": 1999,
+    "url": "https://api.github.com/repos/Almo7aya/neogruvbox.nvim/git/blobs/4499da48efa95c11acea9c1b5ffb04eac7cb25e6"
+  },
+  {
+    "path": "stylua.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df96b7b0c3459fb634aa378a452c4ed56adfe9e4",
+    "size": 141,
+    "url": "https://api.github.com/repos/Almo7aya/neogruvbox.nvim/git/blobs/df96b7b0c3459fb634aa378a452c4ed56adfe9e4"
+  }
+]

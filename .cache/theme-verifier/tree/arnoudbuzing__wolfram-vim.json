@@ -1,0 +1,40 @@
+[
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29fe346010edb2f55a10227dfcc2a10c98061368",
+    "size": 580,
+    "url": "https://api.github.com/repos/arnoudbuzing/wolfram-vim/git/blobs/29fe346010edb2f55a10227dfcc2a10c98061368"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d862e0f94ba61ae63d369ae154b6872566f82a8e",
+    "url": "https://api.github.com/repos/arnoudbuzing/wolfram-vim/git/trees/d862e0f94ba61ae63d369ae154b6872566f82a8e"
+  },
+  {
+    "path": "colors/wolframlanguage.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b921fa80bbc63fd135861c733510c53b575cc6d0",
+    "size": 520,
+    "url": "https://api.github.com/repos/arnoudbuzing/wolfram-vim/git/blobs/b921fa80bbc63fd135861c733510c53b575cc6d0"
+  },
+  {
+    "path": "syntax",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "de5242cfa7d9f5924faae71e87e5d3625283f2fd",
+    "url": "https://api.github.com/repos/arnoudbuzing/wolfram-vim/git/trees/de5242cfa7d9f5924faae71e87e5d3625283f2fd"
+  },
+  {
+    "path": "syntax/wl.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f88a63fd3363f0f687f01eefa01b5737c784da1",
+    "size": 149845,
+    "url": "https://api.github.com/repos/arnoudbuzing/wolfram-vim/git/blobs/9f88a63fd3363f0f687f01eefa01b5737c784da1"
+  }
+]

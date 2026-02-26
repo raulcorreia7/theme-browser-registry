@@ -1,0 +1,148 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "167da078b29b6a08403373e4886a3bb982bc18bf",
+    "size": 1079,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/167da078b29b6a08403373e4886a3bb982bc18bf"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0027372a7a94a56de3e172acbc2b7df618761965",
+    "size": 873,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/0027372a7a94a56de3e172acbc2b7df618761965"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8376ec7e0ee651791fa971cfb3815dd2b176ddba",
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/trees/8376ec7e0ee651791fa971cfb3815dd2b176ddba"
+  },
+  {
+    "path": "colors/windows-classic.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9101aeffa008d858e8010010703eb4fbc4f99d0d",
+    "size": 82,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/9101aeffa008d858e8010010703eb4fbc4f99d0d"
+  },
+  {
+    "path": "colors/windows-xp.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa0c0bf2a180775a96940e6e739f85b8bfb59b6b",
+    "size": 67,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/aa0c0bf2a180775a96940e6e739f85b8bfb59b6b"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "41df7043457da5af3ed0d81c4b270dd87480aaac",
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/trees/41df7043457da5af3ed0d81c4b270dd87480aaac"
+  },
+  {
+    "path": "lua/.luarc.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23b9ee271ea2ad829f4294027f32b1525299d576",
+    "size": 42,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/23b9ee271ea2ad829f4294027f32b1525299d576"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3e3ab022c9110d6c5922950812037bfeb77c506",
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/trees/f3e3ab022c9110d6c5922950812037bfeb77c506"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "294c4c5260b3c66744485aed308d3407c7334efc",
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/trees/294c4c5260b3c66744485aed308d3407c7334efc"
+  },
+  {
+    "path": "lua/lualine/themes/windows-classic.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4e34570ba3fa59f52efd86d25ff45bf0ab1c8b3",
+    "size": 1674,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/e4e34570ba3fa59f52efd86d25ff45bf0ab1c8b3"
+  },
+  {
+    "path": "lua/lualine/themes/windows-xp.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f80c7391e6a8a8016d5731e12243ee4f775d211b",
+    "size": 1473,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/f80c7391e6a8a8016d5731e12243ee4f775d211b"
+  },
+  {
+    "path": "lua/windows-classic",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6d7caf70fa0248324bd93837aea2d92bb2cea5ef",
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/trees/6d7caf70fa0248324bd93837aea2d92bb2cea5ef"
+  },
+  {
+    "path": "lua/windows-classic/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "995bf497d7348db43dc7a49ef8f3550952252999",
+    "size": 316,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/995bf497d7348db43dc7a49ef8f3550952252999"
+  },
+  {
+    "path": "lua/windows-classic/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81eb002f37832ead79e78ae6e8a7aa7c4a693f4f",
+    "size": 3311,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/81eb002f37832ead79e78ae6e8a7aa7c4a693f4f"
+  },
+  {
+    "path": "lua/windows-classic/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "724f819cfde15c7161c0693bab66a7b0fc1cc6b2",
+    "size": 20457,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/724f819cfde15c7161c0693bab66a7b0fc1cc6b2"
+  },
+  {
+    "path": "lua/windows-xp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2a703355163a3799a6c75335ac5ad01454fb28cb",
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/trees/2a703355163a3799a6c75335ac5ad01454fb28cb"
+  },
+  {
+    "path": "lua/windows-xp/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d23f2083402f3af0411c6c0f040583d41867eb3d",
+    "size": 305,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/d23f2083402f3af0411c6c0f040583d41867eb3d"
+  },
+  {
+    "path": "lua/windows-xp/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "289e477ee5818033ba87f2093f0f9b877ed718bb",
+    "size": 1997,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/289e477ee5818033ba87f2093f0f9b877ed718bb"
+  },
+  {
+    "path": "lua/windows-xp/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0656a895ce929b04b6fcaa4479883b27c244f1e6",
+    "size": 36840,
+    "url": "https://api.github.com/repos/Woife5/windows.nvim/git/blobs/0656a895ce929b04b6fcaa4479883b27c244f1e6"
+  }
+]

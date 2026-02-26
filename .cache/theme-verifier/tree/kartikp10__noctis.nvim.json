@@ -1,0 +1,63 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e61c9cbe524696015e0caba1edbf2abc8169925a",
+    "size": 335,
+    "url": "https://api.github.com/repos/kartikp10/noctis.nvim/git/blobs/e61c9cbe524696015e0caba1edbf2abc8169925a"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0ad5c27120e279ddb8fb5fbd87e2715da11f0cd",
+    "size": 1072,
+    "url": "https://api.github.com/repos/kartikp10/noctis.nvim/git/blobs/b0ad5c27120e279ddb8fb5fbd87e2715da11f0cd"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc7259feea9b2da00b9dcb24dbd0f557b8b9b153",
+    "size": 2312,
+    "url": "https://api.github.com/repos/kartikp10/noctis.nvim/git/blobs/dc7259feea9b2da00b9dcb24dbd0f557b8b9b153"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "41b9179e2420604a0d65f88a315f991fb7be0a79",
+    "url": "https://api.github.com/repos/kartikp10/noctis.nvim/git/trees/41b9179e2420604a0d65f88a315f991fb7be0a79"
+  },
+  {
+    "path": "colors/noctis.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b12fb50c44fd20bce74d24b7a546532874e9eeb",
+    "size": 147,
+    "url": "https://api.github.com/repos/kartikp10/noctis.nvim/git/blobs/5b12fb50c44fd20bce74d24b7a546532874e9eeb"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e5227518ac670ced8ed1621dc56254663f4a3333",
+    "url": "https://api.github.com/repos/kartikp10/noctis.nvim/git/trees/e5227518ac670ced8ed1621dc56254663f4a3333"
+  },
+  {
+    "path": "lua/lush_theme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "63ae309ca9330563c0ff8d52b61cb508b5743833",
+    "url": "https://api.github.com/repos/kartikp10/noctis.nvim/git/trees/63ae309ca9330563c0ff8d52b61cb508b5743833"
+  },
+  {
+    "path": "lua/lush_theme/noctis.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17514f48166a8bceb988e71cf61ae3e253125821",
+    "size": 88587,
+    "url": "https://api.github.com/repos/kartikp10/noctis.nvim/git/blobs/17514f48166a8bceb988e71cf61ae3e253125821"
+  }
+]

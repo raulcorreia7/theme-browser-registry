@@ -1,0 +1,79 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8908d21d1f13e7545a0d50b105cc60db4e1bcba",
+    "size": 20,
+    "url": "https://api.github.com/repos/sff1019/vim-joker/git/blobs/b8908d21d1f13e7545a0d50b105cc60db4e1bcba"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7257a13930210d0d791b469e4bd07093f20e88e3",
+    "size": 1070,
+    "url": "https://api.github.com/repos/sff1019/vim-joker/git/blobs/7257a13930210d0d791b469e4bd07093f20e88e3"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6cf14162ca928032a148286721bc7fa673cd8ce0",
+    "size": 506,
+    "url": "https://api.github.com/repos/sff1019/vim-joker/git/blobs/6cf14162ca928032a148286721bc7fa673cd8ce0"
+  },
+  {
+    "path": "assets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "31dcc2cbd8ba761ef83decb75bc058fc633a58af",
+    "url": "https://api.github.com/repos/sff1019/vim-joker/git/trees/31dcc2cbd8ba761ef83decb75bc058fc633a58af"
+  },
+  {
+    "path": "assets/example.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "edbba6fe4a83cc7d60629e3504cd7d2434dde76d",
+    "size": 317416,
+    "url": "https://api.github.com/repos/sff1019/vim-joker/git/blobs/edbba6fe4a83cc7d60629e3504cd7d2434dde76d"
+  },
+  {
+    "path": "assets/header.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ca31b5e12cdacc28faa4075f91c103d75d740c9",
+    "size": 2574742,
+    "url": "https://api.github.com/repos/sff1019/vim-joker/git/blobs/6ca31b5e12cdacc28faa4075f91c103d75d740c9"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "813ae0f2f6819a849f17f77832fa346c178a30ea",
+    "url": "https://api.github.com/repos/sff1019/vim-joker/git/trees/813ae0f2f6819a849f17f77832fa346c178a30ea"
+  },
+  {
+    "path": "colors/joker.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89961c44e62f99e7c8a2b844875b1b140627e832",
+    "size": 6841,
+    "url": "https://api.github.com/repos/sff1019/vim-joker/git/blobs/89961c44e62f99e7c8a2b844875b1b140627e832"
+  },
+  {
+    "path": "iterm2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6ce15885ccf53659d523e83b2526771f69715d7",
+    "url": "https://api.github.com/repos/sff1019/vim-joker/git/trees/d6ce15885ccf53659d523e83b2526771f69715d7"
+  },
+  {
+    "path": "iterm2/Joker.itermcolors",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b41fee36ef2959452c1206463b08ae9c4a6ac67d",
+    "size": 8823,
+    "url": "https://api.github.com/repos/sff1019/vim-joker/git/blobs/b41fee36ef2959452c1206463b08ae9c4a6ac67d"
+  }
+]

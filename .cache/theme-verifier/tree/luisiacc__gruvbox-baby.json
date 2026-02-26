@@ -1,0 +1,525 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f682dfefcedf7d1bde3982fbb9dac60c9fc317b9",
+    "size": 97,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/f682dfefcedf7d1bde3982fbb9dac60c9fc317b9"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be464d2401b356048342abca84b84ae9ca914a42",
+    "size": 3032,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/be464d2401b356048342abca84b84ae9ca914a42"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2df4f96fa6a47cfca97b75cbc66378a7a2db7fbf",
+    "size": 1086,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/2df4f96fa6a47cfca97b75cbc66378a7a2db7fbf"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "477e43699369e2f14a9405d467fb71157cddfb90",
+    "size": 10907,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/477e43699369e2f14a9405d467fb71157cddfb90"
+  },
+  {
+    "path": "after",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "de783e4e8de6b528f072749b56eb0b1b539fcadb",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/de783e4e8de6b528f072749b56eb0b1b539fcadb"
+  },
+  {
+    "path": "after/queries",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d774446f8445297125e0cb7db8cc72cf9a481cb6",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/d774446f8445297125e0cb7db8cc72cf9a481cb6"
+  },
+  {
+    "path": "after/queries/javascript",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9ca3953298ecf4f96dca9ada492d8f6e4fb0eeed",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/9ca3953298ecf4f96dca9ada492d8f6e4fb0eeed"
+  },
+  {
+    "path": "after/queries/javascript/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d9bb34d53df3cab7d64d60aa31e4fa0a92b524d",
+    "size": 52,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/4d9bb34d53df3cab7d64d60aa31e4fa0a92b524d"
+  },
+  {
+    "path": "after/queries/jsx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0998074b4808b1eb661ef6b2414bda5bbe705c8f",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/0998074b4808b1eb661ef6b2414bda5bbe705c8f"
+  },
+  {
+    "path": "after/queries/jsx/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffb44d92a8ecf1f81a7d573cc9d71880c534709c",
+    "size": 51,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/ffb44d92a8ecf1f81a7d573cc9d71880c534709c"
+  },
+  {
+    "path": "after/queries/python",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a863e9a87d40c05269abbc9f45e40e82cc482e2",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/7a863e9a87d40c05269abbc9f45e40e82cc482e2"
+  },
+  {
+    "path": "after/queries/python/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52c349f43fb1b855e42d39b6bb899f7e000eb77d",
+    "size": 36,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/52c349f43fb1b855e42d39b6bb899f7e000eb77d"
+  },
+  {
+    "path": "after/queries/tsx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0998074b4808b1eb661ef6b2414bda5bbe705c8f",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/0998074b4808b1eb661ef6b2414bda5bbe705c8f"
+  },
+  {
+    "path": "after/queries/tsx/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffb44d92a8ecf1f81a7d573cc9d71880c534709c",
+    "size": 51,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/ffb44d92a8ecf1f81a7d573cc9d71880c534709c"
+  },
+  {
+    "path": "after/queries/typescript",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ae5f2bee34db227208e57d52d639f24acb675766",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/ae5f2bee34db227208e57d52d639f24acb675766"
+  },
+  {
+    "path": "after/queries/typescript/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d546f361a821fdeeee0933fb5c4ee937619c5c87",
+    "size": 70,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/d546f361a821fdeeee0933fb5c4ee937619c5c87"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d2761c15857c97cf3c869ce9d07c15bdef03ac24",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/d2761c15857c97cf3c869ce9d07c15bdef03ac24"
+  },
+  {
+    "path": "colors/gruvbox-baby.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3071e2a82d6c1b03cfb2038f4a0cfa1823a69ef",
+    "size": 273,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/d3071e2a82d6c1b03cfb2038f4a0cfa1823a69ef"
+  },
+  {
+    "path": "extras",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5c4dae67fc751cd6194114a4fa68e987c869fdd7",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/5c4dae67fc751cd6194114a4fa68e987c869fdd7"
+  },
+  {
+    "path": "extras/bash",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "26178cae242aff745332c5d55b5f4042b9083f39",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/26178cae242aff745332c5d55b5f4042b9083f39"
+  },
+  {
+    "path": "extras/bash/DARK.bash",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "7ec7e4266c46578fbf3489e192f43ca38e14800d",
+    "size": 17,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/7ec7e4266c46578fbf3489e192f43ca38e14800d"
+  },
+  {
+    "path": "extras/bash/MEDIUM.bash",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "affa455f2130b2954f3f6df9bbb24657cb38369b",
+    "size": 19,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/affa455f2130b2954f3f6df9bbb24657cb38369b"
+  },
+  {
+    "path": "extras/bash/SOFT.bash",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "13717fadec99046583e92692c1ce38d4c06dd475",
+    "size": 17,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/13717fadec99046583e92692c1ce38d4c06dd475"
+  },
+  {
+    "path": "extras/bash/SOFT_FLAT.bash",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "8401816ca81b519be1022463186dda8630d48f36",
+    "size": 22,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/8401816ca81b519be1022463186dda8630d48f36"
+  },
+  {
+    "path": "extras/fzf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b9ee8aa3d60cf1d96ec738c50d853942d6fd42b3",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/b9ee8aa3d60cf1d96ec738c50d853942d6fd42b3"
+  },
+  {
+    "path": "extras/fzf/fzf.theme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "593bd10e312efc35fa50eb399263fe13c81e3eb2",
+    "size": 566,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/593bd10e312efc35fa50eb399263fe13c81e3eb2"
+  },
+  {
+    "path": "extras/iterm2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b139ff5834bcfcc31cf1c824edce89252b07c6a4",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/b139ff5834bcfcc31cf1c824edce89252b07c6a4"
+  },
+  {
+    "path": "extras/iterm2/gruvbox-baby.itermcolors",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f81e1fdc5a377e6225a35bd9d57cb14ddeece49",
+    "size": 8626,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/3f81e1fdc5a377e6225a35bd9d57cb14ddeece49"
+  },
+  {
+    "path": "extras/media",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0ee98c149b01bef7219f23cca8388cc212da99fb",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/0ee98c149b01bef7219f23cca8388cc212da99fb"
+  },
+  {
+    "path": "extras/media/palettes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ae5df0fe7ba41967832af2dbcf60e89ba608e65d",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/ae5df0fe7ba41967832af2dbcf60e89ba608e65d"
+  },
+  {
+    "path": "extras/media/palettes/dark.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69c8ea7f8c399ac7a14a43ff32a03a25be546b8e",
+    "size": 7238,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/69c8ea7f8c399ac7a14a43ff32a03a25be546b8e"
+  },
+  {
+    "path": "extras/media/palettes/helpers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b720a1fe8ded25a2d63b63497926a703609137d7",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/b720a1fe8ded25a2d63b63497926a703609137d7"
+  },
+  {
+    "path": "extras/media/palettes/helpers/colors.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ace526b8d8dce6e76cb241c22b407f06c91bbc4f",
+    "size": 1662,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/ace526b8d8dce6e76cb241c22b407f06c91bbc4f"
+  },
+  {
+    "path": "extras/media/palettes/helpers/intensity_generator.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "60e6e1b64431b373147b87825580ae3050a0639d",
+    "size": 4139,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/60e6e1b64431b373147b87825580ae3050a0639d"
+  },
+  {
+    "path": "extras/media/palettes/helpers/main.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d765d3966a3aff2755e1885638caf003647ea94a",
+    "size": 1307,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/d765d3966a3aff2755e1885638caf003647ea94a"
+  },
+  {
+    "path": "extras/media/palettes/helpers/palette_generator.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a787f341f121ac2d223da21617b27f600b94066f",
+    "size": 4750,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/a787f341f121ac2d223da21617b27f600b94066f"
+  },
+  {
+    "path": "extras/media/palettes/helpers/utils.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bc2dbe30c1617146569ab169a7f8f7f821d3791",
+    "size": 446,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/7bc2dbe30c1617146569ab169a7f8f7f821d3791"
+  },
+  {
+    "path": "extras/media/palettes/medium.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a8ceeba16118f6ad4f69f4b0111718382202b39",
+    "size": 7240,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/3a8ceeba16118f6ad4f69f4b0111718382202b39"
+  },
+  {
+    "path": "extras/media/palettes/shades.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6aef64c79ba87c576e8266b310b4da76eb1273dc",
+    "size": 5175,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/6aef64c79ba87c576e8266b310b4da76eb1273dc"
+  },
+  {
+    "path": "extras/media/palettes/soft.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "237a9a2b7eb7ff5689bb0f5fce0f8586a7d4e143",
+    "size": 7238,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/237a9a2b7eb7ff5689bb0f5fce0f8586a7d4e143"
+  },
+  {
+    "path": "extras/media/palettes/soft_flat.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "454793de768ac01a7a90ae2bfbfbe3b308097f74",
+    "size": 7243,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/454793de768ac01a7a90ae2bfbfbe3b308097f74"
+  },
+  {
+    "path": "extras/tmux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "708a97e350b7e8a6622a28112f7def90eb83bcfd",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/708a97e350b7e8a6622a28112f7def90eb83bcfd"
+  },
+  {
+    "path": "extras/tmux/DARK.tmux",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "60119c0e330ecfeeeff71cfca28e76283392c358",
+    "size": 407,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/60119c0e330ecfeeeff71cfca28e76283392c358"
+  },
+  {
+    "path": "extras/tmux/MEDIUM.tmux",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1f6b1df02bdab76090e884b1ebd89ffb3152e63",
+    "size": 407,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/a1f6b1df02bdab76090e884b1ebd89ffb3152e63"
+  },
+  {
+    "path": "extras/tmux/SOFT.tmux",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b60e90fce1ef0174d0c5bf77774d1dc4ed7fdc39",
+    "size": 407,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/b60e90fce1ef0174d0c5bf77774d1dc4ed7fdc39"
+  },
+  {
+    "path": "extras/tmux/SOFT_FLAT.tmux",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfdf9e24ad461e7428557fa11c449567c75b7692",
+    "size": 407,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/bfdf9e24ad461e7428557fa11c449567c75b7692"
+  },
+  {
+    "path": "extras/tmux/colors.py",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "fbe8cace0859a41d5a95f9e6a888d036e05097eb",
+    "size": 35,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/fbe8cace0859a41d5a95f9e6a888d036e05097eb"
+  },
+  {
+    "path": "extras/tmux/create_tmux_themes.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2253dcf630d0cd733233e81064877792f3718f97",
+    "size": 580,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/2253dcf630d0cd733233e81064877792f3718f97"
+  },
+  {
+    "path": "extras/windwows_terminal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "59cd2cf06946a9d9440d0caf9e0e2459aaef3bcd",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/59cd2cf06946a9d9440d0caf9e0e2459aaef3bcd"
+  },
+  {
+    "path": "extras/windwows_terminal/add_themes_to_windows_terminal.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c441af9f2df2438beb459588b3e076a2e047a22e",
+    "size": 897,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/c441af9f2df2438beb459588b3e076a2e047a22e"
+  },
+  {
+    "path": "extras/windwows_terminal/colors.py",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "fbe8cace0859a41d5a95f9e6a888d036e05097eb",
+    "size": 35,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/fbe8cace0859a41d5a95f9e6a888d036e05097eb"
+  },
+  {
+    "path": "extras/windwows_terminal/create_windows_terminal_themes.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83a78a1e7e49ebc2da6a4d0c81b1f232f9187822",
+    "size": 1704,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/83a78a1e7e49ebc2da6a4d0c81b1f232f9187822"
+  },
+  {
+    "path": "extras/windwows_terminal/windows_terminal_dark.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87e08127a79abc5c8ed0d7db121270ac7b88f95a",
+    "size": 589,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/87e08127a79abc5c8ed0d7db121270ac7b88f95a"
+  },
+  {
+    "path": "extras/windwows_terminal/windows_terminal_medium.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d6c463466c4ccf95c525ad6f521a934961184fa",
+    "size": 591,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/3d6c463466c4ccf95c525ad6f521a934961184fa"
+  },
+  {
+    "path": "extras/windwows_terminal/windows_terminal_soft.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d93aed5bc889c37335470d6c7df33a392a8cbbf5",
+    "size": 589,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/d93aed5bc889c37335470d6c7df33a392a8cbbf5"
+  },
+  {
+    "path": "extras/windwows_terminal/windows_terminal_soft_flat.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cbae5b56a61f2a261ac1c23f8d1fab6f585920f0",
+    "size": 594,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/cbae5b56a61f2a261ac1c23f8d1fab6f585920f0"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "93511e808c7c21171fd84a14b61399b9fbfc6105",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/93511e808c7c21171fd84a14b61399b9fbfc6105"
+  },
+  {
+    "path": "lua/gruvbox-baby",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "27e9602d04ebe0e47a0f00ee89e5e5cd3dd678b1",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/27e9602d04ebe0e47a0f00ee89e5e5cd3dd678b1"
+  },
+  {
+    "path": "lua/gruvbox-baby/colors.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d2ebdcc51724cc89ceac7a93ff707b38bbaaea0",
+    "size": 2792,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/2d2ebdcc51724cc89ceac7a93ff707b38bbaaea0"
+  },
+  {
+    "path": "lua/gruvbox-baby/config.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6e672789efd0cf992a8ddabcecac6358b9f74b5",
+    "size": 915,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/f6e672789efd0cf992a8ddabcecac6358b9f74b5"
+  },
+  {
+    "path": "lua/gruvbox-baby/hsluv.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e039d78569c282ce8797b8af803b5d0ec1d2b7d3",
+    "size": 8716,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/e039d78569c282ce8797b8af803b5d0ec1d2b7d3"
+  },
+  {
+    "path": "lua/gruvbox-baby/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2e23127c7e8038bd824650a3efa372fb2c20c10",
+    "size": 167,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/d2e23127c7e8038bd824650a3efa372fb2c20c10"
+  },
+  {
+    "path": "lua/gruvbox-baby/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd2e70c413b2fa9270a4a7b20a80a6e343c0df44",
+    "size": 20656,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/dd2e70c413b2fa9270a4a7b20a80a6e343c0df44"
+  },
+  {
+    "path": "lua/gruvbox-baby/util.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "347b5e2bc9bfde93fea879732be322102fa3cad0",
+    "size": 3889,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/347b5e2bc9bfde93fea879732be322102fa3cad0"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8aad5a6ba4730b4184bb54abe7dd1412e3c55d1f",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/8aad5a6ba4730b4184bb54abe7dd1412e3c55d1f"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "de28f93fb7fe11766da0dfe3792b8542b554e577",
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/trees/de28f93fb7fe11766da0dfe3792b8542b554e577"
+  },
+  {
+    "path": "lua/lualine/themes/gruvbox-baby.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa7399995a21e9be09bab8bff13c247afd03358d",
+    "size": 1204,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/aa7399995a21e9be09bab8bff13c247afd03358d"
+  },
+  {
+    "path": "stylua.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0435f677c597a55610654d91a45b54ebad5336bc",
+    "size": 40,
+    "url": "https://api.github.com/repos/luisiacc/gruvbox-baby/git/blobs/0435f677c597a55610654d91a45b54ebad5336bc"
+  }
+]

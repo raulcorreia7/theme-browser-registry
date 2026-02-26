@@ -1,0 +1,302 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c83f703a3bec1fa9c8d6a77d1970a1b201d048f4",
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/trees/c83f703a3bec1fa9c8d6a77d1970a1b201d048f4"
+  },
+  {
+    "path": ".github/stale.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86ef41056479b5c59ba613d58f543ba7cdd0a306",
+    "size": 684,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/86ef41056479b5c59ba613d58f543ba7cdd0a306"
+  },
+  {
+    "path": ".media",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8841f54aa15ad8208ce5a18ff7d263c54524d194",
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/trees/8841f54aa15ad8208ce5a18ff7d263c54524d194"
+  },
+  {
+    "path": ".media/spacecamp_colors.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3af6ddf0a2b38d107deb37c000982f05f5d09014",
+    "size": 13800,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/3af6ddf0a2b38d107deb37c000982f05f5d09014"
+  },
+  {
+    "path": ".media/spacecamp_colors.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1411e216531485f9b3c9cba4ca8e3fbc0484f9ce",
+    "size": 51287,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/1411e216531485f9b3c9cba4ca8e3fbc0484f9ce"
+  },
+  {
+    "path": ".media/spacecamp_demo.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b63954b13e003e06abbf5f5589470039e6024e7d",
+    "size": 405975,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/b63954b13e003e06abbf5f5589470039e6024e7d"
+  },
+  {
+    "path": ".media/spacecamp_demo.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f39bd304d5c0a037c15e66b941c2d305bbfcd02",
+    "size": 411197,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/5f39bd304d5c0a037c15e66b941c2d305bbfcd02"
+  },
+  {
+    "path": ".media/spacecamp_header_dk.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6edfae9cfccc9ce23530c6de5ee365bcf10ce75",
+    "size": 14022,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/c6edfae9cfccc9ce23530c6de5ee365bcf10ce75"
+  },
+  {
+    "path": ".media/spacecamp_header_lt.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eba79cd11238fdcf7d8304cfda6d2e2635f6990d",
+    "size": 14020,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/eba79cd11238fdcf7d8304cfda6d2e2635f6990d"
+  },
+  {
+    "path": ".media/spacecamp_logo.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42671d20b348d6a1abf52651a9044513003df4ec",
+    "size": 9222,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/42671d20b348d6a1abf52651a9044513003df4ec"
+  },
+  {
+    "path": ".media/spacecamp_logo.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ede83a5cd9093b43aefb3059d3c79778c45d6eeb",
+    "size": 3890,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/ede83a5cd9093b43aefb3059d3c79778c45d6eeb"
+  },
+  {
+    "path": ".media/spacecamp_logo_crop.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ec9124fb7e7f68332c28556bdb910901a6e5d59",
+    "size": 1675,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/6ec9124fb7e7f68332c28556bdb910901a6e5d59"
+  },
+  {
+    "path": ".media/spacecamp_preview.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6e1a56effd6abd414845eb6e975b6c7f13830dd",
+    "size": 363016,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/c6e1a56effd6abd414845eb6e975b6c7f13830dd"
+  },
+  {
+    "path": ".media/spacecamp_preview.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "733ffc7cedf6fc9b8a10a22d27bcc073da9ac2f4",
+    "size": 389466,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/733ffc7cedf6fc9b8a10a22d27bcc073da9ac2f4"
+  },
+  {
+    "path": ".media/spacecamp_termcolors.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f5cdb116b557bfe818a2bd86f3fb571ece9a62f",
+    "size": 172639,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/4f5cdb116b557bfe818a2bd86f3fb571ece9a62f"
+  },
+  {
+    "path": ".terminal_themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "29cce59ebf84b8242b0c6a31f1838aee5101f705",
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/trees/29cce59ebf84b8242b0c6a31f1838aee5101f705"
+  },
+  {
+    "path": ".terminal_themes/spacecamp.Xresources",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c40e020ebc0603f6ede5348ee1f3f792184ca8c9",
+    "size": 537,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/c40e020ebc0603f6ede5348ee1f3f792184ca8c9"
+  },
+  {
+    "path": ".terminal_themes/spacecamp.itermcolors",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1f2f4dbc1c937195a8dfa4d2778dd4fb3baba9d",
+    "size": 6505,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/c1f2f4dbc1c937195a8dfa4d2778dd4fb3baba9d"
+  },
+  {
+    "path": ".terminal_themes/spacecamp.reg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b262199615efbdd72fcd364f4acd601595624c5",
+    "size": 631,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/7b262199615efbdd72fcd364f4acd601595624c5"
+  },
+  {
+    "path": ".terminal_themes/spacecamp.terminal",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49323747f319a9ba9cc42cf920018b8abd8c6291",
+    "size": 9226,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/49323747f319a9ba9cc42cf920018b8abd8c6291"
+  },
+  {
+    "path": ".terminal_themes/spacecamp.xcs",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c21fc7e3d82e61712ea3590f0ec734bacdbb4ad",
+    "size": 347,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/2c21fc7e3d82e61712ea3590f0ec734bacdbb4ad"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_alacritty.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9c0fed45a2eb09ddb1e7beb619c75e9c6f7f90c",
+    "size": 534,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/b9c0fed45a2eb09ddb1e7beb619c75e9c6f7f90c"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_chrome-secure-shell.config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "698866d423d96aefbc1cb7330a33573f92347570",
+    "size": 282,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/698866d423d96aefbc1cb7330a33573f92347570"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_gnome-terminal.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e0955f8e7469da2ae24b730679b52442896e846",
+    "size": 3674,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/7e0955f8e7469da2ae24b730679b52442896e846"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_guake.config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14a4791c5a3056b6c095cd9873d7db9d297e0a18",
+    "size": 636,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/14a4791c5a3056b6c095cd9873d7db9d297e0a18"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_konsole.config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f216a7d5addcb2ffc1203cfbf78344111da79e62",
+    "size": 770,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/f216a7d5addcb2ffc1203cfbf78344111da79e62"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_linux-console.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c723a97d441ef1e6aeee5e53bd85405122b52f48",
+    "size": 322,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/c723a97d441ef1e6aeee5e53bd85405122b52f48"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_mintty.config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dba98ab635e3ba38639cb078d20a4347bb1536cf",
+    "size": 384,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/dba98ab635e3ba38639cb078d20a4347bb1536cf"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_st.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca406209dba384dbcc3dff62e90d096b50de649b",
+    "size": 1220,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/ca406209dba384dbcc3dff62e90d096b50de649b"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_terminator.config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "294edb8bb722edd3a85ccbe18306add0a47d750a",
+    "size": 610,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/294edb8bb722edd3a85ccbe18306add0a47d750a"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_termite.config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "263cee8b634d23c654824e07d20ba2b788b1ca59",
+    "size": 483,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/263cee8b634d23c654824e07d20ba2b788b1ca59"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_windows_terminal.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e8e4f75121aaf3876db53d413414da6104647e5",
+    "size": 737,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/0e8e4f75121aaf3876db53d413414da6104647e5"
+  },
+  {
+    "path": ".terminal_themes/spacecamp_xfce4.terminalrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66ec6d60d24bfd2ff9dd874ee6dd41bc7f14adab",
+    "size": 339,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/66ec6d60d24bfd2ff9dd874ee6dd41bc7f14adab"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a35abc25f341a80c20aeeb00263b16babc27ce5",
+    "size": 1069,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/5a35abc25f341a80c20aeeb00263b16babc27ce5"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "abf25d08a704b9002755d3dc404b46b22a779eee",
+    "size": 6273,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/abf25d08a704b9002755d3dc404b46b22a779eee"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c3f681a9ee68cfe02eb1cf070ff6ac3750e80c16",
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/trees/c3f681a9ee68cfe02eb1cf070ff6ac3750e80c16"
+  },
+  {
+    "path": "colors/spacecamp.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e238c4f178977be741538c05fb1f3df5bb02547c",
+    "size": 19884,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/e238c4f178977be741538c05fb1f3df5bb02547c"
+  },
+  {
+    "path": "colors/spacecamp_lite.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9266a0f9eeffd6b0465ce12e22b4b8ede50b5712",
+    "size": 19889,
+    "url": "https://api.github.com/repos/jaredgorski/SpaceCamp/git/blobs/9266a0f9eeffd6b0465ce12e22b4b8ede50b5712"
+  }
+]

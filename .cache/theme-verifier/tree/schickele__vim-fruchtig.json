@@ -1,0 +1,49 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9adf95099dd76162fe0776b372f7db692660cba0",
+    "size": 1066,
+    "url": "https://api.github.com/repos/schickele/vim-fruchtig/git/blobs/9adf95099dd76162fe0776b372f7db692660cba0"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f68d176a0ddf7f76e36bdea861b901fe2654f28e",
+    "size": 483,
+    "url": "https://api.github.com/repos/schickele/vim-fruchtig/git/blobs/f68d176a0ddf7f76e36bdea861b901fe2654f28e"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "52292f5e236b49ca9f7de2f0c2f6440f07563a2f",
+    "url": "https://api.github.com/repos/schickele/vim-fruchtig/git/trees/52292f5e236b49ca9f7de2f0c2f6440f07563a2f"
+  },
+  {
+    "path": "colors/fruchtig.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07589b6baa8031f2ef5523b1640f994ee4cd9af8",
+    "size": 3147,
+    "url": "https://api.github.com/repos/schickele/vim-fruchtig/git/blobs/07589b6baa8031f2ef5523b1640f994ee4cd9af8"
+  },
+  {
+    "path": "fruchtig_ctx.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd2753738c4632ce0cba039f8387414e3797eb66",
+    "size": 117544,
+    "url": "https://api.github.com/repos/schickele/vim-fruchtig/git/blobs/cd2753738c4632ce0cba039f8387414e3797eb66"
+  },
+  {
+    "path": "fruchtig_vim.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a64d679de9f8ee509c184cf9e51c7f0a430f20cd",
+    "size": 173192,
+    "url": "https://api.github.com/repos/schickele/vim-fruchtig/git/blobs/a64d679de9f8ee509c184cf9e51c7f0a430f20cd"
+  }
+]

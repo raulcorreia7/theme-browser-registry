@@ -1,0 +1,33 @@
+[
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2afb2b698281a5a70a3dbc54a3abfa221f1fc48a",
+    "size": 1302,
+    "url": "https://api.github.com/repos/carakan/new-railscasts-theme/git/blobs/2afb2b698281a5a70a3dbc54a3abfa221f1fc48a"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0cdfaccb92a839619de958d64be687b84c25336a",
+    "url": "https://api.github.com/repos/carakan/new-railscasts-theme/git/trees/0cdfaccb92a839619de958d64be687b84c25336a"
+  },
+  {
+    "path": "colors/new-railscasts.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ac0b0a61921e6701df9c70e73ee39c0c4bbf301",
+    "size": 16068,
+    "url": "https://api.github.com/repos/carakan/new-railscasts-theme/git/blobs/6ac0b0a61921e6701df9c70e73ee39c0c4bbf301"
+  },
+  {
+    "path": "screenshot_gui.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "284124a8af796c494f890bba5dad27eaf7427196",
+    "size": 840378,
+    "url": "https://api.github.com/repos/carakan/new-railscasts-theme/git/blobs/284124a8af796c494f890bba5dad27eaf7427196"
+  }
+]

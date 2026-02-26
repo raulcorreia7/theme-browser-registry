@@ -1,0 +1,85 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
+    "size": 10,
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/blobs/e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b12436b5fdb384452db285e6a8296d10368a6b56",
+    "size": 592,
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/blobs/b12436b5fdb384452db285e6a8296d10368a6b56"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63252feff99c566c3627ee35fb9d2dfc6dec08f9",
+    "size": 944,
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/blobs/63252feff99c566c3627ee35fb9d2dfc6dec08f9"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ca9784f8fcbe5eb5cb1c21c1534c16e6ace7947c",
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/trees/ca9784f8fcbe5eb5cb1c21c1534c16e6ace7947c"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "55fc7a5a4b92052ec06f93c5eb911bc10b8194bb",
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/trees/55fc7a5a4b92052ec06f93c5eb911bc10b8194bb"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "231a650b1bb91fd52642161f7725c79aa1cb593e",
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/trees/231a650b1bb91fd52642161f7725c79aa1cb593e"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/intellij.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ed38ad178b1331e8a39abbab3b0d2db84308e9a",
+    "size": 1697,
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/blobs/7ed38ad178b1331e8a39abbab3b0d2db84308e9a"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1089091361db3b44b643bd331d853773206e1089",
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/trees/1089091361db3b44b643bd331d853773206e1089"
+  },
+  {
+    "path": "colors/intellij.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cad1b30c3d61c2eadcf40903601d957d44f2d473",
+    "size": 8492,
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/blobs/cad1b30c3d61c2eadcf40903601d957d44f2d473"
+  },
+  {
+    "path": "screenshots",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e77dd9db9fd88301938c085ee297cb57afd765f7",
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/trees/e77dd9db9fd88301938c085ee297cb57afd765f7"
+  },
+  {
+    "path": "screenshots/main.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8839bf99e507a4e68c7b04065a912863768fc365",
+    "size": 443112,
+    "url": "https://api.github.com/repos/chiendo97/intellij.vim/git/blobs/8839bf99e507a4e68c7b04065a912863768fc365"
+  }
+]

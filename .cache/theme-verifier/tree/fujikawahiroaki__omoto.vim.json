@@ -1,0 +1,64 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00fe7749bd14f5ac6156c030c5c57a1585ce32d5",
+    "size": 1088,
+    "url": "https://api.github.com/repos/fujikawahiroaki/omoto.vim/git/blobs/00fe7749bd14f5ac6156c030c5c57a1585ce32d5"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b61ff4575f0fe3a336c514ae2f4b074c05a8406c",
+    "size": 2560,
+    "url": "https://api.github.com/repos/fujikawahiroaki/omoto.vim/git/blobs/b61ff4575f0fe3a336c514ae2f4b074c05a8406c"
+  },
+  {
+    "path": "assets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ff090ccf021bb9cf02e21345fe4424595403a009",
+    "url": "https://api.github.com/repos/fujikawahiroaki/omoto.vim/git/trees/ff090ccf021bb9cf02e21345fe4424595403a009"
+  },
+  {
+    "path": "assets/omoto_screenshot.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa7fef60b70ae6025661f8f78c4c677b4087aaaf",
+    "size": 89967,
+    "url": "https://api.github.com/repos/fujikawahiroaki/omoto.vim/git/blobs/aa7fef60b70ae6025661f8f78c4c677b4087aaaf"
+  },
+  {
+    "path": "assets/omoto_seiunden.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "480ed75b26a84336853c7eb3ecc534a0a501de75",
+    "size": 1844692,
+    "url": "https://api.github.com/repos/fujikawahiroaki/omoto.vim/git/blobs/480ed75b26a84336853c7eb3ecc534a0a501de75"
+  },
+  {
+    "path": "assets/omoto_zuisen.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5be3164093db2779f1461cf58c27af0049d91dba",
+    "size": 3018481,
+    "url": "https://api.github.com/repos/fujikawahiroaki/omoto.vim/git/blobs/5be3164093db2779f1461cf58c27af0049d91dba"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ae0f99f1ea92add795c0dc81f62264e84104d720",
+    "url": "https://api.github.com/repos/fujikawahiroaki/omoto.vim/git/trees/ae0f99f1ea92add795c0dc81f62264e84104d720"
+  },
+  {
+    "path": "colors/omoto.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9925322626adb34e61fcf892eced84e71fb22427",
+    "size": 7202,
+    "url": "https://api.github.com/repos/fujikawahiroaki/omoto.vim/git/blobs/9925322626adb34e61fcf892eced84e71fb22427"
+  }
+]

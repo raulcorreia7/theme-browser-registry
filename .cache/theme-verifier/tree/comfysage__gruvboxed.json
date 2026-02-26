@@ -1,0 +1,224 @@
+[
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90fd3a291efacb6e4df6741d47670fe031615cf1",
+    "size": 5157,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/90fd3a291efacb6e4df6741d47670fe031615cf1"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db707c913c56913968bcddb6f0140abf749d6348",
+    "size": 4053,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/db707c913c56913968bcddb6f0140abf749d6348"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a3d58d443682173f9fda20b955c16c20d679a50",
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/trees/7a3d58d443682173f9fda20b955c16c20d679a50"
+  },
+  {
+    "path": "autoload/airline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c3b37356f6ab62771bcc62dc739b25a868e38399",
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/trees/c3b37356f6ab62771bcc62dc739b25a868e38399"
+  },
+  {
+    "path": "autoload/airline/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3dc2291166736a1201251cdd4adf5b60cdc19333",
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/trees/3dc2291166736a1201251cdd4adf5b60cdc19333"
+  },
+  {
+    "path": "autoload/airline/themes/gruvboxed.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "029cde1b33cadf0eb1eb4c0ea29baa16b5bba319",
+    "size": 5026,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/029cde1b33cadf0eb1eb4c0ea29baa16b5bba319"
+  },
+  {
+    "path": "autoload/gruvbox.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44bec6e1e23b1c78c0029eeadbeb3f7b9b452f10",
+    "size": 927,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/44bec6e1e23b1c78c0029eeadbeb3f7b9b452f10"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "460a53e999db9d1d9ab4af90585be05276549827",
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/trees/460a53e999db9d1d9ab4af90585be05276549827"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "46abffc9c9f622a054971b19a7bc2963538814f4",
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/trees/46abffc9c9f622a054971b19a7bc2963538814f4"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/gruvbox.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4730c094c4f88f1c9605196b4c4824fe884420bc",
+    "size": 2693,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/4730c094c4f88f1c9605196b4c4824fe884420bc"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7ddc6201ec66d4b39134f823634aa7e8c26c0aff",
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/trees/7ddc6201ec66d4b39134f823634aa7e8c26c0aff"
+  },
+  {
+    "path": "colors/gruvboxed.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71061463802d189d9749594438eb9c6e9638094e",
+    "size": 46189,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/71061463802d189d9749594438eb9c6e9638094e"
+  },
+  {
+    "path": "gruvbox_256palette.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c7fd190edcdec58d842f34c315a9ed6d63432299",
+    "size": 4804,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/c7fd190edcdec58d842f34c315a9ed6d63432299"
+  },
+  {
+    "path": "gruvbox_256palette_osx.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ad5111a1951172e31d00bd86849fd39dc9911caf",
+    "size": 4721,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/ad5111a1951172e31d00bd86849fd39dc9911caf"
+  },
+  {
+    "path": "images",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "46a7d70c0706eacc7a38edd62d8e56f76d0816cb",
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/trees/46a7d70c0706eacc7a38edd62d8e56f76d0816cb"
+  },
+  {
+    "path": "images/preview-cpp.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07142a7b6489b92f8979f6f399ed0f930455f4e9",
+    "size": 169085,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/07142a7b6489b92f8979f6f399ed0f930455f4e9"
+  },
+  {
+    "path": "images/preview-go-diagnostics.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bc053683902820920f7f2886c5b7122cefdb906",
+    "size": 27764,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/7bc053683902820920f7f2886c5b7122cefdb906"
+  },
+  {
+    "path": "images/preview-go-ini.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "026f36382f3b06678e84be87d1b2d3568e902960",
+    "size": 158947,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/026f36382f3b06678e84be87d1b2d3568e902960"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a2d5737cc19deab3490116c7eb3f0dbb3ad9f819",
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/trees/a2d5737cc19deab3490116c7eb3f0dbb3ad9f819"
+  },
+  {
+    "path": "lua/gruvboxed",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3eb98d2def697b16a1cd40c5b1af0f5db1e66d0c",
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/trees/3eb98d2def697b16a1cd40c5b1af0f5db1e66d0c"
+  },
+  {
+    "path": "lua/gruvboxed/colors.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4d910fd4ef45f5018b6f33c24c5f4bf7fae5285",
+    "size": 1855,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/c4d910fd4ef45f5018b6f33c24c5f4bf7fae5285"
+  },
+  {
+    "path": "lua/gruvboxed/extras.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c670a20fa5329a784107ed1e05aaa8aa211117d",
+    "size": 412,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/6c670a20fa5329a784107ed1e05aaa8aa211117d"
+  },
+  {
+    "path": "lua/gruvboxed/hl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e7dca21a44c33a414713e7aeb02531bde7405d2c",
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/trees/e7dca21a44c33a414713e7aeb02531bde7405d2c"
+  },
+  {
+    "path": "lua/gruvboxed/hl/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79fa738b532e9fd0393a5116cde3fb7c214b9a2b",
+    "size": 20584,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/79fa738b532e9fd0393a5116cde3fb7c214b9a2b"
+  },
+  {
+    "path": "lua/gruvboxed/hl/terminal.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "489ba651214e009791739dc5128a657a25525fa6",
+    "size": 779,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/489ba651214e009791739dc5128a657a25525fa6"
+  },
+  {
+    "path": "lua/gruvboxed/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbc26b09ab3e2c60851992637e91c711e2d836aa",
+    "size": 2561,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/dbc26b09ab3e2c60851992637e91c711e2d836aa"
+  },
+  {
+    "path": "lua/gruvboxed/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da177312a0b0e4900d8106c77f0f610f06a6b256",
+    "size": 3799,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/da177312a0b0e4900d8106c77f0f610f06a6b256"
+  },
+  {
+    "path": "lua/gruvboxed_test.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d0f37af95ecbc050723f296db5952f4acd90147",
+    "size": 497,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/5d0f37af95ecbc050723f296db5952f4acd90147"
+  },
+  {
+    "path": "package.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48b490fa60976858f9babfa37d1d1791a5f3424e",
+    "size": 187,
+    "url": "https://api.github.com/repos/comfysage/gruvboxed/git/blobs/48b490fa60976858f9babfa37d1d1791a5f3424e"
+  }
+]

@@ -1,0 +1,1262 @@
+[
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "361754c7f313763ad9f30d430cae5fcb821f7441",
+    "size": 2921,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/361754c7f313763ad9f30d430cae5fcb821f7441"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13f06c8ac97cbb4fae3c494a87f898be23c22e52",
+    "size": 17682,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/13f06c8ac97cbb4fae3c494a87f898be23c22e52"
+  },
+  {
+    "path": "assets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "15c3f461ada1180e308202c0abe24e0700a32792",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/15c3f461ada1180e308202c0abe24e0700a32792"
+  },
+  {
+    "path": "assets/banner",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4721acf8ab15d5b706c3f4e5ccd6973cc076c730",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/4721acf8ab15d5b706c3f4e5ccd6973cc076c730"
+  },
+  {
+    "path": "assets/banner/dark bg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ec96456cf075a199092fabe046ba7493bb8a7ecf",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/ec96456cf075a199092fabe046ba7493bb8a7ecf"
+  },
+  {
+    "path": "assets/banner/dark bg/dark.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1eca5f58db94178b0d92367e8ade0487ea7cb65",
+    "size": 59114,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/d1eca5f58db94178b0d92367e8ade0487ea7cb65"
+  },
+  {
+    "path": "assets/banner/dark bg/rainbow no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cd9a7de791cb636fd5d99de2ec143c1c6b7b1b9",
+    "size": 74963,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/0cd9a7de791cb636fd5d99de2ec143c1c6b7b1b9"
+  },
+  {
+    "path": "assets/banner/dark bg/rainbow stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62634ad3aea4c34c6269a5856dda38ea50fb913a",
+    "size": 96468,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/62634ad3aea4c34c6269a5856dda38ea50fb913a"
+  },
+  {
+    "path": "assets/banner/dark bg/rainbow stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2c24cbb8d7b4b54a59f5e28ca2464f2f7e0c0a3",
+    "size": 108135,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/a2c24cbb8d7b4b54a59f5e28ca2464f2f7e0c0a3"
+  },
+  {
+    "path": "assets/banner/dark bg/rainbow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd1a0cb77e70b45756e99502b36eea6e4efe894e",
+    "size": 81623,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/dd1a0cb77e70b45756e99502b36eea6e4efe894e"
+  },
+  {
+    "path": "assets/banner/dark bg/standard.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aae718999be1fe3b110a4b1bb39bc477a94068fe",
+    "size": 53682,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/aae718999be1fe3b110a4b1bb39bc477a94068fe"
+  },
+  {
+    "path": "assets/banner/dark bg/stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5da47abfa5acf21c35436c17daf0b1759a139603",
+    "size": 71555,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/5da47abfa5acf21c35436c17daf0b1759a139603"
+  },
+  {
+    "path": "assets/banner/dark bg/stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f4a8ccc0e9de61ea1a6e01e4f137aa11f4b0301",
+    "size": 84857,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/9f4a8ccc0e9de61ea1a6e01e4f137aa11f4b0301"
+  },
+  {
+    "path": "assets/banner/light bg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e7bb7e443becb2b663ffd3e99f427088bdd3f74",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/8e7bb7e443becb2b663ffd3e99f427088bdd3f74"
+  },
+  {
+    "path": "assets/banner/light bg/rainbow no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "706e4328490fdd93748d0bd287be4097afdaf65a",
+    "size": 74506,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/706e4328490fdd93748d0bd287be4097afdaf65a"
+  },
+  {
+    "path": "assets/banner/light bg/rainbow stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6140f0e76ed76162866f060d1b9d22184416eda6",
+    "size": 95719,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/6140f0e76ed76162866f060d1b9d22184416eda6"
+  },
+  {
+    "path": "assets/banner/light bg/rainbow stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b994ca861ab52b68c7bf17b3dde2a7d9c0a8f9a",
+    "size": 108314,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/0b994ca861ab52b68c7bf17b3dde2a7d9c0a8f9a"
+  },
+  {
+    "path": "assets/banner/light bg/rainbow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "591e9d6d075f188a35a9c375aa86d6cfd1828729",
+    "size": 80727,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/591e9d6d075f188a35a9c375aa86d6cfd1828729"
+  },
+  {
+    "path": "assets/banner/light bg/standard no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81937e0a7b8d810566c3d4194378199b98777e8f",
+    "size": 54804,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/81937e0a7b8d810566c3d4194378199b98777e8f"
+  },
+  {
+    "path": "assets/banner/light bg/standard.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22dcf843f578ae454039f9487460e035bb316c90",
+    "size": 59961,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/22dcf843f578ae454039f9487460e035bb316c90"
+  },
+  {
+    "path": "assets/banner/light bg/stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9bf6096b9010dc3026dc1f58d2ba19e940ddeb61",
+    "size": 71997,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/9bf6096b9010dc3026dc1f58d2ba19e940ddeb61"
+  },
+  {
+    "path": "assets/banner/light bg/stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c28995efa2982ddedfc0ca5b32b21edbdee760dc",
+    "size": 85607,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/c28995efa2982ddedfc0ca5b32b21edbdee760dc"
+  },
+  {
+    "path": "assets/banner/rainbow bg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0ae5693c77f1bd5a89a2ad7a11a2be707e963a22",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/0ae5693c77f1bd5a89a2ad7a11a2be707e963a22"
+  },
+  {
+    "path": "assets/banner/rainbow bg/rainbow no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20f78d6e4f7f9ecfbf7a6041a34fe06098c9f4d0",
+    "size": 113976,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/20f78d6e4f7f9ecfbf7a6041a34fe06098c9f4d0"
+  },
+  {
+    "path": "assets/banner/rainbow bg/rainbow stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f1d26fb11d585f8be9b84cfb3cbc455225e37f6",
+    "size": 137809,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/9f1d26fb11d585f8be9b84cfb3cbc455225e37f6"
+  },
+  {
+    "path": "assets/banner/rainbow bg/rainbow stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "996270c773852ccf600e02b602a0a2f6156895d5",
+    "size": 150403,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/996270c773852ccf600e02b602a0a2f6156895d5"
+  },
+  {
+    "path": "assets/banner/rainbow bg/rainbow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7788abedfa7ad2975a0313795ae9baabdaca1e8",
+    "size": 120866,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/c7788abedfa7ad2975a0313795ae9baabdaca1e8"
+  },
+  {
+    "path": "assets/banner/rainbow bg/standard no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f6ae85b640c9ceb169420e014d089db10090267",
+    "size": 99522,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/5f6ae85b640c9ceb169420e014d089db10090267"
+  },
+  {
+    "path": "assets/banner/rainbow bg/standard.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efc1f6d0f4390134c59771700051dd4debbfa9b2",
+    "size": 105779,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/efc1f6d0f4390134c59771700051dd4debbfa9b2"
+  },
+  {
+    "path": "assets/banner/rainbow bg/stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b65e36d254b1e1116882218a90fb5e51d6c2eb80",
+    "size": 117323,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/b65e36d254b1e1116882218a90fb5e51d6c2eb80"
+  },
+  {
+    "path": "assets/banner/rainbow bg/stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca8b581af93b5f0239a870365170753e5372423e",
+    "size": 131496,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/ca8b581af93b5f0239a870365170753e5372423e"
+  },
+  {
+    "path": "assets/extras",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cb11a48d08ad9dab14358131521d9643ada287c0",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/cb11a48d08ad9dab14358131521d9643ada287c0"
+  },
+  {
+    "path": "assets/extras/monochrome logo line.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1dfe4c2bbfa56c773cdda18b4361cde57b594fe0",
+    "size": 20161,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/1dfe4c2bbfa56c773cdda18b4361cde57b594fe0"
+  },
+  {
+    "path": "assets/extras/rainbow line.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e262089fca7dab74d81853f5c75c07739c35b4e",
+    "size": 4340,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/0e262089fca7dab74d81853f5c75c07739c35b4e"
+  },
+  {
+    "path": "assets/extras/window",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f23aecc2f411fde882e711b1cd2e2890314e6bbe",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/f23aecc2f411fde882e711b1cd2e2890314e6bbe"
+  },
+  {
+    "path": "assets/extras/window/light and dark mode showcase no bg.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae55343c42442eaf4257de09618a46a206a6a8a8",
+    "size": 450574,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/ae55343c42442eaf4257de09618a46a206a6a8a8"
+  },
+  {
+    "path": "assets/extras/window/light and dark mode showcase.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "904ff58195e9abe44c8af3abc817f1882318f831",
+    "size": 603067,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/904ff58195e9abe44c8af3abc817f1882318f831"
+  },
+  {
+    "path": "assets/extras/window/window w code dark mode.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48a547d2efa354838e0ab60a903dac6487b7f4e3",
+    "size": 359089,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/48a547d2efa354838e0ab60a903dac6487b7f4e3"
+  },
+  {
+    "path": "assets/extras/window/window w code light mode.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d80d0eb30280aa8fd8aea424d0b13c5a57ea448",
+    "size": 360118,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/9d80d0eb30280aa8fd8aea424d0b13c5a57ea448"
+  },
+  {
+    "path": "assets/font rainbow stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cdee7eb4e6444ca0b6799cb9d90fe26ebc58b805",
+    "size": 14399,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/cdee7eb4e6444ca0b6799cb9d90fe26ebc58b805"
+  },
+  {
+    "path": "assets/font rainbow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f951d3ef39990151c5a508dbdcc3ba4b82f36628",
+    "size": 7353,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/f951d3ef39990151c5a508dbdcc3ba4b82f36628"
+  },
+  {
+    "path": "assets/icon",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4bddcc5f6a109728a96ea92ecad8043be7000e41",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/4bddcc5f6a109728a96ea92ecad8043be7000e41"
+  },
+  {
+    "path": "assets/icon/dark bg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0df794f8c350543eb274021d195d71b490dfb3b3",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/0df794f8c350543eb274021d195d71b490dfb3b3"
+  },
+  {
+    "path": "assets/icon/dark bg/rainbow no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae4ee6ffbd9fef70f434eac8402269c4f2b67cc6",
+    "size": 41004,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/ae4ee6ffbd9fef70f434eac8402269c4f2b67cc6"
+  },
+  {
+    "path": "assets/icon/dark bg/rainbow stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5409bbe5c804aa4ae9e7ed3de5d7b5bb4d7a9d87",
+    "size": 57251,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/5409bbe5c804aa4ae9e7ed3de5d7b5bb4d7a9d87"
+  },
+  {
+    "path": "assets/icon/dark bg/rainbow stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15ac9c7e065c996c0fa61f4b69d650b195c4ea5d",
+    "size": 67931,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/15ac9c7e065c996c0fa61f4b69d650b195c4ea5d"
+  },
+  {
+    "path": "assets/icon/dark bg/rainbow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f050b9a23b49a0163e7bb725848661ea6ba93ca",
+    "size": 46711,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/7f050b9a23b49a0163e7bb725848661ea6ba93ca"
+  },
+  {
+    "path": "assets/icon/dark bg/standard no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d86408463304f66dac9b2d8cd0aaa3a3a7bd62a7",
+    "size": 23851,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/d86408463304f66dac9b2d8cd0aaa3a3a7bd62a7"
+  },
+  {
+    "path": "assets/icon/dark bg/standard.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bcafff703b511f92ec666a30ca5afb9230c5eb9f",
+    "size": 28358,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/bcafff703b511f92ec666a30ca5afb9230c5eb9f"
+  },
+  {
+    "path": "assets/icon/dark bg/stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "60898dd768dbb9c18726607d799de30fe6da3c5b",
+    "size": 36980,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/60898dd768dbb9c18726607d799de30fe6da3c5b"
+  },
+  {
+    "path": "assets/icon/dark bg/stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e06a81c252a134dabc250e76cb0cf21b7fcfcc31",
+    "size": 48356,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/e06a81c252a134dabc250e76cb0cf21b7fcfcc31"
+  },
+  {
+    "path": "assets/icon/light bg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "86f7e7fe008a106311962c1e7d224d12afb59195",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/86f7e7fe008a106311962c1e7d224d12afb59195"
+  },
+  {
+    "path": "assets/icon/light bg/rainbow no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd8e21352d15bb6eef12ce4eea9492bdc34bd70c",
+    "size": 41159,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/cd8e21352d15bb6eef12ce4eea9492bdc34bd70c"
+  },
+  {
+    "path": "assets/icon/light bg/rainbow stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4439e52ac03bd40332080e597df099e93e12155e",
+    "size": 56596,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/4439e52ac03bd40332080e597df099e93e12155e"
+  },
+  {
+    "path": "assets/icon/light bg/rainbow stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9033d77bb0f8f6db91a3677550275f3b8564dca0",
+    "size": 68149,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/9033d77bb0f8f6db91a3677550275f3b8564dca0"
+  },
+  {
+    "path": "assets/icon/light bg/rainbow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb90bc343b467c79be7046ef3608cb754689394f",
+    "size": 46478,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/fb90bc343b467c79be7046ef3608cb754689394f"
+  },
+  {
+    "path": "assets/icon/light bg/standard no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66a9885d85ed6f4a63deb909745dc9441a60a8c9",
+    "size": 24118,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/66a9885d85ed6f4a63deb909745dc9441a60a8c9"
+  },
+  {
+    "path": "assets/icon/light bg/standard.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2d0f8bfb40bb938488e2129874c166decba2310",
+    "size": 28763,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/b2d0f8bfb40bb938488e2129874c166decba2310"
+  },
+  {
+    "path": "assets/icon/light bg/stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6676f33da378a903c4cdde3c68b3154abda75da6",
+    "size": 36994,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/6676f33da378a903c4cdde3c68b3154abda75da6"
+  },
+  {
+    "path": "assets/icon/light bg/stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1bb73479c7b75ee3c8b0bb8d46448e62cca72d5",
+    "size": 48589,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/c1bb73479c7b75ee3c8b0bb8d46448e62cca72d5"
+  },
+  {
+    "path": "assets/icon/rainbow bg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a279914b59ca128eb03752f55c656841f858c709",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/a279914b59ca128eb03752f55c656841f858c709"
+  },
+  {
+    "path": "assets/icon/rainbow bg/rainbow no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0ba2e96d7973111e2a534ac018ac0fc2fd364dd",
+    "size": 56483,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/e0ba2e96d7973111e2a534ac018ac0fc2fd364dd"
+  },
+  {
+    "path": "assets/icon/rainbow bg/rainbow stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bcf72221700dbfc53bee6c82d2e359c1a15e4a7a",
+    "size": 73246,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/bcf72221700dbfc53bee6c82d2e359c1a15e4a7a"
+  },
+  {
+    "path": "assets/icon/rainbow bg/rainbow stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad4ed24035a5ebb109dd38422b7f8617545a05d8",
+    "size": 84326,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/ad4ed24035a5ebb109dd38422b7f8617545a05d8"
+  },
+  {
+    "path": "assets/icon/rainbow bg/rainbow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "353919275388d7df3cf23daea45c1d6b19b5d1b5",
+    "size": 62208,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/353919275388d7df3cf23daea45c1d6b19b5d1b5"
+  },
+  {
+    "path": "assets/icon/rainbow bg/standard no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c6b3e0d354c4184e5da2ebd483304beaae77a39",
+    "size": 43664,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/0c6b3e0d354c4184e5da2ebd483304beaae77a39"
+  },
+  {
+    "path": "assets/icon/rainbow bg/standard.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bf8c6a7b5a2da689c4e92adfb759a0e240619bf",
+    "size": 48492,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/6bf8c6a7b5a2da689c4e92adfb759a0e240619bf"
+  },
+  {
+    "path": "assets/icon/rainbow bg/stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2fd65e28f9672cf2af3522c786379b993309d2a1",
+    "size": 55369,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/2fd65e28f9672cf2af3522c786379b993309d2a1"
+  },
+  {
+    "path": "assets/icon/rainbow bg/stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be9ff254a5f7d9725ab701bfe4b5401cedaff85a",
+    "size": 67348,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/be9ff254a5f7d9725ab701bfe4b5401cedaff85a"
+  },
+  {
+    "path": "assets/logo with text",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ad6dd307dd4a965ecbe94c80003f671a8718fa4c",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/ad6dd307dd4a965ecbe94c80003f671a8718fa4c"
+  },
+  {
+    "path": "assets/logo with text/rainbow no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61992f483a7a3c9179f228b47e86ce375bc18a2f",
+    "size": 68551,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/61992f483a7a3c9179f228b47e86ce375bc18a2f"
+  },
+  {
+    "path": "assets/logo with text/rainbow stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87cfdb8857d6f833dd8a2f25951416ad0bdcdb32",
+    "size": 83129,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/87cfdb8857d6f833dd8a2f25951416ad0bdcdb32"
+  },
+  {
+    "path": "assets/logo with text/rainbow stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "925842b50cb9d6ee7d0efcf73fe4a51fd3747d14",
+    "size": 94252,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/925842b50cb9d6ee7d0efcf73fe4a51fd3747d14"
+  },
+  {
+    "path": "assets/logo with text/rainbow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0d7d326cb4495e82ed09bf97a3a62f369b6db22",
+    "size": 72849,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/f0d7d326cb4495e82ed09bf97a3a62f369b6db22"
+  },
+  {
+    "path": "assets/logo with text/standard no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0795ad38c8da77a58e5fbb210617409effa848af",
+    "size": 49919,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/0795ad38c8da77a58e5fbb210617409effa848af"
+  },
+  {
+    "path": "assets/logo with text/standard.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "109648174581aceb5774cb689b8b3aa140b9886d",
+    "size": 53336,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/109648174581aceb5774cb689b8b3aa140b9886d"
+  },
+  {
+    "path": "assets/logo with text/stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4dc65f1a00b717cc16247144ec702ccaef63f30",
+    "size": 62546,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/f4dc65f1a00b717cc16247144ec702ccaef63f30"
+  },
+  {
+    "path": "assets/logo with text/stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25d844b58d451b56e12f020b8bdb9049d211198e",
+    "size": 72496,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/25d844b58d451b56e12f020b8bdb9049d211198e"
+  },
+  {
+    "path": "assets/logos",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0fb6802e28cf94e8ef6d4f17544fa562c42ee774",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/0fb6802e28cf94e8ef6d4f17544fa562c42ee774"
+  },
+  {
+    "path": "assets/logos/base no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9dde98f05492964a9381bb067cb61272e2268f0c",
+    "size": 21385,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/9dde98f05492964a9381bb067cb61272e2268f0c"
+  },
+  {
+    "path": "assets/logos/base.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "086c6cfb8b9db24717b77663c582a4da5881bdaa",
+    "size": 24729,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/086c6cfb8b9db24717b77663c582a4da5881bdaa"
+  },
+  {
+    "path": "assets/logos/rainbow no highlight stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30b38c627f18336700083bcb7f80b22552e5a2d8",
+    "size": 46049,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/30b38c627f18336700083bcb7f80b22552e5a2d8"
+  },
+  {
+    "path": "assets/logos/rainbow no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1036dedd7234e316b01448cd2bc26d65349546a3",
+    "size": 36221,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/1036dedd7234e316b01448cd2bc26d65349546a3"
+  },
+  {
+    "path": "assets/logos/rainbow stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4051ef541eeec49bed17dc11016e82afba89847b",
+    "size": 54789,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/4051ef541eeec49bed17dc11016e82afba89847b"
+  },
+  {
+    "path": "assets/logos/rainbow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "966f967204e45a4e4af17d55eb6287c0a836d7d1",
+    "size": 39242,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/966f967204e45a4e4af17d55eb6287c0a836d7d1"
+  },
+  {
+    "path": "assets/logos/stroke no highlight.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c873f1c353608faafd86b1bf89a4720b4ee9ce3b",
+    "size": 30062,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/c873f1c353608faafd86b1bf89a4720b4ee9ce3b"
+  },
+  {
+    "path": "assets/logos/stroke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77a30d2d91c469629e5711fe33d8a51417042740",
+    "size": 37436,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/77a30d2d91c469629e5711fe33d8a51417042740"
+  },
+  {
+    "path": "assets/swatches",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9bc9e11f34dd550d9317a4709445796d3c45ccf2",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/9bc9e11f34dd550d9317a4709445796d3c45ccf2"
+  },
+  {
+    "path": "assets/swatches/mar",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a7a7a218728437b6a3758bd82fe5a65236140b99",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/a7a7a218728437b6a3758bd82fe5a65236140b99"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e8dc6a5147a7f61ab23c9b410bd08c4a02cf5cab",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/e8dc6a5147a7f61ab23c9b410bd08c4a02cf5cab"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/battleship gray.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5968929cc3abb5683ccfa5035d653100083a074",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/d5968929cc3abb5683ccfa5035d653100083a074"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/burnt sienna.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca883b459199a38e48158e3af7b85cfd23f0fc32",
+    "size": 154,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/ca883b459199a38e48158e3af7b85cfd23f0fc32"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/champagne pink.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01bb5a5af0fc3ea80fc41621ed4ae51be8d038b3",
+    "size": 155,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/01bb5a5af0fc3ea80fc41621ed4ae51be8d038b3"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/chinese violet.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d7886f77f753b791cef44ab7ce39e41efbdf2e2",
+    "size": 154,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/2d7886f77f753b791cef44ab7ce39e41efbdf2e2"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/cinereous.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb5d96312960f9a8e65331c0f7d48a458e603387",
+    "size": 152,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/bb5d96312960f9a8e65331c0f7d48a458e603387"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/crimson.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a89eb6723feb54b7d8845f0fef240d5b2339f16e",
+    "size": 155,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/a89eb6723feb54b7d8845f0fef240d5b2339f16e"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/licorice.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "53a28517c01647c51a54061e1dc51c889899e952",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/53a28517c01647c51a54061e1dc51c889899e952"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/magenta haze.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7af3ea002f43c29679b16d8968cefeed0e746cc3",
+    "size": 154,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/7af3ea002f43c29679b16d8968cefeed0e746cc3"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/moss green.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30a5e297151f89b150c6f2519d12f240499fa356",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/30a5e297151f89b150c6f2519d12f240499fa356"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/papaya whip.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4977aa2e15eac7318d1706ebce5e22c67ee4473e",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/4977aa2e15eac7318d1706ebce5e22c67ee4473e"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/persian orange.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c90542d32dae12a0749106799c20b79b2280b84",
+    "size": 154,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/6c90542d32dae12a0749106799c20b79b2280b84"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/plum.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d76cce7d9529c34da9c1da21f727389840158434",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/d76cce7d9529c34da9c1da21f727389840158434"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/raisin black.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a2f54e22079a9afa3372e8aaea378b1400c68d3",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/9a2f54e22079a9afa3372e8aaea378b1400c68d3"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/ultra violet.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0456de7f1f4481c4c50f96f8534d59907be796df",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/0456de7f1f4481c4c50f96f8534d59907be796df"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/van dyke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7500e0fa79bb00ae7431b61731491de2ae83804",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/c7500e0fa79bb00ae7431b61731491de2ae83804"
+  },
+  {
+    "path": "assets/swatches/mar/dark mode/wenge.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbd7ee8daf44fa83a6513b9bebd99fce660d8478",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/fbd7ee8daf44fa83a6513b9bebd99fce660d8478"
+  },
+  {
+    "path": "assets/swatches/mar/light mode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b494db27ce1cc5dd37550d33d671a83b0e0fc4d",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/1b494db27ce1cc5dd37550d33d671a83b0e0fc4d"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/champagne pink.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a6bebe69c5753d1471e1df8285a7f3ad93f76f9",
+    "size": 154,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/9a6bebe69c5753d1471e1df8285a7f3ad93f76f9"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/china rose.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bb8bf76ee154ac409b82149dcfdc8a7a6a2255e",
+    "size": 125,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/7bb8bf76ee154ac409b82149dcfdc8a7a6a2255e"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/chinese violet.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e67739a6f494fdeefcaaf9fa322ea7a4089f799",
+    "size": 124,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/3e67739a6f494fdeefcaaf9fa322ea7a4089f799"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/cinereous.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb5d96312960f9a8e65331c0f7d48a458e603387",
+    "size": 152,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/bb5d96312960f9a8e65331c0f7d48a458e603387"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/eggplant.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35c9e1d74297526b726d4f13eacf1ad09ea0f6fc",
+    "size": 125,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/35c9e1d74297526b726d4f13eacf1ad09ea0f6fc"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/gray.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "572dc89431df92fcbacf2a42035c25164690be8c",
+    "size": 123,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/572dc89431df92fcbacf2a42035c25164690be8c"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/indian red.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4cfa10f2ef38b9257a3d1dd0f218dc6e10e6407a",
+    "size": 125,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/4cfa10f2ef38b9257a3d1dd0f218dc6e10e6407a"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/moss green.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0f6041e80e08d7a26e9e76a69f7f9cdce9ef550",
+    "size": 125,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/c0f6041e80e08d7a26e9e76a69f7f9cdce9ef550"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/old lace.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6430027d5956f869d457b10865790181b52f3bb",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/f6430027d5956f869d457b10865790181b52f3bb"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/persian orange.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f87f122a5c4c63323df8f07dca7289f199a94126",
+    "size": 125,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/f87f122a5c4c63323df8f07dca7289f199a94126"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/raisin black.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a2f54e22079a9afa3372e8aaea378b1400c68d3",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/9a2f54e22079a9afa3372e8aaea378b1400c68d3"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/redwood.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8bd4fbced1744c7e157a1034e8568a4583c4d19",
+    "size": 125,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/c8bd4fbced1744c7e157a1034e8568a4583c4d19"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/rose quartz.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e34c1749542fa0bc31696dec06f4f159bbf4e69e",
+    "size": 152,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/e34c1749542fa0bc31696dec06f4f159bbf4e69e"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/silver.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7baad66d9bb4704292e48573d5cfee3822510b2d",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/7baad66d9bb4704292e48573d5cfee3822510b2d"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/taupe gray.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "725712d146dc4266302eb2f7a2200a6fb1ef1bd0",
+    "size": 125,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/725712d146dc4266302eb2f7a2200a6fb1ef1bd0"
+  },
+  {
+    "path": "assets/swatches/mar/light mode/van dyke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7500e0fa79bb00ae7431b61731491de2ae83804",
+    "size": 153,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/c7500e0fa79bb00ae7431b61731491de2ae83804"
+  },
+  {
+    "path": "assets/swatches/sol",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a97d3ade55bb4d5c22b7ce6be0f1c27485688ab",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/5a97d3ade55bb4d5c22b7ce6be0f1c27485688ab"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd581d9ef923fef8ea994cf7e29861a605614633",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/fd581d9ef923fef8ea994cf7e29861a605614633"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/antique white.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54a46b6074936c15c0754b77ffefafa27450e919",
+    "size": 190,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/54a46b6074936c15c0754b77ffefafa27450e919"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/butterscotch.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de0515981b22e818c866217bb4fb8ab4a9a7bd4b",
+    "size": 186,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/de0515981b22e818c866217bb4fb8ab4a9a7bd4b"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/cinereous.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "549355d72ecb99f1e7c4f2259cd8a7e21d9bbf53",
+    "size": 191,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/549355d72ecb99f1e7c4f2259cd8a7e21d9bbf53"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/flame.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6724e3935b9d524221440dd350ae832eeaa67bba",
+    "size": 185,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/6724e3935b9d524221440dd350ae832eeaa67bba"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/jet.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e7d5fd3848563e5f1d43b9bf1a50fa3a3ef0fe0",
+    "size": 183,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/0e7d5fd3848563e5f1d43b9bf1a50fa3a3ef0fe0"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/moss green.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12c1b9d4115f426550f4d4e0850e914512bcca12",
+    "size": 185,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/12c1b9d4115f426550f4d4e0850e914512bcca12"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/mulberry.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01ea3a9b9127e5d4eed3d7b69f7237fc17797e95",
+    "size": 194,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/01ea3a9b9127e5d4eed3d7b69f7237fc17797e95"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/night.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e1b52bb81f1e5961ad3c70619706805fb3d4c582",
+    "size": 183,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/e1b52bb81f1e5961ad3c70619706805fb3d4c582"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/persian red.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8fea67d1836f023624b57a29ed4b9775b8b02f0",
+    "size": 183,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/f8fea67d1836f023624b57a29ed4b9775b8b02f0"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/purpureus.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "030a932d578fb5a93f7fc7a11589df7cacbbdf20",
+    "size": 193,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/030a932d578fb5a93f7fc7a11589df7cacbbdf20"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/raisin black.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1dbd788f7a0d4b9ee96efa79d0ea9a7e460bdcf1",
+    "size": 179,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/1dbd788f7a0d4b9ee96efa79d0ea9a7e460bdcf1"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/silver.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a95766289cbaa15eb625a99378dcba20e8ccf59",
+    "size": 195,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/9a95766289cbaa15eb625a99378dcba20e8ccf59"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/steel blue.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7ab727da4eff8ea25dc17f84e154a232fec570c",
+    "size": 195,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/b7ab727da4eff8ea25dc17f84e154a232fec570c"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/van dyke.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "697d4cc37db68771f97939d29bae9f38e5dac846",
+    "size": 179,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/697d4cc37db68771f97939d29bae9f38e5dac846"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/viridian.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a791d2c4130a53b106f04e89d25b078c52c196a9",
+    "size": 191,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/a791d2c4130a53b106f04e89d25b078c52c196a9"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/wenge.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5569512b9ad1ccb53afdaf9e95d3ade3372b2dc1",
+    "size": 192,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/5569512b9ad1ccb53afdaf9e95d3ade3372b2dc1"
+  },
+  {
+    "path": "assets/swatches/sol/dark mode/yinmn blue.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0ffc2a0265a918583cd0e42d2560a42a4bf33b9",
+    "size": 194,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/a0ffc2a0265a918583cd0e42d2560a42a4bf33b9"
+  },
+  {
+    "path": "assets/swatches/sol/light mode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82f98bf8b60b66afd6cfffd1b5cf6130e9a24ac3",
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/trees/82f98bf8b60b66afd6cfffd1b5cf6130e9a24ac3"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/antique white.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54a46b6074936c15c0754b77ffefafa27450e919",
+    "size": 190,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/54a46b6074936c15c0754b77ffefafa27450e919"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/apple green.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3238444f44b040f50dab65e28a40caeff896c691",
+    "size": 197,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/3238444f44b040f50dab65e28a40caeff896c691"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/earth yellow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16f654818e72adccf79e698d98b8c229fc3bd36d",
+    "size": 195,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/16f654818e72adccf79e698d98b8c229fc3bd36d"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/fire engine red.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f54b078e7f958cc6de0cbb822bec8b34056befa9",
+    "size": 195,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/f54b078e7f958cc6de0cbb822bec8b34056befa9"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/giants orange.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72e5f9fed8c37b06237aa963e386126d53e682b0",
+    "size": 195,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/72e5f9fed8c37b06237aa963e386126d53e682b0"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/martian blue.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11cab9ed850dcb0b35aa92ed006599ba7026f5d2",
+    "size": 196,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/11cab9ed850dcb0b35aa92ed006599ba7026f5d2"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/pale dogwood.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af1264046a6ed85bb6f0485e4b55e7adaa1a3295",
+    "size": 195,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/af1264046a6ed85bb6f0485e4b55e7adaa1a3295"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/plum.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e277774bfe96718655ba3b920691a7cf2f6a7f67",
+    "size": 195,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/e277774bfe96718655ba3b920691a7cf2f6a7f67"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/red violet.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92e6d556cbfba9dbe3f587d65d87ecc64a64ff89",
+    "size": 196,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/92e6d556cbfba9dbe3f587d65d87ecc64a64ff89"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/rose quartz.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18c2663d9acedcb35c3ebccad605f6728f46f988",
+    "size": 191,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/18c2663d9acedcb35c3ebccad605f6728f46f988"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/rose taupe.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "666f99c414ba8e618f50b5e054eeddfb6e2dca85",
+    "size": 193,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/666f99c414ba8e618f50b5e054eeddfb6e2dca85"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/ucla blue.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d40286f15af89d55a063e23c0d3cc494f521a12",
+    "size": 193,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/6d40286f15af89d55a063e23c0d3cc494f521a12"
+  },
+  {
+    "path": "assets/swatches/sol/light mode/zomp.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d093e3f5f0e89797e7fc0c594f0e42fb54cc4449",
+    "size": 194,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/d093e3f5f0e89797e7fc0c594f0e42fb54cc4449"
+  },
+  {
+    "path": "biscuit-mar-dark-base16.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4ca77ef2f9b9760ecf3d99c9c9d9826d62b4b67",
+    "size": 325,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/a4ca77ef2f9b9760ecf3d99c9c9d9826d62b4b67"
+  },
+  {
+    "path": "biscuit-mar-light-base16.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b994591af8b4286ab36e9f00a2dbae400321f86e",
+    "size": 326,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/b994591af8b4286ab36e9f00a2dbae400321f86e"
+  },
+  {
+    "path": "biscuit-sol-dark-base16.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfba6dd0ba1972f5fb0ac4a3850d1040f114c6e5",
+    "size": 341,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/bfba6dd0ba1972f5fb0ac4a3850d1040f114c6e5"
+  },
+  {
+    "path": "biscuit-sol-light-base16.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e6f985e67341cb8019f88b08efcab1af22d28a4",
+    "size": 342,
+    "url": "https://api.github.com/repos/Biscuit-Theme/biscuit/git/blobs/8e6f985e67341cb8019f88b08efcab1af22d28a4"
+  }
+]

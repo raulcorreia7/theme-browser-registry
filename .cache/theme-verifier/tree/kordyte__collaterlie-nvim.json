@@ -1,0 +1,70 @@
+[
+  {
+    "path": "LICENCE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc125125c363cdb27054bd06b79f9d59bcf28ae6",
+    "size": 1056,
+    "url": "https://api.github.com/repos/kordyte/collaterlie-nvim/git/blobs/bc125125c363cdb27054bd06b79f9d59bcf28ae6"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99337ec3dda464cd51af7e6d675bee401848f52f",
+    "size": 719,
+    "url": "https://api.github.com/repos/kordyte/collaterlie-nvim/git/blobs/99337ec3dda464cd51af7e6d675bee401848f52f"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "56da5aa29282c0671e570b728e2310247f5bd05f",
+    "url": "https://api.github.com/repos/kordyte/collaterlie-nvim/git/trees/56da5aa29282c0671e570b728e2310247f5bd05f"
+  },
+  {
+    "path": "colors/collaterlie.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f887b4dfb612dab58266db0a21ae83fb5bd9be34",
+    "size": 73,
+    "url": "https://api.github.com/repos/kordyte/collaterlie-nvim/git/blobs/f887b4dfb612dab58266db0a21ae83fb5bd9be34"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "af4c26aedb656b46b91e207bff84c985678750c6",
+    "url": "https://api.github.com/repos/kordyte/collaterlie-nvim/git/trees/af4c26aedb656b46b91e207bff84c985678750c6"
+  },
+  {
+    "path": "lua/collaterlie.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4925a526c2f111fbfb68b4789252cb98322d729",
+    "size": 27635,
+    "url": "https://api.github.com/repos/kordyte/collaterlie-nvim/git/blobs/d4925a526c2f111fbfb68b4789252cb98322d729"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "945d21cc1506ff2ad31e059802687821d2f20ee1",
+    "url": "https://api.github.com/repos/kordyte/collaterlie-nvim/git/trees/945d21cc1506ff2ad31e059802687821d2f20ee1"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1c08c69d4dd1d973551ab6c1d684f61f41b249c5",
+    "url": "https://api.github.com/repos/kordyte/collaterlie-nvim/git/trees/1c08c69d4dd1d973551ab6c1d684f61f41b249c5"
+  },
+  {
+    "path": "lua/lualine/themes/collaterlie.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "521c27d1e6ced1c62378dd727dd1e96a72158155",
+    "size": 806,
+    "url": "https://api.github.com/repos/kordyte/collaterlie-nvim/git/blobs/521c27d1e6ced1c62378dd727dd1e96a72158155"
+  }
+]

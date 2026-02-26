@@ -1,0 +1,86 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "783ec862238a14477367a0770e00bbf6a36c61d0",
+    "size": 1068,
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/blobs/783ec862238a14477367a0770e00bbf6a36c61d0"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a72cd4ac73a676303fcdea70d1834174a1a8e1ec",
+    "size": 774,
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/blobs/a72cd4ac73a676303fcdea70d1834174a1a8e1ec"
+  },
+  {
+    "path": "nvim.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89f4bedbed6bcc3763b0cbae636072b4bd7baf05",
+    "size": 89052,
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/blobs/89f4bedbed6bcc3763b0cbae636072b4bd7baf05"
+  },
+  {
+    "path": "serendipity.nvim",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b4dedcb4a686d133231b2853d502b058c104a8a0",
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/trees/b4dedcb4a686d133231b2853d502b058c104a8a0"
+  },
+  {
+    "path": "serendipity.nvim/LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8aa4b75d5df76e1b63c500be3fd6f8c282829f5d",
+    "size": 1081,
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/blobs/8aa4b75d5df76e1b63c500be3fd6f8c282829f5d"
+  },
+  {
+    "path": "serendipity.nvim/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20b45c794a611aa7d93087764964211a25f4b208",
+    "size": 134,
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/blobs/20b45c794a611aa7d93087764964211a25f4b208"
+  },
+  {
+    "path": "serendipity.nvim/colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "315abdd344d1b8e24a8b3b03862d55fd2a8cc8f7",
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/trees/315abdd344d1b8e24a8b3b03862d55fd2a8cc8f7"
+  },
+  {
+    "path": "serendipity.nvim/colors/lush_template.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed6c98277a6097a3e65dfefbd82d219fa509a991",
+    "size": 915,
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/blobs/ed6c98277a6097a3e65dfefbd82d219fa509a991"
+  },
+  {
+    "path": "serendipity.nvim/lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "930b737ecde44e476dd14827e128b9aefd018036",
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/trees/930b737ecde44e476dd14827e128b9aefd018036"
+  },
+  {
+    "path": "serendipity.nvim/lua/lush_theme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "028166a02382199cd23159adca71d6a795026b5c",
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/trees/028166a02382199cd23159adca71d6a795026b5c"
+  },
+  {
+    "path": "serendipity.nvim/lua/lush_theme/serendipity_midnight.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5995d924a90fc14b39128715db4cd09e4830dd2d",
+    "size": 19008,
+    "url": "https://api.github.com/repos/AustinMay1/Serendipity.nvim/git/blobs/5995d924a90fc14b39128715db4cd09e4830dd2d"
+  }
+]

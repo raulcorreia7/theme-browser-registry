@@ -1,0 +1,87 @@
+[
+  {
+    "path": ".stylua.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8fe795dfa97e6a31c8874ad0ea8639b1b6da32c7",
+    "size": 307,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/blobs/8fe795dfa97e6a31c8874ad0ea8639b1b6da32c7"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94c83d86de59acb764ed45787dd1232ffa36f4d6",
+    "size": 1070,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/blobs/94c83d86de59acb764ed45787dd1232ffa36f4d6"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "430f927e1080d55f39dff1af68ac50b8ee377db1",
+    "size": 60,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/blobs/430f927e1080d55f39dff1af68ac50b8ee377db1"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6b290005f6431e46d2d6d51056817fbf82c5ba5",
+    "size": 851,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/blobs/f6b290005f6431e46d2d6d51056817fbf82c5ba5"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6a2939fbd1990e79da240da0295df41cdf9cc8a3",
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/trees/6a2939fbd1990e79da240da0295df41cdf9cc8a3"
+  },
+  {
+    "path": "colors/ring0light.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ffd0f29a5f0d4513d7c138098fa5ff7e6e3837f",
+    "size": 77,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/blobs/7ffd0f29a5f0d4513d7c138098fa5ff7e6e3837f"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a1e43a859785d8e6bcf9dc650ed45c4df7769f11",
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/trees/a1e43a859785d8e6bcf9dc650ed45c4df7769f11"
+  },
+  {
+    "path": "lua/ring0light",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4901f16eeeb2a69fc1001e5bfe0fd11d06654414",
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/trees/4901f16eeeb2a69fc1001e5bfe0fd11d06654414"
+  },
+  {
+    "path": "lua/ring0light/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92d88911d6450e04455e6057a7ceadbd7a3719e2",
+    "size": 305,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/blobs/92d88911d6450e04455e6057a7ceadbd7a3719e2"
+  },
+  {
+    "path": "lua/ring0light/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f7da768d6ea059e9f0cc20af1762f834d2b0421",
+    "size": 356,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/blobs/4f7da768d6ea059e9f0cc20af1762f834d2b0421"
+  },
+  {
+    "path": "lua/ring0light/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f81d74c18250e5aac1249fed0bedebc5ad6b3c4",
+    "size": 1550,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-light.nvim/git/blobs/5f81d74c18250e5aac1249fed0bedebc5ad6b3c4"
+  }
+]

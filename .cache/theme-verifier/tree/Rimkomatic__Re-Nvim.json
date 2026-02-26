@@ -1,0 +1,259 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ed60f9ae7748c4b2a36d6f243ddcc939bbdd50c",
+    "size": 29,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/5ed60f9ae7748c4b2a36d6f243ddcc939bbdd50c"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "086e8ba8a414a40f686a4a1a22b18f176b79cdcb",
+    "size": 4776,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/086e8ba8a414a40f686a4a1a22b18f176b79cdcb"
+  },
+  {
+    "path": "after",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8af955750a5b1bb9f8039495b7640780cb27ac26",
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/trees/8af955750a5b1bb9f8039495b7640780cb27ac26"
+  },
+  {
+    "path": "after/ftplugin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "83970e7f399b8f3a0269f6832b6088f5b45b0e9a",
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/trees/83970e7f399b8f3a0269f6832b6088f5b45b0e9a"
+  },
+  {
+    "path": "after/ftplugin/lua.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "adec580fb3f5c43cb796af23e5052a12d2d2db6e",
+    "size": 29,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/adec580fb3f5c43cb796af23e5052a12d2d2db6e"
+  },
+  {
+    "path": "init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0d33d1cbbadf24430d05cad07d45adc1de19ec8",
+    "size": 1038,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/c0d33d1cbbadf24430d05cad07d45adc1de19ec8"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6889c3a0ca27c97560c8d6b42d4e8c6efd95301a",
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/trees/6889c3a0ca27c97560c8d6b42d4e8c6efd95301a"
+  },
+  {
+    "path": "lua/config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6b3dcc70fb137dbc5716f3fb53932279c8f04a9c",
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/trees/6b3dcc70fb137dbc5716f3fb53932279c8f04a9c"
+  },
+  {
+    "path": "lua/config/lazy.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "661223df60807066bb4c111f78aa35676f3c84e0",
+    "size": 2753,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/661223df60807066bb4c111f78aa35676f3c84e0"
+  },
+  {
+    "path": "lua/config/plugins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aa3732071575729e1854e7880da4f133d21cfa5f",
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/trees/aa3732071575729e1854e7880da4f133d21cfa5f"
+  },
+  {
+    "path": "lua/config/plugins/avante.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "081f51fdbffb0fe8591c08d0b367cd15b6983f2e",
+    "size": 1994,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/081f51fdbffb0fe8591c08d0b367cd15b6983f2e"
+  },
+  {
+    "path": "lua/config/plugins/colorizer.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "766932e0a6962578ff606fd41b0bf046295be0d8",
+    "size": 165,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/766932e0a6962578ff606fd41b0bf046295be0d8"
+  },
+  {
+    "path": "lua/config/plugins/completion.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43de6820e86fc6c62193c240ae78c588c3ef6e10",
+    "size": 1636,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/43de6820e86fc6c62193c240ae78c588c3ef6e10"
+  },
+  {
+    "path": "lua/config/plugins/dev.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b30bcbd28edd0c483966fc628c715e467f4aa7d2",
+    "size": 12,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/b30bcbd28edd0c483966fc628c715e467f4aa7d2"
+  },
+  {
+    "path": "lua/config/plugins/flash.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e973c567f76480e5b3733528287b8262bac31809",
+    "size": 957,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/e973c567f76480e5b3733528287b8262bac31809"
+  },
+  {
+    "path": "lua/config/plugins/gitsigns.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "012d73946ffc3216d932464812e82e51cb180253",
+    "size": 2250,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/012d73946ffc3216d932464812e82e51cb180253"
+  },
+  {
+    "path": "lua/config/plugins/harpoon.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccabbe169603ac76c4c09f9c79c917b5b7ae36b5",
+    "size": 1369,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/ccabbe169603ac76c4c09f9c79c917b5b7ae36b5"
+  },
+  {
+    "path": "lua/config/plugins/lsp-config.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76377634ff49648e18b85207d5f68b4b88ef1c39",
+    "size": 1781,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/76377634ff49648e18b85207d5f68b4b88ef1c39"
+  },
+  {
+    "path": "lua/config/plugins/lualine.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f40e637ca340b36fe38d94df8504ffe49913770a",
+    "size": 5311,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/f40e637ca340b36fe38d94df8504ffe49913770a"
+  },
+  {
+    "path": "lua/config/plugins/mini.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4fb91af2a456dd7535349643bd3b549dce3981fd",
+    "size": 357,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/4fb91af2a456dd7535349643bd3b549dce3981fd"
+  },
+  {
+    "path": "lua/config/plugins/myplugs.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58561462c4d8986e760878910730128b4d41d921",
+    "size": 380,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/58561462c4d8986e760878910730128b4d41d921"
+  },
+  {
+    "path": "lua/config/plugins/noice.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c998ae95053e23ea39419d6e063061cb9f76754",
+    "size": 3045,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/1c998ae95053e23ea39419d6e063061cb9f76754"
+  },
+  {
+    "path": "lua/config/plugins/oil.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07bbe598476cb0cc4b825341594656a87a838b52",
+    "size": 218,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/07bbe598476cb0cc4b825341594656a87a838b52"
+  },
+  {
+    "path": "lua/config/plugins/telescope.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4cbab42254ada6a916eac72b504b72949dcbe70",
+    "size": 1553,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/a4cbab42254ada6a916eac72b504b72949dcbe70"
+  },
+  {
+    "path": "lua/config/plugins/transperent.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4053da5aedfb78d55958f172d4672d94854382f0",
+    "size": 609,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/4053da5aedfb78d55958f172d4672d94854382f0"
+  },
+  {
+    "path": "lua/config/plugins/treesitter.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "732b93e574541e257cbd18e39d72c8529ab42ae5",
+    "size": 796,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/732b93e574541e257cbd18e39d72c8529ab42ae5"
+  },
+  {
+    "path": "lua/config/plugins/undotree.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cee1bbf8e38be27c2be0a8cf45e69a379ec46613",
+    "size": 273,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/cee1bbf8e38be27c2be0a8cf45e69a379ec46613"
+  },
+  {
+    "path": "lua/config/plugins/whichkey.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69692176b4f5ccb25d08372a80c1afb84cfb32d",
+    "size": 1700,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/e69692176b4f5ccb25d08372a80c1afb84cfb32d"
+  },
+  {
+    "path": "lua/config/telescope",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9f33835661f28a49103a3cb9b1cf7a9cb6611875",
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/trees/9f33835661f28a49103a3cb9b1cf7a9cb6611875"
+  },
+  {
+    "path": "lua/config/telescope/multigrep.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88b5d3e55166c01e937e8f45e1897a2f64ba01de",
+    "size": 1332,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/88b5d3e55166c01e937e8f45e1897a2f64ba01de"
+  },
+  {
+    "path": "lua/keymap.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e9ac69d2f5a6e138923d49f2836327e90f4b410",
+    "size": 517,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/5e9ac69d2f5a6e138923d49f2836327e90f4b410"
+  },
+  {
+    "path": "plugin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2c080c97e73a0b109f03432481f7345792aad30a",
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/trees/2c080c97e73a0b109f03432481f7345792aad30a"
+  },
+  {
+    "path": "plugin/floaterminal.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bee3f05a7384ec5325aeca6fda838d67279f8555",
+    "size": 1364,
+    "url": "https://api.github.com/repos/Rimkomatic/Re-Nvim/git/blobs/bee3f05a7384ec5325aeca6fda838d67279f8555"
+  }
+]

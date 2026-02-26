@@ -1,0 +1,96 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+    "size": 35149,
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7ef34f75565683586dce6a65d9d95cb212ed0a5",
+    "size": 434,
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/blobs/d7ef34f75565683586dce6a65d9d95cb212ed0a5"
+  },
+  {
+    "path": "images",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17f129cff02bc654c90c246af7d21e36404786e8",
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/trees/17f129cff02bc654c90c246af7d21e36404786e8"
+  },
+  {
+    "path": "images/banner.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d66f47bc01b829ea27e2c246d239cc3cef3a960",
+    "size": 44943,
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/blobs/0d66f47bc01b829ea27e2c246d239cc3cef3a960"
+  },
+  {
+    "path": "images/definition.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0fa560e62d6b66c0543512855fd734339322406",
+    "size": 142420,
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/blobs/d0fa560e62d6b66c0543512855fd734339322406"
+  },
+  {
+    "path": "images/kitty-colortest.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d52a905cb23e51dcc65c81be52019bc150183451",
+    "size": 19336,
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/blobs/d52a905cb23e51dcc65c81be52019bc150183451"
+  },
+  {
+    "path": "images/nvim-screenshot-tracing-instrumented-error-example.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c488670f6d8c5389876a72826c4ee7c606ce7820",
+    "size": 151143,
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/blobs/c488670f6d8c5389876a72826c4ee7c606ce7820"
+  },
+  {
+    "path": "pfil.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bac7acdc9f38b87adbcf8bbb0879217568b42f1",
+    "size": 21174,
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/blobs/1bac7acdc9f38b87adbcf8bbb0879217568b42f1"
+  },
+  {
+    "path": "theme.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb452e41a83ccb753b3e9db9acb904990279eecb",
+    "size": 3026,
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/blobs/eb452e41a83ccb753b3e9db9acb904990279eecb"
+  },
+  {
+    "path": "util",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0ad42d8912130b3d8e7e74ef93dfde91e15b44c",
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/trees/b0ad42d8912130b3d8e7e74ef93dfde91e15b44c"
+  },
+  {
+    "path": "util/colortest",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "56e3ca93a53dce7a43d679f483b7eab178b92e6f",
+    "size": 909,
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/blobs/56e3ca93a53dce7a43d679f483b7eab178b92e6f"
+  },
+  {
+    "path": "util/colorview",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "2b98b13a1ec6d9113142043fb2820b307e832d60",
+    "size": 1470,
+    "url": "https://api.github.com/repos/cratelyn/pfil/git/blobs/2b98b13a1ec6d9113142043fb2820b307e832d60"
+  }
+]

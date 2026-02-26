@@ -1,0 +1,71 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c4afabdb632b5d68e60c9fe9fe0b0819676a729",
+    "size": 6556,
+    "url": "https://api.github.com/repos/ParadiseOfMagic/Alienocean.nvim/git/blobs/2c4afabdb632b5d68e60c9fe9fe0b0819676a729"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d867da322bdd816bf9cc9e4c519c78d51337857a",
+    "size": 1762,
+    "url": "https://api.github.com/repos/ParadiseOfMagic/Alienocean.nvim/git/blobs/d867da322bdd816bf9cc9e4c519c78d51337857a"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "55f81450044cf5fe749c5acdec547298e054591d",
+    "url": "https://api.github.com/repos/ParadiseOfMagic/Alienocean.nvim/git/trees/55f81450044cf5fe749c5acdec547298e054591d"
+  },
+  {
+    "path": "colors/Alienocean.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a9e67dbb08fb582874144d6ed9761a429eb23f2",
+    "size": 29,
+    "url": "https://api.github.com/repos/ParadiseOfMagic/Alienocean.nvim/git/blobs/4a9e67dbb08fb582874144d6ed9761a429eb23f2"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "009d7e7d4a134e857ae66305798826d4c5a8a50f",
+    "url": "https://api.github.com/repos/ParadiseOfMagic/Alienocean.nvim/git/trees/009d7e7d4a134e857ae66305798826d4c5a8a50f"
+  },
+  {
+    "path": "lua/Alienocean",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f361acbb297d26e5ff287ceeb7e78c7551b067f9",
+    "url": "https://api.github.com/repos/ParadiseOfMagic/Alienocean.nvim/git/trees/f361acbb297d26e5ff287ceeb7e78c7551b067f9"
+  },
+  {
+    "path": "lua/Alienocean/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2afc9f1be48025fe87b9f2fd9e4269722fa981e",
+    "size": 1518,
+    "url": "https://api.github.com/repos/ParadiseOfMagic/Alienocean.nvim/git/blobs/d2afc9f1be48025fe87b9f2fd9e4269722fa981e"
+  },
+  {
+    "path": "lua/Alienocean/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "802bbb518220fa18a49898558189f8f3e66a1b42",
+    "size": 311,
+    "url": "https://api.github.com/repos/ParadiseOfMagic/Alienocean.nvim/git/blobs/802bbb518220fa18a49898558189f8f3e66a1b42"
+  },
+  {
+    "path": "lua/Alienocean/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d5014e5c432da3de92e36d30b2fa370b13e072c",
+    "size": 27504,
+    "url": "https://api.github.com/repos/ParadiseOfMagic/Alienocean.nvim/git/blobs/1d5014e5c432da3de92e36d30b2fa370b13e072c"
+  }
+]

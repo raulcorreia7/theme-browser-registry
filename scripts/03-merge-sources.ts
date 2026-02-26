@@ -82,8 +82,10 @@ function readJson<T>(filePath: string): T | null {
   return JSON.parse(readFileSync(filePath, "utf-8")) as T;
 }
 
+const JSON_INDENT = 2;
+
 function writeJson(filePath: string, data: unknown): void {
-  writeFileSync(filePath, JSON.stringify(data, null, 2) + "\n", "utf-8");
+  writeFileSync(filePath, JSON.stringify(data, null, JSON_INDENT) + "\n", "utf-8");
 }
 
 function merge(): void {

@@ -1,0 +1,41 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "284a8202839002054b6e6b40e99ddf7e9687402a",
+    "size": 1112,
+    "url": "https://api.github.com/repos/pebeto/dookie.nvim/git/blobs/284a8202839002054b6e6b40e99ddf7e9687402a"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "713c1dd8ad31310ed80429c1cd8134578a5d3cba",
+    "size": 522,
+    "url": "https://api.github.com/repos/pebeto/dookie.nvim/git/blobs/713c1dd8ad31310ed80429c1cd8134578a5d3cba"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b943c263caede1b230b13ac88f3fd3ef75e8016f",
+    "url": "https://api.github.com/repos/pebeto/dookie.nvim/git/trees/b943c263caede1b230b13ac88f3fd3ef75e8016f"
+  },
+  {
+    "path": "colors/dookie.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3fe4b5f0bca170e9bfb2fb32435d6a25d595d6d",
+    "size": 6692,
+    "url": "https://api.github.com/repos/pebeto/dookie.nvim/git/blobs/a3fe4b5f0bca170e9bfb2fb32435d6a25d595d6d"
+  },
+  {
+    "path": "screenshot.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e3440ac89ebb6cb2ccde5363002a5243158b062",
+    "size": 204481,
+    "url": "https://api.github.com/repos/pebeto/dookie.nvim/git/blobs/4e3440ac89ebb6cb2ccde5363002a5243158b062"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc",
+    "size": 35141,
+    "url": "https://api.github.com/repos/theJian/vim-fethoi/git/blobs/9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5561b488208c997b649d0ed8a663599fe0565386",
+    "size": 1071,
+    "url": "https://api.github.com/repos/theJian/vim-fethoi/git/blobs/5561b488208c997b649d0ed8a663599fe0565386"
+  },
+  {
+    "path": "assets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "06f81ee1aab1e852455335e9061571c7d109bb73",
+    "url": "https://api.github.com/repos/theJian/vim-fethoi/git/trees/06f81ee1aab1e852455335e9061571c7d109bb73"
+  },
+  {
+    "path": "assets/palette.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e61c09bfd8f047f8e22c6a7bd5b04e1143a9d10c",
+    "size": 24828,
+    "url": "https://api.github.com/repos/theJian/vim-fethoi/git/blobs/e61c09bfd8f047f8e22c6a7bd5b04e1143a9d10c"
+  },
+  {
+    "path": "assets/screenshot.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbf7b6998a24b287304c331a35081e48005eec6d",
+    "size": 135730,
+    "url": "https://api.github.com/repos/theJian/vim-fethoi/git/blobs/dbf7b6998a24b287304c331a35081e48005eec6d"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5fa91d470027421b3ef0da2cba7b13742247c03f",
+    "url": "https://api.github.com/repos/theJian/vim-fethoi/git/trees/5fa91d470027421b3ef0da2cba7b13742247c03f"
+  },
+  {
+    "path": "colors/fethoi.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8e1736dd785b78eacde130229e296c31acdc57a",
+    "size": 6405,
+    "url": "https://api.github.com/repos/theJian/vim-fethoi/git/blobs/f8e1736dd785b78eacde130229e296c31acdc57a"
+  }
+]

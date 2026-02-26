@@ -1,0 +1,79 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94c83d86de59acb764ed45787dd1232ffa36f4d6",
+    "size": 1070,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-dark.nvim/git/blobs/94c83d86de59acb764ed45787dd1232ffa36f4d6"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "430f927e1080d55f39dff1af68ac50b8ee377db1",
+    "size": 60,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-dark.nvim/git/blobs/430f927e1080d55f39dff1af68ac50b8ee377db1"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c825162ee1201af78df7d25628b36d416afa1b6",
+    "size": 1134,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-dark.nvim/git/blobs/3c825162ee1201af78df7d25628b36d416afa1b6"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4300ebecab1bf456cef033d8743b07d2fa88d182",
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-dark.nvim/git/trees/4300ebecab1bf456cef033d8743b07d2fa88d182"
+  },
+  {
+    "path": "colors/ring0dark.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db6b4eff452c4750c671129c17034b3309bd3209",
+    "size": 73,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-dark.nvim/git/blobs/db6b4eff452c4750c671129c17034b3309bd3209"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f4bac47471cbf98c62c3367fe409069d021b0ca",
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-dark.nvim/git/trees/4f4bac47471cbf98c62c3367fe409069d021b0ca"
+  },
+  {
+    "path": "lua/ring0dark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d2f41b649fce61d6b88ad616cbb29c3796607138",
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-dark.nvim/git/trees/d2f41b649fce61d6b88ad616cbb29c3796607138"
+  },
+  {
+    "path": "lua/ring0dark/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce48512ef3dee437d072461b35b60b662f045b52",
+    "size": 301,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-dark.nvim/git/blobs/ce48512ef3dee437d072461b35b60b662f045b52"
+  },
+  {
+    "path": "lua/ring0dark/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f372c3362975b94c7fbfa303e40526dcf29a9abd",
+    "size": 312,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-dark.nvim/git/blobs/f372c3362975b94c7fbfa303e40526dcf29a9abd"
+  },
+  {
+    "path": "lua/ring0dark/theme.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e1537f8b2a80d42d1944aebf166c802319bd189",
+    "size": 1677,
+    "url": "https://api.github.com/repos/ring0-rootkit/ring0-dark.nvim/git/blobs/7e1537f8b2a80d42d1944aebf166c802319bd189"
+  }
+]

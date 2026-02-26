@@ -1,0 +1,65 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2416a8d9eeb4381d25d36320528356b288b835db",
+    "size": 105,
+    "url": "https://api.github.com/repos/meain/hima-vim/git/blobs/2416a8d9eeb4381d25d36320528356b288b835db"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5ead2b58c51d8bae9bfd2aa1a0a2187d1ad8e06",
+    "size": 1026,
+    "url": "https://api.github.com/repos/meain/hima-vim/git/blobs/b5ead2b58c51d8bae9bfd2aa1a0a2187d1ad8e06"
+  },
+  {
+    "path": "autoshot.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bb7f91c3d274fba22731f3f38a753b25d12833e",
+    "size": 905,
+    "url": "https://api.github.com/repos/meain/hima-vim/git/blobs/2bb7f91c3d274fba22731f3f38a753b25d12833e"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f103c8e01047a695544f05c22a4cd5c93e168ef6",
+    "url": "https://api.github.com/repos/meain/hima-vim/git/trees/f103c8e01047a695544f05c22a4cd5c93e168ef6"
+  },
+  {
+    "path": "colors/hima-dark.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7ad761c316139c4f3027f17b59ec16deec6a4a1",
+    "size": 3703,
+    "url": "https://api.github.com/repos/meain/hima-vim/git/blobs/d7ad761c316139c4f3027f17b59ec16deec6a4a1"
+  },
+  {
+    "path": "colors/hima-plain-dark.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1427cbb22316ac25f5766238c4f79ff0dfe0984",
+    "size": 3661,
+    "url": "https://api.github.com/repos/meain/hima-vim/git/blobs/c1427cbb22316ac25f5766238c4f79ff0dfe0984"
+  },
+  {
+    "path": "colors/hima-plain.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9cf11a67fd3e23cca32058a1ca15c8d537a3446",
+    "size": 3745,
+    "url": "https://api.github.com/repos/meain/hima-vim/git/blobs/c9cf11a67fd3e23cca32058a1ca15c8d537a3446"
+  },
+  {
+    "path": "colors/hima.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62d3bf70b5b55b0d7d0886ee37acc355d18354d6",
+    "size": 3840,
+    "url": "https://api.github.com/repos/meain/hima-vim/git/blobs/62d3bf70b5b55b0d7d0886ee37acc355d18354d6"
+  }
+]

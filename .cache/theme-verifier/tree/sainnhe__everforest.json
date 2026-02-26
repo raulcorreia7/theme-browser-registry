@@ -1,0 +1,213 @@
+[
+  {
+    "path": ".githooks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "56a19a14655a5e4d21d0e14d069af2fceb508ed6",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/56a19a14655a5e4d21d0e14d069af2fceb508ed6"
+  },
+  {
+    "path": ".githooks/pre-commit",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "37fabd7372319c19008d991d3b3968364cdfa9ba",
+    "size": 770,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/37fabd7372319c19008d991d3b3968364cdfa9ba"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c05ac3af016bb934dfb8a4fdc46f48c3f1af7a76",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/c05ac3af016bb934dfb8a4fdc46f48c3f1af7a76"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d760f1edbda8378ac5f47a6d0d00f3dbeec98dd3",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/d760f1edbda8378ac5f47a6d0d00f3dbeec98dd3"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report_gui.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c8d95832d3284ff943903abbc75321844e6a9c6",
+    "size": 2432,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/7c8d95832d3284ff943903abbc75321844e6a9c6"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report_tui.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e38d8cef05833c26feb3a342f5df703bb38231d5",
+    "size": 2836,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/e38d8cef05833c26feb3a342f5df703bb38231d5"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/config.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0086358db1eb971c0cfa8739c27518bbc18a5ff4",
+    "size": 27,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/0086358db1eb971c0cfa8739c27518bbc18a5ff4"
+  },
+  {
+    "path": ".github/pull_request_template.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b37c983cf290f25f16b3d5c9fef69ff7969559c9",
+    "size": 347,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/b37c983cf290f25f16b3d5c9fef69ff7969559c9"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6faebdfbcd887c7b5f4cbbb16ec795b9e2207ddd",
+    "size": 119,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/6faebdfbcd887c7b5f4cbbb16ec795b9e2207ddd"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "546ed63436d1f30a9b06115f1b6b0e94a352ae22",
+    "size": 1064,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/546ed63436d1f30a9b06115f1b6b0e94a352ae22"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f36cf9908858dc5359bedf637dcba80733a591a",
+    "size": 4631,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/4f36cf9908858dc5359bedf637dcba80733a591a"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "addfe648b63d861956a484a20144fafa65085ff4",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/addfe648b63d861956a484a20144fafa65085ff4"
+  },
+  {
+    "path": "autoload/airline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd5e0d51f2a965276b76e1fa0a48c28a92883b5e",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/fd5e0d51f2a965276b76e1fa0a48c28a92883b5e"
+  },
+  {
+    "path": "autoload/airline/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "33f3862c9cdf8b4be327d8668af8e01979cea832",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/33f3862c9cdf8b4be327d8668af8e01979cea832"
+  },
+  {
+    "path": "autoload/airline/themes/everforest.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "423ce5cb05ac726ee2e174e836dbb496ed5aba7b",
+    "size": 14219,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/423ce5cb05ac726ee2e174e836dbb496ed5aba7b"
+  },
+  {
+    "path": "autoload/everforest.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e52a18c94aceb84e29b8c2687df3ee4b981b8eed",
+    "size": 14536,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/e52a18c94aceb84e29b8c2687df3ee4b981b8eed"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "988b2b5218ec2d4ab30fcd813c5fe44dec8b60ef",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/988b2b5218ec2d4ab30fcd813c5fe44dec8b60ef"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b9021fa2f6c46689302aba0fc1f68394a1e0466",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/3b9021fa2f6c46689302aba0fc1f68394a1e0466"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/everforest.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b62a57bc40a67120bec4a1db9b2af16a37502052",
+    "size": 7762,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/b62a57bc40a67120bec4a1db9b2af16a37502052"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f0b250eb8c62de748c42e347f78eee0a9fe75aa",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/8f0b250eb8c62de748c42e347f78eee0a9fe75aa"
+  },
+  {
+    "path": "colors/everforest.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b36f02d9db8d5447cfb3b98db2ae536be9dd5c4",
+    "size": 143803,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/2b36f02d9db8d5447cfb3b98db2ae536be9dd5c4"
+  },
+  {
+    "path": "doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c264c56edc7bcf6eb5885ea3092003a8b286694",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/7c264c56edc7bcf6eb5885ea3092003a8b286694"
+  },
+  {
+    "path": "doc/everforest.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fd3564ed63ad2c453b6d7d4725a333698e2d6b4",
+    "size": 24487,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/1fd3564ed63ad2c453b6d7d4725a333698e2d6b4"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7eb1fe6c5889dc74987464fb3d8e986849f76613",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/7eb1fe6c5889dc74987464fb3d8e986849f76613"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0d68e1f47867094d5be83a7b8367a7466fc3abea",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/0d68e1f47867094d5be83a7b8367a7466fc3abea"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8323ff15029ac4f89fdc102860e04ad6f1d3d837",
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/trees/8323ff15029ac4f89fdc102860e04ad6f1d3d837"
+  },
+  {
+    "path": "lua/lualine/themes/everforest.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae57b44ef7249750657e5ae13809bb48ccf34d16",
+    "size": 1919,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/ae57b44ef7249750657e5ae13809bb48ccf34d16"
+  },
+  {
+    "path": "palette.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d87b402ba299e864820dd3a42067e0ad45d2e7d5",
+    "size": 21927,
+    "url": "https://api.github.com/repos/sainnhe/everforest/git/blobs/d87b402ba299e864820dd3a42067e0ad45d2e7d5"
+  }
+]

@@ -1,0 +1,1447 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8902d98e8a58ee19e608e0e285038306edae9501",
+    "size": 1976,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/8902d98e8a58ee19e608e0e285038306edae9501"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09f4635d3fcd05e215cb5c99aa4bb3385b6ab330",
+    "size": 25,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/09f4635d3fcd05e215cb5c99aa4bb3385b6ab330"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "163a45516888f264e14aebb935c351b2714ad57f",
+    "size": 692,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/163a45516888f264e14aebb935c351b2714ad57f"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7971d48f3677fdbd47799a35f45345fdbd8b9074",
+    "size": 23837,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/7971d48f3677fdbd47799a35f45345fdbd8b9074"
+  },
+  {
+    "path": "after",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c60c39571ee44ae724578368e7b9b77de35cf539",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/c60c39571ee44ae724578368e7b9b77de35cf539"
+  },
+  {
+    "path": "after/queries",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "964d6ada03b6fbf43020ab8e597632262e4c52ca",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/964d6ada03b6fbf43020ab8e597632262e4c52ca"
+  },
+  {
+    "path": "after/queries/bash",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "13e2e286890b5b5c5c2117a022814e80cbd03350",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/13e2e286890b5b5c5c2117a022814e80cbd03350"
+  },
+  {
+    "path": "after/queries/bash/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e462663dd7cf16b6e200ed319b6cf0397eb5b43f",
+    "size": 516,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/e462663dd7cf16b6e200ed319b6cf0397eb5b43f"
+  },
+  {
+    "path": "after/queries/c",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e14827c33a097c4457749dee1ea98183ca922aca",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/e14827c33a097c4457749dee1ea98183ca922aca"
+  },
+  {
+    "path": "after/queries/c/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "617ab4cb8c96bfe4c2e13b9b7ef89e672d39e0bd",
+    "size": 835,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/617ab4cb8c96bfe4c2e13b9b7ef89e672d39e0bd"
+  },
+  {
+    "path": "after/queries/c_sharp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a5931a2026f76fe51569b9e366898574e4c76c7c",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/a5931a2026f76fe51569b9e366898574e4c76c7c"
+  },
+  {
+    "path": "after/queries/c_sharp/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d37f74ce9e1aa2359df52bcaac39c715310a233",
+    "size": 1787,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/8d37f74ce9e1aa2359df52bcaac39c715310a233"
+  },
+  {
+    "path": "after/queries/c_sharp/injections.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8eff2da5d56aa0fe9eb54c8a63458bd4e2458746",
+    "size": 186,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/8eff2da5d56aa0fe9eb54c8a63458bd4e2458746"
+  },
+  {
+    "path": "after/queries/css",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "27f18116765d05f2c6220f254e02021816c675fd",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/27f18116765d05f2c6220f254e02021816c675fd"
+  },
+  {
+    "path": "after/queries/css/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed4ed6fdbbc71106ec6e6e8cbd1ab03f556ee346",
+    "size": 318,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/ed4ed6fdbbc71106ec6e6e8cbd1ab03f556ee346"
+  },
+  {
+    "path": "after/queries/devicetree",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "15b5902e2e99da6f4650f66219505a4ac3a0d4bd",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/15b5902e2e99da6f4650f66219505a4ac3a0d4bd"
+  },
+  {
+    "path": "after/queries/devicetree/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4327097dbacd1fc12e883364d2bfdeeb98570c4",
+    "size": 1038,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/d4327097dbacd1fc12e883364d2bfdeeb98570c4"
+  },
+  {
+    "path": "after/queries/dockerfile",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b1b40bc6414972e5fe586c6bf5144e02aa9b23b0",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/b1b40bc6414972e5fe586c6bf5144e02aa9b23b0"
+  },
+  {
+    "path": "after/queries/dockerfile/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f680edf090d4a935d16f2bcb643e0bedc4b7fa44",
+    "size": 1671,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/f680edf090d4a935d16f2bcb643e0bedc4b7fa44"
+  },
+  {
+    "path": "after/queries/fish",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc8d0863ed19afd26f231b27a4e2fdc8c6145d0d",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/bc8d0863ed19afd26f231b27a4e2fdc8c6145d0d"
+  },
+  {
+    "path": "after/queries/fish/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be6ba6248a2a1d6b0fd2d1ad540b7a629e00711a",
+    "size": 1644,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/be6ba6248a2a1d6b0fd2d1ad540b7a629e00711a"
+  },
+  {
+    "path": "after/queries/git_config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "999eca15544508895a5ec47df4dcf98f49a7116c",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/999eca15544508895a5ec47df4dcf98f49a7116c"
+  },
+  {
+    "path": "after/queries/git_config/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf11e853a04ce0a0a58fbe1ad21971a1e4f4b4b6",
+    "size": 72,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/cf11e853a04ce0a0a58fbe1ad21971a1e4f4b4b6"
+  },
+  {
+    "path": "after/queries/git_rebase",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3a9ac873de92641b9e801c2162d654955dea5d71",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/3a9ac873de92641b9e801c2162d654955dea5d71"
+  },
+  {
+    "path": "after/queries/git_rebase/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "070bb55b0661a2df419f3746080ca0a6b039c60a",
+    "size": 382,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/070bb55b0661a2df419f3746080ca0a6b039c60a"
+  },
+  {
+    "path": "after/queries/git_rebase/injections.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b08c75778ae7a88999d1ddcf7c05a0a4dafbc65e",
+    "size": 307,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/b08c75778ae7a88999d1ddcf7c05a0a4dafbc65e"
+  },
+  {
+    "path": "after/queries/gitignore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bee195acdb5103398c1b13358f9b6c68b296a039",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/bee195acdb5103398c1b13358f9b6c68b296a039"
+  },
+  {
+    "path": "after/queries/gitignore/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "222f8d3f66cca6cb904ac998d3c698823859c965",
+    "size": 155,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/222f8d3f66cca6cb904ac998d3c698823859c965"
+  },
+  {
+    "path": "after/queries/gleam",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3756ea723a8eeb57b91435aa05609aca670c87b",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/f3756ea723a8eeb57b91435aa05609aca670c87b"
+  },
+  {
+    "path": "after/queries/gleam/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "115f738723d67b92e57396759b761e42d0f27c91",
+    "size": 510,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/115f738723d67b92e57396759b761e42d0f27c91"
+  },
+  {
+    "path": "after/queries/go",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d9e99a793e9d1f511b7fd7b413a259096965c4aa",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/d9e99a793e9d1f511b7fd7b413a259096965c4aa"
+  },
+  {
+    "path": "after/queries/go/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f2c321b75fec6bb20516236c24a8d57ead56154",
+    "size": 405,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/2f2c321b75fec6bb20516236c24a8d57ead56154"
+  },
+  {
+    "path": "after/queries/gomod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bdb93d9e8e5d2d9bea6ca9012c8cb3bdecd2232b",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/bdb93d9e8e5d2d9bea6ca9012c8cb3bdecd2232b"
+  },
+  {
+    "path": "after/queries/gomod/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2f930f5d0430ef88ac77a9b335384a527e56d0e",
+    "size": 216,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/d2f930f5d0430ef88ac77a9b335384a527e56d0e"
+  },
+  {
+    "path": "after/queries/gotmpl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e28a789eea008044bc8cb8dda0b5d450f2ec7821",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/e28a789eea008044bc8cb8dda0b5d450f2ec7821"
+  },
+  {
+    "path": "after/queries/gotmpl/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bae569fc42b8c75842d7496c240609dd954bdfd",
+    "size": 482,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/2bae569fc42b8c75842d7496c240609dd954bdfd"
+  },
+  {
+    "path": "after/queries/hcl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3e9bbf16de90c6be3aeb36dcda36704866a1deb9",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/3e9bbf16de90c6be3aeb36dcda36704866a1deb9"
+  },
+  {
+    "path": "after/queries/hcl/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0872266a919086b331289236f2f60a0aeefc1577",
+    "size": 590,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/0872266a919086b331289236f2f60a0aeefc1577"
+  },
+  {
+    "path": "after/queries/html",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "39a17ccc5dacc63719440bfcd5572af404ec886c",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/39a17ccc5dacc63719440bfcd5572af404ec886c"
+  },
+  {
+    "path": "after/queries/html/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51f91402946cc1c693683ab1d2a94d6a7ea4ef53",
+    "size": 603,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/51f91402946cc1c693683ab1d2a94d6a7ea4ef53"
+  },
+  {
+    "path": "after/queries/ini",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e57b1194db074d360c8b8a43bd85134fd2f47aed",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/e57b1194db074d360c8b8a43bd85134fd2f47aed"
+  },
+  {
+    "path": "after/queries/ini/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "693348067f3de2da9bf6af28bf5b25492636dac9",
+    "size": 69,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/693348067f3de2da9bf6af28bf5b25492636dac9"
+  },
+  {
+    "path": "after/queries/java",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c7f2d7119bb9dbb796382f037e5772f57ac2e53b",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/c7f2d7119bb9dbb796382f037e5772f57ac2e53b"
+  },
+  {
+    "path": "after/queries/java/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0eb4eb97496e2af517ad4ae8d178a2b608db849d",
+    "size": 535,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/0eb4eb97496e2af517ad4ae8d178a2b608db849d"
+  },
+  {
+    "path": "after/queries/javascript",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dd7c3fed2dda84b7ec8963c60c8e1c8e407c00e8",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/dd7c3fed2dda84b7ec8963c60c8e1c8e407c00e8"
+  },
+  {
+    "path": "after/queries/javascript/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25596ca4e0c909286366ac9bda716a1a51ba2447",
+    "size": 264,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/25596ca4e0c909286366ac9bda716a1a51ba2447"
+  },
+  {
+    "path": "after/queries/jq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d1b4d397e5ed085573bbbcd06db4958addd9f6b6",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/d1b4d397e5ed085573bbbcd06db4958addd9f6b6"
+  },
+  {
+    "path": "after/queries/jq/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "239761c9c310e176b09becb065d0e4775b91d1d8",
+    "size": 1445,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/239761c9c310e176b09becb065d0e4775b91d1d8"
+  },
+  {
+    "path": "after/queries/json5",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f449c77e7aab58b698918587acf40b9834c626fc",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/f449c77e7aab58b698918587acf40b9834c626fc"
+  },
+  {
+    "path": "after/queries/json5/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2b9cd54c791966da1ac6a43c28282a966627867",
+    "size": 302,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/b2b9cd54c791966da1ac6a43c28282a966627867"
+  },
+  {
+    "path": "after/queries/jsonnet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "53f529da0020a6477c180fd54be6fa4b2853662c",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/53f529da0020a6477c180fd54be6fa4b2853662c"
+  },
+  {
+    "path": "after/queries/jsonnet/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bf185e0f8e9c49186113a728b33cf256fdb41d3",
+    "size": 304,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/2bf185e0f8e9c49186113a728b33cf256fdb41d3"
+  },
+  {
+    "path": "after/queries/latex",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "44c64194ef2ee1d08aa5e81a8f59ad9b308da6a1",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/44c64194ef2ee1d08aa5e81a8f59ad9b308da6a1"
+  },
+  {
+    "path": "after/queries/latex/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b797fc1959da702e02a11237b4d40b75d32b3086",
+    "size": 243,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/b797fc1959da702e02a11237b4d40b75d32b3086"
+  },
+  {
+    "path": "after/queries/lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1ac4268482a278239ee705095dc9d0a6b115354c",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/1ac4268482a278239ee705095dc9d0a6b115354c"
+  },
+  {
+    "path": "after/queries/lua/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf520268f3be494d19028b9b6cfb706de39ddc62",
+    "size": 551,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/cf520268f3be494d19028b9b6cfb706de39ddc62"
+  },
+  {
+    "path": "after/queries/markdown",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ec9f2accbd8d67975223aea023dd3352efef97b3",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/ec9f2accbd8d67975223aea023dd3352efef97b3"
+  },
+  {
+    "path": "after/queries/markdown/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc66b0d8e11bf1f42355f422babd40e23eeee17f",
+    "size": 390,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/cc66b0d8e11bf1f42355f422babd40e23eeee17f"
+  },
+  {
+    "path": "after/queries/markdown_inline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4bed3224e70d9ced3a37d3f11643844aa5013d32",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/4bed3224e70d9ced3a37d3f11643844aa5013d32"
+  },
+  {
+    "path": "after/queries/markdown_inline/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c6a8c1c733360876ff8937766b8c898d483de2f",
+    "size": 336,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/3c6a8c1c733360876ff8937766b8c898d483de2f"
+  },
+  {
+    "path": "after/queries/mermaid",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "982cc9335dad6b0c6287482f488ef5832422c7ae",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/982cc9335dad6b0c6287482f488ef5832422c7ae"
+  },
+  {
+    "path": "after/queries/mermaid/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a779b1857a8a5dd23f61b1e0f4242c6d53a0dd7c",
+    "size": 63,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/a779b1857a8a5dd23f61b1e0f4242c6d53a0dd7c"
+  },
+  {
+    "path": "after/queries/nix",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "933fe15810431f84f670296a31ac458b7fe92e9a",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/933fe15810431f84f670296a31ac458b7fe92e9a"
+  },
+  {
+    "path": "after/queries/nix/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1927a49ba740a6a122363882b10e28f9807881be",
+    "size": 732,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/1927a49ba740a6a122363882b10e28f9807881be"
+  },
+  {
+    "path": "after/queries/nu",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3c6709dba998ddb08e571f572e176491c1dbe1f7",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/3c6709dba998ddb08e571f572e176491c1dbe1f7"
+  },
+  {
+    "path": "after/queries/nu/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a002ee3ddefb10ce6a8fd4a32314508da9a725a6",
+    "size": 546,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/a002ee3ddefb10ce6a8fd4a32314508da9a725a6"
+  },
+  {
+    "path": "after/queries/proto",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7117be150fe39202933df6e0ca7946966010ef68",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/7117be150fe39202933df6e0ca7946966010ef68"
+  },
+  {
+    "path": "after/queries/proto/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "add723e73901611036af4834831d27e54c57726f",
+    "size": 980,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/add723e73901611036af4834831d27e54c57726f"
+  },
+  {
+    "path": "after/queries/python",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d27697e5bf57f3f1b73d695d7460d8985c601a3c",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/d27697e5bf57f3f1b73d695d7460d8985c601a3c"
+  },
+  {
+    "path": "after/queries/python/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ae8c6c139a512713a2ba5f381e9f07827428c0c",
+    "size": 614,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/4ae8c6c139a512713a2ba5f381e9f07827428c0c"
+  },
+  {
+    "path": "after/queries/query",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2a72fd2513262fdb3af297c8cacd581784cbb13f",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/2a72fd2513262fdb3af297c8cacd581784cbb13f"
+  },
+  {
+    "path": "after/queries/query/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "920f02eb0addd8ca753f9da96101847deb5cb101",
+    "size": 428,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/920f02eb0addd8ca753f9da96101847deb5cb101"
+  },
+  {
+    "path": "after/queries/regex",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b37128f148bb0dfbfc299dc381274f844296f856",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/b37128f148bb0dfbfc299dc381274f844296f856"
+  },
+  {
+    "path": "after/queries/regex/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bd2745808fbe68ce83dbaef453b0984dedef4d6",
+    "size": 1004,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/2bd2745808fbe68ce83dbaef453b0984dedef4d6"
+  },
+  {
+    "path": "after/queries/rust",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f4fd282261860f22b7a394305a4795bad7aad6b8",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/f4fd282261860f22b7a394305a4795bad7aad6b8"
+  },
+  {
+    "path": "after/queries/rust/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d18c375c328e4ce9c5af0a0bc6bc4065a584ff6",
+    "size": 3439,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/1d18c375c328e4ce9c5af0a0bc6bc4065a584ff6"
+  },
+  {
+    "path": "after/queries/rust/injections.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e351076ed0ea35011a1157ac650cf9428becf468",
+    "size": 1791,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/e351076ed0ea35011a1157ac650cf9428becf468"
+  },
+  {
+    "path": "after/queries/sql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "545632339048b91c50b671b94804de8a4aaa88bb",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/545632339048b91c50b671b94804de8a4aaa88bb"
+  },
+  {
+    "path": "after/queries/sql/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1830c668851cc88d5d1222fb66f64c8ea839b059",
+    "size": 1095,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/1830c668851cc88d5d1222fb66f64c8ea839b059"
+  },
+  {
+    "path": "after/queries/terraform",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5021d1eccffa52e28cd5a13fde462c2c1d53ec07",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/5021d1eccffa52e28cd5a13fde462c2c1d53ec07"
+  },
+  {
+    "path": "after/queries/terraform/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9928289c3b0f5fccba284a78fa8e6427749dfb28",
+    "size": 2017,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/9928289c3b0f5fccba284a78fa8e6427749dfb28"
+  },
+  {
+    "path": "after/queries/toml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e4c406a45abe4948eb60aafcb27199da8f35f5d6",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/e4c406a45abe4948eb60aafcb27199da8f35f5d6"
+  },
+  {
+    "path": "after/queries/toml/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1835c5218ea2a53718170aa44f3d2dff15f95787",
+    "size": 386,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/1835c5218ea2a53718170aa44f3d2dff15f95787"
+  },
+  {
+    "path": "after/queries/tsx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03587aee8e4e2fda3b3dd1ef0eab322f2b54c3d2",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/03587aee8e4e2fda3b3dd1ef0eab322f2b54c3d2"
+  },
+  {
+    "path": "after/queries/tsx/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "661f697fb33f225fb1264afcf334b6fe284fc284",
+    "size": 69,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/661f697fb33f225fb1264afcf334b6fe284fc284"
+  },
+  {
+    "path": "after/queries/typescript",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "818ad6f2875cb960ae4c1777ed44562176ff1fde",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/818ad6f2875cb960ae4c1777ed44562176ff1fde"
+  },
+  {
+    "path": "after/queries/typescript/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b953ce4d93f70d3437c0692889fa7171824c098f",
+    "size": 679,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/b953ce4d93f70d3437c0692889fa7171824c098f"
+  },
+  {
+    "path": "after/queries/typescript/injections.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d2b82619be768c7acef9f8b1eff0b41144e831d",
+    "size": 621,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/9d2b82619be768c7acef9f8b1eff0b41144e831d"
+  },
+  {
+    "path": "after/queries/typst",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ec7c0d1d1dc093e596c01ea21149dd53fcd4e10b",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/ec7c0d1d1dc093e596c01ea21149dd53fcd4e10b"
+  },
+  {
+    "path": "after/queries/typst/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5217442b7445641f416777e4e9365e9cab993007",
+    "size": 5436,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/5217442b7445641f416777e4e9365e9cab993007"
+  },
+  {
+    "path": "after/queries/ungrammar",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3dc2d4dca5a620c32580c87a858dc796fbfd434f",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/3dc2d4dca5a620c32580c87a858dc796fbfd434f"
+  },
+  {
+    "path": "after/queries/ungrammar/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c3ddc40524997aae14b2499217417cd32ca24b3",
+    "size": 50,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/9c3ddc40524997aae14b2499217417cd32ca24b3"
+  },
+  {
+    "path": "after/queries/vim",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e995b76cea33202d41d1a284b8d87d55c1dd9f69",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/e995b76cea33202d41d1a284b8d87d55c1dd9f69"
+  },
+  {
+    "path": "after/queries/vim/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad4678a279f84ed521650a92fd3503100b1731fb",
+    "size": 749,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/ad4678a279f84ed521650a92fd3503100b1731fb"
+  },
+  {
+    "path": "after/queries/vimdoc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "959efae7fe7fc22e883f7d31d740984425274efa",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/959efae7fe7fc22e883f7d31d740984425274efa"
+  },
+  {
+    "path": "after/queries/vimdoc/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55c07235f5d2489b64d88aacfcdd16b922e25dde",
+    "size": 343,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/55c07235f5d2489b64d88aacfcdd16b922e25dde"
+  },
+  {
+    "path": "after/queries/xml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d22d5a2fc677bc5d0b51f345124ad126cd83585c",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/d22d5a2fc677bc5d0b51f345124ad126cd83585c"
+  },
+  {
+    "path": "after/queries/xml/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d08d9c8ebe99c02d678cf85c024ac8cee2c6cda",
+    "size": 204,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/9d08d9c8ebe99c02d678cf85c024ac8cee2c6cda"
+  },
+  {
+    "path": "after/queries/yaml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fa70c8486d94303c2c88c6d6f8bfb4efaeaa6c6f",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/fa70c8486d94303c2c88c6d6f8bfb4efaeaa6c6f"
+  },
+  {
+    "path": "after/queries/yaml/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "807945aeb8fbcc6ae52dd0f3a3deae72844352ac",
+    "size": 116,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/807945aeb8fbcc6ae52dd0f3a3deae72844352ac"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a6efebb4093364fe768c6b47566c1fd757375049",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/a6efebb4093364fe768c6b47566c1fd757375049"
+  },
+  {
+    "path": "colors/highlite-ayu.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9df15029fc78545145e953339044d320613b9fe7",
+    "size": 204,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/9df15029fc78545145e953339044d320613b9fe7"
+  },
+  {
+    "path": "colors/highlite-everforest.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85f8a509c3a1a14c24286def3485d1e8ed1bafee",
+    "size": 218,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/85f8a509c3a1a14c24286def3485d1e8ed1bafee"
+  },
+  {
+    "path": "colors/highlite-gruvbox-material.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cde6d15a469607e58a6cd869cd5096ef33644e0d",
+    "size": 230,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/cde6d15a469607e58a6cd869cd5096ef33644e0d"
+  },
+  {
+    "path": "colors/highlite-gruvbox.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fd3f68b86db6c4b073007406ba1098f112cd06c",
+    "size": 212,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/1fd3f68b86db6c4b073007406ba1098f112cd06c"
+  },
+  {
+    "path": "colors/highlite-iceberg.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc7514e975b8ab6bb7f2020d8845959f8e317d1a",
+    "size": 212,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/cc7514e975b8ab6bb7f2020d8845959f8e317d1a"
+  },
+  {
+    "path": "colors/highlite-molokai.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99f9ba7572360be4b178188ff4e7c3bf487ba8b6",
+    "size": 212,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/99f9ba7572360be4b178188ff4e7c3bf487ba8b6"
+  },
+  {
+    "path": "colors/highlite-papercolor.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "251e7050eddb1bd0640fc320b8161991c765782d",
+    "size": 218,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/251e7050eddb1bd0640fc320b8161991c765782d"
+  },
+  {
+    "path": "colors/highlite-seoul256-light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a8516612e91476c3cdc3f3e39090a82afc7ea86",
+    "size": 233,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/2a8516612e91476c3cdc3f3e39090a82afc7ea86"
+  },
+  {
+    "path": "colors/highlite-seoul256.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a658dae4324541eb1539ea564d378cf9e0b53cf",
+    "size": 215,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/8a658dae4324541eb1539ea564d378cf9e0b53cf"
+  },
+  {
+    "path": "colors/highlite-solarized8-flat.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06cff9e2bdc1d4af2d273cbc06b41ad2fcf5faa6",
+    "size": 228,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/06cff9e2bdc1d4af2d273cbc06b41ad2fcf5faa6"
+  },
+  {
+    "path": "colors/highlite-solarized8-high.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52408f9babd1161322fa352c15eb33de06739861",
+    "size": 228,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/52408f9babd1161322fa352c15eb33de06739861"
+  },
+  {
+    "path": "colors/highlite-solarized8-low.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00e52c4194e33e8cfcab6fcdb29c518825d9896c",
+    "size": 226,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/00e52c4194e33e8cfcab6fcdb29c518825d9896c"
+  },
+  {
+    "path": "colors/highlite-solarized8.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "387015610c52ee419fb105fbc547f46e813e9085",
+    "size": 218,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/387015610c52ee419fb105fbc547f46e813e9085"
+  },
+  {
+    "path": "colors/highlite-sonokai.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c88cc2679b6c7453dc38b436515cb0dea8bdf45c",
+    "size": 212,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/c88cc2679b6c7453dc38b436515cb0dea8bdf45c"
+  },
+  {
+    "path": "colors/highlite-tomorrow-night-blue.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8babaac8ae607e35ed2c4f50cfb695882dcb11f7",
+    "size": 236,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/8babaac8ae607e35ed2c4f50cfb695882dcb11f7"
+  },
+  {
+    "path": "colors/highlite-tomorrow-night-bright.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a9e8c468966a5edd7934bb900963b2bc08c186b",
+    "size": 240,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/9a9e8c468966a5edd7934bb900963b2bc08c186b"
+  },
+  {
+    "path": "colors/highlite-tomorrow-night-eighties.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cbaacd26b888b174f39b9a9ddb0211c01a6fbde7",
+    "size": 244,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/cbaacd26b888b174f39b9a9ddb0211c01a6fbde7"
+  },
+  {
+    "path": "colors/highlite-tomorrow-night.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "677388e3d903d023aff6fb0746a7f9b2f784425f",
+    "size": 226,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/677388e3d903d023aff6fb0746a7f9b2f784425f"
+  },
+  {
+    "path": "colors/highlite-tomorrow.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b0a3f2b44217cf3cf53dde0e6c24674e7b73fe2",
+    "size": 214,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/0b0a3f2b44217cf3cf53dde0e6c24674e7b73fe2"
+  },
+  {
+    "path": "colors/highlite.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a7ea6b4284463cb3eedaa3effe109de8c65a3d9",
+    "size": 206,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/4a7ea6b4284463cb3eedaa3effe109de8c65a3d9"
+  },
+  {
+    "path": "doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "89b77ab68e9c3a0e94531f8ce2087c6f6844f8fe",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/89b77ab68e9c3a0e94531f8ce2087c6f6844f8fe"
+  },
+  {
+    "path": "doc/advanced-usage.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "746f1d8f9add967931b55401194fb1529cd6fe56",
+    "size": 36923,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/746f1d8f9add967931b55401194fb1529cd6fe56"
+  },
+  {
+    "path": "doc/contributing.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5d106993cd757b065e29e8c3d841b0b5056c07f",
+    "size": 10502,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/b5d106993cd757b065e29e8c3d841b0b5056c07f"
+  },
+  {
+    "path": "doc/highlite.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64dda1f1a38333d25b33e1d4272769f8d73ab42a",
+    "size": 57174,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/64dda1f1a38333d25b33e1d4272769f8d73ab42a"
+  },
+  {
+    "path": "ftplugin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "68db3e8e8752f35aec0238de6fa24f62974cfc07",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/68db3e8e8752f35aec0238de6fa24f62974cfc07"
+  },
+  {
+    "path": "ftplugin/gotmpl.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62d7faee75787c4a9a9da9f891e58e97029fa645",
+    "size": 254,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/62d7faee75787c4a9a9da9f891e58e97029fa645"
+  },
+  {
+    "path": "ftplugin/nix.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c224ad23f37b0227d435ba42dfa3268e66bb601",
+    "size": 528,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/1c224ad23f37b0227d435ba42dfa3268e66bb601"
+  },
+  {
+    "path": "ftplugin/rust.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e359408c7fef1682239bd200312e6b83a9a1ec3",
+    "size": 530,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/5e359408c7fef1682239bd200312e6b83a9a1ec3"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e6af6655e03df2bd8589c965c35eca637d701f2e",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/e6af6655e03df2bd8589c965c35eca637d701f2e"
+  },
+  {
+    "path": "lua/highlite",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e4723061ca372ac11f6a16788b10957662e0d045",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/e4723061ca372ac11f6a16788b10957662e0d045"
+  },
+  {
+    "path": "lua/highlite/color",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "49b0f15dc6cb81d0b2888ff4cfb4e669f69c1af8",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/49b0f15dc6cb81d0b2888ff4cfb4e669f69c1af8"
+  },
+  {
+    "path": "lua/highlite/color/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b09b31486bcbba0a0e3596f018cf28cc2be680c4",
+    "size": 1764,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/b09b31486bcbba0a0e3596f018cf28cc2be680c4"
+  },
+  {
+    "path": "lua/highlite/color/palette",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fc981586478d981282ada363379ca45375ff2152",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/fc981586478d981282ada363379ca45375ff2152"
+  },
+  {
+    "path": "lua/highlite/color/palette/ayu.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c57554f9d9338c67dee78206593cad1d2caf3082",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/c57554f9d9338c67dee78206593cad1d2caf3082"
+  },
+  {
+    "path": "lua/highlite/color/palette/everforest.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e42ad5481f440fc67fdbdaa519c5d6779752d72",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/9e42ad5481f440fc67fdbdaa519c5d6779752d72"
+  },
+  {
+    "path": "lua/highlite/color/palette/gruvbox-material.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eadad21749afc362c57e7c97d2e806b7bf58b3c6",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/eadad21749afc362c57e7c97d2e806b7bf58b3c6"
+  },
+  {
+    "path": "lua/highlite/color/palette/gruvbox.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "538aacc05a19b9f44283279047a18e72f2e6d23e",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/538aacc05a19b9f44283279047a18e72f2e6d23e"
+  },
+  {
+    "path": "lua/highlite/color/palette/highlite.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ec4cab4fb4dfd52086a6252beba5da0222937c6",
+    "size": 5943,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/2ec4cab4fb4dfd52086a6252beba5da0222937c6"
+  },
+  {
+    "path": "lua/highlite/color/palette/iceberg.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25860967fd23c077e0348f8e8ac70b1d5b8e06c7",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/25860967fd23c077e0348f8e8ac70b1d5b8e06c7"
+  },
+  {
+    "path": "lua/highlite/color/palette/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50301b9d00b09ed8c4eb18d8953d9b036a5919de",
+    "size": 13402,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/50301b9d00b09ed8c4eb18d8953d9b036a5919de"
+  },
+  {
+    "path": "lua/highlite/color/palette/molokai.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba3e6b84ea2bd089ca36bbd68435b534be368e81",
+    "size": 5521,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/ba3e6b84ea2bd089ca36bbd68435b534be368e81"
+  },
+  {
+    "path": "lua/highlite/color/palette/papercolor.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "247415750aabd3e3027c11654252f87a827e85a3",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/247415750aabd3e3027c11654252f87a827e85a3"
+  },
+  {
+    "path": "lua/highlite/color/palette/seoul256-light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f37179a755db742c2a51e7f604e9da9cdaadf444",
+    "size": 5521,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/f37179a755db742c2a51e7f604e9da9cdaadf444"
+  },
+  {
+    "path": "lua/highlite/color/palette/seoul256.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f37179a755db742c2a51e7f604e9da9cdaadf444",
+    "size": 5521,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/f37179a755db742c2a51e7f604e9da9cdaadf444"
+  },
+  {
+    "path": "lua/highlite/color/palette/solarized8-flat.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9ff68de2f143f438697a223644878feccb2bc5c",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/e9ff68de2f143f438697a223644878feccb2bc5c"
+  },
+  {
+    "path": "lua/highlite/color/palette/solarized8-high.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29302db152bb8385bc18346c4901cdcad83a98c4",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/29302db152bb8385bc18346c4901cdcad83a98c4"
+  },
+  {
+    "path": "lua/highlite/color/palette/solarized8-low.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d03b7de0280270a4031abddc34e73ffe1514a106",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/d03b7de0280270a4031abddc34e73ffe1514a106"
+  },
+  {
+    "path": "lua/highlite/color/palette/solarized8.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa823b279d54e6505da946cbfb7a57c1c02e90aa",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/fa823b279d54e6505da946cbfb7a57c1c02e90aa"
+  },
+  {
+    "path": "lua/highlite/color/palette/sonokai.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43f045414e414b387c854df9debf8060fdefca00",
+    "size": 5745,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/43f045414e414b387c854df9debf8060fdefca00"
+  },
+  {
+    "path": "lua/highlite/color/palette/tomorrow-night-blue.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "973262f8b6582797e1896439967f6d593ff8fa32",
+    "size": 5143,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/973262f8b6582797e1896439967f6d593ff8fa32"
+  },
+  {
+    "path": "lua/highlite/color/palette/tomorrow-night-bright.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d998531079c844568a17c89d72fbc95a45cd3be",
+    "size": 5143,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/5d998531079c844568a17c89d72fbc95a45cd3be"
+  },
+  {
+    "path": "lua/highlite/color/palette/tomorrow-night-eighties.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0500aae034e902f8d7081723cd753bd23a3d8e54",
+    "size": 5143,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/0500aae034e902f8d7081723cd753bd23a3d8e54"
+  },
+  {
+    "path": "lua/highlite/color/palette/tomorrow-night.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7cf673cc5a0e70f4c4bc35425e2d217a1c364046",
+    "size": 5143,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/7cf673cc5a0e70f4c4bc35425e2d217a1c364046"
+  },
+  {
+    "path": "lua/highlite/color/palette/tomorrow.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05c2c576a8a402fb493d5596312566c0145f0640",
+    "size": 5143,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/05c2c576a8a402fb493d5596312566c0145f0640"
+  },
+  {
+    "path": "lua/highlite/color/palette/types.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e69f0990710b50fff92f0129c619f82a7b8b782",
+    "size": 1357,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/9e69f0990710b50fff92f0129c619f82a7b8b782"
+  },
+  {
+    "path": "lua/highlite/export",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "48f6e889df052fe57fb4c684fd673adda5d2a0ab",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/48f6e889df052fe57fb4c684fd673adda5d2a0ab"
+  },
+  {
+    "path": "lua/highlite/export/bat.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2c198444320460b12fd2eddcbc3e18259a21178",
+    "size": 37516,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/b2c198444320460b12fd2eddcbc3e18259a21178"
+  },
+  {
+    "path": "lua/highlite/export/fish.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78d05034b38e10a9cead219550228eba890ff15e",
+    "size": 6337,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/78d05034b38e10a9cead219550228eba890ff15e"
+  },
+  {
+    "path": "lua/highlite/export/ghostty.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97c7810d43208999fb7e1354ce916683bdfc2c2b",
+    "size": 1706,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/97c7810d43208999fb7e1354ce916683bdfc2c2b"
+  },
+  {
+    "path": "lua/highlite/export/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f28188dc989bcae5a2c9350173774d7a1a0710ed",
+    "size": 590,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/f28188dc989bcae5a2c9350173774d7a1a0710ed"
+  },
+  {
+    "path": "lua/highlite/export/native",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "00f3805cf137ab6f3d69bd59b5b63f8a3700afa7",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/00f3805cf137ab6f3d69bd59b5b63f8a3700afa7"
+  },
+  {
+    "path": "lua/highlite/export/native/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3922192fc0984fabdaa112f23eb039fbb40bb3a",
+    "size": 327,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/e3922192fc0984fabdaa112f23eb039fbb40bb3a"
+  },
+  {
+    "path": "lua/highlite/export/native/lua.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bf2daf2121eab32d0e71a209e290dde39c7d3fb",
+    "size": 3199,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/2bf2daf2121eab32d0e71a209e290dde39c7d3fb"
+  },
+  {
+    "path": "lua/highlite/export/native/vim.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f61aea2b186434a683da8ff98ae20c8870e4338",
+    "size": 5316,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/0f61aea2b186434a683da8ff98ae20c8870e4338"
+  },
+  {
+    "path": "lua/highlite/export/ripgrep.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d04cc9cf2ce4e0374553f3495d3fb756f1e15d1d",
+    "size": 3623,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/d04cc9cf2ce4e0374553f3495d3fb756f1e15d1d"
+  },
+  {
+    "path": "lua/highlite/export/types.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e1489df95e5a7f6a83d3b8b791fc2daa2c437ed4",
+    "size": 688,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/e1489df95e5a7f6a83d3b8b791fc2daa2c437ed4"
+  },
+  {
+    "path": "lua/highlite/export/util.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a01b3666c59a5e693c0705fb4cbaf63c188c87fe",
+    "size": 1426,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/a01b3666c59a5e693c0705fb4cbaf63c188c87fe"
+  },
+  {
+    "path": "lua/highlite/export/wezterm.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb18e1b7fd0befc64177a1bac638772de9fe0f36",
+    "size": 3627,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/fb18e1b7fd0befc64177a1bac638772de9fe0f36"
+  },
+  {
+    "path": "lua/highlite/fmt.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bc0f88cb7ea23a492a4b0eb8f10127625d176a3",
+    "size": 6059,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/1bc0f88cb7ea23a492a4b0eb8f10127625d176a3"
+  },
+  {
+    "path": "lua/highlite/fs.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52f34ee925eca39a5df924b0363c61aea3b17066",
+    "size": 4748,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/52f34ee925eca39a5df924b0363c61aea3b17066"
+  },
+  {
+    "path": "lua/highlite/groups",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0628af74d5d2964d54d64ecf7e4ac3669b958f51",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/0628af74d5d2964d54d64ecf7e4ac3669b958f51"
+  },
+  {
+    "path": "lua/highlite/groups/default.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3423ab74fcb6535c45a7ac8d505cad6090962f4f",
+    "size": 61295,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/3423ab74fcb6535c45a7ac8d505cad6090962f4f"
+  },
+  {
+    "path": "lua/highlite/groups/highlite.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5a36554c1707dfa91beeef8fbc9957f8e0e46a9",
+    "size": 741,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/d5a36554c1707dfa91beeef8fbc9957f8e0e46a9"
+  },
+  {
+    "path": "lua/highlite/groups/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1282b163d7db13ff9262361fc19b0d0d77bab9c4",
+    "size": 2559,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/1282b163d7db13ff9262361fc19b0d0d77bab9c4"
+  },
+  {
+    "path": "lua/highlite/groups/options.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c696d64663c9294e389bc69b91970e46d5ec8bd9",
+    "size": 1204,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/c696d64663c9294e389bc69b91970e46d5ec8bd9"
+  },
+  {
+    "path": "lua/highlite/groups/seoul256-light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c26da95af1f10e002e6c430e1790f263516e6310",
+    "size": 315,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/c26da95af1f10e002e6c430e1790f263516e6310"
+  },
+  {
+    "path": "lua/highlite/groups/seoul256.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb5ce5bc42b19b1aeddffc78f145340dd80c1d89",
+    "size": 389,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/bb5ce5bc42b19b1aeddffc78f145340dd80c1d89"
+  },
+  {
+    "path": "lua/highlite/groups/types.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ed8a6b915db97a51ffb6cb107ab0b6c4c7bc8eb",
+    "size": 1597,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/3ed8a6b915db97a51ffb6cb107ab0b6c4c7bc8eb"
+  },
+  {
+    "path": "lua/highlite/import",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "971ed724609f33090bfef60bdc21c33c73546c17",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/971ed724609f33090bfef60bdc21c33c73546c17"
+  },
+  {
+    "path": "lua/highlite/import/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f18a7cd9c539c2899ad1dbfa336761dbba750ba8",
+    "size": 6479,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/f18a7cd9c539c2899ad1dbfa336761dbba750ba8"
+  },
+  {
+    "path": "lua/highlite/import/native.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d159f802fea98987e6362b4e95bd3b02f5ca6555",
+    "size": 8001,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/d159f802fea98987e6362b4e95bd3b02f5ca6555"
+  },
+  {
+    "path": "lua/highlite/import/types.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d08c3f28086b812b095b26782ff016dc56d44f13",
+    "size": 331,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/d08c3f28086b812b095b26782ff016dc56d44f13"
+  },
+  {
+    "path": "lua/highlite/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b79e346cedaf935d06e8d2e5cd201037f42b16c9",
+    "size": 8794,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/b79e346cedaf935d06e8d2e5cd201037f42b16c9"
+  },
+  {
+    "path": "lua/highlite/nvim.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a5545d25bb06e18e16baeef72d28ddb7ab111aa",
+    "size": 1236,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/6a5545d25bb06e18e16baeef72d28ddb7ab111aa"
+  },
+  {
+    "path": "lua/highlite/table.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27d94b86e8c23b1023972fbdfde12f266cae8e25",
+    "size": 175,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/27d94b86e8c23b1023972fbdfde12f266cae8e25"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9d892772c9750f6f3c63f2a535568d1bb451cb46",
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/trees/9d892772c9750f6f3c63f2a535568d1bb451cb46"
+  },
+  {
+    "path": "scripts/docgen.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c74d638c99ae4a58a05a03048a4fe4f8575f7a7c",
+    "size": 412,
+    "url": "https://api.github.com/repos/Iron-E/nvim-highlite/git/blobs/c74d638c99ae4a58a05a03048a4fe4f8575f7a7c"
+  }
+]

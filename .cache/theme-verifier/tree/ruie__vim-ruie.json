@@ -1,0 +1,70 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
+    "size": 10,
+    "url": "https://api.github.com/repos/ruie/vim-ruie/git/blobs/e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "324d13a976ce823330333b8a7f81a6bcba50aaaa",
+    "size": 1084,
+    "url": "https://api.github.com/repos/ruie/vim-ruie/git/blobs/324d13a976ce823330333b8a7f81a6bcba50aaaa"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ac3c0667f6c2b8b0a506b847b0f8d92b46003ec",
+    "size": 72,
+    "url": "https://api.github.com/repos/ruie/vim-ruie/git/blobs/2ac3c0667f6c2b8b0a506b847b0f8d92b46003ec"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "63274083bc2e61ebd7655753daada7f32e303ff6",
+    "url": "https://api.github.com/repos/ruie/vim-ruie/git/trees/63274083bc2e61ebd7655753daada7f32e303ff6"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ff0cb222d5ec4e670466b95685539cf786f609c",
+    "url": "https://api.github.com/repos/ruie/vim-ruie/git/trees/2ff0cb222d5ec4e670466b95685539cf786f609c"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e36825b8bdeb3909fbef01a0d4d0d409f7df0ba8",
+    "url": "https://api.github.com/repos/ruie/vim-ruie/git/trees/e36825b8bdeb3909fbef01a0d4d0d409f7df0ba8"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/ruie.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d5ef375eed7165cab03166df26a450e2b530644",
+    "size": 10799,
+    "url": "https://api.github.com/repos/ruie/vim-ruie/git/blobs/8d5ef375eed7165cab03166df26a450e2b530644"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "643a510179c988839158b09b5d6626bdfc4b7191",
+    "url": "https://api.github.com/repos/ruie/vim-ruie/git/trees/643a510179c988839158b09b5d6626bdfc4b7191"
+  },
+  {
+    "path": "colors/ruie.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16ec3ed8e9fdc5573cd70c2fbebd821ff95dac17",
+    "size": 17923,
+    "url": "https://api.github.com/repos/ruie/vim-ruie/git/blobs/16ec3ed8e9fdc5573cd70c2fbebd821ff95dac17"
+  }
+]

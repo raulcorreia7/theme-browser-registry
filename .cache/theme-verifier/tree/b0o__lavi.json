@@ -1,0 +1,600 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e2a40a2429267d400baeaba5b42c490ab0619d1",
+    "size": 235,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/1e2a40a2429267d400baeaba5b42c490ab0619d1"
+  },
+  {
+    "path": ".envrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3550a30f2de389e537ee40ca5e64a77dc185c79b",
+    "size": 10,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/3550a30f2de389e537ee40ca5e64a77dc185c79b"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a44346bb919c2620b900f54b213ee05ad9a80745",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/a44346bb919c2620b900f54b213ee05ad9a80745"
+  },
+  {
+    "path": ".github/workflows",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fe08eb6c86f3a9d2710131e38cac49b2559f413a",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/fe08eb6c86f3a9d2710131e38cac49b2559f413a"
+  },
+  {
+    "path": ".github/workflows/generate.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a5be7dda75f58556d324197cb6097ee13487a3a",
+    "size": 2099,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/1a5be7dda75f58556d324197cb6097ee13487a3a"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4608ca35a7e5d8e3d5e3538e4e8fe4a7d9069941",
+    "size": 1884,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/4608ca35a7e5d8e3d5e3538e4e8fe4a7d9069941"
+  },
+  {
+    "path": "AGENTS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f4dfdac8d19e1b7e9d9678704fb187528d162e6",
+    "size": 9621,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/2f4dfdac8d19e1b7e9d9678704fb187528d162e6"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f286a5ee7d65bde315990b33f4f27cc392f6c69",
+    "size": 1075,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/9f286a5ee7d65bde315990b33f4f27cc392f6c69"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d00e2cbf73d0fc6962793ee0f9ba62b528c75c56",
+    "size": 9387,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/d00e2cbf73d0fc6962793ee0f9ba62b528c75c56"
+  },
+  {
+    "path": "build.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07a2daf11048c189a99515328eb8e701f3e1fcef",
+    "size": 5223,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/07a2daf11048c189a99515328eb8e701f3e1fcef"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3fdf9cb143b18d22aecf2f9bd24b84819f2106e",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/f3fdf9cb143b18d22aecf2f9bd24b84819f2106e"
+  },
+  {
+    "path": "colors/lavi.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69d3158c8862bd68cc1b0cb130529f2c90c89892",
+    "size": 19800,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/69d3158c8862bd68cc1b0cb130529f2c90c89892"
+  },
+  {
+    "path": "colors/lavi_dev.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49f15a0200b9be0c0c3ec7b519b9cc811199508c",
+    "size": 143,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/49f15a0200b9be0c0c3ec7b519b9cc811199508c"
+  },
+  {
+    "path": "contrib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b94e3317a32019fa3d197a0a84b288ad502c43d5",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/b94e3317a32019fa3d197a0a84b288ad502c43d5"
+  },
+  {
+    "path": "contrib/alacritty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c4b95586766b9adb82326055765eb3fe6fc2e71a",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/c4b95586766b9adb82326055765eb3fe6fc2e71a"
+  },
+  {
+    "path": "contrib/alacritty/lavi.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1ecd94106a9ca0864362797bf0a514ec25c72eb",
+    "size": 953,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/b1ecd94106a9ca0864362797bf0a514ec25c72eb"
+  },
+  {
+    "path": "contrib/base16",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4817704a423a1a706d9d2c83e131d96af9213c85",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/4817704a423a1a706d9d2c83e131d96af9213c85"
+  },
+  {
+    "path": "contrib/base16/lavi.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d43ad2a1dbd52e9e27403f9272e81be0a869154f",
+    "size": 496,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/d43ad2a1dbd52e9e27403f9272e81be0a869154f"
+  },
+  {
+    "path": "contrib/bottom",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f1c4b0936ff19a9fe78e85a614fa5fa0f99c159c",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/f1c4b0936ff19a9fe78e85a614fa5fa0f99c159c"
+  },
+  {
+    "path": "contrib/bottom/lavi.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0aee5fea60008071c2e8961dc1ddeb9fc6568cd",
+    "size": 1131,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/f0aee5fea60008071c2e8961dc1ddeb9fc6568cd"
+  },
+  {
+    "path": "contrib/btop",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e148f8989c22a98f6be09d839711af388357a3a",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/1e148f8989c22a98f6be09d839711af388357a3a"
+  },
+  {
+    "path": "contrib/btop/lavi.theme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1b46929f9b00756e1ccc9599cb7d1434ce97f8d",
+    "size": 1186,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/b1b46929f9b00756e1ccc9599cb7d1434ce97f8d"
+  },
+  {
+    "path": "contrib/clipse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fc70e6aad029a66da42709ec935779bee4fbf1fb",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/fc70e6aad029a66da42709ec935779bee4fbf1fb"
+  },
+  {
+    "path": "contrib/clipse/lavi.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57e6c76c7a5f71f4efa46f3c33f8261738b48a08",
+    "size": 737,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/57e6c76c7a5f71f4efa46f3c33f8261738b48a08"
+  },
+  {
+    "path": "contrib/dank-material-shell",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd09949756fb1449aee0759945dd066005643be5",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/fd09949756fb1449aee0759945dd066005643be5"
+  },
+  {
+    "path": "contrib/dank-material-shell/lavi.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692f2a7e9475cda840a0d1c90edce70b65a83b5b",
+    "size": 1269,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/692f2a7e9475cda840a0d1c90edce70b65a83b5b"
+  },
+  {
+    "path": "contrib/foot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ad837d68462723ed1aaf97468fbcc86042d45743",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/ad837d68462723ed1aaf97468fbcc86042d45743"
+  },
+  {
+    "path": "contrib/foot/lavi.ini",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41e92fceffe83fb13e586f942dc78831281c62a7",
+    "size": 325,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/41e92fceffe83fb13e586f942dc78831281c62a7"
+  },
+  {
+    "path": "contrib/ghostty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1c73a735917f87ec0b9280ca6478fbbef7481e2c",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/1c73a735917f87ec0b9280ca6478fbbef7481e2c"
+  },
+  {
+    "path": "contrib/ghostty/lavi.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9c0cc1efab258179be9ca0add3a39cfda1855fb",
+    "size": 552,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/f9c0cc1efab258179be9ca0add3a39cfda1855fb"
+  },
+  {
+    "path": "contrib/kitty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "28056df06bfc9517a06cd2ad8e971ce6d5d4aa7f",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/28056df06bfc9517a06cd2ad8e971ce6d5d4aa7f"
+  },
+  {
+    "path": "contrib/kitty/lavi.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82a371075ba7d0a816a9948fdfe4d8bb51535575",
+    "size": 841,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/82a371075ba7d0a816a9948fdfe4d8bb51535575"
+  },
+  {
+    "path": "contrib/opencode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a037b4a2bb43eccc3b5bf92f20850eeec39fb01a",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/a037b4a2bb43eccc3b5bf92f20850eeec39fb01a"
+  },
+  {
+    "path": "contrib/opencode/lavi.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8df66affde9ba065df51e173f2a686d991dee9c9",
+    "size": 4321,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/8df66affde9ba065df51e173f2a686d991dee9c9"
+  },
+  {
+    "path": "contrib/wezterm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c5a14a361d3cd87f816994511497f15e3a6def3",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/0c5a14a361d3cd87f816994511497f15e3a6def3"
+  },
+  {
+    "path": "contrib/wezterm/lavi.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3375c11de6a20c5e6241475b76903e232afc131a",
+    "size": 370,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/3375c11de6a20c5e6241475b76903e232afc131a"
+  },
+  {
+    "path": "contrib/windows_terminal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "502e6cd829da755a566bfb12bfb7e7546fa4cbb5",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/502e6cd829da755a566bfb12bfb7e7546fa4cbb5"
+  },
+  {
+    "path": "contrib/windows_terminal/lavi.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bcbcd5c29b50348d988cfbd6f32a17c26d6c3eb5",
+    "size": 535,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/bcbcd5c29b50348d988cfbd6f32a17c26d6c3eb5"
+  },
+  {
+    "path": "contrib/zellij",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "14bd41de721fbedcc0bb6c683df999a9adcd4d25",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/14bd41de721fbedcc0bb6c683df999a9adcd4d25"
+  },
+  {
+    "path": "contrib/zellij/lavi.kdl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "656bc80b0382fc2b85e03d2d488e0ebf4bb048a4",
+    "size": 3107,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/656bc80b0382fc2b85e03d2d488e0ebf4bb048a4"
+  },
+  {
+    "path": "dprint.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e570d8bbe0876dfd92901eb13b41731ee9be5b6",
+    "size": 545,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/6e570d8bbe0876dfd92901eb13b41731ee9be5b6"
+  },
+  {
+    "path": "flake.lock",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "668ac53e618229316165568078f3c30d2a7591da",
+    "size": 1497,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/668ac53e618229316165568078f3c30d2a7591da"
+  },
+  {
+    "path": "flake.nix",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52d3fd5be787c73152bc82f377e88bdb5aca9462",
+    "size": 10474,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/52d3fd5be787c73152bc82f377e88bdb5aca9462"
+  },
+  {
+    "path": "justfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2afea94e7fde85ca5d994fc0a3a7b8dd9fc7fca",
+    "size": 108,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/a2afea94e7fde85ca5d994fc0a3a7b8dd9fc7fca"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "552d361e1de5a028947d8c0c0cf8b478d6439b82",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/552d361e1de5a028947d8c0c0cf8b478d6439b82"
+  },
+  {
+    "path": "lua/lavi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75db4d6893e6a7cab082901e8fe24b8885899da0",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/75db4d6893e6a7cab082901e8fe24b8885899da0"
+  },
+  {
+    "path": "lua/lavi/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8766541bcc0aeae7439be9502c3564ad8175f3b3",
+    "size": 2155,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/8766541bcc0aeae7439be9502c3564ad8175f3b3"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f64ca07228114196b640a4247697736161e0fee4",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/f64ca07228114196b640a4247697736161e0fee4"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6ffc9b910da4e281c5d857f26b0f5bf7e8e3ad98",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/6ffc9b910da4e281c5d857f26b0f5bf7e8e3ad98"
+  },
+  {
+    "path": "lua/lualine/themes/lavi.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91d54b7c44335f937768780d8d26b80f0413dee8",
+    "size": 1341,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/91d54b7c44335f937768780d8d26b80f0413dee8"
+  },
+  {
+    "path": "lua/lush_theme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "af9e558fa85c680d4444e5f10de7a551ce7a3f2a",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/af9e558fa85c680d4444e5f10de7a551ce7a3f2a"
+  },
+  {
+    "path": "lua/lush_theme/lavi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a3f73c3704ee858c9e57f7669332383e2084b2af",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/a3f73c3704ee858c9e57f7669332383e2084b2af"
+  },
+  {
+    "path": "lua/lush_theme/lavi/alacritty.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76509b1ef08e1f3de8b121209c640c14b2b588e2",
+    "size": 4026,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/76509b1ef08e1f3de8b121209c640c14b2b588e2"
+  },
+  {
+    "path": "lua/lush_theme/lavi/base16.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e35d184e9907bc83fcf83b7ce45bce81155723e",
+    "size": 2261,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/8e35d184e9907bc83fcf83b7ce45bce81155723e"
+  },
+  {
+    "path": "lua/lush_theme/lavi/bottom.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "351ee9b56db3383c684876f9dd3057feb367b9e3",
+    "size": 2802,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/351ee9b56db3383c684876f9dd3057feb367b9e3"
+  },
+  {
+    "path": "lua/lush_theme/lavi/btop.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce87deee470b8a61f404dcfaf56c4e7c76e54e2f",
+    "size": 3638,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/ce87deee470b8a61f404dcfaf56c4e7c76e54e2f"
+  },
+  {
+    "path": "lua/lush_theme/lavi/clipse.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43b1ea46e3e4d21ed01d07455841609167c09054",
+    "size": 1666,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/43b1ea46e3e4d21ed01d07455841609167c09054"
+  },
+  {
+    "path": "lua/lush_theme/lavi/dank-material-shell.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e717471d06f780955ab1bd189ca21f23408810bf",
+    "size": 1883,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/e717471d06f780955ab1bd189ca21f23408810bf"
+  },
+  {
+    "path": "lua/lush_theme/lavi/foot.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22d2eae08fb1980674346861ccc26e6684dedda6",
+    "size": 3373,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/22d2eae08fb1980674346861ccc26e6684dedda6"
+  },
+  {
+    "path": "lua/lush_theme/lavi/ghostty.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86b7147a6c73dd0e55319856be9b3cf27f6e1657",
+    "size": 4184,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/86b7147a6c73dd0e55319856be9b3cf27f6e1657"
+  },
+  {
+    "path": "lua/lush_theme/lavi/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07d2a46c90b4aa2f01e12eb55b8f687327558479",
+    "size": 65,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/07d2a46c90b4aa2f01e12eb55b8f687327558479"
+  },
+  {
+    "path": "lua/lush_theme/lavi/kitty.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc4b626f7422239b3fbd050c6ab56a62b45036a7",
+    "size": 2648,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/dc4b626f7422239b3fbd050c6ab56a62b45036a7"
+  },
+  {
+    "path": "lua/lush_theme/lavi/lavi.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2cd33d3c070a6b36f70b180fa797708e37252450",
+    "size": 39762,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/2cd33d3c070a6b36f70b180fa797708e37252450"
+  },
+  {
+    "path": "lua/lush_theme/lavi/lualine.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e3b78714882759862252bc14249afaf33372636",
+    "size": 973,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/0e3b78714882759862252bc14249afaf33372636"
+  },
+  {
+    "path": "lua/lush_theme/lavi/opencode.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ede24ba25d7aa23124d033d36f3480e6ef0cc6b",
+    "size": 5281,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/5ede24ba25d7aa23124d033d36f3480e6ef0cc6b"
+  },
+  {
+    "path": "lua/lush_theme/lavi/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48b7b88237b25b0b4fa0b1a3dbebe451206ed3fb",
+    "size": 3301,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/48b7b88237b25b0b4fa0b1a3dbebe451206ed3fb"
+  },
+  {
+    "path": "lua/lush_theme/lavi/transforms.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "538351645ba6b323beff6c533ad3b8026de232a3",
+    "size": 8331,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/538351645ba6b323beff6c533ad3b8026de232a3"
+  },
+  {
+    "path": "lua/lush_theme/lavi/wezterm.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf79dfe1d31b31252b25553872a78bb7c5a3caa2",
+    "size": 1980,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/bf79dfe1d31b31252b25553872a78bb7c5a3caa2"
+  },
+  {
+    "path": "lua/lush_theme/lavi/zellij.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e86349581e100eb72e5be1a9dfa6fbcfc88a96cd",
+    "size": 4160,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/e86349581e100eb72e5be1a9dfa6fbcfc88a96cd"
+  },
+  {
+    "path": "nix",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "26fd84d90f0ada03da17e4a07f1f4a42c4afc5fb",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/26fd84d90f0ada03da17e4a07f1f4a42c4afc5fb"
+  },
+  {
+    "path": "nix/homeManagerModules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "49e8b56e66c3b00a407eadd1a5e66e7ec7279f13",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/49e8b56e66c3b00a407eadd1a5e66e7ec7279f13"
+  },
+  {
+    "path": "nix/homeManagerModules/default.nix",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "faabd2ceaa70deb91069955ef8603fafd835c631",
+    "size": 4569,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/faabd2ceaa70deb91069955ef8603fafd835c631"
+  },
+  {
+    "path": "nix/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "66ac6f0258fc6cfa3e7ff1d821e4eba4f3811864",
+    "url": "https://api.github.com/repos/b0o/lavi/git/trees/66ac6f0258fc6cfa3e7ff1d821e4eba4f3811864"
+  },
+  {
+    "path": "nix/themes/alacritty.nix",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96c0bd54d6a73408f4126e3e92d0cec9691be852",
+    "size": 1455,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/96c0bd54d6a73408f4126e3e92d0cec9691be852"
+  },
+  {
+    "path": "nix/themes/bottom.nix",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "336c11ff2bd891b8ef767db72e56529050446ac8",
+    "size": 1691,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/336c11ff2bd891b8ef767db72e56529050446ac8"
+  },
+  {
+    "path": "nix/themes/clipse.nix",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "851d3ea6cf15d1969e8c8f5128246af7a14efffb",
+    "size": 817,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/851d3ea6cf15d1969e8c8f5128246af7a14efffb"
+  },
+  {
+    "path": "nix/themes/foot.nix",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d8612011d76c4aff6d09eda71feb73632e8b36b",
+    "size": 621,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/9d8612011d76c4aff6d09eda71feb73632e8b36b"
+  },
+  {
+    "path": "nix/themes/ghostty.nix",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17756329e0eeb81635f4361a2406dd740d7afc3a",
+    "size": 511,
+    "url": "https://api.github.com/repos/b0o/lavi/git/blobs/17756329e0eeb81635f4361a2406dd740d7afc3a"
+  }
+]

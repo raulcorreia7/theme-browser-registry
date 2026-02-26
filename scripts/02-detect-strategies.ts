@@ -23,6 +23,7 @@ import { mkdirSync, existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import readline from "node:readline";
 import { resolve } from "node:path";
+import { limit, retry } from "./lib/concurrency.js";
 
 // Import RepoCache if available (for database caching)
 let RepoCache: any;
@@ -34,6 +35,17 @@ try {
 }
 
 const ROOT = resolve(import.meta.dirname, "..");
+
+// Configuration constants
+const CONFIG = {
+  CONCURRENCY: 6,
+  PROGRESS_UPDATE_INTERVAL_MS: 50,
+  HIGH_CONFIDENCE_THRESHOLD: 0.9,
+  MIN_CONFIDENCE_THRESHOLD: 0.5,
+  MAX_RETRIES: 3,
+  RETRY_DELAY_MS: 1000,
+  BATCH_SIZE: 100,
+} as const;
 
 const help = `
 02-detect-strategies - Detect theme loading strategies
@@ -447,7 +459,7 @@ function detectFromText(readme: string): DetectionResult {
 
   const needsSourceInspection =
     detected === "unknown" ||
-    confidence < 0.9;
+    confidence < CONFIG.HIGH_CONFIDENCE_THRESHOLD;
 
   return { detected, confidence, signals, needsSourceInspection };
 }
@@ -496,7 +508,7 @@ function inspectSource(repo: string, opts: CliOptions): Partial<DetectionResult>
 
   return {
     detected: (best?.[0] ?? "unknown") as StrategyType,
-    confidence: 0.5,
+    confidence: CONFIG.MIN_CONFIDENCE_THRESHOLD,
     signals,
     needsSourceInspection: false,
   };
@@ -589,9 +601,9 @@ function detectVariantModesFromNames(variants: ThemeEntry["variants"]): VariantM
       return {
         name: variant.name,
         detectedMode: mode,
-        confidence: 0.9,
+        confidence: CONFIG.HIGH_CONFIDENCE_THRESHOLD,
         source: "pattern" as const,
-        reason: `Name matches ${mode} pattern`,
+        reason: `Name matches ${mode}`,
       };
     }
     return {
@@ -680,7 +692,7 @@ function detectRepo(
 
       if (
         (det.detected === "unknown" && src.detected) ||
-        (det.confidence < 0.9 && src.detected && src.detected !== "unknown")
+        (det.confidence < CONFIG.HIGH_CONFIDENCE_THRESHOLD && src.detected && src.detected !== "unknown")
       ) {
         det = {
           detected: src.detected ?? det.detected,
@@ -758,46 +770,14 @@ function detectRepo(
   }
 }
 
-async function limit<T, R>(
-  items: T[],
-  n: number,
-  fn: (item: T) => R,
-  onProgress?: (idx: number, result: R) => void
-): Promise<R[]> {
-  const out: R[] = [];
-  let i = 0;
-  let active = 0;
-  let done = 0;
 
-  return new Promise<R[]>((resolve, reject) => {
-    const next = () => {
-      if (done === items.length) return resolve(out);
-      while (active < n && i < items.length) {
-        const idx = i++;
-        active++;
-        Promise.resolve(fn(items[idx]))
-          .then((res) => {
-            out[idx] = res;
-            onProgress?.(idx, res);
-          })
-          .catch(reject)
-          .finally(() => {
-            active--;
-            done++;
-            next();
-          });
-      }
-    };
-    next();
-  }) as unknown as R[];
-}
 
 function buildPatch(rows: DetectionRow[]): Array<{ repo: string; strategy: StrategyType; confidence: number }> {
   return rows
     .filter((r) =>
       (r.status === "mismatch" || r.status === "missing-meta") &&
       r.detectedStrategy !== "unknown" &&
-      r.confidence >= 0.9
+      r.confidence >= CONFIG.HIGH_CONFIDENCE_THRESHOLD
     )
     .map((r) => ({ repo: r.repo, strategy: r.detectedStrategy, confidence: r.confidence }));
 }
@@ -1092,18 +1072,23 @@ async function main(): Promise<void> {
   if (opts.repo) repos = repos.filter((r) => r === opts.repo);
   if (opts.sample && opts.sample > 0) repos = repos.slice(0, opts.sample);
 
-  log(`Detecting ${repos.length} repos`, "info");
+  log(`Detecting ${repos.length} repos (concurrency: ${CONFIG.CONCURRENCY})`, "info");
   console.log("");
 
   let lastProgressUpdate = 0;
 
-  const rows = await limit(repos, 6, (repo) => detectRepo(repo, repoIndex.get(repo) ?? [], sources, opts, hintsMap, variantHintsMap), (idx, row) => {
-    const now = Date.now();
-    if (now - lastProgressUpdate > 50 || idx === repos.length - 1) {
-      updateProgress(idx + 1, repos.length, row.repo, row.status);
-      lastProgressUpdate = now;
+  const rows = await limit(
+    repos,
+    CONFIG.CONCURRENCY,
+    async (repo) => detectRepo(repo, repoIndex.get(repo) ?? [], sources, opts, hintsMap, variantHintsMap),
+    (idx, row) => {
+      const now = Date.now();
+      if (now - lastProgressUpdate > CONFIG.PROGRESS_UPDATE_INTERVAL_MS || idx === repos.length - 1) {
+        updateProgress(idx + 1, repos.length, row.repo, row.status);
+        lastProgressUpdate = now;
+      }
     }
-  });
+  );
 
   clearProgress();
 

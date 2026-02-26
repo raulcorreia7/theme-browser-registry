@@ -1,0 +1,57 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbeee331e009c43280eaeeb34f42eb81ccb68063",
+    "size": 1636,
+    "url": "https://api.github.com/repos/ericbn/vim-solarized/git/blobs/fbeee331e009c43280eaeeb34f42eb81ccb68063"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "163d6994a541f0baee6f5834a64fe9fc2576394b",
+    "size": 94,
+    "url": "https://api.github.com/repos/ericbn/vim-solarized/git/blobs/163d6994a541f0baee6f5834a64fe9fc2576394b"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bcc609236e93595820e85baa4a3bfb14e10aeb2",
+    "size": 3587,
+    "url": "https://api.github.com/repos/ericbn/vim-solarized/git/blobs/3bcc609236e93595820e85baa4a3bfb14e10aeb2"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "46f7a44cf46fdd29c5ad772bdd4708a3454e3ce6",
+    "url": "https://api.github.com/repos/ericbn/vim-solarized/git/trees/46f7a44cf46fdd29c5ad772bdd4708a3454e3ce6"
+  },
+  {
+    "path": "colors/solarized.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d1fb2412c0c3e0a6a3bd662525a535e5e41ce87",
+    "size": 39134,
+    "url": "https://api.github.com/repos/ericbn/vim-solarized/git/blobs/9d1fb2412c0c3e0a6a3bd662525a535e5e41ce87"
+  },
+  {
+    "path": "highlights.erb",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75466e125c96321382f9e3d5f8473730273a8c6b",
+    "size": 11958,
+    "url": "https://api.github.com/repos/ericbn/vim-solarized/git/blobs/75466e125c96321382f9e3d5f8473730273a8c6b"
+  },
+  {
+    "path": "solarized.vim.erb",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04aff161f1c5d5f8234bf34e02c0c1cf60544f17",
+    "size": 2730,
+    "url": "https://api.github.com/repos/ericbn/vim-solarized/git/blobs/04aff161f1c5d5f8234bf34e02c0c1cf60544f17"
+  }
+]

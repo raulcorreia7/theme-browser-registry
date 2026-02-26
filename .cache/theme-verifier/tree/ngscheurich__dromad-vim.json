@@ -1,0 +1,393 @@
+[
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41e349ef9870c697f6d300da503973a016d6db81",
+    "size": 711,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/41e349ef9870c697f6d300da503973a016d6db81"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6565518c87f635abd47ee314b0eab3ee6d3b80ab",
+    "size": 5227,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/6565518c87f635abd47ee314b0eab3ee6d3b80ab"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48ae5f2eca2d82672c50a70313fe33b06f79e1b0",
+    "size": 1623,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/48ae5f2eca2d82672c50a70313fe33b06f79e1b0"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4d8640149a4e329efc87073a705e9faf9d3a3b32",
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/trees/4d8640149a4e329efc87073a705e9faf9d3a3b32"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b331ab454e75e79749ef72542ac9df0461c40926",
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/trees/b331ab454e75e79749ef72542ac9df0461c40926"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "faa41345aaecd8f084a11575634a37d6f1252795",
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/trees/faa41345aaecd8f084a11575634a37d6f1252795"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/dromad.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38838b27bd995e101453e08c99d336f71d462129",
+    "size": 1764,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/38838b27bd995e101453e08c99d336f71d462129"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ffb1e1da71f325bef6232d8b77e00328084704d1",
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/trees/ffb1e1da71f325bef6232d8b77e00328084704d1"
+  },
+  {
+    "path": "colors/dromad.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5dec48ca395a7ea09f3954e55f9ea44e65a43288",
+    "size": 11989,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/5dec48ca395a7ea09f3954e55f9ea44e65a43288"
+  },
+  {
+    "path": "demo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "54300227d080ad8496923bf0053fac500a2f6f46",
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/trees/54300227d080ad8496923bf0053fac500a2f6f46"
+  },
+  {
+    "path": "demo/.editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a119f4d1e4250aaa227309f65cbcb40245526df8",
+    "size": 236,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/a119f4d1e4250aaa227309f65cbcb40245526df8"
+  },
+  {
+    "path": "demo/c.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec2e72d851b33fe92703ea66a119804da44d5a58",
+    "size": 391,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/ec2e72d851b33fe92703ea66a119804da44d5a58"
+  },
+  {
+    "path": "demo/clojure.clj",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4da277ea09aeda4cc655935434f7b71274ae5ec",
+    "size": 720,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/d4da277ea09aeda4cc655935434f7b71274ae5ec"
+  },
+  {
+    "path": "demo/clojurescript.cljs",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9aed8344e7432b948d5e48bacf4f8b622f20b4b8",
+    "size": 608,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/9aed8344e7432b948d5e48bacf4f8b622f20b4b8"
+  },
+  {
+    "path": "demo/cplusplus.cc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e786a4309040cf0df9352f339f8a705afac8807d",
+    "size": 3171,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/e786a4309040cf0df9352f339f8a705afac8807d"
+  },
+  {
+    "path": "demo/csharp.cs",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d06413f95cd773895cbde7a74ee1f0110b706612",
+    "size": 1190,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/d06413f95cd773895cbde7a74ee1f0110b706612"
+  },
+  {
+    "path": "demo/css.css",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "383f1c61069c0dd446fcff30a9bbb6c1c4d60a41",
+    "size": 445,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/383f1c61069c0dd446fcff30a9bbb6c1c4d60a41"
+  },
+  {
+    "path": "demo/elixir.ex",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "008f1cb16fbaa78ad26d1738a499ee959ff773a5",
+    "size": 925,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/008f1cb16fbaa78ad26d1738a499ee959ff773a5"
+  },
+  {
+    "path": "demo/elm.elm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4e5e43d177207790d04b6589c6693c073951451",
+    "size": 441,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/e4e5e43d177207790d04b6589c6693c073951451"
+  },
+  {
+    "path": "demo/erlang.erl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03437b8885db74bfac81ec58244b30dac7a2e1ec",
+    "size": 402,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/03437b8885db74bfac81ec58244b30dac7a2e1ec"
+  },
+  {
+    "path": "demo/flutter.dart",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "865dc10be11d9962f5ee6631fdb37e6b08f2b23f",
+    "size": 1486,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/865dc10be11d9962f5ee6631fdb37e6b08f2b23f"
+  },
+  {
+    "path": "demo/html.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6d03cdb48151b6e841a4b7f0d6724e279594a6d",
+    "size": 394,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/c6d03cdb48151b6e841a4b7f0d6724e279594a6d"
+  },
+  {
+    "path": "demo/javascript.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ae591a999c84ca1bbefefe7997efb62b3e918a1",
+    "size": 1256,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/3ae591a999c84ca1bbefefe7997efb62b3e918a1"
+  },
+  {
+    "path": "demo/json.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e87d0614361a786595ddce6b1235261567ea347",
+    "size": 262,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/7e87d0614361a786595ddce6b1235261567ea347"
+  },
+  {
+    "path": "demo/markdown.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e59848474fe43b586dd8d2396a68a1e189e4ed8",
+    "size": 487,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/5e59848474fe43b586dd8d2396a68a1e189e4ed8"
+  },
+  {
+    "path": "demo/powershell.ps1",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2ef182272e0f2b8dfea16491daeb5e94c42604e",
+    "size": 2501,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/d2ef182272e0f2b8dfea16491daeb5e94c42604e"
+  },
+  {
+    "path": "demo/python.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "889382bf62b5dd7008695ed543e1670a5cdc381b",
+    "size": 761,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/889382bf62b5dd7008695ed543e1670a5cdc381b"
+  },
+  {
+    "path": "demo/react.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c46ff215734862d86e66131cc39385a72d70803b",
+    "size": 419,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/c46ff215734862d86e66131cc39385a72d70803b"
+  },
+  {
+    "path": "demo/react.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e34d54b271409cfaed95f97ee617b895fc39cf7",
+    "size": 471,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/5e34d54b271409cfaed95f97ee617b895fc39cf7"
+  },
+  {
+    "path": "demo/ruby.rb",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6bb68fd278c45d2d68b693c468295da1a9a95b7",
+    "size": 906,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/a6bb68fd278c45d2d68b693c468295da1a9a95b7"
+  },
+  {
+    "path": "demo/typescript.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f617c7b7b815ba359d558ecd7185f92ae4c41da",
+    "size": 4495,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/3f617c7b7b815ba359d558ecd7185f92ae4c41da"
+  },
+  {
+    "path": "demo/vue.vue",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00c947dd31108b0690c30b7c1c864e4326f2795d",
+    "size": 663,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/00c947dd31108b0690c30b7c1c864e4326f2795d"
+  },
+  {
+    "path": "demo/yaml.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41884155896c17bf822c33392e02068fbc58bc14",
+    "size": 186,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/41884155896c17bf822c33392e02068fbc58bc14"
+  },
+  {
+    "path": "screenshot.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4f549fee09156b2bb34bda5c9908bbc423cc197",
+    "size": 411777,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/f4f549fee09156b2bb34bda5c9908bbc423cc197"
+  },
+  {
+    "path": "templates",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7958151bcae16fe237b81dd03653677ed9786b91",
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/trees/7958151bcae16fe237b81dd03653677ed9786b91"
+  },
+  {
+    "path": "templates/base",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "489716131ab897c42937d641b2e042a391769e79",
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/trees/489716131ab897c42937d641b2e042a391769e79"
+  },
+  {
+    "path": "templates/base/defaults.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b01e65de7b4841aef07897fff93e1d5fc73afd1",
+    "size": 2699,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/4b01e65de7b4841aef07897fff93e1d5fc73afd1"
+  },
+  {
+    "path": "templates/base/lang.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c5bcb0f2b3b6984904afb54b32779e6e066269c",
+    "size": 691,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/4c5bcb0f2b3b6984904afb54b32779e6e066269c"
+  },
+  {
+    "path": "templates/base/linked.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "795fd77cda0e5fe9b81dd07e1766ffaae8e39fed",
+    "size": 1032,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/795fd77cda0e5fe9b81dd07e1766ffaae8e39fed"
+  },
+  {
+    "path": "templates/base/palette.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86e05823dcd170a8bb1f700fad926c7e4b70a965",
+    "size": 1572,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/86e05823dcd170a8bb1f700fad926c7e4b70a965"
+  },
+  {
+    "path": "templates/base/syntax.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06671a87a5cef4dfd7a43a55296da06ab2fbb1fe",
+    "size": 1067,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/06671a87a5cef4dfd7a43a55296da06ab2fbb1fe"
+  },
+  {
+    "path": "templates/base/terminal.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3691d1c6756bb25d9e3380fb8453f842036012a",
+    "size": 344,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/c3691d1c6756bb25d9e3380fb8453f842036012a"
+  },
+  {
+    "path": "templates/dromad.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0074134cb5ede93aa29dcefe8f17d8df057720a9",
+    "size": 614,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/0074134cb5ede93aa29dcefe8f17d8df057720a9"
+  },
+  {
+    "path": "templates/lang",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "833fc9ff64c871bafcabf5c26623a6a735543af7",
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/trees/833fc9ff64c871bafcabf5c26623a6a735543af7"
+  },
+  {
+    "path": "templates/lang/_lang.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e15f5f0331d106034e918687225a84a7bbf6661f",
+    "size": 106,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/e15f5f0331d106034e918687225a84a7bbf6661f"
+  },
+  {
+    "path": "templates/lang/elixir.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a34982c9d56ef708be19155dc91ee0d44498b32d",
+    "size": 502,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/a34982c9d56ef708be19155dc91ee0d44498b32d"
+  },
+  {
+    "path": "templates/lang/typescript.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "templates/lang/vim.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61670f68b628f98c35919acb887ad7ad461ccfa0",
+    "size": 371,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/61670f68b628f98c35919acb887ad7ad461ccfa0"
+  },
+  {
+    "path": "templates/plug",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "366ce9713c529e30fa708c05b3c6611d149fe610",
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/trees/366ce9713c529e30fa708c05b3c6611d149fe610"
+  },
+  {
+    "path": "templates/plug/_plug.colortemplate",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/ngscheurich/dromad-vim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  }
+]

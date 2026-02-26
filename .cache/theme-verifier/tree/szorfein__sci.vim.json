@@ -1,0 +1,78 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b10a3c43cf2418b499a5a27db911314432422d98",
+    "size": 1065,
+    "url": "https://api.github.com/repos/szorfein/sci.vim/git/blobs/b10a3c43cf2418b499a5a27db911314432422d98"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79b0b2430a73c9f87e6ee16b656a0cd8a900eefa",
+    "size": 433,
+    "url": "https://api.github.com/repos/szorfein/sci.vim/git/blobs/79b0b2430a73c9f87e6ee16b656a0cd8a900eefa"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3ed23c94db81681b42302a24516738a31480f525",
+    "url": "https://api.github.com/repos/szorfein/sci.vim/git/trees/3ed23c94db81681b42302a24516738a31480f525"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6842f30ab2de1e2d0c68e900ff077506677cf77f",
+    "url": "https://api.github.com/repos/szorfein/sci.vim/git/trees/6842f30ab2de1e2d0c68e900ff077506677cf77f"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e14849ac67d0c26c8967b7d689c9cb1e318b82f5",
+    "url": "https://api.github.com/repos/szorfein/sci.vim/git/trees/e14849ac67d0c26c8967b7d689c9cb1e318b82f5"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/sci.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b252149a6d33df02aaa8411629cd3455fea389f",
+    "size": 1853,
+    "url": "https://api.github.com/repos/szorfein/sci.vim/git/blobs/6b252149a6d33df02aaa8411629cd3455fea389f"
+  },
+  {
+    "path": "autoload/sci.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f70f0f7b415a259720dfc9458bc914731728c690",
+    "size": 1888,
+    "url": "https://api.github.com/repos/szorfein/sci.vim/git/blobs/f70f0f7b415a259720dfc9458bc914731728c690"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4b77f728b7c8fefaa3a67c8ac8de9d378310836b",
+    "url": "https://api.github.com/repos/szorfein/sci.vim/git/trees/4b77f728b7c8fefaa3a67c8ac8de9d378310836b"
+  },
+  {
+    "path": "colors/sci.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efe24277fcc0055f248c174cf0fa8165c78ba71a",
+    "size": 8540,
+    "url": "https://api.github.com/repos/szorfein/sci.vim/git/blobs/efe24277fcc0055f248c174cf0fa8165c78ba71a"
+  },
+  {
+    "path": "screenshot.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "963836ce7e54ce7ace2c4d28269bbc0321ccafd4",
+    "size": 3153203,
+    "url": "https://api.github.com/repos/szorfein/sci.vim/git/blobs/963836ce7e54ce7ace2c4d28269bbc0321ccafd4"
+  }
+]

@@ -1,0 +1,1120 @@
+[
+  {
+    "path": ".python-version",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6324d401a069f4020efcf0ff07442724b52f47c2",
+    "size": 5,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/6324d401a069f4020efcf0ff07442724b52f47c2"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "caa372467ec8067d6f421101e373e33cd97e86ee",
+    "size": 1069,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/caa372467ec8067d6f421101e373e33cd97e86ee"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3426b04c9535e94f2b907cacadbe89cfba3cf18a",
+    "size": 1608,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/3426b04c9535e94f2b907cacadbe89cfba3cf18a"
+  },
+  {
+    "path": "dogs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7ab135d33c40a91c66fac30622f01fb9ff2cc761",
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/trees/7ab135d33c40a91c66fac30622f01fb9ff2cc761"
+  },
+  {
+    "path": "dogs/autumn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "133e3d0679d5bc72c09f32869e599cd697dcb5c4",
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/trees/133e3d0679d5bc72c09f32869e599cd697dcb5c4"
+  },
+  {
+    "path": "dogs/autumn/bg.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b032c40efc65046b2fa7aa111c04c1247ecf751",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/2b032c40efc65046b2fa7aa111c04c1247ecf751"
+  },
+  {
+    "path": "dogs/autumn/black.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61a625e7d3795dc53767c8285d2f82c245c01b56",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/61a625e7d3795dc53767c8285d2f82c245c01b56"
+  },
+  {
+    "path": "dogs/autumn/blue.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "721f4cc39c09b87fcdbec4c3d9f99e9ee27f899d",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/721f4cc39c09b87fcdbec4c3d9f99e9ee27f899d"
+  },
+  {
+    "path": "dogs/autumn/border.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b4a1422de53aaed2ec786ea798a2d446231d627e",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/b4a1422de53aaed2ec786ea798a2d446231d627e"
+  },
+  {
+    "path": "dogs/autumn/code_preview.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "598446b7f913f14663a2e56ac73c9bde7063580f",
+    "size": 3546,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/598446b7f913f14663a2e56ac73c9bde7063580f"
+  },
+  {
+    "path": "dogs/autumn/comment.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5007ba4cb4a68ca23a050160011e0e5988ef82da",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/5007ba4cb4a68ca23a050160011e0e5988ef82da"
+  },
+  {
+    "path": "dogs/autumn/constant.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c7b4f787f22c740ed89153db1d897a935b34f07",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/6c7b4f787f22c740ed89153db1d897a935b34f07"
+  },
+  {
+    "path": "dogs/autumn/cursor.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b9f1e30de3806a7cd4a1fa2e4ef34899e1b250a",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/6b9f1e30de3806a7cd4a1fa2e4ef34899e1b250a"
+  },
+  {
+    "path": "dogs/autumn/cursor_line.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb86785902630f0694ee7cd154d016d616f98955",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/fb86785902630f0694ee7cd154d016d616f98955"
+  },
+  {
+    "path": "dogs/autumn/cyan.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "721f4cc39c09b87fcdbec4c3d9f99e9ee27f899d",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/721f4cc39c09b87fcdbec4c3d9f99e9ee27f899d"
+  },
+  {
+    "path": "dogs/autumn/error.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f7e88f3d359b88911768b4e319765d7fbd5b053",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/8f7e88f3d359b88911768b4e319765d7fbd5b053"
+  },
+  {
+    "path": "dogs/autumn/foreground.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "764d5cb5af9f9dcb398e2eee58b3716b87dc0a99",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/764d5cb5af9f9dcb398e2eee58b3716b87dc0a99"
+  },
+  {
+    "path": "dogs/autumn/function.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a816e54b2eee095a1c1f016557525066bceedbf7",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/a816e54b2eee095a1c1f016557525066bceedbf7"
+  },
+  {
+    "path": "dogs/autumn/green.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c258487f5c1f1559aa39dd5eac027511199c7f3",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/5c258487f5c1f1559aa39dd5eac027511199c7f3"
+  },
+  {
+    "path": "dogs/autumn/guide.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "516d6f0521d80c572250688b87cc50b07ca2c3c1",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/516d6f0521d80c572250688b87cc50b07ca2c3c1"
+  },
+  {
+    "path": "dogs/autumn/keyword.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34e69a564ba904f843909854899fa3b58a9c80e2",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/34e69a564ba904f843909854899fa3b58a9c80e2"
+  },
+  {
+    "path": "dogs/autumn/line_nr.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "144a8d47b19ee42c52b52352775c593bddd051ed",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/144a8d47b19ee42c52b52352775c593bddd051ed"
+  },
+  {
+    "path": "dogs/autumn/magenta.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c7b4f787f22c740ed89153db1d897a935b34f07",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/6c7b4f787f22c740ed89153db1d897a935b34f07"
+  },
+  {
+    "path": "dogs/autumn/on_selection.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "764d5cb5af9f9dcb398e2eee58b3716b87dc0a99",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/764d5cb5af9f9dcb398e2eee58b3716b87dc0a99"
+  },
+  {
+    "path": "dogs/autumn/red.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f7e88f3d359b88911768b4e319765d7fbd5b053",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/8f7e88f3d359b88911768b4e319765d7fbd5b053"
+  },
+  {
+    "path": "dogs/autumn/selection.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45477feb9dee9d1ae558e404586f1a9534de964e",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/45477feb9dee9d1ae558e404586f1a9534de964e"
+  },
+  {
+    "path": "dogs/autumn/string.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c258487f5c1f1559aa39dd5eac027511199c7f3",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/5c258487f5c1f1559aa39dd5eac027511199c7f3"
+  },
+  {
+    "path": "dogs/autumn/surface.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e463d24233cd802f234df0653840d0f83bd3f49",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/2e463d24233cd802f234df0653840d0f83bd3f49"
+  },
+  {
+    "path": "dogs/autumn/thumbnail.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "571fe1e25ef29ef47cf5459e8f3998e4c1ba2986",
+    "size": 145214,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/571fe1e25ef29ef47cf5459e8f3998e4c1ba2986"
+  },
+  {
+    "path": "dogs/autumn/type.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "721f4cc39c09b87fcdbec4c3d9f99e9ee27f899d",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/721f4cc39c09b87fcdbec4c3d9f99e9ee27f899d"
+  },
+  {
+    "path": "dogs/autumn/white.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "764d5cb5af9f9dcb398e2eee58b3716b87dc0a99",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/764d5cb5af9f9dcb398e2eee58b3716b87dc0a99"
+  },
+  {
+    "path": "dogs/autumn/yellow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a816e54b2eee095a1c1f016557525066bceedbf7",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/a816e54b2eee095a1c1f016557525066bceedbf7"
+  },
+  {
+    "path": "dogs/dark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c52584e739798ab2fe6a38040f35093a5095ca72",
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/trees/c52584e739798ab2fe6a38040f35093a5095ca72"
+  },
+  {
+    "path": "dogs/dark/bg.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b032c40efc65046b2fa7aa111c04c1247ecf751",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/2b032c40efc65046b2fa7aa111c04c1247ecf751"
+  },
+  {
+    "path": "dogs/dark/black.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61a625e7d3795dc53767c8285d2f82c245c01b56",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/61a625e7d3795dc53767c8285d2f82c245c01b56"
+  },
+  {
+    "path": "dogs/dark/blue.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd8b83fb9b2fe99015fd10560f0800b4ed21424e",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/cd8b83fb9b2fe99015fd10560f0800b4ed21424e"
+  },
+  {
+    "path": "dogs/dark/border.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b4a1422de53aaed2ec786ea798a2d446231d627e",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/b4a1422de53aaed2ec786ea798a2d446231d627e"
+  },
+  {
+    "path": "dogs/dark/code_preview.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c53bc3d69c67843318918a11a0e037cf5c3af03d",
+    "size": 3544,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/c53bc3d69c67843318918a11a0e037cf5c3af03d"
+  },
+  {
+    "path": "dogs/dark/comment.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5007ba4cb4a68ca23a050160011e0e5988ef82da",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/5007ba4cb4a68ca23a050160011e0e5988ef82da"
+  },
+  {
+    "path": "dogs/dark/constant.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9eabb71729956393ee39252fbabd54d76a1d102d",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/9eabb71729956393ee39252fbabd54d76a1d102d"
+  },
+  {
+    "path": "dogs/dark/cursor.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b9f1e30de3806a7cd4a1fa2e4ef34899e1b250a",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/6b9f1e30de3806a7cd4a1fa2e4ef34899e1b250a"
+  },
+  {
+    "path": "dogs/dark/cursor_line.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb86785902630f0694ee7cd154d016d616f98955",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/fb86785902630f0694ee7cd154d016d616f98955"
+  },
+  {
+    "path": "dogs/dark/cyan.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd8b83fb9b2fe99015fd10560f0800b4ed21424e",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/cd8b83fb9b2fe99015fd10560f0800b4ed21424e"
+  },
+  {
+    "path": "dogs/dark/error.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6e1030390d900daeb89ed05a0b6bfd5b4ea22c6",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/a6e1030390d900daeb89ed05a0b6bfd5b4ea22c6"
+  },
+  {
+    "path": "dogs/dark/foreground.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "764d5cb5af9f9dcb398e2eee58b3716b87dc0a99",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/764d5cb5af9f9dcb398e2eee58b3716b87dc0a99"
+  },
+  {
+    "path": "dogs/dark/function.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7437ce7030c17cdc3046bd4da63de0be9342bc13",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/7437ce7030c17cdc3046bd4da63de0be9342bc13"
+  },
+  {
+    "path": "dogs/dark/green.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de9d61ead393d0c1a48d173683dd5f945db91109",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/de9d61ead393d0c1a48d173683dd5f945db91109"
+  },
+  {
+    "path": "dogs/dark/guide.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "516d6f0521d80c572250688b87cc50b07ca2c3c1",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/516d6f0521d80c572250688b87cc50b07ca2c3c1"
+  },
+  {
+    "path": "dogs/dark/keyword.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed5ed3b2cffc56982082d3f28b22be2aed708ebb",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/ed5ed3b2cffc56982082d3f28b22be2aed708ebb"
+  },
+  {
+    "path": "dogs/dark/line_nr.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "144a8d47b19ee42c52b52352775c593bddd051ed",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/144a8d47b19ee42c52b52352775c593bddd051ed"
+  },
+  {
+    "path": "dogs/dark/magenta.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9eabb71729956393ee39252fbabd54d76a1d102d",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/9eabb71729956393ee39252fbabd54d76a1d102d"
+  },
+  {
+    "path": "dogs/dark/on_selection.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "764d5cb5af9f9dcb398e2eee58b3716b87dc0a99",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/764d5cb5af9f9dcb398e2eee58b3716b87dc0a99"
+  },
+  {
+    "path": "dogs/dark/red.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6e1030390d900daeb89ed05a0b6bfd5b4ea22c6",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/a6e1030390d900daeb89ed05a0b6bfd5b4ea22c6"
+  },
+  {
+    "path": "dogs/dark/selection.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a97651b1255eabfae27be3f5f3a1d86637d6ef8",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/5a97651b1255eabfae27be3f5f3a1d86637d6ef8"
+  },
+  {
+    "path": "dogs/dark/string.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de9d61ead393d0c1a48d173683dd5f945db91109",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/de9d61ead393d0c1a48d173683dd5f945db91109"
+  },
+  {
+    "path": "dogs/dark/surface.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e463d24233cd802f234df0653840d0f83bd3f49",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/2e463d24233cd802f234df0653840d0f83bd3f49"
+  },
+  {
+    "path": "dogs/dark/thumbnail.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d8d8d7d0d54d4d3e7340d9bad3a8162f6aebd8a",
+    "size": 146194,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/8d8d8d7d0d54d4d3e7340d9bad3a8162f6aebd8a"
+  },
+  {
+    "path": "dogs/dark/type.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd8b83fb9b2fe99015fd10560f0800b4ed21424e",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/cd8b83fb9b2fe99015fd10560f0800b4ed21424e"
+  },
+  {
+    "path": "dogs/dark/white.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "764d5cb5af9f9dcb398e2eee58b3716b87dc0a99",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/764d5cb5af9f9dcb398e2eee58b3716b87dc0a99"
+  },
+  {
+    "path": "dogs/dark/yellow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7437ce7030c17cdc3046bd4da63de0be9342bc13",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/7437ce7030c17cdc3046bd4da63de0be9342bc13"
+  },
+  {
+    "path": "dogs/light",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6b2667bf695d93e6705ae24fcbadc3a0cabf8072",
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/trees/6b2667bf695d93e6705ae24fcbadc3a0cabf8072"
+  },
+  {
+    "path": "dogs/light/bg.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "229b76d2c1aa9e28c21070b58d4d94b0ebcd55df",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/229b76d2c1aa9e28c21070b58d4d94b0ebcd55df"
+  },
+  {
+    "path": "dogs/light/black.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50aa5079cfc3fcd3f393bccb458d3f54379ba688",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/50aa5079cfc3fcd3f393bccb458d3f54379ba688"
+  },
+  {
+    "path": "dogs/light/blue.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "530e6824597d25ac254be0d291be1ada2332040b",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/530e6824597d25ac254be0d291be1ada2332040b"
+  },
+  {
+    "path": "dogs/light/border.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b779de369111c57a486ff437d693f8fd1f82b848",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/b779de369111c57a486ff437d693f8fd1f82b848"
+  },
+  {
+    "path": "dogs/light/code_preview.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69a5228dfeaa28b4e8ea02ef1af52e730393b91c",
+    "size": 3545,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/69a5228dfeaa28b4e8ea02ef1af52e730393b91c"
+  },
+  {
+    "path": "dogs/light/comment.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65db8af7d1921c7a5a36adad165415db610f36d7",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/65db8af7d1921c7a5a36adad165415db610f36d7"
+  },
+  {
+    "path": "dogs/light/constant.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b770d7ae1f78b3d26d2a652d93cc47a03768c29a",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/b770d7ae1f78b3d26d2a652d93cc47a03768c29a"
+  },
+  {
+    "path": "dogs/light/cursor.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78dfc94450625225e340534a4ea78f9a0d4b2469",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/78dfc94450625225e340534a4ea78f9a0d4b2469"
+  },
+  {
+    "path": "dogs/light/cursor_line.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01e88087db0ada586351c78f17aaf50de8b6fc2c",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/01e88087db0ada586351c78f17aaf50de8b6fc2c"
+  },
+  {
+    "path": "dogs/light/cyan.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "530e6824597d25ac254be0d291be1ada2332040b",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/530e6824597d25ac254be0d291be1ada2332040b"
+  },
+  {
+    "path": "dogs/light/error.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7df818b08516b147012a85bc46386027de941de6",
+    "size": 84,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/7df818b08516b147012a85bc46386027de941de6"
+  },
+  {
+    "path": "dogs/light/foreground.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4284a4f5a5154a7fe384d2c0f5a54315c9f4ad3",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/f4284a4f5a5154a7fe384d2c0f5a54315c9f4ad3"
+  },
+  {
+    "path": "dogs/light/function.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8bd276ca9bb8cb81e61f631bf24704ef4c7587d3",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/8bd276ca9bb8cb81e61f631bf24704ef4c7587d3"
+  },
+  {
+    "path": "dogs/light/green.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9251018280e7598840c42c78cb4524a7432ed8de",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/9251018280e7598840c42c78cb4524a7432ed8de"
+  },
+  {
+    "path": "dogs/light/guide.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b779de369111c57a486ff437d693f8fd1f82b848",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/b779de369111c57a486ff437d693f8fd1f82b848"
+  },
+  {
+    "path": "dogs/light/keyword.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4c5f523fad04906757d637bdaf65972672945bb",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/e4c5f523fad04906757d637bdaf65972672945bb"
+  },
+  {
+    "path": "dogs/light/line_nr.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68065ddb284311210a01075cb02dfa2bbce77079",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/68065ddb284311210a01075cb02dfa2bbce77079"
+  },
+  {
+    "path": "dogs/light/magenta.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b770d7ae1f78b3d26d2a652d93cc47a03768c29a",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/b770d7ae1f78b3d26d2a652d93cc47a03768c29a"
+  },
+  {
+    "path": "dogs/light/on_selection.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4284a4f5a5154a7fe384d2c0f5a54315c9f4ad3",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/f4284a4f5a5154a7fe384d2c0f5a54315c9f4ad3"
+  },
+  {
+    "path": "dogs/light/red.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4c5f523fad04906757d637bdaf65972672945bb",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/e4c5f523fad04906757d637bdaf65972672945bb"
+  },
+  {
+    "path": "dogs/light/selection.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "abcc1c7c34fd2137228c9da54169ababf4667bfe",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/abcc1c7c34fd2137228c9da54169ababf4667bfe"
+  },
+  {
+    "path": "dogs/light/string.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9251018280e7598840c42c78cb4524a7432ed8de",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/9251018280e7598840c42c78cb4524a7432ed8de"
+  },
+  {
+    "path": "dogs/light/surface.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b53ceeef5daab316348960604ac72126ac20c137",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/b53ceeef5daab316348960604ac72126ac20c137"
+  },
+  {
+    "path": "dogs/light/thumbnail.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2036ebf228b7022c72b7c2a364d1460ec738f74f",
+    "size": 143699,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/2036ebf228b7022c72b7c2a364d1460ec738f74f"
+  },
+  {
+    "path": "dogs/light/type.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "530e6824597d25ac254be0d291be1ada2332040b",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/530e6824597d25ac254be0d291be1ada2332040b"
+  },
+  {
+    "path": "dogs/light/white.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23b7e6f0346476e166eaff9a61dd1c84c1470bdd",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/23b7e6f0346476e166eaff9a61dd1c84c1470bdd"
+  },
+  {
+    "path": "dogs/light/yellow.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8bd276ca9bb8cb81e61f631bf24704ef4c7587d3",
+    "size": 86,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/8bd276ca9bb8cb81e61f631bf24704ef4c7587d3"
+  },
+  {
+    "path": "generate.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5036526ae95e454d409c641cfcada5bdfb93eed6",
+    "size": 5961,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/5036526ae95e454d409c641cfcada5bdfb93eed6"
+  },
+  {
+    "path": "palettes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "67c0bb7da94b50b4f7010ff1e39bd5dae55f7b74",
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/trees/67c0bb7da94b50b4f7010ff1e39bd5dae55f7b74"
+  },
+  {
+    "path": "palettes/autumn.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7345b964f58b960f087883c272d1baf76b2e7738",
+    "size": 998,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/7345b964f58b960f087883c272d1baf76b2e7738"
+  },
+  {
+    "path": "palettes/dark.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c53cae0aa09d0bf80b9696045102089116ef707",
+    "size": 996,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/9c53cae0aa09d0bf80b9696045102089116ef707"
+  },
+  {
+    "path": "palettes/light.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9d74173aa346d0d0fa1fada3e8076ba94fec327",
+    "size": 997,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/c9d74173aa346d0d0fa1fada3e8076ba94fec327"
+  },
+  {
+    "path": "pyproject.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3e4a107c153c9448c5d70e78487f6482180ff07",
+    "size": 203,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/a3e4a107c153c9448c5d70e78487f6482180ff07"
+  },
+  {
+    "path": "templates",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3ddd279c4f6093acc276a267fc02c418fd0793b5",
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/trees/3ddd279c4f6093acc276a267fc02c418fd0793b5"
+  },
+  {
+    "path": "templates/README.md.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4ba481e496e1ba67a5b00d51dee92713adb71af",
+    "size": 3104,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/f4ba481e496e1ba67a5b00d51dee92713adb71af"
+  },
+  {
+    "path": "templates/alacritty.toml.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be3a1056b9eca20df6e41833e4f11acdd7ed954c",
+    "size": 1263,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/be3a1056b9eca20df6e41833e4f11acdd7ed954c"
+  },
+  {
+    "path": "templates/code_preview.html.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca3333699ac7676e15afff0bb04564cf88531c12",
+    "size": 3766,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/ca3333699ac7676e15afff0bb04564cf88531c12"
+  },
+  {
+    "path": "templates/fzf.txt.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4342becd03678eef69234bca82ee270bad198ad1",
+    "size": 747,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/4342becd03678eef69234bca82ee270bad198ad1"
+  },
+  {
+    "path": "templates/ghostty.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12fb23f01bcc085eb1ccdfa536b2c86cd72ae2d8",
+    "size": 947,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/12fb23f01bcc085eb1ccdfa536b2c86cd72ae2d8"
+  },
+  {
+    "path": "templates/kitty.conf.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77ef5cab8c2ab41f7a82c0e09c64f1fc7dcf5c9f",
+    "size": 861,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/77ef5cab8c2ab41f7a82c0e09c64f1fc7dcf5c9f"
+  },
+  {
+    "path": "templates/rio.toml.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5913d47f5341b88e4cd6597e634047516f9d839a",
+    "size": 1484,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/5913d47f5341b88e4cd6597e634047516f9d839a"
+  },
+  {
+    "path": "templates/vimium.css.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4be4b74a72df613a9ad912c2a15ca99df4fc9c4",
+    "size": 1513,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/c4be4b74a72df613a9ad912c2a15ca99df4fc9c4"
+  },
+  {
+    "path": "templates/warp-terminal.yaml.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "669eed7d90cbc91b62980673d67b78cf106a6095",
+    "size": 924,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/669eed7d90cbc91b62980673d67b78cf106a6095"
+  },
+  {
+    "path": "templates/wezterm.lua.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c398008ac4e3f13bae8869a0b5504489773d0a4",
+    "size": 1972,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/9c398008ac4e3f13bae8869a0b5504489773d0a4"
+  },
+  {
+    "path": "templates/windows-terminal.json.j2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79754f7e311865193698b1ce2cd2e0b5214c78fe",
+    "size": 1132,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/79754f7e311865193698b1ce2cd2e0b5214c78fe"
+  },
+  {
+    "path": "themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "45b399630268fbe24f410ea629916a7b22755a66",
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/trees/45b399630268fbe24f410ea629916a7b22755a66"
+  },
+  {
+    "path": "themes/autumn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c5387e3ea0d68cfbde765f1da00c0a07238411a9",
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/trees/c5387e3ea0d68cfbde765f1da00c0a07238411a9"
+  },
+  {
+    "path": "themes/autumn/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb19acd2c8c756af8b6d7979eebe519ba31f48b3",
+    "size": 2298,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/fb19acd2c8c756af8b6d7979eebe519ba31f48b3"
+  },
+  {
+    "path": "themes/autumn/alacritty.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64cd1f28da33a8bea3ef6c9ca5518317723171a0",
+    "size": 677,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/64cd1f28da33a8bea3ef6c9ca5518317723171a0"
+  },
+  {
+    "path": "themes/autumn/fzf.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb1876ec1ded11bd2f8a35bacc95f0c57b186e31",
+    "size": 385,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/bb1876ec1ded11bd2f8a35bacc95f0c57b186e31"
+  },
+  {
+    "path": "themes/autumn/ghostty",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5810b9209b76d26b51c4e1522154d872b79814c5",
+    "size": 475,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/5810b9209b76d26b51c4e1522154d872b79814c5"
+  },
+  {
+    "path": "themes/autumn/kitty.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13296c57dd39b951439b4e869a51089f1d6f17b8",
+    "size": 389,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/13296c57dd39b951439b4e869a51089f1d6f17b8"
+  },
+  {
+    "path": "themes/autumn/rio.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d5b80e59457c46ed83323569ec8c400908c698f",
+    "size": 853,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/1d5b80e59457c46ed83323569ec8c400908c698f"
+  },
+  {
+    "path": "themes/autumn/vimium.css",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d66478812f5456a0f1ef11bd34063e18c8ba20ea",
+    "size": 1324,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/d66478812f5456a0f1ef11bd34063e18c8ba20ea"
+  },
+  {
+    "path": "themes/autumn/warp-terminal.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31f621b1c82a724a0f4aa155a13008c0dc7cbdf4",
+    "size": 471,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/31f621b1c82a724a0f4aa155a13008c0dc7cbdf4"
+  },
+  {
+    "path": "themes/autumn/wezterm.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1d8ea37ba8d73ce88b394a30c1348a717342126",
+    "size": 1046,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/f1d8ea37ba8d73ce88b394a30c1348a717342126"
+  },
+  {
+    "path": "themes/autumn/windows-terminal.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af2afefc290e050797e4117e0219abe93b6c9182",
+    "size": 544,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/af2afefc290e050797e4117e0219abe93b6c9182"
+  },
+  {
+    "path": "themes/dark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d5bdf200b60423ca2e611ecd1eae3e8381383987",
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/trees/d5bdf200b60423ca2e611ecd1eae3e8381383987"
+  },
+  {
+    "path": "themes/dark/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac1221e17249fdccb7c95a5a70aa2993fb6a4ea1",
+    "size": 2246,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/ac1221e17249fdccb7c95a5a70aa2993fb6a4ea1"
+  },
+  {
+    "path": "themes/dark/alacritty.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c51f5251d311b9a455408fe124e618b9e3ce3a83",
+    "size": 675,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/c51f5251d311b9a455408fe124e618b9e3ce3a83"
+  },
+  {
+    "path": "themes/dark/fzf.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "491a5c9bdc294b96f5a27a2e5035bddd01f3999b",
+    "size": 385,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/491a5c9bdc294b96f5a27a2e5035bddd01f3999b"
+  },
+  {
+    "path": "themes/dark/ghostty",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1dc2f4de7bd629c6753937362892990895b8767",
+    "size": 473,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/a1dc2f4de7bd629c6753937362892990895b8767"
+  },
+  {
+    "path": "themes/dark/kitty.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "170da5ae910bed6b2333f1e2363d5ef5f8b832db",
+    "size": 387,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/170da5ae910bed6b2333f1e2363d5ef5f8b832db"
+  },
+  {
+    "path": "themes/dark/rio.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5686ca1f03023b6975a51a9d1029a41d93995ff",
+    "size": 851,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/b5686ca1f03023b6975a51a9d1029a41d93995ff"
+  },
+  {
+    "path": "themes/dark/vimium.css",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cb14d2eec1ac1eb0588bcd9c6f315df24bc3266",
+    "size": 1322,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/0cb14d2eec1ac1eb0588bcd9c6f315df24bc3266"
+  },
+  {
+    "path": "themes/dark/warp-terminal.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24c6e3f98647f010fabc1260d768ad7b959f7136",
+    "size": 467,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/24c6e3f98647f010fabc1260d768ad7b959f7136"
+  },
+  {
+    "path": "themes/dark/wezterm.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bf8796d21d98fcbdb42176366c4796ebecb12af",
+    "size": 1044,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/0bf8796d21d98fcbdb42176366c4796ebecb12af"
+  },
+  {
+    "path": "themes/dark/windows-terminal.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12d121b8f4410a4df538a3a6a35d6c7178354743",
+    "size": 542,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/12d121b8f4410a4df538a3a6a35d6c7178354743"
+  },
+  {
+    "path": "themes/light",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "76f216cc9b1392dda7788fa1b41949ec65729590",
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/trees/76f216cc9b1392dda7788fa1b41949ec65729590"
+  },
+  {
+    "path": "themes/light/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b6e17684d7261e73ae977d67e07fc59a22baa70",
+    "size": 2272,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/8b6e17684d7261e73ae977d67e07fc59a22baa70"
+  },
+  {
+    "path": "themes/light/alacritty.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d8daa49e715b9729ebbcee1402514ecd9b88451d",
+    "size": 676,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/d8daa49e715b9729ebbcee1402514ecd9b88451d"
+  },
+  {
+    "path": "themes/light/fzf.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36eddc8952b42a84f6842f58250debcb83468ed0",
+    "size": 385,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/36eddc8952b42a84f6842f58250debcb83468ed0"
+  },
+  {
+    "path": "themes/light/ghostty",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "280a86afb32dd47dba66a1c640ba4d799f27cdca",
+    "size": 474,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/280a86afb32dd47dba66a1c640ba4d799f27cdca"
+  },
+  {
+    "path": "themes/light/kitty.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aace9a9f37568023f048f2517e0fcd3cd4fb5fa6",
+    "size": 388,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/aace9a9f37568023f048f2517e0fcd3cd4fb5fa6"
+  },
+  {
+    "path": "themes/light/rio.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b8d38bfef7c07d4287d2bc4190a75c9cc057aeb",
+    "size": 852,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/4b8d38bfef7c07d4287d2bc4190a75c9cc057aeb"
+  },
+  {
+    "path": "themes/light/vimium.css",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "329d3af39d3dde1041c9b816956c0d10bee0d2f8",
+    "size": 1323,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/329d3af39d3dde1041c9b816956c0d10bee0d2f8"
+  },
+  {
+    "path": "themes/light/warp-terminal.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95191317ee413567d54a2af996dbb6c1893075a5",
+    "size": 469,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/95191317ee413567d54a2af996dbb6c1893075a5"
+  },
+  {
+    "path": "themes/light/wezterm.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf8e0a7c76732fa5265410b99aea6172b283a7a6",
+    "size": 1045,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/cf8e0a7c76732fa5265410b99aea6172b283a7a6"
+  },
+  {
+    "path": "themes/light/windows-terminal.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "104013857eaf6a9b9314951accae6f23ddf86a75",
+    "size": 543,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/104013857eaf6a9b9314951accae6f23ddf86a75"
+  },
+  {
+    "path": "uv.lock",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b2f00622fc5f14a76d1e12c07c51c09cc0fd763",
+    "size": 17007,
+    "url": "https://api.github.com/repos/Skardyy/makurai-theme/git/blobs/3b2f00622fc5f14a76d1e12c07c51c09cc0fd763"
+  }
+]

@@ -1,0 +1,1694 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b7b3df07ff48ba8a97efec009b603b2b61c10d1",
+    "size": 566,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/1b7b3df07ff48ba8a97efec009b603b2b61c10d1"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c4afabdb632b5d68e60c9fe9fe0b0819676a729",
+    "size": 6556,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/2c4afabdb632b5d68e60c9fe9fe0b0819676a729"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c1f34a0db0fbcf8ee9dfdb8a1c2138ff75f2593",
+    "size": 18373,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/6c1f34a0db0fbcf8ee9dfdb8a1c2138ff75f2593"
+  },
+  {
+    "path": "bash",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c473f8488435402b1d6141f54fbf49f420736878",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/c473f8488435402b1d6141f54fbf49f420736878"
+  },
+  {
+    "path": "bash/.bashrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "288d1b52fe74aacd86efaca8109d1b9f70e6db33",
+    "size": 4663,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/288d1b52fe74aacd86efaca8109d1b9f70e6db33"
+  },
+  {
+    "path": "bin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "010bab473eda30e739e5e0e259af6fdf17f3fa74",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/010bab473eda30e739e5e0e259af6fdf17f3fa74"
+  },
+  {
+    "path": "bin/.local",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ad5d597a53f5c234819845a3332521671ec33a6f",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/ad5d597a53f5c234819845a3332521671ec33a6f"
+  },
+  {
+    "path": "bin/.local/bin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9cb01ae317baba1089c28b97431c3ed8e1c90891",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/9cb01ae317baba1089c28b97431c3ed8e1c90891"
+  },
+  {
+    "path": "bin/.local/bin/ansicat.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0781bdddb4adbe922b2dbc6f80adc2f40d6622f2",
+    "size": 9486,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/0781bdddb4adbe922b2dbc6f80adc2f40d6622f2"
+  },
+  {
+    "path": "bin/.local/bin/changemacaddr",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7d905273c35b6dd4939542b55b033a8587b77c13",
+    "size": 241,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/7d905273c35b6dd4939542b55b033a8587b77c13"
+  },
+  {
+    "path": "bin/.local/bin/cidr",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "fe7b2a083941f2c147f9ed0787a6a92dab19d4c7",
+    "size": 5069,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/fe7b2a083941f2c147f9ed0787a6a92dab19d4c7"
+  },
+  {
+    "path": "bin/.local/bin/dnsdumpster",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5c3f4122f164f8732667a2f514e5ff605fc099ed",
+    "size": 4958,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/5c3f4122f164f8732667a2f514e5ff605fc099ed"
+  },
+  {
+    "path": "bin/.local/bin/exorg",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d2239bc6c87ea14cd44a3475fd0c9551e03d3065",
+    "size": 840,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/d2239bc6c87ea14cd44a3475fd0c9551e03d3065"
+  },
+  {
+    "path": "bin/.local/bin/hash-compare",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b672555989281b011212ca183aaf29e8f98c748d",
+    "size": 257,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/b672555989281b011212ca183aaf29e8f98c748d"
+  },
+  {
+    "path": "bin/.local/bin/hex256",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c61af99b1ab451a47f3a4e54f4654c1bdd0655ae",
+    "size": 3272,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/c61af99b1ab451a47f3a4e54f4654c1bdd0655ae"
+  },
+  {
+    "path": "bin/.local/bin/pb",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "4b9a35e11a19ff8ce586fb52d4da08a80cc881cd",
+    "size": 3402,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/4b9a35e11a19ff8ce586fb52d4da08a80cc881cd"
+  },
+  {
+    "path": "bin/.local/bin/sysinfo",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "798259002b4b86a102b58b07b8cfca0a64cae31e",
+    "size": 3235,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/798259002b4b86a102b58b07b8cfca0a64cae31e"
+  },
+  {
+    "path": "bin/.local/bin/tmpl8",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9829ae5470289e2fb85b0b00634100ee9740a4ec",
+    "size": 1335,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/9829ae5470289e2fb85b0b00634100ee9740a4ec"
+  },
+  {
+    "path": "bin/.local/bin/vpn",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "20bdcc90822ba99cdbf23e991b8d21daadd26a17",
+    "size": 4141,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/20bdcc90822ba99cdbf23e991b8d21daadd26a17"
+  },
+  {
+    "path": "bin/.local/bin/xdg-open",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "2b492f465a58094bd2210fcc12633c43af185925",
+    "size": 251,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/2b492f465a58094bd2210fcc12633c43af185925"
+  },
+  {
+    "path": "bin/.local/bin/yank",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cb9f5a9e746bffd6316d463883409030b0c00e6f",
+    "size": 2649,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/cb9f5a9e746bffd6316d463883409030b0c00e6f"
+  },
+  {
+    "path": "blink",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "32a6ac00e1f3e9f42cb7f863fa2465be545a63ba",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/32a6ac00e1f3e9f42cb7f863fa2465be545a63ba"
+  },
+  {
+    "path": "blink/blaquemagick.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab6e1f31ec72b773fc5980976e1d7f21dec20828",
+    "size": 1178,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/ab6e1f31ec72b773fc5980976e1d7f21dec20828"
+  },
+  {
+    "path": "blink/blizzard-orb.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f32f52cc94a152aeb84f5dd4f6359d0dee319a86",
+    "size": 1107,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/f32f52cc94a152aeb84f5dd4f6359d0dee319a86"
+  },
+  {
+    "path": "blink/config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c64a7e5909e14786fa34eea121bf840e2d2ac00f",
+    "size": 322,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/c64a7e5909e14786fa34eea121bf840e2d2ac00f"
+  },
+  {
+    "path": "blink/evangelion.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e05492ede5d4f21a0eff34bdd97650f3d5885f1a",
+    "size": 1436,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/e05492ede5d4f21a0eff34bdd97650f3d5885f1a"
+  },
+  {
+    "path": "blink/hack.css",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04b4e45353f4dfe0439269d9e5ee9fb261409ec4",
+    "size": 11586396,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/04b4e45353f4dfe0439269d9e5ee9fb261409ec4"
+  },
+  {
+    "path": "blink/miasma.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3923e01c721519ba58ca6302c38ae0a3173a5f83",
+    "size": 657,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/3923e01c721519ba58ca6302c38ae0a3173a5f83"
+  },
+  {
+    "path": "blink/sourcerer.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f8704e2ba006a9a94b36025780873f054729c25",
+    "size": 2201,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/7f8704e2ba006a9a94b36025780873f054729c25"
+  },
+  {
+    "path": "dbcli",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0d4a5df4da2bd66c9765cdd22956aaff7d35a4a6",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/0d4a5df4da2bd66c9765cdd22956aaff7d35a4a6"
+  },
+  {
+    "path": "dbcli/.config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8fd4f7d1cb39417b70042cbfb52d5049a023da03",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/8fd4f7d1cb39417b70042cbfb52d5049a023da03"
+  },
+  {
+    "path": "dbcli/.config/mycli",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "516f385a28a3421ee4e25cb4e56023b525a0854e",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/516f385a28a3421ee4e25cb4e56023b525a0854e"
+  },
+  {
+    "path": "dbcli/.config/mycli/myclirc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a182aacc0a296af99f963a163e15771a489061e",
+    "size": 3170,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/9a182aacc0a296af99f963a163e15771a489061e"
+  },
+  {
+    "path": "dbcli/.config/pgcli",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7f1af1719a59ec7fc25718208540d98218a2bcf8",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/7f1af1719a59ec7fc25718208540d98218a2bcf8"
+  },
+  {
+    "path": "dbcli/.config/pgcli/config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08d5ef51c4b6882ec0525df94ed5c007a45b6a8c",
+    "size": 2872,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/08d5ef51c4b6882ec0525df94ed5c007a45b6a8c"
+  },
+  {
+    "path": "fun",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82afbefa8a4fe6fd969e0e05a41b813f413d5ef2",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/82afbefa8a4fe6fd969e0e05a41b813f413d5ef2"
+  },
+  {
+    "path": "fun/.local",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bb2681896a900db5696dccee36b04731f057dc73",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/bb2681896a900db5696dccee36b04731f057dc73"
+  },
+  {
+    "path": "fun/.local/bin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "387a2f8640557977c547000c5a4c7fa0c62268a8",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/387a2f8640557977c547000c5a4c7fa0c62268a8"
+  },
+  {
+    "path": "fun/.local/bin/256colors",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "47e8abb533eced1d04eb63c7fac95090b7d77f02",
+    "size": 2122,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/47e8abb533eced1d04eb63c7fac95090b7d77f02"
+  },
+  {
+    "path": "fun/.local/bin/2spooky.lua",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a0ebc5dd7e1b698e633a5a3686995b45e7c32664",
+    "size": 10404,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/a0ebc5dd7e1b698e633a5a3686995b45e7c32664"
+  },
+  {
+    "path": "fun/.local/bin/bonsai",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cee904d6128cfd7014ba464a893598ad28520ac4",
+    "size": 15539,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/cee904d6128cfd7014ba464a893598ad28520ac4"
+  },
+  {
+    "path": "fun/.local/bin/colorbars",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "025dbdfaa93fade0579efc2bb8203419ccacdd0f",
+    "size": 635,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/025dbdfaa93fade0579efc2bb8203419ccacdd0f"
+  },
+  {
+    "path": "fun/.local/bin/colorbars-sm",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "26cc9b19349dc921f4f71d73d7b1f6df3de8a082",
+    "size": 676,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/26cc9b19349dc921f4f71d73d7b1f6df3de8a082"
+  },
+  {
+    "path": "fun/.local/bin/colorscheme",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "476265bc51f8562152e973dd7fd9599b9511c7cc",
+    "size": 899,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/476265bc51f8562152e973dd7fd9599b9511c7cc"
+  },
+  {
+    "path": "fun/.local/bin/dna",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a049e0b72eef5a547fd3735f492780ac02ec32ab",
+    "size": 5411,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/a049e0b72eef5a547fd3735f492780ac02ec32ab"
+  },
+  {
+    "path": "fun/.local/bin/emoji",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "78fd18cff15508c5d23374e6dfdcba776e8ac436",
+    "size": 12734,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/78fd18cff15508c5d23374e6dfdcba776e8ac436"
+  },
+  {
+    "path": "fun/.local/bin/emote",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "2583c17ddb979d66b968e6dbe826dd02d0ad5a5a",
+    "size": 4039,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/2583c17ddb979d66b968e6dbe826dd02d0ad5a5a"
+  },
+  {
+    "path": "fun/.local/bin/food",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c6f708d3553ae37850a608b67074db9db7e20e5d",
+    "size": 75071,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/c6f708d3553ae37850a608b67074db9db7e20e5d"
+  },
+  {
+    "path": "fun/.local/bin/ghosts",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "2cf17273ee2423520a7c510c48c98f6eca2ed4d1",
+    "size": 1919,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/2cf17273ee2423520a7c510c48c98f6eca2ed4d1"
+  },
+  {
+    "path": "fun/.local/bin/invaders",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0ca2036e5553df17361c64db627155e89a566fe5",
+    "size": 3882,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/0ca2036e5553df17361c64db627155e89a566fe5"
+  },
+  {
+    "path": "fun/.local/bin/metroid",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0e42313c8a34fd31fd9f77410430382ec2b1b578",
+    "size": 36163,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/0e42313c8a34fd31fd9f77410430382ec2b1b578"
+  },
+  {
+    "path": "fun/.local/bin/pacman-colors",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "51697ccd669ad4860cb14a37e8654269446af695",
+    "size": 3379,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/51697ccd669ad4860cb14a37e8654269446af695"
+  },
+  {
+    "path": "fun/.local/bin/pipes",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "4709745197eb85265d0d10220615e3042d5d5634",
+    "size": 3761,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/4709745197eb85265d0d10220615e3042d5d5634"
+  },
+  {
+    "path": "fun/.local/bin/pipesx",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "2397b5637aaa38cfb7050fb1d680cd5f41ed9493",
+    "size": 5424,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/2397b5637aaa38cfb7050fb1d680cd5f41ed9493"
+  },
+  {
+    "path": "fun/.local/bin/pukeskull",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "bbfbe72c613d9ce59c73bde7f33c8f623e8673ee",
+    "size": 4666,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/bbfbe72c613d9ce59c73bde7f33c8f623e8673ee"
+  },
+  {
+    "path": "fun/.local/bin/rain",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "8a8d8f63d697c9349a09916cf257296fd41ee2d6",
+    "size": 2549,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/8a8d8f63d697c9349a09916cf257296fd41ee2d6"
+  },
+  {
+    "path": "fun/.local/bin/ryu",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "2d10e1b4ba021efeb325c974f04ca894aa69eeb9",
+    "size": 32368,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/2d10e1b4ba021efeb325c974f04ca894aa69eeb9"
+  },
+  {
+    "path": "fun/.local/bin/slendy",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "766e06c0cbc459f88536db725a4698703c719857",
+    "size": 3709,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/766e06c0cbc459f88536db725a4698703c719857"
+  },
+  {
+    "path": "fun/.local/bin/unix",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9baa3ff0152d843ff05126086221f5e27a2b2b96",
+    "size": 4904,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/9baa3ff0152d843ff05126086221f5e27a2b2b96"
+  },
+  {
+    "path": "git",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "784e992c3612a85285a8b6bea84a2de689819f7b",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/784e992c3612a85285a8b6bea84a2de689819f7b"
+  },
+  {
+    "path": "git/.config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aec58a25790716c1b9a68ecefa73bd6a77aaf8b7",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/aec58a25790716c1b9a68ecefa73bd6a77aaf8b7"
+  },
+  {
+    "path": "git/.config/git",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a7ea245a84161d900dd2ad8851c764033ecb577",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/7a7ea245a84161d900dd2ad8851c764033ecb577"
+  },
+  {
+    "path": "git/.config/git/config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "419e12e4ee837c6e2ff2d51a37efa0cd94b15c36",
+    "size": 743,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/419e12e4ee837c6e2ff2d51a37efa0cd94b15c36"
+  },
+  {
+    "path": "git/.config/git/gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d3000dcc3e2b54685342cb1245efd415db23e7f",
+    "size": 1491,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/9d3000dcc3e2b54685342cb1245efd415db23e7f"
+  },
+  {
+    "path": "gpg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "987af6f98fe60c6a86f4ae38f48a418cde51791f",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/987af6f98fe60c6a86f4ae38f48a418cde51791f"
+  },
+  {
+    "path": "gpg/.local",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d147256bdf6b7a5a4fe93cb6ad40727a28f9520f",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/d147256bdf6b7a5a4fe93cb6ad40727a28f9520f"
+  },
+  {
+    "path": "gpg/.local/share",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8ca782354904d33b88cdbb9df0b3397acf9ed4b0",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/8ca782354904d33b88cdbb9df0b3397acf9ed4b0"
+  },
+  {
+    "path": "gpg/.local/share/gpg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ca4340f5f7ef3c3cb6b247cd229e8fb854b4c1d3",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/ca4340f5f7ef3c3cb6b247cd229e8fb854b4c1d3"
+  },
+  {
+    "path": "gpg/.local/share/gpg/0xAC1D0000.pub",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1c1069b37ff0ab2a40a998a7a135d20f126665e",
+    "size": 2529,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/b1c1069b37ff0ab2a40a998a7a135d20f126665e"
+  },
+  {
+    "path": "gpg/.local/share/gpg/gpg-agent.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16d1cae8f618e4890433259ada51f4de1b5c4533",
+    "size": 44,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/16d1cae8f618e4890433259ada51f4de1b5c4533"
+  },
+  {
+    "path": "gpg/.local/share/gpg/gpg.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fec236f93eb0e51857fd39c62e424cc10cd944a9",
+    "size": 1223,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/fec236f93eb0e51857fd39c62e424cc10cd944a9"
+  },
+  {
+    "path": "neovide",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6e06e4469fb985ca5fcec8158a38e9ab29f1183d",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/6e06e4469fb985ca5fcec8158a38e9ab29f1183d"
+  },
+  {
+    "path": "neovide/.config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "065f0c80c4601f4fa5d2cc3f1739ea08c865b65a",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/065f0c80c4601f4fa5d2cc3f1739ea08c865b65a"
+  },
+  {
+    "path": "neovide/.config/neovide",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8fe666a836320c0fa471ef2b7477a556f906d55c",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/8fe666a836320c0fa471ef2b7477a556f906d55c"
+  },
+  {
+    "path": "neovide/.config/neovide/config.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3100aedf755ab8cee74fdf2a9a34f86a5c3f527",
+    "size": 375,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/f3100aedf755ab8cee74fdf2a9a34f86a5c3f527"
+  },
+  {
+    "path": "neovim",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "97d59f600c9a4d70b3712b9ffdc5a74922712a1c",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/97d59f600c9a4d70b3712b9ffdc5a74922712a1c"
+  },
+  {
+    "path": "neovim/.config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43d982e964703f5c5d7f593517fbd245d0f2480d",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/43d982e964703f5c5d7f593517fbd245d0f2480d"
+  },
+  {
+    "path": "neovim/.config/nvim",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "63cccd0b4539d9aa3aa8deb8893f7cccf54ec226",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/63cccd0b4539d9aa3aa8deb8893f7cccf54ec226"
+  },
+  {
+    "path": "neovim/.config/nvim/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f1e9c0f976113a4aa66368b071e000c71393211",
+    "size": 1320,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/5f1e9c0f976113a4aa66368b071e000c71393211"
+  },
+  {
+    "path": "neovim/.config/nvim/lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e0bb0384973c47a04ee2bb9fe45b0933efcaf1d3",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/e0bb0384973c47a04ee2bb9fe45b0933efcaf1d3"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/cfg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e082af0ee8d2b802d164eff19941f5bd08534574",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/e082af0ee8d2b802d164eff19941f5bd08534574"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/cfg/commands.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5bbeb15512e02cc3a1c23f79daf65863f680da22",
+    "size": 3976,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/5bbeb15512e02cc3a1c23f79daf65863f680da22"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/cfg/general.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9022f52c1f447795ed0226e900ca1a02e8cf0298",
+    "size": 2862,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/9022f52c1f447795ed0226e900ca1a02e8cf0298"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/cfg/lazy.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99db6792a8c0dbcc5887224a70bb56a1c86b3d90",
+    "size": 2578,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/99db6792a8c0dbcc5887224a70bb56a1c86b3d90"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/cfg/pkglock.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9caa06a57183c33d52557548aaf31ac4f1a756b",
+    "size": 4659,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/f9caa06a57183c33d52557548aaf31ac4f1a756b"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/cfg/ui.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8eb590a942607c89bc3e9a238598a750eb278b7",
+    "size": 3737,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/e8eb590a942607c89bc3e9a238598a750eb278b7"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d9d579a8aa5913723ca966914df3b3f0e0f5092a",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/d9d579a8aa5913723ca966914df3b3f0e0f5092a"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/blink.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e917917bea6b0e04ac942ed0bbd90000e7e50792",
+    "size": 4713,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/e917917bea6b0e04ac942ed0bbd90000e7e50792"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/conform.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18358469e3b9df44ef789aab4ece72c0c0f1cd9c",
+    "size": 1632,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/18358469e3b9df44ef789aab4ece72c0c0f1cd9c"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/copilot.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc608ad2ecf852f4ef6e181c687ef727fe343030",
+    "size": 1190,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/bc608ad2ecf852f4ef6e181c687ef727fe343030"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/dadbod.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02bd1639d3d414054f043aa15fa8056577ba558c",
+    "size": 1418,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/02bd1639d3d414054f043aa15fa8056577ba558c"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/fzf.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a65f9edde7b99ea6e1590bb17b8f55dee13a66c",
+    "size": 1774,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/6a65f9edde7b99ea6e1590bb17b8f55dee13a66c"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/git.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8be99cb736e113b54c6c484cb7187ce9aad46401",
+    "size": 424,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/8be99cb736e113b54c6c484cb7187ce9aad46401"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/mason.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4cbccdf7913b5626626e835a8fbea53f9b73f2fb",
+    "size": 1435,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/4cbccdf7913b5626626e835a8fbea53f9b73f2fb"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/match.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44a60fafb6b3c8b927efa97632661b23dc78ea16",
+    "size": 177,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/44a60fafb6b3c8b927efa97632661b23dc78ea16"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/snacks.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e15afd71262403df9f5f82ecea04685d161b9ce2",
+    "size": 9015,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/e15afd71262403df9f5f82ecea04685d161b9ce2"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/surround.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a2c0d3812ce4ef78d9142279762db26cc02800f",
+    "size": 415,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/4a2c0d3812ce4ef78d9142279762db26cc02800f"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/telescope.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "048ed424de66e86ca7cfa433b95ab8835d764402",
+    "size": 3332,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/048ed424de66e86ca7cfa433b95ab8835d764402"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/tmux.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6695a585c625a375c29ac75a2edd3cf686e14aa2",
+    "size": 1944,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/6695a585c625a375c29ac75a2edd3cf686e14aa2"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/treesj.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7811b7abf73ce9cf1fa7a6db94c326da0f4c5b8",
+    "size": 186,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/b7811b7abf73ce9cf1fa7a6db94c326da0f4c5b8"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/trouble.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e59925db4a317bc4fec8b7ba9221dc5375de6915",
+    "size": 898,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/e59925db4a317bc4fec8b7ba9221dc5375de6915"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/core/yank.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b082d19d244bb9dbe189e0a28524ba47074e926",
+    "size": 526,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/7b082d19d244bb9dbe189e0a28524ba47074e926"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0d47af76f787f2e97aac1658eeb1da9de17bf4be",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/0d47af76f787f2e97aac1658eeb1da9de17bf4be"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/bashls.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5caa506330458353e1589da8f2f35030f2aca4b1",
+    "size": 490,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/5caa506330458353e1589da8f2f35030f2aca4b1"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/cssls.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9b15f935f329ed849beb5acf226a0bc75e979a0",
+    "size": 594,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/c9b15f935f329ed849beb5acf226a0bc75e979a0"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/eslint.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05f0cf5e13fb2130220a079a2854915f7c13e377",
+    "size": 1044,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/05f0cf5e13fb2130220a079a2854915f7c13e377"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3af75aacd25ce8025fca1f3ba377f6ffbc0774bd",
+    "size": 4497,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/3af75aacd25ce8025fca1f3ba377f6ffbc0774bd"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/jsonls.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35f3753d414e1fbb1815fb8f5b6777276f60b017",
+    "size": 334,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/35f3753d414e1fbb1815fb8f5b6777276f60b017"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/luals.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6dbac50d5e3d7878bcd711bae11f6c185d437451",
+    "size": 782,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/6dbac50d5e3d7878bcd711bae11f6c185d437451"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/phpls.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f355dbe88513ca1e0fe3dd147f9d3078fcbc50ab",
+    "size": 346,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/f355dbe88513ca1e0fe3dd147f9d3078fcbc50ab"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/remaps.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b48af16471cea83a3dfb47243d9689d2b8ba9b74",
+    "size": 4503,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/b48af16471cea83a3dfb47243d9689d2b8ba9b74"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/tailwindcss.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ad92ba0163b3c7149a40615b984331907c52faa",
+    "size": 1505,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/0ad92ba0163b3c7149a40615b984331907c52faa"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/tsls.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63db1066b58ebec0c5780deb13859532cd644ef1",
+    "size": 644,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/63db1066b58ebec0c5780deb13859532cd644ef1"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/lsp/yamlls.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8fc5c1315d7bf04c1d3a20fc2655a5e3aa846d4c",
+    "size": 109,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/8fc5c1315d7bf04c1d3a20fc2655a5e3aa846d4c"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fdfaf74a89dff639824625abd51617ece96b300b",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/fdfaf74a89dff639824625abd51617ece96b300b"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/ansi.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df1a160be6ca53811724c765f77afc8cbf42eea9",
+    "size": 83,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/df1a160be6ca53811724c765f77afc8cbf42eea9"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/colorizer.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6afbbf89512303447b2c257ec2edc03ab169db7d",
+    "size": 372,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/6afbbf89512303447b2c257ec2edc03ab169db7d"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/colorschemes.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6dc05941886b800b28e8845bd4fe08d98474647f",
+    "size": 966,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/6dc05941886b800b28e8845bd4fe08d98474647f"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/devicons.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a427c1ea1a9f70cb0295094082d92deeebbc3a35",
+    "size": 12109,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/a427c1ea1a9f70cb0295094082d92deeebbc3a35"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/eva-logo",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5fbc0551d9dc7c6c597d437fa3294b285230e707",
+    "size": 4599,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/5fbc0551d9dc7c6c597d437fa3294b285230e707"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/lualine.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4fccb2d57e1f9af55127b7879e7fee91826d416e",
+    "size": 8338,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/4fccb2d57e1f9af55127b7879e7fee91826d416e"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/lush.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a84fccde2fc27445d41d7b6913f87245f2c6429",
+    "size": 138,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/1a84fccde2fc27445d41d7b6913f87245f2c6429"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/nvim-logo",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1de7bed287a266a6dee194ac1d3a7955665bb483",
+    "size": 10270,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/1de7bed287a266a6dee194ac1d3a7955665bb483"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/signs.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22f987e7901b127523d15376f14928396b792681",
+    "size": 792,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/22f987e7901b127523d15376f14928396b792681"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/tint.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd39dfd3bfab5c89eefb2177ee2cd010fab67ff7",
+    "size": 2295,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/bd39dfd3bfab5c89eefb2177ee2cd010fab67ff7"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/treesitter.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6cdb5750d9f8ac355e74b47c7d44da11bc52c65c",
+    "size": 2317,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/6cdb5750d9f8ac355e74b47c7d44da11bc52c65c"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/ui/whichkey.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a0fe5877bffc44c19d980331c37681f830aba53",
+    "size": 320,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/2a0fe5877bffc44c19d980331c37681f830aba53"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/utils",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a3374be49cb1e6d11fd46a72e7ae39a37aa3156b",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/a3374be49cb1e6d11fd46a72e7ae39a37aa3156b"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/utils/functions.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68540c1dfdb9f07da240afcc5abab34fc2a8fa08",
+    "size": 214,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/68540c1dfdb9f07da240afcc5abab34fc2a8fa08"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/utils/icons.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4bca5d3cb674e667c13d156aeadd3e28dd0a9a84",
+    "size": 3593,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/4bca5d3cb674e667c13d156aeadd3e28dd0a9a84"
+  },
+  {
+    "path": "neovim/.config/nvim/lua/utils/remaps.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c709dab147e3493a323a9e0335f1e66727a323fd",
+    "size": 979,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/c709dab147e3493a323a9e0335f1e66727a323fd"
+  },
+  {
+    "path": "preview.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d35030056628f2b2e8fc8054140e077a7a3423ae",
+    "size": 512800,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/d35030056628f2b2e8fc8054140e077a7a3423ae"
+  },
+  {
+    "path": "setup",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "08bf2554fbdda07316cc70fe57137596645e8df2",
+    "size": 17982,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/08bf2554fbdda07316cc70fe57137596645e8df2"
+  },
+  {
+    "path": "ssh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8c0c09b609274695d402e189292cec8d760ba221",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/8c0c09b609274695d402e189292cec8d760ba221"
+  },
+  {
+    "path": "ssh/.ssh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a58124b8571461dfbcebd4142a14e4f87a7b15b0",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/a58124b8571461dfbcebd4142a14e4f87a7b15b0"
+  },
+  {
+    "path": "ssh/.ssh/config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a9a85f1e150ea344d1c1b8adc11bea97c317fc0",
+    "size": 1173,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/0a9a85f1e150ea344d1c1b8adc11bea97c317fc0"
+  },
+  {
+    "path": "tmux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3775acd2e125e5ee1c8a2df9886bffe7765b58c0",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/3775acd2e125e5ee1c8a2df9886bffe7765b58c0"
+  },
+  {
+    "path": "tmux/.config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "efd3df00eefc818a168895d25dc63cb309d6f44f",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/efd3df00eefc818a168895d25dc63cb309d6f44f"
+  },
+  {
+    "path": "tmux/.config/tmux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f67d72ee4607d5b01837ea05d145708f6fd4e2ae",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/f67d72ee4607d5b01837ea05d145708f6fd4e2ae"
+  },
+  {
+    "path": "tmux/.config/tmux/tmux.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c88a83ac6d041041ce35c413c59968d26b54a52",
+    "size": 6018,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/4c88a83ac6d041041ce35c413c59968d26b54a52"
+  },
+  {
+    "path": "tmux/.local",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c43d0bf7a56501b6726e8d5f7333e484609b8d04",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/c43d0bf7a56501b6726e8d5f7333e484609b8d04"
+  },
+  {
+    "path": "tmux/.local/bin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b01592460c3f673d76ec8d77e2291ee3fc0b32b",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/5b01592460c3f673d76ec8d77e2291ee3fc0b32b"
+  },
+  {
+    "path": "tmux/.local/bin/tmux-status",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a2e4baba26a659e8826f462267417a466c8018b8",
+    "size": 4101,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/a2e4baba26a659e8826f462267417a466c8018b8"
+  },
+  {
+    "path": "wallpaper",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "189df3a256c7c764eb357a45bf43dc0695bcedfe",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/189df3a256c7c764eb357a45bf43dc0695bcedfe"
+  },
+  {
+    "path": "wallpaper/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "594b8ef41fc468041298bc587cd99b9dd5c3f2e7",
+    "size": 2701,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/594b8ef41fc468041298bc587cd99b9dd5c3f2e7"
+  },
+  {
+    "path": "wallpaper/classic-darkworld.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c72208448103f851e80dd038be44a9f74ad5f461",
+    "size": 262513,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/c72208448103f851e80dd038be44a9f74ad5f461"
+  },
+  {
+    "path": "wallpaper/classic-double.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "954f36a956a84ef7bef7afad4fbe3a5263b6311a",
+    "size": 43014,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/954f36a956a84ef7bef7afad4fbe3a5263b6311a"
+  },
+  {
+    "path": "wallpaper/classic.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91f65ce62b7d311633d94e5e5972deac8a52bec7",
+    "size": 27339,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/91f65ce62b7d311633d94e5e5972deac8a52bec7"
+  },
+  {
+    "path": "wallpaper/coil0.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "678e3c25668ebf9f74b78ce5d7ab97314c80b94b",
+    "size": 9102,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/678e3c25668ebf9f74b78ce5d7ab97314c80b94b"
+  },
+  {
+    "path": "wallpaper/coil1.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6d193f984cb6df7efe34e810a8a8a282be6ba6a",
+    "size": 8787,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/f6d193f984cb6df7efe34e810a8a8a282be6ba6a"
+  },
+  {
+    "path": "wallpaper/coil2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73bbeb15f2689e76222b26b044a36d3f10e225c9",
+    "size": 9856,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/73bbeb15f2689e76222b26b044a36d3f10e225c9"
+  },
+  {
+    "path": "wallpaper/coil3.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d68742cf0f8e29674b526387632ca429ee434161",
+    "size": 9393,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/d68742cf0f8e29674b526387632ca429ee434161"
+  },
+  {
+    "path": "wallpaper/coil4.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e44dd790fbf21a3e13ffb6e63c92ca0cbb3afc95",
+    "size": 15247,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/e44dd790fbf21a3e13ffb6e63c92ca0cbb3afc95"
+  },
+  {
+    "path": "wallpaper/coil5-alt.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d96617eb573a38fdef334f872de9efbd5b9e61b",
+    "size": 14993,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/0d96617eb573a38fdef334f872de9efbd5b9e61b"
+  },
+  {
+    "path": "wallpaper/coil5.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "206bbeb36f9d93f8f1df23050d0c7c6ed8c04ee4",
+    "size": 15192,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/206bbeb36f9d93f8f1df23050d0c7c6ed8c04ee4"
+  },
+  {
+    "path": "wallpaper/converge-janedoe.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a8e1e585aed315a12a36caa90463806dae70e73",
+    "size": 737516,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/3a8e1e585aed315a12a36caa90463806dae70e73"
+  },
+  {
+    "path": "wallpaper/cyberpunk-alt.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b776a83ec5e76a0b9abfc9b3ea26b3c96827c4a2",
+    "size": 686610,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/b776a83ec5e76a0b9abfc9b3ea26b3c96827c4a2"
+  },
+  {
+    "path": "wallpaper/cyberpunk.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05df5593c45e7543ae568bd75392d54fb6742af7",
+    "size": 685636,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/05df5593c45e7543ae568bd75392d54fb6742af7"
+  },
+  {
+    "path": "wallpaper/evangelion.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5c123ae5ab6e5dec02fcea8ef46536d3ffdde36",
+    "size": 748756,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/d5c123ae5ab6e5dec02fcea8ef46536d3ffdde36"
+  },
+  {
+    "path": "wallpaper/hash0.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c28ec255acff6b29bafaa1443c24cf50eedeae03",
+    "size": 966,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/c28ec255acff6b29bafaa1443c24cf50eedeae03"
+  },
+  {
+    "path": "wallpaper/hash1.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed5efca16c11de28dec80ef0e9a08edd1a4ba3d4",
+    "size": 981,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/ed5efca16c11de28dec80ef0e9a08edd1a4ba3d4"
+  },
+  {
+    "path": "wallpaper/hash2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b25c28df2211196a59ec5aa0cde7c136075ae76a",
+    "size": 982,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/b25c28df2211196a59ec5aa0cde7c136075ae76a"
+  },
+  {
+    "path": "wallpaper/hash3.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ebef474a87535eecaf9367f2cca483c6e556f9c",
+    "size": 963,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/0ebef474a87535eecaf9367f2cca483c6e556f9c"
+  },
+  {
+    "path": "wallpaper/hash4.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd750b68678c8f39d8136095465993f4d502347b",
+    "size": 964,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/cd750b68678c8f39d8136095465993f4d502347b"
+  },
+  {
+    "path": "wallpaper/jazz-solo.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "749b0486394a684f5232205eda26f45c16e52867",
+    "size": 2789590,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/749b0486394a684f5232205eda26f45c16e52867"
+  },
+  {
+    "path": "wallpaper/leaf.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91cddcc469c34507234f1e1e734efeb13456d0bc",
+    "size": 21103227,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/91cddcc469c34507234f1e1e734efeb13456d0bc"
+  },
+  {
+    "path": "wallpaper/miasma.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06cd783accba8de49209487a309e19c4c99c111c",
+    "size": 778016,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/06cd783accba8de49209487a309e19c4c99c111c"
+  },
+  {
+    "path": "wallpaper/night-city-dark-dual.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2dbe2a29c621e66b2fe60b1e8076e42bbdcda61e",
+    "size": 75922,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/2dbe2a29c621e66b2fe60b1e8076e42bbdcda61e"
+  },
+  {
+    "path": "wallpaper/night-city-dark-ultrawide.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a001131878f70bb49888ced2856bf24867b66744",
+    "size": 78782,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/a001131878f70bb49888ced2856bf24867b66744"
+  },
+  {
+    "path": "wallpaper/night-city-dark.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b727de31040db93ca7cc6ae6b7f0b9c7d5083b9c",
+    "size": 18189,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/b727de31040db93ca7cc6ae6b7f0b9c7d5083b9c"
+  },
+  {
+    "path": "wallpaper/night-city-pixel.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0dea36d23ab1c18197a334af5a6910e4c8788662",
+    "size": 326088,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/0dea36d23ab1c18197a334af5a6910e4c8788662"
+  },
+  {
+    "path": "wallpaper/pgh-night.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94c04ffad6c1b7d7793a5cced171ab7c7067abd8",
+    "size": 16829031,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/94c04ffad6c1b7d7793a5cced171ab7c7067abd8"
+  },
+  {
+    "path": "wallpaper/ppg.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "680b01ffda16bed3311aa3c6c0e7a65896d03aeb",
+    "size": 30028355,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/680b01ffda16bed3311aa3c6c0e7a65896d03aeb"
+  },
+  {
+    "path": "wallpaper/topo.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ec723928bdd0d647c6bd0a3370ec7156512918d",
+    "size": 127286,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/4ec723928bdd0d647c6bd0a3370ec7156512918d"
+  },
+  {
+    "path": "xorg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e8fc4fb9a4778eb0a2573cc02eb306ca46c1b766",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/e8fc4fb9a4778eb0a2573cc02eb306ca46c1b766"
+  },
+  {
+    "path": "xorg/blaquemagick.Xresources",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a894478609fc164aadb514716475ddeda499ead8",
+    "size": 629,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/a894478609fc164aadb514716475ddeda499ead8"
+  },
+  {
+    "path": "xorg/blizzard-orb.Xresources",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "792ed719e5892d586cf92be67b34d6b14815987a",
+    "size": 2055,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/792ed719e5892d586cf92be67b34d6b14815987a"
+  },
+  {
+    "path": "xorg/evangelion.Xresources",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "910eb69c34cf82be53fa0f557736ed93a3b42a77",
+    "size": 1319,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/910eb69c34cf82be53fa0f557736ed93a3b42a77"
+  },
+  {
+    "path": "xorg/miasma.Xresources",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "495cb33b9a206f1b047f149a4406ad87b9da5215",
+    "size": 783,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/495cb33b9a206f1b047f149a4406ad87b9da5215"
+  },
+  {
+    "path": "xorg/sourcerer.Xresources",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7263584b52925817581dfa5e860f787367c66357",
+    "size": 1982,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/7263584b52925817581dfa5e860f787367c66357"
+  },
+  {
+    "path": "zsh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "110cfe7ef2a79b0c3c995a0a350ba7f9cf9aee44",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/110cfe7ef2a79b0c3c995a0a350ba7f9cf9aee44"
+  },
+  {
+    "path": "zsh/.config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a8f958fa05bccfa55f1987e3bd8e3f6ff95f7273",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/a8f958fa05bccfa55f1987e3bd8e3f6ff95f7273"
+  },
+  {
+    "path": "zsh/.config/starship.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa59406038ad79407ba3693396a2c1eaa2cad1bd",
+    "size": 5030,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/aa59406038ad79407ba3693396a2c1eaa2cad1bd"
+  },
+  {
+    "path": "zsh/.config/zsh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e57a40e202b7347b8f08fb8ef349095f82d420e6",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/e57a40e202b7347b8f08fb8ef349095f82d420e6"
+  },
+  {
+    "path": "zsh/.config/zsh/.zlogin",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6ba139d664473fed3773799a03548f8508b68d74",
+    "size": 873,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/6ba139d664473fed3773799a03548f8508b68d74"
+  },
+  {
+    "path": "zsh/.config/zsh/.zlogout",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "04f9c401b294da9a065c69d85473460434d6e0ae",
+    "size": 817,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/04f9c401b294da9a065c69d85473460434d6e0ae"
+  },
+  {
+    "path": "zsh/.config/zsh/.zshenv",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "fded999e01e066fdf1ebc0c54d15a4f84467ce1a",
+    "size": 75,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/fded999e01e066fdf1ebc0c54d15a4f84467ce1a"
+  },
+  {
+    "path": "zsh/.config/zsh/.zshrc",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f1a218c63b527a5d30daff897704216fa7796cfd",
+    "size": 901,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/f1a218c63b527a5d30daff897704216fa7796cfd"
+  },
+  {
+    "path": "zsh/.config/zsh/00-logo.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "64a7b18bc17e1007b0fa43132f26e9c4bf952913",
+    "size": 5443,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/64a7b18bc17e1007b0fa43132f26e9c4bf952913"
+  },
+  {
+    "path": "zsh/.config/zsh/01-environment.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "fd95a1f4fb233a49f07fa6bc9613aefcad4a0109",
+    "size": 3260,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/fd95a1f4fb233a49f07fa6bc9613aefcad4a0109"
+  },
+  {
+    "path": "zsh/.config/zsh/02-autocompletion.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9e16830960e4cf8686d4f2223de352dcc9fd7391",
+    "size": 2207,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/9e16830960e4cf8686d4f2223de352dcc9fd7391"
+  },
+  {
+    "path": "zsh/.config/zsh/03-history.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a9200644f570a6b52ed1ec6ebf3ee8d24b0095c2",
+    "size": 1059,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/a9200644f570a6b52ed1ec6ebf3ee8d24b0095c2"
+  },
+  {
+    "path": "zsh/.config/zsh/04-keybindings.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "191a1c961ada630d0305e54064d97841da582e89",
+    "size": 2308,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/191a1c961ada630d0305e54064d97841da582e89"
+  },
+  {
+    "path": "zsh/.config/zsh/05-prompt.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7721c8cd132826371359f8f39702a1cc3e0cdea4",
+    "size": 3627,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/7721c8cd132826371359f8f39702a1cc3e0cdea4"
+  },
+  {
+    "path": "zsh/.config/zsh/06-aliases.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "84be112efddfde12e160eb90ae973090e45b9aa1",
+    "size": 2972,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/84be112efddfde12e160eb90ae973090e45b9aa1"
+  },
+  {
+    "path": "zsh/.config/zsh/07-functions.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "78796140b37a49fd0d07e4d9fd2c9a8e9cfbcfcc",
+    "size": 9284,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/78796140b37a49fd0d07e4d9fd2c9a8e9cfbcfcc"
+  },
+  {
+    "path": "zsh/.config/zsh/08-syntax.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d97e1e0e91e71d81bbeaeb6a39abb2a9d8f5ac40",
+    "size": 2109,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/d97e1e0e91e71d81bbeaeb6a39abb2a9d8f5ac40"
+  },
+  {
+    "path": "zsh/.config/zsh/09-colored-man-pages.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6d7869c51ced3f75758a4cd7cd395a2395f69678",
+    "size": 963,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/6d7869c51ced3f75758a4cd7cd395a2395f69678"
+  },
+  {
+    "path": "zsh/.config/zsh/10-tty-colors.zsh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "e06278241daaa3f778a1b6faf136b3ea38149508",
+    "size": 797,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/e06278241daaa3f778a1b6faf136b3ea38149508"
+  },
+  {
+    "path": "zsh/.config/zsh/completion",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c7b269e052b92acfb3a22d2d95a688d999ce3047",
+    "url": "https://api.github.com/repos/xero/dotfiles/git/trees/c7b269e052b92acfb3a22d2d95a688d999ce3047"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_ag",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6a4171037ac14dae63488436c85dd5aca86ac072",
+    "size": 9807,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/6a4171037ac14dae63488436c85dd5aca86ac072"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_bun",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d75f2aa2f066856e2e99b9c39aec549a4b94af66",
+    "size": 35640,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/d75f2aa2f066856e2e99b9c39aec549a4b94af66"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_cmake",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "55efa73665d1876012cbd3149be17aee4a7be9e3",
+    "size": 17968,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/55efa73665d1876012cbd3149be17aee4a7be9e3"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_emote",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "89d69dc941101aef7b4ec201e7361e97338da029",
+    "size": 638,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/89d69dc941101aef7b4ec201e7361e97338da029"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_gh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "41cf35363e72815f6e6d05c0e4bb609a2c0fcfda",
+    "size": 7384,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/41cf35363e72815f6e6d05c0e4bb609a2c0fcfda"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_kubectx",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3db03e24b67168b4b3f081ce34185e467af3d678",
+    "size": 501,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/3db03e24b67168b4b3f081ce34185e467af3d678"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_kubens",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "e523caf70be1a12266736498511689c39bf00c3e",
+    "size": 134,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/e523caf70be1a12266736498511689c39bf00c3e"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_node",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "36c58ffc69905351fb990de5f063f8aaa42c580a",
+    "size": 5902,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/36c58ffc69905351fb990de5f063f8aaa42c580a"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_npm",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "4a46a243181f07e2b0c999d93dcdc0b2f11a5f50",
+    "size": 4544,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/4a46a243181f07e2b0c999d93dcdc0b2f11a5f50"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_op",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a45966ebb27facba96883976bacab3c646578cd8",
+    "size": 135913,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/a45966ebb27facba96883976bacab3c646578cd8"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_openssl",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1d5ec380881bb2d3b6718c80497fafe78033cb73",
+    "size": 83179,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/1d5ec380881bb2d3b6718c80497fafe78033cb73"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_pb",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "203d5abdb9d6eea3416cb0cafa7d903b81cecb53",
+    "size": 314,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/203d5abdb9d6eea3416cb0cafa7d903b81cecb53"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_sofancy",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f35fa77e4c160dce50c275e1b3ad84a48201acc7",
+    "size": 1006,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/f35fa77e4c160dce50c275e1b3ad84a48201acc7"
+  },
+  {
+    "path": "zsh/.config/zsh/completion/_tdfgo",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d4139486bf9881afd2cb34cf586895af03e5f7c0",
+    "size": 7483,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/d4139486bf9881afd2cb34cf586895af03e5f7c0"
+  },
+  {
+    "path": "zsh/.config/zsh/evangelion-colors",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "88ac47393dc8e065952867c28f5c0bbe4657dac3",
+    "size": 1321,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/88ac47393dc8e065952867c28f5c0bbe4657dac3"
+  },
+  {
+    "path": "zsh/.config/zsh/miasma-colors",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1042e0ae1e26ccd1808d34fd5d50501867535ba0",
+    "size": 843,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/1042e0ae1e26ccd1808d34fd5d50501867535ba0"
+  },
+  {
+    "path": "zsh/.config/zsh/sourcerer.colors",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "8458b18ba618a0fcbd4e1b301012e35b542a1393",
+    "size": 1994,
+    "url": "https://api.github.com/repos/xero/dotfiles/git/blobs/8458b18ba618a0fcbd4e1b301012e35b542a1393"
+  }
+]

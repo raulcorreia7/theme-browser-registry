@@ -1,0 +1,126 @@
+[
+  {
+    "path": ".luarc.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9343589e135c17f3f03fcfad28e8282ef278b22e",
+    "size": 248,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/9343589e135c17f3f03fcfad28e8282ef278b22e"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b833b10976f614f83e1c73b96ae4b444be6ae64",
+    "size": 1070,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/1b833b10976f614f83e1c73b96ae4b444be6ae64"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8630d5f9c6f8d360b77f2f21907e6cc365a78984",
+    "size": 2284,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/8630d5f9c6f8d360b77f2f21907e6cc365a78984"
+  },
+  {
+    "path": "assets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9a2ac804923357ac0ef71a40583f028eae95d098",
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/trees/9a2ac804923357ac0ef71a40583f028eae95d098"
+  },
+  {
+    "path": "assets/colors.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b869f7aae744105bf96f7e434a117c25cefaed80",
+    "size": 298264,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/b869f7aae744105bf96f7e434a117c25cefaed80"
+  },
+  {
+    "path": "assets/dracula-pro.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbc42495482fb19e20836a7dacb604bd5bfc7b3a",
+    "size": 339197,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/dbc42495482fb19e20836a7dacb604bd5bfc7b3a"
+  },
+  {
+    "path": "assets/screenshot.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3d8e420b473fac21606557e0dd66a947bdc279c",
+    "size": 649932,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/a3d8e420b473fac21606557e0dd66a947bdc279c"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "24c183cf0b3c9ccf575ed580cfddd6b88468c365",
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/trees/24c183cf0b3c9ccf575ed580cfddd6b88468c365"
+  },
+  {
+    "path": "colors/dracula-alucard-soft.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3308efebbafdaf4c92d235eb2f19d8893e4ec98",
+    "size": 56,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/a3308efebbafdaf4c92d235eb2f19d8893e4ec98"
+  },
+  {
+    "path": "colors/dracula-alucard.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7c98c95370845773335153826a189ea6fa83685",
+    "size": 34,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/e7c98c95370845773335153826a189ea6fa83685"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "983ef72fcfee69c9466dfe56bb45f950ed454e35",
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/trees/983ef72fcfee69c9466dfe56bb45f950ed454e35"
+  },
+  {
+    "path": "lua/dracula-alucard",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6d62ecea16ca5276c65b30ca7e1e3d7d93ec92b2",
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/trees/6d62ecea16ca5276c65b30ca7e1e3d7d93ec92b2"
+  },
+  {
+    "path": "lua/dracula-alucard/groups.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bd05ea386407cec816aa1ff8b83a18c6f2b0475",
+    "size": 30818,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/7bd05ea386407cec816aa1ff8b83a18c6f2b0475"
+  },
+  {
+    "path": "lua/dracula-alucard/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1be1517f67e985d7020982ab9242159cbd4ba3eb",
+    "size": 4110,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/1be1517f67e985d7020982ab9242159cbd4ba3eb"
+  },
+  {
+    "path": "lua/dracula-alucard/palette-soft.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a5a352e19e652b893a9208e067bae13d017a89a0",
+    "size": 823,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/a5a352e19e652b893a9208e067bae13d017a89a0"
+  },
+  {
+    "path": "lua/dracula-alucard/palette.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2da896591a59a17b278bbba4ec72266453bea35f",
+    "size": 1490,
+    "url": "https://api.github.com/repos/jaljoue/dracula-alucard.nvim/git/blobs/2da896591a59a17b278bbba4ec72266453bea35f"
+  }
+]

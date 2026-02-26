@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-02-26T15:06:55.492Z",
+  "summary": {
+    "total_repos_with_variants": 86,
+    "total_variants": 410,
+    "with_mode": 384,
+    "need_detection": 26,
+    "coverage_percent": 94
+  },
+  "by_source": {
+    "pattern": 120,
+    "hint": 264,
+    "readme": 0,
+    "unknown": 26
+  },
+  "repos_needing_attention": [
+    {
+      "repo": "sharpchen/Eva-Theme.nvim",
+      "total": 7,
+      "withMode": 1,
+      "coverage": 14,
+      "unknownVariants": [
+        "Eva-Dark-Bold",
+        "Eva-Dark-Italic",
+        "Eva-Dark-Italic-Bold",
+        "Eva-Light-Bold",
+        "Eva-Light-Italic",
+        "Eva-Light-Italic-Bold"
+      ]
+    },
+    {
+      "repo": "forest-nvim/sequoia.nvim",
+      "total": 6,
+      "withMode": 1,
+      "coverage": 17,
+      "unknownVariants": [
+        "sequoia-ember",
+        "sequoia-fog",
+        "sequoia-main",
+        "sequoia-moss",
+        "sequoia-rise"
+      ]
+    },
+    {
+      "repo": "WTFox/jellybeans.nvim",
+      "total": 6,
+      "withMode": 3,
+      "coverage": 50,
+      "unknownVariants": [
+        "jellybeans-default",
+        "jellybeans-mono",
+        "jellybeans-muted"
+      ]
+    },
+    {
+      "repo": "wnkz/monoglow.nvim",
+      "total": 4,
+      "withMode": 2,
+      "coverage": 50,
+      "unknownVariants": [
+        "monoglow-lack",
+        "monoglow-z"
+      ]
+    },
+    {
+      "repo": "zcodes/vim-colors-basic",
+      "total": 3,
+      "withMode": 1,
+      "coverage": 33,
+      "unknownVariants": [
+        "basic-eighties",
+        "basic-spacegray"
+      ]
+    },
+    {
+      "repo": "aikhe/fleur.nvim",
+      "total": 2,
+      "withMode": 0,
+      "coverage": 0,
+      "unknownVariants": [
+        "fleur-lisianthus",
+        "fleur-lulumi"
+      ]
+    },
+    {
+      "repo": "eldritch-theme/eldritch.nvim",
+      "total": 2,
+      "withMode": 1,
+      "coverage": 50,
+      "unknownVariants": [
+        "eldritch-minimal"
+      ]
+    },
+    {
+      "repo": "miikanissi/modus-themes.nvim",
+      "total": 2,
+      "withMode": 1,
+      "coverage": 50,
+      "unknownVariants": [
+        "modus-vivendi"
+      ]
+    },
+    {
+      "repo": "scozu/karasu",
+      "total": 2,
+      "withMode": 1,
+      "coverage": 50,
+      "unknownVariants": [
+        "karasu-snow"
+      ]
+    },
+    {
+      "repo": "katawful/kat.nvim",
+      "total": 1,
+      "withMode": 0,
+      "coverage": 0,
+      "unknownVariants": [
+        "kat.nwim"
+      ]
+    },
+    {
+      "repo": "samharju/serene.nvim",
+      "total": 1,
+      "withMode": 0,
+      "coverage": 0,
+      "unknownVariants": [
+        "serene-transparent"
+      ]
+    },
+    {
+      "repo": "samharju/synthweave.nvim",
+      "total": 1,
+      "withMode": 0,
+      "coverage": 0,
+      "unknownVariants": [
+        "synthweave-transparent"
+      ]
+    }
+  ]
+}

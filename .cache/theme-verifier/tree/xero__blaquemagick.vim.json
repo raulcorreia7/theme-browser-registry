@@ -1,0 +1,33 @@
+[
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d56aa93fa1a34112effc65021d733af13968aac5",
+    "size": 1374,
+    "url": "https://api.github.com/repos/xero/blaquemagick.vim/git/blobs/d56aa93fa1a34112effc65021d733af13968aac5"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a564f220901de1bc7ce158fb786f5e37ef325276",
+    "url": "https://api.github.com/repos/xero/blaquemagick.vim/git/trees/a564f220901de1bc7ce158fb786f5e37ef325276"
+  },
+  {
+    "path": "colors/blaquemagick.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9d32a9bccc4dad463ff784777f61027cb86c72d",
+    "size": 3284,
+    "url": "https://api.github.com/repos/xero/blaquemagick.vim/git/blobs/a9d32a9bccc4dad463ff784777f61027cb86c72d"
+  },
+  {
+    "path": "preview.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8badff002340e2908f0ce152c0faf1c881556cbd",
+    "size": 31130,
+    "url": "https://api.github.com/repos/xero/blaquemagick.vim/git/blobs/8badff002340e2908f0ce152c0faf1c881556cbd"
+  }
+]

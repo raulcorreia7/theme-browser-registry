@@ -1,0 +1,48 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e5238b2417ffa5d3277437464d39e71af11a4be",
+    "size": 1071,
+    "url": "https://api.github.com/repos/akurdunkar/scruber.vim/git/blobs/8e5238b2417ffa5d3277437464d39e71af11a4be"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9dbbb2a876a238a29bd66a9c41952f8ed6eb9519",
+    "size": 251,
+    "url": "https://api.github.com/repos/akurdunkar/scruber.vim/git/blobs/9dbbb2a876a238a29bd66a9c41952f8ed6eb9519"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "051ae1d488530c8a4ec0f5d416936a10be949d26",
+    "url": "https://api.github.com/repos/akurdunkar/scruber.vim/git/trees/051ae1d488530c8a4ec0f5d416936a10be949d26"
+  },
+  {
+    "path": "colors/scruber.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97ed3871ea98a469e2758db8a0f186d8bc53239c",
+    "size": 6537,
+    "url": "https://api.github.com/repos/akurdunkar/scruber.vim/git/blobs/97ed3871ea98a469e2758db8a0f186d8bc53239c"
+  },
+  {
+    "path": "static",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "60ccbe3ca74668fc46dc88274f20e9078f96be3e",
+    "url": "https://api.github.com/repos/akurdunkar/scruber.vim/git/trees/60ccbe3ca74668fc46dc88274f20e9078f96be3e"
+  },
+  {
+    "path": "static/screenshot.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e562b5be2f43a9cc1dd7ca26e4647c09d0389b5",
+    "size": 137253,
+    "url": "https://api.github.com/repos/akurdunkar/scruber.vim/git/blobs/2e562b5be2f43a9cc1dd7ca26e4647c09d0389b5"
+  }
+]

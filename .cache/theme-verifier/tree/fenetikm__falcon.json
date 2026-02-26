@@ -1,0 +1,1829 @@
+[
+  {
+    "path": ".githelpers",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9d09d2597425c0af0295a9da9ffadcba4356e73",
+    "size": 2041,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/c9d09d2597425c0af0295a9da9ffadcba4356e73"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": ".vimrc_check",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19c7b25601fd3beb157dc02b894a4a620cedf65f",
+    "size": 346,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/19c7b25601fd3beb157dc02b894a4a620cedf65f"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15d3f6ade43e5c1afdc0b24f52674d07351f804e",
+    "size": 1065,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/15d3f6ade43e5c1afdc0b24f52674d07351f804e"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6b71f6e981e0f16a34cab95f5eb60ba68ef4cf2",
+    "size": 1518,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/e6b71f6e981e0f16a34cab95f5eb60ba68ef4cf2"
+  },
+  {
+    "path": "TODO.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "720cd377a487d4a7d801e76958ba775666d8fb80",
+    "size": 1027,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/720cd377a487d4a7d801e76958ba775666d8fb80"
+  },
+  {
+    "path": "ace",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2e9534d17867219124c95675620f2b54ea050f84",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/2e9534d17867219124c95675620f2b54ea050f84"
+  },
+  {
+    "path": "ace/build",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "663c286e6701b94850e67273b7ea1d7245c8260f",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/663c286e6701b94850e67273b7ea1d7245c8260f"
+  },
+  {
+    "path": "ace/build/css",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e7c43aa4fd897a330ac356c90d46ba610af12ce0",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/e7c43aa4fd897a330ac356c90d46ba610af12ce0"
+  },
+  {
+    "path": "ace/build/css/theme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cfc874443b741ce67defbfd37beb519faf8c5c4b",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/cfc874443b741ce67defbfd37beb519faf8c5c4b"
+  },
+  {
+    "path": "ace/build/css/theme/falcon.css",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ea0b1f3724a3be9715c7d00cf045fabb4feee27",
+    "size": 1897,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0ea0b1f3724a3be9715c7d00cf045fabb4feee27"
+  },
+  {
+    "path": "ace/build/src-min-noconflict",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d774d7c202a86748a97228d446428b7f15cf15c7",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/d774d7c202a86748a97228d446428b7f15cf15c7"
+  },
+  {
+    "path": "ace/build/src-min-noconflict/theme-falcon.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0044687ffeedadc7caeded540760618c5f564ce4",
+    "size": 2238,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0044687ffeedadc7caeded540760618c5f564ce4"
+  },
+  {
+    "path": "ace/build/src-min",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e84e299e8e6e990e2ba722659182d6c274e8c2fc",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/e84e299e8e6e990e2ba722659182d6c274e8c2fc"
+  },
+  {
+    "path": "ace/build/src-min/theme-falcon.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c86e34d887e0b145a08bcb3b1f2206db25a35ed",
+    "size": 2237,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/1c86e34d887e0b145a08bcb3b1f2206db25a35ed"
+  },
+  {
+    "path": "ace/build/src-noconflict",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac719cfc796bf2cf2505de6b779696c694ad575a",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/ac719cfc796bf2cf2505de6b779696c694ad575a"
+  },
+  {
+    "path": "ace/build/src-noconflict/theme-falcon.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d05061332e3056f015083aeee5df13589e5e8e8",
+    "size": 4180,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/1d05061332e3056f015083aeee5df13589e5e8e8"
+  },
+  {
+    "path": "ace/build/src",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8beb17e4da5a75f99d1f853d12d4ff4a2d614398",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/8beb17e4da5a75f99d1f853d12d4ff4a2d614398"
+  },
+  {
+    "path": "ace/build/src/theme-falcon.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6444e14dfd217b08239c62159e6d9dac3e68105",
+    "size": 4179,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/a6444e14dfd217b08239c62159e6d9dac3e68105"
+  },
+  {
+    "path": "ace/lib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7d4c40c1cc5639c1c98441902d8e8d5ee0fcd453",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/7d4c40c1cc5639c1c98441902d8e8d5ee0fcd453"
+  },
+  {
+    "path": "ace/lib/ace",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d3c6d9357333b005ed1a649a0e38b882301405be",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/d3c6d9357333b005ed1a649a0e38b882301405be"
+  },
+  {
+    "path": "ace/lib/ace/theme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1fe63ee0bf09655bb27f0973e345fa9274a20678",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/1fe63ee0bf09655bb27f0973e345fa9274a20678"
+  },
+  {
+    "path": "ace/lib/ace/theme/falcon.css",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ea0b1f3724a3be9715c7d00cf045fabb4feee27",
+    "size": 1897,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0ea0b1f3724a3be9715c7d00cf045fabb4feee27"
+  },
+  {
+    "path": "ace/lib/ace/theme/falcon.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec2e67dfeee9faa06c0bea448642fd6c5f0b781e",
+    "size": 1885,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ec2e67dfeee9faa06c0bea448642fd6c5f0b781e"
+  },
+  {
+    "path": "ace/tool",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ddcdca83bb2b905ccac766fe50aad95b1e608850",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/ddcdca83bb2b905ccac766fe50aad95b1e608850"
+  },
+  {
+    "path": "ace/tool/tmthemes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b8fa3192625709145b40dc86db5bb8cec8f56c04",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/b8fa3192625709145b40dc86db5bb8cec8f56c04"
+  },
+  {
+    "path": "ace/tool/tmthemes/falcon.tmTheme",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "56c7fb8991691bf22a1209d0b982ebc90cd3c745",
+    "size": 31,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/56c7fb8991691bf22a1209d0b982ebc90cd3c745"
+  },
+  {
+    "path": "alacritty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c99a2183cffce05ee3e03801615b2e9e7c65cf0",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/6c99a2183cffce05ee3e03801615b2e9e7c65cf0"
+  },
+  {
+    "path": "alacritty/alaccritty.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6c3d313a119e9659f54be5120e9c3dc34deb777",
+    "size": 986,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/a6c3d313a119e9659f54be5120e9c3dc34deb777"
+  },
+  {
+    "path": "alacritty/alacritty.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00cf765b2c881398e517933d37bd8d45621f9a2f",
+    "size": 693,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/00cf765b2c881398e517933d37bd8d45621f9a2f"
+  },
+  {
+    "path": "alfred",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5822c563b4fc4aed8fd127b9d56d905745a768f1",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/5822c563b4fc4aed8fd127b9d56d905745a768f1"
+  },
+  {
+    "path": "alfred/falcon-alternate.alfredappearance",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e5463fa9e49655721c096560c19c8401de42c88",
+    "size": 1407,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/1e5463fa9e49655721c096560c19c8401de42c88"
+  },
+  {
+    "path": "alfred/falcon-default.alfredappearance",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ffd0354c03fc157948b2f45b56334a34e1ebee1",
+    "size": 1405,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0ffd0354c03fc157948b2f45b56334a34e1ebee1"
+  },
+  {
+    "path": "autoload",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "730b96cb89a61512e7babf89e3394b04af11f237",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/730b96cb89a61512e7babf89e3394b04af11f237"
+  },
+  {
+    "path": "autoload/airline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43225ed2982ff728efffe2ceb8bda61cac6c907e",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/43225ed2982ff728efffe2ceb8bda61cac6c907e"
+  },
+  {
+    "path": "autoload/airline/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dc61aadfd26a00f7550012906979bc259771ec0e",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/dc61aadfd26a00f7550012906979bc259771ec0e"
+  },
+  {
+    "path": "autoload/airline/themes/falcon.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a3ae1142206e2cfa4582596a2951e767c397ed0",
+    "size": 2079,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/5a3ae1142206e2cfa4582596a2951e767c397ed0"
+  },
+  {
+    "path": "autoload/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "999f5b028a38aa16a2b9ab9220cb91a8e33e5936",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/999f5b028a38aa16a2b9ab9220cb91a8e33e5936"
+  },
+  {
+    "path": "autoload/lightline/colorscheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "06663d2fad434015b70fd20113f75932a2de4f85",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/06663d2fad434015b70fd20113f75932a2de4f85"
+  },
+  {
+    "path": "autoload/lightline/colorscheme/falcon.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ce66d73943f37da0e5595dc100853e29da66196",
+    "size": 2262,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/1ce66d73943f37da0e5595dc100853e29da66196"
+  },
+  {
+    "path": "bat",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dc75094e21b925878e14196c2abd62f3a3f6733c",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/dc75094e21b925878e14196c2abd62f3a3f6733c"
+  },
+  {
+    "path": "bat/falcon.tmTheme",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "f38e38cdb894bdd0f18c7fcacde3c048187200f5",
+    "size": 25,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f38e38cdb894bdd0f18c7fcacde3c048187200f5"
+  },
+  {
+    "path": "cava",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b32c374f45536b953dcceeeddc0b20be073ebfa4",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/b32c374f45536b953dcceeeddc0b20be073ebfa4"
+  },
+  {
+    "path": "cava/falcon.config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36a50ae4b0a415ac73de98bef0e26c4cd8b8fa3a",
+    "size": 186,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/36a50ae4b0a415ac73de98bef0e26c4cd8b8fa3a"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "422444a24d430c30b2b475467f19cc4f4080f11b",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/422444a24d430c30b2b475467f19cc4f4080f11b"
+  },
+  {
+    "path": "colors/falcon.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e1803cddce1b588c490e6c5e4278502b0d6a73b",
+    "size": 47257,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/1e1803cddce1b588c490e6c5e4278502b0d6a73b"
+  },
+  {
+    "path": "corpus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f866953fea11d733e0c3fa5fb6663fda0c201aef",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/f866953fea11d733e0c3fa5fb6663fda0c201aef"
+  },
+  {
+    "path": "corpus/README.rst",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19f85ca282870662beab734308ace02d0814f3ed",
+    "size": 3396,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/19f85ca282870662beab734308ace02d0814f3ed"
+  },
+  {
+    "path": "corpus/bash.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd73db14bf4bdc57a03f4170fd8a45d895edeb31",
+    "size": 1069,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/cd73db14bf4bdc57a03f4170fd8a45d895edeb31"
+  },
+  {
+    "path": "corpus/c.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c46b9136fe196ca163db12b6b40ed18a8e07a192",
+    "size": 748,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/c46b9136fe196ca163db12b6b40ed18a8e07a192"
+  },
+  {
+    "path": "corpus/clojure.clj",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "788f04595fe5961a5e47bf3bf917fb4046d8abc8",
+    "size": 1553,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/788f04595fe5961a5e47bf3bf917fb4046d8abc8"
+  },
+  {
+    "path": "corpus/cpp.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e53f1b67b3830e42f58402bbc47499088ba7b15",
+    "size": 1978,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/5e53f1b67b3830e42f58402bbc47499088ba7b15"
+  },
+  {
+    "path": "corpus/css.css",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5399519f9ab9bb2bcfaf4cd88951ec84da2e0d79",
+    "size": 1172,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/5399519f9ab9bb2bcfaf4cd88951ec84da2e0d79"
+  },
+  {
+    "path": "corpus/elm.elm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de6a5e8018cff61df0383470130014326e956d57",
+    "size": 2326,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/de6a5e8018cff61df0383470130014326e956d57"
+  },
+  {
+    "path": "corpus/go.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc1d6ff83eb7cd52e0015507296007aa7f4d27d7",
+    "size": 3202,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/cc1d6ff83eb7cd52e0015507296007aa7f4d27d7"
+  },
+  {
+    "path": "corpus/html.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d333a1f58aadb9f0c7dea26fc918ac6c8f74bae",
+    "size": 1176,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/3d333a1f58aadb9f0c7dea26fc918ac6c8f74bae"
+  },
+  {
+    "path": "corpus/java.java",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f55e307540c94597e2463f5e745b6a9cd7725b48",
+    "size": 831,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f55e307540c94597e2463f5e745b6a9cd7725b48"
+  },
+  {
+    "path": "corpus/javascript.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ffeaed4f4232ee56a1dd1e5acdf10defd01407d",
+    "size": 1193,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/8ffeaed4f4232ee56a1dd1e5acdf10defd01407d"
+  },
+  {
+    "path": "corpus/lua.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ebe5c4faf2c6af835b2618344c3d66d6068a8a8",
+    "size": 1038,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0ebe5c4faf2c6af835b2618344c3d66d6068a8a8"
+  },
+  {
+    "path": "corpus/markdown.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "927efbf12137675527dca81116d94f22043c1855",
+    "size": 570,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/927efbf12137675527dca81116d94f22043c1855"
+  },
+  {
+    "path": "corpus/php.php",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c33d72e423d8329c00dfd006d4720209bc1e8ad8",
+    "size": 1329,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/c33d72e423d8329c00dfd006d4720209bc1e8ad8"
+  },
+  {
+    "path": "corpus/php_old.php",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57900c9a0cfb817d053dc2528322b08ceb952ca0",
+    "size": 578,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/57900c9a0cfb817d053dc2528322b08ceb952ca0"
+  },
+  {
+    "path": "corpus/python.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e50e1affb8e8678bb8e46d08dbbdb7e02b377ec7",
+    "size": 1496,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/e50e1affb8e8678bb8e46d08dbbdb7e02b377ec7"
+  },
+  {
+    "path": "corpus/react.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6444c0e39972d7ee518af51f769c905f437b22bc",
+    "size": 209,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/6444c0e39972d7ee518af51f769c905f437b22bc"
+  },
+  {
+    "path": "corpus/ruby.rb",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2a090022c4cc9fcaa5b35b5024dcd7d9bc3fe35",
+    "size": 834,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/b2a090022c4cc9fcaa5b35b5024dcd7d9bc3fe35"
+  },
+  {
+    "path": "corpus/twig.html.twig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f5ba83f2071e0cb0223c5d0d417e8a45ad07289",
+    "size": 2673,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0f5ba83f2071e0cb0223c5d0d417e8a45ad07289"
+  },
+  {
+    "path": "corpus/xml.xml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4cff2aea5fa409bfb862ae063caa6dd790929d48",
+    "size": 701,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/4cff2aea5fa409bfb862ae063caa6dd790929d48"
+  },
+  {
+    "path": "corpus/yaml.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "433b8f4aee6245d6223e26eb88e7b96517fa09cf",
+    "size": 838,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/433b8f4aee6245d6223e26eb88e7b96517fa09cf"
+  },
+  {
+    "path": "estilo.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38c91e1e98097fa69c92940eac927285f1007d94",
+    "size": 396,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/38c91e1e98097fa69c92940eac927285f1007d94"
+  },
+  {
+    "path": "estilo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e72678efcb334e1b4c99ec9f6ae80cc0089a179a",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/e72678efcb334e1b4c99ec9f6ae80cc0089a179a"
+  },
+  {
+    "path": "estilo/addons",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dfc881cb3c6c03cfdf1e6c2af73aa08a2aaa1009",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/dfc881cb3c6c03cfdf1e6c2af73aa08a2aaa1009"
+  },
+  {
+    "path": "estilo/addons/nvim-term.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebbf21e59702f458eb28aaa93e038afb5f157a85",
+    "size": 374,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ebbf21e59702f458eb28aaa93e038afb5f157a85"
+  },
+  {
+    "path": "estilo/addons/term.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4bc85c8915525b51b3a0a4059e452530967e2e88",
+    "size": 223,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/4bc85c8915525b51b3a0a4059e452530967e2e88"
+  },
+  {
+    "path": "estilo/airline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8189506fb2c0095b41974e7d644e435f95ee5380",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/8189506fb2c0095b41974e7d644e435f95ee5380"
+  },
+  {
+    "path": "estilo/airline/falcon.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c197a46d550c8f4930376636ff85f422570cf8f",
+    "size": 566,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/9c197a46d550c8f4930376636ff85f422570cf8f"
+  },
+  {
+    "path": "estilo/lightline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d157b32b2bebc26f61385afec255cd1fbb0fff7d",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/d157b32b2bebc26f61385afec255cd1fbb0fff7d"
+  },
+  {
+    "path": "estilo/lightline/falcon.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12f41c78daa9ab36e73c4ba06626ac63dc376e37",
+    "size": 940,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/12f41c78daa9ab36e73c4ba06626ac63dc376e37"
+  },
+  {
+    "path": "estilo/palettes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "32a0a79a0e50fa1ddc8760c86f005782d822aa7b",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/32a0a79a0e50fa1ddc8760c86f005782d822aa7b"
+  },
+  {
+    "path": "estilo/palettes/falcon.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0c2d5615d333e7093f1c09970cb4ab45d813cdf",
+    "size": 1410,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/e0c2d5615d333e7093f1c09970cb4ab45d813cdf"
+  },
+  {
+    "path": "estilo/syntax",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80637e9fc6df7ddc5b29791cc94a1d61b7db0d50",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/80637e9fc6df7ddc5b29791cc94a1d61b7db0d50"
+  },
+  {
+    "path": "estilo/syntax/ale.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "231ab5a170ec9c061b46c53bac889e2cfafb59d3",
+    "size": 78,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/231ab5a170ec9c061b46c53bac889e2cfafb59d3"
+  },
+  {
+    "path": "estilo/syntax/aspvbs.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34e70af86b2161b6825427ff5af7b8ea9045e209",
+    "size": 64,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/34e70af86b2161b6825427ff5af7b8ea9045e209"
+  },
+  {
+    "path": "estilo/syntax/base.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4cd998fb843797ddb015e815dc1cbcf0fabff75",
+    "size": 2212,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/c4cd998fb843797ddb015e815dc1cbcf0fabff75"
+  },
+  {
+    "path": "estilo/syntax/blankline.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3564e64fb387df2e6a2823b4991ec11caaf173c3",
+    "size": 121,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/3564e64fb387df2e6a2823b4991ec11caaf173c3"
+  },
+  {
+    "path": "estilo/syntax/buftabline.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a728018a2b462b1189f19d4d47deb165bf07faab",
+    "size": 154,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/a728018a2b462b1189f19d4d47deb165bf07faab"
+  },
+  {
+    "path": "estilo/syntax/cleverf.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e2bee6f082bb0df4308aa843ca9ab79f9c47d8a",
+    "size": 35,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/8e2bee6f082bb0df4308aa843ca9ab79f9c47d8a"
+  },
+  {
+    "path": "estilo/syntax/cpp.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34916bd33fa549c605d700cba2c98904a7cfc4b0",
+    "size": 333,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/34916bd33fa549c605d700cba2c98904a7cfc4b0"
+  },
+  {
+    "path": "estilo/syntax/css.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51f7d5ece6ffd9a1b679446b8e561e4862351714",
+    "size": 3615,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/51f7d5ece6ffd9a1b679446b8e561e4862351714"
+  },
+  {
+    "path": "estilo/syntax/custom.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d040a7ad3686fdcb2f233638c80033cd7311810e",
+    "size": 36,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/d040a7ad3686fdcb2f233638c80033cd7311810e"
+  },
+  {
+    "path": "estilo/syntax/dashboard.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b005d5b8b78f10fdfafc96169d828b4e4b27865",
+    "size": 117,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/4b005d5b8b78f10fdfafc96169d828b4e4b27865"
+  },
+  {
+    "path": "estilo/syntax/diff.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "895f847dc9d3958ecaff9027a7890caa7cd38925",
+    "size": 203,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/895f847dc9d3958ecaff9027a7890caa7cd38925"
+  },
+  {
+    "path": "estilo/syntax/docker.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a0580ed574ac91e96898c3ae74da22d53b854f6",
+    "size": 35,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/5a0580ed574ac91e96898c3ae74da22d53b854f6"
+  },
+  {
+    "path": "estilo/syntax/elm.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4dead7d0b6a5d9d19041e98d76c55a554d4882c0",
+    "size": 89,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/4dead7d0b6a5d9d19041e98d76c55a554d4882c0"
+  },
+  {
+    "path": "estilo/syntax/fugitive.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4bc1bb5ff94420157c71e95c54088229ece41e24",
+    "size": 498,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/4bc1bb5ff94420157c71e95c54088229ece41e24"
+  },
+  {
+    "path": "estilo/syntax/fzf.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e45264f795d9e3f2e024ab1ae554149b03e5f481",
+    "size": 72,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/e45264f795d9e3f2e024ab1ae554149b03e5f481"
+  },
+  {
+    "path": "estilo/syntax/gitcommit.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1afc8188abeff26e11c12b243fa36fa4221c5d64",
+    "size": 1036,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/1afc8188abeff26e11c12b243fa36fa4221c5d64"
+  },
+  {
+    "path": "estilo/syntax/gitconfig.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0c23b58364ad963583ab1abd818fcdaf30946ef",
+    "size": 58,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/b0c23b58364ad963583ab1abd818fcdaf30946ef"
+  },
+  {
+    "path": "estilo/syntax/gitsigns.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89ee29035d8c3d23f6473b81276a0d0f7749dd56",
+    "size": 142,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/89ee29035d8c3d23f6473b81276a0d0f7749dd56"
+  },
+  {
+    "path": "estilo/syntax/go.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "598a1cfb141c486b7b41a00d0a8366f98cc66913",
+    "size": 959,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/598a1cfb141c486b7b41a00d0a8366f98cc66913"
+  },
+  {
+    "path": "estilo/syntax/graphql.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f538e63b01845085f49eb9e6ca4f377146d874e",
+    "size": 131,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/5f538e63b01845085f49eb9e6ca4f377146d874e"
+  },
+  {
+    "path": "estilo/syntax/help.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f782544fae0984cc8365b132181a5a9fd37d812d",
+    "size": 1335,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f782544fae0984cc8365b132181a5a9fd37d812d"
+  },
+  {
+    "path": "estilo/syntax/highlightedyank.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e65e970349f43caf3c76339514c212ff31a89a5c",
+    "size": 33,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/e65e970349f43caf3c76339514c212ff31a89a5c"
+  },
+  {
+    "path": "estilo/syntax/html.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd759557c8b85808f81a11b5ac0b51fa57f5a50c",
+    "size": 1429,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/fd759557c8b85808f81a11b5ac0b51fa57f5a50c"
+  },
+  {
+    "path": "estilo/syntax/indent.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72de9543f314d8c167b25b7d1aafd1b61d8966e5",
+    "size": 65,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/72de9543f314d8c167b25b7d1aafd1b61d8966e5"
+  },
+  {
+    "path": "estilo/syntax/java.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "369ee3110c786d68155800e5845c24565698e702",
+    "size": 50,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/369ee3110c786d68155800e5845c24565698e702"
+  },
+  {
+    "path": "estilo/syntax/javascript.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7cd6d006155f5f84e695866a98ad27a9e170512",
+    "size": 2226,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/b7cd6d006155f5f84e695866a98ad27a9e170512"
+  },
+  {
+    "path": "estilo/syntax/json.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7f79b05bf37793fa10ac78b8c2d9ad738cc2db5",
+    "size": 548,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/c7f79b05bf37793fa10ac78b8c2d9ad738cc2db5"
+  },
+  {
+    "path": "estilo/syntax/jsx.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b67c75810973b8f9fe9c4e10bb3498bcb9acfe34",
+    "size": 84,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/b67c75810973b8f9fe9c4e10bb3498bcb9acfe34"
+  },
+  {
+    "path": "estilo/syntax/lsp.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "591babcb1f5263c2ee1be64f9e17d7e29cb86f70",
+    "size": 1305,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/591babcb1f5263c2ee1be64f9e17d7e29cb86f70"
+  },
+  {
+    "path": "estilo/syntax/lsp_signature.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e99b0e110ee1b8f30169da287e06b0c81ac0cdfb",
+    "size": 45,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/e99b0e110ee1b8f30169da287e06b0c81ac0cdfb"
+  },
+  {
+    "path": "estilo/syntax/lua.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f03ea783fad38815d8cac26bb01146a299ad8d56",
+    "size": 305,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f03ea783fad38815d8cac26bb01146a299ad8d56"
+  },
+  {
+    "path": "estilo/syntax/markdown.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3d2db0115ddfaa5c20ef991df0c406fddcc7a60",
+    "size": 1549,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/d3d2db0115ddfaa5c20ef991df0c406fddcc7a60"
+  },
+  {
+    "path": "estilo/syntax/neovim.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfb8bb823f703825f82bb39e31d7c4d6c6b3e07c",
+    "size": 76,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/bfb8bb823f703825f82bb39e31d7c4d6c6b3e07c"
+  },
+  {
+    "path": "estilo/syntax/nerdtree.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "414e51f389e144c3dca938e79e7beea39c8b7bef",
+    "size": 877,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/414e51f389e144c3dca938e79e7beea39c8b7bef"
+  },
+  {
+    "path": "estilo/syntax/netrw.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d24bc77fdce43ddae3adf1ff596067a2834f443",
+    "size": 29,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0d24bc77fdce43ddae3adf1ff596067a2834f443"
+  },
+  {
+    "path": "estilo/syntax/nvim-cmp.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18f7da0d7f930391e8506559dadc50ed42241fd0",
+    "size": 236,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/18f7da0d7f930391e8506559dadc50ed42241fd0"
+  },
+  {
+    "path": "estilo/syntax/nvim-notify.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db8747f89835b277b7f871058d35de3954275425",
+    "size": 538,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/db8747f89835b277b7f871058d35de3954275425"
+  },
+  {
+    "path": "estilo/syntax/nvim-tree.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7a20f59876b9cbcf8bfa7debe745c42e20f80ee",
+    "size": 877,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/d7a20f59876b9cbcf8bfa7debe745c42e20f80ee"
+  },
+  {
+    "path": "estilo/syntax/php.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1024ffc25d68bd8fd01fa1bea722a29ff62de89e",
+    "size": 2021,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/1024ffc25d68bd8fd01fa1bea722a29ff62de89e"
+  },
+  {
+    "path": "estilo/syntax/plug.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4391d0e91e1fe38853a4858e5ad1d09251f3c874",
+    "size": 73,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/4391d0e91e1fe38853a4858e5ad1d09251f3c874"
+  },
+  {
+    "path": "estilo/syntax/python.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2eb1c86c16a2ba78ad0dd3c487a956717e915f5b",
+    "size": 755,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/2eb1c86c16a2ba78ad0dd3c487a956717e915f5b"
+  },
+  {
+    "path": "estilo/syntax/rst.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef98327fef99ca2b01a94f39c5798923c1bf2eb3",
+    "size": 139,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ef98327fef99ca2b01a94f39c5798923c1bf2eb3"
+  },
+  {
+    "path": "estilo/syntax/ruby.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9e1bd545e78fa855e0a1838b2d0b63292301575",
+    "size": 2398,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f9e1bd545e78fa855e0a1838b2d0b63292301575"
+  },
+  {
+    "path": "estilo/syntax/sh.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f95162313acbfadf92353253286a9110c881188",
+    "size": 4185,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/5f95162313acbfadf92353253286a9110c881188"
+  },
+  {
+    "path": "estilo/syntax/sneak.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41938dbdf422e2a8c164bba32d415e1add0553f5",
+    "size": 81,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/41938dbdf422e2a8c164bba32d415e1add0553f5"
+  },
+  {
+    "path": "estilo/syntax/sql.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe6ccf3809213444334075a90095f43060d4f1de",
+    "size": 264,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/fe6ccf3809213444334075a90095f43060d4f1de"
+  },
+  {
+    "path": "estilo/syntax/sshconfig.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1e998b7956a511941e4316be37ba9771e8ec89b",
+    "size": 105,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f1e998b7956a511941e4316be37ba9771e8ec89b"
+  },
+  {
+    "path": "estilo/syntax/startify.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59e430313c2f991cdf508c5904153d293939fee9",
+    "size": 158,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/59e430313c2f991cdf508c5904153d293939fee9"
+  },
+  {
+    "path": "estilo/syntax/tagbar.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d6e4426eabf2f055d6c45c8ae888cbef9585d95",
+    "size": 365,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/1d6e4426eabf2f055d6c45c8ae888cbef9585d95"
+  },
+  {
+    "path": "estilo/syntax/telescope.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d40e2916820714af4d998528c59ae12afeea9f4a",
+    "size": 442,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/d40e2916820714af4d998528c59ae12afeea9f4a"
+  },
+  {
+    "path": "estilo/syntax/tmux.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c36927cdc66b89cf53398ae373061132ef9c8256",
+    "size": 92,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/c36927cdc66b89cf53398ae373061132ef9c8256"
+  },
+  {
+    "path": "estilo/syntax/treesitter.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "348b7092eb981878107eb663da4e2bc71b4b778d",
+    "size": 1798,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/348b7092eb981878107eb663da4e2bc71b4b778d"
+  },
+  {
+    "path": "estilo/syntax/twig.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69c5c42444c427447f419429b97fc15734431655",
+    "size": 214,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/69c5c42444c427447f419429b97fc15734431655"
+  },
+  {
+    "path": "estilo/syntax/ultisnips.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "153d034000e511071d22e7ba808c446829098ec3",
+    "size": 249,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/153d034000e511071d22e7ba808c446829098ec3"
+  },
+  {
+    "path": "estilo/syntax/vdebug.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fda5330809fd5b1bbea6afba4fe669f74da683ce",
+    "size": 114,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/fda5330809fd5b1bbea6afba4fe669f74da683ce"
+  },
+  {
+    "path": "estilo/syntax/vim-gitgutter.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebf78cecae8a7e26de780dd600e7f54b58d53317",
+    "size": 146,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ebf78cecae8a7e26de780dd600e7f54b58d53317"
+  },
+  {
+    "path": "estilo/syntax/vim-signature.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a656b1d674f8aa0a6eb14e25163b1a6dd13e0e16",
+    "size": 31,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/a656b1d674f8aa0a6eb14e25163b1a6dd13e0e16"
+  },
+  {
+    "path": "estilo/syntax/vim.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "219699a32f241cf217a439a39582bf62936e5cab",
+    "size": 27,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/219699a32f241cf217a439a39582bf62936e5cab"
+  },
+  {
+    "path": "estilo/syntax/vimagit.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50757bb2d84e9042e0d23ae397001e47bb898fa5",
+    "size": 70,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/50757bb2d84e9042e0d23ae397001e47bb898fa5"
+  },
+  {
+    "path": "estilo/syntax/viml.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a96cf2ab82aca23f4a0fabcc6411e63336e5bf3c",
+    "size": 444,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/a96cf2ab82aca23f4a0fabcc6411e63336e5bf3c"
+  },
+  {
+    "path": "estilo/syntax/vimwiki.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ca6569c26a5c383c137c56aa5e506433857b842",
+    "size": 511,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/1ca6569c26a5c383c137c56aa5e506433857b842"
+  },
+  {
+    "path": "estilo/syntax/vista.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b43a45a337b19147f3287efb76064c36cd12181",
+    "size": 55,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0b43a45a337b19147f3287efb76064c36cd12181"
+  },
+  {
+    "path": "estilo/syntax/xml.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7b86fbf983acf8f61704b70c66af1c9a14173d9",
+    "size": 149,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/d7b86fbf983acf8f61704b70c66af1c9a14173d9"
+  },
+  {
+    "path": "estilo/syntax/yaml.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e66d3bca17b3db1bdf8f05ba3eedc9fcb781cde",
+    "size": 1122,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/2e66d3bca17b3db1bdf8f05ba3eedc9fcb781cde"
+  },
+  {
+    "path": "estilo/syntax/zsh.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3cb3ffd39c9d95ee30436d9f8e69b073faf11d3",
+    "size": 228,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f3cb3ffd39c9d95ee30436d9f8e69b073faf11d3"
+  },
+  {
+    "path": "exa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f989bc45ce3060540ae9a0e66695d0e50a6775f5",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/f989bc45ce3060540ae9a0e66695d0e50a6775f5"
+  },
+  {
+    "path": "exa/EXA_COLORS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "789554c9e687a40965c199c5816f4d58e6158d65",
+    "size": 802,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/789554c9e687a40965c199c5816f4d58e6158d65"
+  },
+  {
+    "path": "foot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "612384f559f3ec6a043d0ec3a2fe7a5d46086548",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/612384f559f3ec6a043d0ec3a2fe7a5d46086548"
+  },
+  {
+    "path": "foot/foot.ini",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41c60c6de619f57ed15f4c749bd46001986dd3fb",
+    "size": 337,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/41c60c6de619f57ed15f4c749bd46001986dd3fb"
+  },
+  {
+    "path": "fzf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c8be4c41ca6fb0855121a958d9e678baefa9d9bb",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/c8be4c41ca6fb0855121a958d9e678baefa9d9bb"
+  },
+  {
+    "path": "fzf/fzf.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "523a09eba1a0cb455820e79b4c3a81aa5bcf284f",
+    "size": 296,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/523a09eba1a0cb455820e79b4c3a81aa5bcf284f"
+  },
+  {
+    "path": "iterm2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9cb21092c30d01458c325585a38520349c8b673b",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/9cb21092c30d01458c325585a38520349c8b673b"
+  },
+  {
+    "path": "iterm2/falcon.itermcolors",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e9e51a0fa94aba7a08cd8395c0b51c9c08d4cc7",
+    "size": 8478,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/2e9e51a0fa94aba7a08cd8395c0b51c9c08d4cc7"
+  },
+  {
+    "path": "kitty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf49f9347f4b4136213f8b418f7b5ea454e49ea3",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/bf49f9347f4b4136213f8b418f7b5ea454e49ea3"
+  },
+  {
+    "path": "kitty/kitty.falcon.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4875d5fddc8d07b1b4bf891a5b6090071e0174e",
+    "size": 1141,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/e4875d5fddc8d07b1b4bf891a5b6090071e0174e"
+  },
+  {
+    "path": "liquidprompt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a63da8af2ec568a92b1b108fe3ffe0395020cf2b",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/a63da8af2ec568a92b1b108fe3ffe0395020cf2b"
+  },
+  {
+    "path": "liquidprompt/falcon-colors.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e9d7b9236138b727cc2d97d8df7b5ec3ae54f12",
+    "size": 6620,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/2e9d7b9236138b727cc2d97d8df7b5ec3ae54f12"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21fd459b3805e9f0a8fcc76d647f7ee3e92cacbe",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/21fd459b3805e9f0a8fcc76d647f7ee3e92cacbe"
+  },
+  {
+    "path": "lua/falcon.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fdbd753f45f08073f756b433a9b4cfd143263aa9",
+    "size": 618,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/fdbd753f45f08073f756b433a9b4cfd143263aa9"
+  },
+  {
+    "path": "mintty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17cbc0e388322d830b2af298b35466a653ea3c56",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/17cbc0e388322d830b2af298b35466a653ea3c56"
+  },
+  {
+    "path": "mintty/.minttyrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "53aa5b007efe793eefca8416637354f8dd5c5381",
+    "size": 376,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/53aa5b007efe793eefca8416637354f8dd5c5381"
+  },
+  {
+    "path": "nb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c290b679ffbd09524c5fd805ef05e64d50428339",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/c290b679ffbd09524c5fd805ef05e64d50428339"
+  },
+  {
+    "path": "nb/nbrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f880992fe5a31356330bf69bb304a3b49d81a1a9",
+    "size": 177,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f880992fe5a31356330bf69bb304a3b49d81a1a9"
+  },
+  {
+    "path": "nb/plugins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2e73becadccdb51c0f0cc5cb2f8616164706c20",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/e2e73becadccdb51c0f0cc5cb2f8616164706c20"
+  },
+  {
+    "path": "nb/plugins/falcon.nb-theme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "777979173997bc5921cfef25ae28337623941775",
+    "size": 521,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/777979173997bc5921cfef25ae28337623941775"
+  },
+  {
+    "path": "nix",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "95d324956c1cae81eb36979c0d011d1451423805",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/95d324956c1cae81eb36979c0d011d1451423805"
+  },
+  {
+    "path": "nix/.Xresources",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4d7b6cd7c779f8423075c09a04322cd1f7630b2",
+    "size": 587,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/a4d7b6cd7c779f8423075c09a04322cd1f7630b2"
+  },
+  {
+    "path": "plugin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b87bfb8283ddfeced1e1a9afafb17ef1940d2a76",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/b87bfb8283ddfeced1e1a9afafb17ef1940d2a76"
+  },
+  {
+    "path": "plugin/falcon.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09552e8fa73f7ae30526cbe2659825170d3be74b",
+    "size": 2711,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/09552e8fa73f7ae30526cbe2659825170d3be74b"
+  },
+  {
+    "path": "prism",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "923b7495f1dd31a169e41deb6d95e0a780514b25",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/923b7495f1dd31a169e41deb6d95e0a780514b25"
+  },
+  {
+    "path": "prism/prism-falcon.css",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a828944aee33944fc4cc55b5f0cfee412e96632",
+    "size": 1115,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/6a828944aee33944fc4cc55b5f0cfee412e96632"
+  },
+  {
+    "path": "prism/prism-falcon.php.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0443de12c920ee730e83518d02be4e48b4a3e5b0",
+    "size": 1170,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0443de12c920ee730e83518d02be4e48b4a3e5b0"
+  },
+  {
+    "path": "ranger",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f73c02d9345ef79584165c665bb4aedcd852e1c8",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/f73c02d9345ef79584165c665bb4aedcd852e1c8"
+  },
+  {
+    "path": "ranger/falcon.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccf9cbb8e235dc77a771dea41bda551f3313c49a",
+    "size": 4126,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ccf9cbb8e235dc77a771dea41bda551f3313c49a"
+  },
+  {
+    "path": "skim",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fdd9bbca4b65b54ba42668c393a4dd06c33eb1b7",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/fdd9bbca4b65b54ba42668c393a4dd06c33eb1b7"
+  },
+  {
+    "path": "skim/skim.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9622927f20a5c45225f7c015cc3fd0d6d017d98b",
+    "size": 380,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/9622927f20a5c45225f7c015cc3fd0d6d017d98b"
+  },
+  {
+    "path": "slack",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "447529eac4db0b520ae79789a01ee451f8a9b1d0",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/447529eac4db0b520ae79789a01ee451f8a9b1d0"
+  },
+  {
+    "path": "slack/slack.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2df38c10d669ef6765018c718333eac8d50f56bf",
+    "size": 64,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/2df38c10d669ef6765018c718333eac8d50f56bf"
+  },
+  {
+    "path": "sublime",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "932bd7735c22012d211ef620987ffc3372b6a08d",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/932bd7735c22012d211ef620987ffc3372b6a08d"
+  },
+  {
+    "path": "sublime/falcon.tmTheme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "642dbce8c92d581636945a6e1655fc39fd276427",
+    "size": 53828,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/642dbce8c92d581636945a6e1655fc39fd276427"
+  },
+  {
+    "path": "support",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d901cc4214d3ff2f0f3423811e9575cfefaacd50",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/d901cc4214d3ff2f0f3423811e9575cfefaacd50"
+  },
+  {
+    "path": "support/alfred.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "423e644eb0b571d40f5729f73e71b1ad087e3b29",
+    "size": 149663,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/423e644eb0b571d40f5729f73e71b1ad087e3b29"
+  },
+  {
+    "path": "support/alfred_alternate.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccc2596ebae1c771dcae6ea8909eb22cb19b10a8",
+    "size": 83251,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ccc2596ebae1c771dcae6ea8909eb22cb19b10a8"
+  },
+  {
+    "path": "support/hero2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d25a05fb85f1c96eb6d6f0aa520c85b7e5a25dd0",
+    "size": 374035,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/d25a05fb85f1c96eb6d6f0aa520c85b7e5a25dd0"
+  },
+  {
+    "path": "support/logo2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f16c162647ff804add6aa9e7038be758d8673b24",
+    "size": 18100,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f16c162647ff804add6aa9e7038be758d8673b24"
+  },
+  {
+    "path": "support/snaps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "755d6ba806b88f5d9eb7a8cbfcefed765b2f454b",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/755d6ba806b88f5d9eb7a8cbfcefed765b2f454b"
+  },
+  {
+    "path": "support/snaps/c.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "52bf862faab6668c77e4ce547cbfa2abbf97d2af",
+    "size": 37502,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/52bf862faab6668c77e4ce547cbfa2abbf97d2af"
+  },
+  {
+    "path": "support/snaps/clojure.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cf1a2660407779399d75874372ae8e9c897168ff",
+    "size": 49725,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/cf1a2660407779399d75874372ae8e9c897168ff"
+  },
+  {
+    "path": "support/snaps/cpp.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d4ee604e305d9470eeec21c0b824d6ae0dfb0647",
+    "size": 38894,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/d4ee604e305d9470eeec21c0b824d6ae0dfb0647"
+  },
+  {
+    "path": "support/snaps/css.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d9310722b25b77ee073edac45deddbb979bddfb9",
+    "size": 44922,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/d9310722b25b77ee073edac45deddbb979bddfb9"
+  },
+  {
+    "path": "support/snaps/elm.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5e2102b87153dfd11e48e53307d2424585b4b9a3",
+    "size": 38626,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/5e2102b87153dfd11e48e53307d2424585b4b9a3"
+  },
+  {
+    "path": "support/snaps/exa.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "64843e3a70747d05188e0f2bbbed9c8581509fa6",
+    "size": 56840,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/64843e3a70747d05188e0f2bbbed9c8581509fa6"
+  },
+  {
+    "path": "support/snaps/gitr.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "32f8596b6541798d3050bfe49f54d9f2bb16b4eb",
+    "size": 60841,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/32f8596b6541798d3050bfe49f54d9f2bb16b4eb"
+  },
+  {
+    "path": "support/snaps/go.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "486a05cacd309d164a5ccde7c807871b7f4495ab",
+    "size": 52979,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/486a05cacd309d164a5ccde7c807871b7f4495ab"
+  },
+  {
+    "path": "support/snaps/js.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f5d0261d6f1723e9b3bfff5e87d7d6a055fe2930",
+    "size": 50069,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f5d0261d6f1723e9b3bfff5e87d7d6a055fe2930"
+  },
+  {
+    "path": "support/snaps/json.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0074974fd362a4e7347b819d62a404c81554393b",
+    "size": 47226,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0074974fd362a4e7347b819d62a404c81554393b"
+  },
+  {
+    "path": "support/snaps/lua.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a4028391e73981e414a6889c4f9fbe6111eea4fa",
+    "size": 45121,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/a4028391e73981e414a6889c4f9fbe6111eea4fa"
+  },
+  {
+    "path": "support/snaps/php.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ab4bedd49f32287dcf7572823fbb3a08a585ffa7",
+    "size": 50023,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ab4bedd49f32287dcf7572823fbb3a08a585ffa7"
+  },
+  {
+    "path": "support/snaps/python.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "479efbd7a115ae804a067b9db484e5969083be73",
+    "size": 50167,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/479efbd7a115ae804a067b9db484e5969083be73"
+  },
+  {
+    "path": "support/snaps/ruby.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b1336c18c1883c58ab72dcb84d7dcdb55c40d3c5",
+    "size": 50943,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/b1336c18c1883c58ab72dcb84d7dcdb55c40d3c5"
+  },
+  {
+    "path": "support/snaps/startup.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9c0f2fb384f0386d54dbdd2c6ac9197295093bf6",
+    "size": 36891,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/9c0f2fb384f0386d54dbdd2c6ac9197295093bf6"
+  },
+  {
+    "path": "support/snaps/twig.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "fac12534f9fd4c8d419f28739a0600fc7b4ff66f",
+    "size": 49371,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/fac12534f9fd4c8d419f28739a0600fc7b4ff66f"
+  },
+  {
+    "path": "support/snaps/vim.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5ef279d15b69ad50b9340d367ff4db6b0cdb8a4a",
+    "size": 48933,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/5ef279d15b69ad50b9340d367ff4db6b0cdb8a4a"
+  },
+  {
+    "path": "support/snaps/zsh.png",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f6fb07604e019140219a0225b77523f8489f3ec6",
+    "size": 47225,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f6fb07604e019140219a0225b77523f8489f3ec6"
+  },
+  {
+    "path": "support/swatches_terminal.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "911dc1e470610d586a0c109e4befa1bec5eb16f4",
+    "size": 39800,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/911dc1e470610d586a0c109e4befa1bec5eb16f4"
+  },
+  {
+    "path": "support/swatches_vim.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "abcf6acdb295fd64ad9efcd689d11c11659e97e3",
+    "size": 37810,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/abcf6acdb295fd64ad9efcd689d11c11659e97e3"
+  },
+  {
+    "path": "taskwarrior",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7fd712c43a7e35eae74ee54484b6d0ab57446e7c",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/7fd712c43a7e35eae74ee54484b6d0ab57446e7c"
+  },
+  {
+    "path": "taskwarrior/falcon.theme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce402abb62d88a3b05f5dae0ce8651c4e739f3bc",
+    "size": 3017,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ce402abb62d88a3b05f5dae0ce8651c4e739f3bc"
+  },
+  {
+    "path": "terminal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fa6656ad611c23e94554da86e6f37a8f6591290c",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/fa6656ad611c23e94554da86e6f37a8f6591290c"
+  },
+  {
+    "path": "terminal/falcon.terminal",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32e9aded8036be81055a0a6a71d62cc440a3a710",
+    "size": 107746,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/32e9aded8036be81055a0a6a71d62cc440a3a710"
+  },
+  {
+    "path": "timewarrior",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6815d7b09e0983e63039fea7d2952a55d810e396",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/6815d7b09e0983e63039fea7d2952a55d810e396"
+  },
+  {
+    "path": "timewarrior/falcon.theme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e827b460959b2c95180c6876ccd9d92e530ce9d",
+    "size": 1814,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/6e827b460959b2c95180c6876ccd9d92e530ce9d"
+  },
+  {
+    "path": "tmux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8b2eb5835cbdd44f349d7be2030fc702f5e5d99e",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/8b2eb5835cbdd44f349d7be2030fc702f5e5d99e"
+  },
+  {
+    "path": "tmux/falcon.tmux.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c45cfd0fbd1ae6dc54edaca46222b3b747d5249",
+    "size": 1243,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/1c45cfd0fbd1ae6dc54edaca46222b3b747d5249"
+  },
+  {
+    "path": "tmux/falcon.tmux.conf.pre-2.9",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d92159f4db4b1069496eb6333ade89ce6c6ad884",
+    "size": 1449,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/d92159f4db4b1069496eb6333ade89ce6c6ad884"
+  },
+  {
+    "path": "vivid",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "16e4259ce3e7c5ec7f6ddd20ec48bdb76f07b665",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/16e4259ce3e7c5ec7f6ddd20ec48bdb76f07b665"
+  },
+  {
+    "path": "vivid/LS_COLORS.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6ff3fa5e9d82d8c30ae8183c3a862403779c4a1",
+    "size": 12556,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/b6ff3fa5e9d82d8c30ae8183c3a862403779c4a1"
+  },
+  {
+    "path": "vivid/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "74e63d53cfc6434455e4dabf9f2ff6f6d0422c86",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/74e63d53cfc6434455e4dabf9f2ff6f6d0422c86"
+  },
+  {
+    "path": "vivid/themes/falcon.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0dcc9dd6541f0d0ac4175955bc0639b87f8801a2",
+    "size": 2685,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/0dcc9dd6541f0d0ac4175955bc0639b87f8801a2"
+  },
+  {
+    "path": "wallpapers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21503769b081aeb00b89abf159a44d04f719afc1",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/21503769b081aeb00b89abf159a44d04f719afc1"
+  },
+  {
+    "path": "wallpapers/geometric_3840x1600.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da6bfa76077612af9e845b11326bb12ca144309d",
+    "size": 351644,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/da6bfa76077612af9e845b11326bb12ca144309d"
+  },
+  {
+    "path": "wallpapers/hex2_3840x1600.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc4cf6aaf5f120fe989b42647675eb1664a60b66",
+    "size": 416401,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/bc4cf6aaf5f120fe989b42647675eb1664a60b66"
+  },
+  {
+    "path": "wallpapers/hex3_3840x1600.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac6b7ce599a31c440004064091194217136335e0",
+    "size": 615796,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ac6b7ce599a31c440004064091194217136335e0"
+  },
+  {
+    "path": "wallpapers/hex_3840x1600.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5cf7204f0e814ea540e195cec4f197a95cd9015",
+    "size": 579989,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/c5cf7204f0e814ea540e195cec4f197a95cd9015"
+  },
+  {
+    "path": "windowsterminal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6fe970abaaee97d4768aa8fd81e258b1c1c2e499",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/6fe970abaaee97d4768aa8fd81e258b1c1c2e499"
+  },
+  {
+    "path": "windowsterminal/falcon.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f001ceef0ddc8bfe2fc671657e332f59e0500f6",
+    "size": 806,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/9f001ceef0ddc8bfe2fc671657e332f59e0500f6"
+  },
+  {
+    "path": "yazi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "62324d432c2ee0a6e6187367b89dfde4187856f9",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/62324d432c2ee0a6e6187367b89dfde4187856f9"
+  },
+  {
+    "path": "yazi/flavors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87ef21a2bd5e8c923d2cc12d955bf231de9b8c77",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/87ef21a2bd5e8c923d2cc12d955bf231de9b8c77"
+  },
+  {
+    "path": "yazi/flavors/falcon.yazi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0ff0f82f7f8917fd29e80921f73542224417f922",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/0ff0f82f7f8917fd29e80921f73542224417f922"
+  },
+  {
+    "path": "yazi/flavors/falcon.yazi/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f45e4dbe1e5fcad0a76eb20d98514f72072e8319",
+    "size": 829,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/f45e4dbe1e5fcad0a76eb20d98514f72072e8319"
+  },
+  {
+    "path": "yazi/flavors/falcon.yazi/flavor.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce27b125980bea65c06782a6316af5fa9c0d8dc5",
+    "size": 47650,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ce27b125980bea65c06782a6316af5fa9c0d8dc5"
+  },
+  {
+    "path": "yazi/flavors/falcon.yazi/preview.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9689509d7400434db2df3611ca773918e752e0f4",
+    "size": 844941,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/9689509d7400434db2df3611ca773918e752e0f4"
+  },
+  {
+    "path": "yazi/flavors/falcon.yazi/tmtheme.xml",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "56c7fb8991691bf22a1209d0b982ebc90cd3c745",
+    "size": 31,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/56c7fb8991691bf22a1209d0b982ebc90cd3c745"
+  },
+  {
+    "path": "yazi/theme.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81060dd54876f9a996eecff21da89a96ffc74ca1",
+    "size": 95,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/81060dd54876f9a996eecff21da89a96ffc74ca1"
+  },
+  {
+    "path": "zsh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e275b7fd880f698fcb159ad4f6c15f297fdbd8e9",
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/trees/e275b7fd880f698fcb159ad4f6c15f297fdbd8e9"
+  },
+  {
+    "path": "zsh/falcon.zsh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab00f63e7567505347e64f9e3748666edf945eef",
+    "size": 446,
+    "url": "https://api.github.com/repos/fenetikm/falcon/git/blobs/ab00f63e7567505347e64f9e3748666edf945eef"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+    "size": 35149,
+    "url": "https://api.github.com/repos/whizikxd/naysayer-colors.nvim/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "479d4d6528489fdb1b9a113bee4f05ec5df16b45",
+    "size": 629,
+    "url": "https://api.github.com/repos/whizikxd/naysayer-colors.nvim/git/blobs/479d4d6528489fdb1b9a113bee4f05ec5df16b45"
+  },
+  {
+    "path": "assets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35b911dcdad2bdaeb5dba83aaf32c24c953bcd4f",
+    "url": "https://api.github.com/repos/whizikxd/naysayer-colors.nvim/git/trees/35b911dcdad2bdaeb5dba83aaf32c24c953bcd4f"
+  },
+  {
+    "path": "assets/screenshot.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f078b21fba676c511b97f21faa6be2cd722996c",
+    "size": 192883,
+    "url": "https://api.github.com/repos/whizikxd/naysayer-colors.nvim/git/blobs/6f078b21fba676c511b97f21faa6be2cd722996c"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d14585dadeeb1d3d7a707a685c0bc1ec155fc8ff",
+    "url": "https://api.github.com/repos/whizikxd/naysayer-colors.nvim/git/trees/d14585dadeeb1d3d7a707a685c0bc1ec155fc8ff"
+  },
+  {
+    "path": "colors/naysayer.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7579b38aa84dc846e606a95fd965fe83e4ceb554",
+    "size": 9077,
+    "url": "https://api.github.com/repos/whizikxd/naysayer-colors.nvim/git/blobs/7579b38aa84dc846e606a95fd965fe83e4ceb554"
+  }
+]

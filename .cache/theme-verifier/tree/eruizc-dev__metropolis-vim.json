@@ -1,0 +1,111 @@
+[
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "214770fcb9791574ee3d974c8228ae7bd3a6a480",
+    "size": 1079,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/214770fcb9791574ee3d974c8228ae7bd3a6a480"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7a5080c893498a343b4b3db19c207291dc552ab8",
+    "size": 732,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/7a5080c893498a343b4b3db19c207291dc552ab8"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c0a95c34b098c391ce59e29e032a8b350ddce4c6",
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/trees/c0a95c34b098c391ce59e29e032a8b350ddce4c6"
+  },
+  {
+    "path": "colors/metropolis.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5a1a75c30d5089413a6a9e4074faf065e46994d",
+    "size": 4115,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/e5a1a75c30d5089413a6a9e4074faf065e46994d"
+  },
+  {
+    "path": "colors/metropolis",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dccf9a09a26cd6bfa4e9617406944aff2e64a043",
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/trees/dccf9a09a26cd6bfa4e9617406944aff2e64a043"
+  },
+  {
+    "path": "colors/metropolis/cmp.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73f4420ead2f8854e35eb48c93e61224d410eb75",
+    "size": 249,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/73f4420ead2f8854e35eb48c93e61224d410eb75"
+  },
+  {
+    "path": "colors/metropolis/dosini.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56566261317d8cc03914273f899cf71d2c684ce1",
+    "size": 37,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/56566261317d8cc03914273f899cf71d2c684ce1"
+  },
+  {
+    "path": "colors/metropolis/java.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d38ce5f382e09d86407d8aa2c78a79219e70d601",
+    "size": 58,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/d38ce5f382e09d86407d8aa2c78a79219e70d601"
+  },
+  {
+    "path": "colors/metropolis/lsp.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4785c5a2d2a8186a27cb157eae005f060a7d96e6",
+    "size": 735,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/4785c5a2d2a8186a27cb157eae005f060a7d96e6"
+  },
+  {
+    "path": "colors/metropolis/markdown.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b82e756c0e5b36907cb8c31edc06facd8ff1b99",
+    "size": 683,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/4b82e756c0e5b36907cb8c31edc06facd8ff1b99"
+  },
+  {
+    "path": "colors/metropolis/telescope.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1daa81616bd114560f147eab42492d942856a95a",
+    "size": 39,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/1daa81616bd114560f147eab42492d942856a95a"
+  },
+  {
+    "path": "colors/metropolis/treesitter.vim",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2a3b9da066e2c6a8f9662160500a33fddddb3e5",
+    "size": 1269,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/c2a3b9da066e2c6a8f9662160500a33fddddb3e5"
+  },
+  {
+    "path": "resources",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f91a75030ba768623ab36b47c681619761992e78",
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/trees/f91a75030ba768623ab36b47c681619761992e78"
+  },
+  {
+    "path": "resources/sample_1.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17c6478bf596660bad205889cd72e44c4e96c9c5",
+    "size": 262149,
+    "url": "https://api.github.com/repos/eruizc-dev/metropolis-vim/git/blobs/17c6478bf596660bad205889cd72e44c4e96c9c5"
+  }
+]

@@ -1,0 +1,947 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b176d566de81882c158c0761f18d34813d567a1",
+    "size": 98,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/8b176d566de81882c158c0761f18d34813d567a1"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "172d585ca00c26e0ab26869a317f31beb45761cf",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/172d585ca00c26e0ab26869a317f31beb45761cf"
+  },
+  {
+    "path": ".github/FUNDING.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab3c1d4a090cecbb310368dc77cbd6c224b283db",
+    "size": 61,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/ab3c1d4a090cecbb310368dc77cbd6c224b283db"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c45ae7204b05fca3dc40d443a5283619ad16691",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/0c45ae7204b05fca3dc40d443a5283619ad16691"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1fc6ac10cc1583ce4f309344517e55df751ec3b",
+    "size": 3582,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/f1fc6ac10cc1583ce4f309344517e55df751ec3b"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/config.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c910c57858835afbe629b98c67eae5d06e66b21",
+    "size": 335,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/3c910c57858835afbe629b98c67eae5d06e66b21"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19ba4f7cc280ac7ac315a70af7ff054eabffc147",
+    "size": 2984,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/19ba4f7cc280ac7ac315a70af7ff054eabffc147"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/theme_issue.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e6b9bc9f945eaeb0941ff7d075420914e288c7b",
+    "size": 4016,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/4e6b9bc9f945eaeb0941ff7d075420914e288c7b"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b44b4217f70fef53b425b00eb802a37071024ac",
+    "size": 689,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/3b44b4217f70fef53b425b00eb802a37071024ac"
+  },
+  {
+    "path": ".lazy.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5030cc0687a76bf509d1b5bccf18148a1044523d",
+    "size": 3541,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/5030cc0687a76bf509d1b5bccf18148a1044523d"
+  },
+  {
+    "path": ".stylelua.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0295e989a78b56f211f1bec80b4ee2389c70423",
+    "size": 90,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/d0295e989a78b56f211f1bec80b4ee2389c70423"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa6848495936f3a3ca5e3368d829a546d79365a7",
+    "size": 5226,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/aa6848495936f3a3ca5e3368d829a546d79365a7"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "size": 11357,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4492d2365281bfaf21d130c1cf3201f612a089bc",
+    "size": 4975,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/4492d2365281bfaf21d130c1cf3201f612a089bc"
+  },
+  {
+    "path": "after",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7d6db61bec1ffeab0205a91e3f072c7f578a75c6",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/7d6db61bec1ffeab0205a91e3f072c7f578a75c6"
+  },
+  {
+    "path": "after/queries",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "978d18af6113785aa9f6114c10a0146322f2a3ba",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/978d18af6113785aa9f6114c10a0146322f2a3ba"
+  },
+  {
+    "path": "after/queries/bash",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "00507be51dedcd7d7e4afc076d9d3cebce2fe428",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/00507be51dedcd7d7e4afc076d9d3cebce2fe428"
+  },
+  {
+    "path": "after/queries/bash/highlights.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "53a4b4c2e26e07e4d0d14f56b34404524bf10fc0",
+    "size": 508,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/53a4b4c2e26e07e4d0d14f56b34404524bf10fc0"
+  },
+  {
+    "path": "after/queries/json",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e5d63083220bdbea7b668e0a0b448a0dece850d",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/8e5d63083220bdbea7b668e0a0b448a0dece850d"
+  },
+  {
+    "path": "after/queries/json/injections.scm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc8d3424725bd7d50b6b58d460e216c078314f06",
+    "size": 239,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/cc8d3424725bd7d50b6b58d460e216c078314f06"
+  },
+  {
+    "path": "colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "20a4674238af09a98fcb9bc32a32d37195938eb6",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/20a4674238af09a98fcb9bc32a32d37195938eb6"
+  },
+  {
+    "path": "colors/jellybeans-default.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3fd227c1a392e5761b12d14574b9d19cda6a2ad",
+    "size": 41,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/b3fd227c1a392e5761b12d14574b9d19cda6a2ad"
+  },
+  {
+    "path": "colors/jellybeans-light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5aac1dcbdf64e49af0bdad695343174eafe4085",
+    "size": 48,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/c5aac1dcbdf64e49af0bdad695343174eafe4085"
+  },
+  {
+    "path": "colors/jellybeans-mono-light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4173c787378faa5c1f066768c9f74ec3258940e1",
+    "size": 53,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/4173c787378faa5c1f066768c9f74ec3258940e1"
+  },
+  {
+    "path": "colors/jellybeans-mono.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0bbadabd786cd3d7a5345cf01bfd8ad48763ea3",
+    "size": 46,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/f0bbadabd786cd3d7a5345cf01bfd8ad48763ea3"
+  },
+  {
+    "path": "colors/jellybeans-muted-light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57f4da14cb88250f2881a410f5a0c1fa85846364",
+    "size": 54,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/57f4da14cb88250f2881a410f5a0c1fa85846364"
+  },
+  {
+    "path": "colors/jellybeans-muted.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11595fa8976cd591caba34730d11f3ab4a72c707",
+    "size": 48,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/11595fa8976cd591caba34730d11f3ab4a72c707"
+  },
+  {
+    "path": "colors/jellybeans.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3cf527a94fd8ed6e8cc15f7b72f948f55cecb719",
+    "size": 29,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/3cf527a94fd8ed6e8cc15f7b72f948f55cecb719"
+  },
+  {
+    "path": "extras",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "232118fdee27cea108c9dceb8946d499f7b53229",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/232118fdee27cea108c9dceb8946d499f7b53229"
+  },
+  {
+    "path": "extras/fzf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fadc59089549bb76a4db1d403e5bf5f30e9b8477",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/fadc59089549bb76a4db1d403e5bf5f30e9b8477"
+  },
+  {
+    "path": "extras/fzf/jellybeans.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76eaf0b08f1542b40044ddaa0cd1ab2697d6425f",
+    "size": 251,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/76eaf0b08f1542b40044ddaa0cd1ab2697d6425f"
+  },
+  {
+    "path": "extras/fzf/jellybeans_light.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "857f340e3b074a6262137f0dc1f6d590d78744c4",
+    "size": 251,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/857f340e3b074a6262137f0dc1f6d590d78744c4"
+  },
+  {
+    "path": "extras/fzf/jellybeans_mono.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27ac04408af83dc3da5323e98216cf1abf70f994",
+    "size": 250,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/27ac04408af83dc3da5323e98216cf1abf70f994"
+  },
+  {
+    "path": "extras/ghostty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "70db0c8193d0aaaa3ddb6dcd86b4cbc7cdcabc1b",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/70db0c8193d0aaaa3ddb6dcd86b4cbc7cdcabc1b"
+  },
+  {
+    "path": "extras/ghostty/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c142f1773cf5a13b7c339ec021a776ac2bc548c",
+    "size": 1329,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/0c142f1773cf5a13b7c339ec021a776ac2bc548c"
+  },
+  {
+    "path": "extras/ghostty/jellybeans",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1443120af5e5c51eafa420dc878f14950dcd7eed",
+    "size": 623,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/1443120af5e5c51eafa420dc878f14950dcd7eed"
+  },
+  {
+    "path": "extras/ghostty/jellybeans-light",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb505c075b0ca071c0cc373287445e011688172e",
+    "size": 629,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/cb505c075b0ca071c0cc373287445e011688172e"
+  },
+  {
+    "path": "extras/ghostty/jellybeans-mono",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "37a153d5869ea1991b5bfd4cc950a196686bee2d",
+    "size": 628,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/37a153d5869ea1991b5bfd4cc950a196686bee2d"
+  },
+  {
+    "path": "extras/ghostty/jellybeans-mono-light",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df7cfe02372b16ac9a77952705daee699a7e183c",
+    "size": 634,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/df7cfe02372b16ac9a77952705daee699a7e183c"
+  },
+  {
+    "path": "extras/ghostty/jellybeans-muted",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f60d89d4589b9f335f955994244cddca20c15ad",
+    "size": 629,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/0f60d89d4589b9f335f955994244cddca20c15ad"
+  },
+  {
+    "path": "extras/kitty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3270ce4ba8d13230c70176319a249dc947fb31bb",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/3270ce4ba8d13230c70176319a249dc947fb31bb"
+  },
+  {
+    "path": "extras/kitty/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2999716625af23df077c593984ba7b4c747ed02",
+    "size": 828,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/b2999716625af23df077c593984ba7b4c747ed02"
+  },
+  {
+    "path": "extras/kitty/jellybeans-light.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c1875fe69906bc6041d003212397259215cbce8",
+    "size": 829,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/7c1875fe69906bc6041d003212397259215cbce8"
+  },
+  {
+    "path": "extras/kitty/jellybeans.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b4ae7e0c0c01aa41eb463ac635358c3970e6d5d5",
+    "size": 823,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/b4ae7e0c0c01aa41eb463ac635358c3970e6d5d5"
+  },
+  {
+    "path": "extras/palette_mapper",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6b9a5eda1dd5b8d931d5e1cc8c96ffc885a8a90e",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/6b9a5eda1dd5b8d931d5e1cc8c96ffc885a8a90e"
+  },
+  {
+    "path": "extras/palette_mapper/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52c244b374c600de2edbb4231b46a225e283e4f3",
+    "size": 1760,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/52c244b374c600de2edbb4231b46a225e283e4f3"
+  },
+  {
+    "path": "extras/palette_mapper/palette_mapper.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b79bffdc92bf13acdf6508e6276ad0507c4c6f2a",
+    "size": 3315,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/b79bffdc92bf13acdf6508e6276ad0507c4c6f2a"
+  },
+  {
+    "path": "extras/palette_mapper/palette_mapper.py.lock",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56761e6fcfbec11af05290acc5ca03b0877d4a08",
+    "size": 17276,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/56761e6fcfbec11af05290acc5ca03b0877d4a08"
+  },
+  {
+    "path": "extras/tmux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0943b2d9782eb186ec7ce17c370ee1eeb061324c",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/0943b2d9782eb186ec7ce17c370ee1eeb061324c"
+  },
+  {
+    "path": "extras/tmux/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8deff0ad3663cae0668c220809cdd0cff64cd23e",
+    "size": 4468,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/8deff0ad3663cae0668c220809cdd0cff64cd23e"
+  },
+  {
+    "path": "extras/tmux/jellybeans-light.tmuxtheme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed6fcd0452b152c3d4a7e7e566a18cf09b79361f",
+    "size": 919,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/ed6fcd0452b152c3d4a7e7e566a18cf09b79361f"
+  },
+  {
+    "path": "extras/tmux/jellybeans-mono-light.tmuxtheme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3c826ee015ff40fe1b8766fccbf28f91dbfab44",
+    "size": 971,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/b3c826ee015ff40fe1b8766fccbf28f91dbfab44"
+  },
+  {
+    "path": "extras/tmux/jellybeans-mono.tmuxtheme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d958c47ecade8c3250a8f07a78dd050be6248b13",
+    "size": 926,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/d958c47ecade8c3250a8f07a78dd050be6248b13"
+  },
+  {
+    "path": "extras/tmux/jellybeans-muted-light.tmuxtheme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f11c8b8a442e41102c8eed45494ee961189dcba",
+    "size": 921,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/1f11c8b8a442e41102c8eed45494ee961189dcba"
+  },
+  {
+    "path": "extras/tmux/jellybeans-muted.tmuxtheme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "53ff5f0291200c3142f6a12ac5e1a5e14bbc226d",
+    "size": 876,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/53ff5f0291200c3142f6a12ac5e1a5e14bbc226d"
+  },
+  {
+    "path": "extras/tmux/jellybeans.tmux",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "10b37568a9ab05a6c373500042465033bac67268",
+    "size": 6557,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/10b37568a9ab05a6c373500042465033bac67268"
+  },
+  {
+    "path": "extras/tmux/jellybeans.tmuxtheme",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca79dfd27c98edaaec13f6d16719821677542c4a",
+    "size": 874,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/ca79dfd27c98edaaec13f6d16719821677542c4a"
+  },
+  {
+    "path": "extras/wezterm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "41ff465af9e8a2a549be11131a501a77f8926ede",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/41ff465af9e8a2a549be11131a501a77f8926ede"
+  },
+  {
+    "path": "extras/wezterm/jellybeans-light.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81812dcd6bcf824f2c2829eb13892f4c29fc1225",
+    "size": 1447,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/81812dcd6bcf824f2c2829eb13892f4c29fc1225"
+  },
+  {
+    "path": "extras/wezterm/jellybeans-mono.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a686e37c7be077ff6d7ca1c64b3aa56af9437a86",
+    "size": 1022,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/a686e37c7be077ff6d7ca1c64b3aa56af9437a86"
+  },
+  {
+    "path": "extras/wezterm/jellybeans-muted-light.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a68171ac3c52d213a3345829529070d2917be76",
+    "size": 1447,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/3a68171ac3c52d213a3345829529070d2917be76"
+  },
+  {
+    "path": "extras/wezterm/jellybeans-muted.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "434db4633245e54d3fe1d456913ce859efbed83b",
+    "size": 1280,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/434db4633245e54d3fe1d456913ce859efbed83b"
+  },
+  {
+    "path": "extras/wezterm/jellybeans.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89511d0fda6d140611ed667263c52c7866871426",
+    "size": 1016,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/89511d0fda6d140611ed667263c52c7866871426"
+  },
+  {
+    "path": "extras/windows_terminal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "86a80f4151ed5c8d7e8b506c7891ac54984ae29c",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/86a80f4151ed5c8d7e8b506c7891ac54984ae29c"
+  },
+  {
+    "path": "extras/windows_terminal/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54383c3e7ebdf4f664b160aaf9e873dd37130243",
+    "size": 280,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/54383c3e7ebdf4f664b160aaf9e873dd37130243"
+  },
+  {
+    "path": "extras/windows_terminal/windows_terminal.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3a97e0f081ca8e3112206588ae41291488ddbf8",
+    "size": 583,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/d3a97e0f081ca8e3112206588ae41291488ddbf8"
+  },
+  {
+    "path": "extras/yazi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "59fb3564addd3a0e82f24ddeb02ff463edef06a8",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/59fb3564addd3a0e82f24ddeb02ff463edef06a8"
+  },
+  {
+    "path": "extras/yazi/jellybeans-light.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a26627e6a7fbc61fef13d01fb57d52c16b5ba51",
+    "size": 2967,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/0a26627e6a7fbc61fef13d01fb57d52c16b5ba51"
+  },
+  {
+    "path": "extras/yazi/jellybeans-mono.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "786b758499d25dc3d6e779796f90f7370e34e737",
+    "size": 2960,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/786b758499d25dc3d6e779796f90f7370e34e737"
+  },
+  {
+    "path": "extras/yazi/jellybeans-muted-light.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e52d3609f8c3cbaec85557199429c79e852c4c05",
+    "size": 2967,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/e52d3609f8c3cbaec85557199429c79e852c4c05"
+  },
+  {
+    "path": "extras/yazi/jellybeans-muted.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "435dc57e61e3f120d25f3c4d93daa4d78e667dfe",
+    "size": 2967,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/435dc57e61e3f120d25f3c4d93daa4d78e667dfe"
+  },
+  {
+    "path": "extras/yazi/jellybeans.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "209199734c91f6da2bed6120a9a55b906140fc00",
+    "size": 2968,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/209199734c91f6da2bed6120a9a55b906140fc00"
+  },
+  {
+    "path": "images",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e6c8039d43e0d599fed109bf17a26a77a2d8758",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/8e6c8039d43e0d599fed109bf17a26a77a2d8758"
+  },
+  {
+    "path": "images/default-vibrant-light.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea41d3d12e35d23726eaedc3f9a1fe1cdf80d50a",
+    "size": 1111062,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/ea41d3d12e35d23726eaedc3f9a1fe1cdf80d50a"
+  },
+  {
+    "path": "images/default-vibrant.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f2dd7ecdf96456d4cc7efc7f5da37fd41109f900",
+    "size": 1110511,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/f2dd7ecdf96456d4cc7efc7f5da37fd41109f900"
+  },
+  {
+    "path": "images/mono-light.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49ab851cf2dcb79359baa1934bc77b71306e7623",
+    "size": 994622,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/49ab851cf2dcb79359baa1934bc77b71306e7623"
+  },
+  {
+    "path": "images/mono.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "347806a9ca322768ed4bad7ce5f0b7baaefae156",
+    "size": 1010346,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/347806a9ca322768ed4bad7ce5f0b7baaefae156"
+  },
+  {
+    "path": "images/muted-light.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3daac992bc2da24f1f98ec4a0cf153ec7adcb66",
+    "size": 1097174,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/b3daac992bc2da24f1f98ec4a0cf153ec7adcb66"
+  },
+  {
+    "path": "images/muted.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de644fae508b2b3b3ca3957470a51d7a9e8f2d00",
+    "size": 1100232,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/de644fae508b2b3b3ca3957470a51d7a9e8f2d00"
+  },
+  {
+    "path": "lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bdec506fd0c8e21da13f3a38cfd32bc6f84aa4e0",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/bdec506fd0c8e21da13f3a38cfd32bc6f84aa4e0"
+  },
+  {
+    "path": "lua/jellybeans",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35664f7b3bee00162156cca7679ea32c5ee73895",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/35664f7b3bee00162156cca7679ea32c5ee73895"
+  },
+  {
+    "path": "lua/jellybeans/config.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c09a55e2f46ac09b0cc0533b57c4e4b797f4926",
+    "size": 1528,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/8c09a55e2f46ac09b0cc0533b57c4e4b797f4926"
+  },
+  {
+    "path": "lua/jellybeans/groups",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a5c6407288a2ed4c76d72e0b987f12731592d390",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/a5c6407288a2ed4c76d72e0b987f12731592d390"
+  },
+  {
+    "path": "lua/jellybeans/groups/avante.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3214f1ce8b51049386c556804740aafa3f8a2c15",
+    "size": 3115,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/3214f1ce8b51049386c556804740aafa3f8a2c15"
+  },
+  {
+    "path": "lua/jellybeans/groups/blink.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b84983805f3964a118bcc2c317535215bd80ac7",
+    "size": 2898,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/0b84983805f3964a118bcc2c317535215bd80ac7"
+  },
+  {
+    "path": "lua/jellybeans/groups/copilotchat.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bc719eb6b64d29bb49b4e171cf474a6b9e7f4df",
+    "size": 348,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/7bc719eb6b64d29bb49b4e171cf474a6b9e7f4df"
+  },
+  {
+    "path": "lua/jellybeans/groups/dashboard.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3428a8c607a36cd1138e56b598423a575b4c83f",
+    "size": 740,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/d3428a8c607a36cd1138e56b598423a575b4c83f"
+  },
+  {
+    "path": "lua/jellybeans/groups/dressing.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "37a3c255811ca7242bd93073c1c2484e8793d1a6",
+    "size": 601,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/37a3c255811ca7242bd93073c1c2484e8793d1a6"
+  },
+  {
+    "path": "lua/jellybeans/groups/editor.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07dda0e3cc8cc0b1038264f6bb0914fdcb15d0be",
+    "size": 3372,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/07dda0e3cc8cc0b1038264f6bb0914fdcb15d0be"
+  },
+  {
+    "path": "lua/jellybeans/groups/fzf_lua.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8111c9c132609babf4d84fc507adc75dfd0fcf1b",
+    "size": 2552,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/8111c9c132609babf4d84fc507adc75dfd0fcf1b"
+  },
+  {
+    "path": "lua/jellybeans/groups/gitsigns.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08fa691f76288d38f1ec6850f44b76115564db5f",
+    "size": 230,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/08fa691f76288d38f1ec6850f44b76115564db5f"
+  },
+  {
+    "path": "lua/jellybeans/groups/grapple.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8e4feb99a67fa5420a284016b9e8a5ce9a5ec46",
+    "size": 488,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/f8e4feb99a67fa5420a284016b9e8a5ce9a5ec46"
+  },
+  {
+    "path": "lua/jellybeans/groups/incline.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5386d391ff939a11a76838377363d3654a13e30a",
+    "size": 318,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/5386d391ff939a11a76838377363d3654a13e30a"
+  },
+  {
+    "path": "lua/jellybeans/groups/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "979194dafa996dbe6395483525b2b512daa8d80d",
+    "size": 2306,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/979194dafa996dbe6395483525b2b512daa8d80d"
+  },
+  {
+    "path": "lua/jellybeans/groups/lazy.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0486b6051fe46fb8f2aaa858459afb983dd2a084",
+    "size": 372,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/0486b6051fe46fb8f2aaa858459afb983dd2a084"
+  },
+  {
+    "path": "lua/jellybeans/groups/mini.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb5c3dc9d6ef70e18c639453fa9f2352b0f2e965",
+    "size": 1298,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/eb5c3dc9d6ef70e18c639453fa9f2352b0f2e965"
+  },
+  {
+    "path": "lua/jellybeans/groups/neotree.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81fc38ce0a74c0ae18d414ee27629c719ca057e5",
+    "size": 1003,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/81fc38ce0a74c0ae18d414ee27629c719ca057e5"
+  },
+  {
+    "path": "lua/jellybeans/groups/semantic_tokens.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c7bb09b8e110c42f10ca3a0d6d5044d4a426145",
+    "size": 3776,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/9c7bb09b8e110c42f10ca3a0d6d5044d4a426145"
+  },
+  {
+    "path": "lua/jellybeans/groups/snacks.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14f52f1bab40f1ebb8c9e3338cfbe60212e2e1a1",
+    "size": 4417,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/14f52f1bab40f1ebb8c9e3338cfbe60212e2e1a1"
+  },
+  {
+    "path": "lua/jellybeans/groups/syntax.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f0e95ce540ce92825ae50e24e0b8a2a386b8782",
+    "size": 2278,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/4f0e95ce540ce92825ae50e24e0b8a2a386b8782"
+  },
+  {
+    "path": "lua/jellybeans/groups/telescope.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "655d2ef66fc6a985b830414f9bc76aff818ce443",
+    "size": 2120,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/655d2ef66fc6a985b830414f9bc76aff818ce443"
+  },
+  {
+    "path": "lua/jellybeans/groups/terminal.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe6c3792bd0464e0dddfed51350158f13d96b639",
+    "size": 731,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/fe6c3792bd0464e0dddfed51350158f13d96b639"
+  },
+  {
+    "path": "lua/jellybeans/groups/treesitter.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7552392c3e0b44622c883110a84ce6766fff87af",
+    "size": 5733,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/7552392c3e0b44622c883110a84ce6766fff87af"
+  },
+  {
+    "path": "lua/jellybeans/groups/treesitter_context.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7fd3e5b605e596a45f4041247878456e744f8174",
+    "size": 326,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/7fd3e5b605e596a45f4041247878456e744f8174"
+  },
+  {
+    "path": "lua/jellybeans/groups/trouble.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82d668f9b4a8df481fc78159d75f57b0c6338933",
+    "size": 1339,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/82d668f9b4a8df481fc78159d75f57b0c6338933"
+  },
+  {
+    "path": "lua/jellybeans/groups/which_key.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8de9fc9aef7ecca675f9166810646236b7c2eb57",
+    "size": 1305,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/8de9fc9aef7ecca675f9166810646236b7c2eb57"
+  },
+  {
+    "path": "lua/jellybeans/highlights.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e9313a2546563c827a72b23662004dcb0627f05",
+    "size": 1509,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/6e9313a2546563c827a72b23662004dcb0627f05"
+  },
+  {
+    "path": "lua/jellybeans/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3814088d38bf2d0d3e617032d40652d024f8ebf5",
+    "size": 579,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/3814088d38bf2d0d3e617032d40652d024f8ebf5"
+  },
+  {
+    "path": "lua/jellybeans/palettes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5f3407c5ac646537d27c5753c3f76d89fa927bdc",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/5f3407c5ac646537d27c5753c3f76d89fa927bdc"
+  },
+  {
+    "path": "lua/jellybeans/palettes/init.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9f0e4f2829007618c4e24754e80b752f8e19812",
+    "size": 413,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/a9f0e4f2829007618c4e24754e80b752f8e19812"
+  },
+  {
+    "path": "lua/jellybeans/palettes/jellybeans.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bea49f1eb46cb9008f2199c0792cd627511e109e",
+    "size": 2032,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/bea49f1eb46cb9008f2199c0792cd627511e109e"
+  },
+  {
+    "path": "lua/jellybeans/palettes/jellybeans_light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7616b778de2a09dfa3076d0a3acd122ccbd93750",
+    "size": 2238,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/7616b778de2a09dfa3076d0a3acd122ccbd93750"
+  },
+  {
+    "path": "lua/jellybeans/palettes/jellybeans_mono.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "782e16886e50517706f6efbebf9c4faaf77a2a10",
+    "size": 5296,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/782e16886e50517706f6efbebf9c4faaf77a2a10"
+  },
+  {
+    "path": "lua/jellybeans/palettes/jellybeans_mono_light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d96e70a3262156accf6795ff954d7873c7f18944",
+    "size": 5018,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/d96e70a3262156accf6795ff954d7873c7f18944"
+  },
+  {
+    "path": "lua/jellybeans/palettes/jellybeans_muted.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24b24c1fc71fa3f142ade1437ee55cafd1bc2e56",
+    "size": 3149,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/24b24c1fc71fa3f142ade1437ee55cafd1bc2e56"
+  },
+  {
+    "path": "lua/jellybeans/palettes/jellybeans_muted_light.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "786b05a9e47eec055cb2a3441904bba7a6d4071d",
+    "size": 3018,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/786b05a9e47eec055cb2a3441904bba7a6d4071d"
+  },
+  {
+    "path": "lua/jellybeans/types.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76800dc1f5652ea73481dee569ca77fd105dcdd8",
+    "size": 280,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/76800dc1f5652ea73481dee569ca77fd105dcdd8"
+  },
+  {
+    "path": "lua/jellybeans/util.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57ba8a4cf19984acd69313d260b01f86c01681b5",
+    "size": 2659,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/57ba8a4cf19984acd69313d260b01f86c01681b5"
+  },
+  {
+    "path": "lua/lualine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "662704aac7a3a78c6bedf688b87c66fdc5ed8515",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/662704aac7a3a78c6bedf688b87c66fdc5ed8515"
+  },
+  {
+    "path": "lua/lualine/themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "165e20f0a0b1ab5eb988bb24b7266ecb80a14691",
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/trees/165e20f0a0b1ab5eb988bb24b7266ecb80a14691"
+  },
+  {
+    "path": "lua/lualine/themes/jellybeans.lua",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "53444f12d5b4582e55d8054a3cd320b3c43778e5",
+    "size": 2025,
+    "url": "https://api.github.com/repos/WTFox/jellybeans.nvim/git/blobs/53444f12d5b4582e55d8054a3cd320b3c43778e5"
+  }
+]
