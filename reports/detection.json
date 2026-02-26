@@ -4,10 +4,10 @@
     "themeNames": [
       "vim-robpike"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -21,10 +21,10 @@
     "themeNames": [
       "rainbow12"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -43,10 +43,10 @@
     "themeNames": [
       "naz"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -65,10 +65,10 @@
     "themeNames": [
       "prasiolite"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -152,10 +152,10 @@
     "themeNames": [
       "vim-colors-hatsunemiku"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -188,10 +188,10 @@
     "themeNames": [
       "neonnights"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -210,10 +210,10 @@
     "themeNames": [
       "vim-trash-polka"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -246,10 +246,10 @@
     "themeNames": [
       "abstract-cs"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -327,10 +327,10 @@
     "themeNames": [
       "vim-hue"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -408,10 +408,10 @@
     "themeNames": [
       "vim-eldar"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -430,10 +430,10 @@
     "themeNames": [
       "vim-colors-alabaster"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -452,10 +452,10 @@
     "themeNames": [
       "aylin"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -503,7 +503,7 @@
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
@@ -535,10 +535,10 @@
     "themeNames": [
       "deus"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -557,10 +557,10 @@
     "themeNames": [
       "sumptuous"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -607,7 +607,7 @@
     ],
     "variants": {
       "total": 3,
-      "withMode": 3,
+      "withMode": 2,
       "detected": [
         {
           "name": "no-clown-fiesta-dark",
@@ -618,10 +618,8 @@
         },
         {
           "name": "no-clown-fiesta-dim",
-          "detectedMode": "dark",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches dark"
+          "confidence": 0,
+          "source": "unknown"
         },
         {
           "name": "no-clown-fiesta-light",
@@ -631,7 +629,7 @@
           "reason": "Name matches light"
         }
       ],
-      "coverage": 100
+      "coverage": 67
     }
   },
   {
@@ -639,10 +637,10 @@
     "themeNames": [
       "scruber"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -688,10 +686,10 @@
     "themeNames": [
       "nortia"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -737,10 +735,10 @@
     "themeNames": [
       "lumiere"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -786,10 +784,10 @@
     "themeNames": [
       "nordic"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -850,10 +848,10 @@
     "themeNames": [
       "accent"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -872,10 +870,10 @@
     "themeNames": [
       "neogruvbox"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -894,10 +892,10 @@
     "themeNames": [
       "candyland"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -916,10 +914,10 @@
     "themeNames": [
       "sakura"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -948,10 +946,10 @@
     "themeNames": [
       "black_sun"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -970,10 +968,10 @@
     "themeNames": [
       "lucid"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -992,10 +990,10 @@
     "themeNames": [
       "kuroi"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1014,10 +1012,10 @@
     "themeNames": [
       "quietlight"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1036,10 +1034,10 @@
     "themeNames": [
       "cgrey"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1144,10 +1142,10 @@
     "themeNames": [
       "wolfram"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1161,10 +1159,10 @@
     "themeNames": [
       "arshamiser"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1328,10 +1326,10 @@
     "themeNames": [
       "darkscene"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1377,10 +1375,10 @@
     "themeNames": [
       "base2tone"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1679,10 +1677,10 @@
     "themeNames": [
       "base4tone"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1701,10 +1699,10 @@
     "themeNames": [
       "vim-imprint"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1750,15 +1748,20 @@
     "themeNames": [
       "serendipity"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows vim.cmd.colorscheme(...)"
+      },
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -1767,10 +1770,10 @@
     "themeNames": [
       "raider"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1789,10 +1792,10 @@
     "themeNames": [
       "ayu"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1885,10 +1888,10 @@
     "themeNames": [
       "vim-colorscheme-thaumaturge"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1902,10 +1905,10 @@
     "themeNames": [
       "bamzi-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -1913,9 +1916,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -1924,10 +1927,10 @@
     "themeNames": [
       "midnight"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2019,10 +2022,10 @@
     "themeNames": [
       "base16"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2045,17 +2048,23 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "BeomjoonGoh/vim-desertBJ",
     "themeNames": [
       "vim-desertbj"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2096,10 +2105,10 @@
     "themeNames": [
       "vim-syntax-colors"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2176,17 +2185,23 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "blazkowolf/gruber-darker.nvim",
     "themeNames": [
       "gruber-darker"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2205,10 +2220,10 @@
     "themeNames": [
       "moonfly"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2216,9 +2231,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -2227,10 +2242,10 @@
     "themeNames": [
       "nightfly"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2238,9 +2253,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -2249,10 +2264,10 @@
     "themeNames": [
       "vim-colors-bsmith"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2276,10 +2291,10 @@
     "themeNames": [
       "truedark"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2298,10 +2313,10 @@
     "themeNames": [
       "selenized"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2352,10 +2367,10 @@
     "themeNames": [
       "new-railscasts-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2460,10 +2475,10 @@
     "themeNames": [
       "walh"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "setup",
@@ -2562,10 +2577,10 @@
     "themeNames": [
       "springtime-girls"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2688,10 +2703,10 @@
     "themeNames": [
       "oneperc"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2710,10 +2725,10 @@
     "themeNames": [
       "christmas"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2732,10 +2747,10 @@
     "themeNames": [
       "friffle"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2754,10 +2769,10 @@
     "themeNames": [
       "intellij"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2776,10 +2791,10 @@
     "themeNames": [
       "vim-colors-truecolor"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2800,7 +2815,7 @@
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
@@ -2817,7 +2832,7 @@
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
@@ -2873,10 +2888,10 @@
     "themeNames": [
       "oblivion"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2900,10 +2915,10 @@
     "themeNames": [
       "cyu"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2911,9 +2926,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -2922,10 +2937,10 @@
     "themeNames": [
       "nibble"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2958,10 +2973,10 @@
     "themeNames": [
       "iceberg"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -2980,10 +2995,10 @@
     "themeNames": [
       "nox"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -3017,10 +3032,10 @@
     "themeNames": [
       "codely-vim-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3039,10 +3054,10 @@
     "themeNames": [
       "hybrid2"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3050,9 +3065,9 @@
         "reason": "README shows vim.cmd.colorscheme(...)"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -3088,10 +3103,10 @@
     "themeNames": [
       "gruvboxed"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3099,9 +3114,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -3110,10 +3125,10 @@
     "themeNames": [
       "mimi"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3132,10 +3147,10 @@
     "themeNames": [
       "badblood"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3154,10 +3169,10 @@
     "themeNames": [
       "vim-snazzy"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3176,10 +3191,10 @@
     "themeNames": [
       "coocobolo"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3225,10 +3240,10 @@
     "themeNames": [
       "midnight-desert"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3304,17 +3319,23 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "csgn/nolife.nvim",
     "themeNames": [
       "nolife"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3377,10 +3398,10 @@
     "themeNames": [
       "dwarrowdelf"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3436,10 +3457,10 @@
     "themeNames": [
       "dark_puerh"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3458,10 +3479,10 @@
     "themeNames": [
       "coolnessflair"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3511,7 +3532,13 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "DanielEliasib/sweet-fusion",
@@ -3520,7 +3547,7 @@
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
@@ -3535,10 +3562,10 @@
     "themeNames": [
       "dark-orchid"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3557,10 +3584,10 @@
     "themeNames": [
       "darkvoid"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3579,10 +3606,10 @@
     "themeNames": [
       "prairie"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3601,10 +3628,10 @@
     "themeNames": [
       "midnight"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3708,10 +3735,10 @@
     "themeNames": [
       "deki-rust"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3757,10 +3784,10 @@
     "themeNames": [
       "deviuspro"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3806,10 +3833,10 @@
     "themeNames": [
       "deepspace"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3828,10 +3855,10 @@
     "themeNames": [
       "deepwater"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3850,10 +3877,10 @@
     "themeNames": [
       "minimalist"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3872,10 +3899,10 @@
     "themeNames": [
       "one"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3894,10 +3921,10 @@
     "themeNames": [
       "mosel"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -3916,10 +3943,10 @@
     "themeNames": [
       "dracula"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4014,10 +4041,10 @@
     "themeNames": [
       "neom"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4068,10 +4095,10 @@
     "themeNames": [
       "earthbound-themes"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4198,10 +4225,10 @@
     "themeNames": [
       "leeward"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -4302,7 +4329,13 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "ellisonleao/gruvbox.nvim",
@@ -4367,10 +4400,10 @@
     "themeNames": [
       "sobrio"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4491,10 +4524,10 @@
     "themeNames": [
       "embark"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4513,10 +4546,10 @@
     "themeNames": [
       "ceudah"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4535,10 +4568,10 @@
     "themeNames": [
       "vim-solarized"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4579,10 +4612,10 @@
     "themeNames": [
       "metropolis"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4623,10 +4656,10 @@
     "themeNames": [
       "vim-easteregg"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4645,10 +4678,10 @@
     "themeNames": [
       "vim-aurora"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4766,10 +4799,10 @@
     "themeNames": [
       "system-shock"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4793,10 +4826,10 @@
     "themeNames": [
       "anoukis"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4815,10 +4848,10 @@
     "themeNames": [
       "farbodsz"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4837,10 +4870,10 @@
     "themeNames": [
       "fleet-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4892,14 +4925,14 @@
       "falcon"
     ],
     "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
+    "detectedStrategy": "unknown",
+    "confidence": 0,
     "status": "missing-meta",
     "signals": [
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -4908,10 +4941,10 @@
     "themeNames": [
       "ceon"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -4994,10 +5027,10 @@
     "themeNames": [
       "grb256"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5247,10 +5280,10 @@
     "themeNames": [
       "cyberneon"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5269,10 +5302,10 @@
     "themeNames": [
       "sequoia"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5330,10 +5363,10 @@
     "themeNames": [
       "aquarium"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.6,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5352,10 +5385,10 @@
     "themeNames": [
       "vim-nong-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5374,10 +5407,10 @@
     "themeNames": [
       "omoto"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5398,7 +5431,7 @@
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
@@ -5413,10 +5446,10 @@
     "themeNames": [
       "dookie"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5468,14 +5501,14 @@
       "getomni"
     ],
     "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
+    "detectedStrategy": "unknown",
+    "confidence": 0,
     "status": "missing-meta",
     "signals": [
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -5484,10 +5517,10 @@
     "themeNames": [
       "vim-vitamin-onec"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5506,10 +5539,10 @@
     "themeNames": [
       "oldbook-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5624,10 +5657,10 @@
     "themeNames": [
       "devel"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5646,10 +5679,10 @@
     "themeNames": [
       "custom16"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5668,10 +5701,10 @@
     "themeNames": [
       "yellowbeans"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "setup",
@@ -5727,10 +5760,10 @@
     "themeNames": [
       "wombat256grf"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5749,10 +5782,10 @@
     "themeNames": [
       "jasmin"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5760,9 +5793,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -5771,10 +5804,10 @@
     "themeNames": [
       "concoctis"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5782,9 +5815,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -5793,10 +5826,10 @@
     "themeNames": [
       "eva01"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5804,9 +5837,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       },
       {
         "strategy": "colorscheme",
@@ -5834,10 +5867,10 @@
     "themeNames": [
       "night-owl"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5856,10 +5889,10 @@
     "themeNames": [
       "antares"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5878,10 +5911,10 @@
     "themeNames": [
       "evening"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5900,10 +5933,10 @@
     "themeNames": [
       "solarized"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5949,10 +5982,10 @@
     "themeNames": [
       "vim-theme-mutenight-scene"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -5971,10 +6004,10 @@
     "themeNames": [
       "vim-theme-papaya"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6012,10 +6045,10 @@
     "themeNames": [
       "nisha"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6034,10 +6067,10 @@
     "themeNames": [
       "vim-colors-submerged"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6056,10 +6089,10 @@
     "themeNames": [
       "monoindustrial"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6147,10 +6180,10 @@
     "themeNames": [
       "vim-humanoid"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6164,10 +6197,10 @@
     "themeNames": [
       "atlas"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6247,7 +6280,7 @@
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
@@ -6262,10 +6295,10 @@
     "themeNames": [
       "smpl"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6284,10 +6317,10 @@
     "themeNames": [
       "vim-monrovia-mirror"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6306,10 +6339,10 @@
     "themeNames": [
       "honeywell"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6360,10 +6393,10 @@
     "themeNames": [
       "pywal-lush"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6549,10 +6582,10 @@
     "themeNames": [
       "infinity-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6571,10 +6604,10 @@
     "themeNames": [
       "landscape"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6588,10 +6621,10 @@
     "themeNames": [
       "vim-tweetjay"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6642,10 +6675,10 @@
     "themeNames": [
       "vim-earl-grey"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6664,10 +6697,10 @@
     "themeNames": [
       "tender"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6708,10 +6741,10 @@
     "themeNames": [
       "vim-tomorrow-night-deepblue"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6730,10 +6763,10 @@
     "themeNames": [
       "spacecamp"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6771,15 +6804,20 @@
     "themeNames": [
       "vim-randcolor"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -6788,10 +6826,10 @@
     "themeNames": [
       "mirage"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6837,10 +6875,10 @@
     "themeNames": [
       "starrynight"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6859,10 +6897,10 @@
     "themeNames": [
       "onedark"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6881,10 +6919,10 @@
     "themeNames": [
       "nami"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -6928,10 +6966,10 @@
     "themeNames": [
       "jay"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -6989,9 +7027,9 @@
         },
         {
           "name": "thorn-dark-warm",
-          "detectedMode": "dark",
           "confidence": 1,
           "source": "hint",
+          "detectedMode": "dark",
           "reason": "Manual hint override"
         },
         {
@@ -7003,9 +7041,9 @@
         },
         {
           "name": "thorn-light-warm",
-          "detectedMode": "light",
           "confidence": 1,
           "source": "hint",
+          "detectedMode": "light",
           "reason": "Manual hint override"
         }
       ],
@@ -7017,10 +7055,10 @@
     "themeNames": [
       "disco"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.6,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7039,10 +7077,10 @@
     "themeNames": [
       "toast"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7061,10 +7099,10 @@
     "themeNames": [
       "film-noir"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7115,10 +7153,10 @@
     "themeNames": [
       "deku"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7137,10 +7175,10 @@
     "themeNames": [
       "noctis"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7159,10 +7197,10 @@
     "themeNames": [
       "kat"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7193,10 +7231,10 @@
     "themeNames": [
       "papiliodehaanii"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7219,7 +7257,13 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "kevinm6/kurayami.nvim",
@@ -7248,10 +7292,10 @@
     "themeNames": [
       "yash"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7302,10 +7346,10 @@
     "themeNames": [
       "vim-hivacruz-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7361,10 +7405,10 @@
     "themeNames": [
       "vim-envy"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7378,10 +7422,10 @@
     "themeNames": [
       "tigrana"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7400,10 +7444,10 @@
     "themeNames": [
       "koalight"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7411,9 +7455,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -7422,10 +7466,10 @@
     "themeNames": [
       "collaterlie"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7444,10 +7488,10 @@
     "themeNames": [
       "harfynn"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7466,10 +7510,10 @@
     "themeNames": [
       "vim-monochromenote"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7515,10 +7559,10 @@
     "themeNames": [
       "joker"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7569,10 +7613,10 @@
     "themeNames": [
       "nord"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7655,10 +7699,10 @@
     "themeNames": [
       "meadow"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7677,10 +7721,10 @@
     "themeNames": [
       "halcyon-neovim"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7700,14 +7744,14 @@
       "momiji"
     ],
     "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
+    "detectedStrategy": "unknown",
+    "confidence": 0,
     "status": "missing-meta",
     "signals": [
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -7716,10 +7760,10 @@
     "themeNames": [
       "cobalt2"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7727,9 +7771,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -7760,10 +7804,10 @@
     "themeNames": [
       "vim-colors-modern-borland"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7869,10 +7913,10 @@
     "themeNames": [
       "vim-lighthaus"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7891,10 +7935,10 @@
     "themeNames": [
       "vim-eighties"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7908,10 +7952,10 @@
     "themeNames": [
       "space-vim-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -7957,10 +8001,10 @@
     "themeNames": [
       "kimbox"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -7999,10 +8043,10 @@
     "themeNames": [
       "sunburn"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8044,8 +8088,8 @@
       "theme-cycler"
     ],
     "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "detectedStrategy": "load",
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
@@ -8054,8 +8098,8 @@
         "reason": "README shows setup({...}) options block"
       },
       {
-        "strategy": "setup",
-        "score": 2,
+        "strategy": "load",
+        "score": 4,
         "reason": "Repo has Lua module without colors/"
       }
     ]
@@ -8119,7 +8163,7 @@
       "gruvbox-baby"
     ],
     "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
+    "detectedStrategy": "setup",
     "confidence": 0.6,
     "status": "missing-meta",
     "signals": [
@@ -8134,9 +8178,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -8146,7 +8190,7 @@
       "the-matrix"
     ],
     "currentStrategy": "missing",
-    "detectedStrategy": "colorscheme",
+    "detectedStrategy": "setup",
     "confidence": 0.6,
     "status": "missing-meta",
     "signals": [
@@ -8161,9 +8205,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -8213,10 +8257,10 @@
     "themeNames": [
       "templeos"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8235,10 +8279,10 @@
     "themeNames": [
       "northernlights"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8285,13 +8329,13 @@
       "monokai-neovim"
     ],
     "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "detectedStrategy": "load",
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
-        "strategy": "setup",
-        "score": 2,
+        "strategy": "load",
+        "score": 4,
         "reason": "Repo has Lua module without colors/"
       }
     ]
@@ -8355,10 +8399,10 @@
     "themeNames": [
       "vorange"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8423,10 +8467,10 @@
     "themeNames": [
       "wisteria"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8445,10 +8489,10 @@
     "themeNames": [
       "vim-modest"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8494,10 +8538,10 @@
     "themeNames": [
       "true"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8557,10 +8601,10 @@
     "themeNames": [
       "fluoromachine"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8579,10 +8623,10 @@
     "themeNames": [
       "retrolegends"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8615,11 +8659,6 @@
         "strategy": "setup",
         "score": 2,
         "reason": "README shows setup({...}) options block"
-      },
-      {
-        "strategy": "file",
-        "score": 2,
-        "reason": "README suggests mode-dependent setup + colorscheme"
       }
     ]
   },
@@ -8628,10 +8667,10 @@
     "themeNames": [
       "printertheme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8650,15 +8689,20 @@
     "themeNames": [
       "vim-no-color-collections"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -8667,10 +8711,10 @@
     "themeNames": [
       "monosplash"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8689,10 +8733,10 @@
     "themeNames": [
       "hima"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8716,10 +8760,10 @@
     "themeNames": [
       "vim-monotone"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -8738,10 +8782,10 @@
     "themeNames": [
       "black-metal-theme-neovim"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -8762,11 +8806,6 @@
         "strategy": "setup",
         "score": 2,
         "reason": "README shows setup({...}) options block"
-      },
-      {
-        "strategy": "file",
-        "score": 2,
-        "reason": "README suggests mode-dependent setup + colorscheme"
       },
       {
         "strategy": "colorscheme",
@@ -9018,10 +9057,10 @@
     "themeNames": [
       "4colors"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9068,14 +9107,12 @@
     ],
     "variants": {
       "total": 2,
-      "withMode": 1,
+      "withMode": 0,
       "detected": [
         {
           "name": "modus-operandi",
-          "detectedMode": "light",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches light"
+          "confidence": 0,
+          "source": "unknown"
         },
         {
           "name": "modus-vivendi",
@@ -9083,7 +9120,7 @@
           "source": "unknown"
         }
       ],
-      "coverage": 50
+      "coverage": 0
     }
   },
   {
@@ -9132,10 +9169,10 @@
     "themeNames": [
       "vim-warlock"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9188,7 +9225,7 @@
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
@@ -9203,10 +9240,10 @@
     "themeNames": [
       "vhs-era-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9225,10 +9262,10 @@
     "themeNames": [
       "momo"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9247,10 +9284,10 @@
     "themeNames": [
       "vim-colorschemes"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9318,10 +9355,10 @@
     "themeNames": [
       "vscode"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -9381,10 +9418,10 @@
     "themeNames": [
       "gruvbox"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9487,10 +9524,10 @@
     "themeNames": [
       "doubletrouble"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9509,10 +9546,10 @@
     "themeNames": [
       "jellybeans"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9577,9 +9614,9 @@
         },
         {
           "name": "onedark_cool",
-          "detectedMode": "dark",
           "confidence": 1,
           "source": "hint",
+          "detectedMode": "dark",
           "reason": "Manual hint override"
         },
         {
@@ -9591,9 +9628,9 @@
         },
         {
           "name": "onedark_warm",
-          "detectedMode": "dark",
           "confidence": 1,
           "source": "hint",
+          "detectedMode": "dark",
           "reason": "Manual hint override"
         },
         {
@@ -9612,10 +9649,10 @@
     "themeNames": [
       "everforest"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -9649,10 +9686,10 @@
     "themeNames": [
       "darkstorm"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9929,10 +9966,10 @@
     "themeNames": [
       "dromad"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -9983,22 +10020,22 @@
     "themeNames": [
       "arc"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "error",
     "signals": [],
-    "error": "Command failed: gh api repos/nickshiro/arc.nvim/readme\ngh: Not Found (HTTP 404)\n"
+    "error": "README content missing"
   },
   {
     "repo": "nickshiro/elixir.nvim",
     "themeNames": [
       "elixir"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10017,10 +10054,10 @@
     "themeNames": [
       "camarada"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10039,10 +10076,10 @@
     "themeNames": [
       "vim-sunbather"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10061,10 +10098,10 @@
     "themeNames": [
       "ashki"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -10103,10 +10140,10 @@
     "themeNames": [
       "fancomi"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10152,10 +10189,10 @@
     "themeNames": [
       "bloop"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10231,10 +10268,10 @@
     "themeNames": [
       "nazgul"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10275,10 +10312,10 @@
     "themeNames": [
       "nord"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10329,10 +10366,10 @@
     "themeNames": [
       "habamax"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10383,10 +10420,10 @@
     "themeNames": [
       "slack"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10405,10 +10442,10 @@
     "themeNames": [
       "vim-horizon"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10427,10 +10464,10 @@
     "themeNames": [
       "itabyss"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10454,17 +10491,17 @@
     "confidence": 0,
     "status": "error",
     "signals": [],
-    "error": "Command failed: gh api repos/numToStr/Sakura.nvim/readme\ngh: Not Found (HTTP 404)\n"
+    "error": "README content missing"
   },
   {
     "repo": "nvimdev/oceanic-material",
     "themeNames": [
       "oceanic-material"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10487,17 +10524,23 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "nyoom-engineering/oxocarbon.nvim",
     "themeNames": [
       "oxocarbon"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10646,10 +10689,10 @@
     "themeNames": [
       "poimandres"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10668,10 +10711,10 @@
     "themeNames": [
       "black_electron"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10690,10 +10733,10 @@
     "themeNames": [
       "neg"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -10739,10 +10782,10 @@
     "themeNames": [
       "nimda"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11110,10 +11153,10 @@
     "themeNames": [
       "owly"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11164,10 +11207,10 @@
     "themeNames": [
       "oxidescheme"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -11206,10 +11249,10 @@
     "themeNames": [
       "vem-dark"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11228,10 +11271,10 @@
     "themeNames": [
       "onedarkhc"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11272,10 +11315,10 @@
     "themeNames": [
       "alienocean"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11294,10 +11337,10 @@
     "themeNames": [
       "vim-monokai-tasty"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11362,10 +11405,10 @@
     "themeNames": [
       "hyper"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -11416,10 +11459,10 @@
     "themeNames": [
       "dookie"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11438,10 +11481,10 @@
     "themeNames": [
       "perpetuatheme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11482,10 +11525,10 @@
     "themeNames": [
       "jimbo"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11531,10 +11574,10 @@
     "themeNames": [
       "monokai-nightasty"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -11568,10 +11611,10 @@
     "themeNames": [
       "vim-colors-pencil"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11617,10 +11660,10 @@
     "themeNames": [
       "use_vim_in_winx"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11733,10 +11776,10 @@
     "themeNames": [
       "dadara"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11796,10 +11839,10 @@
     "themeNames": [
       "monalisa"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11818,10 +11861,10 @@
     "themeNames": [
       "vitesse"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11894,15 +11937,20 @@
     "themeNames": [
       "dotfiles"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -11911,10 +11959,10 @@
     "themeNames": [
       "persona5"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -11975,10 +12023,10 @@
     "themeNames": [
       "neon"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -11986,9 +12034,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -11997,10 +12045,10 @@
     "themeNames": [
       "nvimthemes"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "setup",
@@ -12019,10 +12067,10 @@
     "themeNames": [
       "idler"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12041,10 +12089,10 @@
     "themeNames": [
       "zenburn-m"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12063,10 +12111,10 @@
     "themeNames": [
       "vim-one"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12138,10 +12186,10 @@
     "themeNames": [
       "aurora"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12187,10 +12235,10 @@
     "themeNames": [
       "uwunified"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12241,10 +12289,10 @@
     "themeNames": [
       "kanagawa"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -12476,10 +12524,10 @@
     "themeNames": [
       "gruvbox-minor"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12634,27 +12682,33 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "Rimkomatic/Re-Nvim",
     "themeNames": [
       "re"
     ],
-    "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "currentStrategy": "load",
+    "detectedStrategy": "load",
+    "confidence": 0.9,
+    "status": "match",
     "signals": [
       {
         "strategy": "setup",
-        "score": 2,
-        "reason": "Repo has Lua module without colors/"
+        "score": 3,
+        "reason": "Repo has plugin/ dir + Lua module"
       },
       {
         "strategy": "load",
-        "score": 2,
-        "reason": "Repo has lua/ + plugin/ layout"
+        "score": 4,
+        "reason": "Repo has Lua module without colors/"
       }
     ]
   },
@@ -12663,10 +12717,10 @@
     "themeNames": [
       "ring0-dark"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12674,9 +12728,9 @@
         "reason": "README shows vim.cmd.colorscheme(...)"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -12685,10 +12739,10 @@
     "themeNames": [
       "ring0-light"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12696,9 +12750,9 @@
         "reason": "README shows vim.cmd.colorscheme(...)"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -12718,8 +12772,8 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "setup",
-        "score": 2,
+        "strategy": "load",
+        "score": 4,
         "reason": "Repo has Lua module without colors/"
       },
       {
@@ -12859,15 +12913,20 @@
     "themeNames": [
       "vim-rnb"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -12898,10 +12957,10 @@
     "themeNames": [
       "fansi2"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12920,10 +12979,10 @@
     "themeNames": [
       "ymir"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -12942,10 +13001,10 @@
     "themeNames": [
       "nightshift"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13015,9 +13074,9 @@
         },
         {
           "name": "rose-pine-dawn",
-          "detectedMode": "light",
           "confidence": 1,
           "source": "hint",
+          "detectedMode": "light",
           "reason": "Manual hint override"
         }
       ],
@@ -13029,10 +13088,10 @@
     "themeNames": [
       "naysayer"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13051,10 +13110,10 @@
     "themeNames": [
       "vim-ruie"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13105,10 +13164,10 @@
     "themeNames": [
       "perona"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13127,10 +13186,10 @@
     "themeNames": [
       "everforest"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13170,10 +13229,10 @@
     "themeNames": [
       "serene"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13204,10 +13263,10 @@
     "themeNames": [
       "synthweave"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -13281,13 +13340,13 @@
       "cyberpunk"
     ],
     "currentStrategy": "missing",
-    "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "detectedStrategy": "load",
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
-        "strategy": "setup",
-        "score": 2,
+        "strategy": "load",
+        "score": 4,
         "reason": "Repo has Lua module without colors/"
       }
     ]
@@ -13334,10 +13393,10 @@
     "themeNames": [
       "feline-soul"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13356,10 +13415,10 @@
     "themeNames": [
       "garden"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13378,10 +13437,10 @@
     "themeNames": [
       "zora-theme"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13400,10 +13459,10 @@
     "themeNames": [
       "melange"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13443,10 +13502,10 @@
     "themeNames": [
       "vim-fruchtig"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13465,10 +13524,10 @@
     "themeNames": [
       "vim-nachtleben"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13579,10 +13638,10 @@
     "themeNames": [
       "pink-panic"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13601,10 +13660,10 @@
     "themeNames": [
       "vim-joker"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13623,10 +13682,10 @@
     "themeNames": [
       "color-wheel"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13645,10 +13704,10 @@
     "themeNames": [
       "vscode-gruber"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13667,10 +13726,10 @@
     "themeNames": [
       "vim-vintage"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13852,10 +13911,10 @@
     "themeNames": [
       "ponokai"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13901,10 +13960,10 @@
     "themeNames": [
       "cinnamonwine"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13923,10 +13982,10 @@
     "themeNames": [
       "witchesbrew"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13959,10 +14018,10 @@
     "themeNames": [
       "kyotonight"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -13981,10 +14040,10 @@
     "themeNames": [
       "neovim-dark-monitor"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14010,7 +14069,7 @@
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
@@ -14030,10 +14089,10 @@
     "themeNames": [
       "tachyon"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14101,10 +14160,10 @@
     "themeNames": [
       "vim-mnmlight"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14125,7 +14184,7 @@
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
-    "confidence": 0.6,
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
@@ -14175,17 +14234,23 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "skielbasa/vim-material-monokai",
     "themeNames": [
       "vim-material-monokai"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14215,8 +14280,8 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "setup",
-        "score": 2,
+        "strategy": "load",
+        "score": 4,
         "reason": "Repo has Lua module without colors/"
       },
       {
@@ -14231,10 +14296,10 @@
     "themeNames": [
       "vim-color-export"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14253,10 +14318,10 @@
     "themeNames": [
       "vim-color-patch"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14347,10 +14412,10 @@
     "themeNames": [
       "briofita"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14391,10 +14456,10 @@
     "themeNames": [
       "spacechalk"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14413,10 +14478,10 @@
     "themeNames": [
       "spacechalk"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14435,15 +14500,20 @@
     "themeNames": [
       "eyesalt"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -14452,10 +14522,10 @@
     "themeNames": [
       "rams"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14463,9 +14533,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -14474,10 +14544,10 @@
     "themeNames": [
       "vim-nebula"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14496,10 +14566,10 @@
     "themeNames": [
       "vim-violet"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14518,10 +14588,10 @@
     "themeNames": [
       "naysayer"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14626,10 +14696,10 @@
     "themeNames": [
       "primary"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -14673,10 +14743,10 @@
     "themeNames": [
       "fantasy"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14695,10 +14765,10 @@
     "themeNames": [
       "fromthehell"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14717,10 +14787,10 @@
     "themeNames": [
       "sci"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14860,10 +14930,10 @@
     "themeNames": [
       "maani"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -14916,18 +14986,13 @@
     ],
     "currentStrategy": "missing",
     "detectedStrategy": "setup",
-    "confidence": 0.5,
+    "confidence": 0.8,
     "status": "missing-meta",
     "signals": [
       {
         "strategy": "setup",
         "score": 2,
         "reason": "README shows setup({...}) options block"
-      },
-      {
-        "strategy": "file",
-        "score": 2,
-        "reason": "README suggests mode-dependent setup + colorscheme"
       },
       {
         "strategy": "setup",
@@ -14941,10 +15006,10 @@
     "themeNames": [
       "vim-fethoi"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15021,10 +15086,10 @@
     "themeNames": [
       "zebulon"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15070,15 +15135,20 @@
     "themeNames": [
       "edelweiss"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -15087,10 +15157,10 @@
     "themeNames": [
       "magellan"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15141,10 +15211,10 @@
     "themeNames": [
       "vim-colorscheme-aquamarine"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15163,10 +15233,10 @@
     "themeNames": [
       "morimo"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "load",
@@ -15195,15 +15265,20 @@
     "themeNames": [
       "bg"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -15212,10 +15287,10 @@
     "themeNames": [
       "tonada"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15490,7 +15565,13 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "vague-theme/vague.nvim",
@@ -15543,11 +15624,6 @@
         "strategy": "setup",
         "score": 2,
         "reason": "README shows setup({...}) options block"
-      },
-      {
-        "strategy": "file",
-        "score": 2,
-        "reason": "README suggests mode-dependent setup + colorscheme"
       }
     ]
   },
@@ -15669,10 +15745,10 @@
     "themeNames": [
       "vim-prism"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15691,10 +15767,10 @@
     "themeNames": [
       "oscura"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15709,14 +15785,12 @@
     ],
     "variants": {
       "total": 3,
-      "withMode": 3,
+      "withMode": 2,
       "detected": [
         {
           "name": "oscura-dusk",
-          "detectedMode": "dark",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches dark"
+          "confidence": 0,
+          "source": "unknown"
         },
         {
           "name": "oscura-dusk-light",
@@ -15733,7 +15807,7 @@
           "reason": "Name matches light"
         }
       ],
-      "coverage": 100
+      "coverage": 67
     }
   },
   {
@@ -15741,10 +15815,10 @@
     "themeNames": [
       "void"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15763,10 +15837,10 @@
     "themeNames": [
       "dogrun"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15785,10 +15859,10 @@
     "themeNames": [
       "nvim-config"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "setup",
     "confidence": 0.8,
-    "status": "mismatch",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15807,10 +15881,10 @@
     "themeNames": [
       "palette"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15893,10 +15967,10 @@
     "themeNames": [
       "naysayer-colors"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -15938,7 +16012,7 @@
     ],
     "variants": {
       "total": 4,
-      "withMode": 2,
+      "withMode": 1,
       "detected": [
         {
           "name": "monoglow-lack",
@@ -15954,10 +16028,8 @@
         },
         {
           "name": "monoglow-void",
-          "detectedMode": "dark",
-          "confidence": 0.9,
-          "source": "pattern",
-          "reason": "Name matches dark"
+          "confidence": 0,
+          "source": "unknown"
         },
         {
           "name": "monoglow-z",
@@ -15965,7 +16037,7 @@
           "source": "unknown"
         }
       ],
-      "coverage": 50
+      "coverage": 25
     }
   },
   {
@@ -15984,9 +16056,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       },
       {
         "strategy": "setup",
@@ -16000,10 +16072,10 @@
     "themeNames": [
       "colorschemefromhell"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16022,10 +16094,10 @@
     "themeNames": [
       "mitra"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16044,10 +16116,10 @@
     "themeNames": [
       "mono"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16066,10 +16138,10 @@
     "themeNames": [
       "notepad"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16180,10 +16252,10 @@
     "themeNames": [
       "solojazz"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16202,10 +16274,10 @@
     "themeNames": [
       "blaquemagick"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16233,6 +16305,11 @@
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -16241,10 +16318,10 @@
     "themeNames": [
       "evangelion"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16263,10 +16340,10 @@
     "themeNames": [
       "miasma"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16285,15 +16362,20 @@
     "themeNames": [
       "sourcerer"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
         "score": 4,
         "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -16302,10 +16384,10 @@
     "themeNames": [
       "sourcerer"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16356,10 +16438,10 @@
     "themeNames": [
       "gochiusa"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16378,10 +16460,10 @@
     "themeNames": [
       "vim-purpura"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16400,10 +16482,10 @@
     "themeNames": [
       "retrohack"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16422,10 +16504,10 @@
     "themeNames": [
       "shirotelin"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16476,10 +16558,10 @@
     "themeNames": [
       "omni"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 0.8,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16487,9 +16569,9 @@
         "reason": "README shows :colorscheme usage"
       },
       {
-        "strategy": "colorscheme",
-        "score": 4,
-        "reason": "Repo has colors/*.vim + Lua module"
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
       }
     ]
   },
@@ -16502,17 +16584,23 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "yorumicolors/yorumi.nvim",
     "themeNames": [
       "yorumi"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16545,10 +16633,10 @@
     "themeNames": [
       "dwarf"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16567,10 +16655,10 @@
     "themeNames": [
       "ci_dark"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16589,10 +16677,10 @@
     "themeNames": [
       "hydrangea"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.6,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "setup",
@@ -16616,10 +16704,10 @@
     "themeNames": [
       "inkstained"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16638,10 +16726,10 @@
     "themeNames": [
       "sublimetext-spacegray"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.8,
-    "status": "match",
+    "confidence": 1,
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16664,7 +16752,13 @@
     "detectedStrategy": "unknown",
     "confidence": 0,
     "status": "missing-meta",
-    "signals": []
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
   },
   {
     "repo": "zaldih/themery.nvim",
@@ -16703,10 +16797,10 @@
     "themeNames": [
       "vim-colors-basic"
     ],
-    "currentStrategy": "missing",
+    "currentStrategy": "colorscheme",
     "detectedStrategy": "colorscheme",
-    "confidence": 0.5,
-    "status": "missing-meta",
+    "confidence": 1,
+    "status": "match",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16744,10 +16838,10 @@
     "themeNames": [
       "vim-oxidize"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16766,10 +16860,10 @@
     "themeNames": [
       "neon"
     ],
-    "currentStrategy": "colorscheme",
+    "currentStrategy": "missing",
     "detectedStrategy": "colorscheme",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16851,10 +16945,10 @@
     "themeNames": [
       "zenbones"
     ],
-    "currentStrategy": "load",
+    "currentStrategy": "missing",
     "detectedStrategy": "load",
     "confidence": 1,
-    "status": "match",
+    "status": "missing-meta",
     "signals": [
       {
         "strategy": "colorscheme",
@@ -16948,16 +17042,16 @@
         },
         {
           "name": "zenburned",
-          "detectedMode": "dark",
           "confidence": 1,
           "source": "hint",
+          "detectedMode": "dark",
           "reason": "Manual hint override"
         },
         {
           "name": "zenwritten",
-          "detectedMode": "light",
           "confidence": 1,
           "source": "hint",
+          "detectedMode": "light",
           "reason": "Manual hint override"
         }
       ],

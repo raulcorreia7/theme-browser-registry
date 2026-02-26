@@ -38,27 +38,9 @@
       "colorscheme": "kanagawa",
       "meta": {
         "strategy": {
-          "type": "load",
-          "module": "kanagawa"
+          "type": "load"
         }
-      },
-      "variants": [
-        {
-          "name": "kanagawa-wave",
-          "colorscheme": "kanagawa-wave",
-          "mode": "dark"
-        },
-        {
-          "name": "kanagawa-dragon",
-          "colorscheme": "kanagawa-dragon",
-          "mode": "dark"
-        },
-        {
-          "name": "kanagawa-lotus",
-          "colorscheme": "kanagawa-lotus",
-          "mode": "dark"
-        }
-      ]
+      }
     },
     {
       "name": "kimbox",
@@ -116,11 +98,9 @@
       "colorscheme": "nordic",
       "meta": {
         "strategy": {
-          "type": "load",
-          "module": "nordic"
+          "type": "load"
         }
-      },
-      "mode": "dark"
+      }
     },
     {
       "name": "nox",
@@ -168,40 +148,9 @@
       "colorscheme": "vscode",
       "meta": {
         "strategy": {
-          "type": "load",
-          "module": "vscode"
+          "type": "load"
         }
-      },
-      "variants": [
-        {
-          "name": "vscode-dark",
-          "colorscheme": "vscode",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "load",
-              "module": "vscode",
-              "args": [
-                "dark"
-              ]
-            }
-          }
-        },
-        {
-          "name": "vscode-light",
-          "colorscheme": "vscode",
-          "mode": "light",
-          "meta": {
-            "strategy": {
-              "type": "load",
-              "module": "vscode",
-              "args": [
-                "light"
-              ]
-            }
-          }
-        }
-      ]
+      }
     },
     {
       "name": "zenbones",
@@ -209,72 +158,9 @@
       "colorscheme": "zenbones",
       "meta": {
         "strategy": {
-          "type": "load",
-          "module": "zenbones"
+          "type": "load"
         }
-      },
-      "variants": [
-        {
-          "name": "zenbones",
-          "colorscheme": "zenbones",
-          "mode": "light"
-        },
-        {
-          "name": "duckbones",
-          "colorscheme": "duckbones",
-          "mode": "dark"
-        },
-        {
-          "name": "neobones",
-          "colorscheme": "neobones",
-          "mode": "dark"
-        },
-        {
-          "name": "nordbones",
-          "colorscheme": "nordbones",
-          "mode": "dark"
-        },
-        {
-          "name": "rosebones",
-          "colorscheme": "rosebones",
-          "mode": "light"
-        },
-        {
-          "name": "forestbones",
-          "colorscheme": "forestbones",
-          "mode": "dark"
-        },
-        {
-          "name": "tokyobones",
-          "colorscheme": "tokyobones",
-          "mode": "dark"
-        },
-        {
-          "name": "kanagawabones",
-          "colorscheme": "kanagawabones",
-          "mode": "dark"
-        },
-        {
-          "name": "seoulbones",
-          "colorscheme": "seoulbones",
-          "mode": "dark"
-        },
-        {
-          "name": "vimbones",
-          "colorscheme": "vimbones",
-          "mode": "light"
-        },
-        {
-          "name": "zenburned",
-          "colorscheme": "zenburned",
-          "mode": "dark"
-        },
-        {
-          "name": "zenwritten",
-          "colorscheme": "zenwritten",
-          "mode": "light"
-        }
-      ]
+      }
     }
   ]
 }

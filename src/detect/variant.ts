@@ -37,7 +37,7 @@ export function detectVariantModeFromName(variantName: string): ThemeMode | unde
   return undefined;
 }
 
-export type VariantInput = { name: string; colorscheme?: string; mode?: string; meta?: { strategy?: unknown } };
+export type VariantInput = { name: string; colorscheme?: string; mode?: ThemeMode | undefined; meta?: { strategy?: unknown } };
 
 export function detectVariantModesFromNames(variants: VariantInput[] | undefined): VariantModeResult[] {
   if (!variants || variants.length === 0) return [];

@@ -1,143 +1,45 @@
-#!/usr/bin/env node
+#!/usr/bin/env tsx
 /**
- * 03-merge-sources.ts - Merge source files into overrides.json
+ * 03-merge.ts - Merge source files into overrides.json
  *
- * Usage: npx tsx scripts/03-merge-sources.ts [options]
+ * Usage: tsx tasks/03-merge.ts [options]
  *
  * Options:
  *   -s, --sources <dir>   Sources directory (default: sources)
  *   -o, --output <path>   Output file (default: overrides.json)
  *   -h, --help            Show help
  */
-import { parseArgs } from "node:util";
-import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
-import path from "node:path";
-import { resolve } from "node:path";
+import { config } from "dotenv";
+import { resolve, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+import { Command } from "commander";
 import consola from "consola";
+import { MergeCliOptionsSchema, type MergeCliOptions } from "@/lib/cli";
+import { run as runMerge } from "@/merge";
 
-const ROOT = resolve(import.meta.dirname, "..");
+config({ path: resolve(dirname(fileURLToPath(import.meta.url)), "../.env") });
 
-const help = `
-03-merge-sources - Merge source files into overrides.json
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
-Usage:
-  03-merge-sources [options]
+const program = new Command()
+  .name("03-merge")
+  .description("Merge source files into overrides.json")
+  .option("-s, --sources <dir>", "Sources directory", "sources")
+  .option("-o, --output <path>", "Output file", "overrides.json")
+  .option("-h, --help", "Show help")
+  .parse(process.argv);
 
-Options:
-  -s, --sources <dir>   Sources directory (default: sources)
-  -o, --output <path>   Output file (default: overrides.json)
-  -h, --help            Show this help
-`;
-
-type StrategyType = "setup" | "load" | "colorscheme" | "file" | "unknown";
-
-type ThemeEntry = {
-  name: string;
-  repo?: string;
-  colorscheme?: string;
-  variants?: Array<{ name: string; colorscheme?: string; mode?: string }>;
-  meta?: { strategy?: { type?: StrategyType; module?: string; file?: string } };
-};
-
-type StrategyFile = {
-  strategy: StrategyType;
-  count: number;
-  themes: ThemeEntry[];
-};
-
-type Hint = {
-  repo: string;
-  strategy: StrategyType;
-  reason: string;
-};
-
-type HintsFile = {
-  description: string;
-  hints: Hint[];
-};
-
-function parseCliArgs() {
-  const { values } = parseArgs({
-    options: {
-      sources: { type: "string", short: "s", default: "sources" },
-      output: { type: "string", short: "o", default: "overrides.json" },
-      help: { type: "boolean", short: "h", default: false },
-    },
-    allowPositionals: true,
-  });
-
-  if (values.help) {
-    console.log(help);
-    process.exit(0);
-  }
-
-  return {
-    sources: resolve(ROOT, values.sources),
-    output: resolve(ROOT, values.output),
-  };
+const rawOpts = program.opts();
+if (rawOpts.help) {
+  program.help();
+  process.exit(0);
 }
 
-function readJson<T>(filePath: string): T | null {
-  if (!existsSync(filePath)) return null;
-  return JSON.parse(readFileSync(filePath, "utf-8")) as T;
-}
+const cliOptions: MergeCliOptions = MergeCliOptionsSchema.parse(rawOpts);
 
-const JSON_INDENT = 2;
+const result = runMerge({
+  sourcesDir: resolve(ROOT, cliOptions.sources),
+  outputPath: resolve(ROOT, cliOptions.output),
+});
 
-function writeJson(filePath: string, data: unknown): void {
-  writeFileSync(filePath, JSON.stringify(data, null, JSON_INDENT) + "\n", "utf-8");
-}
-
-function merge(): void {
-  const { sources, output } = parseCliArgs();
-  const allThemes: ThemeEntry[] = [];
-  const builtin: ThemeEntry[] = [];
-
-  const files = readdirSync(sources).filter((f) => f.endsWith(".json"));
-
-  for (const file of files) {
-    if (file === "hints.json") continue;
-
-    const filePath = path.join(sources, file);
-    const data = readJson<StrategyFile | { themes: ThemeEntry[] }>(filePath);
-    if (!data) continue;
-
-    if ("strategy" in data) {
-      if (data.strategy === "builtin") {
-        builtin.push(...data.themes);
-      } else {
-        allThemes.push(...data.themes);
-      }
-    }
-  }
-
-  const hints = readJson<HintsFile>(path.join(sources, "hints.json"));
-  if (hints?.hints) {
-    const hintMap = new Map(hints.hints.map((h) => [h.repo, h.strategy]));
-    for (const theme of allThemes) {
-      if (theme.repo && hintMap.has(theme.repo)) {
-        if (!theme.meta) theme.meta = {};
-        if (!theme.meta.strategy) theme.meta.strategy = { type: hintMap.get(theme.repo)! };
-        else theme.meta.strategy.type = hintMap.get(theme.repo)!;
-      }
-    }
-  }
-
-  allThemes.sort((a, b) =>
-    (a.name || "").toLowerCase().localeCompare((b.name || "").toLowerCase())
-  );
-  builtin.sort((a, b) =>
-    (a.name || "").toLowerCase().localeCompare((b.name || "").toLowerCase())
-  );
-
-  const merged = {
-    overrides: allThemes,
-    ...(builtin.length > 0 && { builtin }),
-  };
-
-  writeJson(output, merged);
-
-  consola.success(`Merged ${allThemes.length} themes + ${builtin.length} builtin → ${output}`);
-}
-
-merge();
+consola.success(`Merged ${result.themes} themes + ${result.builtin} builtin → ${result.outputPath}`);

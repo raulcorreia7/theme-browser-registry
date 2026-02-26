@@ -1,21 +1,11 @@
 {
   "strategy": "colorscheme",
-  "count": 298,
+  "count": 245,
   "themes": [
     {
       "name": "4colors",
       "repo": "mihaifm/4colors",
       "colorscheme": "4colors",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "abstract-cs",
-      "repo": "Abstract-IDE/Abstract-cs",
-      "colorscheme": "abscs",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -33,39 +23,9 @@
       }
     },
     {
-      "name": "alienocean",
-      "repo": "ParadiseOfMagic/Alienocean.nvim",
-      "colorscheme": "Alienocean",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "anoukis",
-      "repo": "fafa-a/anoukis",
-      "colorscheme": "anoukis",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "antares",
       "repo": "Haron-Prime/Antares",
       "colorscheme": "antares",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "arc",
-      "repo": "nickshiro/arc.nvim",
-      "colorscheme": "arc",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -120,69 +80,12 @@
         "strategy": {
           "type": "colorscheme"
         }
-      },
-      "variants": [
-        {
-          "name": "ayu-dark",
-          "colorscheme": "ayu",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "g": {
-                  "ayucolor": "dark"
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "ayu-mirage",
-          "colorscheme": "ayu",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "g": {
-                  "ayucolor": "mirage"
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "ayu-light",
-          "colorscheme": "ayu",
-          "mode": "light",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "g": {
-                  "ayucolor": "light"
-                }
-              }
-            }
-          }
-        }
-      ]
+      }
     },
     {
       "name": "badblood",
       "repo": "Comosaycomosah/badblood.nvim",
       "colorscheme": "badblood",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "bamzi-theme",
-      "repo": "bamzi/bamzi-theme",
-      "colorscheme": "bamzi",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -213,16 +116,6 @@
       "name": "base4tone",
       "repo": "atelierbram/Base4Tone-nvim",
       "colorscheme": "base4tone_classic_a_dark",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "bg",
-      "repo": "typicode/bg.nvim",
-      "colorscheme": "bg",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -360,39 +253,9 @@
       }
     },
     {
-      "name": "cinnamonwine",
-      "repo": "shoenot/cinnamonwine.nvim",
-      "colorscheme": "cinnamonwine",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "cobalt2",
-      "repo": "lalitmee/cobalt2.nvim",
-      "colorscheme": "cobalt2",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "codely-vim-theme",
       "repo": "codingpotions/codely-vim-theme",
       "colorscheme": "codely-theme",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "collaterlie",
-      "repo": "kordyte/collaterlie-nvim",
-      "colorscheme": "collaterlie",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -420,16 +283,6 @@
       }
     },
     {
-      "name": "concoctis",
-      "repo": "gwh-dev/concoctis.nvim",
-      "colorscheme": "concoctis",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "coocobolo",
       "repo": "coocobolo/coocobolo.nvim",
       "colorscheme": "coocobolo",
@@ -450,29 +303,9 @@
       }
     },
     {
-      "name": "custom16",
-      "repo": "grecodavide/custom16",
-      "colorscheme": "custom16",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "cyberneon",
       "repo": "followLemmi/cyberneon.nvim",
       "colorscheme": "cyberneon",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "cyu",
-      "repo": "clpi/cyu.lua",
-      "colorscheme": "cayu",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -513,26 +346,6 @@
       "name": "darkscene",
       "repo": "aswathkk/DarkScene.vim",
       "colorscheme": "darkscene",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "darkstorm",
-      "repo": "nechaev/darkstorm.nvim",
-      "colorscheme": "darkstorm",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "darkvoid",
-      "repo": "darkvoid-theme/darkvoid.nvim",
-      "colorscheme": "darkvoid",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -587,8 +400,7 @@
         "strategy": {
           "type": "colorscheme"
         }
-      },
-      "mode": "dark"
+      }
     },
     {
       "name": "devel",
@@ -618,8 +430,7 @@
         "strategy": {
           "type": "colorscheme"
         }
-      },
-      "mode": "dark"
+      }
     },
     {
       "name": "dookie",
@@ -635,16 +446,6 @@
       "name": "dookie",
       "repo": "pebeto/dookie.nvim",
       "colorscheme": "dookie",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "dotfiles",
-      "repo": "quidame/dotfiles",
-      "colorscheme": "dotfiles",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -669,8 +470,7 @@
         "strategy": {
           "type": "colorscheme"
         }
-      },
-      "mode": "dark"
+      }
     },
     {
       "name": "dwarf",
@@ -703,26 +503,6 @@
       }
     },
     {
-      "name": "edelweiss",
-      "repo": "timofurrer/edelweiss",
-      "colorscheme": "edelweiss",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "elixir",
-      "repo": "nickshiro/elixir.nvim",
-      "colorscheme": "elixir",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "embark",
       "repo": "embark-theme/vim",
       "colorscheme": "embark",
@@ -730,8 +510,7 @@
         "strategy": {
           "type": "colorscheme"
         }
-      },
-      "mode": "dark"
+      }
     },
     {
       "name": "eva01",
@@ -767,48 +546,6 @@
       "name": "everforest",
       "repo": "sainnhe/everforest",
       "colorscheme": "everforest",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
-      "variants": [
-        {
-          "name": "everforest-dark",
-          "colorscheme": "everforest",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "o": {
-                  "background": "dark"
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "everforest-light",
-          "colorscheme": "everforest",
-          "mode": "light",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "o": {
-                  "background": "light"
-                }
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "eyesalt",
-      "repo": "spenserblack/eyesalt",
-      "colorscheme": "eyesalt",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -891,11 +628,9 @@
       "colorscheme": "fluoromachine",
       "meta": {
         "strategy": {
-          "type": "colorscheme",
-          "file": "themes/fluoromachine.lua"
+          "type": "colorscheme"
         }
-      },
-      "mode": "dark"
+      }
     },
     {
       "name": "friffle",
@@ -948,18 +683,6 @@
       }
     },
     {
-      "name": "gruber-darker",
-      "repo": "blazkowolf/gruber-darker.nvim",
-      "colorscheme": "gruber-darker",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme",
-          "module": "gruber-darker"
-        }
-      },
-      "mode": "dark"
-    },
-    {
       "name": "gruvbox",
       "repo": "morhetz/gruvbox",
       "colorscheme": "gruvbox",
@@ -967,60 +690,12 @@
         "strategy": {
           "type": "colorscheme"
         }
-      },
-      "variants": [
-        {
-          "name": "gruvbox-dark",
-          "colorscheme": "gruvbox",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "g": {
-                  "gruvbox_contrast_dark": "medium"
-                },
-                "o": {
-                  "background": "dark"
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "gruvbox-light",
-          "colorscheme": "gruvbox",
-          "mode": "light",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "g": {
-                  "gruvbox_contrast_light": "medium"
-                },
-                "o": {
-                  "background": "light"
-                }
-              }
-            }
-          }
-        }
-      ]
+      }
     },
     {
       "name": "gruvbox-minor",
       "repo": "ricardoraposo/gruvbox-minor.nvim",
       "colorscheme": "gruvbox-minor",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "gruvboxed",
-      "repo": "comfysage/gruvboxed",
-      "colorscheme": "gruvboxed",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1048,16 +723,6 @@
       }
     },
     {
-      "name": "harfynn",
-      "repo": "kordyte/harfynn-nvim",
-      "colorscheme": "harfynn",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "hima",
       "repo": "meain/hima-vim",
       "colorscheme": "hima",
@@ -1078,30 +743,9 @@
       }
     },
     {
-      "name": "hybrid2",
-      "repo": "ColinKennedy/hybrid2.nvim",
-      "colorscheme": "hybrid2",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "iceberg",
       "repo": "cocopon/iceberg.vim",
       "colorscheme": "iceberg",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
-      "mode": "dark"
-    },
-    {
-      "name": "idler",
-      "repo": "rainstf/idler",
-      "colorscheme": "idler",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1149,16 +793,6 @@
       }
     },
     {
-      "name": "jasmin",
-      "repo": "Gurvan-dev/jasmin.nvim",
-      "colorscheme": "jasmin",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "jay",
       "repo": "josuegaleas/jay",
       "colorscheme": "jay",
@@ -1176,8 +810,7 @@
         "strategy": {
           "type": "colorscheme"
         }
-      },
-      "mode": "dark"
+      }
     },
     {
       "name": "jimbo",
@@ -1193,16 +826,6 @@
       "name": "joker",
       "repo": "ksevelyar/joker.vim",
       "colorscheme": "joker",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "koalight",
-      "repo": "Koalhack/koalight.nvim",
-      "colorscheme": "koalight",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1270,37 +893,14 @@
       }
     },
     {
-      "name": "meadow",
-      "repo": "kuznetsss/meadow.nvim",
-      "colorscheme": "meadow",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "melange",
       "repo": "savq/melange-nvim",
       "colorscheme": "melange",
       "meta": {
         "strategy": {
-          "type": "colorscheme",
-          "module": "melange"
+          "type": "colorscheme"
         }
-      },
-      "variants": [
-        {
-          "name": "melange-dark",
-          "colorscheme": "melange",
-          "mode": "dark"
-        },
-        {
-          "name": "melange-light",
-          "colorscheme": "melange",
-          "mode": "light"
-        }
-      ]
+      }
     },
     {
       "name": "metropolis",
@@ -1316,30 +916,6 @@
       "name": "miasma",
       "repo": "xero/miasma.nvim",
       "colorscheme": "miasma",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme",
-          "module": "miasma"
-        }
-      },
-      "mode": "dark"
-    },
-    {
-      "name": "midnight",
-      "repo": "dasupradyumna/midnight.nvim",
-      "colorscheme": "midnight",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme",
-          "module": "midnight"
-        }
-      },
-      "mode": "dark"
-    },
-    {
-      "name": "midnight",
-      "repo": "barrettruth/midnight.nvim",
-      "colorscheme": "midnight",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1447,29 +1023,8 @@
       }
     },
     {
-      "name": "moonfly",
-      "repo": "bluz71/vim-moonfly-colors",
-      "colorscheme": "moonfly",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
-      "mode": "dark"
-    },
-    {
-      "name": "mosel",
-      "repo": "Domeee/mosel.nvim",
-      "colorscheme": "mosel",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "naysayer",
-      "repo": "StradNikw/Naysayer.nvim",
+      "repo": "RostislavArts/naysayer.nvim",
       "colorscheme": "naysayer",
       "meta": {
         "strategy": {
@@ -1479,7 +1034,7 @@
     },
     {
       "name": "naysayer",
-      "repo": "RostislavArts/naysayer.nvim",
+      "repo": "StradNikw/Naysayer.nvim",
       "colorscheme": "naysayer",
       "meta": {
         "strategy": {
@@ -1528,18 +1083,6 @@
       }
     },
     {
-      "name": "neogruvbox",
-      "repo": "Almo7aya/neogruvbox.nvim",
-      "colorscheme": "neogruvbox",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme",
-          "module": "neogruvbox"
-        }
-      },
-      "mode": "dark"
-    },
-    {
       "name": "neom",
       "repo": "DubskySteam/NeoM",
       "colorscheme": "neom",
@@ -1548,18 +1091,6 @@
           "type": "colorscheme"
         }
       }
-    },
-    {
-      "name": "neon",
-      "repo": "rafamadriz/neon",
-      "colorscheme": "neon",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme",
-          "module": "neon"
-        }
-      },
-      "mode": "dark"
     },
     {
       "name": "neon",
@@ -1622,17 +1153,6 @@
       }
     },
     {
-      "name": "nightfly",
-      "repo": "bluz71/vim-nightfly-colors",
-      "colorscheme": "nightfly",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
-      "mode": "dark"
-    },
-    {
       "name": "nightshift",
       "repo": "roobert/nightshift.nvim",
       "colorscheme": "nightshift",
@@ -1673,9 +1193,9 @@
       }
     },
     {
-      "name": "nolife",
-      "repo": "csgn/nolife.nvim",
-      "colorscheme": "nolife",
+      "name": "nord",
+      "repo": "kunzaatko/nord.nvim",
+      "colorscheme": "nord",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1685,17 +1205,6 @@
     {
       "name": "nord",
       "repo": "nordtheme/vim",
-      "colorscheme": "nord",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      },
-      "mode": "dark"
-    },
-    {
-      "name": "nord",
-      "repo": "kunzaatko/nord.nvim",
       "colorscheme": "nord",
       "meta": {
         "strategy": {
@@ -1727,16 +1236,6 @@
       "name": "notepad",
       "repo": "wolandark/NotePad-Vim",
       "colorscheme": "notepad",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "nvim-config",
-      "repo": "warbacon/nvim-config",
-      "colorscheme": "oldpino",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1784,29 +1283,9 @@
       }
     },
     {
-      "name": "omni",
-      "repo": "yonlu/omni.vim",
-      "colorscheme": "omni",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "omoto",
       "repo": "fujikawahiroaki/omoto.vim",
       "colorscheme": "omoto",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "one",
-      "repo": "disrupted/one.nvim",
-      "colorscheme": "one",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1871,39 +1350,7 @@
         "strategy": {
           "type": "colorscheme"
         }
-      },
-      "variants": [
-        {
-          "name": "oxocarbon-dark",
-          "colorscheme": "oxocarbon",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "o": {
-                  "background": "dark"
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "oxocarbon-light",
-          "colorscheme": "oxocarbon",
-          "mode": "light",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "o": {
-                  "background": "light"
-                }
-              }
-            }
-          }
-        }
-      ]
+      }
     },
     {
       "name": "palette",
@@ -1961,26 +1408,14 @@
       "colorscheme": "poimandres",
       "meta": {
         "strategy": {
-          "type": "colorscheme",
-          "module": "poimandres"
-        }
-      },
-      "mode": "dark"
-    },
-    {
-      "name": "ponokai",
-      "repo": "shawilly/ponokai",
-      "colorscheme": "ponokai",
-      "meta": {
-        "strategy": {
           "type": "colorscheme"
         }
       }
     },
     {
-      "name": "prairie",
-      "repo": "darwinfroese/prairie",
-      "colorscheme": "prairie",
+      "name": "ponokai",
+      "repo": "shawilly/ponokai",
+      "colorscheme": "ponokai",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -2048,16 +1483,6 @@
       }
     },
     {
-      "name": "rams",
-      "repo": "stefanvanburen/rams",
-      "colorscheme": "rams",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "retrohack",
       "repo": "yasukotelin/retrohack",
       "colorscheme": "retrohack",
@@ -2071,26 +1496,6 @@
       "name": "retrolegends",
       "repo": "maxmx03/retrolegends.nvim",
       "colorscheme": "retrolegends",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "ring0-dark",
-      "repo": "ring0-rootkit/ring0-dark.nvim",
-      "colorscheme": "ring0dark",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "ring0-light",
-      "repo": "ring0-rootkit/ring0-light.nvim",
-      "colorscheme": "ring0light",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -2148,16 +1553,6 @@
       }
     },
     {
-      "name": "serendipity",
-      "repo": "AustinMay1/Serendipity.nvim",
-      "colorscheme": "serendipity",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "serene",
       "repo": "samharju/serene.nvim",
       "colorscheme": "serene",
@@ -2208,29 +1603,9 @@
       }
     },
     {
-      "name": "solarized",
-      "repo": "hdonnay/solarized",
-      "colorscheme": "solarized",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "solojazz",
       "repo": "xbonj/solojazz.nvim",
       "colorscheme": "solojazz",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "sourcerer",
-      "repo": "xero/sourcerer",
-      "colorscheme": "sourcerer",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -2328,16 +1703,6 @@
       }
     },
     {
-      "name": "sunburn",
-      "repo": "loganswartz/sunburn.nvim",
-      "colorscheme": "sunburn",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "synthweave",
       "repo": "samharju/synthweave.nvim",
       "colorscheme": "synthweave",
@@ -2385,8 +1750,7 @@
         "strategy": {
           "type": "colorscheme"
         }
-      },
-      "mode": "dark"
+      }
     },
     {
       "name": "tigrana",
@@ -2462,16 +1826,6 @@
       "name": "vem-dark",
       "repo": "pacha/vem-dark",
       "colorscheme": "vem-dark",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "vhs-era-theme",
-      "repo": "mistweaverco/vhs-era-theme.nvim",
-      "colorscheme": "vhs-era-theme",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -2799,16 +2153,6 @@
       }
     },
     {
-      "name": "vim-no-color-collections",
-      "repo": "mcchrish/vim-no-color-collections",
-      "colorscheme": "vim-no-color-collections",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "vim-nong-theme",
       "repo": "fruit-in/vim-nong-theme",
       "colorscheme": "nong",
@@ -2826,39 +2170,7 @@
         "strategy": {
           "type": "colorscheme"
         }
-      },
-      "variants": [
-        {
-          "name": "one-dark",
-          "colorscheme": "one",
-          "mode": "dark",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "o": {
-                  "background": "dark"
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "one-light",
-          "colorscheme": "one",
-          "mode": "light",
-          "meta": {
-            "strategy": {
-              "type": "colorscheme",
-              "vim": {
-                "o": {
-                  "background": "light"
-                }
-              }
-            }
-          }
-        }
-      ]
+      }
     },
     {
       "name": "vim-oxidize",
@@ -2884,26 +2196,6 @@
       "name": "vim-purpura",
       "repo": "yassinebridi/vim-purpura",
       "colorscheme": "purpura",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "vim-randcolor",
-      "repo": "jinfan/vim-randcolor",
-      "colorscheme": "vim-randcolor",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "vim-rnb",
-      "repo": "romainl/vim-rnb",
-      "colorscheme": "vim-rnb",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -3061,16 +2353,6 @@
       }
     },
     {
-      "name": "void",
-      "repo": "vyrx-dev/void.nvim",
-      "colorscheme": "void",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "vorange",
       "repo": "Marfisc/vorange",
       "colorscheme": "vorange",
@@ -3094,26 +2376,6 @@
       "name": "walh",
       "repo": "casonadams/walh",
       "colorscheme": "walh-blue",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "wisteria",
-      "repo": "masisz/wisteria.nvim",
-      "colorscheme": "wisteria",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "witchesbrew",
-      "repo": "shoenot/witchesbrew.nvim",
-      "colorscheme": "witchesbrew",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -3174,16 +2436,6 @@
       "name": "zebulon",
       "repo": "thjbdvlt/zebulon.nvim",
       "colorscheme": "zebulon",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "zenburn-m",
-      "repo": "rainstf/zenburn-m",
-      "colorscheme": "zenburn-m",
       "meta": {
         "strategy": {
           "type": "colorscheme"

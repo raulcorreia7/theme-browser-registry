@@ -22,6 +22,6 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/**/*", "tasks/**/*"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*", "tasks/**/*.ts"],
+  "exclude": ["node_modules", "dist", "**/*.mts"]
 }

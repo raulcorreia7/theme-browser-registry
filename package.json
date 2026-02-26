@@ -10,10 +10,22 @@
     "typecheck": "tsc --noEmit",
     "start": "tsx src/cli.ts",
     "dev": "tsx watch src/cli.ts",
-    "sync": "tsx src/cli.ts sync -c config.json",
-    "watch:cli": "tsx watch src/cli.ts",
-    "publish:cli": "tsx src/cli.ts publish",
-    "export": "tsx src/cli.ts export",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src",
+    "clean": "rm -rf dist coverage .state artifacts reports",
+
+    "task:sync": "tsx tasks/01-sync.ts -c config.json",
+    "task:detect": "tsx tasks/02-detect.ts --apply",
+    "task:detect:dryrun": "tsx tasks/02-detect.ts",
+    "task:merge": "tsx tasks/03-merge.ts",
+    "task:build": "tsx tasks/04-build.ts",
+    "task:bundle": "tsx tasks/05-bundle.ts",
+    "task:validate": "tsx tasks/validate/registry.ts",
+    "task:validate:lua": "zx tasks/validate/lua-loaders.mts",
+
+    "sync": "tsx tasks/01-sync.ts -c config.json",
     "detect": "tsx tasks/02-detect.ts --apply",
     "detect:dryrun": "tsx tasks/02-detect.ts",
     "merge": "tsx tasks/03-merge.ts",
@@ -21,12 +33,13 @@
     "bundle": "tsx tasks/05-bundle.ts",
     "validate": "tsx tasks/validate/registry.ts",
     "validate:lua": "zx tasks/validate/lua-loaders.mts",
-    "pipeline": "npm run sync && npm run detect && npm run merge && npm run build:themes",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage",
-    "lint": "eslint src",
-    "clean": "rm -rf dist coverage .state artifacts reports"
+
+    "pipeline": "npm run task:sync && npm run task:detect && npm run task:merge && npm run task:build",
+
+    "cli": "tsx src/cli.ts",
+    "watch:cli": "tsx watch src/cli.ts",
+    "publish:cli": "tsx src/cli.ts publish",
+    "export": "tsx src/cli.ts export"
   },
   "dependencies": {
     "@octokit/plugin-retry": "^8.1.0",

@@ -1,1 +1,265 @@
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
+import type { ThemeEntry, ThemeMode, ThemeStrategy } from "@/lib/types";
+import {
+  inferModeFromColorscheme,
+  isValidThemeName,
+  type ThemeWithMeta,
+} from "./themes";
+
 export * from "./themes";
+export * from "./bundle";
+
+export interface BuildOptions {
+  index: string;
+  overrides: string;
+  output: string;
+  minify?: boolean;
+}
+
+export interface BuildResult {
+  themes: number;
+  variants: number;
+  size: number;
+  outputPath: string;
+}
+
+interface OutputVariant {
+  name: string;
+  colorscheme?: string;
+  mode?: ThemeMode;
+  strategy?: string;
+  module?: string;
+}
+
+interface OutputTheme {
+  name: string;
+  colorscheme?: string;
+  repo?: string;
+  stars?: number;
+  mode?: ThemeMode | undefined;
+  builtin?: boolean;
+  strategy?: string;
+  module?: string;
+  variants?: OutputVariant[];
+}
+
+interface BuiltinLoadResult {
+  builtin: ThemeEntry[];
+  variantHints: Map<string, Record<string, ThemeMode>>;
+}
+
+interface OverridesMaps {
+  byRepo: Map<string | undefined, ThemeEntry>;
+  byName: Map<string | undefined, ThemeEntry>;
+}
+
+function loadBuiltinThemes(overridesPath: string): BuiltinLoadResult {
+  if (!existsSync(overridesPath)) {
+    return { builtin: [], variantHints: new Map() };
+  }
+
+  const raw = readFileSync(overridesPath, "utf-8");
+  const data = JSON.parse(raw) as { builtin?: ThemeEntry[] };
+
+  const variantHints = new Map<string, Record<string, ThemeMode>>();
+  const hintsPath = resolve(dirname(overridesPath), "sources/hints.json");
+
+  if (existsSync(hintsPath)) {
+    try {
+      const hintsRaw = readFileSync(hintsPath, "utf-8");
+      const hintsData = JSON.parse(hintsRaw) as {
+        hints?: Array<{ repo?: string; variantModes?: Record<string, ThemeMode> }>;
+      };
+      if (Array.isArray(hintsData.hints)) {
+        for (const hint of hintsData.hints) {
+          if (hint.repo && hint.variantModes) {
+            variantHints.set(hint.repo, hint.variantModes);
+          }
+        }
+      }
+    } catch {
+      // Silently ignore hints load errors
+    }
+  }
+
+  const builtin = Array.isArray(data.builtin)
+    ? data.builtin.filter((t) => t && t.name && t.builtin === true)
+    : [];
+
+  return { builtin, variantHints };
+}
+
+function loadOverrides(overridesPath: string): OverridesMaps {
+  if (!existsSync(overridesPath)) {
+    return { byRepo: new Map(), byName: new Map() };
+  }
+
+  const raw = readFileSync(overridesPath, "utf-8");
+  const data = JSON.parse(raw) as { overrides?: ThemeEntry[] };
+
+  if (!Array.isArray(data.overrides)) {
+    return { byRepo: new Map(), byName: new Map() };
+  }
+
+  const byRepo = new Map<string | undefined, ThemeEntry>();
+  const byName = new Map<string | undefined, ThemeEntry>();
+  
+  for (const o of data.overrides) {
+    byRepo.set(o.repo, o);
+    byName.set(o.name, o);
+  }
+
+  return { byRepo, byName };
+}
+
+function buildOptimizedEntry(
+  theme: ThemeWithMeta,
+  override: ThemeEntry | undefined,
+  variantHints: Map<string, Record<string, ThemeMode>>
+): OutputTheme {
+  const entry: OutputTheme = {
+    name: theme.name,
+    colorscheme: theme.colorscheme,
+  };
+
+  if (theme.repo) entry.repo = theme.repo;
+  if (theme.stars) entry.stars = theme.stars;
+  if (theme.meta?.mode) entry.mode = theme.meta.mode;
+  if (theme.builtin) entry.builtin = true;
+
+  const strategy: ThemeStrategy | undefined = override?.meta?.strategy ?? theme.meta?.strategy;
+  if (strategy?.type) {
+    entry.strategy = strategy.type;
+    if (strategy.module) entry.module = strategy.module;
+  }
+
+  const variants = theme.variants;
+  if (variants && variants.length > 0) {
+    const hintsForRepo = theme.repo ? variantHints.get(theme.repo) : null;
+
+    entry.variants = variants.map((v): OutputVariant => {
+      const variant: OutputVariant = {
+        name: v.name,
+        colorscheme: v.colorscheme,
+      };
+
+      const variantMode = v.mode;
+      const hintedMode = hintsForRepo?.[v.name];
+      if (hintedMode !== undefined) {
+        variant.mode = hintedMode;
+      } else if (variantMode) {
+        variant.mode = variantMode;
+      } else {
+        const inferred = inferModeFromColorscheme(v.colorscheme ?? v.name);
+        if (inferred) variant.mode = inferred;
+      }
+
+      if (v.meta?.strategy?.type) {
+        variant.strategy = v.meta.strategy.type;
+        if (v.meta.strategy.module) variant.module = v.meta.strategy.module;
+      }
+
+      return variant;
+    });
+  }
+
+  return entry;
+}
+
+export function run(options: BuildOptions): BuildResult {
+  const { index, overrides, output, minify = false } = options;
+
+  const raw = readFileSync(index, "utf-8");
+  const themes: ThemeWithMeta[] = JSON.parse(raw);
+
+  const { byRepo: overridesMap, byName: overridesByName } = loadOverrides(overrides);
+  const { builtin: builtinThemes, variantHints } = loadBuiltinThemes(overrides);
+
+  const themesByName = new Map<string, ThemeWithMeta>();
+
+  for (const theme of themes) {
+    if (!theme.name) continue;
+
+    const nameLower = theme.name.toLowerCase();
+
+    if (!isValidThemeName(theme.name)) {
+      continue;
+    }
+
+    const existing = themesByName.get(nameLower);
+    if (existing) {
+      const existingIsNeovim = existing.repo?.includes(".nvim") || existing.repo?.includes("neovim") || false;
+      const newIsNeovim = theme.repo?.includes(".nvim") || theme.repo?.includes("neovim") || false;
+      const existingStars = existing.stars ?? 0;
+      const newStars = theme.stars ?? 0;
+      const existingVariants = existing.variants?.length ?? 0;
+      const newVariants = theme.variants?.length ?? 0;
+
+      let newIsBetter = false;
+
+      if (newIsNeovim && !existingIsNeovim) {
+        newIsBetter = true;
+      } else if (!newIsNeovim && existingIsNeovim) {
+        newIsBetter = false;
+      } else if (newStars > existingStars) {
+        newIsBetter = true;
+      } else if (newStars < existingStars) {
+        newIsBetter = false;
+      } else if (newVariants > existingVariants) {
+        newIsBetter = true;
+      } else {
+        newIsBetter = false;
+      }
+
+      if (newIsBetter) {
+        themesByName.set(nameLower, theme);
+      }
+    } else {
+      themesByName.set(nameLower, theme);
+    }
+  }
+
+  const curated: OutputTheme[] = [];
+
+  for (const theme of themesByName.values()) {
+    const override = theme.repo ? overridesMap.get(theme.repo) : overridesByName.get(theme.name);
+    const entry = buildOptimizedEntry(theme, override, variantHints);
+    curated.push(entry);
+  }
+
+  for (const builtin of builtinThemes) {
+    const nameLower = builtin.name.toLowerCase();
+    if (themesByName.has(nameLower)) continue;
+
+    const entry: OutputTheme = {
+      name: builtin.name,
+      colorscheme: builtin.colorscheme,
+      builtin: true,
+    };
+
+    if (builtin.stars !== undefined) entry.stars = builtin.stars;
+    if (builtin.meta?.mode) entry.mode = builtin.meta.mode;
+    if (builtin.meta?.strategy?.type) {
+      entry.strategy = builtin.meta.strategy.type;
+      if (builtin.meta.strategy.module) entry.module = builtin.meta.strategy.module;
+    }
+
+    curated.push(entry);
+  }
+
+  mkdirSync(dirname(output), { recursive: true });
+
+  const jsonOutput = minify
+    ? JSON.stringify(curated)
+    : JSON.stringify(curated, null, 2) + "\n";
+
+  writeFileSync(output, jsonOutput, "utf-8");
+
+  return {
+    themes: curated.length,
+    variants: curated.reduce((sum, t) => sum + (t.variants?.length ?? 0), 0),
+    size: jsonOutput.length,
+    outputPath: output,
+  };
+}

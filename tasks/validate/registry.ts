@@ -2,188 +2,75 @@
 /**
  * validate-registry.ts - Validate themes.json registry completeness
  *
- * Usage: tsx tasks/validate/registry.ts
+ * Usage: tsx tasks/validate/registry.ts [options]
  *
- * Checks:
- * - Total themes >= 40
- * - Strategy distribution (at least 5 of each: colorscheme, setup, load, file)
- * - Mode coverage (dark/light)
- * - Missing required fields (name, repo, colorscheme)
- * - Variants have mode field
- * - File strategy themes have corresponding .lua files in themes/ directory
- *
- * Exit code 0 if all pass, 1 if incomplete
+ * Options:
+ *   -i, --input <path>     Themes.json path (default: artifacts/themes.json)
+ *   -d, --themes-dir <dir> Lua themes directory (default: themes)
+ *   -h, --help             Show help
  */
-
-import { readFileSync, existsSync, readdirSync } from "node:fs";
-import { resolve, dirname, basename } from "node:path";
+import { config } from "dotenv";
+import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import type { ThemeEntry, LoadStrategy, ThemeMode } from "@/lib/types";
+import { Command } from "commander";
+import consola from "consola";
+import { ValidateCliOptionsSchema, type ValidateCliOptions } from "@/lib/cli";
+import { run as runValidate } from "@/validate";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = resolve(__dirname, "../..");
+config({ path: resolve(dirname(fileURLToPath(import.meta.url)), "../../.env") });
 
-const THEMES_PATH = resolve(ROOT, "artifacts/themes.json");
-const LUA_THEMES_DIR = resolve(ROOT, "themes");
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 
-interface StrategyCounts {
-  colorscheme: number;
-  setup: number;
-  load: number;
-  file: number;
+const program = new Command()
+  .name("validate-registry")
+  .description("Validate themes.json registry completeness")
+  .option("-i, --input <path>", "Themes.json path", "artifacts/themes.json")
+  .option("-d, --themes-dir <dir>", "Lua themes directory", "themes")
+  .option("-h, --help", "Show help")
+  .parse(process.argv);
+
+const rawOpts = program.opts();
+if (rawOpts.help) {
+  program.help();
+  process.exit(0);
 }
 
-interface ModeCounts {
-  dark: number;
-  light: number;
+const cliOptions: ValidateCliOptions = ValidateCliOptionsSchema.parse(rawOpts);
+
+const result = runValidate({
+  input: resolve(ROOT, cliOptions.themesPath),
+  themesDir: resolve(ROOT, cliOptions.themesDir),
+});
+
+consola.log("# Registry Validation Report\n");
+consola.log("## Summary\n");
+consola.log("| Metric | Value | Status |");
+consola.log("|--------|-------|--------|");
+consola.log(`| Total Themes | ${result.metrics.totalThemes} | ${result.metrics.totalThemes >= 40 ? "PASS" : "FAIL"} |`);
+consola.log(`| Dark Mode Variants | ${result.metrics.darkModeVariants} | ${result.metrics.darkModeVariants > 0 ? "PASS" : "FAIL"} |`);
+consola.log(`| Light Mode Variants | ${result.metrics.lightModeVariants} | ${result.metrics.lightModeVariants > 0 ? "PASS" : "WARN"} |`);
+consola.log(`| Lua Loader Files | ${result.metrics.luaFiles} | PASS |`);
+consola.log(`| Incomplete Themes | ${result.metrics.incompleteThemes} | ${result.metrics.incompleteThemes === 0 ? "PASS" : "FAIL"} |`);
+
+consola.log("\n## Strategy Distribution\n");
+consola.log("| Strategy | Count |");
+consola.log("|----------|-------|");
+for (const [strategy, count] of Object.entries(result.metrics.strategyCounts)) {
+  consola.log(`| ${strategy} | ${count} |`);
 }
 
-interface IncompleteTheme {
-  name: string;
-  missing: string;
+if (result.errors.length > 0 || result.warnings.length > 0) {
+  consola.log("\n## Issues\n");
+  for (const e of result.errors) consola.fail(e);
+  for (const w of result.warnings) consola.warn(w);
 }
 
-function getStrategy(theme: ThemeEntry): LoadStrategy {
-  if (theme.meta?.strategy?.type) return theme.meta.strategy.type;
-  if (theme.variants?.[0]?.meta?.strategy?.type) return theme.variants[0].meta.strategy.type;
-  return "colorscheme";
+consola.log("\n---\n");
+
+if (result.passed) {
+  consola.success("Validation PASSED");
+  process.exit(0);
+} else {
+  consola.fail(`Validation FAILED (${result.errors.length} errors)`);
+  process.exit(1);
 }
-
-function getLuaFiles(): Set<string> {
-  if (!existsSync(LUA_THEMES_DIR)) return new Set();
-  return new Set(
-    readdirSync(LUA_THEMES_DIR)
-      .filter((f) => f.endsWith(".lua"))
-      .map((f) => basename(f, ".lua"))
-  );
-}
-
-function validate(): void {
-  const errors: string[] = [];
-  const warnings: string[] = [];
-  const incompleteThemes: IncompleteTheme[] = [];
-
-  if (!existsSync(THEMES_PATH)) {
-    console.error(`# Registry Validation Report\n\n**FATAL**: themes.json not found at \`${THEMES_PATH}\`\n`);
-    process.exit(1);
-  }
-
-  const raw = readFileSync(THEMES_PATH, "utf-8");
-  const themes: ThemeEntry[] = JSON.parse(raw);
-  const luaFiles = getLuaFiles();
-
-  const totalThemes = themes.length;
-  if (totalThemes < 40) {
-    errors.push(`Total themes (${totalThemes}) is less than 40`);
-  }
-
-  const strategyCounts: StrategyCounts = { colorscheme: 0, setup: 0, load: 0, file: 0 };
-  const modeCounts: ModeCounts = { dark: 0, light: 0 };
-  let missingModeVariants = 0;
-
-  for (const theme of themes) {
-    const strategy = getStrategy(theme);
-    if (strategy in strategyCounts) {
-      strategyCounts[strategy as keyof StrategyCounts]++;
-    }
-
-    const requiredFields: string[] = ["name", "colorscheme"];
-    if (!theme.builtin) {
-      requiredFields.push("repo");
-    }
-    const missing = requiredFields.filter((f) => !theme[f as keyof ThemeEntry]);
-    if (missing.length > 0) {
-      incompleteThemes.push({
-        name: theme.name || "UNKNOWN",
-        missing: missing.join(", "),
-      });
-    }
-
-    if (theme.variants && theme.variants.length > 0) {
-      for (const v of theme.variants) {
-        if (v.mode) {
-          modeCounts[v.mode]++;
-        } else {
-          missingModeVariants++;
-        }
-      }
-    } else if (theme.mode) {
-      modeCounts[theme.mode]++;
-    }
-
-    if (strategy === "file") {
-      const themeName = theme.name;
-      if (!luaFiles.has(themeName)) {
-        errors.push(`File strategy theme "${themeName}" missing themes/${themeName}.lua`);
-      }
-    }
-  }
-
-  const requiredStrategies: (keyof StrategyCounts)[] = ["colorscheme", "setup", "load"];
-  for (const s of requiredStrategies) {
-    if (strategyCounts[s] < 5) {
-      errors.push(`Strategy "${s}" has only ${strategyCounts[s]} themes (need at least 5)`);
-    }
-  }
-
-  if (strategyCounts.file === 0) {
-    warnings.push("No file strategy themes (optional)");
-  }
-
-  if (modeCounts.dark === 0) {
-    errors.push("No dark mode themes found");
-  }
-  if (modeCounts.light === 0) {
-    warnings.push("No light mode themes found");
-  }
-
-  if (missingModeVariants > 0) {
-    warnings.push(`${missingModeVariants} variants missing mode field`);
-  }
-
-  console.log("# Registry Validation Report\n");
-  console.log("## Summary\n");
-  console.log("| Metric | Value | Status |");
-  console.log("|--------|-------|--------|");
-  console.log(`| Total Themes | ${totalThemes} | ${totalThemes >= 40 ? "PASS" : "FAIL"} |`);
-  console.log(`| Dark Mode Variants | ${modeCounts.dark} | ${modeCounts.dark > 0 ? "PASS" : "FAIL"} |`);
-  console.log(`| Light Mode Variants | ${modeCounts.light} | ${modeCounts.light > 0 ? "PASS" : "WARN"} |`);
-  console.log(`| Lua Loader Files | ${luaFiles.size} | PASS |`);
-  console.log(`| Incomplete Themes | ${incompleteThemes.length} | ${incompleteThemes.length === 0 ? "PASS" : "FAIL"} |`);
-
-  console.log("\n## Strategy Distribution\n");
-  console.log("| Strategy | Count | Status |");
-  console.log("|----------|-------|--------|");
-  for (const s of requiredStrategies) {
-    const count = strategyCounts[s];
-    const status = count >= 5 ? "PASS" : "FAIL";
-    console.log(`| ${s} | ${count} | ${status} |`);
-  }
-
-  if (incompleteThemes.length > 0) {
-    console.log("\n## Incomplete Themes\n");
-    console.log("| Theme | Missing Fields |");
-    console.log("|-------|---------------|");
-    for (const t of incompleteThemes) {
-      console.log(`| ${t.name} | ${t.missing} |`);
-    }
-  }
-
-  if (errors.length > 0 || warnings.length > 0) {
-    console.log("\n## Issues\n");
-    for (const e of errors) console.log(`- FAIL: ${e}`);
-    for (const w of warnings) console.log(`- WARN: ${w}`);
-  }
-
-  console.log("\n---\n");
-
-  if (errors.length > 0) {
-    console.log(`**Result**: FAILED (${errors.length} errors)\n`);
-    process.exit(1);
-  } else {
-    console.log("**Result**: PASSED\n");
-    process.exit(0);
-  }
-}
-
-validate();
