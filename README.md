@@ -92,15 +92,31 @@ npm run test:coverage
 
 ```
 src/
-├── index.ts       # CLI entry point
-├── runner.ts      # Index orchestration
-├── config.ts      # Configuration loading
-├── github-client.ts  # GitHub API client
-├── parser.ts      # Theme metadata extraction
-├── merge.ts       # Override merging
-├── state.ts       # SQLite state store
-├── publish.ts     # Git publishing
-└── types.ts       # TypeScript types
+├── cli.ts              # CLI entry point
+├── cmd/                # Command handlers
+│   ├── commands/       # Individual commands (sync, publish, export, watch)
+│   └── index.ts        # Command router
+├── sync/               # Theme synchronization
+│   ├── indexer.ts      # Main indexer
+│   ├── github.ts       # GitHub API client
+│   └── parser.ts       # Theme metadata extraction
+├── detect/             # Strategy detection
+│   ├── strategy.ts     # Detection algorithms
+│   └── variant.ts      # Variant handling
+├── merge/              # Source merging
+│   └── apply.ts        # Override application
+├── build/              # Output generation
+│   └── themes.ts       # themes.json builder
+├── push/               # Git publishing
+│   └── git.ts          # Git operations
+├── db/                 # Database layer
+│   └── sqlite.ts       # SQLite state store
+├── lib/                # Shared utilities
+│   ├── config.ts       # Configuration loading
+│   ├── logger.ts       # Logging (consola)
+│   └── types.ts        # TypeScript types
+└── validate/           # Validation
+    └── registry.ts     # Output validation
 ```
 
 Data flow:
