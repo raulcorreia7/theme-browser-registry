@@ -177,7 +177,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -235,7 +235,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -614,21 +614,21 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "no-clown-fiesta-dim",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "no-clown-fiesta-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -1402,273 +1402,273 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_desert_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_desert_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_drawbridge_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_drawbridge_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_earth_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_earth_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_evening_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_evening_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_field_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_field_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_forest_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_forest_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_garden_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_garden_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_heath_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_heath_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_lake_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_lake_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_lavender_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_lavender_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_mall_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_mall_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_meadow_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_meadow_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_morning_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_morning_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_motel_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_motel_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_pool_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_pool_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_porch_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_porch_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_sea_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_sea_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_space_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_space_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "base2tone_suburb_dark",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "base2tone_suburb_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -2428,21 +2428,21 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "neomodern-day",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "neomodern-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "roseprime",
@@ -2551,7 +2551,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         }
       ],
       "coverage": 100
@@ -2862,7 +2862,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -2947,7 +2947,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -3289,7 +3289,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -3658,14 +3658,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "min-theme-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -4282,7 +4282,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "eldritch-minimal",
@@ -4349,14 +4349,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "gruvbox-nvim-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -4411,7 +4411,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "sobrio_light_vim",
@@ -4432,7 +4432,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "sobrio_verde_light_vim",
@@ -5120,28 +5120,28 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "tokyonight-storm",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "tokyonight-moon",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "tokyonight-day",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -5314,7 +5314,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "sequoia-rise",
@@ -8790,7 +8790,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "black-metal-day-alt",
@@ -9075,7 +9075,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "modus-vivendi",
@@ -9363,14 +9363,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "vscode-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -9401,14 +9401,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "gruvbox-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -9449,7 +9449,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         }
       ],
       "coverage": 100
@@ -9566,7 +9566,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "onedark_darker",
@@ -9743,7 +9743,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "nekonight-aurora",
@@ -9785,7 +9785,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "nekonight-fire-obsidian",
@@ -9869,7 +9869,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "nekonight-shades-of-purple",
@@ -10213,7 +10213,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "bloop_nvim",
@@ -10524,14 +10524,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "oxocarbon-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -11092,14 +11092,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "koda-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -12088,14 +12088,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "one-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -12356,14 +12356,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "neopywal-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -12451,7 +12451,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "bamboo-multiplex",
@@ -12533,7 +12533,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "nightwolf-dark-blue",
@@ -12561,7 +12561,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -12786,7 +12786,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -13425,14 +13425,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "melange-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -13522,7 +13522,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -13563,7 +13563,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "karasu-snow",
@@ -13734,7 +13734,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "Eva-Light-Bold",
@@ -13948,7 +13948,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -14153,14 +14153,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "makurai_light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -15306,7 +15306,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "oasis-cactus",
@@ -15348,7 +15348,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "oasis-mirage",
@@ -15362,7 +15362,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "oasis-rose",
@@ -15383,14 +15383,14 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "oasis-twilight",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -15446,14 +15446,14 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "bluloco-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -15716,21 +15716,21 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "oscura-dusk-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "oscura-light",
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 100
@@ -15950,14 +15950,14 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "monoglow-void",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "monoglow-z",
@@ -16118,7 +16118,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "jellybeans-mono",
@@ -16130,7 +16130,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "jellybeans-muted",
@@ -16142,7 +16142,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         }
       ],
       "coverage": 50
@@ -16534,7 +16534,7 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         }
       ],
       "coverage": 100
@@ -16728,7 +16728,7 @@
           "detectedMode": "light",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches light pattern"
+          "reason": "Name matches light"
         },
         {
           "name": "basic-spacegray",
@@ -16791,56 +16791,56 @@
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "neon-cherrykiss-storm",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "neon-cyberpunk-night",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "neon-cyberpunk-storm",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "neon-netrunner-night",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "neon-netrunner-storm",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "neon-punkpeach-night",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         },
         {
           "name": "neon-punkpeach-storm",
           "detectedMode": "dark",
           "confidence": 0.9,
           "source": "pattern",
-          "reason": "Name matches dark pattern"
+          "reason": "Name matches dark"
         }
       ],
       "coverage": 100

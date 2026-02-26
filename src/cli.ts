@@ -5,8 +5,16 @@
  * Entry point for the theme-registry CLI tool.
  */
 
-import "dotenv/config";
-import { createCLI } from "./cli/index.js";
+import { config } from "dotenv";
+import { resolve } from "path";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const envPath = resolve(__dirname, "../.env");
+config({ path: envPath });
+
+import { createCLI } from "@/cmd/index";
 
 async function main() {
   try {
