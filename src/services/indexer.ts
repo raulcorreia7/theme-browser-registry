@@ -16,16 +16,23 @@ export function safeRepo(repo: string): string {
   return repo.trim().replace(/\.git$/, "").replace(/^\/+|\/+$/g, "");
 }
 
+export interface DiscoveredRepo {
+  updatedAt: string;
+  stars: number | null;
+  whitelisted: boolean;
+}
+
 async function discoverRepositories(
   client: GitHubClient,
   config: Config
-): Promise<Map<string, string>> {
-  const discovered = new Map<string, string>();
+): Promise<Map<string, DiscoveredRepo>> {
+  const discovered = new Map<string, DiscoveredRepo>();
   const mutex = { lock: false };
+  const includeSet = new Set(config.discovery.includeRepos.map((r) => safeRepo(r)));
 
   async function discoverTopic(topic: string): Promise<void> {
     logger.info(
-      `discover topic=${topic} perPage=${config.discovery.pagination.perPage} maxPagesPerTopic=${config.discovery.pagination.maxPagesPerTopic}`
+      `discover topic=${topic} perPage=${config.discovery.pagination.perPage} maxPagesPerTopic=${config.discovery.pagination.maxPagesPerTopic} minStars=${config.filters.minStars}`
     );
 
     const pages: Array<{ items: GitHubRepoItem[]; hasNext: boolean }> = [];
@@ -33,7 +40,12 @@ async function discoverRepositories(
     let hasNext = true;
 
     while (hasNext) {
-      const result = await client.searchRepositories(topic, page, config.discovery.pagination.perPage);
+      const result = await client.searchRepositories(
+        topic,
+        page,
+        config.discovery.pagination.perPage,
+        config.filters.minStars
+      );
       pages.push(result);
       page++;
       hasNext = result.hasNext && (config.discovery.pagination.maxPagesPerTopic === 0 || page <= config.discovery.pagination.maxPagesPerTopic);
@@ -47,7 +59,17 @@ async function discoverRepositories(
           while (mutex.lock) await new Promise((r) => setTimeout(r, 1));
           mutex.lock = true;
           if (!discovered.has(repo)) {
-            discovered.set(repo, item.updated_at);
+            const isWhitelisted = includeSet.has(repo);
+            const stars = item.stargazers_count ?? null;
+            const meetsMinStars = stars !== null && stars >= config.filters.minStars;
+            
+            if (isWhitelisted || meetsMinStars) {
+              discovered.set(repo, {
+                updatedAt: item.updated_at,
+                stars,
+                whitelisted: isWhitelisted,
+              });
+            }
           }
           mutex.lock = false;
         }
@@ -60,11 +82,14 @@ async function discoverRepositories(
   for (const repo of config.discovery.includeRepos) {
     const normalized = safeRepo(repo);
     if (normalized && !discovered.has(normalized)) {
-      discovered.set(normalized, "");
+      discovered.set(normalized, {
+        updatedAt: "",
+        stars: null,
+        whitelisted: true,
+      });
     }
   }
 
-  // Remove excluded repos
   const excludeRepos = (config.discovery as any).excludeRepos ?? [];
   for (const repo of excludeRepos) {
     const normalized = safeRepo(repo);
@@ -73,16 +98,17 @@ async function discoverRepositories(
     }
   }
 
+  const whitelistedCount = Array.from(discovered.values()).filter((d) => d.whitelisted).length;
   logger.info(
-    `discover completed topics=${config.discovery.topics.length} repos=${discovered.size} excluded=${excludeRepos.length}`
+    `discover completed topics=${config.discovery.topics.length} repos=${discovered.size} whitelisted=${whitelistedCount} excluded=${excludeRepos.length}`
   );
   return discovered;
 }
 
 export function selectRepositoriesForRun(
-  discovered: Map<string, string>,
+  discovered: Map<string, DiscoveredRepo>,
   config: Config
-): Array<[string, string]> {
+): Array<[string, DiscoveredRepo]> {
   const sorted = Array.from(discovered.entries()).sort((a, b) =>
     a[0].localeCompare(b[0])
   );
@@ -101,7 +127,7 @@ export function chunk<T>(items: T[], size: number): T[][] {
 }
 
 async function processBatchParallel(
-  batch: Array<[string, string]>,
+  batch: Array<[string, DiscoveredRepo]>,
   client: GitHubClient,
   config: Config,
   store: RepoCache,
@@ -116,20 +142,25 @@ async function processBatchParallel(
       const item = queue.shift();
       if (!item) break;
 
-      const [repo, discoveredUpdatedAt] = item;
+      const [repo, discoveredInfo] = item;
 
-      // Skip cache check if force flag is set
-      if (!force && !(await store.shouldRefresh(repo, discoveredUpdatedAt, config.filters.staleAfterDays))) {
+      if (!force && !(await store.shouldRefresh(repo, discoveredInfo.updatedAt, config.filters.staleAfterDays))) {
         const cached = await store.readRepo(repo);
         if (cached?.payload && "repo" in cached.payload) {
-          entriesByRepo.set(repo, cached.payload as ThemeEntry);
-          stats.cached++;
+          const cachedEntry = cached.payload as ThemeEntry;
+          if (
+            discoveredInfo.whitelisted ||
+            (cachedEntry.stars !== undefined && cachedEntry.stars >= config.filters.minStars)
+          ) {
+            entriesByRepo.set(repo, cachedEntry);
+            stats.cached++;
+          }
         }
         continue;
       }
 
       try {
-        const entry = await buildEntryForRepo(client, config, repo, store);
+        const entry = await buildEntryForRepo(client, config, repo, store, discoveredInfo.whitelisted);
         const updatedAt = entry.updated_at || "";
         await store.upsertRepo(repo, updatedAt, entry, null);
         entriesByRepo.set(repo, entry);
@@ -137,7 +168,7 @@ async function processBatchParallel(
       } catch (error) {
         const errorMessage =
           error instanceof Error ? error.message : String(error);
-        await store.upsertRepo(repo, discoveredUpdatedAt || "", { repo }, errorMessage);
+        await store.upsertRepo(repo, discoveredInfo.updatedAt || "", { repo }, errorMessage);
         stats.errors++;
         logger.warn(`repo processing failed repo=${repo} error=${errorMessage}`);
       }
@@ -171,7 +202,8 @@ async function buildEntryForRepo(
   client: GitHubClient,
   config: Config,
   repo: string,
-  store: RepoCache
+  store: RepoCache,
+  whitelisted: boolean = false
 ): Promise<ThemeEntry> {
   const repoPayload = await client.fetchRepository(repo);
   if (!repoPayload) {
@@ -179,7 +211,7 @@ async function buildEntryForRepo(
   }
 
   const stars = repoPayload.stargazers_count;
-  if (typeof stars === "number" && stars < config.filters.minStars) {
+  if (!whitelisted && typeof stars === "number" && stars < config.filters.minStars) {
     throw new Error(`below minStars (${stars} < ${config.filters.minStars})`);
   }
 
@@ -196,7 +228,6 @@ async function buildEntryForRepo(
   const colors = extractColorschemes(treeItems);
   const entry = buildEntry(repoPayload, colors);
 
-  // Fetch and cache README for variant detection
   try {
     const readme = await client.fetchReadme(repo);
     if (readme) {
@@ -237,18 +268,30 @@ export async function runOnce(config: Config, force = false): Promise<RunStats> 
     );
 
     const entriesByRepo = new Map<string, ThemeEntry>();
+    const whitelistedRepos = new Set<string>();
+    for (const [repo, info] of discovered) {
+      if (info.whitelisted) {
+        whitelistedRepos.add(repo);
+      }
+    }
+
     const persistedPayloads = await store.listPayloads();
-    
-    // Clear cache if force flag is set
+
     if (force) {
       logger.info("Force flag set - clearing all cached data");
-      // We can't easily clear the DB, but we can set scanned_at to 0 for all repos
-      // This will force shouldRefresh to return true
     }
+
     for (const payload of persistedPayloads) {
       const repo = payload.repo;
       if (repo) {
-        entriesByRepo.set(repo, payload);
+        const isWhitelisted = whitelistedRepos.has(repo);
+        const meetsMinStars =
+          payload.stars !== undefined &&
+          payload.stars !== null &&
+          payload.stars >= config.filters.minStars;
+        if (isWhitelisted || meetsMinStars) {
+          entriesByRepo.set(repo, payload);
+        }
       }
     }
     logger.debug(`loaded payloads from state count=${persistedPayloads.length}`);

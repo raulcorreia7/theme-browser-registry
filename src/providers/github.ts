@@ -87,13 +87,16 @@ export class GitHubClient {
   async searchRepositories(
     topic: string,
     page: number,
-    perPage: number
+    perPage: number,
+    minStars: number = 10
   ): Promise<{ items: GitHubRepoItem[]; hasNext: boolean }> {
     await this.waitForRateLimit();
 
     try {
+      const query = `topic:${topic} archived:false fork:false stars:>=${minStars}`;
+      this.logger.debug(`search query: ${query}`);
       const response = await this.octokit.rest.search.repos({
-        q: `topic:${topic} archived:false fork:false`,
+        q: query,
         sort: "updated",
         order: "desc",
         per_page: perPage,
