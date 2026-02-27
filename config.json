@@ -6,7 +6,7 @@
       "folke/tokyonight.nvim",
       "catppuccin/nvim",
       "rebelot/kanagawa.nvim",
-      "eldritch-theme/eldritch.nvim",
+      "raulcorreia7/eldritch.nvim",
       "morhetz/gruvbox",
       "dracula/vim",
       "sainnhe/everforest",
@@ -17,7 +17,7 @@
       "navarasu/onedark.nvim",
       "EdenEast/nightfox.nvim"
     ],
-    "excludeRepos": ["veekram/vim", "cvusmo/blackbeard-nvim"],
+    "excludeRepos": ["veekram/vim", "cvusmo/blackbeard-nvim", "eldritch-theme/eldritch.nvim"],
     "pagination": {
       "perPage": 100,
       "maxPagesPerTopic": 5

@@ -726,7 +726,7 @@
     },
     {
       "name": "eldritch",
-      "repo": "eldritch-theme/eldritch.nvim",
+      "repo": "raulcorreia7/eldritch.nvim",
       "colorscheme": "eldritch",
       "meta": {
         "strategy": {
