@@ -18,7 +18,8 @@
       "EdenEast/nightfox.nvim"
     ],
     "excludeRepos": [
-      "veekram/vim"
+      "veekram/vim",
+      "cvusmo/blackbeard-nvim"
     ],
     "pagination": {
       "perPage": 100,

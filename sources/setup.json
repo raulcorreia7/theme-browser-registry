@@ -175,16 +175,6 @@
       }
     },
     {
-      "name": "blackbeard",
-      "repo": "cvusmo/blackbeard-nvim",
-      "colorscheme": "blackbeard",
-      "meta": {
-        "strategy": {
-          "type": "setup"
-        }
-      }
-    },
-    {
       "name": "bloop",
       "repo": "nocksock/bloop.nvim",
       "colorscheme": "bloop",
