@@ -469,6 +469,11 @@ export async function runOnce(config: Config, force = false): Promise<RunStats> 
 
     const entriesByRepo = new Map<string, ThemeEntry>();
     const whitelistedRepos = new Set<string>();
+    const excludedRepos = new Set(
+      ((config.discovery as { excludeRepos?: string[] }).excludeRepos ?? [])
+        .map((repo) => safeRepo(repo))
+        .filter((repo): repo is string => Boolean(repo)),
+    );
     for (const [repo, info] of discovered) {
       if (info.whitelisted) {
         whitelistedRepos.add(repo);
@@ -484,6 +489,10 @@ export async function runOnce(config: Config, force = false): Promise<RunStats> 
     for (const payload of persistedPayloads) {
       const repo = payload.repo;
       if (repo) {
+        if (excludedRepos.has(repo)) {
+          continue;
+        }
+
         const isWhitelisted = whitelistedRepos.has(repo);
         const meetsMinStars =
           payload.stars !== undefined &&

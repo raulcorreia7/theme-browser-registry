@@ -5,6 +5,7 @@
  * Usage: tsx tasks/04-build.ts [options]
  *
  * Options:
+ *   -c, --config <path>     Config file (default: config.json)
  *   -i, --index <path>      Index file (default: artifacts/index.json)
  *   -o, --overrides <path>  Overrides file (default: overrides.json)
  *   -O, --output <path>     Output file (default: artifacts/themes.json)
@@ -18,6 +19,7 @@ import { Command } from "commander";
 import consola from "consola";
 import { BuildCliOptionsSchema, type BuildCliOptions } from "@/lib/cli";
 import { run as runBuild } from "@/build";
+import { loadConfig } from "@/lib/config";
 
 config({ path: resolve(dirname(fileURLToPath(import.meta.url)), "../.env") });
 
@@ -26,6 +28,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const program = new Command()
   .name("04-build")
   .description("Generate optimized themes.json for plugin")
+  .option("-c, --config <path>", "Config file", "config.json")
   .option("-i, --index <path>", "Index file", "artifacts/index.json")
   .option("-o, --overrides <path>", "Overrides file", "overrides.json")
   .option("-O, --output <path>", "Output file", "artifacts/themes.json")
@@ -42,12 +45,15 @@ if (rawOpts.help) {
 const cliOptions: BuildCliOptions = BuildCliOptionsSchema.parse(rawOpts);
 
 consola.info(`Reading ${resolve(ROOT, cliOptions.index)}`);
+const configPath = resolve(ROOT, cliOptions.config);
+const configData = loadConfig(configPath);
 
 const result = runBuild({
   index: resolve(ROOT, cliOptions.index),
   overrides: resolve(ROOT, cliOptions.overrides),
   output: resolve(ROOT, cliOptions.output),
   minify: cliOptions.minify,
+  preferredRepos: configData.discovery.includeRepos,
 });
 
 consola.success(`Generated ${result.themes} themes (${result.variants} variants) → ${result.outputPath}`);

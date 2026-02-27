@@ -12,6 +12,7 @@ export interface BuildOptions {
   overrides: string;
   output: string;
   minify?: boolean;
+  preferredRepos?: string[];
 }
 
 export interface BuildResult {
@@ -191,13 +192,18 @@ function buildOptimizedEntry(
 }
 
 export function run(options: BuildOptions): BuildResult {
-  const { index, overrides, output, minify = false } = options;
+  const { index, overrides, output, minify = false, preferredRepos = [] } = options;
 
   const raw = readFileSync(index, "utf-8");
   const themes: ThemeWithMeta[] = JSON.parse(raw);
 
   const { byRepo: overridesMap, byName: overridesByName } = loadOverrides(overrides);
   const { builtin: builtinThemes, variantHints } = loadBuiltinThemes(overrides);
+  const preferredRepoSet = new Set(
+    preferredRepos
+      .map((repo) => (typeof repo === "string" ? repo.trim().toLowerCase() : ""))
+      .filter((repo) => repo.length > 0),
+  );
 
   const themesByName = new Map<string, ThemeWithMeta>();
 
@@ -212,6 +218,10 @@ export function run(options: BuildOptions): BuildResult {
 
     const existing = themesByName.get(nameLower);
     if (existing) {
+      const existingIsPreferred =
+        typeof existing.repo === "string" && preferredRepoSet.has(existing.repo.toLowerCase());
+      const newIsPreferred =
+        typeof theme.repo === "string" && preferredRepoSet.has(theme.repo.toLowerCase());
       const existingIsNeovim =
         existing.repo?.includes(".nvim") || existing.repo?.includes("neovim") || false;
       const newIsNeovim = theme.repo?.includes(".nvim") || theme.repo?.includes("neovim") || false;
@@ -222,7 +232,11 @@ export function run(options: BuildOptions): BuildResult {
 
       let newIsBetter = false;
 
-      if (newIsNeovim && !existingIsNeovim) {
+      if (newIsPreferred && !existingIsPreferred) {
+        newIsBetter = true;
+      } else if (!newIsPreferred && existingIsPreferred) {
+        newIsBetter = false;
+      } else if (newIsNeovim && !existingIsNeovim) {
         newIsBetter = true;
       } else if (!newIsNeovim && existingIsNeovim) {
         newIsBetter = false;

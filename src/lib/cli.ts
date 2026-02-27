@@ -29,6 +29,7 @@ export const MergeCliOptionsSchema = BaseTaskOptionsSchema.extend({
 });
 
 export const BuildCliOptionsSchema = BaseTaskOptionsSchema.extend({
+  config: z.string().default("config.json"),
   index: z.string().default("artifacts/index.json"),
   overrides: z.string().default("overrides.json"),
   output: z.string().default("artifacts/themes.json"),
