@@ -1,6 +1,6 @@
 {
   "strategy": "colorscheme",
-  "count": 118,
+  "count": 114,
   "themes": [
     {
       "name": "accent",
@@ -213,16 +213,6 @@
       }
     },
     {
-      "name": "evangelion",
-      "repo": "xero/evangelion.nvim",
-      "colorscheme": "evangelion",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "evening",
       "repo": "Haron-Prime/evening_vim",
       "colorscheme": "evening",
@@ -336,16 +326,6 @@
       "name": "intellij",
       "repo": "chiendo97/intellij.vim",
       "colorscheme": "intellij",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "jay",
-      "repo": "josuegaleas/jay",
-      "colorscheme": "jay",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1023,16 +1003,6 @@
       }
     },
     {
-      "name": "vim-monokai-tasty",
-      "repo": "patstockwell/vim-monokai-tasty",
-      "colorscheme": "vim-monokai-tasty",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "vim-nachtleben",
       "repo": "schickele/vim-nachtleben",
       "colorscheme": "nachtleben",
@@ -1156,16 +1126,6 @@
       "name": "yash",
       "repo": "kihachi2000/yash.nvim",
       "colorscheme": "yash",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "ymir",
-      "repo": "Ronxvier/ymir.nvim",
-      "colorscheme": "ymir",
       "meta": {
         "strategy": {
           "type": "colorscheme"
