@@ -35,7 +35,7 @@
     "build:top50": "tsx tasks/07-top-themes.ts",
     "bundle": "tsx tasks/05-bundle.ts",
     "validate": "tsx tasks/validate/registry.ts",
-    "pipeline": "npm run task:sync && npm run task:detect && npm run task:merge && npm run task:build",
+    "pipeline": "pnpm task:sync && pnpm task:detect && pnpm task:merge && pnpm task:build",
     "cli": "tsx src/cli.ts",
     "watch:cli": "tsx watch src/cli.ts",
     "publish:cli": "tsx src/cli.ts publish",
@@ -71,5 +71,6 @@
   },
   "engines": {
     "node": ">=20"
-  }
+  },
+  "packageManager": "pnpm@10.28.0"
 }

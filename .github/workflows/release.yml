@@ -23,36 +23,40 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install --frozen-lockfile
 
       - name: Typecheck
-        run: npm run typecheck
+        run: pnpm typecheck
 
       - name: Lint
-        run: npm run lint
+        run: pnpm lint
 
       - name: Run tests
-        run: npm test -- --exclude "tests/e2e/**"
+        run: pnpm test -- --exclude "tests/e2e/**"
 
       - name: Build TypeScript
-        run: npm run build
+        run: pnpm build
 
       - name: Run pipeline
-        run: npm run pipeline
+        run: pnpm pipeline
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate manifest
-        run: npm run task:manifest
+        run: pnpm task:manifest
 
       - name: Generate top 50 themes file
-        run: npm run task:top50
+        run: pnpm task:top50
 
       - name: Get package version
         id: version
