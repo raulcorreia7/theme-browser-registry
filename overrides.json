@@ -572,7 +572,119 @@
         "strategy": {
           "type": "setup"
         }
-      }
+      },
+      "variants": [
+        {
+          "name": "eldritch",
+          "colorscheme": "eldritch",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-dark",
+          "colorscheme": "eldritch-dark",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-minimal",
+          "colorscheme": "eldritch-minimal",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-kanagawa",
+          "colorscheme": "eldritch-kanagawa",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-kanagawa-fusion",
+          "colorscheme": "eldritch-kanagawa-fusion",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-kanagawa-fusion-mid",
+          "colorscheme": "eldritch-kanagawa-fusion-mid",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-kanagawa-fusion-pop",
+          "colorscheme": "eldritch-kanagawa-fusion-pop",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-kanagawa-fusion-glow",
+          "colorscheme": "eldritch-kanagawa-fusion-glow",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-kanagawa-fusion-purple",
+          "colorscheme": "eldritch-kanagawa-fusion-purple",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-kanagawa-fusion-green",
+          "colorscheme": "eldritch-kanagawa-fusion-green",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-tokyonight-fusion",
+          "colorscheme": "eldritch-tokyonight-fusion",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-gruvbox-fusion",
+          "colorscheme": "eldritch-gruvbox-fusion",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-glow-aqua",
+          "colorscheme": "eldritch-glow-aqua",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-glow-solar",
+          "colorscheme": "eldritch-glow-solar",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-glow-cobalt",
+          "colorscheme": "eldritch-glow-cobalt",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-glow-emerald",
+          "colorscheme": "eldritch-glow-emerald",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-glow-amber",
+          "colorscheme": "eldritch-glow-amber",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-glow-arctic",
+          "colorscheme": "eldritch-glow-arctic",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-glow-crimson",
+          "colorscheme": "eldritch-glow-crimson",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-glow-violet",
+          "colorscheme": "eldritch-glow-violet",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-glow-orchid",
+          "colorscheme": "eldritch-glow-orchid",
+          "mode": "dark"
+        },
+        {
+          "name": "eldritch-glow-fuchsia",
+          "colorscheme": "eldritch-glow-fuchsia",
+          "mode": "dark"
+        }
+      ]
     },
     {
       "name": "eva-theme",
