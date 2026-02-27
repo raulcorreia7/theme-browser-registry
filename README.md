@@ -1,7 +1,7 @@
 # @theme-browser/registry
 
 > ⚠️ **ALPHA - NOT for PRODUCTION USE**
-> 
+>
 > This registry indexer is under active development. APIs, schema, and behavior may change without notice.
 > Use at your own risk.
 
@@ -20,7 +20,7 @@ Discovers Neovim colorschemes from GitHub and produces a searchable `themes.json
 ### Installation
 
 ```bash
-cd theme-browser-registry-ts
+cd packages/registry
 npm install
 ```
 
@@ -37,24 +37,33 @@ source .env
 
 ## Commands
 
-| Command | Description |
-|--------|-------------|
-| `sync` | Sync themes from GitHub |
-| `watch` | Continuous sync |
-| `publish` | Sync and push to git |
-| `export` | Export database to JSON |
+| Command                 | Description                                   |
+| ----------------------- | --------------------------------------------- |
+| `npm run task:sync`     | Sync themes from GitHub                       |
+| `npm run task:detect`   | Detect strategies from README/source patterns |
+| `npm run task:merge`    | Merge curated sources into overrides          |
+| `npm run task:build`    | Generate `artifacts/themes.json`              |
+| `npm run task:bundle`   | Generate bundled plugin registry (top themes) |
+| `npm run task:validate` | Validate output quality and constraints       |
 
 ```bash
-npx tsx src/index.ts sync      # Sync once
-npx tsx src/index.ts watch     # Continuous
-npx tsx src/index.ts publish   # Sync + git push
-npx tsx src/index.ts export    # Export DB
+npm run task:sync
+npm run task:detect -- --apply
+npm run task:merge
+npm run task:build
+npm run task:validate
 ```
 
 **Output:**
+
 - `artifacts/themes.json` — Theme index
 - `artifacts/manifest.json` — Run metadata (count, checksum, timestamp)
 - `artifacts/db-export.json` — Database export (via `export`)
+
+Count semantics:
+
+- `themes` = top-level theme objects
+- `variants` = nested entries inside each theme (not added to `themes`)
 
 ## Monorepo
 
@@ -66,20 +75,27 @@ make registry-test       # Run tests
 
 ## Configuration
 
-See [indexer.config.json](indexer.config.json) for all options.
+See [config.json](config.json) for all options.
 
 Key options:
 
-| Option | Default | Description |
-|--------|---------|-------------|
-| `topics` | `["neovim-colorscheme", ...]` | GitHub topics to search |
-| `include_repos` | `[]` | Always include these repos |
-| `request_delay_ms` | `250` | Delay between API requests |
-| `batch_size` | `50` | Repos per batch (writes checkpoint after each) |
-| `concurrency` | `5` | Parallel requests within batch |
-| `scan_interval_seconds` | `1800` | Watch interval (30 min) |
-| `stale_after_days` | `14` | Days before re-fetching |
-| `publish_enabled` | `false` | Enable git publishing |
+| Option                  | Default                       | Description                                    |
+| ----------------------- | ----------------------------- | ---------------------------------------------- |
+| `topics`                | `["neovim-colorscheme", ...]` | GitHub topics to search                        |
+| `include_repos`         | `[]`                          | Always include these repos                     |
+| `request_delay_ms`      | `250`                         | Delay between API requests                     |
+| `batch_size`            | `50`                          | Repos per batch (writes checkpoint after each) |
+| `concurrency`           | `5`                           | Parallel requests within batch                 |
+| `scan_interval_seconds` | `1800`                        | Watch interval (30 min)                        |
+| `stale_after_days`      | `14`                          | Days before re-fetching                        |
+| `publish_enabled`       | `false`                       | Enable git publishing                          |
+
+## Safety and Exclusions
+
+- Exclusions are enforced at discovery (`config.json` → `discovery.excludeRepos`)
+- Dotfiles/config repositories are filtered by heuristic (`config.json` → `filters.dotfiles`)
+- Curated deny-list is maintained in `excluded.json`
+- Repos with non-theme side effects (for example writing `~/.config/*`) are removed from the catalog
 
 ## Testing
 
@@ -120,6 +136,7 @@ src/
 ```
 
 Data flow:
+
 1. Discover repos via GitHub topics
 2. Fetch metadata and parse themes
 3. Store in SQLite (incremental)

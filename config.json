@@ -17,10 +17,7 @@
       "navarasu/onedark.nvim",
       "EdenEast/nightfox.nvim"
     ],
-    "excludeRepos": [
-      "veekram/vim",
-      "cvusmo/blackbeard-nvim"
-    ],
+    "excludeRepos": ["veekram/vim", "cvusmo/blackbeard-nvim"],
     "pagination": {
       "perPage": 100,
       "maxPagesPerTopic": 5
@@ -44,7 +41,13 @@
     "minStars": 10,
     "skipArchived": true,
     "skipDisabled": true,
-    "staleAfterDays": 14
+    "staleAfterDays": 14,
+    "dotfiles": {
+      "enabled": true,
+      "topics": ["dotfiles", "dotfile", "nvim-config", "neovim-config", "vim-config", "vimrc"],
+      "nameTokens": ["dotfiles", "dotfile"],
+      "descriptionTokens": ["dotfiles", "dotfile"]
+    }
   },
   "output": {
     "index": "artifacts/index.json",

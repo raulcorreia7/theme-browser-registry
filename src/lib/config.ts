@@ -41,6 +41,21 @@ const FiltersSchema = z.object({
   skipArchived: z.boolean().catch(true),
   skipDisabled: z.boolean().catch(true),
   staleAfterDays: z.number().int().min(1).catch(14),
+  dotfiles: z
+    .object({
+      enabled: z.boolean().catch(true),
+      topics: z
+        .array(z.string())
+        .catch(["dotfiles", "dotfile", "nvim-config", "neovim-config", "vim-config", "vimrc"]),
+      nameTokens: z.array(z.string()).catch(["dotfiles", "dotfile"]),
+      descriptionTokens: z.array(z.string()).catch(["dotfiles", "dotfile"]),
+    })
+    .catch({
+      enabled: true,
+      topics: ["dotfiles", "dotfile", "nvim-config", "neovim-config", "vim-config", "vimrc"],
+      nameTokens: ["dotfiles", "dotfile"],
+      descriptionTokens: ["dotfiles", "dotfile"],
+    }),
 });
 
 const OutputSchema = z.object({
@@ -99,6 +114,12 @@ export const ConfigSchema = z.object({
     skipArchived: true,
     skipDisabled: true,
     staleAfterDays: 14,
+    dotfiles: {
+      enabled: true,
+      topics: ["dotfiles", "dotfile", "nvim-config", "neovim-config", "vim-config", "vimrc"],
+      nameTokens: ["dotfiles", "dotfile"],
+      descriptionTokens: ["dotfiles", "dotfile"],
+    },
   }),
   output: OutputSchema.catch({
     index: "artifacts/index.json",

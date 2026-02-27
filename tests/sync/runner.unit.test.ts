@@ -4,6 +4,7 @@ import { join } from "node:path";
 import { tmpdir } from "node:os";
 import {
   chunk,
+  isLikelyDotfilesRepository,
   sortEntries,
   selectRepositoriesForRun,
   safeRepo,
@@ -70,6 +71,66 @@ describe("runner utilities", () => {
 
     it("returns empty string for whitespace-only input", () => {
       expect(safeRepo("   ")).toBe("");
+    });
+  });
+
+  describe("isLikelyDotfilesRepository", () => {
+    it("detects dotfiles by repository name", () => {
+      expect(
+        isLikelyDotfilesRepository({
+          fullName: "owner/dotfiles",
+          topics: [],
+          description: "personal setup",
+        }),
+      ).toBe(true);
+    });
+
+    it("detects dotfiles by topic", () => {
+      expect(
+        isLikelyDotfilesRepository({
+          fullName: "owner/nvim",
+          topics: ["neovim-config"],
+          description: "my config",
+        }),
+      ).toBe(true);
+    });
+
+    it("detects dotfiles by description", () => {
+      expect(
+        isLikelyDotfilesRepository({
+          fullName: "owner/nvim",
+          topics: ["neovim"],
+          description: "my personal dotfiles",
+        }),
+      ).toBe(true);
+    });
+
+    it("does not flag regular theme repositories", () => {
+      expect(
+        isLikelyDotfilesRepository({
+          fullName: "folke/tokyonight.nvim",
+          topics: ["neovim-theme", "colorscheme"],
+          description: "A clean dark theme for Neovim",
+        }),
+      ).toBe(false);
+    });
+
+    it("supports disabling the dotfiles heuristic", () => {
+      expect(
+        isLikelyDotfilesRepository(
+          {
+            fullName: "owner/dotfiles",
+            topics: ["dotfiles"],
+            description: "my personal dotfiles",
+          },
+          {
+            enabled: false,
+            topics: new Set<string>(),
+            nameTokens: [],
+            descriptionTokens: [],
+          },
+        ),
+      ).toBe(false);
     });
   });
 

@@ -141,6 +141,14 @@ describe("merge", () => {
       expect(newEntry?.name).toBe("new-theme");
     });
 
+    it("does not add synthetic override when allowSynthetic is false", () => {
+      const entries = [makeEntry({ repo: "owner/existing" })];
+      const overrides = [{ repo: "owner/new", name: "new-theme", colorscheme: "new" }];
+      const result = applyOverrides(entries, overrides, [], { allowSynthetic: false });
+      expect(result).toHaveLength(1);
+      expect(result.find((e) => e.repo === "owner/new")).toBeUndefined();
+    });
+
     it("deep merges meta field", () => {
       const entries = [makeEntry({
         repo: "owner/theme",

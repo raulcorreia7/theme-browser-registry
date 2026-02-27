@@ -10,6 +10,7 @@ import { detectVariantModesFromNames, applyVariantHints, type VariantInput } fro
 import type { DetectionRow, StrategyType, VariantModeResult } from "./types";
 import { CONFIG } from "./types";
 import type { LoadStrategy, ThemeEntry, ThemeMode } from "@/lib/types";
+import { mergeModeHintRecords } from "@/lib/mode";
 import type { GitHubClient } from "@/sync/github";
 import type { RepoCache } from "@/db/sqlite";
 
@@ -92,6 +93,11 @@ type HintsFile = {
   hints: Hint[];
 };
 
+type ParsedHints = {
+  strategyHints: Map<string, StrategyType>;
+  variantHints: Map<string, Record<string, ThemeMode>>;
+};
+
 function ensureDir(dir: string): void {
   mkdirSync(dir, { recursive: true });
 }
@@ -133,39 +139,44 @@ function loadSources(sourcesDir: string): SourcesFile {
   return { overrides: allThemes, builtin };
 }
 
-function loadHints(sourcesDir: string): Map<string, StrategyType> {
+function loadHintsData(sourcesDir: string): ParsedHints {
   const hintsPath = path.join(sourcesDir, "hints.json");
   if (!existsSync(hintsPath)) {
-    return new Map();
+    return {
+      strategyHints: new Map(),
+      variantHints: new Map(),
+    };
   }
 
   try {
     const data = readJsonFile<HintsFile>(hintsPath);
-    return new Map(data.hints.map((h) => [h.repo, h.strategy]));
-  } catch {
-    return new Map();
-  }
-}
-
-function loadVariantHints(sourcesDir: string): Map<string, Record<string, ThemeMode>> {
-  const hintsPath = path.join(sourcesDir, "hints.json");
-  if (!existsSync(hintsPath)) {
-    return new Map();
-  }
-
-  try {
-    const data = readJsonFile<HintsFile>(hintsPath);
-    const hintMap = new Map<string, Record<string, ThemeMode>>();
+    const strategyHints = new Map<string, StrategyType>();
+    const variantHints = new Map<string, Record<string, ThemeMode>>();
 
     for (const hint of data.hints) {
-      if (hint.repo && hint.variantModes) {
-        hintMap.set(hint.repo, hint.variantModes);
+      if (!hint.repo) continue;
+
+      if (hint.strategy) {
+        const existing = strategyHints.get(hint.repo);
+        if (existing && existing !== hint.strategy) {
+          throw new Error(
+            `Conflicting strategy hints for ${hint.repo}: ${existing} vs ${hint.strategy}`,
+          );
+        }
+        strategyHints.set(hint.repo, hint.strategy);
+      }
+
+      if (hint.variantModes) {
+        const existing = variantHints.get(hint.repo) ?? {};
+        const merged = mergeModeHintRecords(hint.repo, existing, hint.variantModes);
+        variantHints.set(hint.repo, merged);
       }
     }
 
-    return hintMap;
-  } catch {
-    return new Map();
+    return { strategyHints, variantHints };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Failed to load hints: ${message}`);
   }
 }
 
@@ -421,8 +432,9 @@ export async function run(options: DetectOptions, deps: DetectDeps): Promise<Det
 
   const themes = readJsonFile<ThemeEntry[]>(options.indexFile);
   const sources = loadSources(options.sourcesDir);
-  const hintsMap = loadHints(options.sourcesDir);
-  const variantHintsMap = loadVariantHints(options.sourcesDir);
+  const hints = loadHintsData(options.sourcesDir);
+  const hintsMap = hints.strategyHints;
+  const variantHintsMap = hints.variantHints;
 
   const repoIndex = buildRepoIndex(themes);
 

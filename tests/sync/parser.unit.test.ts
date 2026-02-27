@@ -1,9 +1,5 @@
 import { describe, it, expect } from "vitest";
-import {
-  normalizeThemeName,
-  extractColorschemes,
-  buildEntry,
-} from "@/sync/parser";
+import { normalizeThemeName, extractColorschemes, buildEntry } from "@/sync/parser";
 import type { GitHubRepoItem, GitHubTreeItem } from "@/lib/types";
 
 function makeRepoItem(overrides: Partial<GitHubRepoItem> = {}): GitHubRepoItem {
@@ -88,26 +84,17 @@ describe("parser", () => {
 
   describe("extractColorschemes", () => {
     it("extracts colorschemes from colors/*.vim files", () => {
-      const items = [
-        makeTreeItem("colors/tokyonight.vim"),
-        makeTreeItem("colors/nightfox.vim"),
-      ];
+      const items = [makeTreeItem("colors/tokyonight.vim"), makeTreeItem("colors/nightfox.vim")];
       expect(extractColorschemes(items)).toEqual(["nightfox", "tokyonight"]);
     });
 
     it("extracts colorschemes from colors/*.lua files", () => {
-      const items = [
-        makeTreeItem("colors/catppuccin.lua"),
-        makeTreeItem("colors/gruvbox.lua"),
-      ];
+      const items = [makeTreeItem("colors/catppuccin.lua"), makeTreeItem("colors/gruvbox.lua")];
       expect(extractColorschemes(items)).toEqual(["catppuccin", "gruvbox"]);
     });
 
     it("handles mixed vim and lua files", () => {
-      const items = [
-        makeTreeItem("colors/theme.vim"),
-        makeTreeItem("colors/theme.lua"),
-      ];
+      const items = [makeTreeItem("colors/theme.vim"), makeTreeItem("colors/theme.lua")];
       expect(extractColorschemes(items)).toEqual(["theme"]);
     });
 
@@ -121,18 +108,12 @@ describe("parser", () => {
     });
 
     it("ignores tree and commit types", () => {
-      const items = [
-        makeTreeItem("colors", "tree"),
-        makeTreeItem("colors/dark.vim"),
-      ];
+      const items = [makeTreeItem("colors", "tree"), makeTreeItem("colors/dark.vim")];
       expect(extractColorschemes(items)).toEqual(["dark"]);
     });
 
     it("ignores nested paths in colors", () => {
-      const items = [
-        makeTreeItem("colors/dark/variant.vim"),
-        makeTreeItem("colors/light.lua"),
-      ];
+      const items = [makeTreeItem("colors/dark/variant.vim"), makeTreeItem("colors/light.lua")];
       expect(extractColorschemes(items)).toEqual(["light"]);
     });
 
@@ -151,10 +132,7 @@ describe("parser", () => {
     });
 
     it("handles empty colorscheme names gracefully", () => {
-      const items = [
-        makeTreeItem("colors/.vim"),
-        makeTreeItem("colors/valid.vim"),
-      ];
+      const items = [makeTreeItem("colors/.vim"), makeTreeItem("colors/valid.vim")];
       expect(extractColorschemes(items)).toEqual(["valid"]);
     });
   });
@@ -226,7 +204,13 @@ describe("parser", () => {
 
     it("detects catppuccin-style variants (frappe/macchiato/mocha = dark, latte = light)", () => {
       const repo = makeRepoItem({ full_name: "catppuccin/nvim" });
-      const entry = buildEntry(repo, ["catppuccin", "catppuccin-latte", "catppuccin-frappe", "catppuccin-macchiato", "catppuccin-mocha"]);
+      const entry = buildEntry(repo, [
+        "catppuccin",
+        "catppuccin-latte",
+        "catppuccin-frappe",
+        "catppuccin-macchiato",
+        "catppuccin-mocha",
+      ]);
       expect(entry.variants).toHaveLength(4);
       const variantMap = new Map(entry.variants?.map((v) => [v.name, v.mode]));
       expect(variantMap.get("catppuccin-latte")).toBe("light");
@@ -241,6 +225,22 @@ describe("parser", () => {
       expect(entry.variants).toHaveLength(2);
       expect(entry.variants?.[0]?.mode).toBeUndefined();
       expect(entry.variants?.[1]?.mode).toBeUndefined();
+    });
+
+    it("does not infer mode from ambiguous compact words", () => {
+      const repo = makeRepoItem({ full_name: "owner/mytheme" });
+      const entry = buildEntry(repo, ["mytheme", "mytheme-twilight", "mytheme-starlight"]);
+      expect(entry.variants).toHaveLength(2);
+      expect(entry.variants?.[0]?.mode).toBeUndefined();
+      expect(entry.variants?.[1]?.mode).toBeUndefined();
+    });
+
+    it("detects mode when style modifiers are appended", () => {
+      const repo = makeRepoItem({ full_name: "owner/mytheme" });
+      const entry = buildEntry(repo, ["mytheme", "mytheme-light-bold", "mytheme-dark-italic"]);
+      expect(entry.variants).toHaveLength(2);
+      expect(entry.variants?.[0]?.mode).toBe("light");
+      expect(entry.variants?.[1]?.mode).toBe("dark");
     });
 
     it("omits variants when only base colorscheme", () => {

@@ -288,9 +288,9 @@
         "moonside": "dark",
         "threed": "dark",
         "threed-darker": "dark",
-        "cave-of-the-past": "dark",
+        "cave-of-the-past": "light",
         "devils-machine": "dark",
-        "dusty-dunes": "light",
+        "dusty-dunes": "dark",
         "dusty-dunes-darker": "dark",
         "fire-spring": "dark",
         "fire-spring-darker": "dark",
@@ -964,7 +964,7 @@
       "reason": "Windows: XP variant is dark"
     },
     {
-      "repo": "crimson-kat/witchesbrew.vim",
+      "repo": "shoenot/witchesbrew.nvim",
       "strategy": "colorscheme",
       "variantModes": {
         "witchesbrew-bright": "dark"

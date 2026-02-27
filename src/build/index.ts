@@ -1,6 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import type { ThemeEntry, ThemeMode, ThemeStrategy } from "@/lib/types";
+import { mergeModeHintRecords, resolveModeHint } from "@/lib/mode";
 import { inferModeFromColorscheme, isValidThemeName, type ThemeWithMeta } from "./themes";
 
 export * from "./themes";
@@ -45,6 +46,34 @@ interface BuiltinLoadResult {
   variantHints: Map<string, Record<string, ThemeMode>>;
 }
 
+type HintsFile = {
+  hints?: Array<{ repo?: string; variantModes?: Record<string, ThemeMode> }>;
+};
+
+function loadVariantHints(hintsPath: string): Map<string, Record<string, ThemeMode>> {
+  if (!existsSync(hintsPath)) {
+    return new Map();
+  }
+
+  const hintsRaw = readFileSync(hintsPath, "utf-8");
+  const hintsData = JSON.parse(hintsRaw) as HintsFile;
+  const variantHints = new Map<string, Record<string, ThemeMode>>();
+
+  if (!Array.isArray(hintsData.hints)) {
+    return variantHints;
+  }
+
+  for (const hint of hintsData.hints) {
+    if (!hint.repo || !hint.variantModes) continue;
+
+    const existing = variantHints.get(hint.repo) ?? {};
+    const merged = mergeModeHintRecords(hint.repo, existing, hint.variantModes);
+    variantHints.set(hint.repo, merged);
+  }
+
+  return variantHints;
+}
+
 interface OverridesMaps {
   byRepo: Map<string | undefined, ThemeEntry>;
   byName: Map<string | undefined, ThemeEntry>;
@@ -63,19 +92,13 @@ function loadBuiltinThemes(overridesPath: string): BuiltinLoadResult {
 
   if (existsSync(hintsPath)) {
     try {
-      const hintsRaw = readFileSync(hintsPath, "utf-8");
-      const hintsData = JSON.parse(hintsRaw) as {
-        hints?: Array<{ repo?: string; variantModes?: Record<string, ThemeMode> }>;
-      };
-      if (Array.isArray(hintsData.hints)) {
-        for (const hint of hintsData.hints) {
-          if (hint.repo && hint.variantModes) {
-            variantHints.set(hint.repo, hint.variantModes);
-          }
-        }
+      const mergedHints = loadVariantHints(hintsPath);
+      for (const [repo, repoHints] of mergedHints) {
+        variantHints.set(repo, repoHints);
       }
-    } catch {
-      // Silently ignore hints load errors
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      throw new Error(`Failed to load variant hints: ${message}`);
     }
   }
 
@@ -141,9 +164,13 @@ function buildOptimizedEntry(
       };
 
       const variantMode = v.mode;
-      const hintedMode = hintsForRepo?.[v.name];
-      if (hintedMode !== undefined) {
-        variant.mode = hintedMode;
+      const hint =
+        hintsForRepo &&
+        (resolveModeHint(v.name, hintsForRepo) ||
+          resolveModeHint(v.colorscheme ?? "", hintsForRepo));
+
+      if (hint) {
+        variant.mode = hint.mode;
       } else if (variantMode) {
         variant.mode = variantMode;
       } else {

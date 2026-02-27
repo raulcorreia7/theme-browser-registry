@@ -14,6 +14,7 @@ export * from "@/lib/logger";
 export * from "@/lib/config";
 export * from "@/lib/validation";
 export * from "@/lib/errors";
+export * from "@/lib/mode";
 
 // Database layer
 export * from "@/db/index";

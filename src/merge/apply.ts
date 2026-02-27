@@ -13,6 +13,10 @@ export interface LoadOverridesResult {
   excluded: string[];
 }
 
+export interface ApplyOverridesOptions {
+  allowSynthetic?: boolean;
+}
+
 export function loadOverrides(path: string): LoadOverridesResult {
   if (!existsSync(path)) {
     return { overrides: [], excluded: [] };
@@ -50,8 +54,10 @@ export function applyOverrides(
   entries: ThemeEntry[],
   overrides: OverrideEntry[],
   excluded: string[],
+  options: ApplyOverridesOptions = {},
 ): ThemeEntry[] {
   const byRepo = new Map<string, ThemeEntry>();
+  const allowSynthetic = options.allowSynthetic !== false;
 
   for (const entry of entries) {
     if (entry.repo) {
@@ -67,6 +73,10 @@ export function applyOverrides(
     if (!override.repo) continue;
 
     const existing = byRepo.get(override.repo);
+    if (!existing && !allowSynthetic) {
+      continue;
+    }
+
     const base: ThemeEntry = existing ?? {
       name: override.name ?? "",
       repo: override.repo,

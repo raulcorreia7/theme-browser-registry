@@ -8,9 +8,15 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: release-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   release:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -20,10 +26,18 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
 
       - name: Run tests
         run: npm test -- --exclude "tests/e2e/**"
@@ -37,67 +51,40 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate manifest
-        run: |
-          node -e "
-            const crypto = require('crypto');
-            const fs = require('fs');
-            const pkg = JSON.parse(fs.readFileSync('package.json'));
-            const raw = fs.readFileSync('artifacts/themes.json');
-            const themes = JSON.parse(raw);
-            const checksum = crypto.createHash('sha256').update(raw).digest('hex');
-            fs.writeFileSync('artifacts/manifest.json', JSON.stringify({
-              version: pkg.version,
-              count: themes.length,
-              generated_at: new Date().toISOString(),
-              sha256: checksum
-            }, null, 2) + '\n');
-            console.log('Generated manifest.json with version', pkg.version);
-          "
+        run: npm run task:manifest
 
       - name: Generate top 50 themes file
-        run: |
-          node -e "
-            const fs = require('fs');
-            const themes = JSON.parse(fs.readFileSync('artifacts/themes.json', 'utf-8'));
-            
-            const ranked = themes
-              .filter(t => t.stars)
-              .sort((a, b) => (b.stars || 0) - (a.stars || 0))
-              .slice(0, 50);
-            
-            const topNames = new Set(ranked.map(t => t.name));
-            const topThemes = themes.filter(t => topNames.has(t.name));
-            
-            fs.writeFileSync('artifacts/themes-top-50.json', JSON.stringify(topThemes, null, 2));
-            console.log('Generated themes-top-50.json with', topThemes.length, 'themes');
-          "
+        run: npm run task:top50
 
       - name: Get package version
         id: version
-        run: echo "value=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+        run: echo "value=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
 
-      - name: Check if themes.json changed
+      - name: Check if artifacts changed
         id: check-changes
         run: |
-          if git diff --quiet artifacts/themes.json 2>/dev/null; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+          if git diff --quiet artifacts/themes.json artifacts/themes-top-50.json artifacts/manifest.json 2>/dev/null; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Generate timestamped release tag
         if: steps.check-changes.outputs.changed == 'true'
         id: tag
-        run: echo "value=registry-$(date -u +%Y-%m-%d-%H%M)" >> $GITHUB_OUTPUT
+        run: echo "value=registry-$(date -u +%Y-%m-%d-%H%M)" >> "$GITHUB_OUTPUT"
 
       - name: Create timestamped GitHub Release
         if: steps.check-changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create ${{ steps.tag.outputs.value }} \
-            --title "Registry Update ${{ steps.tag.outputs.value }}" \
-            --notes "Automated registry update with $(jq 'length' artifacts/themes.json) themes" \
+          TAG="${{ steps.tag.outputs.value }}"
+          THEME_COUNT="$(node -p "require('./artifacts/manifest.json').count")"
+
+          gh release create "$TAG" \
+            --title "Registry Update $TAG" \
+            --notes "Automated registry update with ${THEME_COUNT} themes" \
             artifacts/themes.json \
             artifacts/themes-top-50.json \
             artifacts/manifest.json
@@ -107,11 +94,16 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           VERSION="v${{ steps.version.outputs.value }}"
-          if gh release view "$VERSION" &>/dev/null; then
-            echo "Updating versioned release $VERSION..."
-            gh release upload "$VERSION" artifacts/themes.json artifacts/themes-top-50.json artifacts/manifest.json --clobber
+
+          if gh release view "$VERSION" >/dev/null 2>&1; then
+            echo "Updating versioned release $VERSION"
+            gh release upload "$VERSION" \
+              artifacts/themes.json \
+              artifacts/themes-top-50.json \
+              artifacts/manifest.json \
+              --clobber
           else
-            echo "Creating versioned release $VERSION..."
+            echo "Creating versioned release $VERSION"
             gh release create "$VERSION" \
               --title "$VERSION" \
               --generate-notes \

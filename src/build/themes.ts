@@ -1,4 +1,5 @@
 import type { ThemeEntry, ThemeMode } from "@/lib/types";
+import { AUTO_APPLY_MODE_CONFIDENCE, inferThemeMode } from "@/lib/mode";
 
 const THEME_NAME = {
   MIN_LENGTH: 2,
@@ -8,48 +9,7 @@ const THEME_NAME = {
 
 const RE_VALID_NAME = /^[a-zA-Z0-9_-]+$/;
 
-const LIGHT_SUBSTRINGS = [
-  "-light",
-  "-day",
-  "-latte",
-  "-dawn",
-  "-morning",
-  "light-",
-  "day-",
-  "dawn-",
-  "_light",
-  "_day",
-  "-snow",
-  "-operandi",
-  "-lumi",
-] as const;
-const DARK_SUBSTRINGS = [
-  "-dark",
-  "-night",
-  "-moon",
-  "-storm",
-  "-mocha",
-  "-dragon",
-  "-wave",
-  "dark-",
-  "night-",
-  "_dark",
-  "_night",
-  "-dusk",
-  "-vivendi",
-  "-ember",
-  "-fog",
-  "-moss",
-] as const;
-
 const DEFAULT_STRATEGY = "colorscheme";
-
-function containsAny(text: string, patterns: readonly string[]): boolean {
-  for (const pattern of patterns) {
-    if (text.includes(pattern)) return true;
-  }
-  return false;
-}
 
 export function isValidThemeName(name: string | undefined): boolean {
   if (!name || typeof name !== "string") return false;
@@ -59,12 +19,10 @@ export function isValidThemeName(name: string | undefined): boolean {
 }
 
 export function inferModeFromColorscheme(colorscheme: string | undefined): ThemeMode | null {
-  if (!colorscheme || typeof colorscheme !== "string") return null;
-  const name = colorscheme.toLowerCase();
-
-  if (containsAny(name, LIGHT_SUBSTRINGS)) return "light";
-  if (containsAny(name, DARK_SUBSTRINGS)) return "dark";
-  return null;
+  const inference = inferThemeMode(colorscheme);
+  if (!inference) return null;
+  if (inference.confidence < AUTO_APPLY_MODE_CONFIDENCE) return null;
+  return inference.mode;
 }
 
 export type ThemeWithMeta = ThemeEntry & {

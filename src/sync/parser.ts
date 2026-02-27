@@ -5,35 +5,10 @@ import type {
   ThemeMode,
   ThemeVariant,
 } from "@/lib/types";
+import { AUTO_APPLY_MODE_CONFIDENCE, inferThemeMode } from "@/lib/mode";
 
 const RE_COLORS_FILE = /^colors\/([^/]+)\.(vim|lua)$/;
 const RE_TRIM_DASHES = /^[-_]+|[-_]+$/g;
-
-const DARK_MODE_SUFFIXES = [
-  "dark",
-  "night",
-  "moon",
-  "storm",
-  "mocha",
-  "frappe",
-  "macchiato",
-  "deep",
-  "black",
-  "shadow",
-  "midnight",
-  "abyss",
-] as const;
-const LIGHT_MODE_SUFFIXES = [
-  "light",
-  "day",
-  "sun",
-  "latte",
-  "bright",
-  "white",
-  "paper",
-  "cream",
-  "morning",
-] as const;
 
 const SUFFIXES_TO_STRIP = [
   ".nvim",
@@ -49,13 +24,6 @@ const SUFFIXES_TO_STRIP = [
 const INVALID_THEME_NAMES = new Set(["", "nvim", "vim", "neovim", "theme", "colorscheme"]);
 
 const DEFAULT_FALLBACK_NAME = "theme";
-
-function hasSuffix(name: string, suffixes: readonly string[]): boolean {
-  for (const suffix of suffixes) {
-    if (name.endsWith(suffix)) return true;
-  }
-  return false;
-}
 
 function sanitizeRepoName(repoName: string): string {
   let candidate = repoName.toLowerCase().trim();
@@ -99,12 +67,10 @@ export function extractColorschemes(treeItems: GitHubTreeItem[]): string[] {
 }
 
 function detectVariantMode(variantName: string): ThemeMode | undefined {
-  const lower = variantName.toLowerCase();
-
-  if (hasSuffix(lower, LIGHT_MODE_SUFFIXES)) return "light";
-  if (hasSuffix(lower, DARK_MODE_SUFFIXES)) return "dark";
-
-  return undefined;
+  const inference = inferThemeMode(variantName);
+  if (!inference) return undefined;
+  if (inference.confidence < AUTO_APPLY_MODE_CONFIDENCE) return undefined;
+  return inference.mode;
 }
 
 function pickBaseColorscheme(themeName: string, colors: string[]): string {

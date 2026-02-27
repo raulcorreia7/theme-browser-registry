@@ -12,6 +12,38 @@ import { logger } from "@/lib/logger";
 const RE_GIT_SUFFIX = /\.git$/;
 const RE_LEADING_TRAILING_SLASHES = /^\/+|\/+$/g;
 
+const DEFAULT_DOTFILES_TOPICS = [
+  "dotfiles",
+  "dotfile",
+  "nvim-config",
+  "neovim-config",
+  "vim-config",
+  "vimrc",
+] as const;
+
+const DEFAULT_DOTFILES_NAME_TOKENS = ["dotfiles", "dotfile"] as const;
+const DEFAULT_DOTFILES_DESCRIPTION_TOKENS = ["dotfiles", "dotfile"] as const;
+
+type DotfilesSignals = {
+  fullName: string;
+  topics: string[] | undefined;
+  description: string | null | undefined;
+};
+
+type DotfilesHeuristics = {
+  enabled: boolean;
+  topics: Set<string>;
+  nameTokens: string[];
+  descriptionTokens: string[];
+};
+
+const BUILTIN_DOTFILES_HEURISTICS: DotfilesHeuristics = {
+  enabled: true,
+  topics: new Set(DEFAULT_DOTFILES_TOPICS.map(normalizeTopic)),
+  nameTokens: [...DEFAULT_DOTFILES_NAME_TOKENS],
+  descriptionTokens: [...DEFAULT_DOTFILES_DESCRIPTION_TOKENS],
+};
+
 export function safeRepo(repo: string): string {
   return repo.trim().replace(RE_GIT_SUFFIX, "").replace(RE_LEADING_TRAILING_SLASHES, "");
 }
@@ -22,6 +54,133 @@ export interface DiscoveredRepo {
   whitelisted: boolean;
 }
 
+function normalizeTopic(topic: string): string {
+  return topic
+    .trim()
+    .toLowerCase()
+    .replace(/[\s_]+/g, "-");
+}
+
+function normalizeTokenList(values: string[] | undefined, fallback: readonly string[]): string[] {
+  const source = Array.isArray(values) ? values : [...fallback];
+  const normalized = new Set<string>();
+
+  for (const raw of source) {
+    const value = raw.trim().toLowerCase();
+    if (value) {
+      normalized.add(value);
+    }
+  }
+
+  return Array.from(normalized);
+}
+
+function escapeRegex(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function resolveDotfilesHeuristics(config: Config): DotfilesHeuristics {
+  const dotfiles = config.filters.dotfiles;
+
+  return {
+    enabled: dotfiles.enabled,
+    topics: new Set(
+      normalizeTokenList(dotfiles.topics, DEFAULT_DOTFILES_TOPICS).map(normalizeTopic),
+    ),
+    nameTokens: normalizeTokenList(dotfiles.nameTokens, DEFAULT_DOTFILES_NAME_TOKENS),
+    descriptionTokens: normalizeTokenList(
+      dotfiles.descriptionTokens,
+      DEFAULT_DOTFILES_DESCRIPTION_TOKENS,
+    ),
+  };
+}
+
+function repoNameFromFullName(fullName: string): string {
+  const parts = fullName.split("/");
+  return parts[1] ?? fullName;
+}
+
+function hasDotfilesTopic(topics: string[] | undefined, heuristics: DotfilesHeuristics): boolean {
+  if (!topics || topics.length === 0) return false;
+
+  for (const topic of topics) {
+    const normalized = normalizeTopic(topic);
+    if (heuristics.topics.has(normalized)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function hasDotfilesName(fullName: string, heuristics: DotfilesHeuristics): boolean {
+  const repoName = repoNameFromFullName(fullName).toLowerCase();
+
+  for (const token of heuristics.nameTokens) {
+    const re = new RegExp(`(^|[-_.])${escapeRegex(token)}($|[-_.])`, "i");
+    if (re.test(repoName)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function hasDotfilesDescription(
+  description: string | null | undefined,
+  heuristics: DotfilesHeuristics,
+): boolean {
+  if (typeof description !== "string" || description === "") {
+    return false;
+  }
+
+  const lowerDescription = description.toLowerCase();
+  for (const token of heuristics.descriptionTokens) {
+    if (lowerDescription.includes(token)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+export function isLikelyDotfilesRepository(
+  signals: DotfilesSignals,
+  heuristics: DotfilesHeuristics = BUILTIN_DOTFILES_HEURISTICS,
+): boolean {
+  if (!heuristics.enabled) {
+    return false;
+  }
+
+  if (!signals.fullName) return false;
+
+  if (hasDotfilesName(signals.fullName, heuristics)) {
+    return true;
+  }
+
+  if (hasDotfilesTopic(signals.topics, heuristics)) {
+    return true;
+  }
+
+  if (hasDotfilesDescription(signals.description, heuristics)) {
+    return true;
+  }
+
+  return false;
+}
+
+function isLikelyDotfilesEntry(entry: ThemeEntry, heuristics: DotfilesHeuristics): boolean {
+  if (!entry.repo) return false;
+  return isLikelyDotfilesRepository(
+    {
+      fullName: entry.repo,
+      topics: entry.topics,
+      description: entry.description,
+    },
+    heuristics,
+  );
+}
+
 async function discoverRepositories(
   client: GitHubClient,
   config: Config,
@@ -29,6 +188,8 @@ async function discoverRepositories(
   const discovered = new Map<string, DiscoveredRepo>();
   const mutex = { lock: false };
   const includeSet = new Set(config.discovery.includeRepos.map((r) => safeRepo(r)));
+  const dotfilesHeuristics = resolveDotfilesHeuristics(config);
+  let dotfilesSkipped = 0;
 
   async function discoverTopic(topic: string): Promise<void> {
     logger.info(
@@ -66,7 +227,19 @@ async function discoverRepositories(
             const stars = item.stargazers_count ?? null;
             const meetsMinStars = stars !== null && stars >= config.filters.minStars;
 
-            if (isWhitelisted || meetsMinStars) {
+            if (
+              !isWhitelisted &&
+              isLikelyDotfilesRepository(
+                {
+                  fullName: item.full_name,
+                  topics: item.topics,
+                  description: item.description,
+                },
+                dotfilesHeuristics,
+              )
+            ) {
+              dotfilesSkipped++;
+            } else if (isWhitelisted || meetsMinStars) {
               discovered.set(repo, {
                 updatedAt: item.updated_at,
                 stars,
@@ -103,7 +276,7 @@ async function discoverRepositories(
 
   const whitelistedCount = Array.from(discovered.values()).filter((d) => d.whitelisted).length;
   logger.info(
-    `discover completed topics=${config.discovery.topics.length} repos=${discovered.size} whitelisted=${whitelistedCount} excluded=${excludeRepos.length}`,
+    `discover completed topics=${config.discovery.topics.length} repos=${discovered.size} whitelisted=${whitelistedCount} excluded=${excludeRepos.length} dotfilesSkipped=${dotfilesSkipped}`,
   );
   return discovered;
 }
@@ -131,6 +304,7 @@ async function processBatchParallel(
   batch: Array<[string, DiscoveredRepo]>,
   client: GitHubClient,
   config: Config,
+  dotfilesHeuristics: DotfilesHeuristics,
   store: RepoCache,
   entriesByRepo: Map<string, ThemeEntry>,
   stats: RunStats,
@@ -167,6 +341,7 @@ async function processBatchParallel(
         const entry = await buildEntryForRepo(
           client,
           config,
+          dotfilesHeuristics,
           repo,
           store,
           discoveredInfo.whitelisted,
@@ -210,6 +385,7 @@ export function sortEntries(entries: ThemeEntry[], config: Config): ThemeEntry[]
 async function buildEntryForRepo(
   client: GitHubClient,
   config: Config,
+  dotfilesHeuristics: DotfilesHeuristics,
   repo: string,
   store: RepoCache,
   whitelisted: boolean = false,
@@ -230,6 +406,20 @@ async function buildEntryForRepo(
 
   if (config.filters.skipDisabled && repoPayload.disabled) {
     throw new Error("repository disabled");
+  }
+
+  if (
+    !whitelisted &&
+    isLikelyDotfilesRepository(
+      {
+        fullName: repoPayload.full_name,
+        topics: repoPayload.topics,
+        description: repoPayload.description,
+      },
+      dotfilesHeuristics,
+    )
+  ) {
+    throw new Error("repository appears to be dotfiles");
   }
 
   const ref = repoPayload.default_branch || "HEAD";
@@ -267,6 +457,7 @@ export async function runOnce(config: Config, force = false): Promise<RunStats> 
   };
 
   try {
+    const dotfilesHeuristics = resolveDotfilesHeuristics(config);
     const discovered = await discoverRepositories(client, config);
     stats.discovered = discovered.size;
     const scheduled = selectRepositoriesForRun(discovered, config);
@@ -298,6 +489,12 @@ export async function runOnce(config: Config, force = false): Promise<RunStats> 
           payload.stars !== undefined &&
           payload.stars !== null &&
           payload.stars >= config.filters.minStars;
+        const isDotfiles = isLikelyDotfilesEntry(payload, dotfilesHeuristics);
+
+        if (!isWhitelisted && isDotfiles) {
+          continue;
+        }
+
         if (isWhitelisted || meetsMinStars) {
           entriesByRepo.set(repo, payload);
         }
@@ -316,7 +513,16 @@ export async function runOnce(config: Config, force = false): Promise<RunStats> 
         `processing batch=${batchIndex + 1}/${totalBatches} size=${batch.length} concurrency=${config.processing.concurrency}`,
       );
 
-      await processBatchParallel(batch, client, config, store, entriesByRepo, stats, force);
+      await processBatchParallel(
+        batch,
+        client,
+        config,
+        dotfilesHeuristics,
+        store,
+        entriesByRepo,
+        stats,
+        force,
+      );
 
       const entries = Array.from(entriesByRepo.values());
       const { overrides, excluded } = loadOverrides(config.overrides);
