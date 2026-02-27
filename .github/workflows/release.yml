@@ -41,7 +41,7 @@ jobs:
         run: pnpm lint
 
       - name: Run tests
-        run: pnpm test -- --exclude "tests/e2e/**" --exclude "tests/db/**"
+        run: pnpm test
 
       - name: Build TypeScript
         run: pnpm build

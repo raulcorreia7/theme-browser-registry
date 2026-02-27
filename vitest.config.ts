@@ -5,7 +5,7 @@ export default defineConfig({
   test: {
     globals: false,
     include: ["tests/**/*.test.ts"],
-    exclude: ["node_modules", "dist"],
+    exclude: ["node_modules", "dist", "tests/e2e/**", "tests/db/**"],
     coverage: {
       provider: "v8",
       reporter: ["text", "json", "html"],
