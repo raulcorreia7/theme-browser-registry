@@ -1,9 +1,18 @@
 name: Release
 
 on:
-  push:
-    branches: [master, main]
+  schedule:
+    - cron: "0 0 * * 3"
   workflow_dispatch:
+    inputs:
+      channel:
+        description: "Release channel"
+        required: true
+        default: "latest"
+        type: choice
+        options:
+          - latest
+          - stable
 
 permissions:
   contents: write
@@ -70,45 +79,65 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Generate timestamped release tag
+      - name: Resolve release channel
+        id: channel
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "value=latest" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=${{ github.event.inputs.channel || 'latest' }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate release tag
         if: steps.check-changes.outputs.changed == 'true'
         id: tag
-        run: echo "value=registry-$(date -u +%Y-%m-%d-%H%M)" >> "$GITHUB_OUTPUT"
+        run: |
+          VERSION="v${{ steps.version.outputs.value }}"
+          CHANNEL="${{ steps.channel.outputs.value }}"
+          if [ "$CHANNEL" = "stable" ]; then
+            echo "value=$VERSION" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=${VERSION}+$(date -u +%Y%m%d)" >> "$GITHUB_OUTPUT"
+          fi
 
-      - name: Create timestamped GitHub Release
+      - name: Create or update channel release
         if: steps.check-changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TAG="${{ steps.tag.outputs.value }}"
+          CHANNEL="${{ steps.channel.outputs.value }}"
           THEME_COUNT="$(node -p "require('./artifacts/manifest.json').count")"
 
-          gh release create "$TAG" \
-            --title "Registry Update $TAG" \
-            --notes "Automated registry update with ${THEME_COUNT} themes" \
-            artifacts/themes.json \
-            artifacts/themes-top-50.json \
-            artifacts/manifest.json
-
-      - name: Create or update versioned release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          VERSION="v${{ steps.version.outputs.value }}"
-
-          if gh release view "$VERSION" >/dev/null 2>&1; then
-            echo "Updating versioned release $VERSION"
-            gh release upload "$VERSION" \
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Updating $CHANNEL release $TAG"
+            if [ "$CHANNEL" = "latest" ]; then
+              gh release edit "$TAG" --prerelease
+            else
+              gh release edit "$TAG" --latest
+            fi
+            gh release upload "$TAG" \
               artifacts/themes.json \
               artifacts/themes-top-50.json \
               artifacts/manifest.json \
               --clobber
           else
-            echo "Creating versioned release $VERSION"
-            gh release create "$VERSION" \
-              --title "$VERSION" \
-              --generate-notes \
-              artifacts/themes.json \
-              artifacts/themes-top-50.json \
-              artifacts/manifest.json
+            echo "Creating $CHANNEL release $TAG"
+            if [ "$CHANNEL" = "latest" ]; then
+              gh release create "$TAG" \
+                --prerelease \
+                --title "Registry latest $TAG" \
+                --notes "Automated latest registry update with ${THEME_COUNT} themes" \
+                artifacts/themes.json \
+                artifacts/themes-top-50.json \
+                artifacts/manifest.json
+            else
+              gh release create "$TAG" \
+                --latest \
+                --title "Registry stable $TAG" \
+                --notes "Automated stable registry update with ${THEME_COUNT} themes" \
+                artifacts/themes.json \
+                artifacts/themes-top-50.json \
+                artifacts/manifest.json
+            fi
           fi
