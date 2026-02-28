@@ -14,14 +14,14 @@ Discovers Neovim colorschemes from GitHub and produces a searchable `themes.json
 ### Requirements
 
 - Node.js >= 20
-- npm
+- pnpm
 - GitHub token (for API access)
 
 ### Installation
 
 ```bash
 cd packages/registry
-npm install
+pnpm install
 ```
 
 ### GitHub Token
@@ -39,39 +39,43 @@ source .env
 
 | Command                 | Description                                   |
 | ----------------------- | --------------------------------------------- |
-| `npm run task:sync`     | Sync themes from GitHub                       |
-| `npm run task:detect`   | Detect strategies from README/source patterns |
-| `npm run task:merge`    | Merge curated sources into overrides          |
-| `npm run task:build`    | Generate `artifacts/themes.json`              |
-| `npm run task:bundle`   | Generate bundled plugin registry (top themes) |
-| `npm run task:pipeline` | Run full pipeline end-to-end                  |
-| `npm run task:validate` | Validate output quality and constraints       |
+| `pnpm task:sync`        | Sync themes from GitHub                       |
+| `pnpm task:detect`      | Detect strategies from README/source patterns |
+| `pnpm task:merge`       | Merge curated sources into overrides          |
+| `pnpm task:build`       | Generate `artifacts/themes.json`              |
+| `pnpm task:bundle`      | Generate bundled plugin registry (top themes) |
+| `pnpm task:pipeline`    | Run full pipeline end-to-end                  |
+| `pnpm task:validate`    | Validate output quality and constraints       |
 
 ```bash
-npm run task:sync
-npm run task:detect -- --apply
-npm run task:merge
-npm run task:build
-npm run task:validate
+pnpm task:sync
+pnpm task:detect -- --apply
+pnpm task:merge
+pnpm task:build
+pnpm task:validate
 ```
 
 Full pipeline with local testing outputs:
 
 ```bash
-npm run task:pipeline -- --testing
+pnpm task:pipeline -- --testing
 ```
 
 Override local registry output path for testing:
 
 ```bash
-npm run task:pipeline -- --local-registry artifacts/registry.local.json
+pnpm task:pipeline -- --local-registry artifacts/registry.local.json
 ```
 
 **Output:**
 
 - `artifacts/themes.json` — Theme index
 - `artifacts/manifest.json` — Run metadata (count, checksum, timestamp)
-- `artifacts/db-export.json` — Database export (via `export`)
+- `artifacts/themes-top-50.json` — Top 50 bundled themes
+
+**Optional:**
+
+- `artifacts/db-export.json` — Database export (via `pnpm export -o artifacts/db-export.json`)
 
 Count semantics:
 
@@ -80,10 +84,12 @@ Count semantics:
 
 ## Monorepo
 
+From the monorepo root, use make commands:
+
 ```bash
-make registry-sync       # Sync once
-make registry-watch      # Continuous
-make registry-test       # Run tests
+make sync       # Sync once
+make pipeline   # Full pipeline
+make test       # Run tests
 ```
 
 ## Configuration
@@ -113,8 +119,8 @@ Key options:
 ## Testing
 
 ```bash
-npm test
-npm run test:coverage
+pnpm test
+pnpm test:coverage
 ```
 
 ## Architecture
@@ -123,8 +129,7 @@ npm run test:coverage
 src/
 ├── cli.ts              # CLI entry point
 ├── cmd/                # Command handlers
-│   ├── commands/       # Individual commands (sync, publish, export, watch)
-│   └── index.ts        # Command router
+│   └── commands/       # Individual commands (sync, publish, export, watch)
 ├── sync/               # Theme synchronization
 │   ├── indexer.ts      # Main indexer
 │   ├── github.ts       # GitHub API client
@@ -144,8 +149,19 @@ src/
 │   ├── config.ts       # Configuration loading
 │   ├── logger.ts       # Logging (consola)
 │   └── types.ts        # TypeScript types
-└── validate/           # Validation
-    └── registry.ts     # Output validation
+├── validate/           # Validation
+│   └── registry.ts     # Output validation
+└── lint/               # Linting utilities
+tasks/
+├── 01-sync.ts          # Sync themes from GitHub
+├── 02-detect.ts        # Detect loading strategies
+├── 03-merge.ts         # Merge sources
+├── 04-build.ts         # Generate themes.json
+├── 05-bundle.ts        # Bundle plugin registry
+├── 06-manifest.ts      # Generate manifest
+├── 07-top-themes.ts    # Generate top themes list
+├── pipeline.ts         # Full pipeline runner
+└── validate/           # Validation tasks
 ```
 
 Data flow:
