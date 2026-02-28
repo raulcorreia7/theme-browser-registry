@@ -24,6 +24,7 @@ export interface BuildResult {
 
 interface OutputVariant {
   name: string;
+  variant?: string;
   colorscheme?: string;
   mode?: ThemeMode;
   strategy?: string;
@@ -139,13 +140,21 @@ function buildOptimizedEntry(
   variantHints: Map<string, Record<string, ThemeMode>>,
 ): OutputTheme {
   const entry: OutputTheme = {
-    name: theme.name,
-    colorscheme: theme.colorscheme,
+    name: override?.name ?? theme.name,
+    colorscheme: override?.colorscheme ?? theme.colorscheme,
   };
 
-  if (theme.repo) entry.repo = theme.repo;
+  if (override?.repo) {
+    entry.repo = override.repo;
+  } else if (theme.repo) {
+    entry.repo = theme.repo;
+  }
   if (theme.stars) entry.stars = theme.stars;
-  if (theme.meta?.mode) entry.mode = theme.meta.mode;
+  if (override?.meta?.mode) {
+    entry.mode = override.meta.mode;
+  } else if (theme.meta?.mode) {
+    entry.mode = theme.meta.mode;
+  }
   if (theme.builtin) entry.builtin = true;
 
   const strategy: ThemeStrategy | undefined = override?.meta?.strategy ?? theme.meta?.strategy;
@@ -154,15 +163,19 @@ function buildOptimizedEntry(
     if (strategy.module) entry.module = strategy.module;
   }
 
-  const variants = theme.variants;
+  const variants = Array.isArray(override?.variants) ? override?.variants : theme.variants;
   if (variants && variants.length > 0) {
-    const hintsForRepo = theme.repo ? variantHints.get(theme.repo) : null;
+    const hintsRepo = override?.repo ?? theme.repo;
+    const hintsForRepo = hintsRepo ? variantHints.get(hintsRepo) : null;
 
     entry.variants = variants.map((v): OutputVariant => {
       const variant: OutputVariant = {
         name: v.name,
         colorscheme: v.colorscheme,
       };
+      if (v.variant) {
+        variant.variant = v.variant;
+      }
 
       const variantMode = v.mode;
       const hint =

@@ -46,9 +46,27 @@ export const ValidateCliOptionsSchema = BaseTaskOptionsSchema.extend({
   themesPath: z.string().default("artifacts/themes.json"),
 });
 
+export const PipelineCliOptionsSchema = BaseTaskOptionsSchema.extend({
+  config: z.string().default("config.json"),
+  index: z.string().default("artifacts/index.json"),
+  themes: z.string().default("artifacts/themes.json"),
+  sources: z.string().default("sources"),
+  reports: z.string().default("reports"),
+  overrides: z.string().default("overrides.json"),
+  top50: z.string().default("artifacts/themes-top-50.json"),
+  manifest: z.string().default("artifacts/manifest.json"),
+  localRegistry: z.string().default("../plugin/lua/theme-browser/data/registry.json"),
+  count: z.number().int().min(1).default(50),
+  force: z.boolean().default(false),
+  noCache: z.boolean().default(false),
+  detectApply: z.boolean().default(true),
+  testing: z.boolean().default(false),
+});
+
 export type SyncCliOptions = z.infer<typeof SyncCliOptionsSchema>;
 export type DetectCliOptions = z.infer<typeof DetectCliOptionsSchema>;
 export type MergeCliOptions = z.infer<typeof MergeCliOptionsSchema>;
 export type BuildCliOptions = z.infer<typeof BuildCliOptionsSchema>;
 export type BundleCliOptions = z.infer<typeof BundleCliOptionsSchema>;
 export type ValidateCliOptions = z.infer<typeof ValidateCliOptionsSchema>;
+export type PipelineCliOptions = z.infer<typeof PipelineCliOptionsSchema>;

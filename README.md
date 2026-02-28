@@ -44,6 +44,7 @@ source .env
 | `npm run task:merge`    | Merge curated sources into overrides          |
 | `npm run task:build`    | Generate `artifacts/themes.json`              |
 | `npm run task:bundle`   | Generate bundled plugin registry (top themes) |
+| `npm run task:pipeline` | Run full pipeline end-to-end                  |
 | `npm run task:validate` | Validate output quality and constraints       |
 
 ```bash
@@ -52,6 +53,18 @@ npm run task:detect -- --apply
 npm run task:merge
 npm run task:build
 npm run task:validate
+```
+
+Full pipeline with local testing outputs:
+
+```bash
+npm run task:pipeline -- --testing
+```
+
+Override local registry output path for testing:
+
+```bash
+npm run task:pipeline -- --local-registry artifacts/registry.local.json
 ```
 
 **Output:**

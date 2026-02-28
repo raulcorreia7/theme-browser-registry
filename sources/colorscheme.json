@@ -1,6 +1,6 @@
 {
   "strategy": "colorscheme",
-  "count": 114,
+  "count": 128,
   "themes": [
     {
       "name": "accent",
@@ -163,6 +163,16 @@
       }
     },
     {
+      "name": "disco",
+      "repo": "jsit/disco.vim",
+      "colorscheme": "disco",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
       "name": "dookie",
       "repo": "pebeto/dookie.nvim",
       "colorscheme": "dookie",
@@ -186,6 +196,16 @@
       "name": "dracula",
       "repo": "dracula/vim",
       "colorscheme": "dracula",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "dromad",
+      "repo": "ngscheurich/dromad-vim",
+      "colorscheme": "dromad",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -303,6 +323,16 @@
       }
     },
     {
+      "name": "hydrangea",
+      "repo": "yuttie/hydrangea-vim",
+      "colorscheme": "hydrangea",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
       "name": "iceberg",
       "repo": "cocopon/iceberg.vim",
       "colorscheme": "iceberg",
@@ -353,6 +383,16 @@
       }
     },
     {
+      "name": "kat",
+      "repo": "katawful/kat.nvim",
+      "colorscheme": "kat.nvim",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
       "name": "kuroi",
       "repo": "aonemd/kuroi.vim",
       "colorscheme": "kuroi",
@@ -366,6 +406,16 @@
       "name": "kyotonight",
       "repo": "shrikecode/kyotonight.vim",
       "colorscheme": "kyotonight",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "landscape",
+      "repo": "itchyny/landscape.vim",
+      "colorscheme": "landscape",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -863,6 +913,16 @@
       }
     },
     {
+      "name": "vim-colors-basic",
+      "repo": "zcodes/vim-colors-basic",
+      "colorscheme": "basic-dark",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
       "name": "vim-colors-hatsunemiku",
       "repo": "4513ECHO/vim-colors-hatsunemiku",
       "colorscheme": "hatsunemiku",
@@ -873,9 +933,29 @@
       }
     },
     {
+      "name": "vim-colors-modern-borland",
+      "repo": "letorbi/vim-colors-modern-borland",
+      "colorscheme": "borland",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
       "name": "vim-colors-pencil",
       "repo": "preservim/vim-colors-pencil",
       "colorscheme": "pencil",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "vim-colorscheme-thaumaturge",
+      "repo": "baines/vim-colorscheme-thaumaturge",
+      "colorscheme": "thaumaturge",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -923,9 +1003,29 @@
       }
     },
     {
+      "name": "vim-eighties",
+      "repo": "lithammer/vim-eighties",
+      "colorscheme": "eighties",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
       "name": "vim-eldar",
       "repo": "agude/vim-eldar",
       "colorscheme": "eldar",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "vim-envy",
+      "repo": "kkga/vim-envy",
+      "colorscheme": "envy",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -956,6 +1056,16 @@
       "name": "vim-hue",
       "repo": "AdnanHodzic/vim-hue",
       "colorscheme": "hue",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "vim-humanoid",
+      "repo": "humanoid-colors/vim-humanoid-colorscheme",
+      "colorscheme": "humanoid",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1026,6 +1136,16 @@
       "name": "vim-purpura",
       "repo": "yassinebridi/vim-purpura",
       "colorscheme": "purpura",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "vim-robpike",
+      "repo": "0mp/vim-robpike",
+      "colorscheme": "robpike",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1106,6 +1226,26 @@
       "name": "walh",
       "repo": "casonadams/walh",
       "colorscheme": "walh-blue",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "witchesbrew",
+      "repo": "shoenot/witchesbrew.nvim",
+      "colorscheme": "witchesbrew",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "wolfram",
+      "repo": "arnoudbuzing/wolfram-vim",
+      "colorscheme": "wolframlanguage",
       "meta": {
         "strategy": {
           "type": "colorscheme"
