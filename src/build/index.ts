@@ -149,7 +149,11 @@ function buildOptimizedEntry(
   } else if (theme.repo) {
     entry.repo = theme.repo;
   }
-  if (theme.stars) entry.stars = theme.stars;
+  if (override?.stars !== undefined) {
+    entry.stars = override.stars;
+  } else if (theme.stars) {
+    entry.stars = theme.stars;
+  }
   if (override?.meta?.mode) {
     entry.mode = override.meta.mode;
   } else if (theme.meta?.mode) {
