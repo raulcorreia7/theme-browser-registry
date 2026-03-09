@@ -23,6 +23,7 @@ import { run as runBuild } from "@/build";
 import { run as runBundle } from "@/build/bundle";
 import { run as runValidate } from "@/validate";
 import { ensureDir, readJson, writeJson } from "@/lib/io";
+import { resolveOverridesPathFromSourcesDir } from "@/lib/sources";
 import { GitHubClient } from "@/sync/github";
 import { RepoCache } from "@/db/sqlite";
 
@@ -143,7 +144,7 @@ function writeManifest(themesPath: string, manifestPath: string): { version: str
 }
 
 function loadSourcesForPatch(sourcesDir: string): SourcesFile {
-  const overridesPath = resolve(sourcesDir, "../overrides.json");
+  const overridesPath = resolveOverridesPathFromSourcesDir(sourcesDir);
   if (existsSync(overridesPath)) {
     return readJson<SourcesFile>(overridesPath);
   }

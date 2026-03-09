@@ -27,6 +27,7 @@ import type { ThemeEntry } from "@/lib/types";
 import { GitHubClient } from "@/sync/github";
 import { RepoCache } from "@/db/sqlite";
 import { readJson, writeJson, ensureDir } from "@/lib/io";
+import { resolveOverridesPathFromSourcesDir } from "@/lib/sources";
 
 config({ path: resolve(dirname(fileURLToPath(import.meta.url)), "../.env") });
 
@@ -114,7 +115,7 @@ async function main() {
     consola.info(`Applying ${patch.length} strategy updates...`);
 
     const themes = readJson<ThemeEntry[]>(options.indexFile);
-    const overridesPath = resolve(options.sourcesDir, "../overrides.json");
+    const overridesPath = resolveOverridesPathFromSourcesDir(options.sourcesDir);
 
     type SourcesFile = { overrides: ThemeEntry[]; builtin?: ThemeEntry[] };
     let sources: SourcesFile;

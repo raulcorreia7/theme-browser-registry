@@ -9,6 +9,7 @@ import { detectFromText, inspectSource, type FileTreeItem } from "./strategy";
 import { detectVariantModesFromNames, applyVariantHints, type VariantInput } from "./variant";
 import type { DetectionRow, StrategyType, VariantModeResult } from "./types";
 import { CONFIG } from "./types";
+import { resolveOverridesPathFromSourcesDir } from "@/lib/sources";
 import type { LoadStrategy, ThemeEntry, ThemeMode } from "@/lib/types";
 import { mergeModeHintRecords } from "@/lib/mode";
 import type { GitHubClient } from "@/sync/github";
@@ -112,7 +113,7 @@ function writeJsonFile(filePath: string, data: unknown): void {
 }
 
 function loadSources(sourcesDir: string): SourcesFile {
-  const overridesPath = path.join(path.dirname(sourcesDir), "overrides.json");
+  const overridesPath = resolveOverridesPathFromSourcesDir(sourcesDir);
   if (existsSync(overridesPath)) {
     return readJsonFile<SourcesFile>(overridesPath);
   }

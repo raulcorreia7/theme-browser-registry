@@ -1,5 +1,6 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, resolve } from "node:path";
+import { dirname } from "node:path";
+import { resolveHintsPathFromOverridesPath } from "@/lib/sources";
 import type { ThemeEntry, ThemeMode, ThemeStrategy } from "@/lib/types";
 import { mergeModeHintRecords, normalizeModeHintKey, resolveModeHint } from "@/lib/mode";
 import { inferModeFromColorscheme, isValidThemeName, type ThemeWithMeta } from "./themes";
@@ -119,7 +120,7 @@ function loadBuiltinThemes(overridesPath: string): BuiltinLoadResult {
 
   const variantHints = new Map<string, Record<string, ThemeMode>>();
   const modeExemptHints = new Map<string, string[]>();
-  const hintsPath = resolve(dirname(overridesPath), "sources/hints.json");
+  const hintsPath = resolveHintsPathFromOverridesPath(overridesPath);
 
   if (existsSync(hintsPath)) {
     try {
