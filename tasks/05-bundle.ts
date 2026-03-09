@@ -15,7 +15,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Command } from "commander";
 import consola from "consola";
-import { BundleCliOptionsSchema, type BundleCliOptions } from "@/lib/cli";
+import { BundleCliOptionsSchema, normalizeCliArgv, type BundleCliOptions } from "@/lib/cli";
 import { run as runBundle } from "@/build/bundle";
 
 config({ path: resolve(dirname(fileURLToPath(import.meta.url)), "../.env") });
@@ -29,7 +29,7 @@ const program = new Command()
   .option("-o, --output <path>", "Output registry.json", "../plugin/lua/theme-browser/data/registry.json")
   .option("-n, --count <n>", "Number of themes to include", "50")
   .option("-h, --help", "Show help")
-  .parse(process.argv);
+  .parse(normalizeCliArgv(process.argv));
 
 const rawOpts = program.opts();
 if (rawOpts.help) {

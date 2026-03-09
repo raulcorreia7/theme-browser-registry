@@ -31,6 +31,7 @@ interface OutputTheme {
     name: string;
     colorscheme?: string;
     mode?: ThemeMode;
+    modeExempt?: boolean;
   }>;
   meta?: {
     strategy?: { type?: LoadStrategy };
@@ -107,7 +108,7 @@ export function run(options: ValidateOptions): ValidateResult {
           darkModeCount++;
         } else if (vMode === "light") {
           lightModeCount++;
-        } else {
+        } else if (!v.modeExempt) {
           missingModeVariants++;
         }
       }

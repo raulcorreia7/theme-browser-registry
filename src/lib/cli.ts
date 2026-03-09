@@ -1,5 +1,16 @@
 import { z } from "zod";
 
+export function normalizeCliArgv(argv: string[]): string[] {
+  const normalized = [...argv];
+  const separatorIndex = normalized.indexOf("--", 2);
+
+  if (separatorIndex !== -1) {
+    normalized.splice(separatorIndex, 1);
+  }
+
+  return normalized;
+}
+
 export const BaseTaskOptionsSchema = z.object({
   verbose: z.boolean().default(false),
   help: z.boolean().default(false),
@@ -12,7 +23,7 @@ export const SyncCliOptionsSchema = BaseTaskOptionsSchema.extend({
 
 export const DetectCliOptionsSchema = BaseTaskOptionsSchema.extend({
   index: z.string().default("artifacts/index.json"),
-  sources: z.string().default("sources"),
+  sources: z.string().default("config/sources"),
   output: z.string().default("reports"),
   cache: z.string().default(".cache/theme-verifier"),
   dbCache: z.string().default(".cache/registry.db"),
@@ -24,14 +35,14 @@ export const DetectCliOptionsSchema = BaseTaskOptionsSchema.extend({
 });
 
 export const MergeCliOptionsSchema = BaseTaskOptionsSchema.extend({
-  sources: z.string().default("sources"),
-  output: z.string().default("overrides.json"),
+  sources: z.string().default("config/sources"),
+  output: z.string().default("config/overrides.json"),
 });
 
 export const BuildCliOptionsSchema = BaseTaskOptionsSchema.extend({
-  config: z.string().default("config.json"),
+  config: z.string().default("config/registry.json"),
   index: z.string().default("artifacts/index.json"),
-  overrides: z.string().default("overrides.json"),
+  overrides: z.string().default("config/overrides.json"),
   output: z.string().default("artifacts/themes.json"),
   minify: z.boolean().default(false),
 });
@@ -47,12 +58,12 @@ export const ValidateCliOptionsSchema = BaseTaskOptionsSchema.extend({
 });
 
 export const PipelineCliOptionsSchema = BaseTaskOptionsSchema.extend({
-  config: z.string().default("config.json"),
+  config: z.string().default("config/registry.json"),
   index: z.string().default("artifacts/index.json"),
   themes: z.string().default("artifacts/themes.json"),
-  sources: z.string().default("sources"),
+  sources: z.string().default("config/sources"),
   reports: z.string().default("reports"),
-  overrides: z.string().default("overrides.json"),
+  overrides: z.string().default("config/overrides.json"),
   top50: z.string().default("artifacts/themes-top-50.json"),
   manifest: z.string().default("artifacts/manifest.json"),
   localRegistry: z.string().default("../plugin/lua/theme-browser/data/registry.json"),

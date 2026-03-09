@@ -5,7 +5,7 @@
  * Usage: tsx tasks/01-sync.ts [options]
  *
  * Options:
- *   -c, --config <path>   Config file (required)
+ *   -c, --config <path>   Config file (default: config/registry.json)
  *   -v, --verbose         Enable verbose logging
  *   -f, --force           Force refresh all repos
  *   -h, --help            Show help
@@ -17,7 +17,7 @@ import { Command } from "commander";
 import consola from "consola";
 import { run as runSync } from "@/sync";
 import { loadConfig } from "@/lib/config";
-import { SyncCliOptionsSchema, type SyncCliOptions } from "@/lib/cli";
+import { SyncCliOptionsSchema, normalizeCliArgv, type SyncCliOptions } from "@/lib/cli";
 
 config({ path: resolve(dirname(fileURLToPath(import.meta.url)), "../.env") });
 
@@ -26,11 +26,11 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const program = new Command()
   .name("01-sync")
   .description("Sync themes from GitHub to index.json")
-  .requiredOption("-c, --config <path>", "Path to configuration file")
+  .option("-c, --config <path>", "Path to configuration file", "config/registry.json")
   .option("-v, --verbose", "Enable verbose logging", false)
   .option("-f, --force", "Force refresh all repos", false)
   .option("-h, --help", "Show help")
-  .parse(process.argv);
+  .parse(normalizeCliArgv(process.argv));
 
 const rawOpts = program.opts();
 if (rawOpts.help) {
@@ -45,7 +45,7 @@ const cliOptions = SyncCliOptionsSchema.parse({
 
 async function main() {
   const cfg = await loadConfig(cliOptions.config);
-  
+
   const result = await runSync({
     config: cfg,
     force: cliOptions.force,

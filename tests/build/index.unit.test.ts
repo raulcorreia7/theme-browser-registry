@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it } from "vitest";
-import { mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import { run as runBuild } from "../../src/build";
@@ -105,5 +105,68 @@ describe("build/index", () => {
     expect(built[0]?.variants?.[1]?.name).toBe("kanagawa + azure");
     expect(built[0]?.variants?.[1]?.variant).toBe("eldritch-kanagawa-azure");
     expect(built[0]?.variants?.[1]?.colorscheme).toBe("eldritch-kanagawa-azure");
+  });
+
+  it("applies variant mode hints and mode exemptions from source hints", () => {
+    const dir = mkdtempSync(join(tmpdir(), "registry-build-"));
+    tempDirs.push(dir);
+
+    const indexPath = join(dir, "index.json");
+    const overridesPath = join(dir, "overrides.json");
+    const outputPath = join(dir, "themes.json");
+    const sourcesDir = join(dir, "sources");
+    const hintsPath = join(sourcesDir, "hints.json");
+
+    writeJson(indexPath, [
+      {
+        name: "example-theme",
+        repo: "example/theme.nvim",
+        colorscheme: "example-theme",
+        variants: [
+          { name: "example-theme-rise", colorscheme: "example-theme-rise" },
+          { name: "example-theme-adaptive", colorscheme: "example-theme-adaptive" },
+        ],
+      },
+    ]);
+
+    writeJson(overridesPath, { overrides: [] });
+    mkdirSync(sourcesDir, { recursive: true });
+    writeFileSync(
+      hintsPath,
+      JSON.stringify(
+        {
+          hints: [
+            {
+              repo: "example/theme.nvim",
+              variantModes: {
+                "example-theme-rise": "light",
+              },
+              modeExemptVariants: ["example-theme-adaptive"],
+            },
+          ],
+        },
+        null,
+        2,
+      ),
+    );
+
+    runBuild({
+      index: indexPath,
+      overrides: overridesPath,
+      output: outputPath,
+    });
+
+    const built = JSON.parse(readFileSync(outputPath, "utf8")) as Array<{
+      variants?: Array<{
+        name?: string;
+        colorscheme?: string;
+        mode?: string;
+        modeExempt?: boolean;
+      }>;
+    }>;
+    expect(built[0]?.variants).toEqual([
+      { name: "example-theme-rise", colorscheme: "example-theme-rise", mode: "light" },
+      { name: "example-theme-adaptive", colorscheme: "example-theme-adaptive", modeExempt: true },
+    ]);
   });
 });

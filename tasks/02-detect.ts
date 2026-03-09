@@ -6,7 +6,7 @@
  *
  * Options:
  *   -i, --index <path>       Index file (default: artifacts/index.json)
- *   -s, --sources <dir>      Sources directory (default: sources)
+ *   -s, --sources <dir>      Sources directory (default: config/sources)
  *   -o, --output <dir>       Output directory (default: reports)
  *   -n, --sample <n>         Process first N repos only
  *   -r, --repo <owner/repo>  Process single repo
@@ -21,7 +21,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Command } from "commander";
 import consola from "consola";
-import { DetectCliOptionsSchema, type DetectCliOptions } from "@/lib/cli";
+import { DetectCliOptionsSchema, normalizeCliArgv, type DetectCliOptions } from "@/lib/cli";
 import { run as runDetection, applyDetectionPatch, saveSources, type DetectOptions } from "@/detect";
 import type { ThemeEntry } from "@/lib/types";
 import { GitHubClient } from "@/sync/github";
@@ -36,7 +36,7 @@ const program = new Command()
   .name("02-detect")
   .description("Detect theme loading strategies")
   .option("-i, --index <path>", "Index file", "artifacts/index.json")
-  .option("-s, --sources <dir>", "Sources directory", "sources")
+  .option("-s, --sources <dir>", "Sources directory", "config/sources")
   .option("-o, --output <dir>", "Output directory", "reports")
   .option("-n, --sample <n>", "Process first N repos")
   .option("-r, --repo <owner/repo>", "Process single repo")
@@ -45,7 +45,7 @@ const program = new Command()
   .option("--no-cache", "Disable cache", false)
   .option("-v, --verbose", "Show detailed output", false)
   .option("-h, --help", "Show help")
-  .parse(process.argv);
+  .parse(normalizeCliArgv(process.argv));
 
 const rawOpts = program.opts();
 if (rawOpts.help) {
@@ -114,7 +114,7 @@ async function main() {
     consola.info(`Applying ${patch.length} strategy updates...`);
 
     const themes = readJson<ThemeEntry[]>(options.indexFile);
-    const overridesPath = resolve(options.sourcesDir, "overrides.json");
+    const overridesPath = resolve(options.sourcesDir, "../overrides.json");
 
     type SourcesFile = { overrides: ThemeEntry[]; builtin?: ThemeEntry[] };
     let sources: SourcesFile;

@@ -15,6 +15,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Command } from "commander";
 import consola from "consola";
+import { normalizeCliArgv } from "@/lib/cli";
 import { ensureDir } from "@/lib/io";
 
 type ThemeMode = "dark" | "light";
@@ -74,7 +75,7 @@ const program = new Command()
   .option("-o, --output <path>", "Output file", "artifacts/themes-top-50.json")
   .option("-c, --count <n>", "Number of themes", "50")
   .option("-h, --help", "Show help")
-  .parse(process.argv);
+  .parse(normalizeCliArgv(process.argv));
 
 const opts = program.opts();
 if (opts.help) {

@@ -121,6 +121,16 @@
       }
     },
     {
+      "name": "bearded",
+      "repo": "Ferouk/bearded-nvim",
+      "colorscheme": "bearded",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
       "name": "bebop",
       "repo": "ATTron/bebop.nvim",
       "colorscheme": "bebop",
@@ -184,6 +194,16 @@
       "name": "boo",
       "repo": "rockerBOO/boo-colorscheme-nvim",
       "colorscheme": "boo",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "boo-berry",
+      "repo": "mrpbennett/boo-berry.nvim",
+      "colorscheme": "boo-berry",
       "meta": {
         "strategy": {
           "type": "setup"
@@ -314,6 +334,16 @@
       "name": "cuddlefish",
       "repo": "comfysage/cuddlefish.nvim",
       "colorscheme": "cuddlefish",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "cwal",
+      "repo": "nitinbhat972/cwal.nvim",
+      "colorscheme": "cwal",
       "meta": {
         "strategy": {
           "type": "setup"
@@ -571,6 +601,16 @@
       }
     },
     {
+      "name": "fleur",
+      "repo": "aikhe/fleur.nvim",
+      "colorscheme": "fleur",
+      "meta": {
+        "strategy": {
+          "type": "load"
+        }
+      }
+    },
+    {
       "name": "fluoromachine",
       "repo": "maxmx03/fluoromachine.nvim",
       "colorscheme": "fluoromachine",
@@ -773,6 +813,16 @@
     {
       "name": "jellybeans",
       "repo": "nanotech/jellybeans.vim",
+      "colorscheme": "jellybeans",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "jellybeans",
+      "repo": "WTFox/jellybeans.nvim",
       "colorscheme": "jellybeans",
       "meta": {
         "strategy": {
@@ -1401,6 +1451,16 @@
       }
     },
     {
+      "name": "obscure",
+      "repo": "miroslv/obscure.nvim",
+      "colorscheme": "obscure",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
       "name": "oceanic-material",
       "repo": "nvimdev/oceanic-material",
       "colorscheme": "oceanic_material",
@@ -1706,7 +1766,7 @@
       "colorscheme": "sequoia",
       "meta": {
         "strategy": {
-          "type": "colorscheme"
+          "type": "setup"
         }
       }
     },
@@ -1856,7 +1916,7 @@
       "colorscheme": "synthweave",
       "meta": {
         "strategy": {
-          "type": "colorscheme"
+          "type": "setup"
         }
       }
     },
@@ -2393,6 +2453,16 @@
     {
       "name": "yorumi",
       "repo": "yorumicolors/yorumi.nvim",
+      "colorscheme": "yorumi",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "yorumi",
+      "repo": "yorumicolors/yorumi",
       "colorscheme": "yorumi",
       "meta": {
         "strategy": {

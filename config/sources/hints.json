@@ -98,6 +98,9 @@
         "zenburned": "dark",
         "zenwritten": "light"
       },
+      "modeExemptVariants": [
+        "randombones"
+      ],
       "reason": "Zenbones variants: bones=light, others vary"
     },
     {
@@ -169,6 +172,7 @@
       "repo": "neko-night/nvim",
       "strategy": "setup",
       "variantModes": {
+        "nekonight-arcdark": "dark",
         "nekonight-aura": "dark",
         "nekonight-aurora": "dark",
         "nekonight-day": "light",
@@ -186,6 +190,7 @@
         "nekonight-nord": "dark",
         "nekonight-onedark": "dark",
         "nekonight-onedark-deep": "dark",
+        "nekonight-palenight": "dark",
         "nekonight-shades-of-purple": "dark",
         "nekonight-shades-of-purple-dark": "dark",
         "nekonight-shades-of-purple-light": "light",
@@ -241,6 +246,28 @@
       "reason": "Ef-themes: variants ending in -light and specific light themes (day/light/cyprus/eagle/frost/kassio/reverie/spring/summer) are light, all others dark"
     },
     {
+      "repo": "forest-nvim/sequoia.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "sequoia-main": "dark",
+        "sequoia-night": "dark",
+        "sequoia-fog": "dark",
+        "sequoia-ember": "dark",
+        "sequoia-moss": "dark",
+        "sequoia-rise": "light"
+      },
+      "reason": "Sequoia source sets main/night/fog/ember/moss to background=dark and rise to background=light"
+    },
+    {
+      "repo": "oskarnurm/koda.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "koda-moss": "dark",
+        "koda-glade": "light"
+      },
+      "reason": "Koda source defines moss with a dark background palette and glade with a light background palette"
+    },
+    {
       "repo": "Iron-E/nvim-highlite",
       "strategy": "setup",
       "variantModes": {
@@ -270,16 +297,20 @@
       "repo": "uhs-robert/oasis.nvim",
       "strategy": "setup",
       "variantModes": {
+        "oasis-abyss": "dark",
+        "oasis-cactus": "dark",
+        "oasis-canyon": "dark",
         "oasis-mirage": "dark",
         "oasis-desert": "dark",
         "oasis-dune": "dark",
-        "oasis-canyon": "dark",
-        "oasis-sol": "light",
-        "oasis-rose": "light",
         "oasis-lagoon": "dark",
-        "oasis-cactus": "dark"
+        "oasis-midnight": "dark",
+        "oasis-rose": "light",
+        "oasis-sol": "light",
+        "oasis-starlight": "dark",
+        "oasis-twilight": "dark"
       },
-      "reason": "Oasis variants: desert/dune/canyon/mirage dark, sol/rose light"
+      "reason": "Oasis README explicitly groups abyss/midnight/starlight/twilight with the dark styles; sol/rose are light"
     },
     {
       "repo": "earthbound-themes/vim",
@@ -638,11 +669,166 @@
       "repo": "ricardoraposo/nightwolf.nvim",
       "strategy": "setup",
       "variantModes": {
+        "nightwolf-black": "dark",
         "nightwolf-dark-blue": "dark",
         "nightwolf-dark-gray": "dark",
         "nightwolf-gray": "dark"
       },
       "reason": "Nightwolf: all variants are dark themes"
+    },
+    {
+      "repo": "raulcorreia7/eldritch.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "eldritch-glow-amber": "dark",
+        "eldritch-glow-aqua": "dark",
+        "eldritch-glow-arctic": "dark",
+        "eldritch-glow-cobalt": "dark",
+        "eldritch-glow-crimson": "dark",
+        "eldritch-glow-emerald": "dark",
+        "eldritch-glow-fuchsia": "dark",
+        "eldritch-glow-orchid": "dark",
+        "eldritch-glow-solar": "dark",
+        "eldritch-glow-violet": "dark",
+        "eldritch-gruvbox-fusion": "dark",
+        "eldritch-kanagawa": "dark",
+        "eldritch-kanagawa-fusion": "dark",
+        "eldritch-kanagawa-fusion-glow": "dark",
+        "eldritch-kanagawa-fusion-green": "dark",
+        "eldritch-kanagawa-fusion-mid": "dark",
+        "eldritch-kanagawa-fusion-pop": "dark",
+        "eldritch-kanagawa-fusion-purple": "dark",
+        "eldritch-minimal": "dark",
+        "eldritch-tokyonight-fusion": "dark"
+      },
+      "reason": "Eldritch README describes the fork variants as dark-theme families and additions; no light variants are documented"
+    },
+    {
+      "repo": "WTFox/jellybeans.nvim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "jellybeans-default": "dark",
+        "jellybeans-mono": "dark",
+        "jellybeans-muted": "dark"
+      },
+      "reason": "Jellybeans README explicitly labels default, mono, and muted as dark variants and documents separate light counterparts"
+    },
+    {
+      "repo": "wnkz/monoglow.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "monoglow-lack": "dark",
+        "monoglow-void": "dark",
+        "monoglow-z": "dark"
+      },
+      "reason": "Monoglow README lists lack/void/z alongside a separate monoglow-light variant"
+    },
+    {
+      "repo": "vinitkumar/oscura-vim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "oscura-dusk": "dark",
+        "oscura-dusk-light": "light"
+      },
+      "reason": "Oscura README explicitly labels dusk as dark and dusk-light as light"
+    },
+    {
+      "repo": "atelierbram/Base2Tone-nvim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "base2tone_morning_dark": "dark"
+      },
+      "reason": "Base2Tone README lists base2tone_morning_dark under the dark schemes"
+    },
+    {
+      "repo": "cmoscofian/nibble-vim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "nibblelight": "light"
+      },
+      "reason": "Nibble ships both nibble.vim and nibblelight.vim; nibblelight is the light variant"
+    },
+    {
+      "repo": "katawful/kat.nvim",
+      "strategy": "colorscheme",
+      "modeExemptVariants": [
+        "kat.nwim"
+      ],
+      "reason": "kat.nwim is the soft-contrast colorscheme and the source renders it for both light and dark backgrounds"
+    },
+    {
+      "repo": "scozu/karasu",
+      "strategy": "setup",
+      "variantModes": {
+        "karasu-snow": "light"
+      },
+      "reason": "Karasu README explicitly documents Night as dark and Snow as light"
+    },
+    {
+      "repo": "ClearAspect/onehalf",
+      "strategy": "setup",
+      "variantModes": {
+        "onehalflight": "light"
+      },
+      "reason": "OneHalf README explicitly documents onehalfdark and onehalflight"
+    },
+    {
+      "repo": "aktersnurra/no-clown-fiesta.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "no-clown-fiesta-dim": "dark"
+      },
+      "reason": "No-clown-fiesta README documents dim as a low-contrast dark theme"
+    },
+    {
+      "repo": "samharju/synthweave.nvim",
+      "strategy": "setup",
+      "variantModes": {
+        "synthweave-transparent": "dark"
+      },
+      "reason": "Synthweave source always sets background=dark; the transparent variant only toggles transparency"
+    },
+    {
+      "repo": "samharju/serene.nvim",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "serene-transparent": "dark"
+      },
+      "reason": "Serene source always sets background=dark; the transparent variant only toggles background transparency"
+    },
+    {
+      "repo": "aikhe/fleur.nvim",
+      "strategy": "load",
+      "modeExemptVariants": [
+        "fleur-lisianthus",
+        "fleur-lulumi"
+      ],
+      "reason": "Fleur variants are syntax tweaks layered on top of the active dark/light background palette, not fixed modes"
+    },
+    {
+      "repo": "zcodes/vim-colors-basic",
+      "strategy": "colorscheme",
+      "variantModes": {
+        "basic-eighties": "dark",
+        "basic-spacegray": "dark"
+      },
+      "reason": "basic-eighties.vim and basic-spacegray.vim both set background=dark in source"
+    },
+    {
+      "repo": "yorumicolors/yorumi",
+      "strategy": "colorscheme",
+      "modeExemptVariants": [
+        "yorumi-abyss"
+      ],
+      "reason": "Reviewed upstream repo does not provide enough source-level evidence to classify yorumi-abyss as fixed dark or light yet"
+    },
+    {
+      "repo": "yorumicolors/yorumi.nvim",
+      "strategy": "colorscheme",
+      "modeExemptVariants": [
+        "yorumi-abyss"
+      ],
+      "reason": "Reviewed upstream repo does not provide enough source-level evidence to classify yorumi-abyss as fixed dark or light yet"
     },
     {
       "repo": "Mizux/vim-colorschemes",

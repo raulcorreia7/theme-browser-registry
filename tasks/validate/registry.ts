@@ -13,19 +13,19 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Command } from "commander";
 import consola from "consola";
-import { ValidateCliOptionsSchema, type ValidateCliOptions } from "@/lib/cli";
+import { ValidateCliOptionsSchema, normalizeCliArgv, type ValidateCliOptions } from "@/lib/cli";
 import { run as runValidate } from "@/validate";
 
-config({ path: resolve(dirname(fileURLToPath(import.meta.url)), "../.env") });
-
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
+
+config({ path: resolve(ROOT, ".env") });
 
 const program = new Command()
   .name("validate-registry")
   .description("Validate themes.json registry completeness")
   .option("-i, --input <path>", "Themes.json path", "artifacts/themes.json")
   .option("-h, --help", "Show help")
-  .parse(process.argv);
+  .parse(normalizeCliArgv(process.argv));
 
 const rawOpts = program.opts();
 if (rawOpts.help) {
@@ -33,7 +33,9 @@ if (rawOpts.help) {
   process.exit(0);
 }
 
-const cliOptions: ValidateCliOptions = ValidateCliOptionsSchema.parse(rawOpts);
+const cliOptions: ValidateCliOptions = ValidateCliOptionsSchema.parse({
+  themesPath: rawOpts.input,
+});
 
 const result = runValidate({
   input: resolve(ROOT, cliOptions.themesPath),

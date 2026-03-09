@@ -63,12 +63,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate manifest
-        run: pnpm task:manifest
-
-      - name: Generate top 50 themes file
-        run: pnpm task:top50
-
       - name: Get package version
         id: version
         run: echo "value=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"

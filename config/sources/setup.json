@@ -1,6 +1,6 @@
 {
   "strategy": "setup",
-  "count": 105,
+  "count": 111,
   "themes": [
     {
       "name": "abyss",
@@ -36,6 +36,16 @@
       "name": "bamboo",
       "repo": "ribru17/bamboo.nvim",
       "colorscheme": "bamboo",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "bearded",
+      "repo": "Ferouk/bearded-nvim",
+      "colorscheme": "bearded",
       "meta": {
         "strategy": {
           "type": "setup"
@@ -86,6 +96,16 @@
       "name": "boo",
       "repo": "rockerBOO/boo-colorscheme-nvim",
       "colorscheme": "boo",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "boo-berry",
+      "repo": "mrpbennett/boo-berry.nvim",
+      "colorscheme": "boo-berry",
       "meta": {
         "strategy": {
           "type": "setup"
@@ -176,6 +196,16 @@
       "name": "cuddlefish",
       "repo": "comfysage/cuddlefish.nvim",
       "colorscheme": "cuddlefish",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "cwal",
+      "repo": "nitinbhat972/cwal.nvim",
+      "colorscheme": "cwal",
       "meta": {
         "strategy": {
           "type": "setup"
@@ -743,6 +773,16 @@
       }
     },
     {
+      "name": "obscure",
+      "repo": "miroslv/obscure.nvim",
+      "colorscheme": "obscure",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
       "name": "oldtale",
       "repo": "topazape/oldtale.nvim",
       "colorscheme": "oldtale",
@@ -903,6 +943,16 @@
       }
     },
     {
+      "name": "sequoia",
+      "repo": "forest-nvim/sequoia.nvim",
+      "colorscheme": "sequoia",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
       "name": "sherbet",
       "repo": "lewpoly/sherbet.nvim",
       "colorscheme": "sherbet",
@@ -966,6 +1016,16 @@
       "name": "styler",
       "repo": "folke/styler.nvim",
       "colorscheme": "styler",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "synthweave",
+      "repo": "samharju/synthweave.nvim",
+      "colorscheme": "synthweave",
       "meta": {
         "strategy": {
           "type": "setup"

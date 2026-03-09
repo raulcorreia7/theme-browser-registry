@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import type { ThemeEntry, ThemeMode, ThemeStrategy } from "@/lib/types";
-import { mergeModeHintRecords, resolveModeHint } from "@/lib/mode";
+import { mergeModeHintRecords, normalizeModeHintKey, resolveModeHint } from "@/lib/mode";
 import { inferModeFromColorscheme, isValidThemeName, type ThemeWithMeta } from "./themes";
 
 export * from "./themes";
@@ -27,6 +27,7 @@ interface OutputVariant {
   variant?: string;
   colorscheme?: string;
   mode?: ThemeMode;
+  modeExempt?: boolean;
   strategy?: string;
   module?: string;
 }
@@ -46,34 +47,61 @@ interface OutputTheme {
 interface BuiltinLoadResult {
   builtin: ThemeEntry[];
   variantHints: Map<string, Record<string, ThemeMode>>;
+  modeExemptHints: Map<string, string[]>;
 }
 
 type HintsFile = {
-  hints?: Array<{ repo?: string; variantModes?: Record<string, ThemeMode> }>;
+  hints?: Array<{
+    repo?: string;
+    variantModes?: Record<string, ThemeMode>;
+    modeExemptVariants?: string[];
+  }>;
 };
 
-function loadVariantHints(hintsPath: string): Map<string, Record<string, ThemeMode>> {
+type HintData = {
+  variantHints: Map<string, Record<string, ThemeMode>>;
+  modeExemptHints: Map<string, string[]>;
+};
+
+function hasModeExemptHint(variantName: string, hints: string[]): boolean {
+  const normalizedName = normalizeModeHintKey(variantName);
+  return hints.some((hintName) => normalizeModeHintKey(hintName) === normalizedName);
+}
+
+function loadHintData(hintsPath: string): HintData {
   if (!existsSync(hintsPath)) {
-    return new Map();
+    return {
+      variantHints: new Map(),
+      modeExemptHints: new Map(),
+    };
   }
 
   const hintsRaw = readFileSync(hintsPath, "utf-8");
   const hintsData = JSON.parse(hintsRaw) as HintsFile;
   const variantHints = new Map<string, Record<string, ThemeMode>>();
+  const modeExemptHints = new Map<string, string[]>();
 
   if (!Array.isArray(hintsData.hints)) {
-    return variantHints;
+    return { variantHints, modeExemptHints };
   }
 
   for (const hint of hintsData.hints) {
-    if (!hint.repo || !hint.variantModes) continue;
+    if (!hint.repo) continue;
 
-    const existing = variantHints.get(hint.repo) ?? {};
-    const merged = mergeModeHintRecords(hint.repo, existing, hint.variantModes);
-    variantHints.set(hint.repo, merged);
+    if (hint.variantModes) {
+      const existing = variantHints.get(hint.repo) ?? {};
+      const merged = mergeModeHintRecords(hint.repo, existing, hint.variantModes);
+      variantHints.set(hint.repo, merged);
+    }
+
+    if (Array.isArray(hint.modeExemptVariants) && hint.modeExemptVariants.length > 0) {
+      const existing = modeExemptHints.get(hint.repo) ?? [];
+      const merged = Array.from(new Set([...existing, ...hint.modeExemptVariants]));
+      modeExemptHints.set(hint.repo, merged);
+    }
   }
 
-  return variantHints;
+  return { variantHints, modeExemptHints };
 }
 
 interface OverridesMaps {
@@ -83,20 +111,24 @@ interface OverridesMaps {
 
 function loadBuiltinThemes(overridesPath: string): BuiltinLoadResult {
   if (!existsSync(overridesPath)) {
-    return { builtin: [], variantHints: new Map() };
+    return { builtin: [], variantHints: new Map(), modeExemptHints: new Map() };
   }
 
   const raw = readFileSync(overridesPath, "utf-8");
   const data = JSON.parse(raw) as { builtin?: ThemeEntry[] };
 
   const variantHints = new Map<string, Record<string, ThemeMode>>();
+  const modeExemptHints = new Map<string, string[]>();
   const hintsPath = resolve(dirname(overridesPath), "sources/hints.json");
 
   if (existsSync(hintsPath)) {
     try {
-      const mergedHints = loadVariantHints(hintsPath);
-      for (const [repo, repoHints] of mergedHints) {
+      const hintData = loadHintData(hintsPath);
+      for (const [repo, repoHints] of hintData.variantHints) {
         variantHints.set(repo, repoHints);
+      }
+      for (const [repo, repoHints] of hintData.modeExemptHints) {
+        modeExemptHints.set(repo, repoHints);
       }
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
@@ -108,7 +140,7 @@ function loadBuiltinThemes(overridesPath: string): BuiltinLoadResult {
     ? data.builtin.filter((t) => t && t.name && t.builtin === true)
     : [];
 
-  return { builtin, variantHints };
+  return { builtin, variantHints, modeExemptHints };
 }
 
 function loadOverrides(overridesPath: string): OverridesMaps {
@@ -138,6 +170,7 @@ function buildOptimizedEntry(
   theme: ThemeWithMeta,
   override: ThemeEntry | undefined,
   variantHints: Map<string, Record<string, ThemeMode>>,
+  modeExemptHints: Map<string, string[]>,
 ): OutputTheme {
   const entry: OutputTheme = {
     name: override?.name ?? theme.name,
@@ -171,6 +204,7 @@ function buildOptimizedEntry(
   if (variants && variants.length > 0) {
     const hintsRepo = override?.repo ?? theme.repo;
     const hintsForRepo = hintsRepo ? variantHints.get(hintsRepo) : null;
+    const modeExemptForRepo = hintsRepo ? modeExemptHints.get(hintsRepo) : null;
 
     entry.variants = variants.map((v): OutputVariant => {
       const variant: OutputVariant = {
@@ -196,6 +230,15 @@ function buildOptimizedEntry(
         if (inferred) variant.mode = inferred;
       }
 
+      if (
+        !variant.mode &&
+        modeExemptForRepo &&
+        (hasModeExemptHint(v.name, modeExemptForRepo) ||
+          hasModeExemptHint(v.colorscheme ?? "", modeExemptForRepo))
+      ) {
+        variant.modeExempt = true;
+      }
+
       if (v.meta?.strategy?.type) {
         variant.strategy = v.meta.strategy.type;
         if (v.meta.strategy.module) variant.module = v.meta.strategy.module;
@@ -215,7 +258,7 @@ export function run(options: BuildOptions): BuildResult {
   const themes: ThemeWithMeta[] = JSON.parse(raw);
 
   const { byRepo: overridesMap, byName: overridesByName } = loadOverrides(overrides);
-  const { builtin: builtinThemes, variantHints } = loadBuiltinThemes(overrides);
+  const { builtin: builtinThemes, variantHints, modeExemptHints } = loadBuiltinThemes(overrides);
   const preferredRepoSet = new Set(
     preferredRepos
       .map((repo) => (typeof repo === "string" ? repo.trim().toLowerCase() : ""))
@@ -279,7 +322,7 @@ export function run(options: BuildOptions): BuildResult {
 
   for (const theme of themesByName.values()) {
     const override = theme.repo ? overridesMap.get(theme.repo) : overridesByName.get(theme.name);
-    const entry = buildOptimizedEntry(theme, override, variantHints);
+    const entry = buildOptimizedEntry(theme, override, variantHints, modeExemptHints);
     curated.push(entry);
   }
 

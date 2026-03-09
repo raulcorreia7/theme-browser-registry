@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
-import { writeFileSync, existsSync, mkdirSync, rmSync } from "node:fs";
+import { writeFileSync, existsSync, mkdtempSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import { loadConfig, DEFAULT_CONFIG } from "@/lib/config";
@@ -8,8 +8,7 @@ describe("config", () => {
   let testDir: string;
 
   beforeEach(() => {
-    testDir = join(tmpdir(), `config-test-${Date.now()}`);
-    mkdirSync(testDir, { recursive: true });
+    testDir = mkdtempSync(join(tmpdir(), "config-test-"));
   });
 
   afterEach(() => {
@@ -43,7 +42,7 @@ describe("config", () => {
       expect(DEFAULT_CONFIG.output.themes).toBe("artifacts/themes.json");
       expect(DEFAULT_CONFIG.output.manifest).toBe("artifacts/manifest.json");
       expect(DEFAULT_CONFIG.output.cache).toBe(".state/indexer.db");
-      expect(DEFAULT_CONFIG.overrides).toBe("overrides.json");
+      expect(DEFAULT_CONFIG.overrides).toBe("config/overrides.json");
       expect(DEFAULT_CONFIG.runtime.logLevel).toBe("INFO");
       expect(DEFAULT_CONFIG.sort.by).toBe("stars");
       expect(DEFAULT_CONFIG.sort.order).toBe("desc");

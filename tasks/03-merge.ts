@@ -1,12 +1,12 @@
 #!/usr/bin/env tsx
 /**
- * 03-merge.ts - Merge source files into overrides.json
+ * 03-merge.ts - Merge source files into config/overrides.json
  *
  * Usage: tsx tasks/03-merge.ts [options]
  *
  * Options:
- *   -s, --sources <dir>   Sources directory (default: sources)
- *   -o, --output <path>   Output file (default: overrides.json)
+ *   -s, --sources <dir>   Sources directory (default: config/sources)
+ *   -o, --output <path>   Output file (default: config/overrides.json)
  *   -h, --help            Show help
  */
 import { config } from "dotenv";
@@ -14,7 +14,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Command } from "commander";
 import consola from "consola";
-import { MergeCliOptionsSchema, type MergeCliOptions } from "@/lib/cli";
+import { MergeCliOptionsSchema, normalizeCliArgv, type MergeCliOptions } from "@/lib/cli";
 import { run as runMerge } from "@/merge";
 
 config({ path: resolve(dirname(fileURLToPath(import.meta.url)), "../.env") });
@@ -23,11 +23,11 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
 const program = new Command()
   .name("03-merge")
-  .description("Merge source files into overrides.json")
-  .option("-s, --sources <dir>", "Sources directory", "sources")
-  .option("-o, --output <path>", "Output file", "overrides.json")
+  .description("Merge source files into config/overrides.json")
+  .option("-s, --sources <dir>", "Sources directory", "config/sources")
+  .option("-o, --output <path>", "Output file", "config/overrides.json")
   .option("-h, --help", "Show help")
-  .parse(process.argv);
+  .parse(normalizeCliArgv(process.argv));
 
 const rawOpts = program.opts();
 if (rawOpts.help) {

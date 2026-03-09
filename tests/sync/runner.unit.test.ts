@@ -11,6 +11,7 @@ import {
 } from "@/sync/indexer";
 import { writeJson, writeManifest } from "@/db/files";
 import type { ThemeEntry } from "@/lib/types";
+import { REGISTRY_VERSION } from "@/lib/version";
 
 const SHA256_HEX_LENGTH = 64;
 const TEST_TIMESTAMP = Date.now();
@@ -259,6 +260,7 @@ describe("runner utilities", () => {
       writeManifest(manifestPath, outputPath, EXPECTED_COUNT);
 
       const manifest = JSON.parse(readFileSync(manifestPath, "utf-8"));
+      expect(manifest.version).toBe(REGISTRY_VERSION);
       expect(manifest.count).toBe(EXPECTED_COUNT);
       expect(manifest.sha256).toBeDefined();
       expect(manifest.sha256).toHaveLength(SHA256_HEX_LENGTH);

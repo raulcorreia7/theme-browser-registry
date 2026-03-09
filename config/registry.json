@@ -54,7 +54,7 @@
     "manifest": "artifacts/manifest.json",
     "cache": ".state/indexer.db"
   },
-  "overrides": "overrides.json",
+  "overrides": "config/overrides.json",
   "runtime": {
     "scanIntervalSeconds": 1800,
     "logLevel": "INFO"

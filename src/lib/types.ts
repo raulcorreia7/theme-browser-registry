@@ -6,6 +6,7 @@
  */
 
 import { z } from "zod";
+import { REGISTRY_VERSION } from "@/lib/version";
 
 // =============================================================================
 // Theme Domain - Core theme-related types
@@ -62,6 +63,7 @@ export const ThemeVariantSchema = z.object({
   colorscheme: z.string().min(1),
   meta: ThemeMetaSchema.optional(),
   mode: ThemeModeSchema.optional(),
+  modeExempt: z.boolean().optional(),
   name: z.string().min(1),
   variant: z.string().optional(),
 });
@@ -170,7 +172,7 @@ export const DbExportSchema = z.object({
  * Manifest file schema
  */
 export const ManifestSchema = z.object({
-  version: z.string().default("0.1.0"),
+  version: z.string().default(REGISTRY_VERSION),
   count: z.number().int().nonnegative(),
   generated_at: z.string(),
   sha256: z.string().optional(),

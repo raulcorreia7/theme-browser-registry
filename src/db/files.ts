@@ -1,8 +1,7 @@
 import { createHash } from "node:crypto";
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
-
-const REGISTRY_VERSION = "0.1.0";
+import { REGISTRY_VERSION } from "@/lib/version";
 
 /**
  * Writes a JSON payload to a file, creating parent directories if needed.

@@ -127,7 +127,7 @@ export const ConfigSchema = z.object({
     manifest: "artifacts/manifest.json",
     cache: ".state/indexer.db",
   }),
-  overrides: z.string().catch("overrides.json"),
+  overrides: z.string().catch("config/overrides.json"),
   runtime: RuntimeSchema.catch({ scanIntervalSeconds: 1800, logLevel: "INFO" }),
   sort: SortSchema.catch({ by: "stars", order: "desc" }),
   publish: PublishSchema.catch({

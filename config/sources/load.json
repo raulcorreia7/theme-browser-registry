@@ -1,11 +1,21 @@
 {
   "strategy": "load",
-  "count": 9,
+  "count": 10,
   "themes": [
     {
       "name": "everforest",
       "repo": "neanias/everforest-nvim",
       "colorscheme": "everforest",
+      "meta": {
+        "strategy": {
+          "type": "load"
+        }
+      }
+    },
+    {
+      "name": "fleur",
+      "repo": "aikhe/fleur.nvim",
+      "colorscheme": "fleur",
       "meta": {
         "strategy": {
           "type": "load"

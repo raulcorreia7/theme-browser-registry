@@ -5,9 +5,9 @@
  * Usage: tsx tasks/04-build.ts [options]
  *
  * Options:
- *   -c, --config <path>     Config file (default: config.json)
+ *   -c, --config <path>     Config file (default: config/registry.json)
  *   -i, --index <path>      Index file (default: artifacts/index.json)
- *   -o, --overrides <path>  Overrides file (default: overrides.json)
+ *   -o, --overrides <path>  Overrides file (default: config/overrides.json)
  *   -O, --output <path>     Output file (default: artifacts/themes.json)
  *   --minify                Output minified JSON
  *   -h, --help              Show help
@@ -17,7 +17,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Command } from "commander";
 import consola from "consola";
-import { BuildCliOptionsSchema, type BuildCliOptions } from "@/lib/cli";
+import { BuildCliOptionsSchema, normalizeCliArgv, type BuildCliOptions } from "@/lib/cli";
 import { run as runBuild } from "@/build";
 import { loadConfig } from "@/lib/config";
 
@@ -28,13 +28,13 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const program = new Command()
   .name("04-build")
   .description("Generate optimized themes.json for plugin")
-  .option("-c, --config <path>", "Config file", "config.json")
+  .option("-c, --config <path>", "Config file", "config/registry.json")
   .option("-i, --index <path>", "Index file", "artifacts/index.json")
-  .option("-o, --overrides <path>", "Overrides file", "overrides.json")
+  .option("-o, --overrides <path>", "Overrides file", "config/overrides.json")
   .option("-O, --output <path>", "Output file", "artifacts/themes.json")
   .option("--minify", "Output minified JSON", false)
   .option("-h, --help", "Show help")
-  .parse(process.argv);
+  .parse(normalizeCliArgv(process.argv));
 
 const rawOpts = program.opts();
 if (rawOpts.help) {

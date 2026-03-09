@@ -13,8 +13,9 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { Command } from "commander";
 import consola from "consola";
 import { loadConfig } from "@/lib/config";
-import { PipelineCliOptionsSchema, type PipelineCliOptions } from "@/lib/cli";
+import { PipelineCliOptionsSchema, normalizeCliArgv, type PipelineCliOptions } from "@/lib/cli";
 import type { ThemeEntry, ThemeMode } from "@/lib/types";
+import { REGISTRY_VERSION } from "@/lib/version";
 import { run as runSync } from "@/sync";
 import { run as runDetection, applyDetectionPatch, saveSources, type DetectOptions } from "@/detect";
 import { run as runMerge } from "@/merge";
@@ -27,7 +28,6 @@ import { RepoCache } from "@/db/sqlite";
 
 type ThemeVariant = { mode?: ThemeMode };
 type ThemeRow = { name: string; stars?: number; mode?: ThemeMode; variants?: ThemeVariant[] };
-type PackageJson = { version?: string };
 type SourcesFile = { overrides: ThemeEntry[]; builtin?: ThemeEntry[] };
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -37,12 +37,12 @@ loadEnv({ path: resolve(ROOT, ".env") });
 const program = new Command()
   .name("pipeline")
   .description("Run full registry pipeline with optional local testing outputs")
-  .option("-c, --config <path>", "Config file", "config.json")
+  .option("-c, --config <path>", "Config file", "config/registry.json")
   .option("-i, --index <path>", "Index output", "artifacts/index.json")
   .option("-O, --themes <path>", "Themes output", "artifacts/themes.json")
-  .option("-s, --sources <dir>", "Sources directory", "sources")
+  .option("-s, --sources <dir>", "Sources directory", "config/sources")
   .option("-r, --reports <dir>", "Reports directory", "reports")
-  .option("-o, --overrides <path>", "Overrides output", "overrides.json")
+  .option("-o, --overrides <path>", "Overrides output", "config/overrides.json")
   .option("-t, --top50 <path>", "Top themes output", "artifacts/themes-top-50.json")
   .option("-m, --manifest <path>", "Manifest output", "artifacts/manifest.json")
   .option(
@@ -56,7 +56,7 @@ const program = new Command()
   .option("--no-detect-apply", "Do not apply detect patch to source files")
   .option("--testing", "Testing mode (isolated local outputs)", false)
   .option("-h, --help", "Show help")
-  .parse(process.argv);
+  .parse(normalizeCliArgv(process.argv));
 
 const rawOpts = program.opts();
 if (rawOpts.help) {
@@ -126,14 +126,12 @@ function writeTopThemes(inputPath: string, outputPath: string, count: number): n
 }
 
 function writeManifest(themesPath: string, manifestPath: string): { version: string; count: number } {
-  const packagePath = resolve(ROOT, "package.json");
-  const pkg = JSON.parse(readFileSync(packagePath, "utf-8")) as PackageJson;
   const rawThemes = readFileSync(themesPath);
   const themes = JSON.parse(rawThemes.toString("utf-8")) as unknown[];
   const checksum = createHash("sha256").update(rawThemes).digest("hex");
 
   const manifest = {
-    version: pkg.version ?? "0.1.0",
+    version: REGISTRY_VERSION,
     count: themes.length,
     generated_at: new Date().toISOString(),
     sha256: checksum,
@@ -145,7 +143,7 @@ function writeManifest(themesPath: string, manifestPath: string): { version: str
 }
 
 function loadSourcesForPatch(sourcesDir: string): SourcesFile {
-  const overridesPath = resolve(sourcesDir, "overrides.json");
+  const overridesPath = resolve(sourcesDir, "../overrides.json");
   if (existsSync(overridesPath)) {
     return readJson<SourcesFile>(overridesPath);
   }

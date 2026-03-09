@@ -112,7 +112,7 @@ function writeJsonFile(filePath: string, data: unknown): void {
 }
 
 function loadSources(sourcesDir: string): SourcesFile {
-  const overridesPath = path.join(sourcesDir, "overrides.json");
+  const overridesPath = path.join(path.dirname(sourcesDir), "overrides.json");
   if (existsSync(overridesPath)) {
     return readJsonFile<SourcesFile>(overridesPath);
   }

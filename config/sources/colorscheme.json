@@ -373,6 +373,16 @@
       }
     },
     {
+      "name": "jellybeans",
+      "repo": "WTFox/jellybeans.nvim",
+      "colorscheme": "jellybeans",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
       "name": "joker",
       "repo": "ksevelyar/joker.vim",
       "colorscheme": "joker",
@@ -733,16 +743,6 @@
       }
     },
     {
-      "name": "sequoia",
-      "repo": "forest-nvim/sequoia.nvim",
-      "colorscheme": "sequoia",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
       "name": "serene",
       "repo": "samharju/serene.nvim",
       "colorscheme": "serene",
@@ -806,16 +806,6 @@
       "name": "starrynight",
       "repo": "josegamez82/starrynight",
       "colorscheme": "starrynight",
-      "meta": {
-        "strategy": {
-          "type": "colorscheme"
-        }
-      }
-    },
-    {
-      "name": "synthweave",
-      "repo": "samharju/synthweave.nvim",
-      "colorscheme": "synthweave",
       "meta": {
         "strategy": {
           "type": "colorscheme"
@@ -1275,6 +1265,16 @@
     {
       "name": "yorumi",
       "repo": "yorumicolors/yorumi.nvim",
+      "colorscheme": "yorumi",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "yorumi",
+      "repo": "yorumicolors/yorumi",
       "colorscheme": "yorumi",
       "meta": {
         "strategy": {

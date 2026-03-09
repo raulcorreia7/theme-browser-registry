@@ -8,39 +8,29 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
-    "start": "tsx src/cli.ts",
-    "dev": "tsx watch src/cli.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
+    "verify": "pnpm test && pnpm validate",
     "lint": "eslint src",
     "format": "prettier --write src",
     "format:check": "prettier --check src",
     "clean": "rm -rf dist coverage .state artifacts reports",
-    "task:sync": "tsx tasks/01-sync.ts -c config.json",
-    "task:detect": "tsx tasks/02-detect.ts --apply",
-    "task:detect:dryrun": "tsx tasks/02-detect.ts",
-    "task:merge": "tsx tasks/03-merge.ts",
-    "task:build": "tsx tasks/04-build.ts",
-    "task:bundle": "tsx tasks/05-bundle.ts",
-    "task:manifest": "tsx tasks/06-manifest.ts",
-    "task:top50": "tsx tasks/07-top-themes.ts",
-    "task:pipeline": "tsx tasks/pipeline.ts -c config.json",
-    "task:validate": "tsx tasks/validate/registry.ts",
-    "sync": "tsx tasks/01-sync.ts -c config.json",
+    "sync": "tsx tasks/01-sync.ts",
     "detect": "tsx tasks/02-detect.ts --apply",
-    "detect:dryrun": "tsx tasks/02-detect.ts",
+    "detect:dry-run": "tsx tasks/02-detect.ts",
     "merge": "tsx tasks/03-merge.ts",
-    "build:themes": "tsx tasks/04-build.ts",
-    "build:manifest": "tsx tasks/06-manifest.ts",
-    "build:top50": "tsx tasks/07-top-themes.ts",
+    "themes": "tsx tasks/04-build.ts",
+    "manifest": "tsx tasks/06-manifest.ts",
+    "top50": "tsx tasks/07-top-themes.ts",
     "bundle": "tsx tasks/05-bundle.ts",
     "validate": "tsx tasks/validate/registry.ts",
-    "pipeline": "pnpm task:pipeline",
+    "pipeline": "tsx tasks/pipeline.ts",
+    "pipeline:testing": "tsx tasks/pipeline.ts --testing",
     "cli": "tsx src/cli.ts",
-    "watch:cli": "tsx watch src/cli.ts",
-    "publish:cli": "tsx src/cli.ts publish",
-    "export": "tsx src/cli.ts export"
+    "cli:watch": "tsx watch src/cli.ts",
+    "cli:publish": "tsx src/cli.ts publish",
+    "cli:export": "tsx src/cli.ts export"
   },
   "dependencies": {
     "@octokit/plugin-retry": "^8.1.0",
@@ -72,11 +62,6 @@
   },
   "engines": {
     "node": ">=20"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "better-sqlite3"
-    ]
   },
   "packageManager": "pnpm@10.28.0"
 }
