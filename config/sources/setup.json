@@ -1,6 +1,6 @@
 {
   "strategy": "setup",
-  "count": 111,
+  "count": 112,
   "themes": [
     {
       "name": "abyss",
@@ -775,6 +775,16 @@
     {
       "name": "obscure",
       "repo": "miroslv/obscure.nvim",
+      "colorscheme": "obscure",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "obscure",
+      "repo": "mikovskii/obscure.nvim",
       "colorscheme": "obscure",
       "meta": {
         "strategy": {
