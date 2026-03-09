@@ -74,6 +74,9 @@ Use these when you need to debug one stage without running the full pipeline.
 - `pnpm pipeline:testing` keeps curated sources untouched and redirects bundle
   output to `artifacts/testing/registry.json`.
 - Legacy `pnpm task:*` aliases still exist for older local automation.
+- For scheduled refresh runs, prefer the root runbooks and helpers in
+  `../../docs/automation.md`, `../../scripts/registry-refresh.sh`, and
+  `../../scripts/run-registry-docker.sh`.
 
 ## Configuration
 
