@@ -1,0 +1,2 @@
+# embark
+colorscheme embark

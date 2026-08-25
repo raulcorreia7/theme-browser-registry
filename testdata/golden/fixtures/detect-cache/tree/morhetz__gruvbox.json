@@ -1,0 +1,14 @@
+[
+  {
+    "path": "colors/gruvbox.vim",
+    "type": "blob"
+  },
+  {
+    "path": "autoload/gruvbox.vim",
+    "type": "blob"
+  },
+  {
+    "path": "README.md",
+    "type": "blob"
+  }
+]

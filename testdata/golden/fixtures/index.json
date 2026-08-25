@@ -1,0 +1,145 @@
+[
+  {
+    "name": "tokyonight",
+    "repo": "folke/tokyonight.nvim",
+    "colorscheme": "tokyonight",
+    "description": "A clean, dark Neovim theme",
+    "stars": 3200,
+    "topics": [
+      "neovim",
+      "colorscheme"
+    ],
+    "updated_at": "2026-08-01T00:00:00Z",
+    "variants": [
+      {
+        "name": "tokyonight-night",
+        "colorscheme": "tokyonight-night",
+        "mode": "dark"
+      },
+      {
+        "name": "tokyonight-day",
+        "colorscheme": "tokyonight-day",
+        "mode": "light"
+      },
+      {
+        "name": "tokyonight-storm",
+        "colorscheme": "tokyonight-storm",
+        "mode": "dark"
+      }
+    ]
+  },
+  {
+    "name": "onedark",
+    "repo": "navarasu/onedark.nvim",
+    "colorscheme": "onedark",
+    "description": "One Dark Pro theme for Neovim",
+    "stars": 1500,
+    "updated_at": "2026-07-12T00:00:00Z",
+    "variants": [
+      {
+        "name": "onedark-darker",
+        "colorscheme": "onedark-darker",
+        "mode": "dark"
+      },
+      {
+        "name": "onedark-vivid",
+        "colorscheme": "onedark-vivid"
+      }
+    ]
+  },
+  {
+    "name": "gruvbox",
+    "repo": "ellisonleao/gruvbox.nvim",
+    "colorscheme": "gruvbox",
+    "description": "Lua port of gruvbox",
+    "stars": 2400,
+    "updated_at": "2026-06-20T00:00:00Z",
+    "variants": [
+      {
+        "name": "gruvbox-light",
+        "colorscheme": "gruvbox-light",
+        "mode": "light"
+      }
+    ]
+  },
+  {
+    "name": "gruvbox",
+    "repo": "morhetz/gruvbox",
+    "colorscheme": "gruvbox",
+    "description": "The original gruvbox",
+    "stars": 14000,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "name": "catppuccin",
+    "repo": "catppuccin/nvim",
+    "colorscheme": "catppuccin",
+    "description": "Soothing pastel theme",
+    "stars": 6000,
+    "updated_at": "2026-08-10T00:00:00Z",
+    "variants": [
+      {
+        "name": "catppuccin-latte",
+        "colorscheme": "catppuccin-latte",
+        "mode": "light"
+      },
+      {
+        "name": "catppuccin-mocha",
+        "colorscheme": "catppuccin-mocha",
+        "mode": "dark"
+      },
+      {
+        "name": "catppuccin-frappe",
+        "colorscheme": "catppuccin-frappe",
+        "mode": "dark"
+      },
+      {
+        "name": "catppuccin-bold",
+        "colorscheme": "catppuccin-bold"
+      }
+    ]
+  },
+  {
+    "name": "rose-pine",
+    "repo": "rose-pine/neovim",
+    "colorscheme": "rose-pine",
+    "description": "All natural pine, faux retro",
+    "stars": 2100,
+    "updated_at": "2026-07-30T00:00:00Z",
+    "variants": [
+      {
+        "name": "rose-pine-main",
+        "colorscheme": "rose-pine-main"
+      },
+      {
+        "name": "rose-pine-dawn",
+        "colorscheme": "rose-pine-dawn"
+      },
+      {
+        "name": "rose-pine-moon",
+        "colorscheme": "rose-pine-moon"
+      }
+    ]
+  },
+  {
+    "name": "srcery",
+    "repo": "srcery-colors/srcery-vim",
+    "colorscheme": "srcery",
+    "stars": 900,
+    "updated_at": "2026-05-11T00:00:00Z"
+  },
+  {
+    "name": "embark",
+    "repo": "embark/vim-embark",
+    "colorscheme": "embark",
+    "stars": 700,
+    "updated_at": "2026-04-02T00:00:00Z"
+  },
+  {
+    "name": "plain-config",
+    "repo": "testuser/plain-config",
+    "colorscheme": "plain",
+    "stars": 3,
+    "updated_at": "2026-03-03T00:00:00Z"
+  }
+]

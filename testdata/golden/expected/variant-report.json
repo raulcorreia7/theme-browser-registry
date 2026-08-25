@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-08-24T22:11:00.222Z",
+  "summary": {
+    "total_repos_with_variants": 5,
+    "total_variants": 13,
+    "with_mode": 9,
+    "need_detection": 4,
+    "coverage_percent": 69
+  },
+  "by_source": {
+    "pattern": 9,
+    "hint": 0,
+    "readme": 0,
+    "unknown": 4
+  },
+  "repos_needing_attention": [
+    {
+      "repo": "catppuccin/nvim",
+      "total": 4,
+      "withMode": 3,
+      "coverage": 75,
+      "unknownVariants": [
+        "catppuccin-bold"
+      ]
+    },
+    {
+      "repo": "rose-pine/neovim",
+      "total": 3,
+      "withMode": 2,
+      "coverage": 67,
+      "unknownVariants": [
+        "rose-pine-main"
+      ]
+    },
+    {
+      "repo": "navarasu/onedark.nvim",
+      "total": 2,
+      "withMode": 0,
+      "coverage": 0,
+      "unknownVariants": [
+        "onedark-darker",
+        "onedark-vivid"
+      ]
+    }
+  ]
+}

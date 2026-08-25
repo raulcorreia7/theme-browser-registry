@@ -1,0 +1,57 @@
+{
+  "luaModule": {
+    "detected": "load",
+    "confidence": 0.8,
+    "signals": [
+      {
+        "strategy": "load",
+        "score": 4,
+        "reason": "Repo has Lua module without colors/"
+      }
+    ]
+  },
+  "vimColors": {
+    "detected": "colorscheme",
+    "confidence": 1,
+    "signals": [
+      {
+        "strategy": "colorscheme",
+        "score": 6,
+        "reason": "Repo has colors/*.vim without Lua module"
+      }
+    ]
+  },
+  "luaColors": {
+    "detected": "colorscheme",
+    "confidence": 1,
+    "signals": [
+      {
+        "strategy": "colorscheme",
+        "score": 5,
+        "reason": "Repo has colors/*.lua without Lua module"
+      }
+    ]
+  },
+  "pluginDir": {
+    "detected": "unknown",
+    "confidence": 0,
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
+  },
+  "empty": {
+    "detected": "unknown",
+    "confidence": 0,
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
+  }
+}

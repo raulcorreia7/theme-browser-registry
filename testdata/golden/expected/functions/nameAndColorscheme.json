@@ -1,0 +1,42 @@
+{
+  "valid": [
+    [
+      "abababababababababababababababababababababababababababababababab",
+      true
+    ],
+    [
+      "ok-name",
+      true
+    ],
+    [
+      ".hidden",
+      false
+    ],
+    [
+      "x",
+      false
+    ],
+    [
+      "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      false
+    ]
+  ],
+  "infer": [
+    [
+      "tokyonight_day",
+      "light"
+    ],
+    [
+      "day",
+      "light"
+    ],
+    [
+      "unknown-theme",
+      null
+    ],
+    [
+      "base16-oceanicnext",
+      "dark"
+    ]
+  ]
+}

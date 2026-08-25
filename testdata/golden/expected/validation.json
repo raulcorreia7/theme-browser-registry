@@ -1,0 +1,22 @@
+{
+  "passed": false,
+  "errors": [
+    "Total themes (9) is less than 40",
+    "Strategy \"setup\" has only 2 themes (need at least 5)",
+    "Strategy \"load\" has only 0 themes (need at least 5)"
+  ],
+  "warnings": [
+    "3 variants missing mode field"
+  ],
+  "metrics": {
+    "totalThemes": 9,
+    "darkModeVariants": 6,
+    "lightModeVariants": 4,
+    "incompleteThemes": 0,
+    "strategyCounts": {
+      "colorscheme": 7,
+      "setup": 2,
+      "load": 0
+    }
+  }
+}

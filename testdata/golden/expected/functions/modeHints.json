@@ -1,0 +1,27 @@
+{
+  "normalized": [
+    "catppuccinlatte",
+    "rosepinedawn"
+  ],
+  "merges": [
+    {
+      "ok": true,
+      "value": {
+        "dawn": "light",
+        "moon": "dark"
+      }
+    },
+    {
+      "ok": false,
+      "error": "Conflicting mode hints for r/x/mocha: dark vs light"
+    }
+  ],
+  "resolve": [
+    {
+      "mode": "light",
+      "matchedKey": "rosepinedawn",
+      "normalizedMatch": true
+    },
+    null
+  ]
+}

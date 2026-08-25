@@ -1,0 +1,27 @@
+[
+  {
+    "repo": "ellisonleao/gruvbox.nvim",
+    "strategy": "colorscheme",
+    "confidence": 1
+  },
+  {
+    "repo": "embark/vim-embark",
+    "strategy": "colorscheme",
+    "confidence": 1
+  },
+  {
+    "repo": "morhetz/gruvbox",
+    "strategy": "colorscheme",
+    "confidence": 1
+  },
+  {
+    "repo": "navarasu/onedark.nvim",
+    "strategy": "load",
+    "confidence": 1
+  },
+  {
+    "repo": "rose-pine/neovim",
+    "strategy": "setup",
+    "confidence": 1
+  }
+]

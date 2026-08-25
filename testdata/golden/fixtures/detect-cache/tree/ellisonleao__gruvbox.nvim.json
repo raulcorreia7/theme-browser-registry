@@ -1,0 +1,14 @@
+[
+  {
+    "path": "colors/gruvbox.lua",
+    "type": "blob"
+  },
+  {
+    "path": "lua/gruvbox/init.lua",
+    "type": "blob"
+  },
+  {
+    "path": "README.md",
+    "type": "blob"
+  }
+]

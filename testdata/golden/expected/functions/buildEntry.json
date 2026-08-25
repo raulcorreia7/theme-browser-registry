@@ -1,0 +1,13 @@
+{
+  "name": "cooltheme",
+  "repo": "acme/cooltheme.nvim",
+  "colorscheme": "cooltheme",
+  "description": "",
+  "stars": 42,
+  "topics": [
+    "neovim"
+  ],
+  "updated_at": "2026-01-01T00:00:00Z",
+  "archived": false,
+  "disabled": false
+}

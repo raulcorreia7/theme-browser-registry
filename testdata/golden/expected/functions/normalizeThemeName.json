@@ -1,0 +1,14 @@
+{
+  "folke/tokyonight.nvim": "tokyonight",
+  "catppuccin/nvim": "catppuccin",
+  "morhetz/gruvbox": "gruvbox",
+  "ellisonleao/gruvbox.nvim": "gruvbox",
+  "srcery-colors/srcery-vim": "srcery",
+  "embark/vim-embark": "vim-embark",
+  "raulcorreia7/theme": "raulcorreia7",
+  "foo/bar.nvim.lua": "bar.nvim",
+  "someuser/vim": "someuser",
+  "other/_nvim-": "other",
+  "weird/name-colorscheme": "name",
+  "plain/repo-x": "repo-x"
+}

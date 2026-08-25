@@ -1,0 +1,25 @@
+{
+  "strategy": "colorscheme",
+  "themes": [
+    {
+      "name": "onedark",
+      "repo": "navarasu/onedark.nvim",
+      "colorscheme": "onedark",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "srcery",
+      "repo": "srcery-colors/srcery-vim",
+      "colorscheme": "srcery",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    }
+  ]
+}

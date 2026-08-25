@@ -1,0 +1,338 @@
+[
+  {
+    "repo": "catppuccin/nvim",
+    "themeNames": [
+      "catppuccin"
+    ],
+    "currentStrategy": "setup",
+    "detectedStrategy": "setup",
+    "confidence": 1,
+    "status": "match",
+    "signals": [
+      {
+        "strategy": "setup",
+        "score": 6,
+        "reason": "README contains require(...).setup(...)"
+      },
+      {
+        "strategy": "setup",
+        "score": 2,
+        "reason": "README shows setup({...}) options block"
+      },
+      {
+        "strategy": "colorscheme",
+        "score": 4,
+        "reason": "README shows :colorscheme usage"
+      }
+    ],
+    "variants": {
+      "total": 4,
+      "withMode": 3,
+      "detected": [
+        {
+          "name": "catppuccin-latte",
+          "detectedMode": "light",
+          "confidence": 0.95,
+          "source": "pattern",
+          "reason": "Light tokens matched (latte)"
+        },
+        {
+          "name": "catppuccin-mocha",
+          "detectedMode": "dark",
+          "confidence": 0.95,
+          "source": "pattern",
+          "reason": "Dark tokens matched (mocha)"
+        },
+        {
+          "name": "catppuccin-frappe",
+          "detectedMode": "dark",
+          "confidence": 0.95,
+          "source": "pattern",
+          "reason": "Dark tokens matched (frappe)"
+        },
+        {
+          "name": "catppuccin-bold",
+          "confidence": 0,
+          "source": "unknown"
+        }
+      ],
+      "coverage": 75
+    }
+  },
+  {
+    "repo": "ellisonleao/gruvbox.nvim",
+    "themeNames": [
+      "gruvbox"
+    ],
+    "currentStrategy": "missing",
+    "detectedStrategy": "colorscheme",
+    "confidence": 1,
+    "status": "missing-meta",
+    "signals": [
+      {
+        "strategy": "colorscheme",
+        "score": 4,
+        "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "colorscheme",
+        "score": 4,
+        "reason": "README shows vim.cmd(\"colorscheme ...\")"
+      },
+      {
+        "strategy": "file",
+        "score": 2,
+        "reason": "README suggests mode-dependent setup + colorscheme"
+      }
+    ],
+    "variants": {
+      "total": 1,
+      "withMode": 1,
+      "detected": [
+        {
+          "name": "gruvbox-light",
+          "detectedMode": "light",
+          "confidence": 0.95,
+          "source": "pattern",
+          "reason": "Light tokens matched (light)"
+        }
+      ],
+      "coverage": 100
+    }
+  },
+  {
+    "repo": "embark/vim-embark",
+    "themeNames": [
+      "embark"
+    ],
+    "currentStrategy": "missing",
+    "detectedStrategy": "colorscheme",
+    "confidence": 1,
+    "status": "missing-meta",
+    "signals": [
+      {
+        "strategy": "colorscheme",
+        "score": 4,
+        "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "colorscheme",
+        "score": 6,
+        "reason": "Repo has colors/*.vim without Lua module"
+      },
+      {
+        "strategy": "colorscheme",
+        "score": 10,
+        "reason": "Manual hint override"
+      }
+    ]
+  },
+  {
+    "repo": "folke/tokyonight.nvim",
+    "themeNames": [
+      "tokyonight"
+    ],
+    "currentStrategy": "setup",
+    "detectedStrategy": "setup",
+    "confidence": 1,
+    "status": "match",
+    "signals": [
+      {
+        "strategy": "setup",
+        "score": 6,
+        "reason": "README contains require(...).setup(...)"
+      },
+      {
+        "strategy": "setup",
+        "score": 2,
+        "reason": "README shows setup({...}) options block"
+      },
+      {
+        "strategy": "colorscheme",
+        "score": 4,
+        "reason": "README shows vim.cmd.colorscheme(...)"
+      }
+    ],
+    "variants": {
+      "total": 3,
+      "withMode": 3,
+      "detected": [
+        {
+          "name": "tokyonight-night",
+          "detectedMode": "dark",
+          "confidence": 0.95,
+          "source": "pattern",
+          "reason": "Dark tokens matched (night)"
+        },
+        {
+          "name": "tokyonight-day",
+          "detectedMode": "light",
+          "confidence": 0.95,
+          "source": "pattern",
+          "reason": "Light tokens matched (day)"
+        },
+        {
+          "name": "tokyonight-storm",
+          "detectedMode": "dark",
+          "confidence": 0.95,
+          "source": "pattern",
+          "reason": "Dark tokens matched (storm)"
+        }
+      ],
+      "coverage": 100
+    }
+  },
+  {
+    "repo": "morhetz/gruvbox",
+    "themeNames": [
+      "gruvbox"
+    ],
+    "currentStrategy": "missing",
+    "detectedStrategy": "colorscheme",
+    "confidence": 1,
+    "status": "missing-meta",
+    "signals": [
+      {
+        "strategy": "colorscheme",
+        "score": 4,
+        "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "colorscheme",
+        "score": 3,
+        "reason": "README shows vim.g globals without require()"
+      }
+    ]
+  },
+  {
+    "repo": "navarasu/onedark.nvim",
+    "themeNames": [
+      "onedark"
+    ],
+    "currentStrategy": "colorscheme",
+    "detectedStrategy": "load",
+    "confidence": 1,
+    "status": "mismatch",
+    "signals": [
+      {
+        "strategy": "load",
+        "score": 8,
+        "reason": "README contains require(...).load(...)"
+      },
+      {
+        "strategy": "load",
+        "score": 2,
+        "reason": "README shows .load() pattern"
+      }
+    ],
+    "variants": {
+      "total": 2,
+      "withMode": 0,
+      "detected": [
+        {
+          "name": "onedark-darker",
+          "confidence": 0,
+          "source": "unknown"
+        },
+        {
+          "name": "onedark-vivid",
+          "confidence": 0,
+          "source": "unknown"
+        }
+      ],
+      "coverage": 0
+    }
+  },
+  {
+    "repo": "rose-pine/neovim",
+    "themeNames": [
+      "rose-pine"
+    ],
+    "currentStrategy": "missing",
+    "detectedStrategy": "setup",
+    "confidence": 1,
+    "status": "missing-meta",
+    "signals": [
+      {
+        "strategy": "setup",
+        "score": 6,
+        "reason": "README contains require(...).setup(...)"
+      },
+      {
+        "strategy": "colorscheme",
+        "score": 4,
+        "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "colorscheme",
+        "score": 4,
+        "reason": "README shows vim.cmd(\"colorscheme ...\")"
+      }
+    ],
+    "variants": {
+      "total": 3,
+      "withMode": 2,
+      "detected": [
+        {
+          "name": "rose-pine-main",
+          "confidence": 0,
+          "source": "unknown"
+        },
+        {
+          "name": "rose-pine-dawn",
+          "detectedMode": "light",
+          "confidence": 0.95,
+          "source": "pattern",
+          "reason": "Light tokens matched (dawn)"
+        },
+        {
+          "name": "rose-pine-moon",
+          "detectedMode": "dark",
+          "confidence": 0.95,
+          "source": "pattern",
+          "reason": "Dark tokens matched (moon)"
+        }
+      ],
+      "coverage": 67
+    }
+  },
+  {
+    "repo": "srcery-colors/srcery-vim",
+    "themeNames": [
+      "srcery"
+    ],
+    "currentStrategy": "colorscheme",
+    "detectedStrategy": "colorscheme",
+    "confidence": 1,
+    "status": "match",
+    "signals": [
+      {
+        "strategy": "colorscheme",
+        "score": 4,
+        "reason": "README shows :colorscheme usage"
+      },
+      {
+        "strategy": "colorscheme",
+        "score": 6,
+        "reason": "Repo has colors/*.vim without Lua module"
+      }
+    ]
+  },
+  {
+    "repo": "testuser/plain-config",
+    "themeNames": [
+      "plain-config"
+    ],
+    "currentStrategy": "missing",
+    "detectedStrategy": "unknown",
+    "confidence": 0,
+    "status": "missing-meta",
+    "signals": [
+      {
+        "strategy": "unknown",
+        "score": 0,
+        "reason": "No clear signals from source"
+      }
+    ]
+  }
+]

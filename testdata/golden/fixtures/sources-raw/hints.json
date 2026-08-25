@@ -1,0 +1,16 @@
+{
+  "hints": [
+    {
+      "repo": "rose-pine/neovim",
+      "variantModes": {
+        "dawn": "light",
+        "moon": "dark"
+      },
+      "reason": "documented flavours"
+    },
+    {
+      "repo": "embark/vim-embark",
+      "strategy": "colorscheme"
+    }
+  ]
+}

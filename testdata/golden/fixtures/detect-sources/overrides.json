@@ -1,0 +1,52 @@
+{
+  "overrides": [
+    {
+      "name": "catppuccin",
+      "repo": "catppuccin/nvim",
+      "colorscheme": "catppuccin",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "onedark",
+      "repo": "navarasu/onedark.nvim",
+      "colorscheme": "onedark",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "srcery",
+      "repo": "srcery-colors/srcery-vim",
+      "colorscheme": "srcery",
+      "meta": {
+        "strategy": {
+          "type": "colorscheme"
+        }
+      }
+    },
+    {
+      "name": "tokyonight",
+      "repo": "folke/tokyonight.nvim",
+      "colorscheme": "tokyonight",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    }
+  ],
+  "builtin": [
+    {
+      "name": "default-dark",
+      "repo": "testorg/builtin-themes",
+      "colorscheme": "default",
+      "builtin": true
+    }
+  ]
+}

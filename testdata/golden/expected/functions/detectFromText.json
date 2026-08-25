@@ -1,0 +1,86 @@
+{
+  "setup": {
+    "detected": "setup",
+    "confidence": 1,
+    "signals": [
+      {
+        "strategy": "setup",
+        "score": 6,
+        "reason": "README contains require(...).setup(...)"
+      },
+      {
+        "strategy": "setup",
+        "score": 2,
+        "reason": "README shows setup({...}) options block"
+      },
+      {
+        "strategy": "colorscheme",
+        "score": 4,
+        "reason": "README shows :colorscheme usage"
+      }
+    ],
+    "needsSourceInspection": false
+  },
+  "load": {
+    "detected": "load",
+    "confidence": 1,
+    "signals": [
+      {
+        "strategy": "load",
+        "score": 8,
+        "reason": "README contains require(...).load(...)"
+      },
+      {
+        "strategy": "load",
+        "score": 2,
+        "reason": "README shows .load() pattern"
+      }
+    ],
+    "needsSourceInspection": false
+  },
+  "vimGlobal": {
+    "detected": "colorscheme",
+    "confidence": 0.6,
+    "signals": [
+      {
+        "strategy": "colorscheme",
+        "score": 3,
+        "reason": "README shows vim.g globals without require()"
+      }
+    ],
+    "needsSourceInspection": true
+  },
+  "unknown": {
+    "detected": "unknown",
+    "confidence": 0,
+    "signals": [],
+    "needsSourceInspection": true
+  },
+  "mixed": {
+    "detected": "load",
+    "confidence": 1,
+    "signals": [
+      {
+        "strategy": "load",
+        "score": 8,
+        "reason": "README contains require(...).load(...)"
+      },
+      {
+        "strategy": "load",
+        "score": 2,
+        "reason": "README shows .load() pattern"
+      },
+      {
+        "strategy": "setup",
+        "score": 6,
+        "reason": "README contains require(...).setup(...)"
+      },
+      {
+        "strategy": "setup",
+        "score": 2,
+        "reason": "README shows setup({...}) options block"
+      }
+    ],
+    "needsSourceInspection": false
+  }
+}

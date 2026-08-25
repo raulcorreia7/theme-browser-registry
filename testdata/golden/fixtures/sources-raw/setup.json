@@ -1,0 +1,25 @@
+{
+  "strategy": "setup",
+  "themes": [
+    {
+      "name": "tokyonight",
+      "repo": "folke/tokyonight.nvim",
+      "colorscheme": "tokyonight",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    },
+    {
+      "name": "catppuccin",
+      "repo": "catppuccin/nvim",
+      "colorscheme": "catppuccin",
+      "meta": {
+        "strategy": {
+          "type": "setup"
+        }
+      }
+    }
+  ]
+}

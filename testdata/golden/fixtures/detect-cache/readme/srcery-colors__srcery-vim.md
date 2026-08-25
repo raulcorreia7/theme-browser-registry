@@ -1,0 +1,2 @@
+# srcery
+colorscheme srcery

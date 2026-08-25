@@ -1,0 +1,11 @@
+{
+  "strategy": "builtin",
+  "themes": [
+    {
+      "name": "default-dark",
+      "repo": "testorg/builtin-themes",
+      "colorscheme": "default",
+      "builtin": true
+    }
+  ]
+}

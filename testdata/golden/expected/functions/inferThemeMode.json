@@ -1,0 +1,98 @@
+{
+  "base16-gruvbox": {
+    "mode": "dark",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Base16 dark variant pattern"
+  },
+  "base16-rose-pine-light": {
+    "mode": "light",
+    "confidence": 1,
+    "confidenceLevel": "high",
+    "reason": "Base16 light variant pattern"
+  },
+  "tokyonight-day": {
+    "mode": "light",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Light tokens matched (day)"
+  },
+  "tokyonight-night": {
+    "mode": "dark",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Dark tokens matched (night)"
+  },
+  "tokyonight-storm": {
+    "mode": "dark",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Dark tokens matched (storm)"
+  },
+  "kanagawa-dragon": {
+    "mode": "dark",
+    "confidence": 0.65,
+    "confidenceLevel": "low",
+    "reason": "Dark tokens matched (dragon)"
+  },
+  "catppuccin-latte": {
+    "mode": "light",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Light tokens matched (latte)"
+  },
+  "catppuccin-mocha": {
+    "mode": "dark",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Dark tokens matched (mocha)"
+  },
+  "gruvbox-light": {
+    "mode": "light",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Light tokens matched (light)"
+  },
+  "rose-pine-dawn": {
+    "mode": "light",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Light tokens matched (dawn)"
+  },
+  "rose-pine-moon": {
+    "mode": "dark",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Dark tokens matched (moon)"
+  },
+  "nordic-bright": {
+    "mode": "light",
+    "confidence": 0.65,
+    "confidenceLevel": "low",
+    "reason": "Light tokens matched (bright)"
+  },
+  "midnight-bold": {
+    "mode": "dark",
+    "confidence": 0.8,
+    "confidenceLevel": "medium",
+    "reason": "Dark tokens matched (midnight)"
+  },
+  "highcontrast-dark": {
+    "mode": "dark",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Dark tokens matched (dark)"
+  },
+  "solarized-opaque-light": {
+    "mode": "light",
+    "confidence": 0.95,
+    "confidenceLevel": "high",
+    "reason": "Light tokens matched (light)"
+  },
+  "paper-color": {
+    "mode": "light",
+    "confidence": 0.8,
+    "confidenceLevel": "medium",
+    "reason": "Light tokens matched (paper)"
+  }
+}

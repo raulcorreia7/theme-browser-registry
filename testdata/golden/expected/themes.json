@@ -1,0 +1,131 @@
+[
+  {
+    "name": "tokyonight",
+    "colorscheme": "tokyonight",
+    "repo": "folke/tokyonight.nvim",
+    "stars": 3200,
+    "strategy": "setup",
+    "variants": [
+      {
+        "name": "tokyonight-night",
+        "colorscheme": "tokyonight-night",
+        "mode": "dark"
+      },
+      {
+        "name": "tokyonight-day",
+        "colorscheme": "tokyonight-day",
+        "mode": "light"
+      },
+      {
+        "name": "tokyonight-storm",
+        "colorscheme": "tokyonight-storm",
+        "mode": "dark"
+      }
+    ]
+  },
+  {
+    "name": "onedark",
+    "colorscheme": "onedark",
+    "repo": "navarasu/onedark.nvim",
+    "stars": 1500,
+    "strategy": "colorscheme",
+    "variants": [
+      {
+        "name": "onedark-darker",
+        "colorscheme": "onedark-darker",
+        "mode": "dark"
+      },
+      {
+        "name": "onedark-vivid",
+        "colorscheme": "onedark-vivid"
+      }
+    ]
+  },
+  {
+    "name": "gruvbox",
+    "colorscheme": "gruvbox",
+    "repo": "ellisonleao/gruvbox.nvim",
+    "stars": 2400,
+    "variants": [
+      {
+        "name": "gruvbox-light",
+        "colorscheme": "gruvbox-light",
+        "mode": "light"
+      }
+    ]
+  },
+  {
+    "name": "catppuccin",
+    "colorscheme": "catppuccin",
+    "repo": "catppuccin/nvim",
+    "stars": 6000,
+    "strategy": "setup",
+    "variants": [
+      {
+        "name": "catppuccin-latte",
+        "colorscheme": "catppuccin-latte",
+        "mode": "light"
+      },
+      {
+        "name": "catppuccin-mocha",
+        "colorscheme": "catppuccin-mocha",
+        "mode": "dark"
+      },
+      {
+        "name": "catppuccin-frappe",
+        "colorscheme": "catppuccin-frappe",
+        "mode": "dark"
+      },
+      {
+        "name": "catppuccin-bold",
+        "colorscheme": "catppuccin-bold"
+      }
+    ]
+  },
+  {
+    "name": "rose-pine",
+    "colorscheme": "rose-pine",
+    "repo": "rose-pine/neovim",
+    "stars": 2100,
+    "variants": [
+      {
+        "name": "rose-pine-main",
+        "colorscheme": "rose-pine-main"
+      },
+      {
+        "name": "rose-pine-dawn",
+        "colorscheme": "rose-pine-dawn",
+        "mode": "light"
+      },
+      {
+        "name": "rose-pine-moon",
+        "colorscheme": "rose-pine-moon",
+        "mode": "dark"
+      }
+    ]
+  },
+  {
+    "name": "srcery",
+    "colorscheme": "srcery",
+    "repo": "srcery-colors/srcery-vim",
+    "stars": 900,
+    "strategy": "colorscheme"
+  },
+  {
+    "name": "embark",
+    "colorscheme": "embark",
+    "repo": "embark/vim-embark",
+    "stars": 700
+  },
+  {
+    "name": "plain-config",
+    "colorscheme": "plain",
+    "repo": "testuser/plain-config",
+    "stars": 3
+  },
+  {
+    "name": "default-dark",
+    "colorscheme": "default",
+    "builtin": true
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "path": "lua/rose-pine/init.lua",
+    "type": "blob"
+  },
+  {
+    "path": "README.md",
+    "type": "blob"
+  }
+]
