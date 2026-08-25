@@ -10,17 +10,16 @@ used by the plugin.
 From `packages/registry`:
 
 ```bash
-cp .env.example .env
-# set GITHUB_TOKEN=...
-pnpm install
-pnpm verify
+go build ./...
+export GITHUB_TOKEN=...   # required for GitHub API access
+go test ./...
+go run ./cmd/registry validate
 ```
 
 ## Requirements
 
-- Node.js 20+
-- pnpm 10+
-- GitHub token for GitHub API access
+- Go (see `go.mod`)
+- GitHub token for GitHub API access (`GITHUB_TOKEN`)
 
 ## Outputs
 
@@ -36,51 +35,46 @@ Normal pipeline outputs:
 | `reports/detection.json` | Detect-stage report |
 | `reports/variant-coverage.json` | Variant coverage report |
 
-Testing mode writes isolated outputs under `artifacts/testing/` and
-`reports/testing/`.
+Testing mode (`--testing`) writes isolated outputs under `artifacts/testing/`
+and `reports/testing/`.
 
-## Day-To-Day Commands
+## Building
 
-| Command | Use it when |
-|---------|-------------|
-| `pnpm pipeline` | Run the full registry pipeline against normal outputs |
-| `pnpm pipeline:testing` | Run the full pipeline with isolated testing outputs |
-| `pnpm verify` | Run tests plus registry validation against current outputs |
-| `pnpm test` | Run Vitest only |
-| `pnpm validate` | Validate an already-generated registry artifact |
-| `pnpm lint` | Run ESLint on `src/` |
-| `pnpm typecheck` | Run TypeScript type checks |
-| `pnpm build` | Compile the package |
+```bash
+go build -o bin/registry ./cmd/registry
+```
 
-## Stage Commands
-
-Use these when you need to debug one stage without running the full pipeline.
+## Subcommands
 
 | Command | Purpose |
 |---------|---------|
-| `pnpm sync` | Fetch and update the raw theme index |
-| `pnpm detect` | Infer theme strategies and optionally apply patches |
-| `pnpm detect:dry-run` | Inspect detect output without applying patches |
-| `pnpm merge` | Merge curated source files into overrides |
-| `pnpm themes` | Generate `artifacts/themes.json` |
-| `pnpm top50` | Generate `artifacts/themes-top-50.json` |
-| `pnpm manifest` | Generate `artifacts/manifest.json` |
-| `pnpm bundle` | Write the plugin's bundled `registry.json` |
+| `sync` | Discover and index theme repositories |
+| `detect` | Detect load strategies from READMEs and trees |
+| `merge` | Merge strategy sources into the overrides artifact |
+| `build` | Build the optimized themes artifact |
+| `bundle` | Select themes for the Lua plugin bundle |
+| `manifest` | Write manifest.json with checksum for the themes artifact |
+| `validate` | Validate the themes artifact against publication gates |
+| `pipeline` | Run the full registry pipeline |
+| `publish` | Sync once then commit+push artifacts per config.publish |
+| `export` | Dump cache payloads as JSON |
+
+Common flags: `-c/--config` (config file), `--testing` (isolated local
+outputs), `-f/--force` (force sync refresh), `--no-detect-apply` (inspect
+detect output without applying patches). Run `go run ./cmd/registry <cmd>
+--help` for per-command flags.
 
 ## Notes
 
 - Use the root `make` targets for cross-repo work.
-- `pnpm verify` checks existing outputs; it does not regenerate artifacts.
-- `pnpm pipeline:testing` keeps curated sources untouched and redirects bundle
+- `validate` checks existing outputs; it does not regenerate artifacts.
+- `pipeline --testing` keeps curated sources untouched and redirects bundle
   output to `artifacts/testing/registry.json`.
-- Legacy `pnpm task:*` aliases still exist for older local automation.
 - For scheduled refresh runs, prefer the root runbooks and helpers in
-  `../../docs/automation.md`, `../../scripts/registry-refresh.sh`, and
-  `../../scripts/run-registry-docker.sh`.
+  `../../docs/automation.md` and `../../scripts/registry-refresh.sh`.
 
 ## Configuration
 
 - Main runtime config: `config/registry.json`
 - Curated overrides: `config/overrides.json`
 - Manual hints: `config/sources/hints.json`
-- Optional deny-list and editorial tracking: `config/excluded.json`

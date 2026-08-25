@@ -23,28 +23,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Go
+        uses: actions/setup-go@v5
         with:
-          node-version: "20"
+          go-version-file: go.mod
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Build
+        run: go build ./...
 
-      - name: Typecheck
-        run: pnpm typecheck
-
-      - name: Lint
-        run: pnpm lint
-
-      - name: Format check
-        run: pnpm format:check
-
-      - name: Run tests
-        run: pnpm test
-
-      - name: Build TypeScript
-        run: pnpm build
+      - name: Test
+        run: go test ./...

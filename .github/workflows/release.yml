@@ -32,40 +32,25 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Go
+        uses: actions/setup-go@v5
         with:
-          node-version: "20"
+          go-version-file: go.mod
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Build
+        run: go build ./...
 
-      - name: Rebuild native dependencies
-        run: pnpm rebuild better-sqlite3
-
-      - name: Typecheck
-        run: pnpm typecheck
-
-      - name: Lint
-        run: pnpm lint
-
-      - name: Run tests
-        run: pnpm test
-
-      - name: Build TypeScript
-        run: pnpm build
+      - name: Test
+        run: go test ./...
 
       - name: Run pipeline
-        run: pnpm pipeline
+        run: go run ./cmd/registry pipeline
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get package version
         id: version
-        run: echo "value=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
+        run: echo "value=$(cat internal/version/VERSION)" >> "$GITHUB_OUTPUT"
 
       - name: Check if artifacts changed
         id: check-changes
@@ -104,7 +89,7 @@ jobs:
         run: |
           TAG="${{ steps.tag.outputs.value }}"
           CHANNEL="${{ steps.channel.outputs.value }}"
-          THEME_COUNT="$(node -p "require('./artifacts/manifest.json').count")"
+          THEME_COUNT="$(jq -r '.count' artifacts/manifest.json)"
 
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo "Updating $CHANNEL release $TAG"
